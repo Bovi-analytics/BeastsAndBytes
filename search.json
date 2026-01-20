@@ -900,7 +900,7 @@
     "href": "slides/lec-11.html#sec-current",
     "title": "Data transformations",
     "section": "Current",
-    "text": "Current\nTo get the current date or date-time you can use today() or now():\n\ntoday()\n\n[1] \"2026-01-20\"\n\nnow()\n\n[1] \"2026-01-20 17:45:35 UTC\""
+    "text": "Current\nTo get the current date or date-time you can use today() or now():\n\ntoday()\n\n[1] \"2026-01-20\"\n\nnow()\n\n[1] \"2026-01-20 17:51:34 UTC\""
   },
   {
     "objectID": "slides/lec-11.html#sec-dt-import-1",
@@ -1092,13 +1092,6 @@
     "text": "Meet the teacher\n\n\n\n\n\n\n\n\nAssociate Prof. dr. Miel Hostens DVM\n\nAssociate Professor\nCollege of Agricultural and Life Sciences\nDepartment of Animal Science\nFind out more at bovi-analytics.com"
   },
   {
-    "objectID": "slides/lec-1.html#meet-your-teacher-when-he-was-young",
-    "href": "slides/lec-1.html#meet-your-teacher-when-he-was-young",
-    "title": "Lecture 1 - Meet + greet",
-    "section": "Meet your teacher, when he was young!",
-    "text": "Meet your teacher, when he was young!"
-  },
-  {
     "objectID": "slides/lec-1.html#meet-your-team-partners",
     "href": "slides/lec-1.html#meet-your-team-partners",
     "title": "Lecture 1 - Meet + greet",
@@ -1110,7 +1103,7 @@
     "href": "slides/lec-1.html#meet-the-other-experts",
     "title": "Lecture 1 - Meet + greet",
     "section": "Meet the other experts",
-    "text": "Meet the other experts\n\nEnhong Liu (Post-Doc)\nSonam Yang (TA) - Graduate student & PhD candidate\nMeike van Leerdam (TA) - Graduate student & PhD candidate"
+    "text": "Meet the other experts\n\nSonam Yang (TA) - Graduate student & PhD candidate\nMeike van Leerdam (TA) - Graduate student & PhD candidate"
   },
   {
     "objectID": "slides/lec-1.html#what-is-digital-agriculture",
