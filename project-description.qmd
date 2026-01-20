@@ -2,6 +2,8 @@
 title: "Project description"
 ---
 
+THIS PAGE STILL NEEDS TO BE UPDATED FOR SPRING 2026
+
 ## Timeline
 
 [Proposal](#project-proposal) 
