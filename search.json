@@ -81,7 +81,7 @@
     "href": "project-description.html",
     "title": "Project description",
     "section": "",
-    "text": "Proposal\nDraft report\nPeer review\nFinal report\nPresentation + slides and final GitHub repo\nPresentation comments",
+    "text": "THIS PAGE STILL NEEDS TO BE UPDATED FOR SPRING 2026",
     "crumbs": [
       "Project",
       "Description"
@@ -91,8 +91,8 @@
     "objectID": "project-description.html#timeline",
     "href": "project-description.html#timeline",
     "title": "Project description",
-    "section": "",
-    "text": "Proposal\nDraft report\nPeer review\nFinal report\nPresentation + slides and final GitHub repo\nPresentation comments",
+    "section": "Timeline",
+    "text": "Timeline\nProposal\nDraft report\nPeer review\nFinal report\nPresentation + slides and final GitHub repo\nPresentation comments",
     "crumbs": [
       "Project",
       "Description"
@@ -900,7 +900,7 @@
     "href": "slides/lec-11.html#sec-current",
     "title": "Data transformations",
     "section": "Current",
-    "text": "Current\nTo get the current date or date-time you can use today() or now():\n\ntoday()\n\n[1] \"2026-01-20\"\n\nnow()\n\n[1] \"2026-01-20 17:38:17 UTC\""
+    "text": "Current\nTo get the current date or date-time you can use today() or now():\n\ntoday()\n\n[1] \"2026-01-20\"\n\nnow()\n\n[1] \"2026-01-20 17:45:35 UTC\""
   },
   {
     "objectID": "slides/lec-11.html#sec-dt-import-1",
@@ -2829,7 +2829,7 @@
     "href": "course-support.html#office-hours",
     "title": "Course support",
     "section": "Office hours",
-    "text": "Office hours\nThe entire teaching team is here to support your success in this course, and you are encouraged to ask questions about course content, assignments, or logistics. Many questions are most effectively addressed in person. Office hours are therefore offered on a flexible, appointment-based basis to accommodate teaching schedules. Please reach out in advance to arrange a meeting time. Even if you do not have specific questions, you are welcome to schedule a brief meeting to introduce yourself and say hello.",
+    "text": "Office hours\nThe entire teaching team is here to support your success in this course, and you are encouraged to ask questions about course content, assignments, or logistics. Many questions are most effectively addressed in person. Office hours are therefore offered on a flexible, appointment-based basis to accommodate teaching schedules. Please reach out in advance to arrange a meeting time. Even if you do not have specific questions, you are welcome to schedule a brief meeting to introduce yourself and say hello. Meike also has a walk in office hour at Wednesday 3-5 pm.",
     "crumbs": [
       "Course information",
       "Support"
@@ -2840,7 +2840,7 @@
     "href": "course-support.html#weekly-assignments",
     "title": "Course support",
     "section": "Weekly assignments",
-    "text": "Weekly assignments\nAs you can see in the course overview, each week holds a ‘Programming assignment deadline’ at the end of the week. It is important that you stick to these deadlines as your correct submissions for this deadline will be used for the final grading. You are welcome to work on that during the week in your own time, but dedicated lab hours are blocked within each week.\nTeaching assistants will be available during these hours if you require help or feedback.",
+    "text": "Weekly assignments\nEach week holds a ‘Programming assignment deadline’ the day before the next lab (monday 12 pm). It is important that you stick to these deadlines as your correct submissions for this deadline will be used for the final grading. You are welcome to work on that during the week in your own time, but dedicated lab hours are blocked within each week.\nTeaching assistants will be available during these hours if you require help or feedback.",
     "crumbs": [
       "Course information",
       "Support"
