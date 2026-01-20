@@ -81,7 +81,7 @@
     "href": "project-description.html",
     "title": "Project description",
     "section": "",
-    "text": "Topic ideas tbd\nProposal tbd\nDraft report tbd\nPeer review tbd\nFinal report tbd\nVideo presentation + slides and final GitHub repo tbd\nPresentation comments tbd",
+    "text": "Proposal\nDraft report\nPeer review\nFinal report\nPresentation + slides and final GitHub repo\nPresentation comments",
     "crumbs": [
       "Project",
       "Description"
@@ -92,7 +92,7 @@
     "href": "project-description.html#timeline",
     "title": "Project description",
     "section": "",
-    "text": "Topic ideas tbd\nProposal tbd\nDraft report tbd\nPeer review tbd\nFinal report tbd\nVideo presentation + slides and final GitHub repo tbd\nPresentation comments tbd",
+    "text": "Proposal\nDraft report\nPeer review\nFinal report\nPresentation + slides and final GitHub repo\nPresentation comments",
     "crumbs": [
       "Project",
       "Description"
@@ -900,7 +900,7 @@
     "href": "slides/lec-11.html#sec-current",
     "title": "Data transformations",
     "section": "Current",
-    "text": "Current\nTo get the current date or date-time you can use today() or now():\n\ntoday()\n\n[1] \"2026-01-20\"\n\nnow()\n\n[1] \"2026-01-20 16:19:44 UTC\""
+    "text": "Current\nTo get the current date or date-time you can use today() or now():\n\ntoday()\n\n[1] \"2026-01-20\"\n\nnow()\n\n[1] \"2026-01-20 16:27:41 UTC\""
   },
   {
     "objectID": "slides/lec-11.html#sec-dt-import-1",
