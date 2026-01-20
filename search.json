@@ -900,7 +900,7 @@
     "href": "slides/lec-11.html#sec-current",
     "title": "Data transformations",
     "section": "Current",
-    "text": "Current\nTo get the current date or date-time you can use today() or now():\n\ntoday()\n\n[1] \"2026-01-20\"\n\nnow()\n\n[1] \"2026-01-20 18:04:55 UTC\""
+    "text": "Current\nTo get the current date or date-time you can use today() or now():\n\ntoday()\n\n[1] \"2026-01-20\"\n\nnow()\n\n[1] \"2026-01-20 18:11:47 UTC\""
   },
   {
     "objectID": "slides/lec-11.html#sec-dt-import-1",
@@ -1439,7 +1439,7 @@
     "href": "course-links.html",
     "title": "Useful links",
     "section": "",
-    "text": "Google colab\n🔗 on Google colaboratory notebooks\n\n\nShared Beast & Bytes Drive\n🔗 on Google Drive\n\n\nDodona\n🔗 on Dodona\n\n\nPython\n🔗 on Python programming language\n\n\nVirtual meetings\n🔗 on Teams",
+    "text": "Google colab\n🔗 on Google colaboratory notebooks\n\n\nShared Beast & Bytes Drive\n🔗 on Google Drive\n\n\nDodona\n🔗 on Dodona\n\n\nPython\n🔗 on Python programming language\n\n\nDiscussion forum\n🔗 on Github Issues\n\n\nVirtual meetings\n🔗 on Teams",
     "crumbs": [
       "Course information",
       "Useful links"
