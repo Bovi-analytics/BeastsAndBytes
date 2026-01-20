@@ -900,7 +900,7 @@
     "href": "slides/lec-11.html#sec-current",
     "title": "Data transformations",
     "section": "Current",
-    "text": "Current\nTo get the current date or date-time you can use today() or now():\n\ntoday()\n\n[1] \"2026-01-20\"\n\nnow()\n\n[1] \"2026-01-20 17:51:34 UTC\""
+    "text": "Current\nTo get the current date or date-time you can use today() or now():\n\ntoday()\n\n[1] \"2026-01-20\"\n\nnow()\n\n[1] \"2026-01-20 18:04:55 UTC\""
   },
   {
     "objectID": "slides/lec-11.html#sec-dt-import-1",
@@ -1596,7 +1596,7 @@
     "href": "weeks/week-1.html",
     "title": "Week 1",
     "section": "",
-    "text": "Introduction\nWelcome to the exciting realm of Digital Agriculture! In this innovative course, we delve into the intersection of cutting-edge technologies and traditional farming practices. Explore how data analytics, sensor technologies, and precision farming methods revolutionize animal management, resource optimization, and decision-making processes. Gain insights into the transformative potential of digital tools in enhancing agricultural sustainability and productivity. Whether you’re an early-stage dairy professional or a tech enthusiast, join us on a journey to harness the power of digital advancements for a smarter and more efficient future in agriculture.\n\n\nLearning goals\n\nIntroduction to the ‘Data Science Applications in Agriculture’ course\nGet to know the team and explore the project topic\nGet to know python\nSubmit programming assignment by Monday 12 pm through Dodona\n\n\nBack to course schedule ⏎",
+    "text": "Introduction\nWelcome to the exciting realm of Digital Agriculture! In this innovative course, we delve into the intersection of cutting-edge technologies and traditional farming practices. Explore how data analytics, sensor technologies, and precision farming methods revolutionize animal management, resource optimization, and decision-making processes. Gain insights into the transformative potential of digital tools in enhancing agricultural sustainability and productivity. Whether you’re an early-stage dairy professional or a tech enthusiast, join us on a journey to harness the power of digital advancements for a smarter and more efficient future in agriculture.\n\n\nLearning goals\n\nIntroduction to the ‘Data Science Applications in Agriculture’ course\nGet to know the team and explore the project topic\nGet to know python\nSubmit programming assignment by Monday 12 pm through Dodona\n\nPlease take a moment to fill in this forms so we can tailor the course to your needs: Pre-course questionnaire\n\nBack to course schedule ⏎",
     "crumbs": [
       "Weekly materials",
       "Week 1"
