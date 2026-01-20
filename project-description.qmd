@@ -4,19 +4,17 @@ title: "Project description"
 
 ## Timeline
 
-[Topic ideas](#topic-ideas) tbd
+[Proposal](#project-proposal) 
 
-[Proposal](#project-proposal) tbd
+[Draft report](#draft-report)
 
-[Draft report](#draft-report) tbd
+[Peer review](#peer-review) 
 
-[Peer review](#peer-review) tbd
+[Final report](#written-report)
 
-[Final report](#written-report) tbd
+[Presentation + slides](#video-presentation--slides) and [final GitHub repo](#reproducibility---organization) 
 
-[Video presentation + slides](#video-presentation--slides) and [final GitHub repo](#reproducibility---organization) tbd
-
-[Presentation comments](#presentation-comments) tbd
+[Presentation comments](#presentation-comments) 
 
 ## Introduction
 
