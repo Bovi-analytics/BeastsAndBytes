@@ -900,7 +900,7 @@
     "href": "slides/lec-11.html#sec-current",
     "title": "Data transformations",
     "section": "Current",
-    "text": "Current\nTo get the current date or date-time you can use today() or now():\n\ntoday()\n\n[1] \"2026-01-20\"\n\nnow()\n\n[1] \"2026-01-20 18:11:47 UTC\""
+    "text": "Current\nTo get the current date or date-time you can use today() or now():\n\ntoday()\n\n[1] \"2026-01-20\"\n\nnow()\n\n[1] \"2026-01-20 18:17:21 UTC\""
   },
   {
     "objectID": "slides/lec-11.html#sec-dt-import-1",
@@ -2767,7 +2767,7 @@
     "href": "course-team.html",
     "title": "Teaching team",
     "section": "",
-    "text": "Dr. Miel Hostens (he/his) is the Robert and Anne Everett Endowed Associate Professor of Digital Dairy Management and Data Analytics at College of Agriculture and Life Sciences (Cornell University) focusing on the creation of methodologies using precision dairy farming to monitor sustainable food production systems from a global perspective\n\n\n\n\nQuick questions\n\nSlack & Teams\n\n\n\n\n\n\nBy appointment Thursday - Friday 9:00 am - 17:00 pm\nDepartment of Animal Science, 273 Morrison Hall\n\n\nWalk in office hours with Meike Wednesday 3 - 5 pm\nDepartment of Animal Science, B30 Morrison Hall\nPlease email me when this time does not work for you, so we can make an alternative arrangement.\n\n\n\nMake an appointment with Dr. Hostens through this link.",
+    "text": "Dr. Miel Hostens (he/his) is the Robert and Anne Everett Endowed Associate Professor of Digital Dairy Management and Data Analytics at College of Agriculture and Life Sciences (Cornell University) focusing on the creation of methodologies using precision dairy farming to monitor sustainable food production systems from a global perspective\n\n\n\n\nQuick questions\n\nSlack & Teams\n\n\n\n\n\n\nBy appointment\nThursday - Friday 9:00 am - 17:00 pm\nDepartment of Animal Science, 273 Morrison Hall\n\n\nWalk in office hours with Meike\nWednesday 3 - 5 pm\nDepartment of Animal Science, B30 Morrison Hall\nPlease email me when this time does not work for you, so we can make an alternative arrangement.\n\n\n\nMake an appointment with Dr. Hostens through this link.",
     "crumbs": [
       "Course information",
       "Teaching team"
@@ -2778,7 +2778,7 @@
     "href": "course-team.html#instructor",
     "title": "Teaching team",
     "section": "",
-    "text": "Dr. Miel Hostens (he/his) is the Robert and Anne Everett Endowed Associate Professor of Digital Dairy Management and Data Analytics at College of Agriculture and Life Sciences (Cornell University) focusing on the creation of methodologies using precision dairy farming to monitor sustainable food production systems from a global perspective\n\n\n\n\nQuick questions\n\nSlack & Teams\n\n\n\n\n\n\nBy appointment Thursday - Friday 9:00 am - 17:00 pm\nDepartment of Animal Science, 273 Morrison Hall\n\n\nWalk in office hours with Meike Wednesday 3 - 5 pm\nDepartment of Animal Science, B30 Morrison Hall\nPlease email me when this time does not work for you, so we can make an alternative arrangement.\n\n\n\nMake an appointment with Dr. Hostens through this link.",
+    "text": "Dr. Miel Hostens (he/his) is the Robert and Anne Everett Endowed Associate Professor of Digital Dairy Management and Data Analytics at College of Agriculture and Life Sciences (Cornell University) focusing on the creation of methodologies using precision dairy farming to monitor sustainable food production systems from a global perspective\n\n\n\n\nQuick questions\n\nSlack & Teams\n\n\n\n\n\n\nBy appointment\nThursday - Friday 9:00 am - 17:00 pm\nDepartment of Animal Science, 273 Morrison Hall\n\n\nWalk in office hours with Meike\nWednesday 3 - 5 pm\nDepartment of Animal Science, B30 Morrison Hall\nPlease email me when this time does not work for you, so we can make an alternative arrangement.\n\n\n\nMake an appointment with Dr. Hostens through this link.",
     "crumbs": [
       "Course information",
       "Teaching team"
