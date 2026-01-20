@@ -1,7 +1,7 @@
 ---
 title: "Lecture 1 - Meet + greet"
 subtitle: "ANSCI 4940 - Spring 2025"
-author: "Ass. Prof. Dr. Miel Hostens"
+author: "Meike"
 footer:  "[https://bovi-analytics.github.io/BeastsAndBytes/](https://bovi-analytics.github.io/BeastsAndBytes/)"
 logo: "images/Bovi-Analytics-SmallLogo.png"
 format: 
@@ -38,10 +38,6 @@ library(countdown)
 :::
 :::::
 
-## Meet your teacher, when he was young!
-
-![](images/lec-1/MielHostens2.png)
-
 ## Meet your team partners
 
 -   What is your background in agriculture?
@@ -53,8 +49,6 @@ library(countdown)
 -   Do you have any coding experience?
 
 ## Meet the other [experts](/course-team.html)
-
--   Enhong Liu (Post-Doc)
 
 -   Sonam Yang (TA) - Graduate student & PhD candidate
 
