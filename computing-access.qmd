@@ -2,16 +2,19 @@
 title: "Computing access"
 ---
 
-You can choose 2 ways of working with R.
-
-# Offline
-
-You will work primarily in Python using PyCharm in combination with an Anaconda environment, as configured through Dodona. If you encounter any confusion related to these differences or the environment setup, feel free to reach out to the TA for assistance.
+You can choose 2 ways of working with Python.
 
 # Online
 
-To access computing resources for the introductory data science courses offered by Utrecht University we will make use of the [Google Colab](https://colab.research.google.com/) computing services linked to the course drive storage.
+To access computing resources for this course we will make use of the [Google Colab](https://colab.research.google.com/) computing services linked to the course drive storage.
+The link to the Google Drive can be found at [Useful links](https://bovi-analytics.github.io/BeastsAndBytes/course-links.html)
 
-If this is your first time accessing Google Colab, make sure you have a registered gmail address. You should have access to [this](https://drive.google.com/drive/folders/0AP9RxLUFwHObUk9PVA) 'Shared drive' in your Google Drive. If not, send an email to the course teacher to get access.
+Make sure you get familiar with Google Colab by reading and trying to run your first pieces of code in the '[Welcome To Colaboratory](https://colab.research.google.com/notebooks/basic_features_overview.ipynb)' notebook.
+We recommend using Colab as it will be easier to work simultaneously with your group mates on the project. 
 
-Make sure you get familiar with Google Colab by reading and trying to run your first pieces of code in the '[Welcome To Colaboratory](https://colab.research.google.com/drive/1_qUMu7G1-yFhizqY8TXoxlWo2Nc82IyJ?usp=drive_link)' notebook.
+The Dodona exercises can also be done in colab. Make sure to make a folder with your name to store your notebooks within the Google Drive environment.
+Google offers a free premium version of colab for Cornell students, you can register for this using your Cornell email adress. 
+
+# Offline
+
+You can also chose to work in Python on your desktop. This can be done using PyCharm in combination with an Anaconda environment, as configured through Dodona. If you encounter any confusion related to these differences or the environment setup, feel free to reach out to the TA for assistance. Other python interperters like VS code also work. 
