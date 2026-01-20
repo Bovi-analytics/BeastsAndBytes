@@ -900,7 +900,7 @@
     "href": "slides/lec-11.html#sec-current",
     "title": "Data transformations",
     "section": "Current",
-    "text": "Current\nTo get the current date or date-time you can use today() or now():\n\ntoday()\n\n[1] \"2026-01-20\"\n\nnow()\n\n[1] \"2026-01-20 16:39:17 UTC\""
+    "text": "Current\nTo get the current date or date-time you can use today() or now():\n\ntoday()\n\n[1] \"2026-01-20\"\n\nnow()\n\n[1] \"2026-01-20 16:50:14 UTC\""
   },
   {
     "objectID": "slides/lec-11.html#sec-dt-import-1",
@@ -1479,29 +1479,7 @@
     "href": "weeks/week-2.html",
     "title": "Week 2",
     "section": "",
-    "text": "Apply statistical techniques to (biological) project data\nAcquire, understand and apply visualization techniques\nSubmit programming assignment by Friday 17:00",
-    "crumbs": [
-      "Weekly materials",
-      "Week 2"
-    ]
-  },
-  {
-    "objectID": "weeks/week-2.html#modelling-biological-linear-processes-wc",
-    "href": "weeks/week-2.html#modelling-biological-linear-processes-wc",
-    "title": "Week 2",
-    "section": "Modelling biological linear processes (WC)",
-    "text": "Modelling biological linear processes (WC)\n📖 Re-familiarize yourself with linear regression models using the bachelor material which is available here and here.",
-    "crumbs": [
-      "Weekly materials",
-      "Week 2"
-    ]
-  },
-  {
-    "objectID": "weeks/week-2.html#visualisation-techniques-for-biological-processes-wc",
-    "href": "weeks/week-2.html#visualisation-techniques-for-biological-processes-wc",
-    "title": "Week 2",
-    "section": "Visualisation techniques for biological processes (WC)",
-    "text": "Visualisation techniques for biological processes (WC)\n💻 Make sure to have 3 programs installed on your computer for the course\n\nExcel (available for all students through Office365)\nTableau (available with an academic license as documented here)\nR & R-studio",
+    "text": "Coming soon",
     "crumbs": [
       "Weekly materials",
       "Week 2"
@@ -1625,29 +1603,7 @@
     "href": "weeks/week-1.html",
     "title": "Week 1",
     "section": "",
-    "text": "Welcome to the exciting realm of Digital Agriculture! In this innovative course, we delve into the intersection of cutting-edge technologies and traditional farming practices. Explore how data analytics, sensor technologies, and precision farming methods revolutionize animal management, resource optimization, and decision-making processes. Gain insights into the transformative potential of digital tools in enhancing agricultural sustainability and productivity. Whether you’re an early-stage veterinary MSc or a tech enthusiast, join us on a journey to harness the power of digital advancements for a smarter and more efficient future in agriculture.",
-    "crumbs": [
-      "Weekly materials",
-      "Week 1"
-    ]
-  },
-  {
-    "objectID": "weeks/week-1.html#introduction-to-statistical-programming-wc",
-    "href": "weeks/week-1.html#introduction-to-statistical-programming-wc",
-    "title": "Week 1",
-    "section": "Introduction to statistical programming (WC)",
-    "text": "Introduction to statistical programming (WC)\n📖 Within the statistical programming labs, we will follow the Introduction to Data Science handbook by Rafael Irizarry.\n📧 Send email with your Gmail address to me (miel.hostens@cornell.edu) so I can give you access to Google Drive and Google Colab.\n💻 You will have to install R & R-studio on your computer.",
-    "crumbs": [
-      "Weekly materials",
-      "Week 1"
-    ]
-  },
-  {
-    "objectID": "weeks/week-1.html#a-guideline-to-reproducible-fair-data-science-ic",
-    "href": "weeks/week-1.html#a-guideline-to-reproducible-fair-data-science-ic",
-    "title": "Week 1",
-    "section": "A guideline to reproducible & FAIR data science (IC)",
-    "text": "A guideline to reproducible & FAIR data science (IC)\n📺 Get familiar with FAIR by looking at this video.\n📖 Read the intial publication on The FAIR Guiding Principles for scientific data management and stewardschip.\n🔬 Explore the vision of Cornell University on FAIR principles and their Fair checklist.\n💻 Check for reproducible advise in the tutorials at the bovi-analytics website.\n🧑🏽‍🏫 Discuss with the entire team and Dr. Miel Hostens (contact him on his desk) on how this will reflect on your team project.\n\nBack to course schedule ⏎",
+    "text": "Introduction\nWelcome to the exciting realm of Digital Agriculture! In this innovative course, we delve into the intersection of cutting-edge technologies and traditional farming practices. Explore how data analytics, sensor technologies, and precision farming methods revolutionize animal management, resource optimization, and decision-making processes. Gain insights into the transformative potential of digital tools in enhancing agricultural sustainability and productivity. Whether you’re an early-stage dairy professional or a tech enthusiast, join us on a journey to harness the power of digital advancements for a smarter and more efficient future in agriculture.\n\n\nLearning goals\n\nIntroduction to the ‘Data Science Applications in Agriculture’ course\nGet to know the team and explore the project topic\nGet to know python\nSubmit programming assignment by Monday 12 pm through Dodona\n\n\nBack to course schedule ⏎",
     "crumbs": [
       "Weekly materials",
       "Week 1"
