@@ -6,24 +6,30 @@ title: "Teaching team"
 
 ![](images/team/MielHostens.png){fig-alt="Headshot of Dr. Miel Hostens" style="float:right;padding: 0 0 0 10px;" width="150"}
 
-[Dr. Miel Hostens](https://bovi-analytics.com/researchers/miel-hostens.html) (he/his) is the Robert and Anne Everett Endowed Associate Professor of Digital Dairy Management and Data Analytics at [College of Agriculture and Life Sciences](https://cals.cornell.edu/) (Cornell University) and is an adjunct professor at department of [Laboratory for Animal Nutrition and Animal Product Quality](https://www.ugent.be/bw/asae/en/research/lanupro) (Ghent University) focusing on the creation of methodologies using precision dairy farming to monitor sustainable food production systems from a global perspective
+[Dr. Miel Hostens](https://bovi-analytics.com/researchers/miel-hostens.html) (he/his) is the Robert and Anne Everett Endowed Associate Professor of Digital Dairy Management and Data Analytics at [College of Agriculture and Life Sciences](https://cals.cornell.edu/) (Cornell University) focusing on the creation of methodologies using precision dairy farming to monitor sustainable food production systems from a global perspective
 
 +--------------------------------------+----------------------------------------------------------------------------------------------------------------------+
 | Office hours                         | Location                                                                                                             |
 +======================================+======================================================================================================================+
-| Anytime                              | [Slack](https://bovi-analytics.slack.com/) & [Teams](https://teams.microsoft.com/l/chat/0/0?users=m.m.hostens@uu.nl) |
+| Quick questions                      | [Slack](https://bovi-analytics.slack.com/) & [Teams](https://teams.microsoft.com/l/chat/0/0?users=m.m.hostens@uu.nl) |
 +--------------------------------------+----------------------------------------------------------------------------------------------------------------------+
-| Thursday - Friday 9:00 am - 17:00 pm | Department of Animal Science, 273 Morrison Hall                                                                      |
+| By appointment                       | Department of Animal Science, 273 Morrison Hall                                                                      |
+| Thursday - Friday 9:00 am - 17:00 pm |                                                                                                                      |
 |                                      |                                                                                                                      |
-|                                      | Ithaca, NY 14853                                                                                                     |
+|                                      |                                                                                                                      |
++--------------------------------------+----------------------------------------------------------------------------------------------------------------------+
+| Walk in office hours with Meike      | Department of Animal Science, B30 Morrison Hall                                                                      |
+| Wednesday 3 - 5 pm                   | Please email me when this time does not work for you, so we can make an alternative arrangement.                     |
+|                                      |                                                                                                                      |
+|                                      |                                                                                                                      |
 +--------------------------------------+----------------------------------------------------------------------------------------------------------------------+
 
-If these times don't work for you or you'd like to schedule a one-on-one meeting, you can do so at [this link](https://outlook.office.com/bookwithme/user/81c7a026deb04fc9a3c8251ceeb24e81@cornell.edu/meetingtype/SVRwCe7HMUGxuT6WGxi68g2?anonymous&ep=mlink).
+Make an appointment with Dr. Hostens through [this link](https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Foutlook.office.com%2Fbookwithme%2Fuser%2F81c7a026deb04fc9a3c8251ceeb24e81%40cornell.edu%3Fanonymous%26ep%3Dsignature&data=05%7C02%7Cmbv32%40cornell.edu%7Ccaeb9f805a164a10e14708de5527003a%7C5d7e43661b9b45cf8e79b14b27df46e1%7C0%7C0%7C639041823153373225%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=5yraGCrpojCnhIYziltBB8N7ysyXNkflRW7tyhB%2ByZ8%3D&reserved=0).
 
 ## Teaching assistants
 
-|   | Name | Location |
+|   | Name | Location | Email |
 |:--:|----|----|
-| ![](images/team/MeikeVanLeerdam.png){width="149"} | [Meike van Leerdam](https://bovi-analytics.com/researchers/meike-van-leerdam.html) | B29 Morrison Hall | Email available upon request |
-| ![](images/team/SonamYang.png){width="150"} | [Sonam Yang](https://bovi-analytics.com/researchers/sonam-yang.html) | B29 Morrison Hall | Email available upon request |
+| ![](images/team/MeikeVanLeerdam.png){width="149"} | [Meike van Leerdam](https://bovi-analytics.com/researchers/meike-van-leerdam.html) | B29 Morrison Hall | mbv32@cornell.edu |
+| ![](images/team/SonamYang.png){width="150"} | [Sonam Yang](https://bovi-analytics.com/researchers/sonam-yang.html) | B29 Morrison Hall | hy625@cornell.edu |
 
