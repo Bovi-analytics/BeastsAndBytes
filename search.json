@@ -4,7 +4,7 @@
     "href": "computing-access.html",
     "title": "Computing access",
     "section": "",
-    "text": "You can choose 2 ways of working with R.\n\nOffline\nYou will work primarily in Python using PyCharm in combination with an Anaconda environment, as configured through Dodona. If you encounter any confusion related to these differences or the environment setup, feel free to reach out to the TA for assistance.\n\n\nOnline\nTo access computing resources for the introductory data science courses offered by Utrecht University we will make use of the Google Colab computing services linked to the course drive storage.\nIf this is your first time accessing Google Colab, make sure you have a registered gmail address. You should have access to this ‘Shared drive’ in your Google Drive. If not, send an email to the course teacher to get access.\nMake sure you get familiar with Google Colab by reading and trying to run your first pieces of code in the ‘Welcome To Colaboratory’ notebook.",
+    "text": "You can choose 2 ways of working with Python.\n\nOnline\nTo access computing resources for this course we will make use of the Google Colab computing services linked to the course drive storage. The link to the Google Drive can be found at Useful links\nMake sure you get familiar with Google Colab by reading and trying to run your first pieces of code in the ‘Welcome To Colaboratory’ notebook. We recommend using Colab as it will be easier to work simultaneously with your group mates on the project.\nThe Dodona exercises can also be done in colab. Make sure to make a folder with your name to store your notebooks within the Google Drive environment. Google offers a free premium version of colab for Cornell students, you can register for this using your Cornell email adress.\n\n\nOffline\nYou can also chose to work in Python on your desktop. This can be done using PyCharm in combination with an Anaconda environment, as configured through Dodona. If you encounter any confusion related to these differences or the environment setup, feel free to reach out to the TA for assistance. Other python interperters like VS code also work.",
     "crumbs": [
       "Computing",
       "Access"
@@ -900,7 +900,7 @@
     "href": "slides/lec-11.html#sec-current",
     "title": "Data transformations",
     "section": "Current",
-    "text": "Current\nTo get the current date or date-time you can use today() or now():\n\ntoday()\n\n[1] \"2026-01-20\"\n\nnow()\n\n[1] \"2026-01-20 16:27:41 UTC\""
+    "text": "Current\nTo get the current date or date-time you can use today() or now():\n\ntoday()\n\n[1] \"2026-01-20\"\n\nnow()\n\n[1] \"2026-01-20 16:39:17 UTC\""
   },
   {
     "objectID": "slides/lec-11.html#sec-dt-import-1",
