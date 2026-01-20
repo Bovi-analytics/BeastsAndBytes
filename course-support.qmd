@@ -10,11 +10,11 @@ If you have a question during lecture or lab, feel free to ask it! There are lik
 
 ## Office hours
 
-The entire teaching team is here to support your success in this course, and you are encouraged to ask questions about course content, assignments, or logistics. Many questions are most effectively addressed in person. Office hours are therefore offered on a flexible, appointment-based basis to accommodate teaching schedules. Please reach out in advance to arrange a meeting time. Even if you do not have specific questions, you are welcome to schedule a brief meeting to introduce yourself and say hello. 
+The entire teaching team is here to support your success in this course, and you are encouraged to ask questions about course content, assignments, or logistics. Many questions are most effectively addressed in person. Office hours are therefore offered on a flexible, appointment-based basis to accommodate teaching schedules. Please reach out in advance to arrange a meeting time. Even if you do not have specific questions, you are welcome to schedule a brief meeting to introduce yourself and say hello. Meike also has a walk in office hour at Wednesday 3-5 pm.
 
 ## Weekly assignments
 
-As you can see in the [course overview](/course-overview.html), each week holds a 'Programming assignment deadline' at the end of the week. It is important that you stick to these deadlines as your correct submissions for this deadline will be used for the final grading. You are welcome to work on that during the week in your own time, but dedicated lab hours are blocked within each week.
+Each week holds a 'Programming assignment deadline' the day before the next lab (monday 12 pm). It is important that you stick to these deadlines as your correct submissions for this deadline will be used for the final grading. You are welcome to work on that during the week in your own time, but dedicated lab hours are blocked within each week.
 
 Teaching assistants will be available during these hours if you require help or feedback.
 
