@@ -43,21 +43,21 @@ A statistical course such one of the following is not required but strongly advi
 
 # Outline
 
-See [this link](https://bovi-analytics.github.io/BeastsAndBytes/course-overview.html) for details on course outline. As this course is the first of its kind, expect updates to happen to this course outline during the fall semester of 2024.
+See [this link](https://bovi-analytics.github.io/BeastsAndBytes/) for details on course outline. As this course is under constant construction, expect updates to happen to this course outline during the spring semester of 2026.
 
 # Format
 
-This course will consist of a combination of lectures, hands-on practical sessions, a case study, group discussions, and guest lectures from domain experts. Students will have the opportunity to work on a real-world project related to digital agriculture.
+This course will consist of a combination of lectures, hands-on practical sessions, a case study, group discussions, and online programming exercises. Students will have the opportunity to work on a real-world project related to digital agriculture.
 
 ## General week format
 
 +----------------+----------+----------+--------------------+----------+--------------------+
 |                | Monday   | Tuesday  | Wednesday          | Thursday | Friday             |
 +================+==========+==========+====================+==========+====================+
-| 10:10-11:00 am | Lecture  |          | Lab                |          |                    |
+| 10:10-11:00 am | Lecture  |          |     Discussion     |          |                    |
 +----------------+----------+----------+--------------------+----------+--------------------+
-| 1:25-4:25 pm   |          |          |                    | Lab  -   |                    |
-|                |          |          |                    | Project  |                    |
+| 1:25-4:25 pm   |          |   Lab    |                    |          |                    |
+|                |          |          |                    |          |                    |
 |                |          |          |                    |          |                    |
 +----------------+----------+----------+--------------------+----------+--------------------+
 
@@ -67,7 +67,8 @@ The goal of the lectures is to have them as interactive as possible (which requi
 
 ## Labs
 
-One the things you will definitely learn in this course will involve writing code, and coding is a skill that is best learned by doing. Therefore, as much as possible, you will need to finish a weekly coding assignment. Every week a new assignment will be opened for each of you on the online coding platform [Dodona](https://www.dodona.be/). There is a strict deadline at Friday evening 17:00 to finish the assignment, individually. The number of successfully finished assignments at the end of the course is part of your individual grading (see below).
+One the things you will definitely learn in this course will involve writing code, and coding is a skill that is best learned by doing. Therefore, as much as possible, you will need to finish a weekly coding assignment. Every week a new assignment will be opened for each of you on the online coding platform [Dodona](https://www.dodona.be/). There is a strict deadline at the day before the next lab (monday at 12 pm) to finish the assignment, individually. There will not be a deadline during the february and spring break. The number of successfully finished assignments at the end of the course is part of your individual grading (see below). You are allowed to use AI for these exercises, but it is strongly recommended to not use it to much as you will not be allowed to use it at the programming exam (see below). Try to ask your class mates first when you have troubles finishing an exercise or go to the office hours of this course. 
+Dodona recommends using the programm Pycharm, however we will be using Google Colab for the programming exercises. Every student will get an individual folder in the shared Beast & Bytes drive and can use this to store their notebooks. 
 
 ## Weekly project meetings
 
@@ -91,15 +92,6 @@ Throughout the course, you will engage in a group project that involves solving 
 
 6.  **Presentation and report:** You will prepare and present your project to the farmer, including your methodology, findings, and proposed solution. This will be summarized in a final project report
 
-# Textbook
-
-While there is no official textbook for the course, we will be assigning readings from the following some of the following textbooks.
-
--   [R for Data Science](https://r4ds.had.co.nz/) by Garret Grolemund and Hadley Wickham.
-
--   Weekly assignments from the [Introduction to Data Science](https://rafalab.dfci.harvard.edu/dsbook-part-1/) handbook by Rafael Irizarry.
-
--   Others related to the project will be proposed during the course
 
 # Website
 
@@ -109,35 +101,20 @@ Although I will try to avoid last minute changes to the schedule this might happ
 
 # Assessment & grading
 
-Assessment methods will include individual coding assignments and a group project including presentations and group report.
+Assessment methods will include individual coding assignments, a coding exam and a group project including presentations and group report.
 
 ## Group assessment
 
-+--------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------+
-| Component graded                                                                           | Remark                                                                                                                                                          | Weight      |
-+============================================================================================+=================================================================================================================================================================+=============+
-| Use of appropriate naming conventions used throughout project (subgroups)                  | Failure to use any naming convention in the project will result in failing the entire group project.                                                            | 20%         |
-+--------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------+
-| FAIR principle compliance in reporting, documentation of data and coding through notebooks | Failure to implement the FAIR principles will result in failing the entire group project.                                                                       | 20%         |
-+--------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------+
-| Project presentation                                                                       | We will discuss within the group how to assess each individuals contribution, as some people maybe will not be presenting but will have had other contribution. | 30%         |
-+--------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------+
-| Project report (entire group)                                                              |                                                                                                                                                                 | 30%         |
-+--------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------+
+Together with Dr. Hostens the group will set goals for the project. You get to decide what makes a succesfull project and grading will be based on acchieving those goals. This might sound a bit vague for now, but we will discuss this elaborately in class.  
+
 
 ## Individual assessment
 
 **It is very important to read this part as your individual assessments will be influencing your individual gradings.**
 
-At the end of the course you will be evaluated on the % of weekly assignments you have coded correctly in the Dodona framework (which you will learn during the course). That percentage will be multiplied with the overal group project grade, resulting in your final individual grade.
+Programming exam: at the end of the course there will be an individual programming exam in the programm Dodona. It is not allowed to use AI for this exam. The exam will consist of three programming exercises similar to the exercises covered in the course. There will be practice exams available to prepare you for this test. The date of this exam is still to be decided.    
 
-For example:
-
--   The group project was finally graded at 95%
-
--   Student A successfully finished 75% of the coding assignments within each deadline. As a result student A gets 95% x 75% = 71% as the final individual grade.
-
--   Student B successfully finished 100% of the coding assignments within each deadline. As a result student B gets 95% x 100% as the final individual grade.
+At the end of the course you will be evaluated on the % of weekly assignments you have coded correctly in the Dodona framework (which you will learn during the course). That percentage will be multiplied with your grade for the programming exam, resulting in your final individual grade. The individual grade will be combined with the group grade to make the final grade. 
 
 Finishing each of the assignments within each deadline is not that difficult. You "just" need to devote the time to it. I have used this method a lot during my courses. It is not to annoy students, but to make sure the entire group keeps progressing on the programming skills during the project. You will thank me for that at a certain moment. For full transparency, I learned to code Python using a similar approach. Once I understood why this was done, I started appreciating this method as one of the most inspiring learning methods I have ever seen.
 
