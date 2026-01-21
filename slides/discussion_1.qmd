@@ -1,5 +1,5 @@
 ---
-title: "Discussion 1, farm decision making"
+title: "Discussion 1"
 subtitle: "ANSCI 4940 - Spring 2026"
 author: "Meike van Leerdam"
 footer:  "[https://bovi-analytics.github.io/BeastsAndBytes/](https://bovi-analytics.github.io/BeastsAndBytes/)"
@@ -39,9 +39,11 @@ knitr::opts_chunk$set(
 ## The project
 
 Managing a farm = making decisions 
+
 But how? 
 
 ## The goal of today 
+
 
 Discussion and brainstorm!
 
