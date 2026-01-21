@@ -900,7 +900,7 @@
     "href": "slides/lec-11.html#sec-current",
     "title": "Data transformations",
     "section": "Current",
-    "text": "Current\nTo get the current date or date-time you can use today() or now():\n\ntoday()\n\n[1] \"2026-01-21\"\n\nnow()\n\n[1] \"2026-01-21 14:28:21 UTC\""
+    "text": "Current\nTo get the current date or date-time you can use today() or now():\n\ntoday()\n\n[1] \"2026-01-21\"\n\nnow()\n\n[1] \"2026-01-21 14:37:56 UTC\""
   },
   {
     "objectID": "slides/lec-11.html#sec-dt-import-1",
@@ -1248,21 +1248,21 @@
   {
     "objectID": "slides/discussion_1.html#the-project",
     "href": "slides/discussion_1.html#the-project",
-    "title": "Discussion 1, farm decision making",
+    "title": "Discussion 1",
     "section": "The project",
-    "text": "The project\nManaging a farm = making decisions But how?"
+    "text": "The project\nManaging a farm = making decisions\nBut how?"
   },
   {
     "objectID": "slides/discussion_1.html#the-goal-of-today",
     "href": "slides/discussion_1.html#the-goal-of-today",
-    "title": "Discussion 1, farm decision making",
+    "title": "Discussion 1",
     "section": "The goal of today",
     "text": "The goal of today\nDiscussion and brainstorm!"
   },
   {
     "objectID": "slides/discussion_1.html#the-questions",
     "href": "slides/discussion_1.html#the-questions",
-    "title": "Discussion 1, farm decision making",
+    "title": "Discussion 1",
     "section": "The questions",
     "text": "The questions\n\nWhat kind of decisions does a dairy farmer take?\nHow do they make them?\nWhat data sources do they use?\nWhich aspects need to be taken into account while making a decision?"
   },
