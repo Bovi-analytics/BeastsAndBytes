@@ -1,0 +1,52 @@
+---
+title: "Discussion 1, farm decision making"
+subtitle: "ANSCI 4940 - Spring 2026"
+author: "Meike van Leerdam"
+footer:  "[https://bovi-analytics.github.io/BeastsAndBytes/](https://bovi-analytics.github.io/BeastsAndBytes/)"
+logo: "images/Bovi-Analytics-SmallLogo.png"
+format: 
+  revealjs: 
+    theme: slides.scss
+    transition: fade
+    slide-number: true
+editor: visual
+execute:
+  freeze: auto
+---
+
+```{r setup}
+#| include: false
+
+# List of packages for session
+.packages = c("countdown")
+
+# Install CRAN packages (if not already installed)
+.inst <- .packages %in% installed.packages()
+if(length(.packages[!.inst]) > 0) install.packages(.packages[!.inst])
+
+# Load packages into session 
+lapply(.packages, require, character.only=TRUE, quietly = TRUE)
+knitr::opts_chunk$set(
+  fig.width = 6,
+  fig.asp = 0.618,
+  fig.align = "center",
+  out.width = "90%"
+)
+```
+
+# Introduction to decision-making 
+
+## The project
+
+Managing a farm = making decisions 
+But how? 
+
+## The goal of today 
+
+Discussion and brainstorm!
+
+## The questions 
+- What kind of decisions does a dairy farmer take? 
+- How do they make them? 
+- What data sources do they use? 
+- Which aspects need to be taken into account while making a decision? 
