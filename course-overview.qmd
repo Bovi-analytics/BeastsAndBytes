@@ -54,7 +54,7 @@ This course will consist of a combination of lectures, hands-on practical sessio
 +----------------+----------+----------+--------------------+----------+--------------------+
 |                | Monday   | Tuesday  | Wednesday          | Thursday | Friday             |
 +================+==========+==========+====================+==========+====================+
-| 10:10-11:00 am | Lecture  |          |     Discussion     |          |                    |
+| 10:10-11:00 am | Lecture  |          | Discussion         |          |                    |
 +----------------+----------+----------+--------------------+----------+--------------------+
 | 1:25-4:25 pm   |          |   Lab    |                    |          |                    |
 |                |          |          |                    |          |                    |
@@ -134,10 +134,10 @@ The percentage of weekly correctly finished assignment will be multiplied with y
 The final scale will be a multiplication from your individual score multiplied with the group project score (we will determine jointly in one of the first lectures how the group project will be graded)
 
 An example :
-• The group project was finally graded at 100% (which is definitely possible).
-• Student A successfully finished 100% of the coding assignments within each deadline, and finished the exam successfully with a score of 90%. As
+* The group project was finally graded at 100% (which is definitely possible).
+* Student A successfully finished 100% of the coding assignments within each deadline, and finished the exam successfully with a score of 90%. As
 a result student A gets 100% * 90% * 100% = 90% as the final individual grade.
-• Student B only finished 50% of the coding assignments within each deadline, and finished the exam successfully with a score of 70%. As
+* Student B only finished 50% of the coding assignments within each deadline, and finished the exam successfully with a score of 70%. As
 a result student B gets 50% * 70% * 100% = 35% as the final individual grade.
 
 | Grade | Low   | High  |

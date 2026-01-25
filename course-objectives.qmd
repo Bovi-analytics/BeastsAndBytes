@@ -2,8 +2,6 @@
 title: "Learning objectives"
 ---
 
-## Learning objectives
-
 1.  Explain the fundamentals of data science and digital agriculture including their interdisciplinary challenges.
 
 2.  Implement the various data science technologies, precision farming techniques and digital tools used in modern agriculture.
@@ -15,5 +13,3 @@ title: "Learning objectives"
 5.  Explore the applications of machine learning and artificial intelligence in agriculture.
 
 6.  Recognize the significance of, and apply data privacy and security techniques in digital agriculture.
-
-## 

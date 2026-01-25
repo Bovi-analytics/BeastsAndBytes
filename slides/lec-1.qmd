@@ -1,6 +1,6 @@
 ---
 title: "Lecture 1 - Meet + greet"
-subtitle: "ANSCI 4940 - Spring 2025"
+subtitle: "ANSCI 4040 - Spring 2026"
 author: "Meike"
 footer:  "[https://bovi-analytics.github.io/BeastsAndBytes/](https://bovi-analytics.github.io/BeastsAndBytes/)"
 logo: "images/Bovi-Analytics-SmallLogo.png"
@@ -85,8 +85,8 @@ library(countdown)
 ::: incremental
 -   Week 1 - Introduction, programming and team project kick-off
 -   Week 2 - Data in agriculture
--   Week 3 - Technologies in agriculture
--   Week 4 - Artificial Intelligence and Machine Learning
+-   Week 3 - Decision making in agriculture - part 1
+-   Week 4 - Decision making in agriculture - part 2
 -   Week 5 - ...
 :::
 
@@ -96,7 +96,7 @@ library(countdown)
 
 -   We will use the [Dodona](https://dodona.be/) platform for that. Make sure to try if you have access to the course.
 
--   [Link to the course](https://dodona.be/en/courses/2982/?secret=jniug)
+-   [Link to the course](https://dodona.be/en/courses/5788/?secret=HqNPN)
 
 ## Weekly programming assignment
 
@@ -116,13 +116,13 @@ Subscribe to this course <https://dodona.be/en/courses/4716/?secret=czy8G>
 
 **Make sure to reach each of the deadlines**
 
-| Deadline                | Assignment         |
-|-------------------------|--------------------|
-| Tuesday, Jan 29th 24:00 | R Basics           |
-| Tuesday, Feb 4th 24:00  | Programming basics |
-| Tuesday. Feb 11th 24:00 | The tidyverse      |
-| Tuesday, Feb 18th 24:00 | Importing Data     |
-| Tuesday, Feb 25th 24:00 | ...                |
+| Deadline                | Assignment              |
+|-------------------------|-------------------------|
+| Monday, Jan 26th 24:00  | Python Basics           |
+| Monday, Feb 2nd 24:00   | Conditional statements  |
+| Monday. Feb 8th 24:00   | Loops                   |
+| Monday, Feb 15th 24:00  | Strings                 |
+| Monday, Feb 22th 24:00  | ...                     |
 
 </div>
 
@@ -146,15 +146,16 @@ Subscribe to this course <https://dodona.be/en/courses/4716/?secret=czy8G>
 
 ## Grading {.smaller}
 
-The overall team project score will be multiplied by the % of correctly submitted weekly assignments individually.
+The overall team project score will be multiplied by the % of correctly submitted weekly assignments and coding exam individually.
 
 Example:
 
 -   Your team project is graded as a group to 16/20
 
 -   You individually submitted 80% correct assignments
+-   Your coding exam 90% correct assignments
 
--   Your end score is 0.8\*16/20 = 12.8/20
+-   Your end score is 0.8*0.9*18/20 = ...
 
 ## Support
 
@@ -183,7 +184,7 @@ It is my intent that students from all diverse backgrounds and perspectives be w
 
 ## Team project
 
--   **Team update fridays** are supposed to be completed collaboratively.
+-   **Team update wednesdays** are supposed to be completed collaboratively.
 
 -   Most of the times we will meet in classrooms at the **Morrison Hall** building.
 
@@ -223,7 +224,6 @@ Ask if you're not sure if something violates a policy!
 4.  Perform the programming assignments.
 5.  Don't let a week pass by with lingering questions.
 
-## This week's first tasks
+## This week's tasks
 
--   Get a Dodona account if you don't have one, you'll need it for Wednesday first lab.
--   Communicate your Gmail account with miel.hostens\@cornell.edu so I can connect you to the Beasts&Bytes Google Drive and Google Colab environment.
+-   Project deliverables discussion

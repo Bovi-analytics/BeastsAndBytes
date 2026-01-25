@@ -1,43 +1,41 @@
 ---
-title: "Data Science Applications in Agriculture - Tips & Tricks"
+title: "Tips & Tricks"
 format: html
 ---
 
-# 🌾 Tips & Tricks for Data Science Applications in Agriculture
-
-## 🚀 1. Think Like a Problem-Solver, Not a Note-Taker
+# 🚀 1. Think Like a Problem-Solver, Not a Note-Taker
 This course uses challenge-based learning where you solve real agricultural problems in collaboration with farmers and stakeholders.
 Early in the semester, create a shared team document to track problem definitions and evolving insights.
 
-## 📅 2. Follow the Weekly Rhythm
+# 📅 2. Follow the Weekly Rhythm
 Lectures → weekly coding labs → project meetings. Dodona assignments are due every Monday at 24:00. Set reminders and avoid last-minute work.
 
-## 💡 3. Coding: Small Bursts Beat Sprints
+# 💡 3. Coding: Small Bursts Beat Sprints
 Your individual grade = group project grade × percentage of assignments you complete × coding exam.
 Submit early, refine often, and test code on small inputs before using real farm datasets.
 
-## 👩‍🌾 4. Prepare for Farmer Meetings Like a Consultant
+# 👩‍🌾 4. Prepare for Farmer Meetings Like a Consultant
 Before meeting farmers, prepare three question types:
-- Clarifying questions
-- Data-oriented questions
-- Impact-oriented questions
+* Clarifying questions
+* Data-oriented questions
+* Impact-oriented questions
 
-## 🧹 5. Data Governance & FAIR Principles Matter
+# 🧹 5. Data Governance & FAIR Principles Matter
 Your project **fails automatically** if you ignore FAIR principles. Create a shared checklist covering naming conventions, documentation, and file structure.
 
-## 📊 6. Visualize Before You Model
+# 📊 6. Visualize Before You Model
 Generate key visuals (missing data, histograms, time series, scatter matrices) before applying algorithms.
 
-## 🤝 7. Take Weekly Project Meetings Seriously
+# 🤝 7. Take Weekly Project Meetings Seriously
 Arrive prepared with one question, one update, and one risk. This dramatically reduces last-minute chaos.
 
-## 🧭 8. Scope Your Project Ruthlessly
+# 🧭 8. Scope Your Project Ruthlessly
 Create a "Not Doing" list by Week 3 to keep your project realistic and implementable.
 
-## 🎤 9. Present for Stakeholders, Not Teachers
+# 🎤 9. Present for Stakeholders, Not Teachers
 Translate technical results into statements like:
-- “This helps you decide…”
-- “This reduces risk by…”
+* “This helps you decide…”
+* “This reduces risk by…”
 
-## 📝 10. Practice Strong Academic Integrity
+# 📝 10. Practice Strong Academic Integrity
 Document all external assistance, including AI tools, and cite everything properly.
