@@ -2,4 +2,57 @@
 title: "FAQ"
 ---
 
-Coming soon
+# Do I need prior experience with programming or data science?
+
+No prior programming experience is required. The course builds from fundamentals and offers guided support. However, familiarity with Excel, basic statistics, or biological/agricultural concepts will be helpful.
+
+# What software will we use?
+
+We will primarily use:
+
+* Tableau for interactive dashboards.
+* R or Python (depending on the specific course structure) for data analysis.
+* Spreadsheet tools such as Excel or (less preferred) Google Sheets.
+* Additional tools may include farm sensor platforms or datasets commonly used in applied agriculture research.
+
+# How do I access Tableau for this course?
+
+You will receive a free student Tableau license through the [Tableau for Teaching program](https://www.tableau.com/community/academic). Licenses are typically issued about one week before the course start date.
+If you do not receive your license, check spam and contact the instructor.
+
+# What are the expectations around AI tools like ChatGPT?
+CALS guidelines encourage instructors to define clear expectations around AI use (referenced in Practical AI Resources for your Courses).
+In this course:
+
+* AI may be used to support idea generation, debugging, and improving clarity of writing.
+* AI may NOT be used to generate full assignments, analyses, or dashboard interpretations.
+* Any AI use must be disclosed in your submission.
+
+A detailed AI policy is posted in the syllabus.
+
+# Will we use real dairy farm data? Is it confidential?
+Yes, we will work with anonymized agricultural datasets. Data confidentiality rules will be explained in class — typically aligned with research ethics guidelines and institutional standards.
+
+# How much time should I expect to spend on the course each week?
+
+Expect approximately:
+
+2–3 hours of lectures or guided sessions (LEC & DIS)
+3–5 hours of hands‑on data practice or assignment work (LAB time)
+Additional time as needed for the final project
+
+# What if I need help or get stuck?
+
+You are encouraged to:
+
+* Directly contact with the instructor or TA () office hours
+* Ask questions during lectures and discussion sessions
+* Reach out by email for technical or conceptual help
+
+# How will my work be evaluated?
+
+Assessment typically includes:
+
+* Weekly or bi‑weekly coding assignments
+* Coding exam at the end of the semester
+* Final data‑driven project

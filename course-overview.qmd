@@ -112,13 +112,33 @@ Together with Dr. Hostens the group will set goals for the project. You get to d
 
 **It is very important to read this part as your individual assessments will be influencing your individual gradings.**
 
-Programming exam: at the end of the course there will be an individual programming exam in the programm Dodona. It is not allowed to use AI for this exam. The exam will consist of three programming exercises similar to the exercises covered in the course. There will be practice exams available to prepare you for this test. The date of this exam is still to be decided.    
+### Dodona assignments
 
-At the end of the course you will be evaluated on the % of weekly assignments you have coded correctly in the Dodona framework (which you will learn during the course). That percentage will be multiplied with your grade for the programming exam, resulting in your final individual grade. The individual grade will be combined with the group grade to make the final grade. 
+At the end of the course you will be evaluated on the % of weekly assignments you have coded correctly in the Dodona framework (which you will learn during the course). That percentage will be multiplied with your grade for the programming exam, resulting in your final individual grade. The individual grade will be combined with the group grade to make the final grade.
 
 Finishing each of the assignments within each deadline is not that difficult. You "just" need to devote the time to it. I have used this method a lot during my courses. It is not to annoy students, but to make sure the entire group keeps progressing on the programming skills during the project. You will thank me for that at a certain moment. For full transparency, I learned to code Python using a similar approach. Once I understood why this was done, I started appreciating this method as one of the most inspiring learning methods I have ever seen.
 
+
+### Programming exam
+
+At the end of the course there will be an individual programming exam in the program Dodona (in class). It is not allowed to use generative AI for this exam (which will be monitored in class). The exam will consist of three programming exercises similar to the exercises covered in the course. There will be practice exams available to prepare you for this test. The date of this exam is still to be decided.
+
+You will receive an individual score for this part.
+
+### Final individual score
+
+The percentage of weekly correctly finished assignment will be multiplied with your programming exam, resulting in your final individual grade. Keep in mind that finishing less than 50% of your weekly assignments will result in the mathematical impossibility to pass for this component of the exam (49% * 100 < 50%).
+
 ## Final grading scale
+
+The final scale will be a multiplication from your individual score multiplied with the group project score (we will determine jointly in one of the first lectures how the group project will be graded)
+
+An example :
+• The group project was finally graded at 100% (which is definitely possible).
+• Student A successfully finished 100% of the coding assignments within each deadline, and finished the exam successfully with a score of 90%. As
+a result student A gets 100% * 90% * 100% = 90% as the final individual grade.
+• Student B only finished 50% of the coding assignments within each deadline, and finished the exam successfully with a score of 70%. As
+a result student B gets 50% * 70% * 100% = 35% as the final individual grade.
 
 | Grade | Low   | High  |
 |:------|:------|:------|

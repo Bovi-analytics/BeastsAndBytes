@@ -10,12 +10,12 @@ Note that this schedule will be updated as the course progresses, with all chang
 |:---:|:------:|-------------------------------|--------------|:-------:|:-------:|
 | 1 | 1/20 (Tue) | Introduction to Python programming | Meike | 📖 | [🖥️](slides/lec-1.html) |
 | 1 | 1/21 (Wed) | Introduction to decision support | Meike | [📖](https://www.ibm.com/think/topics/data-driven-decision-making) | [🖥️](slides/discussion_1.html) |
-| 2 | 1/26 (Mon) | Introduction to the project | Dr. Hostens | 📖 | [🖥️] |
-| 2 | 1/27 (Tue) | To be decided | TBD | 📖 | [🖥️] |
-| 2 | 1/28 (Wed) | To be decided | TBD | 📖 | [🖥️] |
+| 2 | 1/26 (Mon) | Cancelled -> Intro to lab | Dr. Hostens | 📖 | [🖥️] |
+| 2 | 1/27 (Tue) | Introduction to the project | Dr. Hostens | 📖 | [🖥️] |
+| 2 | 1/28 (Wed) | To be decided | Dr. Hostens | 📖 | [🖥️] |
 | 3 | 2/2 (Mon) | To be decided | TBD | 📖 | [🖥️] |
 | 3 | 2/3 (Tue) | To be decided | TBD | 📖 | [🖥️] |
-| 3 | 2/4 (Wed) | To be decided | TBD | 📖 | [🖥️] |
+| 3 | 2/4 (Wed) | Guest lecture - ONLINE | [Dr. de Vries](https://animal.ifas.ufl.edu/people/albert-de-vries/) | 📖 | [🖥️] |
 | 4 | 2/9 (Mon) | To be decided | TBD | 📖 | [🖥️] |
 | 4 | 2/10 (Tue) | To be decided | TBD | 📖 | [🖥️] |
 | 4 | 2/11 (Wed) | To be decided | TBD | 📖 | [🖥️] |
