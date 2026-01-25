@@ -24,53 +24,119 @@
   {
     "objectID": "project-tips-resources.html",
     "href": "project-tips-resources.html",
-    "title": "Project tips + resources",
+    "title": "Data Science Applications in Agriculture - Tips & Tricks",
     "section": "",
-    "text": "FiveThirtyEight data\n\n\n\n\n\nWorld Health Organization\nThe National Bureau of Economic Research\nInternational Monetary Fund\nGeneral Social Survey\nUnited Nations Data\nUnited Nations Statistics Division\nU.K. Data\nU.S. Data\nU.S. Census Data\nEuropean Statistics\nStatistics Canada\nPew Research\nUNICEF\nCDC\nWorld Bank\nElection Studies",
+    "text": "This course uses challenge-based learning where you solve real agricultural problems in collaboration with farmers and stakeholders. Early in the semester, create a shared team document to track problem definitions and evolving insights.\n\n\n\nLectures → weekly coding labs → project meetings. Dodona assignments are due every Monday at 24:00. Set reminders and avoid last-minute work.\n\n\n\nYour individual grade = group project grade × percentage of assignments you complete × coding exam. Submit early, refine often, and test code on small inputs before using real farm datasets.\n\n\n\nBefore meeting farmers, prepare three question types: - Clarifying questions - Data-oriented questions - Impact-oriented questions\n\n\n\nYour project fails automatically if you ignore FAIR principles. Create a shared checklist covering naming conventions, documentation, and file structure.\n\n\n\nGenerate key visuals (missing data, histograms, time series, scatter matrices) before applying algorithms.\n\n\n\nArrive prepared with one question, one update, and one risk. This dramatically reduces last-minute chaos.\n\n\n\nCreate a “Not Doing” list by Week 3 to keep your project realistic and implementable.\n\n\n\nTranslate technical results into statements like: - “This helps you decide…” - “This reduces risk by…”\n\n\n\nDocument all external assistance, including AI tools, and cite everything properly.",
     "crumbs": [
       "Project",
       "Tips + resources"
     ]
   },
   {
-    "objectID": "project-tips-resources.html#data-sources",
-    "href": "project-tips-resources.html#data-sources",
-    "title": "Project tips + resources",
+    "objectID": "project-tips-resources.html#think-like-a-problem-solver-not-a-note-taker",
+    "href": "project-tips-resources.html#think-like-a-problem-solver-not-a-note-taker",
+    "title": "Data Science Applications in Agriculture - Tips & Tricks",
     "section": "",
-    "text": "FiveThirtyEight data\n\n\n\n\n\nWorld Health Organization\nThe National Bureau of Economic Research\nInternational Monetary Fund\nGeneral Social Survey\nUnited Nations Data\nUnited Nations Statistics Division\nU.K. Data\nU.S. Data\nU.S. Census Data\nEuropean Statistics\nStatistics Canada\nPew Research\nUNICEF\nCDC\nWorld Bank\nElection Studies",
+    "text": "This course uses challenge-based learning where you solve real agricultural problems in collaboration with farmers and stakeholders. Early in the semester, create a shared team document to track problem definitions and evolving insights.",
     "crumbs": [
       "Project",
       "Tips + resources"
     ]
   },
   {
-    "objectID": "project-tips-resources.html#tips",
-    "href": "project-tips-resources.html#tips",
-    "title": "Project tips + resources",
-    "section": "Tips",
-    "text": "Tips\n\nAsk questions if any of the expectations are unclear.\nCode: In your write up your code should be hidden so that your document is neat and easy to read. However your document should include all your code such that if I re-knit your qmd file I should be able to obtain the results you presented.\n\nException: If you want to highlight something specific about a piece of code, you’re welcome to show that portion.\n\nMerge conflicts will happen, issues will arise, and that’s fine! Commit and push often, and ask questions when stuck.\nMake sure each team member is contributing, both in terms of quality and quantity of contribution (we will be reviewing commits from different team members).\nAll team members are expected to contribute equally to the completion of this assignment and group assessments will be given at its completion - anyone judged to not have sufficient contributed to the final product will have their grade penalized. While different teams members may have different backgrounds and abilities, it is the responsibility of every team member to understand how and why all code and approaches in the assignment works.\nYou can also chose to visualize your results after data processing in Tableau. Tableau is a powerfull and intuitive data visualisation tool with many options to make figures look nice.\nOn the website of the Bovi-Analytics lab there are also tons of tutorials to help get you started using the tools in the course. tutorials",
+    "objectID": "project-tips-resources.html#follow-the-weekly-rhythm",
+    "href": "project-tips-resources.html#follow-the-weekly-rhythm",
+    "title": "Data Science Applications in Agriculture - Tips & Tricks",
+    "section": "",
+    "text": "Lectures → weekly coding labs → project meetings. Dodona assignments are due every Monday at 24:00. Set reminders and avoid last-minute work.",
     "crumbs": [
       "Project",
       "Tips + resources"
     ]
   },
   {
-    "objectID": "project-tips-resources.html#formatting-communication-tips",
-    "href": "project-tips-resources.html#formatting-communication-tips",
-    "title": "Project tips + resources",
-    "section": "Formatting + communication tips",
-    "text": "Formatting + communication tips\n\nSuppress Code, Warnings, & Messages\n\nInclude the following code in a code chunk at the top of your .qmd file to suppress all code, warnings, and other messages.\n\nimport warnings\nwarnings.filterwarnings(\"ignore\")\n\n\nHeaders\n\nUse headers to clearly label each section.\nInspect the document outline to review your headers and sub-headers.\n\n\n\nReferences\n\nInclude all references in a section called “References” at the end of the report.\nThis course does not have specific requirements for formatting citations and references.\n\n\n\nAppendix\n\nIf you have additional work that does not fit or does not belong in the body of the report, you may put it at the end of the document in section called “Appendix”.\nThe items in the appendix should be properly labeled.\nThe appendix should only be for additional material. The reader should be able to fully understand your report without viewing content in the appendix.\n\n\n\nResize figures\nResize plots and figures, so you have more space for the narrative. Example:\n#| fig-width: 6 #| fig-height: 4\n\n\nArranging plots\nArrange plots in a grid, instead of one after the other. This is especially useful when displaying plots for exploratory data analysis and to check assumptions. In Python Matplotlib has a function subplot() to do this. Look for documentation and examples how to make graphs look nice at matplotlib tutorials.\n\n\nPlot titles and axis labels\nBe sure all plot titles and axis labels are visible and easy to read.\n\nUse informative titles, not variable names, for titles and axis labels.\n\n❌ NO! The x-axis is hard to read because the names overlap.\nsns.countplot(data=mpg, x=\"manufacturer\")\nplt.show()\n✅ YES! Names are readable\nsns.countplot(data=mpg, y=\"manufacturer\")\nplt.show()\n\n\nDo a little more to make the plot look professional!\n\nInformative title and axis labels\nFlipped coordinates to make names readable\nArranged bars based on count\nCapitalized manufacturer names\nOptional: Added color - Use a coordinated color scheme throughout paper / presentation\nOptional: Applied a theme - Use same theme throughout paper / presentation\n\ncounts = (\nmpg[\"manufacturer\"]\n.str.title()\n.value_counts()\n.sort_values()\n)\n\nplt.figure(figsize=(6, 5))\ncounts.plot(kind=\"barh\", color=\"steelblue\")\nplt.xlabel(\"Count\")\nplt.ylabel(\"Manufacturer\")\nplt.title(\"Most Common Car Manufacturers\")\nplt.tight_layout()\nplt.show()\n\n\nTables and model output\n\nUse the kable function from the knitr package to neatly output all tables and model output. This will also ensure all model coefficients are displayed.\n\nUse the digits argument to display only 3 or 4 significant digits.\nUse the caption argument to add captions to your table.\n\n\nimport statsmodels.formula.api as smf\n\nmodel = smf.ols(\"mpg ~ hp\", data=mtcars).fit()\nmodel.summary2().tables[1].round(3)\n\n\nGuidelines for communicating results\n\nDon’t use variable names in your narrative! Use descriptive terms, so the reader understands your narrative without relying on the data dictionary.\n\n❌ There is a negative linear relationship between mpg and hp.\n✅ There is a negative linear relationship between a car’s fuel economy (in miles per gallon) and its horsepower.\n\nKnow your audience: Your report should be written for a general audience who has an understanding of statistics at the level of STA 210.\nAvoid subject matter jargon: Don’t assume the audience knows all of the specific terminology related to your subject area. If you must use jargon, include a brief definition the first time you introduce a term.\nTell the “so what”: Your report and presentation should be more than a list of interpretations and technical definitions. Focus on what the results mean, i.e. what you want the audience to know about your topic after reading your report or viewing your presentation.\n\n❌ For every one unit increase in horsepower, we expect the miles per gallon to decrease by 0.068 units, on average.\n✅ If the priority is to have good fuel economy, then one should choose a car with lower horsepower. Based on our model, the fuel economy is expected to decrease, on average, by 0.68 miles per gallon for every 10 additional horsepower.\n\nTell a story: All visualizations, tables, model output, and narrative should tell a cohesive story!\nUse one voice: Though multiple people are writing the report, it should read as if it’s from a single author. At least one team member should read through the report before submission to ensure it reads like a cohesive document.",
+    "objectID": "project-tips-resources.html#coding-small-bursts-beat-sprints",
+    "href": "project-tips-resources.html#coding-small-bursts-beat-sprints",
+    "title": "Data Science Applications in Agriculture - Tips & Tricks",
+    "section": "",
+    "text": "Your individual grade = group project grade × percentage of assignments you complete × coding exam. Submit early, refine often, and test code on small inputs before using real farm datasets.",
     "crumbs": [
       "Project",
       "Tips + resources"
     ]
   },
   {
-    "objectID": "project-tips-resources.html#additional-resources",
-    "href": "project-tips-resources.html#additional-resources",
-    "title": "Project tips + resources",
-    "section": "Additional resources",
-    "text": "Additional resources\n\nPython for Data Science\nThink stats ebook about using python for data science\nQuarto Documentation\nData visualization\n\nData Visualization in python\nGet a license for Tableau, a powerfull data visualisation platform",
+    "objectID": "project-tips-resources.html#prepare-for-farmer-meetings-like-a-consultant",
+    "href": "project-tips-resources.html#prepare-for-farmer-meetings-like-a-consultant",
+    "title": "Data Science Applications in Agriculture - Tips & Tricks",
+    "section": "",
+    "text": "Before meeting farmers, prepare three question types: - Clarifying questions - Data-oriented questions - Impact-oriented questions",
+    "crumbs": [
+      "Project",
+      "Tips + resources"
+    ]
+  },
+  {
+    "objectID": "project-tips-resources.html#data-governance-fair-principles-matter",
+    "href": "project-tips-resources.html#data-governance-fair-principles-matter",
+    "title": "Data Science Applications in Agriculture - Tips & Tricks",
+    "section": "",
+    "text": "Your project fails automatically if you ignore FAIR principles. Create a shared checklist covering naming conventions, documentation, and file structure.",
+    "crumbs": [
+      "Project",
+      "Tips + resources"
+    ]
+  },
+  {
+    "objectID": "project-tips-resources.html#visualize-before-you-model",
+    "href": "project-tips-resources.html#visualize-before-you-model",
+    "title": "Data Science Applications in Agriculture - Tips & Tricks",
+    "section": "",
+    "text": "Generate key visuals (missing data, histograms, time series, scatter matrices) before applying algorithms.",
+    "crumbs": [
+      "Project",
+      "Tips + resources"
+    ]
+  },
+  {
+    "objectID": "project-tips-resources.html#take-weekly-project-meetings-seriously",
+    "href": "project-tips-resources.html#take-weekly-project-meetings-seriously",
+    "title": "Data Science Applications in Agriculture - Tips & Tricks",
+    "section": "",
+    "text": "Arrive prepared with one question, one update, and one risk. This dramatically reduces last-minute chaos.",
+    "crumbs": [
+      "Project",
+      "Tips + resources"
+    ]
+  },
+  {
+    "objectID": "project-tips-resources.html#scope-your-project-ruthlessly",
+    "href": "project-tips-resources.html#scope-your-project-ruthlessly",
+    "title": "Data Science Applications in Agriculture - Tips & Tricks",
+    "section": "",
+    "text": "Create a “Not Doing” list by Week 3 to keep your project realistic and implementable.",
+    "crumbs": [
+      "Project",
+      "Tips + resources"
+    ]
+  },
+  {
+    "objectID": "project-tips-resources.html#present-for-stakeholders-not-teachers",
+    "href": "project-tips-resources.html#present-for-stakeholders-not-teachers",
+    "title": "Data Science Applications in Agriculture - Tips & Tricks",
+    "section": "",
+    "text": "Translate technical results into statements like: - “This helps you decide…” - “This reduces risk by…”",
+    "crumbs": [
+      "Project",
+      "Tips + resources"
+    ]
+  },
+  {
+    "objectID": "project-tips-resources.html#practice-strong-academic-integrity",
+    "href": "project-tips-resources.html#practice-strong-academic-integrity",
+    "title": "Data Science Applications in Agriculture - Tips & Tricks",
+    "section": "",
+    "text": "Document all external assistance, including AI tools, and cite everything properly.",
     "crumbs": [
       "Project",
       "Tips + resources"
@@ -900,7 +966,7 @@
     "href": "slides/lec-11.html#sec-current",
     "title": "Data transformations",
     "section": "Current",
-    "text": "Current\nTo get the current date or date-time you can use today() or now():\n\ntoday()\n\n[1] \"2026-01-21\"\n\nnow()\n\n[1] \"2026-01-21 14:37:56 UTC\""
+    "text": "Current\nTo get the current date or date-time you can use today() or now():\n\ntoday()\n\n[1] \"2026-01-25\"\n\nnow()\n\n[1] \"2026-01-25 17:33:13 UTC\""
   },
   {
     "objectID": "slides/lec-11.html#sec-dt-import-1",
@@ -1005,14 +1071,14 @@
     "href": "slides/lec-11.html#sec-duration-1",
     "title": "Data transformations",
     "section": "Durations",
-    "text": "Durations\nIn R, when you subtract two dates, you get a difftime object:\n\n# How old is Miel?\nh_age &lt;- today() - ymd(\"1982-04-27\")\nh_age\n\nTime difference of 15975 days"
+    "text": "Durations\nIn R, when you subtract two dates, you get a difftime object:\n\n# How old is Miel?\nh_age &lt;- today() - ymd(\"1982-04-27\")\nh_age\n\nTime difference of 15979 days"
   },
   {
     "objectID": "slides/lec-11.html#sec-duration-2",
     "href": "slides/lec-11.html#sec-duration-2",
     "title": "Data transformations",
     "section": "Durations",
-    "text": "Durations\nA difftime class object records a time span of seconds, minutes, hours, days, or weeks.\nThis ambiguity can make difftimes a little painful to work with, so lubridate provides an alternative which always uses seconds: the duration.\n\nas.duration(h_age)\n\n[1] \"1380240000s (~43.74 years)\""
+    "text": "Durations\nA difftime class object records a time span of seconds, minutes, hours, days, or weeks.\nThis ambiguity can make difftimes a little painful to work with, so lubridate provides an alternative which always uses seconds: the duration.\n\nas.duration(h_age)\n\n[1] \"1380585600s (~43.75 years)\""
   },
   {
     "objectID": "slides/lec-11.html#sec-duration-3",
@@ -1040,7 +1106,7 @@
     "href": "slides/lec-11.html#sec-duration-6",
     "title": "Data transformations",
     "section": "Add and substract durations",
-    "text": "Add and substract durations\nYou can add and subtract durations to and from days:\n\ntomorrow &lt;- today() + ddays(1)\ntomorrow\n\n[1] \"2026-01-22\"\n\nlast_year &lt;- today() - dyears(1)\nlast_year\n\n[1] \"2025-01-20 18:00:00 UTC\""
+    "text": "Add and substract durations\nYou can add and subtract durations to and from days:\n\ntomorrow &lt;- today() + ddays(1)\ntomorrow\n\n[1] \"2026-01-26\"\n\nlast_year &lt;- today() - dyears(1)\nlast_year\n\n[1] \"2025-01-24 18:00:00 UTC\""
   },
   {
     "objectID": "slides/lec-11.html#sec-duration-7",
@@ -1271,7 +1337,7 @@
     "href": "course-faq.html",
     "title": "FAQ",
     "section": "",
-    "text": "Coming soon",
+    "text": "Do I need prior experience with programming or data science?\nNo prior programming experience is required. The course builds from fundamentals and offers guided support. However, familiarity with Excel, basic statistics, or biological/agricultural concepts will be helpful.\n\n\nWhat software will we use?\nWe will primarily use:\n\nTableau for interactive dashboards.\nR or Python (depending on the specific course structure) for data analysis.\nSpreadsheet tools such as Excel or (less preferred) Google Sheets.\nAdditional tools may include farm sensor platforms or datasets commonly used in applied agriculture research.\n\n\n\nHow do I access Tableau for this course?\nYou will receive a free student Tableau license through the Tableau for Teaching program. Licenses are typically issued about one week before the course start date. If you do not receive your license, check spam and contact the instructor.\n\n\nWhat are the expectations around AI tools like ChatGPT?\nCALS guidelines encourage instructors to define clear expectations around AI use (referenced in Practical AI Resources for your Courses). In this course:\n\nAI may be used to support idea generation, debugging, and improving clarity of writing.\nAI may NOT be used to generate full assignments, analyses, or dashboard interpretations.\nAny AI use must be disclosed in your submission.\n\nA detailed AI policy is posted in the syllabus.\n\n\nWill we use real dairy farm data? Is it confidential?\nYes, we will work with anonymized agricultural datasets. Data confidentiality rules will be explained in class — typically aligned with research ethics guidelines and institutional standards.\n\n\nHow much time should I expect to spend on the course each week?\nExpect approximately:\n2–3 hours of lectures or guided sessions (LEC & DIS) 3–5 hours of hands‑on data practice or assignment work (LAB time) Additional time as needed for the final project\n\n\nWhat if I need help or get stuck?\nYou are encouraged to:\n\nDirectly contact with the instructor or TA () office hours\nAsk questions during lectures and discussion sessions\nReach out by email for technical or conceptual help\n\n\n\nHow will my work be evaluated?\nAssessment typically includes:\n\nWeekly or bi‑weekly coding assignments\nCoding exam at the end of the semester\nFinal data‑driven project",
     "crumbs": [
       "Course information",
       "FAQ"
@@ -1450,7 +1516,7 @@
     "href": "index.html",
     "title": "Data Science Applications in Agriculture",
     "section": "",
-    "text": "This page contains an outline of the topics, content, and assignments for the course.\nNote that this schedule will be updated as the course progresses, with all changes documented here.\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\nTeachers\nPrepare\nLecture\n\n\n\n\n1\n1/20 (Tue)\nIntroduction to Python programming\nMeike\n📖\n🖥️\n\n\n1\n1/21 (Wed)\nIntroduction to decision support\nMeike\n📖\n🖥️\n\n\n2\n1/26 (Mon)\nIntroduction to the project\nDr. Hostens\n📖\n[🖥️]\n\n\n2\n1/27 (Tue)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n2\n1/28 (Wed)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n3\n2/2 (Mon)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n3\n2/3 (Tue)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n3\n2/4 (Wed)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n4\n2/9 (Mon)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n4\n2/10 (Tue)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n4\n2/11 (Wed)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n5\n2/16 (Mon)\nFebruary break\n-\n-\n-\n\n\n5\n2/17 (Tue)\nFebruary break\n-\n-\n-\n\n\n5\n2/18 (Wed)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n6\n2/23 (Mon)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n6\n2/24 (Tue)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n6\n2/25 (Wed)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n7\n3/2 (Mon)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n7\n3/3 (Tue)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n7\n3/4 (Wed)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n8\n3/9 (Mon)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n8\n3/10 (Tue)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n8\n3/11 (Wed)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n9\n3/16 (Mon)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n9\n3/17 (Tue)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n9\n3/18 (Wed)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n10\n3/23 (Mon)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n10\n3/24 (Tue)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n10\n3/25 (Wed)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n11\n3/30 (Mon)\nSpring break\n-\n\n\n\n\n11\n3/31 (Tue)\nSpring break\n-\n\n\n\n\n11\n4/1 (Wed)\nSpring break\n-\n\n\n\n\n12\n4/6 (Mon)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n12\n4/7 (Tue)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n12\n4/8 (Wed)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n13\n4/13 (Mon)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n13\n4/14 (Tue)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n13\n4/15 (Wed)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n14\n4/20 (Mon)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n14\n4/21 (Tue)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n14\n4/22 (Wed)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n15\n4/27 (Mon)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n15\n4/28 (Tue)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n15\n4/29 (Wed)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n16\n5/4 (Mon)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n16\n5/5 (Tue)\nFinal class\nTBD\n📖\n[🖥️]",
+    "text": "This page contains an outline of the topics, content, and assignments for the course.\nNote that this schedule will be updated as the course progresses, with all changes documented here.\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\nTeachers\nPrepare\nLecture\n\n\n\n\n1\n1/20 (Tue)\nIntroduction to Python programming\nMeike\n📖\n🖥️\n\n\n1\n1/21 (Wed)\nIntroduction to decision support\nMeike\n📖\n🖥️\n\n\n2\n1/26 (Mon)\nCancelled -&gt; Intro to lab\nDr. Hostens\n📖\n[🖥️]\n\n\n2\n1/27 (Tue)\nIntroduction to the project\nDr. Hostens\n📖\n[🖥️]\n\n\n2\n1/28 (Wed)\nTo be decided\nDr. Hostens\n📖\n[🖥️]\n\n\n3\n2/2 (Mon)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n3\n2/3 (Tue)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n3\n2/4 (Wed)\nGuest lecture - ONLINE\nDr. de Vries\n📖\n[🖥️]\n\n\n4\n2/9 (Mon)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n4\n2/10 (Tue)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n4\n2/11 (Wed)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n5\n2/16 (Mon)\nFebruary break\n-\n-\n-\n\n\n5\n2/17 (Tue)\nFebruary break\n-\n-\n-\n\n\n5\n2/18 (Wed)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n6\n2/23 (Mon)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n6\n2/24 (Tue)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n6\n2/25 (Wed)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n7\n3/2 (Mon)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n7\n3/3 (Tue)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n7\n3/4 (Wed)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n8\n3/9 (Mon)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n8\n3/10 (Tue)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n8\n3/11 (Wed)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n9\n3/16 (Mon)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n9\n3/17 (Tue)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n9\n3/18 (Wed)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n10\n3/23 (Mon)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n10\n3/24 (Tue)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n10\n3/25 (Wed)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n11\n3/30 (Mon)\nSpring break\n-\n\n\n\n\n11\n3/31 (Tue)\nSpring break\n-\n\n\n\n\n11\n4/1 (Wed)\nSpring break\n-\n\n\n\n\n12\n4/6 (Mon)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n12\n4/7 (Tue)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n12\n4/8 (Wed)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n13\n4/13 (Mon)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n13\n4/14 (Tue)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n13\n4/15 (Wed)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n14\n4/20 (Mon)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n14\n4/21 (Tue)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n14\n4/22 (Wed)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n15\n4/27 (Mon)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n15\n4/28 (Tue)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n15\n4/29 (Wed)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n16\n5/4 (Mon)\nTo be decided\nTBD\n📖\n[🖥️]\n\n\n16\n5/5 (Tue)\nFinal class\nTBD\n📖\n[🖥️]",
     "crumbs": [
       "Course information",
       "Schedule"
@@ -2986,7 +3052,7 @@
     "href": "course-overview.html#individual-assessment",
     "title": "Data Science Applications in Agriculture",
     "section": "Individual assessment",
-    "text": "Individual assessment\nIt is very important to read this part as your individual assessments will be influencing your individual gradings.\nProgramming exam: at the end of the course there will be an individual programming exam in the programm Dodona. It is not allowed to use AI for this exam. The exam will consist of three programming exercises similar to the exercises covered in the course. There will be practice exams available to prepare you for this test. The date of this exam is still to be decided.\nAt the end of the course you will be evaluated on the % of weekly assignments you have coded correctly in the Dodona framework (which you will learn during the course). That percentage will be multiplied with your grade for the programming exam, resulting in your final individual grade. The individual grade will be combined with the group grade to make the final grade.\nFinishing each of the assignments within each deadline is not that difficult. You “just” need to devote the time to it. I have used this method a lot during my courses. It is not to annoy students, but to make sure the entire group keeps progressing on the programming skills during the project. You will thank me for that at a certain moment. For full transparency, I learned to code Python using a similar approach. Once I understood why this was done, I started appreciating this method as one of the most inspiring learning methods I have ever seen.",
+    "text": "Individual assessment\nIt is very important to read this part as your individual assessments will be influencing your individual gradings.\n\nDodona assignments\nAt the end of the course you will be evaluated on the % of weekly assignments you have coded correctly in the Dodona framework (which you will learn during the course). That percentage will be multiplied with your grade for the programming exam, resulting in your final individual grade. The individual grade will be combined with the group grade to make the final grade.\nFinishing each of the assignments within each deadline is not that difficult. You “just” need to devote the time to it. I have used this method a lot during my courses. It is not to annoy students, but to make sure the entire group keeps progressing on the programming skills during the project. You will thank me for that at a certain moment. For full transparency, I learned to code Python using a similar approach. Once I understood why this was done, I started appreciating this method as one of the most inspiring learning methods I have ever seen.\n\n\nProgramming exam\nAt the end of the course there will be an individual programming exam in the program Dodona (in class). It is not allowed to use generative AI for this exam (which will be monitored in class). The exam will consist of three programming exercises similar to the exercises covered in the course. There will be practice exams available to prepare you for this test. The date of this exam is still to be decided.\nYou will receive an individual score for this part.\n\n\nFinal individual score\nThe percentage of weekly correctly finished assignment will be multiplied with your programming exam, resulting in your final individual grade. Keep in mind that finishing less than 50% of your weekly assignments will result in the mathematical impossibility to pass for this component of the exam (49% * 100 &lt; 50%).",
     "crumbs": [
       "Course information",
       "Overview"
@@ -2997,7 +3063,7 @@
     "href": "course-overview.html#final-grading-scale",
     "title": "Data Science Applications in Agriculture",
     "section": "Final grading scale",
-    "text": "Final grading scale\n\n\n\nGrade\nLow\nHigh\n\n\n\n\nA+\n99.80\n100.0\n\n\nA\n93.33\n99.80\n\n\nA-\n90.00\n93.33\n\n\nB+\n86.66\n90.00\n\n\nB\n83.33\n86.66\n\n\nB-\n80.00\n83.33\n\n\nC+\n76.66\n80.00\n\n\nC\n73.33\n76.66\n\n\nC-\n70.00\n73.33\n\n\nD+\n66.66\n70.00\n\n\nD\n63.33\n66.66\n\n\nD-\n60.00\n63.36\n\n\nF\n0.00\n60.00\n\n\n\nEach grade range includes the score on the left, and excludes the score on the right. For example, a 90.0 is an A-, and not a B+. An 89.99 is a B+, not an A-.",
+    "text": "Final grading scale\nThe final scale will be a multiplication from your individual score multiplied with the group project score (we will determine jointly in one of the first lectures how the group project will be graded)\nAn example : • The group project was finally graded at 100% (which is definitely possible). • Student A successfully finished 100% of the coding assignments within each deadline, and finished the exam successfully with a score of 90%. As a result student A gets 100% * 90% * 100% = 90% as the final individual grade. • Student B only finished 50% of the coding assignments within each deadline, and finished the exam successfully with a score of 70%. As a result student B gets 50% * 70% * 100% = 35% as the final individual grade.\n\n\n\nGrade\nLow\nHigh\n\n\n\n\nA+\n99.80\n100.0\n\n\nA\n93.33\n99.80\n\n\nA-\n90.00\n93.33\n\n\nB+\n86.66\n90.00\n\n\nB\n83.33\n86.66\n\n\nB-\n80.00\n83.33\n\n\nC+\n76.66\n80.00\n\n\nC\n73.33\n76.66\n\n\nC-\n70.00\n73.33\n\n\nD+\n66.66\n70.00\n\n\nD\n63.33\n66.66\n\n\nD-\n60.00\n63.36\n\n\nF\n0.00\n60.00\n\n\n\nEach grade range includes the score on the left, and excludes the score on the right. For example, a 90.0 is an A-, and not a B+. An 89.99 is a B+, not an A-.",
     "crumbs": [
       "Course information",
       "Overview"
