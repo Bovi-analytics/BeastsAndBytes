@@ -21,7 +21,12 @@ Welcome to the exciting realm of Digital Agriculture! In this innovative course,
 
 Please take a moment to fill in this forms so we can tailor the course to your needs: [Pre-course questionnaire](https://forms.office.com/r/bDEBaU5fN1) 
 
+# Lecture - What is “decision support”?
+Overview of dairy decision‑making contexts: nutrition, health, reproduction, environment, labor.
+Introduction to farm data ecosystems.
 
+# Lab - Identify decisions made on a dairy farm.
+Outcome: Students map a set of decisions farmers make daily/weekly.
 
 ::: {style="font-size: 0.875em;"}
 Back to [course schedule](/ "Course schedule") ⏎

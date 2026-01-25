@@ -1,9 +1,57 @@
 ---
 title: "Week 2"
-subtitle: "Applying statistical techniques to real world problems"
+subtitle: "Data Foundations for Dairy Decisions"
 editor: visual
 ---
+# 🐄 Week 2 — Data Foundations
 
-Coming soon
+## 🎓 Lecture: Real Data Foundations on Dairy Farms
 
+### 1. The Reality of Dairy Farm Data
+- Diverse streams: milk meters, sensors, activity monitors, feeding systems, health logs.
+- Characteristics: heterogeneous, messy, operationally generated.
+- Importance: high-quality data improves diagnostic, predictive, and prescriptive support.
 
+### 2. Data Ownership, Stewardship & Governance
+- Farmers as primary data owners; vendors often store/manage but do not own the data.
+- Ethical considerations: privacy, competitive sensitivity, misuse risks.
+- Governance: clear data-use agreements, access permissions, audit trails.
+
+### 3. Data Organization Essentials
+- Tidy data principles: each row = observation; each column = variable.
+- Aligning time-series and event-based data across systems.
+- Metadata: sensor IDs, units, timestamps, sampling frequency.
+
+### 4. FAIR Principles in Dairy Context
+FAIR = **Findable, Accessible, Interoperable, Reusable**.
+- Findable: structured storage, logical filenames.
+- Accessible: secure but functional access controls.
+- Interoperable: open formats, consistent units.
+- Reusable: documentation and provenance tracking.
+
+### 5. Naming Conventions as a Foundation for Reproducibility
+- Standardizing variable names (`cow_id`, `milk_yield_kg`).
+- File naming conventions (`2026-02-01_milkingparlor_data.csv`).
+- Folder hierarchy: `raw/`, `cleaned/`, `analysis/`, `models/`.
+
+## 🔬 Lab: Data Cleaning & Organization
+
+### Lab Objectives
+- Discuss real datasets needed for the project.
+- How to apply FAIR-aligned organization.
+- Implement a team-level naming conventions.
+
+### Tasks
+1. Decide on datasets.
+2. Build a FAIR data dictionary (variables, units, descriptions).
+3. Apply naming conventions to files and variables.
+
+---
+
+## 📌 Learning Outcomes
+By the end of Week 2, students will be able to:
+- Explain real-world data governance and ownership.
+- Organize dairy data according to FAIR principles.
+- Clean and structure datasets for downstream simulation modeling.
+- Develop and apply naming conventions and metadata standards.
+- Understand why decision-support begins with disciplined data management.
