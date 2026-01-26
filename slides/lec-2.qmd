@@ -1,6 +1,6 @@
 ---
 title: "Lecture 2 - Reproducible & FAIR data science"
-subtitle: "ANSCI 4940 - Spring 2025"
+subtitle: "ANSCI 4040 - Spring 2026"
 author: "Ass. Prof. Dr. Miel Hostens"
 footer:  "[https://bovi-analytics.github.io/BeastsAndBytes/](https://bovi-analytics.github.io/BeastsAndBytes/)"
 logo: "images/Bovi-Analytics-SmallLogo.png"
