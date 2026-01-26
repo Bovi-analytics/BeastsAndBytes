@@ -1617,17 +1617,6 @@
     "href": "weeks/week-2.html",
     "title": "Week 2",
     "section": "",
-    "text": "Diverse streams: milk meters, sensors, activity monitors, feeding systems, health logs.\nCharacteristics: heterogeneous, messy, operationally generated.\nImportance: high-quality data improves diagnostic, predictive, and prescriptive support.\n\n\n\n\n\nFarmers as primary data owners; vendors often store/manage but do not own the data.\nEthical considerations: privacy, competitive sensitivity, misuse risks.\nGovernance: clear data-use agreements, access permissions, audit trails.\n\n\n\n\n\nTidy data principles: each row = observation; each column = variable.\nAligning time-series and event-based data across systems.\nMetadata: sensor IDs, units, timestamps, sampling frequency.\n\n\n\n\nFAIR = Findable, Accessible, Interoperable, Reusable. - Findable: structured storage, logical filenames. - Accessible: secure but functional access controls. - Interoperable: open formats, consistent units. - Reusable: documentation and provenance tracking.\n\n\n\n\nStandardizing variable names (cow_id, milk_yield_kg).\nFile naming conventions (2026-02-01_milkingparlor_data.csv).\nFolder hierarchy: raw/, cleaned/, analysis/, models/.\n\n\n\n\n\n\n\n\nDiscuss real datasets needed for the project.\nHow to apply FAIR-aligned organization.\nImplement a team-level naming conventions.\n\n\n\n\n\nDecide on datasets.\nBuild a FAIR data dictionary (variables, units, descriptions).\nApply naming conventions to files and variables.\n\n\n\n\n\n\nBy the end of Week 2, students will be able to: - Explain real-world data governance and ownership. - Organize dairy data according to FAIR principles. - Clean and structure datasets for downstream simulation modeling. - Develop and apply naming conventions and metadata standards. - Understand why decision-support begins with disciplined data management.",
-    "crumbs": [
-      "Weekly materials",
-      "Week 2"
-    ]
-  },
-  {
-    "objectID": "weeks/week-2.html#lecture-real-data-foundations-on-dairy-farms",
-    "href": "weeks/week-2.html#lecture-real-data-foundations-on-dairy-farms",
-    "title": "Week 2",
-    "section": "",
     "text": "Diverse streams: milk meters, sensors, activity monitors, feeding systems, health logs.\nCharacteristics: heterogeneous, messy, operationally generated.\nImportance: high-quality data improves diagnostic, predictive, and prescriptive support.\n\n\n\n\n\nFarmers as primary data owners; vendors often store/manage but do not own the data.\nEthical considerations: privacy, competitive sensitivity, misuse risks.\nGovernance: clear data-use agreements, access permissions, audit trails.\n\n\n\n\n\nTidy data principles: each row = observation; each column = variable.\nAligning time-series and event-based data across systems.\nMetadata: sensor IDs, units, timestamps, sampling frequency.\n\n\n\n\nFAIR = Findable, Accessible, Interoperable, Reusable. - Findable: structured storage, logical filenames. - Accessible: secure but functional access controls. - Interoperable: open formats, consistent units. - Reusable: documentation and provenance tracking.\n\n\n\n\nStandardizing variable names (cow_id, milk_yield_kg).\nFile naming conventions (2026-02-01_milkingparlor_data.csv).\nFolder hierarchy: raw/, cleaned/, analysis/, models/.",
     "crumbs": [
       "Weekly materials",
@@ -1635,22 +1624,77 @@
     ]
   },
   {
-    "objectID": "weeks/week-2.html#lab-data-cleaning-organization",
-    "href": "weeks/week-2.html#lab-data-cleaning-organization",
+    "objectID": "weeks/week-2.html#the-reality-of-dairy-farm-data",
+    "href": "weeks/week-2.html#the-reality-of-dairy-farm-data",
     "title": "Week 2",
     "section": "",
-    "text": "Discuss real datasets needed for the project.\nHow to apply FAIR-aligned organization.\nImplement a team-level naming conventions.\n\n\n\n\n\nDecide on datasets.\nBuild a FAIR data dictionary (variables, units, descriptions).\nApply naming conventions to files and variables.",
+    "text": "Diverse streams: milk meters, sensors, activity monitors, feeding systems, health logs.\nCharacteristics: heterogeneous, messy, operationally generated.\nImportance: high-quality data improves diagnostic, predictive, and prescriptive support.",
     "crumbs": [
       "Weekly materials",
       "Week 2"
     ]
   },
   {
-    "objectID": "weeks/week-2.html#learning-outcomes",
-    "href": "weeks/week-2.html#learning-outcomes",
+    "objectID": "weeks/week-2.html#data-ownership-stewardship-governance",
+    "href": "weeks/week-2.html#data-ownership-stewardship-governance",
     "title": "Week 2",
     "section": "",
-    "text": "By the end of Week 2, students will be able to: - Explain real-world data governance and ownership. - Organize dairy data according to FAIR principles. - Clean and structure datasets for downstream simulation modeling. - Develop and apply naming conventions and metadata standards. - Understand why decision-support begins with disciplined data management.",
+    "text": "Farmers as primary data owners; vendors often store/manage but do not own the data.\nEthical considerations: privacy, competitive sensitivity, misuse risks.\nGovernance: clear data-use agreements, access permissions, audit trails.",
+    "crumbs": [
+      "Weekly materials",
+      "Week 2"
+    ]
+  },
+  {
+    "objectID": "weeks/week-2.html#data-organization-essentials",
+    "href": "weeks/week-2.html#data-organization-essentials",
+    "title": "Week 2",
+    "section": "",
+    "text": "Tidy data principles: each row = observation; each column = variable.\nAligning time-series and event-based data across systems.\nMetadata: sensor IDs, units, timestamps, sampling frequency.",
+    "crumbs": [
+      "Weekly materials",
+      "Week 2"
+    ]
+  },
+  {
+    "objectID": "weeks/week-2.html#fair-principles-in-dairy-context",
+    "href": "weeks/week-2.html#fair-principles-in-dairy-context",
+    "title": "Week 2",
+    "section": "",
+    "text": "FAIR = Findable, Accessible, Interoperable, Reusable. - Findable: structured storage, logical filenames. - Accessible: secure but functional access controls. - Interoperable: open formats, consistent units. - Reusable: documentation and provenance tracking.",
+    "crumbs": [
+      "Weekly materials",
+      "Week 2"
+    ]
+  },
+  {
+    "objectID": "weeks/week-2.html#naming-conventions-as-a-foundation-for-reproducibility",
+    "href": "weeks/week-2.html#naming-conventions-as-a-foundation-for-reproducibility",
+    "title": "Week 2",
+    "section": "",
+    "text": "Standardizing variable names (cow_id, milk_yield_kg).\nFile naming conventions (2026-02-01_milkingparlor_data.csv).\nFolder hierarchy: raw/, cleaned/, analysis/, models/.",
+    "crumbs": [
+      "Weekly materials",
+      "Week 2"
+    ]
+  },
+  {
+    "objectID": "weeks/week-2.html#lab-objectives",
+    "href": "weeks/week-2.html#lab-objectives",
+    "title": "Week 2",
+    "section": "Lab Objectives",
+    "text": "Lab Objectives\n\nDiscuss real datasets needed for the project.\nHow to apply FAIR-aligned organization.\nImplement a team-level naming conventions.",
+    "crumbs": [
+      "Weekly materials",
+      "Week 2"
+    ]
+  },
+  {
+    "objectID": "weeks/week-2.html#tasks",
+    "href": "weeks/week-2.html#tasks",
+    "title": "Week 2",
+    "section": "Tasks",
+    "text": "Tasks\n\nDecide on datasets.\nBuild a FAIR data dictionary (variables, units, descriptions).\nApply naming conventions to files and variables.",
     "crumbs": [
       "Weekly materials",
       "Week 2"
@@ -2021,7 +2065,7 @@
     "href": "slides/lec-11.html#sec-current",
     "title": "Data transformations",
     "section": "Current",
-    "text": "Current\nTo get the current date or date-time you can use today() or now():\n\ntoday()\n\n[1] \"2026-01-25\"\n\nnow()\n\n[1] \"2026-01-25 23:25:50 UTC\""
+    "text": "Current\nTo get the current date or date-time you can use today() or now():\n\ntoday()\n\n[1] \"2026-01-26\"\n\nnow()\n\n[1] \"2026-01-26 02:05:49 UTC\""
   },
   {
     "objectID": "slides/lec-11.html#sec-dt-import-1",
@@ -2126,14 +2170,14 @@
     "href": "slides/lec-11.html#sec-duration-1",
     "title": "Data transformations",
     "section": "Durations",
-    "text": "Durations\nIn R, when you subtract two dates, you get a difftime object:\n\n# How old is Miel?\nh_age &lt;- today() - ymd(\"1982-04-27\")\nh_age\n\nTime difference of 15979 days"
+    "text": "Durations\nIn R, when you subtract two dates, you get a difftime object:\n\n# How old is Miel?\nh_age &lt;- today() - ymd(\"1982-04-27\")\nh_age\n\nTime difference of 15980 days"
   },
   {
     "objectID": "slides/lec-11.html#sec-duration-2",
     "href": "slides/lec-11.html#sec-duration-2",
     "title": "Data transformations",
     "section": "Durations",
-    "text": "Durations\nA difftime class object records a time span of seconds, minutes, hours, days, or weeks.\nThis ambiguity can make difftimes a little painful to work with, so lubridate provides an alternative which always uses seconds: the duration.\n\nas.duration(h_age)\n\n[1] \"1380585600s (~43.75 years)\""
+    "text": "Durations\nA difftime class object records a time span of seconds, minutes, hours, days, or weeks.\nThis ambiguity can make difftimes a little painful to work with, so lubridate provides an alternative which always uses seconds: the duration.\n\nas.duration(h_age)\n\n[1] \"1380672000s (~43.75 years)\""
   },
   {
     "objectID": "slides/lec-11.html#sec-duration-3",
@@ -2161,7 +2205,7 @@
     "href": "slides/lec-11.html#sec-duration-6",
     "title": "Data transformations",
     "section": "Add and substract durations",
-    "text": "Add and substract durations\nYou can add and subtract durations to and from days:\n\ntomorrow &lt;- today() + ddays(1)\ntomorrow\n\n[1] \"2026-01-26\"\n\nlast_year &lt;- today() - dyears(1)\nlast_year\n\n[1] \"2025-01-24 18:00:00 UTC\""
+    "text": "Add and substract durations\nYou can add and subtract durations to and from days:\n\ntomorrow &lt;- today() + ddays(1)\ntomorrow\n\n[1] \"2026-01-27\"\n\nlast_year &lt;- today() - dyears(1)\nlast_year\n\n[1] \"2025-01-25 18:00:00 UTC\""
   },
   {
     "objectID": "slides/lec-11.html#sec-duration-7",
