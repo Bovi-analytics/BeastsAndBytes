@@ -10,47 +10,47 @@ Note that this schedule will be updated as the course progresses, with all chang
 |:---:|:------:|-------------------------------|--------------|:-------:|:-------:|
 | 1 | 1/20 (Tue) | Introduction to Python programming | Meike | [📖](https://forms.office.com/r/bDEBaU5fN1) | [🖥️](slides/lec-1.html) |
 | 1 | 1/21 (Wed) | Introduction to decision support | Meike | [📖](https://www.ibm.com/think/topics/data-driven-decision-making) | [🖥️](slides/discussion_1.html) |
-| 2 | 1/26 (Mon) | Cancelled -> Lec moved to lab | Dr. Hostens | [📖] (weeks/week-2.html))| [🖥️](slides/lec-2.html) |
+| 2 | 1/26 (Mon) | Cancelled -> Lec moved to lab | Dr. Hostens | [📖] (weeks/week-2.html)| [🖥️](slides/lec-2.html) |
 | 2 | 1/27 (Tue) | Introduction to the project | Dr. Hostens | 📖 | [🖥️](slides/lec-1.html)|
 | 2 | 1/28 (Wed) | Project discussion | Dr. Hostens | - | -️ |
-| 3 | 2/2 (Mon) | To be decided | TBD | 📖 | 🖥️ |
-| 3 | 2/3 (Tue) | To be decided | TBD | 📖 | 🖥️ |
-| 3 | 2/4 (Wed) | Guest lecture - ONLINE | [Dr. de Vries](https://animal.ifas.ufl.edu/people/albert-de-vries/) | 📖 | [🖥️] |
-| 4 | 2/9 (Mon) | To be decided | TBD | 📖 | 🖥️ |
-| 4 | 2/10 (Tue) | To be decided | TBD | 📖 | 🖥️ |
+| 3 | 2/2 (Mon) | RUFAS | H. Hu | 📖 | 🖥️ |
+| 3 | 2/3 (Tue) | Programming assignment | TBD | 📖 | 🖥️ |
+| 3 | 2/4 (Wed) | Project discussion with farmer | Dr. Hostens or TAs | 📖 | [🖥️] |
+| 4 | 2/9 (Mon) | Guest lecture - ONLINE | [Dr. de Vries](https://animal.ifas.ufl.edu/people/albert-de-vries/)  | 📖 | 🖥️ |
+| 4 | 2/10 (Tue) | Programming assignment | TAs | 📖 | 🖥️ |
 | 4 | 2/11 (Wed) | Project discussion | Dr. Hostens or TAs | 📖 | 🖥️ |
 | 5 | 2/16 (Mon) | February break | - | - | - |
 | 5 | 2/17 (Tue) | February break | - | - | - |
 | 5 | 2/18 (Wed) | Project discussion | Dr. Hostens or TAs | 📖 | 🖥️ |
 | 6 | 2/23 (Mon) | To be decided | TBD | 📖 | 🖥️ |
-| 6 | 2/24 (Tue) | To be decided | TBD | 📖 | 🖥️ |
+| 6 | 2/24 (Tue) | Programming assignment | TAs | 📖 | 🖥️ |
 | 6 | 2/25 (Wed) | Project discussion | Dr. Hostens or TAs | 📖 | 🖥️ |
 | 7 | 3/2 (Mon) | To be decided | TBD | 📖 | 🖥️ |
-| 7 | 3/3 (Tue) | To be decided | TBD | 📖 | 🖥️ |
+| 7 | 3/3 (Tue) | Programming assignment | TAs | 📖 | 🖥️ |
 | 7 | 3/4 (Wed) | Project discussion | Dr. Hostens or TAs | 📖 | 🖥️ |
 | 8 | 3/9 (Mon) | To be decided | TBD | 📖 | 🖥️ |
-| 8 | 3/10 (Tue) | To be decided | TBD | 📖 | 🖥️ |
+| 8 | 3/10 (Tue) | Programming assignment | TAs | 📖 | 🖥️ |
 | 8 | 3/11 (Wed) | Project discussion | Dr. Hostens or TAs | 📖 | 🖥️ |
 | 9 | 3/16 (Mon) | To be decided | TBD | 📖 | 🖥️ |
-| 9 | 3/17 (Tue) | To be decided | TBD | 📖 | 🖥️ |
+| 9 | 3/17 (Tue) | Programming assignment | TAs | 📖 | 🖥️ |
 | 9 | 3/18 (Wed) | Project discussion | Dr. Hostens or TAs | 📖 | 🖥️ |
 |10 | 3/23 (Mon) | To be decided | TBD | 📖 | 🖥️ |
-|10 | 3/24 (Tue) | To be decided | TBD | 📖 | 🖥️ |
+|10 | 3/24 (Tue) | Programming assignment | TAs | 📖 | 🖥️ |
 |10 | 3/25 (Wed) | Project discussion | Dr. Hostens or TAs | 📖 | 🖥️ |
 |11 | 3/30 (Mon) | Spring break | - |  |  |
 |11 | 3/31 (Tue) | Spring break | - |  |  |
 |11 | 4/1 (Wed)  | Spring break | - |  |  |
 |12 | 4/6 (Mon) | To be decided | TBD | 📖 | 🖥️ |
-|12 | 4/7 (Tue) | To be decided | TBD | 📖 | 🖥️ |
+|12 | 4/7 (Tue) | Programming assignment | TAs | 📖 | 🖥️ |
 |12 | 4/8 (Wed) | Project discussion | Dr. Hostens or TAs | 📖 | 🖥️ |
 |13 | 4/13 (Mon) | To be decided | TBD | 📖 | 🖥️ |
-|13 | 4/14 (Tue) | To be decided | TBD | 📖 | 🖥️ |
+|13 | 4/14 (Tue) | Programming assignment | TAs | 📖 | 🖥️ |
 |13 | 4/15 (Wed) | Project discussion | Dr. Hostens or TAs | 📖 | 🖥️ |
 |14 | 4/20 (Mon) | To be decided | TBD | 📖 | 🖥️ |
-|14 | 4/21 (Tue) | To be decided | TBD | 📖 | 🖥️ |
+|14 | 4/21 (Tue) | Programming assignment | TAs | 📖 | 🖥️ |
 |14 | 4/22 (Wed) | Project discussion | Dr. Hostens or TAs | 📖 | 🖥️ |
 |15 | 4/27 (Mon) | To be decided | TBD | 📖 | 🖥️ |
-|15 | 4/28 (Tue) | To be decided | TBD | 📖 | 🖥️ |
+|15 | 4/28 (Tue) | Programming assignment | TAs | 📖 | 🖥️ |
 |15 | 4/29 (Wed) | Project discussion | Dr. Hostens or TAs | 📖 | 🖥️ |
 |16 | 5/4 (Mon) | To be decided | TBD | 📖 | 🖥️ |
 |16 | 5/5 (Tue) | Final class | TBD | 📖 | 🖥️ |
