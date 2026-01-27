@@ -10,7 +10,7 @@ Note that this schedule will be updated as the course progresses, with all chang
 |:---:|:------:|-------------------------------|--------------|:-------:|:-------:|
 | 1 | 1/20 (Tue) | Introduction to Python programming | Meike van Leerdam | [📖](https://forms.office.com/r/bDEBaU5fN1) | [🖥️](slides/lec-1.html) |
 | 1 | 1/21 (Wed) | Introduction to decision support | Meike van Leerdam | [📖](https://www.ibm.com/think/topics/data-driven-decision-making) | [🖥️](slides/discussion_1.html) |
-| 2 | 1/26 (Mon) | Cancelled -> Lec moved to lab | Dr. Hostens | [📖] (weeks/week-2.html)| [🖥️](slides/lec-2.html) |
+| 2 | 1/26 (Mon) | Cancelled -> Lec moved to lab | Dr. Hostens | [📖](weeks/week-2.html)| [🖥️](slides/lec-2.html) |
 | 2 | 1/27 (Tue) | Introduction to the project | Dr. Hostens | 📖 | [🖥️](slides/lec-1.html)|
 | 2 | 1/28 (Wed) | Project discussion | Dr. Hostens | - | -️ |
 | 3 | 2/2 (Mon) | RUFAS | H. Hu | 📖 | 🖥️ |
