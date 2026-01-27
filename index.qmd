@@ -13,7 +13,7 @@ Note that this schedule will be updated as the course progresses, with all chang
 | 2 | 1/26 (Mon) | Cancelled -> Lec moved to lab | Dr. Hostens | [📖](weeks/week-2.html)| [🖥️](slides/lec-2.html) |
 | 2 | 1/27 (Tue) | Introduction to the project | Dr. Hostens | 📖 | [🖥️](slides/lec-1.html)|
 | 2 | 1/28 (Wed) | Project discussion | Dr. Hostens | - | -️ |
-| 3 | 2/2 (Mon) | RUFAS | H. Hu | 📖 | 🖥️ |
+| 3 | 2/2 (Mon) | RUFAS | H. Hu | [📖](https://www.jdscommun.org/article/S2666-9102(25)00195-4/fulltext) | 🖥️ |
 | 3 | 2/3 (Tue) | Programming assignment | TAs | 📖 | 🖥️ |
 | 3 | 2/4 (Wed) | Data transfer and governance | Meike van Leerdam | 📖 | [🖥️] |
 | 4 | 2/9 (Mon) | Guest lecture - [ONLINE](https://teams.microsoft.com/meet/2793529249127?p=SOTWGPJVrtZBDhyGsu) | [Dr. de Vries](https://animal.ifas.ufl.edu/people/albert-de-vries/)  | 📖 | 🖥️ |
