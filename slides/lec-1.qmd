@@ -106,9 +106,9 @@ Sign in to Dodona using your Cornell Microsoft365 or Google sign-in
 
 ## Weekly programming assignment
 
-Subscribe to this course <https://dodona.be/en/courses/4716/?secret=czy8G>
+Subscribe to this course <https://dodona.be/en/courses/5788/?secret=HqNPN>
 
-![](images/clipboard-1256781166.png){width="298"}
+![](images/clipboard-4110287863.png){width="321"}
 
 ## Weekly programming assignment
 
@@ -116,13 +116,13 @@ Subscribe to this course <https://dodona.be/en/courses/4716/?secret=czy8G>
 
 **Make sure to reach each of the deadlines**
 
-| Deadline                | Assignment              |
-|-------------------------|-------------------------|
-| Monday, Jan 26th 24:00  | Python Basics           |
-| Monday, Feb 2nd 24:00   | Conditional statements  |
-| Monday. Feb 8th 24:00   | Loops                   |
-| Monday, Feb 15th 24:00  | Strings                 |
-| Monday, Feb 22th 24:00  | ...                     |
+| Deadline               | Assignment             |
+|------------------------|------------------------|
+| Monday, Jan 26th 24:00 | Python Basics          |
+| Monday, Feb 2nd 24:00  | Conditional statements |
+| Monday. Feb 8th 24:00  | Loops                  |
+| Monday, Feb 15th 24:00 | Strings                |
+| Monday, Feb 22th 24:00 | ...                    |
 
 </div>
 
@@ -146,16 +146,14 @@ Subscribe to this course <https://dodona.be/en/courses/4716/?secret=czy8G>
 
 ## Grading {.smaller}
 
-Update because of genAI:
-- Project score (50%) - We will determine the grades for the team project score together (50% of your score)
-- Individual score (50%) - Individual coding assignments (%) * Coding exam (%).
+Update because of genAI: - Project score (50%) - We will determine the grades for the team project score together (50% of your score) - Individual score (50%) - Individual coding assignments (%) \* Coding exam (%).
 
 Example:
 
 -   Your team project is graded as a group to 20/20 (50%)
 -   You individually submitted 80% correct assignments
 -   Your coding exam 90% correct assignments
--   Your end score is (50% * 100%) + (50% * 80% * 90%) = 86%
+-   Your end score is (50% \* 100%) + (50% \* 80% \* 90%) = 86%
 
 ## Support
 
