@@ -1,8 +1,6 @@
 ---
 title: "Project description"
 ---
-# Project Description
-
 The central component of this course is a semester‑long, team‑based project in which students tackle a real, data‑intensive challenge faced by a working dairy or agricultural operation. This project forms the backbone of the learning experience and is designed to immerse students in the full lifecycle of data‑driven problem solving—spanning communication, research, data governance, coding, analysis, stakeholder interaction, and the development of a practical and implementable solution. Rather than working with simulated or sanitized datasets, students engage directly with authentic farm data, farmers, and industry partners. This ensures that the outcomes are both academically rigorous and genuinely useful to the agricultural community.
 
 ## A Real-World Problem
