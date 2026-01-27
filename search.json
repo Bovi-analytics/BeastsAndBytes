@@ -1946,7 +1946,7 @@
     "href": "slides/lec-1.html#weekly-programming-assignment-2",
     "title": "Lecture 1 - Meet + greet",
     "section": "Weekly programming assignment",
-    "text": "Weekly programming assignment\nSubscribe to this course https://dodona.be/en/courses/4716/?secret=czy8G"
+    "text": "Weekly programming assignment\nSubscribe to this course https://dodona.be/en/courses/5788/?secret=HqNPN"
   },
   {
     "objectID": "slides/lec-1.html#weekly-programming-assignment-3",
@@ -2065,7 +2065,7 @@
     "href": "slides/lec-11.html#sec-current",
     "title": "Data transformations",
     "section": "Current",
-    "text": "Current\nTo get the current date or date-time you can use today() or now():\n\ntoday()\n\n[1] \"2026-01-27\"\n\nnow()\n\n[1] \"2026-01-27 01:06:10 UTC\""
+    "text": "Current\nTo get the current date or date-time you can use today() or now():\n\ntoday()\n\n[1] \"2026-01-27\"\n\nnow()\n\n[1] \"2026-01-27 01:17:55 UTC\""
   },
   {
     "objectID": "slides/lec-11.html#sec-dt-import-1",
