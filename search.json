@@ -1617,7 +1617,7 @@
     "href": "weeks/week-2.html",
     "title": "Week 2",
     "section": "",
-    "text": "Diverse streams: milk meters, sensors, activity monitors, feeding systems, health logs.\nCharacteristics: heterogeneous, messy, operationally generated.\nImportance: high-quality data improves diagnostic, predictive, and prescriptive support.\n\n\n\n\n\nFarmers as primary data owners; vendors often store/manage but do not own the data.\nEthical considerations: privacy, competitive sensitivity, misuse risks.\nGovernance: clear data-use agreements, access permissions, audit trails.\n\n\n\n\n\nTidy data principles: each row = observation; each column = variable.\nAligning time-series and event-based data across systems.\nMetadata: sensor IDs, units, timestamps, sampling frequency.\n\n\n\n\nFAIR = Findable, Accessible, Interoperable, Reusable. - Findable: structured storage, logical filenames. - Accessible: secure but functional access controls. - Interoperable: open formats, consistent units. - Reusable: documentation and provenance tracking.\n\n\n\n\nStandardizing variable names (cow_id, milk_yield_kg).\nFile naming conventions (2026-02-01_milkingparlor_data.csv).\nFolder hierarchy: raw/, cleaned/, analysis/, models/.",
+    "text": "By the end of Week 2, students will be able to: - Explain real-world data governance and ownership. - Organize dairy data according to FAIR principles. - Clean and structure datasets for downstream simulation modeling. - Develop and apply naming conventions and metadata standards. - Understand why decision-support begins with disciplined data management.",
     "crumbs": [
       "Weekly materials",
       "Week 2"
@@ -1627,8 +1627,8 @@
     "objectID": "weeks/week-2.html#the-reality-of-dairy-farm-data",
     "href": "weeks/week-2.html#the-reality-of-dairy-farm-data",
     "title": "Week 2",
-    "section": "",
-    "text": "Diverse streams: milk meters, sensors, activity monitors, feeding systems, health logs.\nCharacteristics: heterogeneous, messy, operationally generated.\nImportance: high-quality data improves diagnostic, predictive, and prescriptive support.",
+    "section": "1. The Reality of Dairy Farm Data",
+    "text": "1. The Reality of Dairy Farm Data\n\nDiverse streams: milk meters, sensors, activity monitors, feeding systems, health logs.\nCharacteristics: heterogeneous, messy, operationally generated.\nImportance: high-quality data improves diagnostic, predictive, and prescriptive support.",
     "crumbs": [
       "Weekly materials",
       "Week 2"
@@ -1638,8 +1638,8 @@
     "objectID": "weeks/week-2.html#data-ownership-stewardship-governance",
     "href": "weeks/week-2.html#data-ownership-stewardship-governance",
     "title": "Week 2",
-    "section": "",
-    "text": "Farmers as primary data owners; vendors often store/manage but do not own the data.\nEthical considerations: privacy, competitive sensitivity, misuse risks.\nGovernance: clear data-use agreements, access permissions, audit trails.",
+    "section": "2. Data Ownership, Stewardship & Governance",
+    "text": "2. Data Ownership, Stewardship & Governance\n\nFarmers as primary data owners; vendors often store/manage but do not own the data.\nEthical considerations: privacy, competitive sensitivity, misuse risks.\nGovernance: clear data-use agreements, access permissions, audit trails.",
     "crumbs": [
       "Weekly materials",
       "Week 2"
@@ -1649,8 +1649,8 @@
     "objectID": "weeks/week-2.html#data-organization-essentials",
     "href": "weeks/week-2.html#data-organization-essentials",
     "title": "Week 2",
-    "section": "",
-    "text": "Tidy data principles: each row = observation; each column = variable.\nAligning time-series and event-based data across systems.\nMetadata: sensor IDs, units, timestamps, sampling frequency.",
+    "section": "3. Data Organization Essentials",
+    "text": "3. Data Organization Essentials\n\nTidy data principles: each row = observation; each column = variable.\nAligning time-series and event-based data across systems.\nMetadata: sensor IDs, units, timestamps, sampling frequency.",
     "crumbs": [
       "Weekly materials",
       "Week 2"
@@ -1660,8 +1660,8 @@
     "objectID": "weeks/week-2.html#fair-principles-in-dairy-context",
     "href": "weeks/week-2.html#fair-principles-in-dairy-context",
     "title": "Week 2",
-    "section": "",
-    "text": "FAIR = Findable, Accessible, Interoperable, Reusable. - Findable: structured storage, logical filenames. - Accessible: secure but functional access controls. - Interoperable: open formats, consistent units. - Reusable: documentation and provenance tracking.",
+    "section": "4. FAIR Principles in Dairy Context",
+    "text": "4. FAIR Principles in Dairy Context\nFAIR = Findable, Accessible, Interoperable, Reusable. - Findable: structured storage, logical filenames. - Accessible: secure but functional access controls. - Interoperable: open formats, consistent units. - Reusable: documentation and provenance tracking.",
     "crumbs": [
       "Weekly materials",
       "Week 2"
@@ -1671,30 +1671,8 @@
     "objectID": "weeks/week-2.html#naming-conventions-as-a-foundation-for-reproducibility",
     "href": "weeks/week-2.html#naming-conventions-as-a-foundation-for-reproducibility",
     "title": "Week 2",
-    "section": "",
-    "text": "Standardizing variable names (cow_id, milk_yield_kg).\nFile naming conventions (2026-02-01_milkingparlor_data.csv).\nFolder hierarchy: raw/, cleaned/, analysis/, models/.",
-    "crumbs": [
-      "Weekly materials",
-      "Week 2"
-    ]
-  },
-  {
-    "objectID": "weeks/week-2.html#lab-objectives",
-    "href": "weeks/week-2.html#lab-objectives",
-    "title": "Week 2",
-    "section": "Lab Objectives",
-    "text": "Lab Objectives\n\nDiscuss real datasets needed for the project.\nHow to apply FAIR-aligned organization.\nImplement a team-level naming conventions.",
-    "crumbs": [
-      "Weekly materials",
-      "Week 2"
-    ]
-  },
-  {
-    "objectID": "weeks/week-2.html#tasks",
-    "href": "weeks/week-2.html#tasks",
-    "title": "Week 2",
-    "section": "Tasks",
-    "text": "Tasks\n\nDecide on datasets.\nBuild a FAIR data dictionary (variables, units, descriptions).\nApply naming conventions to files and variables.",
+    "section": "5. Naming Conventions as a Foundation for Reproducibility",
+    "text": "5. Naming Conventions as a Foundation for Reproducibility\n\nStandardizing variable names (cow_id, milk_yield_kg).\nFile naming conventions (2026-02-01_milkingparlor_data.csv).\nFolder hierarchy: raw/, cleaned/, analysis/, models/.",
     "crumbs": [
       "Weekly materials",
       "Week 2"
@@ -2065,7 +2043,7 @@
     "href": "slides/lec-11.html#sec-current",
     "title": "Data transformations",
     "section": "Current",
-    "text": "Current\nTo get the current date or date-time you can use today() or now():\n\ntoday()\n\n[1] \"2026-01-27\"\n\nnow()\n\n[1] \"2026-01-27 01:24:59 UTC\""
+    "text": "Current\nTo get the current date or date-time you can use today() or now():\n\ntoday()\n\n[1] \"2026-01-27\"\n\nnow()\n\n[1] \"2026-01-27 02:05:55 UTC\""
   },
   {
     "objectID": "slides/lec-11.html#sec-dt-import-1",
