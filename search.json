@@ -103,7 +103,7 @@
     "href": "course-overview.html#final-grading-scale",
     "title": "Data Science Applications in Agriculture",
     "section": "Final grading scale",
-    "text": "Final grading scale\nThe final scale will be a multiplication from your individual score multiplied with the group project score (we will determine jointly in one of the first lectures how the group project will be graded)\nAn example : * The group project was finally graded at 100% (which is definitely possible). * Student A successfully finished 100% of the coding assignments within each deadline, and finished the exam successfully with a score of 90%. As a result student A gets 100% * 90% * 100% = 90% as the final individual grade. * Student B only finished 50% of the coding assignments within each deadline, and finished the exam successfully with a score of 70%. As a result student B gets 50% * 70% * 100% = 35% as the final individual grade.\n\n\n\nGrade\nLow\nHigh\n\n\n\n\nA+\n99.80\n100.0\n\n\nA\n93.33\n99.80\n\n\nA-\n90.00\n93.33\n\n\nB+\n86.66\n90.00\n\n\nB\n83.33\n86.66\n\n\nB-\n80.00\n83.33\n\n\nC+\n76.66\n80.00\n\n\nC\n73.33\n76.66\n\n\nC-\n70.00\n73.33\n\n\nD+\n66.66\n70.00\n\n\nD\n63.33\n66.66\n\n\nD-\n60.00\n63.36\n\n\nF\n0.00\n60.00\n\n\n\nEach grade range includes the score on the left, and excludes the score on the right. For example, a 90.0 is an A-, and not a B+. An 89.99 is a B+, not an A-.",
+    "text": "Final grading scale\nThe final scale will combine your individual score (50%) and group project score (50%). We will determine jointly in one of the first lectures how the group project will be graded.\nAn example : - The group project was finally graded at 100% (which is definitely possible). - Student A successfully finished 100% of the coding assignments within each deadline, and finished the exam successfully with a score of 90%. As a result student A gets (50% * 100%) + (50% * 100% * 90%) = 95% as the final individual grade. - Student B only finished 50% of the coding assignments within each deadline, and finished the exam successfully with a score of 70%. As a result student B gets (50% * 100%) + (50% * 50% * 70%) = 67% as the final individual grade.\n\n\n\nGrade\nLow\nHigh\n\n\n\n\nA+\n99.80\n100.0\n\n\nA\n93.33\n99.80\n\n\nA-\n90.00\n93.33\n\n\nB+\n86.66\n90.00\n\n\nB\n83.33\n86.66\n\n\nB-\n80.00\n83.33\n\n\nC+\n76.66\n80.00\n\n\nC\n73.33\n76.66\n\n\nC-\n70.00\n73.33\n\n\nD+\n66.66\n70.00\n\n\nD\n63.33\n66.66\n\n\nD-\n60.00\n63.36\n\n\nF\n0.00\n60.00\n\n\n\nEach grade range includes the score on the left, and excludes the score on the right. For example, a 90.0 is an A-, and not a B+. An 89.99 is a B+, not an A-.",
     "crumbs": [
       "Course information",
       "Overview"
@@ -1960,21 +1960,21 @@
     "href": "slides/lec-1.html#homepage",
     "title": "Lecture 1 - Meet + greet",
     "section": "Homepage",
-    "text": "Homepage\nhttps://github.com/Bovi-analytics/Beasts & Bytes\n\nAll relevant course materials (and history)\nLinks to Teams, GitHub, Dodona, etc.\nLet’s take a tour!"
+    "text": "Homepage\nhttps://github.com/Bovi-analytics/BeastsAndBytes\n\nAll relevant course materials (and history)\nLinks to Teams, GitHub, Dodona, etc.\nLet’s take a tour!"
   },
   {
     "objectID": "slides/lec-1.html#activities-prepare-participate-practice-perform",
     "href": "slides/lec-1.html#activities-prepare-participate-practice-perform",
     "title": "Lecture 1 - Meet + greet",
     "section": "Activities: Prepare, Participate, Practice, Perform",
-    "text": "Activities: Prepare, Participate, Practice, Perform\n\nPrepare: Introduce new content and prepare for lectures by completing the readings\nParticipate: Attend and actively participate in lectures and labs, herd visits\nPractice: Practice your programming skills\nPerform: Put together what you’ve learned to analyze real-world data\n\nDodona assignments"
+    "text": "Activities: Prepare, Participate, Practice, Perform\n\nPrepare: Introduce new content and prepare for lectures by completing the readings\nParticipate: Attend and actively participate in lectures and labs, herd visits\nPractice: Practice your programming skills\nPerform: Put together what you’ve learned to analyze real-world data\nDodona assignments"
   },
   {
     "objectID": "slides/lec-1.html#grading",
     "href": "slides/lec-1.html#grading",
     "title": "Lecture 1 - Meet + greet",
     "section": "Grading",
-    "text": "Grading\nThe overall team project score will be multiplied by the % of correctly submitted weekly assignments and coding exam individually.\nExample:\n\nYour team project is graded as a group to 16/20\nYou individually submitted 80% correct assignments\nYour coding exam 90% correct assignments\nYour end score is 0.80.918/20 = …"
+    "text": "Grading\nUpdate because of genAI: - Project score (50%) - We will determine the grades for the team project score together (50% of your score) - Individual score (50%) - Individual coding assignments (%) * Coding exam (%).\nExample:\n\nYour team project is graded as a group to 20/20 (50%)\nYou individually submitted 80% correct assignments\nYour coding exam 90% correct assignments\nYour end score is (50% * 100%) + (50% * 80% * 90%) = 86%"
   },
   {
     "objectID": "slides/lec-1.html#support",
@@ -2065,7 +2065,7 @@
     "href": "slides/lec-11.html#sec-current",
     "title": "Data transformations",
     "section": "Current",
-    "text": "Current\nTo get the current date or date-time you can use today() or now():\n\ntoday()\n\n[1] \"2026-01-26\"\n\nnow()\n\n[1] \"2026-01-26 18:54:00 UTC\""
+    "text": "Current\nTo get the current date or date-time you can use today() or now():\n\ntoday()\n\n[1] \"2026-01-27\"\n\nnow()\n\n[1] \"2026-01-27 01:03:37 UTC\""
   },
   {
     "objectID": "slides/lec-11.html#sec-dt-import-1",
@@ -2170,14 +2170,14 @@
     "href": "slides/lec-11.html#sec-duration-1",
     "title": "Data transformations",
     "section": "Durations",
-    "text": "Durations\nIn R, when you subtract two dates, you get a difftime object:\n\n# How old is Miel?\nh_age &lt;- today() - ymd(\"1982-04-27\")\nh_age\n\nTime difference of 15980 days"
+    "text": "Durations\nIn R, when you subtract two dates, you get a difftime object:\n\n# How old is Miel?\nh_age &lt;- today() - ymd(\"1982-04-27\")\nh_age\n\nTime difference of 15981 days"
   },
   {
     "objectID": "slides/lec-11.html#sec-duration-2",
     "href": "slides/lec-11.html#sec-duration-2",
     "title": "Data transformations",
     "section": "Durations",
-    "text": "Durations\nA difftime class object records a time span of seconds, minutes, hours, days, or weeks.\nThis ambiguity can make difftimes a little painful to work with, so lubridate provides an alternative which always uses seconds: the duration.\n\nas.duration(h_age)\n\n[1] \"1380672000s (~43.75 years)\""
+    "text": "Durations\nA difftime class object records a time span of seconds, minutes, hours, days, or weeks.\nThis ambiguity can make difftimes a little painful to work with, so lubridate provides an alternative which always uses seconds: the duration.\n\nas.duration(h_age)\n\n[1] \"1380758400s (~43.75 years)\""
   },
   {
     "objectID": "slides/lec-11.html#sec-duration-3",
@@ -2205,7 +2205,7 @@
     "href": "slides/lec-11.html#sec-duration-6",
     "title": "Data transformations",
     "section": "Add and substract durations",
-    "text": "Add and substract durations\nYou can add and subtract durations to and from days:\n\ntomorrow &lt;- today() + ddays(1)\ntomorrow\n\n[1] \"2026-01-27\"\n\nlast_year &lt;- today() - dyears(1)\nlast_year\n\n[1] \"2025-01-25 18:00:00 UTC\""
+    "text": "Add and substract durations\nYou can add and subtract durations to and from days:\n\ntomorrow &lt;- today() + ddays(1)\ntomorrow\n\n[1] \"2026-01-28\"\n\nlast_year &lt;- today() - dyears(1)\nlast_year\n\n[1] \"2025-01-26 18:00:00 UTC\""
   },
   {
     "objectID": "slides/lec-11.html#sec-duration-7",
