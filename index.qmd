@@ -15,7 +15,7 @@ Note that this schedule will be updated as the course progresses, with all chang
 | 2 | 1/28 (Wed) | Project discussion | Dr. Hostens | - | -️ |
 | 3 | 2/2 (Mon) | Work on Dodona at home 
 | 3 | 2/3 (Tue) | RUFAS lecture and programming assignment | H. Hu and K. Reed | [📖](https://www.jdscommun.org/article/S2666-9102(25)00195-4/fulltext) | 🖥️ |
-| 3 | 2/4 (Wed) | Data transfer and governance | Meike van Leerdam | 📖 | [🖥️] |
+| 3 | 2/4 (Wed) | Project discussion | Meike van Leerdam | 📖 | [🖥️] |
 | 4 | 2/9 (Mon) | Guest lecture (https://teams.microsoft.com/meet/2793529249127?p=SOTWGPJVrtZBDhyGsu) | [Dr. de Vries](https://animal.ifas.ufl.edu/people/albert-de-vries/)  | 📖 | 🖥️ |
 | 4 | 2/10 (Tue) | Programming assignment | TAs | 📖 | 🖥️ |
 | 4 | 2/11 (Wed) | Project discussion with farmer | D. Westfall & M. van Leerdam | 📖 | 🖥️ |
@@ -25,7 +25,7 @@ Note that this schedule will be updated as the course progresses, with all chang
 | 6 | 2/23 (Mon) | To be decided | TBD | 📖 | 🖥️ |
 | 6 | 2/24 (Tue) | Programming assignment | TAs | 📖 | 🖥️ |
 | 6 | 2/25 (Wed) | Project discussion | Dr. Hostens or TAs | 📖 | 🖥️ |
-| 7 | 3/2 (Mon) | To be decided | TBD | 📖 | 🖥️ |
+| 7 | 3/2 (Mon) | MyCow$ | Dr. Giordano | 📖 | 🖥️ |
 | 7 | 3/3 (Tue) | Programming assignment | TAs | - | -️ |
 | 7 | 3/4 (Wed) | Project discussion | Dr. Hostens or TAs | 📖 | 🖥️ |
 | 8 | 3/9 (Mon) | To be decided | TBD | 📖 | 🖥️ |
