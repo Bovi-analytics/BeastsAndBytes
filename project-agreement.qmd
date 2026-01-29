@@ -1,0 +1,24 @@
+---
+title: "A+ Project grading"
+---
+
+## A+ Grading Eligibility Checklist
+The following goals were agreed upon on **January 27** as required elements for earning an **A+** in the final project for the *Beasts & Bytes – Data Science Applications in Agriculture* course (Instructor: M. Hostens).
+
+At the end of the course—after the final presentation—these checkboxes can be validated.
+
+| Requirement | Completed? |
+|------------|:----------:|
+| Ask the farmer if the team showed **professional attitude** in all interactions | ☐ |
+| A **data transfer agreement** is fully in place | ☐ |
+| Team established a **project goal that works for both participating farms** | ☐ |
+| All team members demonstrate understanding of the **decision-making process** by presenting updates **twice** during weekly project decision meetings | ☐ |
+| Project has **impact**, such as hours or labor saved | ☐ |
+| Farmers would **recommend the project results** to other farmers | ☐ |
+| All team members had a **good learning experience**, confirmed during a sit‑down after the final presentation with Professor M. Hostens (may include dairy decision-making, basic data analysis, transferable skills) | ☐ |
+
+---
+
+### Notes
+- This table should be reviewed jointly by the team, the farmer(s), and Professor Hostens following the final presentation.
+- The checklist is meant to support transparency, self‑reflection, and assessment alignment.
