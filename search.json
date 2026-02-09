@@ -933,7 +933,7 @@
     "href": "slides/lec-11.html#sec-current",
     "title": "Data transformations",
     "section": "Current",
-    "text": "Current\nTo get the current date or date-time you can use today() or now():\n\ntoday()\n\n[1] \"2026-01-29\"\n\nnow()\n\n[1] \"2026-01-29 15:46:33 UTC\""
+    "text": "Current\nTo get the current date or date-time you can use today() or now():\n\ntoday()\n\n[1] \"2026-02-09\"\n\nnow()\n\n[1] \"2026-02-09 13:55:22 UTC\""
   },
   {
     "objectID": "slides/lec-11.html#sec-dt-import-1",
@@ -1038,14 +1038,14 @@
     "href": "slides/lec-11.html#sec-duration-1",
     "title": "Data transformations",
     "section": "Durations",
-    "text": "Durations\nIn R, when you subtract two dates, you get a difftime object:\n\n# How old is Miel?\nh_age &lt;- today() - ymd(\"1982-04-27\")\nh_age\n\nTime difference of 15983 days"
+    "text": "Durations\nIn R, when you subtract two dates, you get a difftime object:\n\n# How old is Miel?\nh_age &lt;- today() - ymd(\"1982-04-27\")\nh_age\n\nTime difference of 15994 days"
   },
   {
     "objectID": "slides/lec-11.html#sec-duration-2",
     "href": "slides/lec-11.html#sec-duration-2",
     "title": "Data transformations",
     "section": "Durations",
-    "text": "Durations\nA difftime class object records a time span of seconds, minutes, hours, days, or weeks.\nThis ambiguity can make difftimes a little painful to work with, so lubridate provides an alternative which always uses seconds: the duration.\n\nas.duration(h_age)\n\n[1] \"1380931200s (~43.76 years)\""
+    "text": "Durations\nA difftime class object records a time span of seconds, minutes, hours, days, or weeks.\nThis ambiguity can make difftimes a little painful to work with, so lubridate provides an alternative which always uses seconds: the duration.\n\nas.duration(h_age)\n\n[1] \"1381881600s (~43.79 years)\""
   },
   {
     "objectID": "slides/lec-11.html#sec-duration-3",
@@ -1073,7 +1073,7 @@
     "href": "slides/lec-11.html#sec-duration-6",
     "title": "Data transformations",
     "section": "Add and substract durations",
-    "text": "Add and substract durations\nYou can add and subtract durations to and from days:\n\ntomorrow &lt;- today() + ddays(1)\ntomorrow\n\n[1] \"2026-01-30\"\n\nlast_year &lt;- today() - dyears(1)\nlast_year\n\n[1] \"2025-01-28 18:00:00 UTC\""
+    "text": "Add and substract durations\nYou can add and subtract durations to and from days:\n\ntomorrow &lt;- today() + ddays(1)\ntomorrow\n\n[1] \"2026-02-10\"\n\nlast_year &lt;- today() - dyears(1)\nlast_year\n\n[1] \"2025-02-08 18:00:00 UTC\""
   },
   {
     "objectID": "slides/lec-11.html#sec-duration-7",
@@ -1379,9 +1379,97 @@
   {
     "objectID": "weeks/week-3.html",
     "href": "weeks/week-3.html",
-    "title": "Week 3",
+    "title": "Week 3: Decision Making in Dairy Farming",
     "section": "",
-    "text": "coming soon",
+    "text": "Overview of this week’s lecture\nIntroduction of guest lecturer: Dr. De Vries\nImportance of decision making in modern dairy farming",
+    "crumbs": [
+      "Weekly materials",
+      "Week 3"
+    ]
+  },
+  {
+    "objectID": "weeks/week-3.html#historical-roots",
+    "href": "weeks/week-3.html#historical-roots",
+    "title": "Week 3: Decision Making in Dairy Farming",
+    "section": "Historical Roots",
+    "text": "Historical Roots\n\nTraditional experience-based decision making\nRole of observation and record keeping\nTransition toward data-driven management",
+    "crumbs": [
+      "Weekly materials",
+      "Week 3"
+    ]
+  },
+  {
+    "objectID": "weeks/week-3.html#modern-decision-support-systems",
+    "href": "weeks/week-3.html#modern-decision-support-systems",
+    "title": "Week 3: Decision Making in Dairy Farming",
+    "section": "Modern Decision Support Systems",
+    "text": "Modern Decision Support Systems\n\nSensor technologies\nFarm management software\nIntegration of biological and economic data",
+    "crumbs": [
+      "Weekly materials",
+      "Week 3"
+    ]
+  },
+  {
+    "objectID": "weeks/week-3.html#economic-optimization",
+    "href": "weeks/week-3.html#economic-optimization",
+    "title": "Week 3: Decision Making in Dairy Farming",
+    "section": "Economic Optimization",
+    "text": "Economic Optimization\n\nCost-benefit analysis\nProfit maximization\nRisk assessment",
+    "crumbs": [
+      "Weekly materials",
+      "Week 3"
+    ]
+  },
+  {
+    "objectID": "weeks/week-3.html#statistical-and-mathematical-modeling",
+    "href": "weeks/week-3.html#statistical-and-mathematical-modeling",
+    "title": "Week 3: Decision Making in Dairy Farming",
+    "section": "Statistical and Mathematical Modeling",
+    "text": "Statistical and Mathematical Modeling\n\nRegression models\nDynamic models\nBayesian approaches\nDynamic programming",
+    "crumbs": [
+      "Weekly materials",
+      "Week 3"
+    ]
+  },
+  {
+    "objectID": "weeks/week-3.html#data-driven-approaches",
+    "href": "weeks/week-3.html#data-driven-approaches",
+    "title": "Week 3: Decision Making in Dairy Farming",
+    "section": "Data-Driven Approaches",
+    "text": "Data-Driven Approaches\n\nMachine learning\nArtificial intelligence\nPredictive analytics",
+    "crumbs": [
+      "Weekly materials",
+      "Week 3"
+    ]
+  },
+  {
+    "objectID": "weeks/week-3.html#focus-areas",
+    "href": "weeks/week-3.html#focus-areas",
+    "title": "Week 3: Decision Making in Dairy Farming",
+    "section": "Focus Areas",
+    "text": "Focus Areas\n\nReplacement decisions in dairy herds\nHealth monitoring and disease prediction\nIntegration of sensor data\nPractical applications in farm management",
+    "crumbs": [
+      "Weekly materials",
+      "Week 3"
+    ]
+  },
+  {
+    "objectID": "weeks/week-3.html#discussion-topics",
+    "href": "weeks/week-3.html#discussion-topics",
+    "title": "Week 3: Decision Making in Dairy Farming",
+    "section": "Discussion Topics",
+    "text": "Discussion Topics\n\nTranslating research into practice\nLimitations of current techniques and models\nFuture directions in dairy decision support",
+    "crumbs": [
+      "Weekly materials",
+      "Week 3"
+    ]
+  },
+  {
+    "objectID": "weeks/week-3.html#interactive-session",
+    "href": "weeks/week-3.html#interactive-session",
+    "title": "Week 3: Decision Making in Dairy Farming",
+    "section": "Interactive Session",
+    "text": "Interactive Session\n\nQ&A with Dr. De Vries\nDiscussion of student questions",
     "crumbs": [
       "Weekly materials",
       "Week 3"
@@ -1538,7 +1626,7 @@
     "href": "index.html",
     "title": "Data Science Applications in Agriculture",
     "section": "",
-    "text": "This page contains an outline of the topics, content, and assignments for the course.\nNote that this schedule will be updated as the course progresses, with all changes documented here.\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\nTeachers\nPrepare\nLecture\n\n\n\n\n1\n1/20 (Tue)\nIntroduction to Python programming\nMeike van Leerdam\n📖\n🖥️\n\n\n1\n1/21 (Wed)\nIntroduction to decision support\nMeike van Leerdam\n📖\n🖥️\n\n\n2\n1/26 (Mon)\nCancelled -&gt; Lec moved to lab\nDr. Hostens\n📖\n🖥️\n\n\n2\n1/27 (Tue)\nIntroduction to the project\nDr. Hostens\n📖\n🖥️\n\n\n2\n1/28 (Wed)\nProject discussion\nDr. Hostens\n-\n-️\n\n\n3\n2/2 (Mon)\nWork on Dodona at home\n\n\n\n\n\n3\n2/3 (Tue)\nRUFAS lecture and programming assignment\nH. Hu and K. Reed\n📖\n🖥️\n\n\n3\n2/4 (Wed)\nProject discussion\nMeike van Leerdam\n📖\n[🖥️]\n\n\n4\n2/9 (Mon)\nGuest lecture\nDr. de Vries\n📖\n🖥️\n\n\n4\n2/10 (Tue)\nProgramming assignment\nTAs\n📖\n🖥️\n\n\n4\n2/11 (Wed)\nProject discussion with farmer\nD. Westfall & M. van Leerdam\n📖\n🖥️\n\n\n5\n2/16 (Mon)\nFebruary break\n-\n-\n-\n\n\n5\n2/17 (Tue)\nFebruary break\n-\n-\n-\n\n\n5\n2/18 (Wed)\nGuest lecture\nDr. Cabrera\n📖\n🖥️\n\n\n6\n2/23 (Mon)\nTo be decided\nTBD\n📖\n🖥️\n\n\n6\n2/24 (Tue)\nProgramming assignment\nTAs\n📖\n🖥️\n\n\n6\n2/25 (Wed)\nProject discussion\nDr. Hostens or TAs\n📖\n🖥️\n\n\n7\n3/2 (Mon)\nMyCow$\nDr. Giordano\n📖\n🖥️\n\n\n7\n3/3 (Tue)\nProgramming assignment\nTAs\n-\n-️\n\n\n7\n3/4 (Wed)\nProject discussion\nDr. Hostens or TAs\n📖\n🖥️\n\n\n8\n3/9 (Mon)\nTo be decided\nTBD\n📖\n🖥️\n\n\n8\n3/10 (Tue)\nProgramming assignment\nTAs\n📖\n🖥️\n\n\n8\n3/11 (Wed)\nProject discussion\nDr. Hostens or TAs\n📖\n🖥️\n\n\n9\n3/16 (Mon)\nTo be decided\nTBD\n📖\n🖥️\n\n\n9\n3/17 (Tue)\nProgramming assignment\nTAs\n📖\n🖥️\n\n\n9\n3/18 (Wed)\nProject discussion\nDr. Hostens or TAs\n📖\n🖥️\n\n\n10\n3/23 (Mon)\nTo be decided\nTBD\n📖\n🖥️\n\n\n10\n3/24 (Tue)\nProgramming assignment\nTAs\n📖\n🖥️\n\n\n10\n3/25 (Wed)\nProject discussion\nDr. Hostens or TAs\n📖\n🖥️\n\n\n11\n3/30 (Mon)\nSpring break\n-\n\n\n\n\n11\n3/31 (Tue)\nSpring break\n-\n\n\n\n\n11\n4/1 (Wed)\nSpring break\n-\n\n\n\n\n12\n4/6 (Mon)\nTo be decided\nTBD\n📖\n🖥️\n\n\n12\n4/7 (Tue)\nProgramming assignment\nTAs\n📖\n🖥️\n\n\n12\n4/8 (Wed)\nProject discussion\nDr. Hostens or TAs\n📖\n🖥️\n\n\n13\n4/13 (Mon)\nTo be decided\nTBD\n📖\n🖥️\n\n\n13\n4/14 (Tue)\nProgramming assignment\nTAs\n📖\n🖥️\n\n\n13\n4/15 (Wed)\nProject discussion\nDr. Hostens or TAs\n📖\n🖥️\n\n\n14\n4/20 (Mon)\nTo be decided\nTBD\n📖\n🖥️\n\n\n14\n4/21 (Tue)\nProgramming assignment\nTAs\n📖\n🖥️\n\n\n14\n4/22 (Wed)\nProject discussion\nDr. Hostens or TAs\n📖\n🖥️\n\n\n15\n4/27 (Mon)\nTo be decided\nTBD\n📖\n🖥️\n\n\n15\n4/28 (Tue)\nProgramming assignment\nTAs\n📖\n🖥️\n\n\n15\n4/29 (Wed)\nProject discussion\nDr. Hostens or TAs\n📖\n🖥️\n\n\n16\n5/4 (Mon)\nTo be decided\nTBD\n📖\n🖥️\n\n\n16\n5/5 (Tue)\nFinal project presentation\nDr. Hostens and TAs\n-\n-️",
+    "text": "This page contains an outline of the topics, content, and assignments for the course.\nNote that this schedule will be updated as the course progresses, with all changes documented here.\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\nTeachers\nPrepare\nLecture\n\n\n\n\n1\n1/20 (Tue)\nIntroduction to Python programming\nMeike van Leerdam\n📖\n🖥️\n\n\n1\n1/21 (Wed)\nIntroduction to decision support\nMeike van Leerdam\n📖\n🖥️\n\n\n2\n1/26 (Mon)\nCancelled -&gt; Lec moved to lab\nDr. Hostens\n📖\n🖥️\n\n\n2\n1/27 (Tue)\nIntroduction to the project\nDr. Hostens\n📖\n🖥️\n\n\n2\n1/28 (Wed)\nProject discussion\nDr. Hostens\n-\n-️\n\n\n3\n2/2 (Mon)\nWork on Dodona at home\n\n\n\n\n\n3\n2/3 (Tue)\nRUFAS lecture and programming assignment\nH. Hu and K. Reed\n📖\n🖥️\n\n\n3\n2/4 (Wed)\nProject discussion\nMeike van Leerdam\n📖\n🖥️\n\n\n4\n2/9 (Mon)\nGuest lecture\nDr. de Vries\n📖\n🖥️\n\n\n4\n2/10 (Tue)\nProgramming assignment\nTAs\n📖\n🖥️\n\n\n4\n2/11 (Wed)\nProject discussion with farmer\nD. Westfall & M. van Leerdam\n📖\n🖥️\n\n\n5\n2/16 (Mon)\nFebruary break\n-\n-\n-\n\n\n5\n2/17 (Tue)\nFebruary break\n-\n-\n-\n\n\n5\n2/18 (Wed)\nGuest lecture\nDr. Cabrera\n📖\n🖥️\n\n\n6\n2/23 (Mon)\nTo be decided\nTBD\n📖\n🖥️\n\n\n6\n2/24 (Tue)\nProgramming assignment\nTAs\n📖\n🖥️\n\n\n6\n2/25 (Wed)\nProject discussion\nDr. Hostens or TAs\n📖\n🖥️\n\n\n7\n3/2 (Mon)\nMyCow$\nDr. Giordano\n📖\n🖥️\n\n\n7\n3/3 (Tue)\nProgramming assignment\nTAs\n-\n-️\n\n\n7\n3/4 (Wed)\nProject discussion\nDr. Hostens or TAs\n📖\n🖥️\n\n\n8\n3/9 (Mon)\nTo be decided\nTBD\n📖\n🖥️\n\n\n8\n3/10 (Tue)\nProgramming assignment\nTAs\n📖\n🖥️\n\n\n8\n3/11 (Wed)\nProject discussion\nDr. Hostens or TAs\n📖\n🖥️\n\n\n9\n3/16 (Mon)\nTo be decided\nTBD\n📖\n🖥️\n\n\n9\n3/17 (Tue)\nProgramming assignment\nTAs\n📖\n🖥️\n\n\n9\n3/18 (Wed)\nProject discussion\nDr. Hostens or TAs\n📖\n🖥️\n\n\n10\n3/23 (Mon)\nTo be decided\nTBD\n📖\n🖥️\n\n\n10\n3/24 (Tue)\nProgramming assignment\nTAs\n📖\n🖥️\n\n\n10\n3/25 (Wed)\nProject discussion\nDr. Hostens or TAs\n📖\n🖥️\n\n\n11\n3/30 (Mon)\nSpring break\n-\n\n\n\n\n11\n3/31 (Tue)\nSpring break\n-\n\n\n\n\n11\n4/1 (Wed)\nSpring break\n-\n\n\n\n\n12\n4/6 (Mon)\nTo be decided\nTBD\n📖\n🖥️\n\n\n12\n4/7 (Tue)\nProgramming assignment\nTAs\n📖\n🖥️\n\n\n12\n4/8 (Wed)\nProject discussion\nDr. Hostens or TAs\n📖\n🖥️\n\n\n13\n4/13 (Mon)\nTo be decided\nTBD\n📖\n🖥️\n\n\n13\n4/14 (Tue)\nProgramming assignment\nTAs\n📖\n🖥️\n\n\n13\n4/15 (Wed)\nProject discussion\nDr. Hostens or TAs\n📖\n🖥️\n\n\n14\n4/20 (Mon)\nTo be decided\nTBD\n📖\n🖥️\n\n\n14\n4/21 (Tue)\nProgramming assignment\nTAs\n📖\n🖥️\n\n\n14\n4/22 (Wed)\nProject discussion\nDr. Hostens or TAs\n📖\n🖥️\n\n\n15\n4/27 (Mon)\nTo be decided\nTBD\n📖\n🖥️\n\n\n15\n4/28 (Tue)\nProgramming assignment\nTAs\n📖\n🖥️\n\n\n15\n4/29 (Wed)\nProject discussion\nDr. Hostens or TAs\n📖\n🖥️\n\n\n16\n5/4 (Mon)\nTo be decided\nTBD\n📖\n🖥️\n\n\n16\n5/5 (Tue)\nFinal project presentation\nDr. Hostens and TAs\n-\n-️",
     "crumbs": [
       "Course information",
       "Schedule"
