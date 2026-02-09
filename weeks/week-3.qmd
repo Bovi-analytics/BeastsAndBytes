@@ -90,8 +90,8 @@ Students are encouraged to review the following articles:
 
 The following files are available in the course root directory:
 
--   [Semen Value Dataset (Cornell)](weeks/files/SemenValueCornell.xlsx)
--   [De Vries (2018) PDF](weeks/files/DeVries2018.pdf)
+-   [Semen Value Dataset (Cornell)](files/SemenValueCornell.xlsx)
+-   [De Vries (2018) PDF](files/DeVries2018.pdf)
 
 # In-Class Activities
 
