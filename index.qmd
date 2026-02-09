@@ -8,7 +8,7 @@ Note that this schedule will be updated as the course progresses, with all chang
 
 ::: column-screen-inset-right
 | Week | Date | Topic | Teachers | Prepare | Lecture |
-|:---------:|:---------:|---------------------|-----------|:---------:|:---------:|
+|:--:|:--:|----|----|:--:|:--:|
 | 1 | 1/20 (Tue) | Introduction to Python programming | Meike van Leerdam | [📖](https://forms.office.com/r/bDEBaU5fN1) | [🖥️](slides/lec-1.html) |
 | 1 | 1/21 (Wed) | Introduction to decision support | Meike van Leerdam | [📖](https://www.ibm.com/think/topics/data-driven-decision-making) | [🖥️](slides/discussion_1.html) |
 | 2 | 1/26 (Mon) | Cancelled -\> Lec moved to lab | Dr. Hostens | [📖](weeks/week-2.html) | [🖥️](slides/lec-2.html) |
@@ -22,7 +22,7 @@ Note that this schedule will be updated as the course progresses, with all chang
 | 4 | 2/11 (Wed) | Project discussion with farmer | D. Westfall & M. van Leerdam | 📖 | 🖥️ |
 | 5 | 2/16 (Mon) | February break | \- | \- | \- |
 | 5 | 2/17 (Tue) | February break | \- | \- | \- |
-| 5 | 2/18 (Wed) | Guest lecture (https://teams.microsoft.com/meet/27062365396024?p=rNcIgJIJFvcr98DkNZ) | [Dr. Cabrera](https://andysci.wisc.edu/directory/victor-cabrera/) | 📖 | 🖥️ |
+| 5 | 2/18 (Wed) | [Guest lecture](https://teams.microsoft.com/meet/27062365396024?p=rNcIgJIJFvcr98DkNZ) | [Dr. Cabrera](https://andysci.wisc.edu/directory/victor-cabrera/) | 📖 | 🖥️ |
 | 6 | 2/23 (Mon) | To be decided | TBD | 📖 | 🖥️ |
 | 6 | 2/24 (Tue) | Programming assignment | TAs | 📖 | 🖥️ |
 | 6 | 2/25 (Wed) | Project discussion | Dr. Hostens or TAs | 📖 | 🖥️ |
