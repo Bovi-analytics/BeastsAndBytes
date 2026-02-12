@@ -95,6 +95,8 @@ The following files are available in the course root directory:
 
 # In-Class Activities
 
+- [Recorded lecture](https://teams.microsoft.com/l/meetingrecap?driveId=b%21E4I68T55xE6t_6CBLQShdCGUaFg3mhVKqFbU-lTkZvouvfPUl-bXTIwR4tk0Oj-w&driveItemId=01GDGSZXXOWEZZK4WAXVDY6XD5KLO5GPRE&sitePath=https%3A%2F%2Fcornellprod-my.sharepoint.com%2F%3Av%3A%2Fg%2Fpersonal%2Fmmh292_cornell_edu%2FIQDusTOVcsC9R49cfVLd0z4kAW4W3R2HP5RsA-8UsrDFjAU&fileUrl=https%3A%2F%2Fcornellprod-my.sharepoint.com%2Fpersonal%2Fmmh292_cornell_edu%2FDocuments%2FRecordings%2FGuest+lecture+ANSC+4040-20260209_150112UTC-Meeting+Recording.mp4%3Fweb%3D1&iCalUid=040000008200E00074C5B7101A82E00807EA02098A1ADE280380DC0100000000000000001000000022DD15B2B36B4D448F35E26A4D68F327&threadId=19%3Ameeting_ZDE5MmUyNzYtNjlmOC00NzFiLWE3NDQtNTE3NmE2NWE1N2Yy%40thread.v2&organizerId=be2b4dd3-28a5-4089-acdb-5fdf70cb0bbd&tenantId=5d7e4366-1b9b-45cf-8e79-b14b27df46e1&callId=85ce03ca-6f44-452a-999c-5175e4dea2d6&threadType=meeting&meetingType=Scheduled&subType=RecapSharingLink_RecapCore)
+
 ## Interactive Session
 
 -   Q&A with Dr. De Vries
