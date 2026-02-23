@@ -1,7 +1,167 @@
 ---
-title: "Week 5"
-subtitle: "Welcome Beasts & Bytes"
-editor: visual
+title: "Week 5: Decision Making in Dairy Farming"
+author: "Guest Lecture: Dr. Cabrera"
+date: "`r Sys.Date()`"
+format:
+  html:
+    toc: true
+    toc-depth: 2
 ---
 
-coming soon
+---
+title: "Data Science Applications for Dairy Farming"
+author: "Guest Lecture: Dr. Victor E. Cabrera"
+date: "`r Sys.Date()`"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+---
+
+# Introduction
+
+-   Overview of data science applications in dairy farming
+-   Role of decision support tools (DST) in modern dairy management
+-   Motivation for data-driven decision making in animal agriculture
+
+# Learning Objectives
+
+By the end of this lecture, students should be able to:
+
+-   Describe major decision support systems used in dairy farming
+-   Explain how economic and biological models support farm decisions
+-   Interpret applications of data integration and simulation models
+-   Understand replacement, reproduction, nutrition, and environmental decision tools
+
+# Background: Decision Support in Dairy Farming
+
+## Decision Support Tools (DST)
+
+-   Large collection of DST available for dairy management
+-   Focus on whole-farm and cow-level decision making
+-   Integration of economics, biology, and management data
+
+## DairyMGT.info Platform
+
+-   Centralized platform hosting numerous dairy decision tools
+-   Emphasis on practical application and extension use
+-   Supports replacement, feeding, reproduction, and environmental analysis
+
+# Feeding and Nutrition Decision Tools
+
+## FeedVal: Feed Ingredient Valuation
+
+-   Determines actual economic value of feed ingredients
+-   Based on:
+    -   Nutrient composition
+    -   Market prices
+-   Supports ration formulation and feed purchasing decisions
+
+## Nutritional Grouping Strategies
+
+-   Evaluation of grouping strategies for dairy cows
+-   Addresses limitations of one-size-fits-all TMR approaches
+-   Uses research-based grouping methods
+
+# Reproduction and Herd Dynamics
+
+## Milk Curve Fitter and Pregnancy Timing
+
+-   Projects milk production curves
+-   Evaluates impact of pregnancy timing on production
+-   Supports reproductive management decisions
+
+## Reproductive Economic Assessment
+
+-   Economic evaluation of reproductive programs
+-   Comparison of synchronization strategies
+-   Integration of cost, pregnancy outcomes, and returns
+
+# Replacement and Cow Value Modeling
+
+## Cow Replacement Problem
+
+-   Evaluation of when to replace a cow
+-   Uses:
+    -   Expected future net returns
+    -   Biological and economic parameters
+
+## Cow Value Estimation
+
+-   Long-term economic projection of individual cows
+-   Comparison between:
+    -   Existing cow
+    -   Potential replacement
+-   Accounts for pregnancy status, parity, and production stage
+
+## Modeling Approach
+
+-   Markov chains used to simulate herd dynamics
+-   Dynamic modeling of:
+    -   Milk production
+    -   Reproduction
+    -   Culling decisions
+
+# Data Integration and Advanced Analytics
+
+## Integrated Data Systems
+
+-   Combines multiple data sources:
+    -   Production
+    -   Reproduction
+    -   Nutrition
+    -   Economics
+-   Supports holistic farm-level decision making
+
+## Whole-Farm Simulation Models
+
+-   DairyPrint model
+-   Environmental assessment tools
+-   Evaluates sustainability and economic outcomes simultaneously
+
+# Environmental and Sustainability Assessment
+
+## Environmental Impact Modeling
+
+-   Whole dairy farm simulation
+-   Assessment of:
+    -   Production efficiency
+    -   Environmental footprint
+-   Links management decisions to sustainability outcomes
+
+# Key Takeaways
+
+-   Data science enables more precise dairy management
+-   Economic and biological models complement each other
+-   Decision support tools translate research into practice
+-   Integrated systems are critical for future dairy sustainability
+
+# Advised Reading
+
+Students are encouraged to review the following publications:
+
+1.  **Cabrera, V. E. (2012).** Value of a cow and replacement decisions. *Journal of Dairy Science.* <https://doi.org/10.3168/jds.2011-5214>
+
+2.  **Giordano et al. (2012).** Economic analysis of reproductive programs. *Journal of Dairy Science.* <https://doi.org/10.3168/jds.2011-4972>
+
+3.  **Cabrera et al. (2020).** DairyPrint: Whole-farm simulation. *Journal of Dairy Science.* <https://doi.org/10.3168/jds.2024-24946>
+
+4.  **Wangen et al. (2021).** Data integration in dairy systems. *Livestock Science.* <https://doi.org/10.1016/j.livsci.2021.104602>
+
+# Supplementary Materials
+
+The following resources support this lecture:
+
+-   DairyMGT.info decision support tools
+
+# In-Class Activities
+
+-   [Recorded lecture](https://youtu.be/QDNlWDeyCCY)
+-   [Presentation Dr. Cabrera](files/Cabrera2026.pdf)
+
+# In-Class Discussion Topics
+
+-   Practical challenges in applying decision support tools
+-   Trade-offs between economic and environmental objectives
+-   Data limitations and model assumptions
+-   Future directions for data science in dairy farming
