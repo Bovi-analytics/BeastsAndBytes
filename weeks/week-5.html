@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Guest Lecture: Dr.&nbsp;Victor E. Cabrera">
 
-<title>Week 5 – Beasts &amp; Bytes</title>
+<title>Data Science Applications for Dairy Farming – Beasts &amp; Bytes</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -75,11 +76,11 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<meta property="og:title" content="Week 5 – Beasts &amp; Bytes">
-<meta property="og:description" content="Welcome Beasts &amp; Bytes">
+<meta property="og:title" content="Data Science Applications for Dairy Farming – Beasts &amp; Bytes">
+<meta property="og:description" content="Homepage for Beasts &amp; Bytes">
 <meta property="og:site_name" content="Beasts &amp; Bytes">
-<meta name="twitter:title" content="Week 5 – Beasts &amp; Bytes">
-<meta name="twitter:description" content="Welcome Beasts &amp; Bytes">
+<meta name="twitter:title" content="Data Science Applications for Dairy Farming – Beasts &amp; Bytes">
+<meta name="twitter:description" content="Homepage for Beasts &amp; Bytes">
 <meta name="twitter:image" content="https://bovi-analytics.github.io/BeastsAndBytes/weeks/images/twitter-card.png">
 <meta name="twitter:creator" content="@MielHostens">
 <meta name="twitter:card" content="summary_large_image">
@@ -409,7 +410,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../weeks/week-3.html" class="sidebar-item-text sidebar-link">
+  <a href="../weeks/week-3.qmd" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Week 3</span></a>
   </div>
 </li>
@@ -503,8 +504,50 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">Learning Objectives</a></li>
+  <li><a href="#background-decision-support-in-dairy-farming" id="toc-background-decision-support-in-dairy-farming" class="nav-link" data-scroll-target="#background-decision-support-in-dairy-farming">Background: Decision Support in Dairy Farming</a>
+  <ul class="collapse">
+  <li><a href="#decision-support-tools-dst" id="toc-decision-support-tools-dst" class="nav-link" data-scroll-target="#decision-support-tools-dst">Decision Support Tools (DST)</a></li>
+  <li><a href="#dairymgt.info-platform" id="toc-dairymgt.info-platform" class="nav-link" data-scroll-target="#dairymgt.info-platform">DairyMGT.info Platform</a></li>
+  </ul></li>
+  <li><a href="#feeding-and-nutrition-decision-tools" id="toc-feeding-and-nutrition-decision-tools" class="nav-link" data-scroll-target="#feeding-and-nutrition-decision-tools">Feeding and Nutrition Decision Tools</a>
+  <ul class="collapse">
+  <li><a href="#feedval-feed-ingredient-valuation" id="toc-feedval-feed-ingredient-valuation" class="nav-link" data-scroll-target="#feedval-feed-ingredient-valuation">FeedVal: Feed Ingredient Valuation</a></li>
+  <li><a href="#nutritional-grouping-strategies" id="toc-nutritional-grouping-strategies" class="nav-link" data-scroll-target="#nutritional-grouping-strategies">Nutritional Grouping Strategies</a></li>
+  </ul></li>
+  <li><a href="#reproduction-and-herd-dynamics" id="toc-reproduction-and-herd-dynamics" class="nav-link" data-scroll-target="#reproduction-and-herd-dynamics">Reproduction and Herd Dynamics</a>
+  <ul class="collapse">
+  <li><a href="#milk-curve-fitter-and-pregnancy-timing" id="toc-milk-curve-fitter-and-pregnancy-timing" class="nav-link" data-scroll-target="#milk-curve-fitter-and-pregnancy-timing">Milk Curve Fitter and Pregnancy Timing</a></li>
+  <li><a href="#reproductive-economic-assessment" id="toc-reproductive-economic-assessment" class="nav-link" data-scroll-target="#reproductive-economic-assessment">Reproductive Economic Assessment</a></li>
+  </ul></li>
+  <li><a href="#replacement-and-cow-value-modeling" id="toc-replacement-and-cow-value-modeling" class="nav-link" data-scroll-target="#replacement-and-cow-value-modeling">Replacement and Cow Value Modeling</a>
+  <ul class="collapse">
+  <li><a href="#cow-replacement-problem" id="toc-cow-replacement-problem" class="nav-link" data-scroll-target="#cow-replacement-problem">Cow Replacement Problem</a></li>
+  <li><a href="#cow-value-estimation" id="toc-cow-value-estimation" class="nav-link" data-scroll-target="#cow-value-estimation">Cow Value Estimation</a></li>
+  <li><a href="#modeling-approach" id="toc-modeling-approach" class="nav-link" data-scroll-target="#modeling-approach">Modeling Approach</a></li>
+  </ul></li>
+  <li><a href="#data-integration-and-advanced-analytics" id="toc-data-integration-and-advanced-analytics" class="nav-link" data-scroll-target="#data-integration-and-advanced-analytics">Data Integration and Advanced Analytics</a>
+  <ul class="collapse">
+  <li><a href="#integrated-data-systems" id="toc-integrated-data-systems" class="nav-link" data-scroll-target="#integrated-data-systems">Integrated Data Systems</a></li>
+  <li><a href="#whole-farm-simulation-models" id="toc-whole-farm-simulation-models" class="nav-link" data-scroll-target="#whole-farm-simulation-models">Whole-Farm Simulation Models</a></li>
+  </ul></li>
+  <li><a href="#environmental-and-sustainability-assessment" id="toc-environmental-and-sustainability-assessment" class="nav-link" data-scroll-target="#environmental-and-sustainability-assessment">Environmental and Sustainability Assessment</a>
+  <ul class="collapse">
+  <li><a href="#environmental-impact-modeling" id="toc-environmental-impact-modeling" class="nav-link" data-scroll-target="#environmental-impact-modeling">Environmental Impact Modeling</a></li>
+  </ul></li>
+  <li><a href="#key-takeaways" id="toc-key-takeaways" class="nav-link" data-scroll-target="#key-takeaways">Key Takeaways</a></li>
+  <li><a href="#advised-reading" id="toc-advised-reading" class="nav-link" data-scroll-target="#advised-reading">Advised Reading</a></li>
+  <li><a href="#supplementary-materials" id="toc-supplementary-materials" class="nav-link" data-scroll-target="#supplementary-materials">Supplementary Materials</a></li>
+  <li><a href="#in-class-activities" id="toc-in-class-activities" class="nav-link" data-scroll-target="#in-class-activities">In-Class Activities</a></li>
+  <li><a href="#in-class-discussion-topics" id="toc-in-class-discussion-topics" class="nav-link" data-scroll-target="#in-class-discussion-topics">In-Class Discussion Topics</a></li>
+  </ul>
+<div class="toc-actions"><ul class="collapse"><li><a href="https://github.com/Bovi-analytics/BeastsAndBytes/edit/main/weeks/week-5.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/Bovi-analytics/BeastsAndBytes/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -512,15 +555,26 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../weeks/week-1.html">Weekly materials</a></li><li class="breadcrumb-item"><a href="../weeks/week-5.html">Week 5</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Week 5</h1>
-<p class="subtitle lead">Welcome Beasts &amp; Bytes</p>
+<h1 class="title">Data Science Applications for Dairy Farming</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Guest Lecture: Dr.&nbsp;Cabrera </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date"><code>r Sys.Date()</code></p>
+    </div>
+  </div>
   
     
   </div>
@@ -530,9 +584,206 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>coming soon</p>
+<section id="introduction" class="level1">
+<h1>Introduction</h1>
+<ul>
+<li>Overview of data science applications in dairy farming</li>
+<li>Role of decision support tools (DST) in modern dairy management</li>
+<li>Motivation for data-driven decision making in animal agriculture</li>
+</ul>
+</section>
+<section id="learning-objectives" class="level1">
+<h1>Learning Objectives</h1>
+<p>By the end of this lecture, students should be able to:</p>
+<ul>
+<li>Describe major decision support systems used in dairy farming</li>
+<li>Explain how economic and biological models support farm decisions</li>
+<li>Interpret applications of data integration and simulation models</li>
+<li>Understand replacement, reproduction, nutrition, and environmental decision tools</li>
+</ul>
+</section>
+<section id="background-decision-support-in-dairy-farming" class="level1">
+<h1>Background: Decision Support in Dairy Farming</h1>
+<section id="decision-support-tools-dst" class="level2">
+<h2 class="anchored" data-anchor-id="decision-support-tools-dst">Decision Support Tools (DST)</h2>
+<ul>
+<li>Large collection of DST available for dairy management</li>
+<li>Focus on whole-farm and cow-level decision making</li>
+<li>Integration of economics, biology, and management data</li>
+</ul>
+</section>
+<section id="dairymgt.info-platform" class="level2">
+<h2 class="anchored" data-anchor-id="dairymgt.info-platform">DairyMGT.info Platform</h2>
+<ul>
+<li>Centralized platform hosting numerous dairy decision tools</li>
+<li>Emphasis on practical application and extension use</li>
+<li>Supports replacement, feeding, reproduction, and environmental analysis</li>
+</ul>
+</section>
+</section>
+<section id="feeding-and-nutrition-decision-tools" class="level1">
+<h1>Feeding and Nutrition Decision Tools</h1>
+<section id="feedval-feed-ingredient-valuation" class="level2">
+<h2 class="anchored" data-anchor-id="feedval-feed-ingredient-valuation">FeedVal: Feed Ingredient Valuation</h2>
+<ul>
+<li>Determines actual economic value of feed ingredients</li>
+<li>Based on:
+<ul>
+<li>Nutrient composition</li>
+<li>Market prices</li>
+</ul></li>
+<li>Supports ration formulation and feed purchasing decisions</li>
+</ul>
+</section>
+<section id="nutritional-grouping-strategies" class="level2">
+<h2 class="anchored" data-anchor-id="nutritional-grouping-strategies">Nutritional Grouping Strategies</h2>
+<ul>
+<li>Evaluation of grouping strategies for dairy cows</li>
+<li>Addresses limitations of one-size-fits-all TMR approaches</li>
+<li>Uses research-based grouping methods</li>
+</ul>
+</section>
+</section>
+<section id="reproduction-and-herd-dynamics" class="level1">
+<h1>Reproduction and Herd Dynamics</h1>
+<section id="milk-curve-fitter-and-pregnancy-timing" class="level2">
+<h2 class="anchored" data-anchor-id="milk-curve-fitter-and-pregnancy-timing">Milk Curve Fitter and Pregnancy Timing</h2>
+<ul>
+<li>Projects milk production curves</li>
+<li>Evaluates impact of pregnancy timing on production</li>
+<li>Supports reproductive management decisions</li>
+</ul>
+</section>
+<section id="reproductive-economic-assessment" class="level2">
+<h2 class="anchored" data-anchor-id="reproductive-economic-assessment">Reproductive Economic Assessment</h2>
+<ul>
+<li>Economic evaluation of reproductive programs</li>
+<li>Comparison of synchronization strategies</li>
+<li>Integration of cost, pregnancy outcomes, and returns</li>
+</ul>
+</section>
+</section>
+<section id="replacement-and-cow-value-modeling" class="level1">
+<h1>Replacement and Cow Value Modeling</h1>
+<section id="cow-replacement-problem" class="level2">
+<h2 class="anchored" data-anchor-id="cow-replacement-problem">Cow Replacement Problem</h2>
+<ul>
+<li>Evaluation of when to replace a cow</li>
+<li>Uses:
+<ul>
+<li>Expected future net returns</li>
+<li>Biological and economic parameters</li>
+</ul></li>
+</ul>
+</section>
+<section id="cow-value-estimation" class="level2">
+<h2 class="anchored" data-anchor-id="cow-value-estimation">Cow Value Estimation</h2>
+<ul>
+<li>Long-term economic projection of individual cows</li>
+<li>Comparison between:
+<ul>
+<li>Existing cow</li>
+<li>Potential replacement</li>
+</ul></li>
+<li>Accounts for pregnancy status, parity, and production stage</li>
+</ul>
+</section>
+<section id="modeling-approach" class="level2">
+<h2 class="anchored" data-anchor-id="modeling-approach">Modeling Approach</h2>
+<ul>
+<li>Markov chains used to simulate herd dynamics</li>
+<li>Dynamic modeling of:
+<ul>
+<li>Milk production</li>
+<li>Reproduction</li>
+<li>Culling decisions</li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="data-integration-and-advanced-analytics" class="level1">
+<h1>Data Integration and Advanced Analytics</h1>
+<section id="integrated-data-systems" class="level2">
+<h2 class="anchored" data-anchor-id="integrated-data-systems">Integrated Data Systems</h2>
+<ul>
+<li>Combines multiple data sources:
+<ul>
+<li>Production</li>
+<li>Reproduction</li>
+<li>Nutrition</li>
+<li>Economics</li>
+</ul></li>
+<li>Supports holistic farm-level decision making</li>
+</ul>
+</section>
+<section id="whole-farm-simulation-models" class="level2">
+<h2 class="anchored" data-anchor-id="whole-farm-simulation-models">Whole-Farm Simulation Models</h2>
+<ul>
+<li>DairyPrint model</li>
+<li>Environmental assessment tools</li>
+<li>Evaluates sustainability and economic outcomes simultaneously</li>
+</ul>
+</section>
+</section>
+<section id="environmental-and-sustainability-assessment" class="level1">
+<h1>Environmental and Sustainability Assessment</h1>
+<section id="environmental-impact-modeling" class="level2">
+<h2 class="anchored" data-anchor-id="environmental-impact-modeling">Environmental Impact Modeling</h2>
+<ul>
+<li>Whole dairy farm simulation</li>
+<li>Assessment of:
+<ul>
+<li>Production efficiency</li>
+<li>Environmental footprint</li>
+</ul></li>
+<li>Links management decisions to sustainability outcomes</li>
+</ul>
+</section>
+</section>
+<section id="key-takeaways" class="level1">
+<h1>Key Takeaways</h1>
+<ul>
+<li>Data science enables more precise dairy management</li>
+<li>Economic and biological models complement each other</li>
+<li>Decision support tools translate research into practice</li>
+<li>Integrated systems are critical for future dairy sustainability</li>
+</ul>
+</section>
+<section id="advised-reading" class="level1">
+<h1>Advised Reading</h1>
+<p>Students are encouraged to review the following publications:</p>
+<ol type="1">
+<li><p><strong>Cabrera, V. E. (2012).</strong> Value of a cow and replacement decisions. <em>Journal of Dairy Science.</em> <a href="https://doi.org/10.3168/jds.2011-5214" class="uri">https://doi.org/10.3168/jds.2011-5214</a></p></li>
+<li><p><strong>Giordano et al.&nbsp;(2012).</strong> Economic analysis of reproductive programs. <em>Journal of Dairy Science.</em> <a href="https://doi.org/10.3168/jds.2011-4972" class="uri">https://doi.org/10.3168/jds.2011-4972</a></p></li>
+<li><p><strong>Cabrera et al.&nbsp;(2020).</strong> DairyPrint: Whole-farm simulation. <em>Journal of Dairy Science.</em> <a href="https://doi.org/10.3168/jds.2024-24946" class="uri">https://doi.org/10.3168/jds.2024-24946</a></p></li>
+<li><p><strong>Wangen et al.&nbsp;(2021).</strong> Data integration in dairy systems. <em>Livestock Science.</em> <a href="https://doi.org/10.1016/j.livsci.2021.104602" class="uri">https://doi.org/10.1016/j.livsci.2021.104602</a></p></li>
+</ol>
+</section>
+<section id="supplementary-materials" class="level1">
+<h1>Supplementary Materials</h1>
+<p>The following resources support this lecture:</p>
+<ul>
+<li>DairyMGT.info decision support tools</li>
+</ul>
+</section>
+<section id="in-class-activities" class="level1">
+<h1>In-Class Activities</h1>
+<ul>
+<li><a href="https://youtu.be/QDNlWDeyCCY">Recorded lecture</a></li>
+<li><a href="files/Cabrera2026.pdf">Presentation Dr.&nbsp;Cabrera</a></li>
+</ul>
+</section>
+<section id="in-class-discussion-topics" class="level1">
+<h1>In-Class Discussion Topics</h1>
+<ul>
+<li>Practical challenges in applying decision support tools</li>
+<li>Trade-offs between economic and environmental objectives</li>
+<li>Data limitations and model assumptions</li>
+<li>Future directions for data science in dairy farming</li>
+</ul>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -968,7 +1219,7 @@ ul.task-list li input[type="checkbox"] {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/Bovi-analytics/BeastsAndBytes/edit/main/weeks/week-5.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/Bovi-analytics/BeastsAndBytes/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/Bovi-analytics/BeastsAndBytes/edit/main/weeks/week-5.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/Bovi-analytics/BeastsAndBytes/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This page is built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>
