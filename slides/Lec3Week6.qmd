@@ -1,6 +1,6 @@
 ---
 title: "Lecture 6"
-subtitle: "ANSCI 4940 - Spring 2026"
+subtitle: "ANSCI 6040/4040 - Spring 2026"
 author: "Miel Hostens"
 logo: "images/Bovi-Analytics-SmallLogo.png"
 format:
