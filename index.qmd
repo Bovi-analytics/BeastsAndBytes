@@ -25,7 +25,7 @@ Note that this schedule will be updated as the course progresses, with all chang
 | 5 | 2/18 (Wed) | [Guest lecture](https://teams.microsoft.com/meet/27062365396024?p=rNcIgJIJFvcr98DkNZ) | [Dr. Cabrera](https://andysci.wisc.edu/directory/victor-cabrera/) | [📖](weeks/week-5.html) | [🖥️](https://youtu.be/QDNlWDeyCCY) |
 | 6 | 2/23 (Mon) | Project discussion | Dr. Miel Hostens | 📖 | 🖥️ |
 | 6 | 2/24 (Tue) | Programming assignment | TAs | 📖 | 🖥️ |
-| 6 | 2/25 (Wed) | Project discussion | Dr. Hostens or TAs | 📖 | 🖥️ |
+| 6 | 2/25 (Wed) | FAIR data principles for Animal/Agricultural Science | Dr. Hostens | 📖 | [🖥️](slides/Lec3Week6.html) | |
 | 7 | 3/2 (Mon) | MyCow\$ | Dr. Giordano | 📖 | 🖥️ |
 | 7 | 3/3 (Tue) | Programming assignment | TAs | \- | -️ |
 | 7 | 3/4 (Wed) | Project discussion | Dr. Hostens or TAs | 📖 | 🖥️ |
