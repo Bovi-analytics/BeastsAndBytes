@@ -29,8 +29,8 @@ Note that this schedule will be updated as the course progresses, with all chang
 | 7 | 3/2 (Mon) | MyCow\$ | Dr. Giordano | 📖 | 🖥️ |
 | 7 | 3/3 (Tue) | Programming assignment | TAs | \- | -️ |
 | 7 | 3/4 (Wed) | Effective visualisation using Tableau | Dr. Hostens | 📖 | [🖥️](https://prezi.com/view/8Pgr5LLExlIaYtktADox/) |
-| 8 | 3/9 (Mon) | To be decided | TBD | 📖 | 🖥️ |
-| 8 | 3/10 (Tue) | Programming assignment | TAs | 📖 | 🖥️ |
+| 8 | 3/9 (Mon) | DISC Assessment & Team DynamicS | Dr. Hostens | [📖](weeks/week-8.html) | [🖥️](slides/lec-8.html) |
+| 8 | 3/10 (Tue) | Farm visit | Dr. Hostens and TAs | \- | \- |
 | 8 | 3/11 (Wed) | Project discussion | Dr. Hostens or TAs | 📖 | 🖥️ |
 | 9 | 3/16 (Mon) | To be decided | TBD | 📖 | 🖥️ |
 | 9 | 3/17 (Tue) | Programming assignment | TAs | 📖 | 🖥️ |

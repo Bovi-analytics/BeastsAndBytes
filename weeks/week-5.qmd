@@ -1,14 +1,4 @@
 ---
-title: "Week 5: Decision Making in Dairy Farming"
-author: "Guest Lecture: Dr. Cabrera"
-date: "`r Sys.Date()`"
-format:
-  html:
-    toc: true
-    toc-depth: 2
----
-
----
 title: "Data Science Applications for Dairy Farming"
 author: "Guest Lecture: Dr. Victor E. Cabrera"
 date: "`r Sys.Date()`"
