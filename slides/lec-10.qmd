@@ -1,251 +1,427 @@
 ---
-title: "Data transformations"
-subtitle: "Lecture 10"
-date: "April 10, 2025"
-format: 
+title: "Lecture - The Curse of Dimensionality in Dairy Data Science"
+subtitle: "ANSCI 4040 - Time × Hierarchy × Cohorts"
+author: "Miel Hostens"
+footer: "https://bovi-analytics.github.io/BeastsAndBytes/"
+logo: "images/Bovi-Analytics-SmallLogo.png"
+format:
   revealjs:
-    footer: "[https://bovi-analytics.github.io/BeastsAndBytes/](https://bovi-analytics.github.io/BeastsAndBytes/)"
+    theme: slides.scss
+    transition: fade
+    slide-number: true
+editor: visual
+execute:
+  freeze: auto
 ---
 
-# Introduction to factors {#sec-introduction}
+## Learning objectives
 
-## Prerequisites {#sec-prerequisites}
+By the end, students can:
 
--   Base R provides some basic tools for creating and manipulating factors.
--   We'll supplement these with the **forcats** package, which is part of the core tidyverse. It provides tools for dealing with **cat**egorical variables (and it's an anagram of factors!) using a wide range of helpers for working with factors.
+-   Name **common dairy data dimensions** (time, hierarchy, cohort) and why they explode
+-   Identify the **unit of analysis** and the **level at which each variable exists**
+-   Diagnose **duplicate rows, double counting, leakage**, and **inconsistent aggregations**
+-   Implement safe patterns for **joins** and **aggregations**
 
-```{r}
-#| label: setup
-#| echo: true
-#| message: false
+## Why this lecture?
 
-library(tidyverse)
+-   Dairy data is **high‑frequency**, **hierarchical**, **longitudinal**
+-   Most failures are not “modelling failures”
+-   They are **data alignment** and **aggregation** failures
+
+> Data science does not fail on farms — **data alignment does**
+
+## What do we mean by “dimensionality”?
+
+A *dimension* is an axis along which data varies.
+
+Examples:
+
+-   Time
+-   Cow
+-   Herd
+-   Lactation
+
+## What do we mean by “dimensionality”?
+
+-   Sensor
+-   Pen / ration
+-   Geography
+-   Unit system (metric vs imperial)
+
+More dimensions ≠ more insight.\
+More dimensions = more ways to be wrong.
+
+## The dairy “data cube”
+
+Think of a cube as a multi-model (multi-D cube):
+
+-   **Rows:** events/observations
+
+-   **Columns:** features/metrics
+
+-   **Indices:** time, animal, location, cohort, etc.
+
+    ![](images/clipboard-1073273860.png){width="382"}
+
+## The dairy “data cube”
+
+As we add indices, we create:
+
+-   Sparsity
+-   Collinearity between data
+-   Data leakage risk
+-   Joining/aggregation complexity
+
+## Dairy time is not one dimension
+
+Time representations commonly used:
+
+-   Exact timestamp (2026‑03‑24 05:12)
+-   Hour (0–23) - Part of day (AM/PM)
+-   Day -\> Week -\> Month -\> Quarter -\> Year
+
+**Each choice changes the question you’re answering.**
+
+## Example: milk yield 
+
+same cow, many “truths”
+
+-   42.1 lbs at 05:12 (single milking)
+-   84.3 lbs/day
+-   589 lbs/week
+-   22,300 lbs/lactation
+-   27,100 lbs/year
+
+All can be correct — but they are not interchangeable.
+
+## Hierarchical levels in dairy data
+
+Common levels:
+
+-   Observation (sensor tick)
+-   Milking
+-   Day
+-   Cow/Lactation
+-   Farm/Herd/Pen
+
+**Critical concept:** you must know the level at which each variable exists.
+
+## The first rule
+
+> **Always ask:** “At what level does this variable truly exist?”
+
+Examples:
+
+-   DIM exists at **cow‑lactation‑day** (or cow‑lactation‑timestamp)
+-   Herd ration exists at **pen/day**
+-   Somatic cell count exists at **sample event**
+
+## Where curse of dimensionality shows up first
+
+Before any modelling, we see:
+
+-   Too many grouping choices, join keys, time anchors
+-   Too many partially‑missing records
+
+And the most common symptom:
+
+> “My numbers don’t match the farm report.”
+
+# Cross-sectional vs cohort aggregation
+
+## Two types of time analyses
+
+**Cross‑sectional (calendar anchored)**
+
+-   “In 2025, what was the herd average milk?”
+
+**Cohort / longitudinal (biology anchored)**
+
+-   “For cows calving in 2025, what was milk at DIM 30?”
+
+Mixing these without care causes inconsistent summaries.
+
+## Cross‑sectional aggregation
+
+Simple question:
+
+> “What was the average milk yield per cow in 2025?”
+
+Hidden decisions:
+
+-   Per cow‑day vs per milking vs per cow‑year?
+-   How do we treat a null values?
+-   How do we treat a 0 value?
+
+## Wrong approach (very common)
+
+``` pseudo
+GROUP BY cow_id, year
+SUM(milk_kg)
 ```
 
-# Factors {#sec-factors}
+Problem:
 
-## Factor basics {#sec-factor-basics}
+-   A cow that calved in 2024 produces milk in 2025
+-   Does she belong to 2024 or 2025?
+-   Can you use 2025 milk to evaluate things that happened in 2024
 
-Imagine that you have a variable that records month:
+**Answer:** depends on *your definition*. The code above silently picks something.
 
-```{r}
-#| echo: true
-x1 <- c("Dec", "Apr", "Jan", "Mar")
+## Calendar vs biology misalign
+
+-   Year belongs to the **calendar**
+-   Lactation belongs to **biology**
+
+A single record can be:
+
+-   Lactation started in 2025
+-   Milk produced in 2026
+
+If you do “year summaries” and “lactation summaries”, you must expect them to differ.
+
+## Cohort analysis aggregation: calving year
+
+Define cohort:
+
+-   **Calving year = year(calving_date)**
+
+Now analyze milk trajectories:
+
+-   Milk by DIM
+-   Health risk by DIM
+-   Repro events by DIM
+
+This aligns biology — but complicates reporting.
+
+## The cohort trap (important!)
+
+A cow can be included in a cohort summary because she calved *last year*, while her observations (milk yield, activity) occur *this year*.
+
+This creates inconsistencies when:
+
+-   dashboards are calendar‑based
+-   biology summaries are cohort‑based
+-   features are engineered without tracking the analysis level
+
+# Best practices
+
+## Key vocabulary
+
+-   **Unit of analysis:** the row you want to model/report on
+-   **Grain / level:** what one row represents
+-   **Aggregation:** collapsing many rows into fewer
+-   **Join:** combining tables; can multiply rows
+
+If you don’t specify grain, the computer will pick a grain for you.
+
+## Example dataset grains (typical)
+
+-   `milk_milking`: one row per cow per milking
+-   `activity_5min`: one row per cow per 5 minutes
+-   `health_events`: one row per event
+-   `calving`: one row per lactation
+-   `ration_pen_day`: one row per pen per day
+
+Joining these without planning is the fastest way to create incorrect numbers.
+
+## The join problem (why duplication happens)
+
+If you join:
+
+-   600 rows in the table milk yield
+-   with a table calvings that has 2 calvings for that cow
+-   join by cow
+
+You get how many rows?
+
+## Always join at the highest common resolution
+
+Golden rule:
+
+> **Join on the highest common resolution (grain)**
+
+## Potential solution
+
+``` pseudo
+-- Step 1: create lactation windows
+lactation =
+  SELECT cow_id, lactation_id,
+         calving_ts, next_calving_ts
+  FROM calving_table
+
+-- Step 2: label each milk record to exactly one lactation
+milk_labeled =
+  SELECT m.*, l.lactation_id
+  FROM milk_milking m
+  JOIN lactation l
+    ON m.cow_id = l.cow_id
+   AND m.ts >= l.calving_ts
+   AND m.ts <  l.next_calving_ts
 ```
 
-## Factor basics {#sec-factor-basics-2}
+Now you can aggregate safely by lactation.
 
-Using a string to record this variable has two problems:
+## Group_by is not innocent
 
-1.  There are only twelve possible months, and there's nothing saving you from typos:
-
-    ```{r}
-    #| echo: true
-    x2 <- c("Dec", "Apr", "Jam", "Mar")
-    ```
-
-2.  It doesn't sort in a useful way:
-
-    ```{r}
-    #| echo: true
-    sort(x1)
-    ```
-
-## Factor basics {#sec-factor-basics-3}
-
-You can fix both of these problems with a factor.
-
-To create a factor you must start by creating a list of the valid **levels**:
-
-```{r}
-#| echo: true
-#| message: true
-month_levels <- c(
-  "Jan", "Feb", "Mar", "Apr", "May", "Jun",
-  "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
-)
+``` pseudo
+GROUP BY herd_id
+MEAN(milk_kg)
 ```
 
-## Factor basics {#sec-factor-basics-4}
+Implicit assumptions:
 
-Now you can create a factor:
+-   Each cow contributes equally
+-   Each day contributes equally
 
-```{r}
-#| echo: true
-#| message: true
-y1 <- factor(x1, levels = month_levels)
-y1
+Often false.
 
-sort(y1)
+We must decide weighting:
+
+-   Per cow‑day
+-   Per cow
+
+## Weighting example
+
+If Cow A has 300 milking records and Cow B has 30:
+
+-   **Milking‑level mean** overweights Cow A
+-   **Cow‑level mean** treats both cows equally
+
+You must choose *which* average you mean.
+
+## Curse of dimensionality
+
+If you have:
+
+-   365 days
+-   2 milkings/day
+-   300 cows
+-   3 lactations
+
+Then rows/year ≈ 365 × 2 × 300 × 3 = **657,000**
+
+Before sensors.
+
+Now add:
+
+-   288 five‑minute bins/day → 100× more
+
+## Sparsity: why more features can hurt
+
+As dimensions grow:
+
+-   Many combinations never occur
+-   Missingness increases
+-   Models learn noise
+
+## Aggregation choices (common pitfalls)
+
+### Pitfall 1 — Aggregate after join
+
+-   You join a high‑frequency table to an event table
+-   Then you sum
+-   You double count events or inflate totals
+
+### Fix
+
+-   Aggregate each table to your analysis grain **first**
+-   Then join
+
+## Practical rule of thumb
+
+> **Aggregate first, then join.**\
+> Never the other way around.
+
+(There are exceptions, but they must be intentional.)
+
+## Documentation: store grain + definitions
+
+Every dataset should have:
+
+-   Grain (one row per …)
+-   Time anchor (calendar vs DIM)
+-   Inclusion criteria (dry cows? first 7 DIM excluded?)
+-   Unit conventions (kg, lb, ECM)
+
+If it’s not written down, it’s not reproducible.
+
+## Common join “smells” (warning signs)
+
+If any of these happen, stop and inspect:
+
+-   Row count increases unexpectedly
+-   Summed milk increases after joining
+-   Event counts change after joining
+-   Same cow_id appears many more times than expected
+
+## Debug technique: row‑count audit
+
+Pseudocode:
+
+``` pseudo
+n_before = COUNT_ROWS(milk)
+joined = milk JOIN calving USING (cow_id)
+n_after  = COUNT_ROWS(joined)
+
+IF n_after >> n_before:
+  you created duplication
 ```
 
-## Factor NA {#sec-factor-basics-6}
+Also compute duplicates by key:
 
-And any values not in the level will be silently converted to NA:
-
-```{r}
-#| echo: true
-#| message: true
-x2 <- c("Dec", "Apr", "Jam", "Mar")
-y2 <- factor(x2, levels = month_levels)
-y2
+``` pseudo
+COUNT(*) GROUP BY cow_id, ts HAVING COUNT(*) > 1
 ```
 
-## Factor NA {#sec-factor-basics-7}
+## Debug technique: sum invariants
 
-This seems risky, so you might want to use `forcats::fct()` instead, which will throw a error warning:
+If you join metadata, certain totals must remain invariant.
 
-```{r}
-#| echo: true
-#| message: true
-#| error: true
-y2 <- fct(x2, levels = month_levels)
+Example:
+
+-   Total milk (kg) should not change when adding cow breed
+
+``` pseudo
+SUM(milk_kg) before join == SUM(milk_kg) after join
 ```
 
-## Factor sorting {#sec-factor-basics-8}
+If it changes: duplication happened.
 
-Sorting alphabetically is slightly risky because not every computer will sort strings in the same way. So `forcats::fct()` orders by first appearance in the original vector:
+## Group_by pitfalls
 
-```{r}
-#| echo: true
-#| message: true
-fct(x1)
+``` pseudo
+GROUP BY herd, year, month, week, day
 ```
 
-## Factor access {#sec-factor-basics-9}
+Creates tiny groups → noisy means → missingness.
 
-If you ever need to see the set of valid levels directly, you can do so with `levels()`:
+Pick ONE time scale aligned with the question.
 
-```{r}
-#| echo: true
-#| message: true
-levels(y2)
-```
+## Practical checklist
 
-# Reading factors from CSV {#sec-factor-csv}
+Before any analysis:
 
-## Factors in CSV files {#sec-reading-csvs}
+1.  What is my **unit of analysis**?
+2.  What is the **grain** of each table?
+3.  What clock am I using? (calendar vs DIM)
+4.  What cohort definition applies? (birth, calving, etc.)
+5.  Aggregate at the target grain **before** joining
+6.  Validate with invariants: row counts, sums, event counts
+7.  Document units (kg/lb) and conversions
 
-You can also create a factor when reading your data with readr with `col_factor()`:
+## Take‑home messages
 
-```{r}
-#| echo: true
-#| message: true
-csv <- "
-month,value
-Jan,12
-Feb,56
-Mar,12"
+-   Dairy datasets live on multiple clocks: **calendar** and **biology**
+-   Hierarchies (cow → lactation → herd) must be explicit
+-   Joins can multiply data silently
+-   Aggregations must match the **question and grain**
+-   The curse of dimensionality is often a **data engineering** problem
 
-df <- read_csv(csv, col_types = cols(month = col_factor(month_levels)))
-df$month
-```
+## Final message
 
-# Factors reordering and releveling {#sec-factor-reorder-relevel}
-
-## Factor reorder {#sec-factor-reorder-1}
-
-Imagine the following plot, what would you like to ameliorate it for
-
-```{r}
-#| echo: false
-#| message: true
-#| fig-alt: |
-#|   A scatterplot of with tvhours on the x-axis and religion on the y-axis.
-#|   The y-axis is ordered seemingly aribtrarily making it hard to get
-#|   any sense of overall pattern.
-relig_summary <- gss_cat |>
-  group_by(relig) |>
-  summarize(
-    tvhours = mean(tvhours, na.rm = TRUE),
-    n = n()
-  )
-
-ggplot(relig_summary, aes(x = tvhours, y = relig)) +
-  geom_point()
-```
-
-## Factor reorder {#sec-factor-reorder-2}
-
-It is hard to read this plot because there's no overall pattern. We can improve it by reordering the levels of `relig` using `fct_reorder()`. `fct_reorder()` takes three arguments:
-
--   `.f`, the factor whose levels you want to modify.
--   `.x`, a numeric vector that you want to use to reorder the levels.
--   Optionally, `.fun`, a function that's used if there are mu
-
-```{r}
-#| echo: true
-#| message: true
-#| fig-alt: |
-#|   The same scatterplot as above, but now the religion is displayed in
-#|   increasing order of tvhours. "Other eastern" has the fewest tvhours
-#|   under 2, and "Don't know" has the highest (over 5).
-ggplot(relig_summary, aes(x = tvhours, y = fct_reorder(relig, tvhours))) +
-  geom_point()
-```
-
-## Factor reorder {#sec-factor-reorder-3}
-
-```{r}
-#| echo: false
-#| message: true
-#| fig-alt: |
-#|   The same scatterplot as above, but now the religion is displayed in
-#|   increasing order of tvhours. "Other eastern" has the fewest tvhours
-#|   under 2, and "Don't know" has the highest (over 5).
-ggplot(relig_summary, aes(x = tvhours, y = fct_reorder(relig, tvhours))) +
-  geom_point()
-```
-
-## Factor relevel {#sec-factor-relevel-1}
-
-Imagine the following plot, maybe you would like to have "Not applicable" not show up at the top of the graph.
-
-```{r}
-#| echo: false
-#| message: true
-#| fig-alt: |
-#|   A scatterplot with age on the x-axis and income on the y-axis. Income
-#|   has been reordered in order of average age which doesn't make much
-#|   sense. One section of the y-axis goes from $6000-6999, then <$1000,
-#|   then $8000-9999.
-rincome_summary <- gss_cat |>
-  group_by(rincome) |>
-  summarize(
-    age = mean(age, na.rm = TRUE),
-    n = n()
-  )
-
-ggplot(rincome_summary, aes(x = age, y = fct_reorder(rincome, age))) +
-  geom_point()
-```
-
-## Factor relevel {#sec-factor-relevel-2}
-
-You can use `fct_relevel()`. It takes a factor, `.f`, and then any number of levels that you want to move to the front of the line.
-
-```{r}
-#| echo: true
-#| message: true
-#| fig-alt: |
-#|   The same scatterplot but now "Not Applicable" is displayed at the
-#|   bottom of the y-axis. Generally there is a positive association
-#|   between income and age, and the income band with the highethst average
-#|   age is "Not applicable".
-
-ggplot(rincome_summary, aes(x = age, y = fct_relevel(rincome, "Not applicable"))) +
-  geom_point()
-```
-
-## Other usefull refactoring functions {#sec-other-factor-1}
-
--   `fct_reorder2(.f, .x, .y)` reorders the factor `.f` by the `.y` values associated with the largest `.x` values.
--   `fct_infreq()` to order levels in decreasing frequency.
--   Combine it with `fct_rev()` if you want them in increasing frequency.
--   `fct_recode()` allows you to recode, or change, the value of each level.
-
-## Other usefull re-factoring functions {#sec-other-factor-2}
-
--   `fct_collapse()` is a useful variant of `fct_recode()` using a vector of old levels.
--   `fct_lump_lowfreq()` is a simple starting point that progressively lumps the smallest groups categories into "Other", always keeping "Other" as the smallest category.
--   `fct_lump_n()` specifies the exact number of groups.
+> The cure is not “more modeling”\
+> The cure is **explicit levels, explicit time anchors, and safe joins**
+>
+> And **naming conventions**!

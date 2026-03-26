@@ -10,11 +10,11 @@ format:
 
 # Introduction
 
--    Overview of DISC as a behavioral framework for teamwork
+-   Overview of DISC as a behavioral framework for teamwork
 
--    Role of communication and work-style differences in student project teams
+-   Role of communication and work-style differences in student project teams
 
--    Motivation for using behavioral awareness to improve collaboration and reduce conflict
+-   Motivation for using behavioral awareness to improve collaboration and reduce conflict
 
 # Learning Objectives
 
@@ -56,11 +56,11 @@ By the end of this lecture, students should be able to:
 
 -   **D** – Dominance
 
--    **I** – Influence
+-   **I** – Influence
 
--    **S** – Steadiness
+-   **S** – Steadiness
 
--    **C** – Conscientiousness
+-   **C** – Conscientiousness
 
 ## DISC Colors (“Surrounded by Idiots”)
 
@@ -74,41 +74,41 @@ By the end of this lecture, students should be able to:
 
 # Key Takeaways
 
--    Differences in teams are normal
+-   Differences in teams are normal
 
--    DISC provides a shared language for behavior
+-   DISC provides a shared language for behavior
 
--    Awareness reduces friction and conflict
+-   Awareness reduces friction and conflict
 
--    Effective teams adapt to style differences
+-   Effective teams adapt to style differences
 
 # Advised Reading
 
 Students are encouraged to explore:
 
--    Erikson, T. *Surrounded by Idiots*
+-   Erikson, T. *Surrounded by Idiots*
 
--    Introductory DISC resources (education and leadership contexts)
+-   Introductory DISC resources (education and leadership contexts)
 
 # Supplementary Materials
 
 The following resources support this lecture:
 
--    Free DISC assessment tool\
+-   Free DISC assessment tool\
     \<https://professionalleadershipinstitute.com/disc-assessment/\>
 
 # In-Class Activities
 
--    Completion of DISC self-assessment (before next class)
+-   Completion of DISC self-assessment (before next class)
 
--    Short written reflection on personal style and team impact
+-   Short written reflection on personal style and team impact
 
 # In-Class Discussion Topics
 
--    How different DISC styles interpret the same team situation
+-   How different DISC styles interpret the same team situation
 
--    Misinterpretation of intent versus behavior
+-   Misinterpretation of intent versus behavior
 
--    Strengths and risks of homogeneous teams
+-   Strengths and risks of homogeneous teams
 
--    Using DISC to improve collaboration in student projects
+-   Using DISC to improve collaboration in student projects
