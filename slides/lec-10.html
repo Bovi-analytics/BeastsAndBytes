@@ -9,8 +9,8 @@
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.9.36">
 
-  <meta name="dcterms.date" content="2025-04-10">
-  <title>Beasts &amp; Bytes – Data transformations</title>
+  <meta name="author" content="Miel Hostens">
+  <title>Beasts &amp; Bytes – Lecture - The Curse of Dimensionality in Dairy Data Science</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -98,7 +98,7 @@
     code span.vs { color: #20794d; } /* VerbatimString */
     code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
-  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-2740581606dc327e82f18f789b69d8a0.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-f0594785aaed3d091f712140715742e2.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -190,11 +190,11 @@
       margin-right: 0; 
     }
   </style>
-<meta property="og:title" content="Data transformations – Beasts &amp; Bytes">
-<meta property="og:description" content="Lecture 10">
+<meta property="og:title" content="Lecture - The Curse of Dimensionality in Dairy Data Science – Beasts &amp; Bytes">
+<meta property="og:description" content="ANSCI 4040 - Time × Hierarchy × Cohorts">
 <meta property="og:site_name" content="Beasts &amp; Bytes">
-<meta name="twitter:title" content="Data transformations – Beasts &amp; Bytes">
-<meta name="twitter:description" content="Lecture 10">
+<meta name="twitter:title" content="Lecture - The Curse of Dimensionality in Dairy Data Science – Beasts &amp; Bytes">
+<meta name="twitter:description" content="ANSCI 4040 - Time × Hierarchy × Cohorts">
 <meta name="twitter:image" content="https://bovi-analytics.github.io/BeastsAndBytes/slides/images/twitter-card.png">
 <meta name="twitter:creator" content="@MielHostens">
 <meta name="twitter:card" content="summary_large_image">
@@ -204,220 +204,438 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Data transformations</h1>
-  <p class="subtitle">Lecture 10</p>
+  <h1 class="title">Lecture - The Curse of Dimensionality in Dairy Data Science</h1>
+  <p class="subtitle">ANSCI 4040 - Time × Hierarchy × Cohorts</p>
 
 <div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Miel Hostens 
+</div>
+</div>
 </div>
 
-  <p class="date">2025-04-10</p>
+</section>
+<section id="learning-objectives" class="slide level2">
+<h2>Learning objectives</h2>
+<p>By the end, students can:</p>
+<ul>
+<li>Name <strong>common dairy data dimensions</strong> (time, hierarchy, cohort) and why they explode</li>
+<li>Identify the <strong>unit of analysis</strong> and the <strong>level at which each variable exists</strong></li>
+<li>Diagnose <strong>duplicate rows, double counting, leakage</strong>, and <strong>inconsistent aggregations</strong></li>
+<li>Implement safe patterns for <strong>joins</strong> and <strong>aggregations</strong></li>
+</ul>
+</section>
+<section id="why-this-lecture" class="slide level2">
+<h2>Why this lecture?</h2>
+<ul>
+<li>Dairy data is <strong>high‑frequency</strong>, <strong>hierarchical</strong>, <strong>longitudinal</strong></li>
+<li>Most failures are not “modelling failures”</li>
+<li>They are <strong>data alignment</strong> and <strong>aggregation</strong> failures</li>
+</ul>
+<blockquote>
+<p>Data science does not fail on farms — <strong>data alignment does</strong></p>
+</blockquote>
+</section>
+<section id="what-do-we-mean-by-dimensionality" class="slide level2">
+<h2>What do we mean by “dimensionality”?</h2>
+<p>A <em>dimension</em> is an axis along which data varies.</p>
+<p>Examples:</p>
+<ul>
+<li>Time</li>
+<li>Cow</li>
+<li>Herd</li>
+<li>Lactation</li>
+</ul>
+</section>
+<section id="what-do-we-mean-by-dimensionality-1" class="slide level2">
+<h2>What do we mean by “dimensionality”?</h2>
+<ul>
+<li>Sensor</li>
+<li>Pen / ration</li>
+<li>Geography</li>
+<li>Unit system (metric vs imperial)</li>
+</ul>
+<p>More dimensions ≠ more insight.<br>
+More dimensions = more ways to be wrong.</p>
+</section>
+<section id="the-dairy-data-cube" class="slide level2">
+<h2>The dairy “data cube”</h2>
+<p>Think of a cube as a multi-model (multi-D cube):</p>
+<ul>
+<li><p><strong>Rows:</strong> events/observations</p></li>
+<li><p><strong>Columns:</strong> features/metrics</p></li>
+<li><p><strong>Indices:</strong> time, animal, location, cohort, etc.</p>
+<p><img data-src="images/clipboard-1073273860.png" width="382"></p></li>
+</ul>
+</section>
+<section id="the-dairy-data-cube-1" class="slide level2">
+<h2>The dairy “data cube”</h2>
+<p>As we add indices, we create:</p>
+<ul>
+<li>Sparsity</li>
+<li>Collinearity between data</li>
+<li>Data leakage risk</li>
+<li>Joining/aggregation complexity</li>
+</ul>
+</section>
+<section id="dairy-time-is-not-one-dimension" class="slide level2">
+<h2>Dairy time is not one dimension</h2>
+<p>Time representations commonly used:</p>
+<ul>
+<li>Exact timestamp (2026‑03‑24 05:12)</li>
+<li>Hour (0–23) - Part of day (AM/PM)</li>
+<li>Day -&gt; Week -&gt; Month -&gt; Quarter -&gt; Year</li>
+</ul>
+<p><strong>Each choice changes the question you’re answering.</strong></p>
+</section>
+<section id="example-milk-yield" class="slide level2">
+<h2>Example: milk yield</h2>
+<p>same cow, many “truths”</p>
+<ul>
+<li>42.1 lbs at 05:12 (single milking)</li>
+<li>84.3 lbs/day</li>
+<li>589 lbs/week</li>
+<li>22,300 lbs/lactation</li>
+<li>27,100 lbs/year</li>
+</ul>
+<p>All can be correct — but they are not interchangeable.</p>
+</section>
+<section id="hierarchical-levels-in-dairy-data" class="slide level2">
+<h2>Hierarchical levels in dairy data</h2>
+<p>Common levels:</p>
+<ul>
+<li>Observation (sensor tick)</li>
+<li>Milking</li>
+<li>Day</li>
+<li>Cow/Lactation</li>
+<li>Farm/Herd/Pen</li>
+</ul>
+<p><strong>Critical concept:</strong> you must know the level at which each variable exists.</p>
+</section>
+<section id="the-first-rule" class="slide level2">
+<h2>The first rule</h2>
+<blockquote>
+<p><strong>Always ask:</strong> “At what level does this variable truly exist?”</p>
+</blockquote>
+<p>Examples:</p>
+<ul>
+<li>DIM exists at <strong>cow‑lactation‑day</strong> (or cow‑lactation‑timestamp)</li>
+<li>Herd ration exists at <strong>pen/day</strong></li>
+<li>Somatic cell count exists at <strong>sample event</strong></li>
+</ul>
+</section>
+<section id="where-curse-of-dimensionality-shows-up-first" class="slide level2">
+<h2>Where curse of dimensionality shows up first</h2>
+<p>Before any modelling, we see:</p>
+<ul>
+<li>Too many grouping choices, join keys, time anchors</li>
+<li>Too many partially‑missing records</li>
+</ul>
+<p>And the most common symptom:</p>
+<blockquote>
+<p>“My numbers don’t match the farm report.”</p>
+</blockquote>
 </section>
 <section>
-<section id="sec-introduction" class="title-slide slide level1 center">
-<h1>Introduction to factors</h1>
+<section id="cross-sectional-vs-cohort-aggregation" class="title-slide slide level1 center">
+<h1>Cross-sectional vs cohort aggregation</h1>
 
 </section>
-<section id="sec-prerequisites" class="slide level2">
-<h2>Prerequisites</h2>
+<section id="two-types-of-time-analyses" class="slide level2">
+<h2>Two types of time analyses</h2>
+<p><strong>Cross‑sectional (calendar anchored)</strong></p>
 <ul>
-<li>Base R provides some basic tools for creating and manipulating factors.</li>
-<li>We’ll supplement these with the <strong>forcats</strong> package, which is part of the core tidyverse. It provides tools for dealing with <strong>cat</strong>egorical variables (and it’s an anagram of factors!) using a wide range of helpers for working with factors.</li>
+<li>“In 2025, what was the herd average milk?”</li>
 </ul>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a><span class="fu">library</span>(tidyverse)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</div>
+<p><strong>Cohort / longitudinal (biology anchored)</strong></p>
+<ul>
+<li>“For cows calving in 2025, what was milk at DIM 30?”</li>
+</ul>
+<p>Mixing these without care causes inconsistent summaries.</p>
+</section>
+<section id="crosssectional-aggregation" class="slide level2">
+<h2>Cross‑sectional aggregation</h2>
+<p>Simple question:</p>
+<blockquote>
+<p>“What was the average milk yield per cow in 2025?”</p>
+</blockquote>
+<p>Hidden decisions:</p>
+<ul>
+<li>Per cow‑day vs per milking vs per cow‑year?</li>
+<li>How do we treat a null values?</li>
+<li>How do we treat a 0 value?</li>
+</ul>
+</section>
+<section id="wrong-approach-very-common" class="slide level2">
+<h2>Wrong approach (very common)</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode numberSource pseudo number-lines code-with-copy"><code class="sourceCode"><span id="cb1-1"><a></a>GROUP BY cow_id, year</span>
+<span id="cb1-2"><a></a>SUM(milk_kg)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Problem:</p>
+<ul>
+<li>A cow that calved in 2024 produces milk in 2025</li>
+<li>Does she belong to 2024 or 2025?</li>
+<li>Can you use 2025 milk to evaluate things that happened in 2024</li>
+</ul>
+<p><strong>Answer:</strong> depends on <em>your definition</em>. The code above silently picks something.</p>
+</section>
+<section id="calendar-vs-biology-misalign" class="slide level2">
+<h2>Calendar vs biology misalign</h2>
+<ul>
+<li>Year belongs to the <strong>calendar</strong></li>
+<li>Lactation belongs to <strong>biology</strong></li>
+</ul>
+<p>A single record can be:</p>
+<ul>
+<li>Lactation started in 2025</li>
+<li>Milk produced in 2026</li>
+</ul>
+<p>If you do “year summaries” and “lactation summaries”, you must expect them to differ.</p>
+</section>
+<section id="cohort-analysis-aggregation-calving-year" class="slide level2">
+<h2>Cohort analysis aggregation: calving year</h2>
+<p>Define cohort:</p>
+<ul>
+<li><strong>Calving year = year(calving_date)</strong></li>
+</ul>
+<p>Now analyze milk trajectories:</p>
+<ul>
+<li>Milk by DIM</li>
+<li>Health risk by DIM</li>
+<li>Repro events by DIM</li>
+</ul>
+<p>This aligns biology — but complicates reporting.</p>
+</section>
+<section id="the-cohort-trap-important" class="slide level2">
+<h2>The cohort trap (important!)</h2>
+<p>A cow can be included in a cohort summary because she calved <em>last year</em>, while her observations (milk yield, activity) occur <em>this year</em>.</p>
+<p>This creates inconsistencies when:</p>
+<ul>
+<li>dashboards are calendar‑based</li>
+<li>biology summaries are cohort‑based</li>
+<li>features are engineered without tracking the analysis level</li>
+</ul>
 </section></section>
 <section>
-<section id="sec-factors" class="title-slide slide level1 center">
-<h1>Factors</h1>
+<section id="best-practices" class="title-slide slide level1 center">
+<h1>Best practices</h1>
 
 </section>
-<section id="sec-factor-basics" class="slide level2">
-<h2>Factor basics</h2>
-<p>Imagine that you have a variable that records month:</p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a></a>x1 <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Dec"</span>, <span class="st">"Apr"</span>, <span class="st">"Jan"</span>, <span class="st">"Mar"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</div>
+<section id="key-vocabulary" class="slide level2">
+<h2>Key vocabulary</h2>
+<ul>
+<li><strong>Unit of analysis:</strong> the row you want to model/report on</li>
+<li><strong>Grain / level:</strong> what one row represents</li>
+<li><strong>Aggregation:</strong> collapsing many rows into fewer</li>
+<li><strong>Join:</strong> combining tables; can multiply rows</li>
+</ul>
+<p>If you don’t specify grain, the computer will pick a grain for you.</p>
 </section>
-<section id="sec-factor-basics-2" class="slide level2">
-<h2>Factor basics</h2>
-<p>Using a string to record this variable has two problems:</p>
+<section id="example-dataset-grains-typical" class="slide level2">
+<h2>Example dataset grains (typical)</h2>
+<ul>
+<li><code>milk_milking</code>: one row per cow per milking</li>
+<li><code>activity_5min</code>: one row per cow per 5 minutes</li>
+<li><code>health_events</code>: one row per event</li>
+<li><code>calving</code>: one row per lactation</li>
+<li><code>ration_pen_day</code>: one row per pen per day</li>
+</ul>
+<p>Joining these without planning is the fastest way to create incorrect numbers.</p>
+</section>
+<section id="the-join-problem-why-duplication-happens" class="slide level2">
+<h2>The join problem (why duplication happens)</h2>
+<p>If you join:</p>
+<ul>
+<li>600 rows in the table milk yield</li>
+<li>with a table calvings that has 2 calvings for that cow</li>
+<li>join by cow</li>
+</ul>
+<p>You get how many rows?</p>
+</section>
+<section id="always-join-at-the-highest-common-resolution" class="slide level2">
+<h2>Always join at the highest common resolution</h2>
+<p>Golden rule:</p>
+<blockquote>
+<p><strong>Join on the highest common resolution (grain)</strong></p>
+</blockquote>
+</section>
+<section id="potential-solution" class="slide level2">
+<h2>Potential solution</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode numberSource pseudo number-lines code-with-copy"><code class="sourceCode"><span id="cb2-1"><a></a>-- Step 1: create lactation windows</span>
+<span id="cb2-2"><a></a>lactation =</span>
+<span id="cb2-3"><a></a>  SELECT cow_id, lactation_id,</span>
+<span id="cb2-4"><a></a>         calving_ts, next_calving_ts</span>
+<span id="cb2-5"><a></a>  FROM calving_table</span>
+<span id="cb2-6"><a></a></span>
+<span id="cb2-7"><a></a>-- Step 2: label each milk record to exactly one lactation</span>
+<span id="cb2-8"><a></a>milk_labeled =</span>
+<span id="cb2-9"><a></a>  SELECT m.*, l.lactation_id</span>
+<span id="cb2-10"><a></a>  FROM milk_milking m</span>
+<span id="cb2-11"><a></a>  JOIN lactation l</span>
+<span id="cb2-12"><a></a>    ON m.cow_id = l.cow_id</span>
+<span id="cb2-13"><a></a>   AND m.ts &gt;= l.calving_ts</span>
+<span id="cb2-14"><a></a>   AND m.ts &lt;  l.next_calving_ts</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Now you can aggregate safely by lactation.</p>
+</section>
+<section id="group_by-is-not-innocent" class="slide level2">
+<h2>Group_by is not innocent</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode numberSource pseudo number-lines code-with-copy"><code class="sourceCode"><span id="cb3-1"><a></a>GROUP BY herd_id</span>
+<span id="cb3-2"><a></a>MEAN(milk_kg)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Implicit assumptions:</p>
+<ul>
+<li>Each cow contributes equally</li>
+<li>Each day contributes equally</li>
+</ul>
+<p>Often false.</p>
+<p>We must decide weighting:</p>
+<ul>
+<li>Per cow‑day</li>
+<li>Per cow</li>
+</ul>
+</section>
+<section id="weighting-example" class="slide level2">
+<h2>Weighting example</h2>
+<p>If Cow A has 300 milking records and Cow B has 30:</p>
+<ul>
+<li><strong>Milking‑level mean</strong> overweights Cow A</li>
+<li><strong>Cow‑level mean</strong> treats both cows equally</li>
+</ul>
+<p>You must choose <em>which</em> average you mean.</p>
+</section>
+<section id="curse-of-dimensionality" class="slide level2">
+<h2>Curse of dimensionality</h2>
+<p>If you have:</p>
+<ul>
+<li>365 days</li>
+<li>2 milkings/day</li>
+<li>300 cows</li>
+<li>3 lactations</li>
+</ul>
+<p>Then rows/year ≈ 365 × 2 × 300 × 3 = <strong>657,000</strong></p>
+<p>Before sensors.</p>
+<p>Now add:</p>
+<ul>
+<li>288 five‑minute bins/day → 100× more</li>
+</ul>
+</section>
+<section id="sparsity-why-more-features-can-hurt" class="slide level2">
+<h2>Sparsity: why more features can hurt</h2>
+<p>As dimensions grow:</p>
+<ul>
+<li>Many combinations never occur</li>
+<li>Missingness increases</li>
+<li>Models learn noise</li>
+</ul>
+</section>
+<section id="aggregation-choices-common-pitfalls" class="slide level2">
+<h2>Aggregation choices (common pitfalls)</h2>
+<h3 id="pitfall-1-aggregate-after-join">Pitfall 1 — Aggregate after join</h3>
+<ul>
+<li>You join a high‑frequency table to an event table</li>
+<li>Then you sum</li>
+<li>You double count events or inflate totals</li>
+</ul>
+<h3 id="fix">Fix</h3>
+<ul>
+<li>Aggregate each table to your analysis grain <strong>first</strong></li>
+<li>Then join</li>
+</ul>
+</section>
+<section id="practical-rule-of-thumb" class="slide level2">
+<h2>Practical rule of thumb</h2>
+<blockquote>
+<p><strong>Aggregate first, then join.</strong><br>
+Never the other way around.</p>
+</blockquote>
+<p>(There are exceptions, but they must be intentional.)</p>
+</section>
+<section id="documentation-store-grain-definitions" class="slide level2">
+<h2>Documentation: store grain + definitions</h2>
+<p>Every dataset should have:</p>
+<ul>
+<li>Grain (one row per …)</li>
+<li>Time anchor (calendar vs DIM)</li>
+<li>Inclusion criteria (dry cows? first 7 DIM excluded?)</li>
+<li>Unit conventions (kg, lb, ECM)</li>
+</ul>
+<p>If it’s not written down, it’s not reproducible.</p>
+</section>
+<section id="common-join-smells-warning-signs" class="slide level2">
+<h2>Common join “smells” (warning signs)</h2>
+<p>If any of these happen, stop and inspect:</p>
+<ul>
+<li>Row count increases unexpectedly</li>
+<li>Summed milk increases after joining</li>
+<li>Event counts change after joining</li>
+<li>Same cow_id appears many more times than expected</li>
+</ul>
+</section>
+<section id="debug-technique-rowcount-audit" class="slide level2">
+<h2>Debug technique: row‑count audit</h2>
+<p>Pseudocode:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode numberSource pseudo number-lines code-with-copy"><code class="sourceCode"><span id="cb4-1"><a></a>n_before = COUNT_ROWS(milk)</span>
+<span id="cb4-2"><a></a>joined = milk JOIN calving USING (cow_id)</span>
+<span id="cb4-3"><a></a>n_after  = COUNT_ROWS(joined)</span>
+<span id="cb4-4"><a></a></span>
+<span id="cb4-5"><a></a>IF n_after &gt;&gt; n_before:</span>
+<span id="cb4-6"><a></a>  you created duplication</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Also compute duplicates by key:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode numberSource pseudo number-lines code-with-copy"><code class="sourceCode"><span id="cb5-1"><a></a>COUNT(*) GROUP BY cow_id, ts HAVING COUNT(*) &gt; 1</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="debug-technique-sum-invariants" class="slide level2">
+<h2>Debug technique: sum invariants</h2>
+<p>If you join metadata, certain totals must remain invariant.</p>
+<p>Example:</p>
+<ul>
+<li>Total milk (kg) should not change when adding cow breed</li>
+</ul>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode numberSource pseudo number-lines code-with-copy"><code class="sourceCode"><span id="cb6-1"><a></a>SUM(milk_kg) before join == SUM(milk_kg) after join</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>If it changes: duplication happened.</p>
+</section>
+<section id="group_by-pitfalls" class="slide level2">
+<h2>Group_by pitfalls</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode numberSource pseudo number-lines code-with-copy"><code class="sourceCode"><span id="cb7-1"><a></a>GROUP BY herd, year, month, week, day</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Creates tiny groups → noisy means → missingness.</p>
+<p>Pick ONE time scale aligned with the question.</p>
+</section>
+<section id="practical-checklist" class="slide level2">
+<h2>Practical checklist</h2>
+<p>Before any analysis:</p>
 <ol type="1">
-<li><p>There are only twelve possible months, and there’s nothing saving you from typos:</p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a></a>x2 <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Dec"</span>, <span class="st">"Apr"</span>, <span class="st">"Jam"</span>, <span class="st">"Mar"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</div></li>
-<li><p>It doesn’t sort in a useful way:</p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a></a><span class="fu">sort</span>(x1)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] "Apr" "Dec" "Jan" "Mar"</code></pre>
-</div>
-</div></li>
+<li>What is my <strong>unit of analysis</strong>?</li>
+<li>What is the <strong>grain</strong> of each table?</li>
+<li>What clock am I using? (calendar vs DIM)</li>
+<li>What cohort definition applies? (birth, calving, etc.)</li>
+<li>Aggregate at the target grain <strong>before</strong> joining</li>
+<li>Validate with invariants: row counts, sums, event counts</li>
+<li>Document units (kg/lb) and conversions</li>
 </ol>
 </section>
-<section id="sec-factor-basics-3" class="slide level2">
-<h2>Factor basics</h2>
-<p>You can fix both of these problems with a factor.</p>
-<p>To create a factor you must start by creating a list of the valid <strong>levels</strong>:</p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a></a>month_levels <span class="ot">&lt;-</span> <span class="fu">c</span>(</span>
-<span id="cb6-2"><a></a>  <span class="st">"Jan"</span>, <span class="st">"Feb"</span>, <span class="st">"Mar"</span>, <span class="st">"Apr"</span>, <span class="st">"May"</span>, <span class="st">"Jun"</span>,</span>
-<span id="cb6-3"><a></a>  <span class="st">"Jul"</span>, <span class="st">"Aug"</span>, <span class="st">"Sep"</span>, <span class="st">"Oct"</span>, <span class="st">"Nov"</span>, <span class="st">"Dec"</span></span>
-<span id="cb6-4"><a></a>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</div>
-</section>
-<section id="sec-factor-basics-4" class="slide level2">
-<h2>Factor basics</h2>
-<p>Now you can create a factor:</p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a></a>y1 <span class="ot">&lt;-</span> <span class="fu">factor</span>(x1, <span class="at">levels =</span> month_levels)</span>
-<span id="cb7-2"><a></a>y1</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] Dec Apr Jan Mar
-Levels: Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec</code></pre>
-</div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a></a><span class="fu">sort</span>(y1)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] Jan Mar Apr Dec
-Levels: Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec</code></pre>
-</div>
-</div>
-</section>
-<section id="sec-factor-basics-6" class="slide level2">
-<h2>Factor NA</h2>
-<p>And any values not in the level will be silently converted to NA:</p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a></a>x2 <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Dec"</span>, <span class="st">"Apr"</span>, <span class="st">"Jam"</span>, <span class="st">"Mar"</span>)</span>
-<span id="cb11-2"><a></a>y2 <span class="ot">&lt;-</span> <span class="fu">factor</span>(x2, <span class="at">levels =</span> month_levels)</span>
-<span id="cb11-3"><a></a>y2</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] Dec  Apr  &lt;NA&gt; Mar 
-Levels: Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec</code></pre>
-</div>
-</div>
-</section>
-<section id="sec-factor-basics-7" class="slide level2">
-<h2>Factor NA</h2>
-<p>This seems risky, so you might want to use <code>forcats::fct()</code> instead, which will throw a error warning:</p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb13"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a></a>y2 <span class="ot">&lt;-</span> <span class="fu">fct</span>(x2, <span class="at">levels =</span> month_levels)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-error">
-<pre><code>Error in `fct()`:
-! All values of `x` must appear in `levels` or `na`
-ℹ Missing level: "Jam"</code></pre>
-</div>
-</div>
-</section>
-<section id="sec-factor-basics-8" class="slide level2">
-<h2>Factor sorting</h2>
-<p>Sorting alphabetically is slightly risky because not every computer will sort strings in the same way. So <code>forcats::fct()</code> orders by first appearance in the original vector:</p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb15"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a></a><span class="fu">fct</span>(x1)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] Dec Apr Jan Mar
-Levels: Dec Apr Jan Mar</code></pre>
-</div>
-</div>
-</section>
-<section id="sec-factor-basics-9" class="slide level2">
-<h2>Factor access</h2>
-<p>If you ever need to see the set of valid levels directly, you can do so with <code>levels()</code>:</p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb17"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a></a><span class="fu">levels</span>(y2)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code> [1] "Jan" "Feb" "Mar" "Apr" "May" "Jun" "Jul" "Aug" "Sep" "Oct" "Nov" "Dec"</code></pre>
-</div>
-</div>
-</section></section>
-<section>
-<section id="sec-factor-csv" class="title-slide slide level1 center">
-<h1>Reading factors from CSV</h1>
-
-</section>
-<section id="sec-reading-csvs" class="slide level2">
-<h2>Factors in CSV files</h2>
-<p>You can also create a factor when reading your data with readr with <code>col_factor()</code>:</p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb19"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a></a>csv <span class="ot">&lt;-</span> <span class="st">"</span></span>
-<span id="cb19-2"><a></a><span class="st">month,value</span></span>
-<span id="cb19-3"><a></a><span class="st">Jan,12</span></span>
-<span id="cb19-4"><a></a><span class="st">Feb,56</span></span>
-<span id="cb19-5"><a></a><span class="st">Mar,12"</span></span>
-<span id="cb19-6"><a></a></span>
-<span id="cb19-7"><a></a>df <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(csv, <span class="at">col_types =</span> <span class="fu">cols</span>(<span class="at">month =</span> <span class="fu">col_factor</span>(month_levels)))</span>
-<span id="cb19-8"><a></a>df<span class="sc">$</span>month</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] Jan Feb Mar
-Levels: Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec</code></pre>
-</div>
-</div>
-</section></section>
-<section>
-<section id="sec-factor-reorder-relevel" class="title-slide slide level1 center">
-<h1>Factors reordering and releveling</h1>
-
-</section>
-<section id="sec-factor-reorder-1" class="slide level2">
-<h2>Factor reorder</h2>
-<p>Imagine the following plot, what would you like to ameliorate it for</p>
-
-<img data-src="lec-10_files/figure-revealjs/unnamed-chunk-12-1.png" alt="A scatterplot of with tvhours on the x-axis and religion on the y-axis. The y-axis is ordered seemingly aribtrarily making it hard to get any sense of overall pattern." width="960" class="r-stretch"></section>
-<section id="sec-factor-reorder-2" class="slide level2">
-<h2>Factor reorder</h2>
-<p>It is hard to read this plot because there’s no overall pattern. We can improve it by reordering the levels of <code>relig</code> using <code>fct_reorder()</code>. <code>fct_reorder()</code> takes three arguments:</p>
+<section id="takehome-messages" class="slide level2">
+<h2>Take‑home messages</h2>
 <ul>
-<li><code>.f</code>, the factor whose levels you want to modify.</li>
-<li><code>.x</code>, a numeric vector that you want to use to reorder the levels.</li>
-<li>Optionally, <code>.fun</code>, a function that’s used if there are mu</li>
-</ul>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb21"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a></a><span class="fu">ggplot</span>(relig_summary, <span class="fu">aes</span>(<span class="at">x =</span> tvhours, <span class="at">y =</span> <span class="fu">fct_reorder</span>(relig, tvhours))) <span class="sc">+</span></span>
-<span id="cb21-2"><a></a>  <span class="fu">geom_point</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-
-</div>
-<img data-src="lec-10_files/figure-revealjs/unnamed-chunk-13-1.png" alt="The same scatterplot as above, but now the religion is displayed in increasing order of tvhours. &quot;Other eastern&quot; has the fewest tvhours under 2, and &quot;Don't know&quot; has the highest (over 5)." width="960" class="r-stretch"></section>
-<section id="sec-factor-reorder-3" class="slide level2">
-<h2>Factor reorder</h2>
-
-<img data-src="lec-10_files/figure-revealjs/unnamed-chunk-14-1.png" alt="The same scatterplot as above, but now the religion is displayed in increasing order of tvhours. &quot;Other eastern&quot; has the fewest tvhours under 2, and &quot;Don't know&quot; has the highest (over 5)." width="960" class="r-stretch"></section>
-<section id="sec-factor-relevel-1" class="slide level2">
-<h2>Factor relevel</h2>
-<p>Imagine the following plot, maybe you would like to have “Not applicable” not show up at the top of the graph.</p>
-
-<img data-src="lec-10_files/figure-revealjs/unnamed-chunk-15-1.png" alt="A scatterplot with age on the x-axis and income on the y-axis. Income has been reordered in order of average age which doesn't make much sense. One section of the y-axis goes from $6000-6999, then <$1000, then $8000-9999." width="960" class="r-stretch"></section>
-<section id="sec-factor-relevel-2" class="slide level2">
-<h2>Factor relevel</h2>
-<p>You can use <code>fct_relevel()</code>. It takes a factor, <code>.f</code>, and then any number of levels that you want to move to the front of the line.</p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb22"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a></a><span class="fu">ggplot</span>(rincome_summary, <span class="fu">aes</span>(<span class="at">x =</span> age, <span class="at">y =</span> <span class="fu">fct_relevel</span>(rincome, <span class="st">"Not applicable"</span>))) <span class="sc">+</span></span>
-<span id="cb22-2"><a></a>  <span class="fu">geom_point</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-
-</div>
-<img data-src="lec-10_files/figure-revealjs/unnamed-chunk-16-1.png" alt="The same scatterplot but now &quot;Not Applicable&quot; is displayed at the bottom of the y-axis. Generally there is a positive association between income and age, and the income band with the highethst average age is &quot;Not applicable&quot;." width="960" class="r-stretch"></section>
-<section id="sec-other-factor-1" class="slide level2">
-<h2>Other usefull refactoring functions</h2>
-<ul>
-<li><code>fct_reorder2(.f, .x, .y)</code> reorders the factor <code>.f</code> by the <code>.y</code> values associated with the largest <code>.x</code> values.</li>
-<li><code>fct_infreq()</code> to order levels in decreasing frequency.</li>
-<li>Combine it with <code>fct_rev()</code> if you want them in increasing frequency.</li>
-<li><code>fct_recode()</code> allows you to recode, or change, the value of each level.</li>
+<li>Dairy datasets live on multiple clocks: <strong>calendar</strong> and <strong>biology</strong></li>
+<li>Hierarchies (cow → lactation → herd) must be explicit</li>
+<li>Joins can multiply data silently</li>
+<li>Aggregations must match the <strong>question and grain</strong></li>
+<li>The curse of dimensionality is often a <strong>data engineering</strong> problem</li>
 </ul>
 </section>
-<section id="sec-other-factor-2" class="slide level2">
-<h2>Other usefull re-factoring functions</h2>
-<ul>
-<li><code>fct_collapse()</code> is a useful variant of <code>fct_recode()</code> using a vector of old levels.</li>
-<li><code>fct_lump_lowfreq()</code> is a simple starting point that progressively lumps the smallest groups categories into “Other”, always keeping “Other” as the smallest category.</li>
-<li><code>fct_lump_n()</code> specifies the exact number of groups.</li>
-</ul>
+<section id="final-message" class="slide level2">
+<h2>Final message</h2>
+<blockquote>
+<p>The cure is not “more modeling”<br>
+The cure is <strong>explicit levels, explicit time anchors, and safe joins</strong></p>
+<p>And <strong>naming conventions</strong>!</p>
+</blockquote>
 
 
 </section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
+<p><img src="images/Bovi-Analytics-SmallLogo.png" class="slide-logo"></p>
 <div class="footer footer-default">
-<p><a href="https://bovi-analytics.github.io/BeastsAndBytes/">https://bovi-analytics.github.io/BeastsAndBytes/</a></p>
+<p>https://bovi-analytics.github.io/BeastsAndBytes/</p>
 </div>
 </div></div>
 
@@ -470,7 +688,7 @@ Levels: Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec</code></pre>
         progress: true,
 
         // Display the page number of the current slide
-        slideNumber: false,
+        slideNumber: 'c/t',
 
         // 'all', 'print', or 'speaker'
         showSlideNumber: 'all',
@@ -575,7 +793,7 @@ Levels: Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec</code></pre>
         previewLinks: false,
 
         // Transition style (none/fade/slide/convex/concave/zoom)
-        transition: 'none',
+        transition: 'fade',
 
         // Transition speed (default/fast/slow)
         transitionSpeed: 'default',
@@ -629,44 +847,6 @@ Levels: Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec</code></pre>
         ]
       });
     </script>
-    
-    <script>
-      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
-      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
-      // slide changes (different for each slide format).
-      (function () {
-        // dispatch for htmlwidgets
-        function fireSlideEnter() {
-          const event = window.document.createEvent("Event");
-          event.initEvent("slideenter", true, true);
-          window.document.dispatchEvent(event);
-        }
-
-        function fireSlideChanged(previousSlide, currentSlide) {
-          fireSlideEnter();
-
-          // dispatch for shiny
-          if (window.jQuery) {
-            if (previousSlide) {
-              window.jQuery(previousSlide).trigger("hidden");
-            }
-            if (currentSlide) {
-              window.jQuery(currentSlide).trigger("shown");
-            }
-          }
-        }
-
-        // hookup for slidy
-        if (window.w3c_slidy) {
-          window.w3c_slidy.add_observer(function (slide_num) {
-            // slide_num starts at position 1
-            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
-          });
-        }
-
-      })();
-    </script>
-
     <script id="quarto-html-after-body" type="application/javascript">
       window.document.addEventListener("DOMContentLoaded", function (event) {
         const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
