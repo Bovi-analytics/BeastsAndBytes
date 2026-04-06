@@ -37,13 +37,13 @@ Note that this schedule will be updated as the course progresses, with all chang
 | 9 | 3/18 (Wed) | Project discussion | Dr. Hostens and Meike | 📖 | 🖥️ |
 | 10 | 3/23 (Mon) | Project discussion | Dr. Hostens and Meike | 📖 | 🖥️ |
 | 10 | 3/24 (Tue) | Work on project | self | 📖 | 🖥️ |
-| 10 | 3/25 (Wed) | Project discussion | Dr. Hostens or TAs | 📖 | 🖥️ |
+| 10 | 3/25 (Wed) | Project discussion | Dr. Hostens and Meike | 📖 | 🖥️ |
 | 11 | 3/30 (Mon) | Spring break | \- |  |  |
 | 11 | 3/31 (Tue) | Spring break | \- |  |  |
 | 11 | 4/1 (Wed) | Spring break | \- |  |  |
-| 12 | 4/6 (Mon) | To be decided | TBD | 📖 | 🖥️ |
-| 12 | 4/7 (Tue) | Programming assignment | TAs | 📖 | 🖥️ |
-| 12 | 4/8 (Wed) | Project discussion | Dr. Hostens or TAs | 📖 | 🖥️ |
+| 12 | 4/6 (Mon) | Software and Azure | Bart de Zoete | 📖 | [🖥️](https://canvas.cornell.edu/courses/83180/files?preview=15179001) |
+| 12 | 4/7 (Tue) | Work on project and programming assignment | Meike | 📖 | 🖥️ |
+| 12 | 4/8 (Wed) | Project discussion | Dr. Hostens or Meike | 📖 | 🖥️ |
 | 13 | 4/13 (Mon) | To be decided | TBD | 📖 | 🖥️ |
 | 13 | 4/14 (Tue) | Programming assignment | TAs | 📖 | 🖥️ |
 | 13 | 4/15 (Wed) | Project discussion | Dr. Hostens or TAs | 📖 | 🖥️ |
