@@ -187,7 +187,7 @@
     "href": "weeks/week-13.html",
     "title": "Week 13",
     "section": "",
-    "text": "Understanding GitHub: Get a free GitHub education account and follow the following course In this Experience you’ll learn the basics of the GitHub Flow including creating and making changes to branches within a repository, as well as creating and merging pull requests. The GitHub flow is useful for everyone, not just developers. It should take less than an hour to complete.\nOr if you do not want to wait for an account, some more accessible options: https://github.com/skills/introduction-to-github https://github.com/skills/introduction-to-git https://github.com/skills/resolve-merge-conflicts\nThe example repo (lactation curve package) can be found here.",
+    "text": "Understanding GitHub:\nGet a free GitHub education account and follow the following course\nIn this Experience you’ll learn the basics of the GitHub Flow including creating and making changes to branches within a repository, as well as creating and merging pull requests. The GitHub flow is useful for everyone, not just developers. It should take less than an hour to complete.\nOr if you do not want to wait for an account, some more accessible options:\nhttps://github.com/skills/introduction-to-github\nhttps://github.com/skills/introduction-to-git\nhttps://github.com/skills/resolve-merge-conflicts\nThe example repo (lactation curve package) can be found here.",
     "crumbs": [
       "Weekly materials",
       "Week 13"
@@ -582,7 +582,7 @@
     "href": "slides/lec-11.html#sec-current",
     "title": "Data transformations",
     "section": "Current",
-    "text": "Current\nTo get the current date or date-time you can use today() or now():\n\ntoday()\n\n[1] \"2026-04-15\"\n\nnow()\n\n[1] \"2026-04-15 18:44:36 UTC\""
+    "text": "Current\nTo get the current date or date-time you can use today() or now():\n\ntoday()\n\n[1] \"2026-04-15\"\n\nnow()\n\n[1] \"2026-04-15 19:02:06 UTC\""
   },
   {
     "objectID": "slides/lec-11.html#sec-dt-import-1",
