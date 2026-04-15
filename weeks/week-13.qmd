@@ -5,12 +5,17 @@ editor: visual
 ---
 
 Understanding GitHub: 
-Get a *free* GitHub education account and follow the following [course](https://education.github.com/experiences/intro_to_github) 
+
+Get a **free** GitHub education account and follow the following [course](https://education.github.com/experiences/intro_to_github) 
+
 In this Experience you'll learn the basics of the GitHub Flow including creating and making changes to branches within a repository, as well as creating and merging pull requests. The GitHub flow is useful for everyone, not just developers. It should take less than an hour to complete. 
 
 Or if you do not want to wait for an account, some more accessible options:
+
 https://github.com/skills/introduction-to-github
+
 https://github.com/skills/introduction-to-git 
+
 https://github.com/skills/resolve-merge-conflicts
 
 The example repo (lactation curve package) can be found [here](https://github.com/Bovi-analytics/lactation_curve_core). 
