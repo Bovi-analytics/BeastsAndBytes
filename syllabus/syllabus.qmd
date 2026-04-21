@@ -51,6 +51,10 @@ A statistical course such one of the following is not required but strongly advi
 
 6.  Recognize the significance of, and apply data privacy and security techniques in digital agriculture.
 
+7.  Engage with stakeholders such as farmers, technology providers, and researchers to gather requirements and support decision making in digital agriculture.
+
+8.  Apply project management principles in planning, executing, and evaluating digital agriculture projects, including resource allocation, scheduling, and risk management.
+
 # Outline
 
 See [this link](https://bovi-analytics.github.io/BeastsAndBytes/course-overview.html) for details on course outline. As this course is the first of its kind, expect updates to happen to this course outline during the fall semester of 2024.
@@ -61,15 +65,15 @@ This course will consist of a combination of lectures, hands-on practical sessio
 
 ## General week format
 
-+----------------+----------+----------+--------------------+----------+--------------------+
-|                | Monday   | Tuesday  | Wednesday          | Thursday | Friday             |
-+================+==========+==========+====================+==========+====================+
-| 10:10-11:00 am | Lecture  |          |                    |          | Project discussion |
-+----------------+----------+----------+--------------------+----------+--------------------+
-| 1:25-4:25 pm   |          |          | Lab -              | Lab -    |                    |
-|                |          |          |                    |          |                    |
-|                |          |          | Code'n in practice | Project  |                    |
-+----------------+----------+----------+--------------------+----------+--------------------+
++----------------+---------+---------+--------------------+----------+--------------------+
+|                | Monday  | Tuesday | Wednesday          | Thursday | Friday             |
++================+=========+=========+====================+==========+====================+
+| 10:10-11:00 am | Lecture |         |                    |          | Project discussion |
++----------------+---------+---------+--------------------+----------+--------------------+
+| 1:25-4:25 pm   |         |         | Lab -              | Lab -    |                    |
+|                |         |         |                    |          |                    |
+|                |         |         | Code'n in practice | Project  |                    |
++----------------+---------+---------+--------------------+----------+--------------------+
 
 ## Lectures
 
@@ -149,23 +153,15 @@ At the end of the course—after the final presentation—each of the required e
 
 ### Example
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------+
-| Requirement                                                                                                                                                                                                           | Completed?  |
-+=======================================================================================================================================================================================================================+:===========:+
-| Ask the farmer if the team showed **professional attitude** in all interactions                                                                                                                                       | ☐           |
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------+
-| A **data transfer agreement** is fully in place                                                                                                                                                                       | ☐           |
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------+
-| Team established a **project goal that works for both participating farms**                                                                                                                                           | ☐           |
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------+
-| All team members demonstrate understanding of the **decision-making process** by presenting updates **twice** during weekly project decision meetings                                                                 | ☐           |
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------+
-| Project has **impact**, such as hours or labor saved                                                                                                                                                                  | ☐           |
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------+
-| Farmers would **recommend the project results** to other farmers                                                                                                                                                      | ☐           |
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------+
-| All team members had a **good learning experience**, confirmed during a sit‑down after the final presentation with Professor M. Hostens (may include dairy decision-making, basic data analysis, transferable skills) | ☐           |
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------+
+| Requirement | Completed? |
+|----|:--:|
+| Ask the farmer if the team showed **professional attitude** in all interactions | ☐ |
+| A **data transfer agreement** is fully in place | ☐ |
+| Team established a **project goal that works for both participating farms** | ☐ |
+| All team members demonstrate understanding of the **decision-making process** by presenting updates **twice** during weekly project decision meetings | ☐ |
+| Project has **impact**, such as hours or labor saved | ☐ |
+| Farmers would **recommend the project results** to other farmers | ☐ |
+| All team members had a **good learning experience**, confirmed during a sit‑down after the final presentation with Professor M. Hostens (may include dairy decision-making, basic data analysis, transferable skills) | ☐ |
 
 ## Combining the individual and group assessment
 
