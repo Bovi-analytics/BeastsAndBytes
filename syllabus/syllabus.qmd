@@ -51,6 +51,10 @@ A statistical course such one of the following is not required but strongly advi
 
 6.  Recognize the significance of, and apply data privacy and security techniques in digital agriculture.
 
+7. Engage with stakeholders such as farmers, technology providers, and researchers to gather requirements and support decision making in digital agriculture.
+
+8.  Apply project management principles in planning, executing, and evaluating digital agriculture projects, including resource allocation, scheduling, and risk management.
+
 # Outline
 
 See [this link](https://bovi-analytics.github.io/BeastsAndBytes/course-overview.html) for details on course outline. As this course is the first of its kind, expect updates to happen to this course outline during the fall semester of 2024.
