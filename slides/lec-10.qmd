@@ -83,7 +83,7 @@ Time representations commonly used:
 
 **Each choice changes the question you’re answering.**
 
-## Example: milk yield 
+## Example: milk yield
 
 same cow, many “truths”
 

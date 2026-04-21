@@ -61,15 +61,15 @@ This course will consist of a combination of lectures, hands-on practical sessio
 
 ## General week format
 
-+----------------+---------+---------+--------------------+----------+--------------------+
-|                | Monday  | Tuesday | Wednesday          | Thursday | Friday             |
-+================+=========+=========+====================+==========+====================+
-| 10:10-11:00 am | Lecture |         |                    |          | Project discussion |
-+----------------+---------+---------+--------------------+----------+--------------------+
-| 1:25-4:25 pm   |         |         | Lab -              | Lab -    |                    |
-|                |         |         |                    |          |                    |
-|                |         |         | Code'n in practice | Project  |                    |
-+----------------+---------+---------+--------------------+----------+--------------------+
++----------------+----------+----------+--------------------+----------+--------------------+
+|                | Monday   | Tuesday  | Wednesday          | Thursday | Friday             |
++================+==========+==========+====================+==========+====================+
+| 10:10-11:00 am | Lecture  |          |                    |          | Project discussion |
++----------------+----------+----------+--------------------+----------+--------------------+
+| 1:25-4:25 pm   |          |          | Lab -              | Lab -    |                    |
+|                |          |          |                    |          |                    |
+|                |          |          | Code'n in practice | Project  |                    |
++----------------+----------+----------+--------------------+----------+--------------------+
 
 ## Lectures
 
@@ -119,32 +119,57 @@ Although I will try to avoid last minute changes to the schedule this might happ
 
 # Assessment & grading
 
-Assessment methods will include individual coding assignments and a group project including presentations and group report.
+Assessment methods will include individual coding assignments, a coding exam and a final group project including presentations and group report.
 
-## Group assessment
-
-| Component graded | Remark | Weight |
-|----|----|----|
-| Use of appropriate naming conventions used throughout project (subgroups) | Failure to use any naming convention in the project will result in failing the entire group project. | 20% |
-| FAIR principle compliance in reporting, documentation of data and coding through notebooks | Failure to implement the FAIR principles will result in failing the entire group project. | 20% |
-| Project presentation | We will discuss within the group how to assess each individuals contribution, as some people maybe will not be presenting but will have had other contribution. | 30% |
-| Project report (entire group) |  | 30% |
-
-## Individual assessment
+## Individual coding assignments and exam
 
 **It is very important to read this part as your individual assessments will be influencing your individual gradings.**
 
-At the end of the course you will be evaluated on the % of weekly assignments you have coded correctly in the Dodona framework (which you will learn during the course). That percentage will be multiplied with the overal group project grade, resulting in your final individual grade.
+Individual coding assignments will be performed during weekly assignments, especially at the beginning of the course, to get you up to speed with Python coding.
+
+An individual exam, consisting of 3 of the coding assignments, will guarantee that students are not only using generative AI while solving the weekly assignments but actually learn to code.
+
+At the end of the course you will be evaluated on the % of weekly assignments you have coded correctly in the Dodona framework (which you will learn during the course). That percentage will be multiplied with your overall coding exam grade, resulting in your final individual grade.
 
 For example:
 
--   The group project was finally graded at 95%
+-   Your coding exam was finally graded at 95%
 
 -   Student A successfully finished 75% of the coding assignments within each deadline. As a result student A gets 95% x 75% = 71% as the final individual grade.
 
--   Student B successfully finished 100% of the coding assignments within each deadline. As a result student B gets 95% x 100% as the final individual grade.
+-   Student B successfully finished 100% of the coding assignments within each deadline. As a result student B gets 95% x 100% = 95% as the final individual grade.
 
 Finishing each of the assignments within each deadline is not that difficult. You "just" need to devote the time to it. I have used this method a lot during my courses. It is not to annoy students, but to make sure the entire group keeps progressing on the programming skills during the project. You will thank me for that at a certain moment. For full transparency, I learned to code Python using a similar approach. Once I understood why this was done, I started appreciating this method as one of the most inspiring learning methods I have ever seen.
+
+## Group assessment
+
+At the beginning of the semester, the class will agree on a list of required elements for earning an **A+** in the final project for the *Beasts & Bytes – Data Science Applications in Agriculture* course (Instructor: M. Hostens).
+
+At the end of the course—after the final presentation—each of the required elements will be validated.
+
+### Example
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------+
+| Requirement                                                                                                                                                                                                           | Completed?  |
++=======================================================================================================================================================================================================================+:===========:+
+| Ask the farmer if the team showed **professional attitude** in all interactions                                                                                                                                       | ☐           |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------+
+| A **data transfer agreement** is fully in place                                                                                                                                                                       | ☐           |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------+
+| Team established a **project goal that works for both participating farms**                                                                                                                                           | ☐           |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------+
+| All team members demonstrate understanding of the **decision-making process** by presenting updates **twice** during weekly project decision meetings                                                                 | ☐           |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------+
+| Project has **impact**, such as hours or labor saved                                                                                                                                                                  | ☐           |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------+
+| Farmers would **recommend the project results** to other farmers                                                                                                                                                      | ☐           |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------+
+| All team members had a **good learning experience**, confirmed during a sit‑down after the final presentation with Professor M. Hostens (may include dairy decision-making, basic data analysis, transferable skills) | ☐           |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------+
+
+## Combining the individual and group assessment
+
+The final individual grade will be based on a 50/50 combination of the individual and group assessment
 
 ## Final grading scale
 
