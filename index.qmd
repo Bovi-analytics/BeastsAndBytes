@@ -55,7 +55,7 @@ Note that this schedule will be updated as the course progresses, with all chang
 | 15 | 4/29 (Wed) | Project | Dr. Hostens or TAs | \- | -️ |
 | 16 | 5/4 (Mon) | Project | Dr. Hostens or TAs | \- | \- |
 | 16 | 5/5 (Tue) | Final project presentation | Dr. Hostens and TAs | \- | -️ |
-| 17 | 5/14 (Thu) | Programming exam | Meike | MRS334 | -️ |
+| 17 | 5/14 (Thu) | Programming exam | Meike van Leerdam | MRS334 | -️ |
 :::
 
 ```{r echo = FALSE}

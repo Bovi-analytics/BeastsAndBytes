@@ -1,6 +1,5 @@
 ---
-title: "Beasts & Bytes"
-subtitle: "Data Science Applications in Agriculture"
+title: "Data Science Applications in Agriculture"
 date: today
 author: "Miel Hostens"
 format:
@@ -11,11 +10,51 @@ format:
     papersize: letter
 ---
 
-![](/images/B&BLogo.png){fig-align="center" width="300"}
+![](images/CornellUniversity.png){width="257"} ![](/images/B&BLogo.png){width="80"}
 
-# Course description and aims
+# Course
 
-This course offers an undergraduate experience in challenge-based learning, where students tackle data-driven problems within the agricultural sector. If you have never heard about it, check out this [Solar Car Challenge](https://www.solarcarchallenge.org/challenge/) that you might recognize. Working in collaborative teams, students will engage directly with farmers and industry stakeholders to understand a real-world challenge and develop an innovative, data-driven solutions.
+Data Science Applications in Agriculture
+
+Fall - 2026
+
+Department of Animal Science, ANSCI 4040
+
+## Instructor
+
+-   Assoc. Prof. Dr. DVM Miel Hostens
+
+-   Robert and Anne Everett Endowed Associate Professor
+
+-   Office : 273 Morrison Hall, Ithaca, NY 14853
+
+-   Email : [miel.hostens\@cornell.edu](mailto:miel.hostens@cornell.edu)
+
+-   Office Hours: [Schedule an appointment](https://outlook.office.com/bookwithme/user/81c7a026deb04fc9a3c8251ceeb24e81@cornell.edu?anonymous&ep=signature)
+
+## Teaching Assistants
+
+### DVM Meike van Leerdam
+
+-   Office location : B16 Morrison Hall, Ithaca, NY 14853
+
+-   Email : [mbv32\@cornell.edu](mailto:mbv32@cornell.edu)
+
+### DVM Sumit Sharma
+
+-   Office location : B16 Morrison Hall, Ithaca, NY 14853
+
+-   Email : [ss4452\@cornell.edu](mailto:ss4452@cornell.edu){.email}
+
+# Overview
+
+## Credits
+
+This course accounts for **3 credits**.
+
+## Description
+
+This 3 credits course offers an undergraduate (sophomore, junior, senior) and graduate level experience in challenge-based learning, where students tackle data-driven problems within the agricultural sector. If you have never heard about it, check out this [Solar Car Challenge](https://www.solarcarchallenge.org/challenge/) that you might recognize. Working in collaborative teams, students will engage directly with farmers and industry stakeholders to understand a real-world challenge and develop an innovative, data-d
 
 Throughout the course, students will learn to utilize a range of digital tools essential for modern data science. Key topics covered include data governance, ensuring data privacy, effective data collection methods, efficient data storage solutions, data processing techniques, and advanced data visualization. Students will also delve into data modeling and the art of presenting data in a clear and impactful manner.
 
@@ -23,13 +62,25 @@ Project management is a core component of the course, with students learning to 
 
 By the end of the course, students will have gained practical experience and developed a skill set that includes problem-solving, critical thinking, and the ability to create sustainable solutions for the agricultural industry. This course is ideal for students interested in applying data science to real-world problems and making a tangible impact in the field of agriculture.
 
-# Credits
+This course emphasizes data literacy, data science, and ethical interpretation of agricultural data. It satisfies the **CALS Data Literacy (General)** requirement by developing student competencies in data manipulation, analysis, interpretation, and communication within the context of animal science.
 
-This course accounts for 4 credits
+## Learning outcomes
 
-# Prerequisites
+1.  Explain the fundamentals of data science and digital agriculture, including their interdisciplinary challenges.
 
-A statistical course such one of the following is not required but strongly advised:
+2.  Implement data science technologies, precision farming techniques, digital agriculture tools, and acquire practical programming skills.
+
+3.  Conduct data collection, visualization, analysis, and interpretation within the context of digital agriculture.
+
+4.  Explore and apply machine learning and artificial intelligence techniques in agricultural systems.
+
+5.  Recognize and apply principles of data privacy and security in digital agriculture.
+
+6.  Engage with stakeholders (e.g., farmers, technology providers, researchers) and apply project management principles to plan, execute, and evaluate digital agriculture projects, including resource allocation, scheduling, and risk management.
+
+## Prerequisites
+
+A statistical course such one of the following is **not required but strongly advised:**
 
 -   STSCI 2150/5150 Introductory Statistics for Biology
 
@@ -37,61 +88,141 @@ A statistical course such one of the following is not required but strongly advi
 
 -   ILRST/STSCI 2100: Introductory Statistics
 
-# Learning outcomes
+## Materials, Textbook and Website
 
-1.  Explain the fundamentals of data science and digital agriculture including their interdisciplinary challenges.
+All lecture notes, assignment instructions, an up-to-date schedule, and other course materials may be found on the course website at [bovi-analytics.github.io/BeastsAndBytes/](https://bovi-analytics.github.io/BeastsAndBytes/).
 
-2.  Implement the various data science technologies, precision farming techniques and digital tools used in modern agriculture.
+While there is no official textbook for the course, we will be assigning readings from the following some of the following textbooks.
 
-3.  Conduct data collection, visualization, analysis, and interpretation within the context of digital agriculture.
+-   [R for Data Science](https://r4ds.had.co.nz/) by Garret Grolemund and Hadley Wickham.
 
-4.  Acquire practical skills through hands-on programming activities.
+-   Weekly assignments from the [Introduction to Data Science](https://rafalab.dfci.harvard.edu/dsbook-part-1/) handbook by Rafael Irizarry.
 
-5.  Explore the applications of machine learning and artificial intelligence in agriculture.
+-   Others related to the project will be proposed during the course
 
-6.  Recognize the significance of, and apply data privacy and security techniques in digital agriculture.
+Although I will try to avoid last minute changes to the schedule this might happen given this challenged based learning course. I will send course announcements via email.
 
-7.  Engage with stakeholders such as farmers, technology providers, and researchers to gather requirements and support decision making in digital agriculture.
+## Topics and Outline
 
-8.  Apply project management principles in planning, executing, and evaluating digital agriculture projects, including resource allocation, scheduling, and risk management.
+See [this link](https://bovi-analytics.github.io/BeastsAndBytes/course-overview.html) for details on course outline. As this course is the first of its kind, expect updates to happen to this course outline during the fall semester of 2026.
 
-# Outline
++--------------+------------------------------------------------------+
+| Week         | Topic                                                |
++:============:+======================================================+
+| 1            | Introduction to Python programming                   |
++--------------+------------------------------------------------------+
+| 1            | Introduction to decision support                     |
++--------------+------------------------------------------------------+
+| 2            | Introduction to the project                          |
++--------------+------------------------------------------------------+
+| 2            | Project discussion                                   |
++--------------+------------------------------------------------------+
+| 3            | Work on Dodona at home                               |
++--------------+------------------------------------------------------+
+| 3            | RUFAS lecture and programming assignment             |
++--------------+------------------------------------------------------+
+| 3            | Project discussion                                   |
++--------------+------------------------------------------------------+
+| 4            | Guest lecture Albert De Vries                        |
++--------------+------------------------------------------------------+
+| 4            | Programming assignment                               |
++--------------+------------------------------------------------------+
+| 4            | Project discussion with stakeholders                 |
++--------------+------------------------------------------------------+
+| 5            | February break                                       |
++--------------+------------------------------------------------------+
+| 5            | February break                                       |
++--------------+------------------------------------------------------+
+| 5            | Guest lecture Victor Cabrera                         |
++--------------+------------------------------------------------------+
+| 6            | Project discussion                                   |
++--------------+------------------------------------------------------+
+| 6            | Programming assignment                               |
++--------------+------------------------------------------------------+
+| 6            | FAIR data principles for Animal/Agricultural Science |
++--------------+------------------------------------------------------+
+| 7            | Guest lectue MyCow\$                                 |
++--------------+------------------------------------------------------+
+| 7            | Programming assignment                               |
++--------------+------------------------------------------------------+
+| 7            | Effective visualisation using Tableau                |
++--------------+------------------------------------------------------+
+| 8            | DISC Assessment & Team Dynamics                      |
++--------------+------------------------------------------------------+
+| 8            | Farm visit                                           |
++--------------+------------------------------------------------------+
+| 8            | Discuss results DISC                                 |
++--------------+------------------------------------------------------+
+| 9            | Project discussion                                   |
++--------------+------------------------------------------------------+
+| 9            | Discuss MSCW frontend and start backend              |
++--------------+------------------------------------------------------+
+| 9            | Project discussion                                   |
++--------------+------------------------------------------------------+
+| 10           | Project discussion                                   |
++--------------+------------------------------------------------------+
+| 10           | Work on project                                      |
++--------------+------------------------------------------------------+
+| 10           | Curse of dimensionality                              |
++--------------+------------------------------------------------------+
+| 11           | Spring break                                         |
++--------------+------------------------------------------------------+
+| 11           | Spring break                                         |
++--------------+------------------------------------------------------+
+| 11           | Spring break                                         |
++--------------+------------------------------------------------------+
+| 12           | Software and cloud development                       |
++--------------+------------------------------------------------------+
+| 12           | Work on project and programming assignment           |
++--------------+------------------------------------------------------+
+| 12           | Project discussion                                   |
++--------------+------------------------------------------------------+
+| 13           | Work on project                                      |
++--------------+------------------------------------------------------+
+| 14           | Work on project                                      |
++--------------+------------------------------------------------------+
+| 15           | Work on project                                      |
++--------------+------------------------------------------------------+
+| 16           | Work on project                                      |
++--------------+------------------------------------------------------+
+| 16           | Final project presentation                           |
++--------------+------------------------------------------------------+
+| 17           | Programming exam                                     |
++--------------+------------------------------------------------------+
 
-See [this link](https://bovi-analytics.github.io/BeastsAndBytes/course-overview.html) for details on course outline. As this course is the first of its kind, expect updates to happen to this course outline during the fall semester of 2024.
-
-# Format
+## Format and expectations
 
 This course will consist of a combination of lectures, hands-on practical sessions, a case study, group discussions, and guest lectures from domain experts. Students will have the opportunity to work on a real-world project related to digital agriculture.
 
-## General week format
+### General weekly format
 
-+----------------+---------+--------------------+--------------------+----------+--------+
-|                | Monday  | Tuesday            | Wednesday          | Thursday | Friday |
-+================+=========+====================+====================+==========+========+
-| 10:10-11:00 am | Lecture |                    | Project discussion |          |        |
-+----------------+---------+--------------------+--------------------+----------+--------+
-| 1:25-4:25 pm   |         | Lab -              |                    |          |        |
-|                |         |                    |                    |          |        |
-|                |         | Code'n in practice |                    |          |        |
-+----------------+---------+--------------------+--------------------+----------+--------+
++----------------+----------+--------------------+--------------------+----------+----------+
+|                | Monday   | Tuesday            | Wednesday          | Thursday | Friday   |
++================+==========+====================+====================+==========+==========+
+| 10:10-11:00 am | Lecture  |                    | Project discussion |          |          |
++----------------+----------+--------------------+--------------------+----------+----------+
+| 1:25-4:25 pm   |          | Lab -              |                    |          |          |
+|                |          |                    |                    |          |          |
+|                |          | Code'n in practice |                    |          |          |
++----------------+----------+--------------------+--------------------+----------+----------+
 
-## Lectures
+### Lectures
 
 The goal of the lectures is to have them as interactive as possible (which requires your attendance and participation). My role as instructor is to introduce you new tools and techniques, but it is up to you to take them and make use of them.
 
-## Labs
+### Labs
 
 One the things you will definitely learn in this course will involve writing code, and coding is a skill that is best learned by doing. Therefore, as much as possible, you will need to finish a weekly coding assignment. Every week a new assignment will be opened for each of you on the online coding platform [Dodona](https://www.dodona.be/). There is a strict deadline at Friday evening 17:00 to finish the assignment, individually. The number of successfully finished assignments at the end of the course is part of your individual grading (see below).
 
-## Weekly project meetings
+### Weekly project discussion
 
 We will hold weekly project meetings during which we will discuss the groups overall progress, address any challenges, and provide guidance. These meetings are an opportunity for you to share updates, receive feedback, and collaborate with your peers and instructors. Your active participation is crucial to ensure that you stay on track and achieve the project goals.
 
-# Project
+## Project
 
 Throughout the course, you will engage in a group project that involves solving a real-world, data-intensive problem in agriculture. Working in teams, you will collaborate with farmers and stakeholders to identify the exact problem. Your task will be to develop a data-driven solution using digital tools and techniques learned during the course.
 
-## Differrent project phases we will tackle together
+### Differrent project phases we will tackle together
 
 1.  **Problem Identification:** We will begin by meeting with the farmer (and other stakeholders involved) to understand the problem and their needs. This will include conducting an initial research to better define and scope the problem clearly.
 
@@ -105,27 +236,30 @@ Throughout the course, you will engage in a group project that involves solving 
 
 6.  **Presentation and report:** You will prepare and present your project to the farmer, including your methodology, findings, and proposed solution. This will be summarized in a final project report
 
-# Textbook
+# Alignment with CALS Data Literacy (General)
 
-While there is no official textbook for the course, we will be assigning readings from the following some of the following textbooks.
+This course fulfills the Data Literacy: Statistics (DLS-AG) requirement by focusing on:
 
--   [R for Data Science](https://r4ds.had.co.nz/) by Garret Grolemund and Hadley Wickham.
+-   **Core data handling skills:** Students develop foundational data literacy by collecting, cleaning, structuring, and securing agricultural data, enabling them to work confidently with real-world, messy datasets.
+-   **Statistical reasoning and interpretation:** The course strengthens the ability to analyze, visualize, and interpret data, with emphasis on understanding variability, bias, and limitations in agricultural datasets.
 
--   Weekly assignments from the [Introduction to Data Science](https://rafalab.dfci.harvard.edu/dsbook-part-1/) handbook by Rafael Irizarry.
+<!-- -->
 
--   Others related to the project will be proposed during the course
+-   **Data communication and decision support:** Students learn to translate data outputs into clear visualizations and actionable insights that support evidence-based decision-making for farmers and stakeholders.
 
-# Website
+<!-- -->
 
-All lecture notes, assignment instructions, an up-to-date schedule, and other course materials may be found on the course website at [bovi-analytics.github.io/BeastsAndBytes/](https://bovi-analytics.github.io/BeastsAndBytes/).
+-   **Critical and responsible data use:** The course embeds data literacy through governance, privacy, and ethical considerations, ensuring students can critically evaluate and responsibly manage agricultural data in applied settings.
 
-Although I will try to avoid last minute changes to the schedule this might happen given this challenged based learning course. I will send course announcements via email.
+At least 75% of course content is centered on these competencies, and Learning Outcomes 1, 2, 3, and 5 explicitly support them.
 
-# Assessment & grading
+# Grading
 
-Assessment methods will include individual coding assignments, a coding exam and a final group project including presentations and group report.
+## Practices and Policies
 
-## Individual coding assignments and exam
+Assessment methods will include individual coding assignments, a coding exam and a final group project including presentations.
+
+## Individual Coding Assignments and Exam
 
 **It is very important to read this part as your individual assessments will be influencing your individual gradings.**
 
@@ -145,29 +279,37 @@ For example:
 
 Finishing each of the assignments within each deadline is not that difficult. You "just" need to devote the time to it. I have used this method a lot during my courses. It is not to annoy students, but to make sure the entire group keeps progressing on the programming skills during the project. You will thank me for that at a certain moment. For full transparency, I learned to code Python using a similar approach. Once I understood why this was done, I started appreciating this method as one of the most inspiring learning methods I have ever seen.
 
-## Group assessment
+## Group Project and Assessment
 
 At the beginning of the semester, the class will agree on a list of required elements for earning an **A+** in the final project for the *Beasts & Bytes – Data Science Applications in Agriculture* course (Instructor: M. Hostens).
 
 At the end of the course—after the final presentation—each of the required elements will be validated.
 
-### Example
+### Example from Spring 2026
 
-| Requirement | Completed? |
-|----|:--:|
-| Ask the farmer if the team showed **professional attitude** in all interactions | ☐ |
-| A **data transfer agreement** is fully in place | ☐ |
-| Team established a **project goal that works for both participating farms** | ☐ |
-| All team members demonstrate understanding of the **decision-making process** by presenting updates **twice** during weekly project decision meetings | ☐ |
-| Project has **impact**, such as hours or labor saved | ☐ |
-| Farmers would **recommend the project results** to other farmers | ☐ |
-| All team members had a **good learning experience**, confirmed during a sit‑down after the final presentation with Professor M. Hostens (may include dairy decision-making, basic data analysis, transferable skills) | ☐ |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Requirements                                                                                                                                                                                                              |
++===========================================================================================================================================================================================================================+
+| -   Ask the farmer if the team showed **professional attitude** in all interactions                                                                                                                                       |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| -   A **data transfer agreement** is fully in place                                                                                                                                                                       |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| -   Team established a **project goal that works for both participating farms**                                                                                                                                           |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| -   All team members demonstrate understanding of the **decision-making process** by presenting updates **twice** during weekly project decision meetings                                                                 |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| -   Project has **impact**, such as hours or labor saved                                                                                                                                                                  |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| -   Farmers would **recommend the project results** to other farmers                                                                                                                                                      |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| -   All team members had a **good learning experience**, confirmed during a sit‑down after the final presentation with Professor M. Hostens (may include dairy decision-making, basic data analysis, transferable skills) |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-## Combining the individual and group assessment
+## Grading Distribution
 
-The final individual grade will be based on a 50/50 combination of the individual and group assessment
+The final individual grade will be based on a 50/50 combination of the individual and group assessment.
 
-## Final grading scale
+## Grade Scale
 
 | Grade | Low   | High  |
 |:------|:------|:------|
@@ -187,9 +329,17 @@ The final individual grade will be based on a 50/50 combination of the individua
 
 Each grade range includes the score on the left, and excludes the score on the right. For example, a 90.0 is an A-, and not a B+. An 89.99 is a B+, not an A-.
 
-# Policies
+# Course Management and Policies
 
-## Inclusive community
+## Course Attendance
+
+Attendance is expected for all scheduled lectures. Students may miss up to two sessions without penalty, provided they review the material independently. Beginning with the third absence, each additional missed class will result in a deduction from the participation grade, and excessive absences may affect overall course performance. In cases of documented illness or exceptional circumstances, accommodations may be considered at the instructor’s discretion.
+
+## Mental Health and Stress management
+
+If you are feeling overwhelmed, or are worrying about a friend, please reach out to me, one of your instructors or your academic adviser. We can try to help, or we can put you in touch with someone who can help. Cornell has trained counselors available to listen and help: [Cornell Health's Counseling and Psychological Services](https://health.cornell.edu/services/counseling-psychiatry) (CAPS, 607-255-5155); [Student Support and Advocacy Services](https://scl.cornell.edu/student-support); [Empathy, Assistance, and Referral Service](http://orgsync.rso.cornell.edu/org/ears) (EARS, 213 Willard Straight Hall, 607-255-3277), and [Let’s Talk](https://health.cornell.edu/services/counseling-psychiatry/lets-talk). The [Learning Strategies Center](http://lsc.cornell.edu/) offers a range of academic resources.
+
+## Inclusive Community
 
 I grew up in a family in which values as diversity, equity and inclusion were at the core of our everyday life. My parents were both involved taking care of people struggling with equity and inclusion, and as a result these values are deeply embedded in my character.
 
@@ -197,10 +347,26 @@ I aim to ensure that students from all diverse backgrounds and perspectives are 
 
 Additionally, I aim to foster a learning environment that embraces a diversity of thoughts, perspectives, and experiences, and respects your identities. If your experiences outside of class are affecting your performance, please feel free to talk with me. Alternatively, your academic dean is a great resource if you prefer to speak with someone outside the course.
 
-## Academic Integrity
+## Academic Integrity, Academic Freedom and Building Trust in the Classroom
+
+Each student in this course is expected to abide by the Cornell University Code of Academic Integrity. Any work submitted by a student in this course for academic credit will be the student's own work.
 
 Absolute integrity is expected of every Cornell student in all academic undertakings. Integrity entails a firm adherence to a set of values, and the values most essential to an academic community are grounded on the concept of honesty with respect to the intellectual efforts of oneself and others, and free and open inquiry and discussion in the classroom. Academic integrity is expected not only in formal coursework situations, but in all University relationships and interactions connected to the educational process, including the use of University resources. While both students and faculty of Cornell assume the responsibility of maintaining and furthering these values, this document is concerned specifically with the conduct of students.
 
 A Cornell student’s submission of work for academic credit indicates that the work is the student’s own. All outside assistance should be acknowledged, and the student’s academic position truthfully reported at all times. In addition, Cornell students have a right to expect academic integrity from each of their peers.
 
 This a [guideline for students](https://deanoffaculty.cornell.edu/faculty-and-academic-affairs/academic-integrity/guidelines-for-students/) offered through the [Office of the Dean of Faculty](https://deanoffaculty.cornell.edu/).
+
+Each person in this class is expected to respect the principles of academic freedom for instructors and classmates and will maintain the privacy of the classroom environment, as outlined in [Cornell’s S20 Commitment to Academic Integrity, Equitable Instruction, Trust, and Respect](https://bpb-us-e1.wpmucdn.com/blogs.cornell.edu/dist/3/6798/files/2020/03/HonorFinal.pdf). 
+
+This commitment to building respect and trust in the classroom means members of this class will not: record, photograph, or share online any interactions that involve classmates or any member of the teaching team. Students will also respect the intellectual property rights of the instructor and will not share or otherwise make accessible any course materials to anyone not enrolled in the course, without the instructor’s written permission.
+
+This policy is not meant to restrict students’ ability to use classroom recordings in ways beneficial to their learning. Students who may benefit from recorded lectures and lecture playback, including students who use English as an additional language or who have accommodations from SDS, should speak to the course instructor to maintain transparency and trust in the classroom. Students approved to record lectures are expected to maintain the respect and privacy of the learning environment, as stated above.
+
+Students will also not enable anyone not enrolled in the course to participate in any activity that is associated with the course.
+
+Exceptions to this require the instructor’s written permission.
+
+## Accommodations for Students with Disabilities
+
+Students with Disabilities: Your access in this course is important. Please give me your [Student Disability Services (SDS)](https://sds.cornell.edu/) accommodation letter early in the semester so that we have adequate time to arrange your approved academic accommodations. If you need an immediate accommodation for equal access, please speak with me after class or send an email message to me and/or SDS at sds_cu\@cornell.edu. If the need arises for additional accommodations during the semester, please contact SDS. Student Disability Services is located at Cornell Health Level 5, 110 Ho Plaza, 607-254-4545, sds.cornell.edu.
