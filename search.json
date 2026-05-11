@@ -582,7 +582,7 @@
     "href": "slides/lec-11.html#sec-current",
     "title": "Data transformations",
     "section": "Current",
-    "text": "Current\nTo get the current date or date-time you can use today() or now():\n\ntoday()\n\n[1] \"2026-05-11\"\n\nnow()\n\n[1] \"2026-05-11 16:13:31 UTC\""
+    "text": "Current\nTo get the current date or date-time you can use today() or now():\n\ntoday()\n\n[1] \"2026-05-11\"\n\nnow()\n\n[1] \"2026-05-11 19:28:25 UTC\""
   },
   {
     "objectID": "slides/lec-11.html#sec-dt-import-1",
@@ -2182,9 +2182,9 @@
   {
     "objectID": "weeks/week-14.html",
     "href": "weeks/week-14.html",
-    "title": "Week 5",
+    "title": "Finals week",
     "section": "",
-    "text": "coming soon",
+    "text": "Final exam\n\nThe exam will take place in MRS334 from 7–9 pm, which means you will have two hours to complete it.\nThe exam will use the Dodona platform. You can use the sandbox environment to program and submit the exercises, just as you are used to. The exam will only contain exercises you have seen before.\nDo not panic if you cannot get an exercise to work completely. Partial credit will be awarded, so make sure to submit something even if it is not perfect.\nAI tools are not allowed and will result in immediate failure of the exam. You are allowed to use the Python documentation and Stack Overflow.\nPlease bring your own laptop and make sure it is fully charged beforehand. I will try to bring some extra power cords, but it is best to arrive with a charged laptop.\nWe will practice 12/05/2026 at 1 pm in our conference room, so feel free to stop by with any questions. Preferably, send me assignments or topics beforehand so I can prepare accordingly.\n\nGood luck!",
     "crumbs": [
       "Weekly materials",
       "Week 14"
