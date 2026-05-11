@@ -1,7 +1,16 @@
 ---
-title: "Week 5"
-subtitle: "Welcome Beasts & Bytes"
+title: "Finals week"
+subtitle: "Exam specifics"
 editor: visual
 ---
 
-coming soon
+Final exam
+
+- The exam will take place in MRS334 from 7–9 pm, which means you will have two hours to complete it.
+- The exam will use the Dodona platform. You can use the sandbox environment to program and submit the exercises, just as you are used to. The exam will only contain exercises you have seen before.
+- Do not panic if you cannot get an exercise to work completely. Partial credit will be awarded, so make sure to submit something even if it is not perfect.
+- AI tools are not allowed and will result in immediate failure of the exam. You are allowed to use the Python documentation and Stack Overflow.
+- Please bring your own laptop and make sure it is fully charged beforehand. I will try to bring some extra power cords, but it is best to arrive with a charged laptop.
+- We will practice 12/05/2026 at 1 pm in our conference room, so feel free to stop by with any questions. Preferably, send me assignments or topics beforehand so I can prepare accordingly.
+
+Good luck! 
