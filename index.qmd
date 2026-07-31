@@ -9,53 +9,51 @@ Note that this schedule will be updated as the course progresses, with all chang
 ::: column-screen-inset-right
 | Week | Date | Topic | Teachers | Prepare | Lecture |
 |:----------:|:----------:|------------|------------|:----------:|:----------:|
-| 1 | 1/20 (Tue) | Introduction to Python programming | Meike van Leerdam | [📖](https://forms.office.com/r/bDEBaU5fN1) | [🖥️](slides/lec-1.html) |
-| 1 | 1/21 (Wed) | Introduction to decision support | Meike van Leerdam | [📖](https://www.ibm.com/think/topics/data-driven-decision-making) | [🖥️](slides/discussion_1.html) |
-| 2 | 1/26 (Mon) | Cancelled -\> Lec moved to lab | Dr. Hostens | [📖](weeks/week-2.html) | [🖥️](slides/lec-2.html) |
-| 2 | 1/27 (Tue) | Introduction to the project | Dr. Hostens | 📖 | [🖥️](slides/lec-1.html) |
-| 2 | 1/28 (Wed) | Project discussion | Dr. Hostens | \- | -️ |
-| 3 | 2/2 (Mon) | Work on Dodona at home |  |  |  |
-| 3 | 2/3 (Tue) | RUFAS lecture and programming assignment | H. Hu and K. Reed | [📖](https://www.jdscommun.org/article/S2666-9102(25)00195-4/fulltext) | [🖥️](https://youtu.be/0jBReNID8R8) |
-| 3 | 2/4 (Wed) | Project discussion | Meike van Leerdam | 📖 | 🖥️ |
-| 4 | 2/9 (Mon) | [Guest lecture](https://teams.microsoft.com/meet/2793529249127?p=SOTWGPJVrtZBDhyGsu) | [Dr. de Vries](https://animal.ifas.ufl.edu/people/albert-de-vries/) | [📖](weeks/week-4.html) | [🖥️](https://youtu.be/6TGTDjSkqZU) |
-| 4 | 2/10 (Tue) | Programming assignment | TAs | \- | \- |
-| 4 | 2/11 (Wed) | Project discussion with farmer | D. Westfall & M. van Leerdam | \- | 🖥️ |
-| 5 | 2/16 (Mon) | February break | \- | \- | \- |
-| 5 | 2/17 (Tue) | February break | \- | \- | \- |
-| 5 | 2/18 (Wed) | [Guest lecture](https://teams.microsoft.com/meet/27062365396024?p=rNcIgJIJFvcr98DkNZ) | [Dr. Cabrera](https://andysci.wisc.edu/directory/victor-cabrera/) | [📖](weeks/week-5.html) | [🖥️](https://youtu.be/QDNlWDeyCCY) |
-| 6 | 2/23 (Mon) | Project discussion | Dr. Miel Hostens | 📖 | 🖥️ |
-| 6 | 2/24 (Tue) | Programming assignment | TAs | 📖 | 🖥️ |
-| 6 | 2/25 (Wed) | FAIR data principles for Animal/Agricultural Science | Dr. Hostens | 📖 | [🖥️](slides/lec-6.html) |
-| 7 | 3/2 (Mon) | MyCow\$ | Dr. Giordano | 📖 | 🖥️ |
-| 7 | 3/3 (Tue) | Programming assignment | TAs | \- | -️ |
-| 7 | 3/4 (Wed) | Effective visualisation using Tableau | Dr. Hostens | 📖 | [🖥️](https://prezi.com/view/8Pgr5LLExlIaYtktADox/) |
-| 8 | 3/9 (Mon) | DISC Assessment & Team DynamicS | Dr. Hostens | [📖](weeks/week-8.html) | [🖥️](slides/lec-8.html) |
-| 8 | 3/10 (Tue) | Farm visit | Dr. Hostens and TAs | \- | \- |
-| 8 | 3/11 (Wed) | Discuss results DISC | Dr. Hostens | 📖 | 🖥️ |
-| 9 | 3/16 (Mon) | Project discussion | Dr. Miel Hostens | 📖 | 🖥️ |
-| 9 | 3/17 (Tue) | Discuss MSCW frontend and start backend | Meike | 📖 | 🖥️ |
-| 9 | 3/18 (Wed) | Project discussion | Dr. Hostens and Meike | 📖 | 🖥️ |
-| 10 | 3/23 (Mon) | Project discussion | Dr. Hostens and Meike | 📖 | 🖥️ |
-| 10 | 3/24 (Tue) | Work on project | self | 📖 | 🖥️ |
-| 10 | 3/25 (Wed) | Curse of dimensionality | Dr. Hostens | 📖 | 🖥️ |
-| 11 | 3/30 (Mon) | Spring break | \- |  |  |
-| 11 | 3/31 (Tue) | Spring break | \- |  |  |
-| 11 | 4/1 (Wed) | Spring break | \- |  |  |
-| 12 | 4/6 (Mon) | Software and Azure | Bart de Zoete | 📖 | [🖥️](https://canvas.cornell.edu/courses/83180/files?preview=15179001) |
-| 12 | 4/7 (Tue) | Work on project and programming assignment | Meike | 📖 | 🖥️ |
-| 12 | 4/8 (Wed) | Project discussion | Dr. Hostens or Meike | 📖 | 🖥️ |
-| 13 | 4/13 (Mon) | Project | Dr. Hostens or TAs | \- | -️ |
-| 13 | 4/14 (Tue) | Project | Dr. Hostens or TAs | \- | -️ |
-| 13 | 4/15 (Wed) | Project | Dr. Hostens or TAs | \- | -️ |
-| 14 | 4/20 (Mon) | Project | Dr. Hostens or TAs | \- | -️ |
-| 14 | 4/21 (Tue) | Project | Dr. Hostens or TAs | \- | -️ |
-| 14 | 4/22 (Wed) | Project | Dr. Hostens or TAs | \- | -️ |
-| 15 | 4/27 (Mon) | Project | Dr. Hostens or TAs | \- | -️ |
-| 15 | 4/28 (Tue) | Project | Dr. Hostens or TAs | \- | -️ |
-| 15 | 4/29 (Wed) | Project | Dr. Hostens or TAs | \- | -️ |
-| 16 | 5/4 (Mon) | Project | Dr. Hostens or TAs | \- | \- |
-| 16 | 5/5 (Tue) | Final project presentation | Dr. Hostens and TAs | \- | -️ |
-| 17 | 5/14 (Thu) | Programming exam | Meike van Leerdam | MRS334 | -️ |
+| 1 | 8/24 (Mon) | (LEC) Course Outline | Dr. Miel | 📖 | 🖥️ |
+| 1 | 8/25 (Tue) | (LAB) Toolbox: IDEs, Programming Languages & Vibe Coding | Bart, Hanlu, Meike, Puchun & Dr. Miel | 📖 | 🖥️ |
+| 1 | 8/26 (Wed) | (DISC) Data Science in Agriculture | Sumit, Sonam, Puchun, Hanlu, Bart & Meike | 📖 | 🖥️ |
+| 2 | 8/31 (Mon) | (LEC) Version Control Systems & Integration | Dr. Miel | 📖 | 🖥️ |
+| 2 | 9/1 (Tue) | (LAB) Toolbox: Broken Online, Merge Conflicts & Branching | Bart | 📖 | 🖥️ |
+| 2 | 9/2 (Wed) | (DISC) Naming Conventions & FAIR Principles | Dr. Miel | 📖 | 🖥️ |
+| 3 | 9/7 (Mon) | No Class – Labor Day Holiday | - | - | - |
+| 3 | 9/8 (Tue) | (LAB) Cloud Computing, APIs & Hardware | Bart | 📖 | 🖥️ |
+| 3 | 9/9 (Wed) | (DISC) Data Governance & Data Lineage | Dr. Miel | 📖 | 🖥️ |
+| 4 | 9/14 (Mon) | (LEC) ML and AI Basics | Bart | 📖 | 🖥️ |
+| 4 | 9/15 (Tue) | (LAB) Toolbox: Project Mini, Packages, Hugging Face & Model Serving | Sonam & Meike | 📖 | 🖥️ |
+| 4 | 9/16 (Wed) | (DISC) Ethical and Efficient Use of AI | Dr. Miel | 📖 | 🖥️ |
+| 5 | 9/21 (Mon) | (LEC) Q&A | Dr. Miel | 📖 | 🖥️ |
+| 5 | 9/22 (Tue) | (LAB) Work on Mini Individual Project | Course Staff | 📖 | 🖥️ |
+| 5 | 9/23 (Wed) | (DISC) Q&A / Introduction to Tableau | Dr. Miel | 📖 | 🖥️ |
+| 6 | 9/28 (Mon) | (LEC) Q&A | Dr. Miel | 📖 | 🖥️ |
+| 6 | 9/29 (Tue) | (LAB) Work on Mini Individual Project | Course Staff | 📖 | 🖥️ |
+| 6 | 9/30 (Wed) | (DISC) Q&A | Dr. Miel | 📖 | 🖥️ |
+| 7 | 10/5 (Mon) | (LEC) Q&A | Dr. Miel | 📖 | 🖥️ |
+| 7 | 10/6 (Tue) | (LAB) Poster Presentation | Course Staff | 📖 | 🖥️ |
+| 7 | 10/7 (Wed) | (DISC) DISC Assessment of the Team | Dr. Miel | 📖 | 🖥️ |
+| 8 | 10/12 (Mon) | No Class – Fall Break | - | - | - |
+| 8 | 10/13 (Tue) | No Class – Fall Break | - | - | - |
+| 8 | 10/14 (Wed) | (DISC) TBD | TBD | 📖 | 🖥️ |
+| 9 | 10/19 (Mon) | (LEC) Final Project Kickoff | Dr. Miel | 📖 | 🖥️ |
+| 9 | 10/20 (Tue) | (LAB) Farm Visit | Course Staff | 📖 | 🖥️ |
+| 9 | 10/21 (Wed) | (DISC) Project Planning | Dr. Miel | 📖 | 🖥️ |
+| 10 | 10/26 (Mon) | (LEC) Final Project | Course Staff | 📖 | 🖥️ |
+| 10 | 10/27 (Tue) | (LAB) Final Project | Course Staff | 📖 | 🖥️ |
+| 10 | 10/28 (Wed) | (DISC) Final Project | Course Staff | 📖 | 🖥️ |
+| 11 | 11/2 (Mon) | (LEC) Final Project | Course Staff | 📖 | 🖥️ |
+| 11 | 11/3 (Tue) | (LAB) Final Project | Course Staff | 📖 | 🖥️ |
+| 11 | 11/4 (Wed) | (DISC) Final Project | Course Staff | 📖 | 🖥️ |
+| 12 | 11/9 (Mon) | (LEC) Final Project | Course Staff | 📖 | 🖥️ |
+| 12 | 11/10 (Tue) | (LAB) Final Project | Course Staff | 📖 | 🖥️ |
+| 12 | 11/11 (Wed) | (DISC) Final Project | Course Staff | 📖 | 🖥️ |
+| 13 | 11/16 (Mon) | (LEC) Final Project | Course Staff | 📖 | 🖥️ |
+| 13 | 11/17 (Tue) | (LAB) Final Project | Course Staff | 📖 | 🖥️ |
+| 13 | 11/18 (Wed) | (DISC) Final Project | Course Staff | 📖 | 🖥️ |
+| 14 | 11/23 (Mon) | (LEC) Final Project | Course Staff | 📖 | 🖥️ |
+| 14 | 11/24 (Tue) | (LAB) Final Project | Course Staff | 📖 | 🖥️ |
+| 14 | 11/25 (Wed) | No Class – Thanksgiving Break | - | - | - |
+| 15 | 11/30 (Mon) | (LEC) Final Project Presentations / Submission Preparation | Dr. Miel | 📖 | 🖥️ |
+| 15 | 12/1 (Tue) | (LAB) Final Project Submission | Course Staff | 📖 | 🖥️ |
+| 15 | 12/2 (Wed) | (DISC) Course Wrap-up & Reflection | Dr. Miel | 📖 | 🖥️ |
 :::
 
 ```{r echo = FALSE}
