@@ -6,8 +6,8 @@
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.9.37">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.10.18">
 
   <meta name="author" content="Miel Hostens">
   <title>Beasts &amp; Bytes – Lecture - The Curse of Dimensionality in Dairy Data Science</title>
@@ -20,10 +20,13 @@
     /* Default styles provided by pandoc.
     ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
     */
-    code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-    div.column{flex: auto; overflow-x: auto;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
     ul.task-list li input[type="checkbox"] {
@@ -210,7 +213,7 @@
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-Miel Hostens 
+Miel Hostens
 </div>
 </div>
 </div>
@@ -369,8 +372,8 @@ More dimensions = more ways to be wrong.</p>
 </section>
 <section id="wrong-approach-very-common" class="slide level2">
 <h2>Wrong approach (very common)</h2>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode numberSource pseudo number-lines code-with-copy"><code class="sourceCode"><span id="cb1-1"><a></a>GROUP BY cow_id, year</span>
-<span id="cb1-2"><a></a>SUM(milk_kg)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode numberSource pseudo number-lines code-with-copy"><code class="sourceCode"><span id="cb1-1"><a aria-label="1"></a>GROUP BY cow_id, year</span>
+<span id="cb1-2"><a aria-label="2"></a>SUM(milk_kg)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>Problem:</p>
 <ul>
 <li>A cow that calved in 2024 produces milk in 2025</li>
@@ -461,26 +464,26 @@ More dimensions = more ways to be wrong.</p>
 </section>
 <section id="potential-solution" class="slide level2">
 <h2>Potential solution</h2>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode numberSource pseudo number-lines code-with-copy"><code class="sourceCode"><span id="cb2-1"><a></a>-- Step 1: create lactation windows</span>
-<span id="cb2-2"><a></a>lactation =</span>
-<span id="cb2-3"><a></a>  SELECT cow_id, lactation_id,</span>
-<span id="cb2-4"><a></a>         calving_ts, next_calving_ts</span>
-<span id="cb2-5"><a></a>  FROM calving_table</span>
-<span id="cb2-6"><a></a></span>
-<span id="cb2-7"><a></a>-- Step 2: label each milk record to exactly one lactation</span>
-<span id="cb2-8"><a></a>milk_labeled =</span>
-<span id="cb2-9"><a></a>  SELECT m.*, l.lactation_id</span>
-<span id="cb2-10"><a></a>  FROM milk_milking m</span>
-<span id="cb2-11"><a></a>  JOIN lactation l</span>
-<span id="cb2-12"><a></a>    ON m.cow_id = l.cow_id</span>
-<span id="cb2-13"><a></a>   AND m.ts &gt;= l.calving_ts</span>
-<span id="cb2-14"><a></a>   AND m.ts &lt;  l.next_calving_ts</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode numberSource pseudo number-lines code-with-copy"><code class="sourceCode"><span id="cb2-1"><a aria-label="1"></a>-- Step 1: create lactation windows</span>
+<span id="cb2-2"><a aria-label="2"></a>lactation =</span>
+<span id="cb2-3"><a aria-label="3"></a>  SELECT cow_id, lactation_id,</span>
+<span id="cb2-4"><a aria-label="4"></a>         calving_ts, next_calving_ts</span>
+<span id="cb2-5"><a aria-label="5"></a>  FROM calving_table</span>
+<span id="cb2-6"><a aria-label="6"></a></span>
+<span id="cb2-7"><a aria-label="7"></a>-- Step 2: label each milk record to exactly one lactation</span>
+<span id="cb2-8"><a aria-label="8"></a>milk_labeled =</span>
+<span id="cb2-9"><a aria-label="9"></a>  SELECT m.*, l.lactation_id</span>
+<span id="cb2-10"><a aria-label="10"></a>  FROM milk_milking m</span>
+<span id="cb2-11"><a aria-label="11"></a>  JOIN lactation l</span>
+<span id="cb2-12"><a aria-label="12"></a>    ON m.cow_id = l.cow_id</span>
+<span id="cb2-13"><a aria-label="13"></a>   AND m.ts &gt;= l.calving_ts</span>
+<span id="cb2-14"><a aria-label="14"></a>   AND m.ts &lt;  l.next_calving_ts</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>Now you can aggregate safely by lactation.</p>
 </section>
 <section id="group_by-is-not-innocent" class="slide level2">
 <h2>Group_by is not innocent</h2>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode numberSource pseudo number-lines code-with-copy"><code class="sourceCode"><span id="cb3-1"><a></a>GROUP BY herd_id</span>
-<span id="cb3-2"><a></a>MEAN(milk_kg)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode numberSource pseudo number-lines code-with-copy"><code class="sourceCode"><span id="cb3-1"><a aria-label="1"></a>GROUP BY herd_id</span>
+<span id="cb3-2"><a aria-label="2"></a>MEAN(milk_kg)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>Implicit assumptions:</p>
 <ul>
 <li>Each cow contributes equally</li>
@@ -573,14 +576,14 @@ Never the other way around.</p>
 <section id="debug-technique-rowcount-audit" class="slide level2">
 <h2>Debug technique: row‑count audit</h2>
 <p>Pseudocode:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode numberSource pseudo number-lines code-with-copy"><code class="sourceCode"><span id="cb4-1"><a></a>n_before = COUNT_ROWS(milk)</span>
-<span id="cb4-2"><a></a>joined = milk JOIN calving USING (cow_id)</span>
-<span id="cb4-3"><a></a>n_after  = COUNT_ROWS(joined)</span>
-<span id="cb4-4"><a></a></span>
-<span id="cb4-5"><a></a>IF n_after &gt;&gt; n_before:</span>
-<span id="cb4-6"><a></a>  you created duplication</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode numberSource pseudo number-lines code-with-copy"><code class="sourceCode"><span id="cb4-1"><a aria-label="1"></a>n_before = COUNT_ROWS(milk)</span>
+<span id="cb4-2"><a aria-label="2"></a>joined = milk JOIN calving USING (cow_id)</span>
+<span id="cb4-3"><a aria-label="3"></a>n_after  = COUNT_ROWS(joined)</span>
+<span id="cb4-4"><a aria-label="4"></a></span>
+<span id="cb4-5"><a aria-label="5"></a>IF n_after &gt;&gt; n_before:</span>
+<span id="cb4-6"><a aria-label="6"></a>  you created duplication</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>Also compute duplicates by key:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode numberSource pseudo number-lines code-with-copy"><code class="sourceCode"><span id="cb5-1"><a></a>COUNT(*) GROUP BY cow_id, ts HAVING COUNT(*) &gt; 1</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode numberSource pseudo number-lines code-with-copy"><code class="sourceCode"><span id="cb5-1"><a aria-label="1"></a>COUNT(*) GROUP BY cow_id, ts HAVING COUNT(*) &gt; 1</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="debug-technique-sum-invariants" class="slide level2">
 <h2>Debug technique: sum invariants</h2>
@@ -589,12 +592,12 @@ Never the other way around.</p>
 <ul>
 <li>Total milk (kg) should not change when adding cow breed</li>
 </ul>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode numberSource pseudo number-lines code-with-copy"><code class="sourceCode"><span id="cb6-1"><a></a>SUM(milk_kg) before join == SUM(milk_kg) after join</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode numberSource pseudo number-lines code-with-copy"><code class="sourceCode"><span id="cb6-1"><a aria-label="1"></a>SUM(milk_kg) before join == SUM(milk_kg) after join</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>If it changes: duplication happened.</p>
 </section>
 <section id="group_by-pitfalls" class="slide level2">
 <h2>Group_by pitfalls</h2>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode numberSource pseudo number-lines code-with-copy"><code class="sourceCode"><span id="cb7-1"><a></a>GROUP BY herd, year, month, week, day</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode numberSource pseudo number-lines code-with-copy"><code class="sourceCode"><span id="cb7-1"><a aria-label="1"></a>GROUP BY herd, year, month, week, day</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>Creates tiny groups → noisy means → missingness.</p>
 <p>Pick ONE time scale aligned with the question.</p>
 </section>

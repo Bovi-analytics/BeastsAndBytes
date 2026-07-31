@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.37">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -40,14 +43,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-14f14a71fff235e0f82067c733478993.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-59c5513f839f6c6796e66da56a45f3ab.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-14f14a71fff235e0f82067c733478993.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-aa94d02e0c14870a685212367296b97e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-02a0cf4b03161b8e6f91b0593371cd23.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-aa94d02e0c14870a685212367296b97e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -556,379 +559,363 @@ Note that this schedule will be updated as the course progresses, with all chang
 <tbody>
 <tr class="odd">
 <td style="text-align: center;">1</td>
-<td style="text-align: center;">1/20 (Tue)</td>
-<td>Introduction to Python programming</td>
-<td>Meike van Leerdam</td>
-<td style="text-align: center;"><a href="https://forms.office.com/r/bDEBaU5fN1">📖</a></td>
-<td style="text-align: center;"><a href="slides/lec-1.html">🖥️</a></td>
+<td style="text-align: center;">8/24 (Mon)</td>
+<td>(LEC) Course Outline</td>
+<td>Dr.&nbsp;Miel</td>
+<td style="text-align: center;">📖</td>
+<td style="text-align: center;">🖥️</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">1</td>
-<td style="text-align: center;">1/21 (Wed)</td>
-<td>Introduction to decision support</td>
-<td>Meike van Leerdam</td>
-<td style="text-align: center;"><a href="https://www.ibm.com/think/topics/data-driven-decision-making">📖</a></td>
-<td style="text-align: center;"><a href="slides/discussion_1.html">🖥️</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">2</td>
-<td style="text-align: center;">1/26 (Mon)</td>
-<td>Cancelled -&gt; Lec moved to lab</td>
-<td>Dr.&nbsp;Hostens</td>
-<td style="text-align: center;"><a href="weeks/week-2.html">📖</a></td>
-<td style="text-align: center;"><a href="slides/lec-2.html">🖥️</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">2</td>
-<td style="text-align: center;">1/27 (Tue)</td>
-<td>Introduction to the project</td>
-<td>Dr.&nbsp;Hostens</td>
+<td style="text-align: center;">8/25 (Tue)</td>
+<td>(LAB) Toolbox: IDEs, Programming Languages &amp; Vibe Coding</td>
+<td>Bart, Hanlu, Meike, Puchun &amp; Dr.&nbsp;Miel</td>
 <td style="text-align: center;">📖</td>
-<td style="text-align: center;"><a href="slides/lec-1.html">🖥️</a></td>
+<td style="text-align: center;">🖥️</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">8/26 (Wed)</td>
+<td>(DISC) Data Science in Agriculture</td>
+<td>Sumit, Sonam, Puchun, Hanlu, Bart &amp; Meike</td>
+<td style="text-align: center;">📖</td>
+<td style="text-align: center;">🖥️</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">8/31 (Mon)</td>
+<td>(LEC) Version Control Systems &amp; Integration</td>
+<td>Dr.&nbsp;Miel</td>
+<td style="text-align: center;">📖</td>
+<td style="text-align: center;">🖥️</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">2</td>
-<td style="text-align: center;">1/28 (Wed)</td>
-<td>Project discussion</td>
-<td>Dr.&nbsp;Hostens</td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-️</td>
+<td style="text-align: center;">9/1 (Tue)</td>
+<td>(LAB) Toolbox: Broken Online, Merge Conflicts &amp; Branching</td>
+<td>Bart</td>
+<td style="text-align: center;">📖</td>
+<td style="text-align: center;">🖥️</td>
 </tr>
 <tr class="even">
-<td style="text-align: center;">3</td>
-<td style="text-align: center;">2/2 (Mon)</td>
-<td>Work on Dodona at home</td>
-<td></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">9/2 (Wed)</td>
+<td>(DISC) Naming Conventions &amp; FAIR Principles</td>
+<td>Dr.&nbsp;Miel</td>
+<td style="text-align: center;">📖</td>
+<td style="text-align: center;">🖥️</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">3</td>
-<td style="text-align: center;">2/3 (Tue)</td>
-<td>RUFAS lecture and programming assignment</td>
-<td>H. Hu and K. Reed</td>
-<td style="text-align: center;"><a href="https://www.jdscommun.org/article/S2666-9102(25)00195-4/fulltext">📖</a></td>
-<td style="text-align: center;"><a href="https://youtu.be/0jBReNID8R8">🖥️</a></td>
+<td style="text-align: center;">9/7 (Mon)</td>
+<td>No Class – Labor Day Holiday</td>
+<td>-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">3</td>
-<td style="text-align: center;">2/4 (Wed)</td>
-<td>Project discussion</td>
-<td>Meike van Leerdam</td>
+<td style="text-align: center;">9/8 (Tue)</td>
+<td>(LAB) Cloud Computing, APIs &amp; Hardware</td>
+<td>Bart</td>
+<td style="text-align: center;">📖</td>
+<td style="text-align: center;">🖥️</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">9/9 (Wed)</td>
+<td>(DISC) Data Governance &amp; Data Lineage</td>
+<td>Dr.&nbsp;Miel</td>
+<td style="text-align: center;">📖</td>
+<td style="text-align: center;">🖥️</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">9/14 (Mon)</td>
+<td>(LEC) ML and AI Basics</td>
+<td>Bart</td>
 <td style="text-align: center;">📖</td>
 <td style="text-align: center;">🖥️</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">4</td>
-<td style="text-align: center;">2/9 (Mon)</td>
-<td><a href="https://teams.microsoft.com/meet/2793529249127?p=SOTWGPJVrtZBDhyGsu">Guest lecture</a></td>
-<td><a href="https://animal.ifas.ufl.edu/people/albert-de-vries/">Dr.&nbsp;de Vries</a></td>
-<td style="text-align: center;"><a href="weeks/week-4.html">📖</a></td>
-<td style="text-align: center;"><a href="https://youtu.be/6TGTDjSkqZU">🖥️</a></td>
+<td style="text-align: center;">9/15 (Tue)</td>
+<td>(LAB) Toolbox: Project Mini, Packages, Hugging Face &amp; Model Serving</td>
+<td>Sonam &amp; Meike</td>
+<td style="text-align: center;">📖</td>
+<td style="text-align: center;">🖥️</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">4</td>
-<td style="text-align: center;">2/10 (Tue)</td>
-<td>Programming assignment</td>
-<td>TAs</td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
+<td style="text-align: center;">9/16 (Wed)</td>
+<td>(DISC) Ethical and Efficient Use of AI</td>
+<td>Dr.&nbsp;Miel</td>
+<td style="text-align: center;">📖</td>
+<td style="text-align: center;">🖥️</td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;">4</td>
-<td style="text-align: center;">2/11 (Wed)</td>
-<td>Project discussion with farmer</td>
-<td>D. Westfall &amp; M. van Leerdam</td>
-<td style="text-align: center;">-</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">9/21 (Mon)</td>
+<td>(LEC) Q&amp;A</td>
+<td>Dr.&nbsp;Miel</td>
+<td style="text-align: center;">📖</td>
 <td style="text-align: center;">🖥️</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">5</td>
-<td style="text-align: center;">2/16 (Mon)</td>
-<td>February break</td>
-<td>-</td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
+<td style="text-align: center;">9/22 (Tue)</td>
+<td>(LAB) Work on Mini Individual Project</td>
+<td>Course Staff</td>
+<td style="text-align: center;">📖</td>
+<td style="text-align: center;">🖥️</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">5</td>
-<td style="text-align: center;">2/17 (Tue)</td>
-<td>February break</td>
-<td>-</td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">5</td>
-<td style="text-align: center;">2/18 (Wed)</td>
-<td><a href="https://teams.microsoft.com/meet/27062365396024?p=rNcIgJIJFvcr98DkNZ">Guest lecture</a></td>
-<td><a href="https://andysci.wisc.edu/directory/victor-cabrera/">Dr.&nbsp;Cabrera</a></td>
-<td style="text-align: center;"><a href="weeks/week-5.html">📖</a></td>
-<td style="text-align: center;"><a href="https://youtu.be/QDNlWDeyCCY">🖥️</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">6</td>
-<td style="text-align: center;">2/23 (Mon)</td>
-<td>Project discussion</td>
-<td>Dr.&nbsp;Miel Hostens</td>
+<td style="text-align: center;">9/23 (Wed)</td>
+<td>(DISC) Q&amp;A / Introduction to Tableau</td>
+<td>Dr.&nbsp;Miel</td>
 <td style="text-align: center;">📖</td>
 <td style="text-align: center;">🖥️</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">6</td>
-<td style="text-align: center;">2/24 (Tue)</td>
-<td>Programming assignment</td>
-<td>TAs</td>
+<td style="text-align: center;">9/28 (Mon)</td>
+<td>(LEC) Q&amp;A</td>
+<td>Dr.&nbsp;Miel</td>
 <td style="text-align: center;">📖</td>
 <td style="text-align: center;">🖥️</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">6</td>
-<td style="text-align: center;">2/25 (Wed)</td>
-<td>FAIR data principles for Animal/Agricultural Science</td>
-<td>Dr.&nbsp;Hostens</td>
+<td style="text-align: center;">9/29 (Tue)</td>
+<td>(LAB) Work on Mini Individual Project</td>
+<td>Course Staff</td>
 <td style="text-align: center;">📖</td>
-<td style="text-align: center;"><a href="slides/lec-6.html">🖥️</a></td>
+<td style="text-align: center;">🖥️</td>
 </tr>
 <tr class="even">
-<td style="text-align: center;">7</td>
-<td style="text-align: center;">3/2 (Mon)</td>
-<td>MyCow$</td>
-<td>Dr.&nbsp;Giordano</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">9/30 (Wed)</td>
+<td>(DISC) Q&amp;A</td>
+<td>Dr.&nbsp;Miel</td>
 <td style="text-align: center;">📖</td>
 <td style="text-align: center;">🖥️</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">7</td>
-<td style="text-align: center;">3/3 (Tue)</td>
-<td>Programming assignment</td>
-<td>TAs</td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-️</td>
+<td style="text-align: center;">10/5 (Mon)</td>
+<td>(LEC) Q&amp;A</td>
+<td>Dr.&nbsp;Miel</td>
+<td style="text-align: center;">📖</td>
+<td style="text-align: center;">🖥️</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">7</td>
-<td style="text-align: center;">3/4 (Wed)</td>
-<td>Effective visualisation using Tableau</td>
-<td>Dr.&nbsp;Hostens</td>
+<td style="text-align: center;">10/6 (Tue)</td>
+<td>(LAB) Poster Presentation</td>
+<td>Course Staff</td>
 <td style="text-align: center;">📖</td>
-<td style="text-align: center;"><a href="https://prezi.com/view/8Pgr5LLExlIaYtktADox/">🖥️</a></td>
+<td style="text-align: center;">🖥️</td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;">8</td>
-<td style="text-align: center;">3/9 (Mon)</td>
-<td>DISC Assessment &amp; Team DynamicS</td>
-<td>Dr.&nbsp;Hostens</td>
-<td style="text-align: center;"><a href="weeks/week-8.html">📖</a></td>
-<td style="text-align: center;"><a href="slides/lec-8.html">🖥️</a></td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">10/7 (Wed)</td>
+<td>(DISC) DISC Assessment of the Team</td>
+<td>Dr.&nbsp;Miel</td>
+<td style="text-align: center;">📖</td>
+<td style="text-align: center;">🖥️</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">8</td>
-<td style="text-align: center;">3/10 (Tue)</td>
-<td>Farm visit</td>
-<td>Dr.&nbsp;Hostens and TAs</td>
+<td style="text-align: center;">10/12 (Mon)</td>
+<td>No Class – Fall Break</td>
+<td>-</td>
 <td style="text-align: center;">-</td>
 <td style="text-align: center;">-</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">8</td>
-<td style="text-align: center;">3/11 (Wed)</td>
-<td>Discuss results DISC</td>
-<td>Dr.&nbsp;Hostens</td>
+<td style="text-align: center;">10/13 (Tue)</td>
+<td>No Class – Fall Break</td>
+<td>-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">10/14 (Wed)</td>
+<td>(DISC) TBD</td>
+<td>TBD</td>
+<td style="text-align: center;">📖</td>
+<td style="text-align: center;">🖥️</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">9</td>
+<td style="text-align: center;">10/19 (Mon)</td>
+<td>(LEC) Final Project Kickoff</td>
+<td>Dr.&nbsp;Miel</td>
 <td style="text-align: center;">📖</td>
 <td style="text-align: center;">🖥️</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">9</td>
-<td style="text-align: center;">3/16 (Mon)</td>
-<td>Project discussion</td>
-<td>Dr.&nbsp;Miel Hostens</td>
+<td style="text-align: center;">10/20 (Tue)</td>
+<td>(LAB) Farm Visit</td>
+<td>Course Staff</td>
 <td style="text-align: center;">📖</td>
 <td style="text-align: center;">🖥️</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">9</td>
-<td style="text-align: center;">3/17 (Tue)</td>
-<td>Discuss MSCW frontend and start backend</td>
-<td>Meike</td>
-<td style="text-align: center;">📖</td>
-<td style="text-align: center;">🖥️</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">9</td>
-<td style="text-align: center;">3/18 (Wed)</td>
-<td>Project discussion</td>
-<td>Dr.&nbsp;Hostens and Meike</td>
-<td style="text-align: center;">📖</td>
-<td style="text-align: center;">🖥️</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">10</td>
-<td style="text-align: center;">3/23 (Mon)</td>
-<td>Project discussion</td>
-<td>Dr.&nbsp;Hostens and Meike</td>
+<td style="text-align: center;">10/21 (Wed)</td>
+<td>(DISC) Project Planning</td>
+<td>Dr.&nbsp;Miel</td>
 <td style="text-align: center;">📖</td>
 <td style="text-align: center;">🖥️</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">10</td>
-<td style="text-align: center;">3/24 (Tue)</td>
-<td>Work on project</td>
-<td>self</td>
+<td style="text-align: center;">10/26 (Mon)</td>
+<td>(LEC) Final Project</td>
+<td>Course Staff</td>
 <td style="text-align: center;">📖</td>
 <td style="text-align: center;">🖥️</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">10</td>
-<td style="text-align: center;">3/25 (Wed)</td>
-<td>Curse of dimensionality</td>
-<td>Dr.&nbsp;Hostens</td>
+<td style="text-align: center;">10/27 (Tue)</td>
+<td>(LAB) Final Project</td>
+<td>Course Staff</td>
+<td style="text-align: center;">📖</td>
+<td style="text-align: center;">🖥️</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">10/28 (Wed)</td>
+<td>(DISC) Final Project</td>
+<td>Course Staff</td>
+<td style="text-align: center;">📖</td>
+<td style="text-align: center;">🖥️</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">11</td>
+<td style="text-align: center;">11/2 (Mon)</td>
+<td>(LEC) Final Project</td>
+<td>Course Staff</td>
 <td style="text-align: center;">📖</td>
 <td style="text-align: center;">🖥️</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">11</td>
-<td style="text-align: center;">3/30 (Mon)</td>
-<td>Spring break</td>
-<td>-</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">11</td>
-<td style="text-align: center;">3/31 (Tue)</td>
-<td>Spring break</td>
-<td>-</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">11</td>
-<td style="text-align: center;">4/1 (Wed)</td>
-<td>Spring break</td>
-<td>-</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">12</td>
-<td style="text-align: center;">4/6 (Mon)</td>
-<td>Software and Azure</td>
-<td>Bart de Zoete</td>
+<td style="text-align: center;">11/3 (Tue)</td>
+<td>(LAB) Final Project</td>
+<td>Course Staff</td>
 <td style="text-align: center;">📖</td>
-<td style="text-align: center;"><a href="https://canvas.cornell.edu/courses/83180/files?preview=15179001">🖥️</a></td>
+<td style="text-align: center;">🖥️</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">11</td>
+<td style="text-align: center;">11/4 (Wed)</td>
+<td>(DISC) Final Project</td>
+<td>Course Staff</td>
+<td style="text-align: center;">📖</td>
+<td style="text-align: center;">🖥️</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">12</td>
-<td style="text-align: center;">4/7 (Tue)</td>
-<td>Work on project and programming assignment</td>
-<td>Meike</td>
+<td style="text-align: center;">11/9 (Mon)</td>
+<td>(LEC) Final Project</td>
+<td>Course Staff</td>
 <td style="text-align: center;">📖</td>
 <td style="text-align: center;">🖥️</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">12</td>
-<td style="text-align: center;">4/8 (Wed)</td>
-<td>Project discussion</td>
-<td>Dr.&nbsp;Hostens or Meike</td>
+<td style="text-align: center;">11/10 (Tue)</td>
+<td>(LAB) Final Project</td>
+<td>Course Staff</td>
+<td style="text-align: center;">📖</td>
+<td style="text-align: center;">🖥️</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">12</td>
+<td style="text-align: center;">11/11 (Wed)</td>
+<td>(DISC) Final Project</td>
+<td>Course Staff</td>
+<td style="text-align: center;">📖</td>
+<td style="text-align: center;">🖥️</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">13</td>
+<td style="text-align: center;">11/16 (Mon)</td>
+<td>(LEC) Final Project</td>
+<td>Course Staff</td>
 <td style="text-align: center;">📖</td>
 <td style="text-align: center;">🖥️</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">13</td>
-<td style="text-align: center;">4/13 (Mon)</td>
-<td>Project</td>
-<td>Dr.&nbsp;Hostens or TAs</td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-️</td>
+<td style="text-align: center;">11/17 (Tue)</td>
+<td>(LAB) Final Project</td>
+<td>Course Staff</td>
+<td style="text-align: center;">📖</td>
+<td style="text-align: center;">🖥️</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">13</td>
-<td style="text-align: center;">4/14 (Tue)</td>
-<td>Project</td>
-<td>Dr.&nbsp;Hostens or TAs</td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-️</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">13</td>
-<td style="text-align: center;">4/15 (Wed)</td>
-<td>Project</td>
-<td>Dr.&nbsp;Hostens or TAs</td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-️</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">14</td>
-<td style="text-align: center;">4/20 (Mon)</td>
-<td>Project</td>
-<td>Dr.&nbsp;Hostens or TAs</td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-️</td>
+<td style="text-align: center;">11/18 (Wed)</td>
+<td>(DISC) Final Project</td>
+<td>Course Staff</td>
+<td style="text-align: center;">📖</td>
+<td style="text-align: center;">🖥️</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">14</td>
-<td style="text-align: center;">4/21 (Tue)</td>
-<td>Project</td>
-<td>Dr.&nbsp;Hostens or TAs</td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-️</td>
+<td style="text-align: center;">11/23 (Mon)</td>
+<td>(LEC) Final Project</td>
+<td>Course Staff</td>
+<td style="text-align: center;">📖</td>
+<td style="text-align: center;">🖥️</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">14</td>
-<td style="text-align: center;">4/22 (Wed)</td>
-<td>Project</td>
-<td>Dr.&nbsp;Hostens or TAs</td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-️</td>
+<td style="text-align: center;">11/24 (Tue)</td>
+<td>(LAB) Final Project</td>
+<td>Course Staff</td>
+<td style="text-align: center;">📖</td>
+<td style="text-align: center;">🖥️</td>
 </tr>
 <tr class="even">
-<td style="text-align: center;">15</td>
-<td style="text-align: center;">4/27 (Mon)</td>
-<td>Project</td>
-<td>Dr.&nbsp;Hostens or TAs</td>
+<td style="text-align: center;">14</td>
+<td style="text-align: center;">11/25 (Wed)</td>
+<td>No Class – Thanksgiving Break</td>
+<td>-</td>
 <td style="text-align: center;">-</td>
-<td style="text-align: center;">-️</td>
+<td style="text-align: center;">-</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">15</td>
-<td style="text-align: center;">4/28 (Tue)</td>
-<td>Project</td>
-<td>Dr.&nbsp;Hostens or TAs</td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-️</td>
+<td style="text-align: center;">11/30 (Mon)</td>
+<td>(LEC) Final Project Presentations / Submission Preparation</td>
+<td>Dr.&nbsp;Miel</td>
+<td style="text-align: center;">📖</td>
+<td style="text-align: center;">🖥️</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">15</td>
-<td style="text-align: center;">4/29 (Wed)</td>
-<td>Project</td>
-<td>Dr.&nbsp;Hostens or TAs</td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-️</td>
+<td style="text-align: center;">12/1 (Tue)</td>
+<td>(LAB) Final Project Submission</td>
+<td>Course Staff</td>
+<td style="text-align: center;">📖</td>
+<td style="text-align: center;">🖥️</td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;">16</td>
-<td style="text-align: center;">5/4 (Mon)</td>
-<td>Project</td>
-<td>Dr.&nbsp;Hostens or TAs</td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">16</td>
-<td style="text-align: center;">5/5 (Tue)</td>
-<td>Final project presentation</td>
-<td>Dr.&nbsp;Hostens and TAs</td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-️</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">17</td>
-<td style="text-align: center;">5/14 (Thu)</td>
-<td>Programming exam</td>
-<td>Meike van Leerdam</td>
-<td style="text-align: center;">MRS334</td>
-<td style="text-align: center;">-️</td>
+<td style="text-align: center;">15</td>
+<td style="text-align: center;">12/2 (Wed)</td>
+<td>(DISC) Course Wrap-up &amp; Reflection</td>
+<td>Dr.&nbsp;Miel</td>
+<td style="text-align: center;">📖</td>
+<td style="text-align: center;">🖥️</td>
 </tr>
 </tbody>
 </table>

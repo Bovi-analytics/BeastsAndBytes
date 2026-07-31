@@ -6,8 +6,8 @@
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.9.37">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.10.18">
 
   <meta name="dcterms.date" content="2025-04-17">
   <title>Beasts &amp; Bytes – Decision Trees</title>
@@ -20,10 +20,13 @@
     /* Default styles provided by pandoc.
     ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
     */
-    code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-    div.column{flex: auto; overflow-x: auto;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
     ul.task-list li input[type="checkbox"] {
@@ -224,21 +227,21 @@
 <li>We’ll use the <code>rpart</code> package for decision trees and the <code>randomForest</code> package for random forests.</li>
 </ul>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a><span class="co"># Install necessary packages if not already installed</span></span>
-<span id="cb1-2"><a></a><span class="cf">if</span>(<span class="sc">!</span><span class="fu">require</span>(tidyverse)) <span class="fu">install.packages</span>(<span class="st">"tidyverse"</span>)</span>
-<span id="cb1-3"><a></a><span class="cf">if</span>(<span class="sc">!</span><span class="fu">require</span>(rpart)) <span class="fu">install.packages</span>(<span class="st">"rpart"</span>)</span>
-<span id="cb1-4"><a></a><span class="cf">if</span>(<span class="sc">!</span><span class="fu">require</span>(rpart.plot)) <span class="fu">install.packages</span>(<span class="st">"rpart.plot"</span>) <span class="co"># Install rpart.plot</span></span>
-<span id="cb1-5"><a></a><span class="cf">if</span>(<span class="sc">!</span><span class="fu">require</span>(caret)) <span class="fu">install.packages</span>(<span class="st">"caret"</span>)</span>
-<span id="cb1-6"><a></a><span class="cf">if</span>(<span class="sc">!</span><span class="fu">require</span>(randomForest)) <span class="fu">install.packages</span>(<span class="st">"randomForest"</span>)</span>
-<span id="cb1-7"><a></a><span class="cf">if</span>(<span class="sc">!</span><span class="fu">require</span>(DiagrammeR)) <span class="fu">install.packages</span>(<span class="st">"DiagrammeR"</span>)</span>
-<span id="cb1-8"><a></a></span>
-<span id="cb1-9"><a></a><span class="co"># Load the libraries</span></span>
-<span id="cb1-10"><a></a><span class="fu">library</span>(tidyverse)</span>
-<span id="cb1-11"><a></a><span class="fu">library</span>(rpart)</span>
-<span id="cb1-12"><a></a><span class="fu">library</span>(rpart.plot) <span class="co"># Load rpart.plot</span></span>
-<span id="cb1-13"><a></a><span class="fu">library</span>(caret)</span>
-<span id="cb1-14"><a></a><span class="fu">library</span>(randomForest)</span>
-<span id="cb1-15"><a></a><span class="fu">library</span>(DiagrammeR) <span class="co"># Load DiagrammeR</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a aria-label="1"></a><span class="co"># Install necessary packages if not already installed</span></span>
+<span id="cb1-2"><a aria-label="2"></a><span class="cf">if</span>(<span class="sc">!</span><span class="fu">require</span>(tidyverse)) <span class="fu">install.packages</span>(<span class="st">"tidyverse"</span>)</span>
+<span id="cb1-3"><a aria-label="3"></a><span class="cf">if</span>(<span class="sc">!</span><span class="fu">require</span>(rpart)) <span class="fu">install.packages</span>(<span class="st">"rpart"</span>)</span>
+<span id="cb1-4"><a aria-label="4"></a><span class="cf">if</span>(<span class="sc">!</span><span class="fu">require</span>(rpart.plot)) <span class="fu">install.packages</span>(<span class="st">"rpart.plot"</span>) <span class="co"># Install rpart.plot</span></span>
+<span id="cb1-5"><a aria-label="5"></a><span class="cf">if</span>(<span class="sc">!</span><span class="fu">require</span>(caret)) <span class="fu">install.packages</span>(<span class="st">"caret"</span>)</span>
+<span id="cb1-6"><a aria-label="6"></a><span class="cf">if</span>(<span class="sc">!</span><span class="fu">require</span>(randomForest)) <span class="fu">install.packages</span>(<span class="st">"randomForest"</span>)</span>
+<span id="cb1-7"><a aria-label="7"></a><span class="cf">if</span>(<span class="sc">!</span><span class="fu">require</span>(DiagrammeR)) <span class="fu">install.packages</span>(<span class="st">"DiagrammeR"</span>)</span>
+<span id="cb1-8"><a aria-label="8"></a></span>
+<span id="cb1-9"><a aria-label="9"></a><span class="co"># Load the libraries</span></span>
+<span id="cb1-10"><a aria-label="10"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb1-11"><a aria-label="11"></a><span class="fu">library</span>(rpart)</span>
+<span id="cb1-12"><a aria-label="12"></a><span class="fu">library</span>(rpart.plot) <span class="co"># Load rpart.plot</span></span>
+<span id="cb1-13"><a aria-label="13"></a><span class="fu">library</span>(caret)</span>
+<span id="cb1-14"><a aria-label="14"></a><span class="fu">library</span>(randomForest)</span>
+<span id="cb1-15"><a aria-label="15"></a><span class="fu">library</span>(DiagrammeR) <span class="co"># Load DiagrammeR</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </section></section>
 <section>
@@ -340,9 +343,9 @@
 <h2>The <code>rpart</code> Package</h2>
 <p>R has excellent support for decision trees through the <code>rpart</code> package:</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a></a><span class="co"># Load a sample dataset - iris</span></span>
-<span id="cb2-2"><a></a><span class="fu">data</span>(iris)</span>
-<span id="cb2-3"><a></a><span class="fu">head</span>(iris)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a aria-label="1"></a><span class="co"># Load a sample dataset - iris</span></span>
+<span id="cb2-2"><a aria-label="2"></a><span class="fu">data</span>(iris)</span>
+<span id="cb2-3"><a aria-label="3"></a><span class="fu">head</span>(iris)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>  Sepal.Length Sepal.Width Petal.Length Petal.Width Species
 1          5.1         3.5          1.4         0.2  setosa
@@ -357,13 +360,13 @@
 <section id="sec-simple-dt" class="slide level2">
 <h2>Building a Simple Decision Tree</h2>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a></a><span class="co"># Build a decision tree model</span></span>
-<span id="cb4-2"><a></a>iris_tree <span class="ot">&lt;-</span> <span class="fu">rpart</span>(Species <span class="sc">~</span> ., </span>
-<span id="cb4-3"><a></a>                  <span class="at">data =</span> iris,</span>
-<span id="cb4-4"><a></a>                  <span class="at">method =</span> <span class="st">"class"</span>)</span>
-<span id="cb4-5"><a></a></span>
-<span id="cb4-6"><a></a><span class="co"># Print the model</span></span>
-<span id="cb4-7"><a></a><span class="fu">print</span>(iris_tree)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a aria-label="1"></a><span class="co"># Build a decision tree model</span></span>
+<span id="cb4-2"><a aria-label="2"></a>iris_tree <span class="ot">&lt;-</span> <span class="fu">rpart</span>(Species <span class="sc">~</span> ., </span>
+<span id="cb4-3"><a aria-label="3"></a>                  <span class="at">data =</span> iris,</span>
+<span id="cb4-4"><a aria-label="4"></a>                  <span class="at">method =</span> <span class="st">"class"</span>)</span>
+<span id="cb4-5"><a aria-label="5"></a></span>
+<span id="cb4-6"><a aria-label="6"></a><span class="co"># Print the model</span></span>
+<span id="cb4-7"><a aria-label="7"></a><span class="fu">print</span>(iris_tree)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>n= 150 
 
@@ -381,11 +384,11 @@ node), split, n, loss, yval, (yprob)
 <section id="sec-visualize-dt" class="slide level2">
 <h2>Visualizing the Decision Tree</h2>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a></a><span class="co"># Plot the decision tree</span></span>
-<span id="cb6-2"><a></a><span class="fu">rpart.plot</span>(iris_tree, </span>
-<span id="cb6-3"><a></a>           <span class="at">extra =</span> <span class="dv">104</span>,      <span class="co"># Show sample sizes and percentage</span></span>
-<span id="cb6-4"><a></a>           <span class="at">box.palette =</span> <span class="st">"GnBu"</span>, <span class="co"># Color scheme</span></span>
-<span id="cb6-5"><a></a>           <span class="at">fallen.leaves =</span> <span class="cn">TRUE</span>) <span class="co"># Align leaves</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a aria-label="1"></a><span class="co"># Plot the decision tree</span></span>
+<span id="cb6-2"><a aria-label="2"></a><span class="fu">rpart.plot</span>(iris_tree, </span>
+<span id="cb6-3"><a aria-label="3"></a>           <span class="at">extra =</span> <span class="dv">104</span>,      <span class="co"># Show sample sizes and percentage</span></span>
+<span id="cb6-4"><a aria-label="4"></a>           <span class="at">box.palette =</span> <span class="st">"GnBu"</span>, <span class="co"># Color scheme</span></span>
+<span id="cb6-5"><a aria-label="5"></a>           <span class="at">fallen.leaves =</span> <span class="cn">TRUE</span>) <span class="co"># Align leaves</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 
 </div>
 <img data-src="lec-12_files/figure-revealjs/unnamed-chunk-4-1.png" width="768" class="r-stretch"></section>
@@ -416,15 +419,15 @@ node), split, n, loss, yval, (yprob)
 <h2>Diabetes Dataset</h2>
 <p>Let’s use the Pima Indians Diabetes Dataset to predict diabetes risk:</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a></a><span class="co"># Load diabetes data</span></span>
-<span id="cb7-2"><a></a>diabetes_data <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"https://raw.githubusercontent.com/jbrownlee/Datasets/master/pima-indians-diabetes.csv"</span>, <span class="at">header =</span> <span class="cn">FALSE</span>)</span>
-<span id="cb7-3"><a></a></span>
-<span id="cb7-4"><a></a><span class="co"># Set column names</span></span>
-<span id="cb7-5"><a></a><span class="fu">colnames</span>(diabetes_data) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Pregnancies"</span>, <span class="st">"Glucose"</span>, <span class="st">"BloodPressure"</span>, <span class="st">"SkinThickness"</span>, </span>
-<span id="cb7-6"><a></a>                            <span class="st">"Insulin"</span>, <span class="st">"BMI"</span>, <span class="st">"DiabetesPedigreeFunction"</span>, <span class="st">"Age"</span>, <span class="st">"Outcome"</span>)</span>
-<span id="cb7-7"><a></a></span>
-<span id="cb7-8"><a></a><span class="co"># Check the data</span></span>
-<span id="cb7-9"><a></a><span class="fu">glimpse</span>(diabetes_data)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a aria-label="1"></a><span class="co"># Load diabetes data</span></span>
+<span id="cb7-2"><a aria-label="2"></a>diabetes_data <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"https://raw.githubusercontent.com/jbrownlee/Datasets/master/pima-indians-diabetes.csv"</span>, <span class="at">header =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb7-3"><a aria-label="3"></a></span>
+<span id="cb7-4"><a aria-label="4"></a><span class="co"># Set column names</span></span>
+<span id="cb7-5"><a aria-label="5"></a><span class="fu">colnames</span>(diabetes_data) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Pregnancies"</span>, <span class="st">"Glucose"</span>, <span class="st">"BloodPressure"</span>, <span class="st">"SkinThickness"</span>, </span>
+<span id="cb7-6"><a aria-label="6"></a>                            <span class="st">"Insulin"</span>, <span class="st">"BMI"</span>, <span class="st">"DiabetesPedigreeFunction"</span>, <span class="st">"Age"</span>, <span class="st">"Outcome"</span>)</span>
+<span id="cb7-7"><a aria-label="7"></a></span>
+<span id="cb7-8"><a aria-label="8"></a><span class="co"># Check the data</span></span>
+<span id="cb7-9"><a aria-label="9"></a><span class="fu">glimpse</span>(diabetes_data)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Rows: 768
 Columns: 9
@@ -458,26 +461,26 @@ $ Outcome                  &lt;int&gt; 1, 0, 1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1,
 <section id="sec-data-prep" class="slide level2">
 <h2>Preprocessing the Data</h2>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a></a><span class="co"># Convert target to factor for classification</span></span>
-<span id="cb9-2"><a></a>diabetes_data<span class="sc">$</span>Outcome <span class="ot">&lt;-</span> <span class="fu">as.factor</span>(diabetes_data<span class="sc">$</span>Outcome)</span>
-<span id="cb9-3"><a></a></span>
-<span id="cb9-4"><a></a><span class="co"># Recode target for interpretability</span></span>
-<span id="cb9-5"><a></a><span class="fu">levels</span>(diabetes_data<span class="sc">$</span>Outcome) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Healthy"</span>, <span class="st">"Diabetic"</span>)</span>
-<span id="cb9-6"><a></a></span>
-<span id="cb9-7"><a></a><span class="co"># Handle missing values (zeros are unlikely values for many of these measurements)</span></span>
-<span id="cb9-8"><a></a>diabetes_data<span class="sc">$</span>Glucose[diabetes_data<span class="sc">$</span>Glucose <span class="sc">==</span> <span class="dv">0</span>] <span class="ot">&lt;-</span> <span class="cn">NA</span></span>
-<span id="cb9-9"><a></a>diabetes_data<span class="sc">$</span>BloodPressure[diabetes_data<span class="sc">$</span>BloodPressure <span class="sc">==</span> <span class="dv">0</span>] <span class="ot">&lt;-</span> <span class="cn">NA</span></span>
-<span id="cb9-10"><a></a>diabetes_data<span class="sc">$</span>SkinThickness[diabetes_data<span class="sc">$</span>SkinThickness <span class="sc">==</span> <span class="dv">0</span>] <span class="ot">&lt;-</span> <span class="cn">NA</span></span>
-<span id="cb9-11"><a></a>diabetes_data<span class="sc">$</span>Insulin[diabetes_data<span class="sc">$</span>Insulin <span class="sc">==</span> <span class="dv">0</span>] <span class="ot">&lt;-</span> <span class="cn">NA</span></span>
-<span id="cb9-12"><a></a>diabetes_data<span class="sc">$</span>BMI[diabetes_data<span class="sc">$</span>BMI <span class="sc">==</span> <span class="dv">0</span>] <span class="ot">&lt;-</span> <span class="cn">NA</span></span>
-<span id="cb9-13"><a></a></span>
-<span id="cb9-14"><a></a><span class="co"># Impute missing values with median</span></span>
-<span id="cb9-15"><a></a><span class="cf">for</span>(i <span class="cf">in</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">5</span>) {</span>
-<span id="cb9-16"><a></a>  diabetes_data[<span class="fu">is.na</span>(diabetes_data[,i<span class="sc">+</span><span class="dv">1</span>]), i<span class="sc">+</span><span class="dv">1</span>] <span class="ot">&lt;-</span> <span class="fu">median</span>(diabetes_data[,i<span class="sc">+</span><span class="dv">1</span>], <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span>
-<span id="cb9-17"><a></a>}</span>
-<span id="cb9-18"><a></a></span>
-<span id="cb9-19"><a></a><span class="co"># Check class balance</span></span>
-<span id="cb9-20"><a></a><span class="fu">table</span>(diabetes_data<span class="sc">$</span>Outcome)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a aria-label="1"></a><span class="co"># Convert target to factor for classification</span></span>
+<span id="cb9-2"><a aria-label="2"></a>diabetes_data<span class="sc">$</span>Outcome <span class="ot">&lt;-</span> <span class="fu">as.factor</span>(diabetes_data<span class="sc">$</span>Outcome)</span>
+<span id="cb9-3"><a aria-label="3"></a></span>
+<span id="cb9-4"><a aria-label="4"></a><span class="co"># Recode target for interpretability</span></span>
+<span id="cb9-5"><a aria-label="5"></a><span class="fu">levels</span>(diabetes_data<span class="sc">$</span>Outcome) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Healthy"</span>, <span class="st">"Diabetic"</span>)</span>
+<span id="cb9-6"><a aria-label="6"></a></span>
+<span id="cb9-7"><a aria-label="7"></a><span class="co"># Handle missing values (zeros are unlikely values for many of these measurements)</span></span>
+<span id="cb9-8"><a aria-label="8"></a>diabetes_data<span class="sc">$</span>Glucose[diabetes_data<span class="sc">$</span>Glucose <span class="sc">==</span> <span class="dv">0</span>] <span class="ot">&lt;-</span> <span class="cn">NA</span></span>
+<span id="cb9-9"><a aria-label="9"></a>diabetes_data<span class="sc">$</span>BloodPressure[diabetes_data<span class="sc">$</span>BloodPressure <span class="sc">==</span> <span class="dv">0</span>] <span class="ot">&lt;-</span> <span class="cn">NA</span></span>
+<span id="cb9-10"><a aria-label="10"></a>diabetes_data<span class="sc">$</span>SkinThickness[diabetes_data<span class="sc">$</span>SkinThickness <span class="sc">==</span> <span class="dv">0</span>] <span class="ot">&lt;-</span> <span class="cn">NA</span></span>
+<span id="cb9-11"><a aria-label="11"></a>diabetes_data<span class="sc">$</span>Insulin[diabetes_data<span class="sc">$</span>Insulin <span class="sc">==</span> <span class="dv">0</span>] <span class="ot">&lt;-</span> <span class="cn">NA</span></span>
+<span id="cb9-12"><a aria-label="12"></a>diabetes_data<span class="sc">$</span>BMI[diabetes_data<span class="sc">$</span>BMI <span class="sc">==</span> <span class="dv">0</span>] <span class="ot">&lt;-</span> <span class="cn">NA</span></span>
+<span id="cb9-13"><a aria-label="13"></a></span>
+<span id="cb9-14"><a aria-label="14"></a><span class="co"># Impute missing values with median</span></span>
+<span id="cb9-15"><a aria-label="15"></a><span class="cf">for</span>(i <span class="cf">in</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">5</span>) {</span>
+<span id="cb9-16"><a aria-label="16"></a>  diabetes_data[<span class="fu">is.na</span>(diabetes_data[,i<span class="sc">+</span><span class="dv">1</span>]), i<span class="sc">+</span><span class="dv">1</span>] <span class="ot">&lt;-</span> <span class="fu">median</span>(diabetes_data[,i<span class="sc">+</span><span class="dv">1</span>], <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb9-17"><a aria-label="17"></a>}</span>
+<span id="cb9-18"><a aria-label="18"></a></span>
+<span id="cb9-19"><a aria-label="19"></a><span class="co"># Check class balance</span></span>
+<span id="cb9-20"><a aria-label="20"></a><span class="fu">table</span>(diabetes_data<span class="sc">$</span>Outcome)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>
  Healthy Diabetic 
@@ -488,14 +491,14 @@ $ Outcome                  &lt;int&gt; 1, 0, 1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1,
 <section id="sec-data-split" class="slide level2">
 <h2>Data Preparation</h2>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a></a><span class="co"># Split into training and testing sets</span></span>
-<span id="cb11-2"><a></a><span class="fu">set.seed</span>(<span class="dv">123</span>)</span>
-<span id="cb11-3"><a></a>train_index <span class="ot">&lt;-</span> <span class="fu">createDataPartition</span>(diabetes_data<span class="sc">$</span>Outcome, <span class="at">p =</span> <span class="fl">0.7</span>, <span class="at">list =</span> <span class="cn">FALSE</span>)</span>
-<span id="cb11-4"><a></a>train_data <span class="ot">&lt;-</span> diabetes_data[train_index, ]</span>
-<span id="cb11-5"><a></a>test_data <span class="ot">&lt;-</span> diabetes_data[<span class="sc">-</span>train_index, ]</span>
-<span id="cb11-6"><a></a></span>
-<span id="cb11-7"><a></a><span class="co"># Check class balance</span></span>
-<span id="cb11-8"><a></a><span class="fu">prop.table</span>(<span class="fu">table</span>(train_data<span class="sc">$</span>Outcome))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a aria-label="1"></a><span class="co"># Split into training and testing sets</span></span>
+<span id="cb11-2"><a aria-label="2"></a><span class="fu">set.seed</span>(<span class="dv">123</span>)</span>
+<span id="cb11-3"><a aria-label="3"></a>train_index <span class="ot">&lt;-</span> <span class="fu">createDataPartition</span>(diabetes_data<span class="sc">$</span>Outcome, <span class="at">p =</span> <span class="fl">0.7</span>, <span class="at">list =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb11-4"><a aria-label="4"></a>train_data <span class="ot">&lt;-</span> diabetes_data[train_index, ]</span>
+<span id="cb11-5"><a aria-label="5"></a>test_data <span class="ot">&lt;-</span> diabetes_data[<span class="sc">-</span>train_index, ]</span>
+<span id="cb11-6"><a aria-label="6"></a></span>
+<span id="cb11-7"><a aria-label="7"></a><span class="co"># Check class balance</span></span>
+<span id="cb11-8"><a aria-label="8"></a><span class="fu">prop.table</span>(<span class="fu">table</span>(train_data<span class="sc">$</span>Outcome))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>
   Healthy  Diabetic 
@@ -506,30 +509,30 @@ $ Outcome                  &lt;int&gt; 1, 0, 1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1,
 <section id="sec-train-model" class="slide level2">
 <h2>Training the Model</h2>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb13"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a></a><span class="co"># Train a decision tree model</span></span>
-<span id="cb13-2"><a></a>diabetes_tree <span class="ot">&lt;-</span> <span class="fu">rpart</span>(Outcome <span class="sc">~</span> ., </span>
-<span id="cb13-3"><a></a>                      <span class="at">data =</span> train_data,</span>
-<span id="cb13-4"><a></a>                      <span class="at">method =</span> <span class="st">"class"</span>,</span>
-<span id="cb13-5"><a></a>                      <span class="at">control =</span> <span class="fu">rpart.control</span>(<span class="at">cp =</span> <span class="fl">0.01</span>)) <span class="co"># complexity parameter</span></span>
-<span id="cb13-6"><a></a></span>
-<span id="cb13-7"><a></a><span class="co"># View the result</span></span>
-<span id="cb13-8"><a></a><span class="fu">rpart.plot</span>(diabetes_tree, </span>
-<span id="cb13-9"><a></a>           <span class="at">extra =</span> <span class="dv">106</span>,      </span>
-<span id="cb13-10"><a></a>           <span class="at">box.palette =</span> <span class="st">"RdBu"</span>,</span>
-<span id="cb13-11"><a></a>           <span class="at">fallen.leaves =</span> <span class="cn">TRUE</span>,</span>
-<span id="cb13-12"><a></a>           <span class="at">main =</span> <span class="st">"Diabetes Classification Decision Tree"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb13"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a aria-label="1"></a><span class="co"># Train a decision tree model</span></span>
+<span id="cb13-2"><a aria-label="2"></a>diabetes_tree <span class="ot">&lt;-</span> <span class="fu">rpart</span>(Outcome <span class="sc">~</span> ., </span>
+<span id="cb13-3"><a aria-label="3"></a>                      <span class="at">data =</span> train_data,</span>
+<span id="cb13-4"><a aria-label="4"></a>                      <span class="at">method =</span> <span class="st">"class"</span>,</span>
+<span id="cb13-5"><a aria-label="5"></a>                      <span class="at">control =</span> <span class="fu">rpart.control</span>(<span class="at">cp =</span> <span class="fl">0.01</span>)) <span class="co"># complexity parameter</span></span>
+<span id="cb13-6"><a aria-label="6"></a></span>
+<span id="cb13-7"><a aria-label="7"></a><span class="co"># View the result</span></span>
+<span id="cb13-8"><a aria-label="8"></a><span class="fu">rpart.plot</span>(diabetes_tree, </span>
+<span id="cb13-9"><a aria-label="9"></a>           <span class="at">extra =</span> <span class="dv">106</span>,      </span>
+<span id="cb13-10"><a aria-label="10"></a>           <span class="at">box.palette =</span> <span class="st">"RdBu"</span>,</span>
+<span id="cb13-11"><a aria-label="11"></a>           <span class="at">fallen.leaves =</span> <span class="cn">TRUE</span>,</span>
+<span id="cb13-12"><a aria-label="12"></a>           <span class="at">main =</span> <span class="st">"Diabetes Classification Decision Tree"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 
 </div>
 <img data-src="lec-12_files/figure-revealjs/unnamed-chunk-8-1.png" width="960" class="r-stretch"></section>
 <section id="sec-evaluate-model" class="slide level2">
 <h2>Evaluating the Model</h2>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb14"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a></a><span class="co"># Make predictions on test data</span></span>
-<span id="cb14-2"><a></a>predictions <span class="ot">&lt;-</span> <span class="fu">predict</span>(diabetes_tree, test_data, <span class="at">type =</span> <span class="st">"class"</span>)</span>
-<span id="cb14-3"><a></a></span>
-<span id="cb14-4"><a></a><span class="co"># Create confusion matrix</span></span>
-<span id="cb14-5"><a></a>conf_matrix <span class="ot">&lt;-</span> <span class="fu">confusionMatrix</span>(predictions, test_data<span class="sc">$</span>Outcome)</span>
-<span id="cb14-6"><a></a>conf_matrix</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb14"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a aria-label="1"></a><span class="co"># Make predictions on test data</span></span>
+<span id="cb14-2"><a aria-label="2"></a>predictions <span class="ot">&lt;-</span> <span class="fu">predict</span>(diabetes_tree, test_data, <span class="at">type =</span> <span class="st">"class"</span>)</span>
+<span id="cb14-3"><a aria-label="3"></a></span>
+<span id="cb14-4"><a aria-label="4"></a><span class="co"># Create confusion matrix</span></span>
+<span id="cb14-5"><a aria-label="5"></a>conf_matrix <span class="ot">&lt;-</span> <span class="fu">confusionMatrix</span>(predictions, test_data<span class="sc">$</span>Outcome)</span>
+<span id="cb14-6"><a aria-label="6"></a>conf_matrix</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Confusion Matrix and Statistics
 
@@ -564,20 +567,20 @@ Prediction Healthy Diabetic
 <section id="sec-feature-importance" class="slide level2">
 <h2>Feature Importance</h2>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb16"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a></a><span class="co"># Extract variable importance</span></span>
-<span id="cb16-2"><a></a>var_importance <span class="ot">&lt;-</span> diabetes_tree<span class="sc">$</span>variable.importance</span>
-<span id="cb16-3"><a></a>var_importance_df <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
-<span id="cb16-4"><a></a>  <span class="at">Variable =</span> <span class="fu">names</span>(var_importance),</span>
-<span id="cb16-5"><a></a>  <span class="at">Importance =</span> var_importance</span>
-<span id="cb16-6"><a></a>)</span>
-<span id="cb16-7"><a></a></span>
-<span id="cb16-8"><a></a><span class="co"># Plot variable importance</span></span>
-<span id="cb16-9"><a></a><span class="fu">ggplot</span>(var_importance_df, <span class="fu">aes</span>(<span class="at">x =</span> <span class="fu">reorder</span>(Variable, Importance), <span class="at">y =</span> Importance)) <span class="sc">+</span></span>
-<span id="cb16-10"><a></a>  <span class="fu">geom_bar</span>(<span class="at">stat =</span> <span class="st">"identity"</span>, <span class="at">fill =</span> <span class="st">"steelblue"</span>) <span class="sc">+</span></span>
-<span id="cb16-11"><a></a>  <span class="fu">coord_flip</span>() <span class="sc">+</span></span>
-<span id="cb16-12"><a></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"Variables"</span>, <span class="at">y =</span> <span class="st">"Importance"</span>, </span>
-<span id="cb16-13"><a></a>       <span class="at">title =</span> <span class="st">"Variable Importance in Diabetes Prediction"</span>) <span class="sc">+</span></span>
-<span id="cb16-14"><a></a>  <span class="fu">theme_minimal</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb16"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a aria-label="1"></a><span class="co"># Extract variable importance</span></span>
+<span id="cb16-2"><a aria-label="2"></a>var_importance <span class="ot">&lt;-</span> diabetes_tree<span class="sc">$</span>variable.importance</span>
+<span id="cb16-3"><a aria-label="3"></a>var_importance_df <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb16-4"><a aria-label="4"></a>  <span class="at">Variable =</span> <span class="fu">names</span>(var_importance),</span>
+<span id="cb16-5"><a aria-label="5"></a>  <span class="at">Importance =</span> var_importance</span>
+<span id="cb16-6"><a aria-label="6"></a>)</span>
+<span id="cb16-7"><a aria-label="7"></a></span>
+<span id="cb16-8"><a aria-label="8"></a><span class="co"># Plot variable importance</span></span>
+<span id="cb16-9"><a aria-label="9"></a><span class="fu">ggplot</span>(var_importance_df, <span class="fu">aes</span>(<span class="at">x =</span> <span class="fu">reorder</span>(Variable, Importance), <span class="at">y =</span> Importance)) <span class="sc">+</span></span>
+<span id="cb16-10"><a aria-label="10"></a>  <span class="fu">geom_bar</span>(<span class="at">stat =</span> <span class="st">"identity"</span>, <span class="at">fill =</span> <span class="st">"steelblue"</span>) <span class="sc">+</span></span>
+<span id="cb16-11"><a aria-label="11"></a>  <span class="fu">coord_flip</span>() <span class="sc">+</span></span>
+<span id="cb16-12"><a aria-label="12"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"Variables"</span>, <span class="at">y =</span> <span class="st">"Importance"</span>, </span>
+<span id="cb16-13"><a aria-label="13"></a>       <span class="at">title =</span> <span class="st">"Variable Importance in Diabetes Prediction"</span>) <span class="sc">+</span></span>
+<span id="cb16-14"><a aria-label="14"></a>  <span class="fu">theme_minimal</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 
 </div>
 <img data-src="lec-12_files/figure-revealjs/unnamed-chunk-10-1.png" width="768" class="r-stretch"></section>
@@ -585,8 +588,8 @@ Prediction Healthy Diabetic
 <h2>Hyperparameter Tuning</h2>
 <p>We can tune the complexity parameter (cp) to control tree growth:</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb17"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a></a><span class="co"># Plot cp values</span></span>
-<span id="cb17-2"><a></a><span class="fu">plotcp</span>(diabetes_tree)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb17"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a aria-label="1"></a><span class="co"># Plot cp values</span></span>
+<span id="cb17-2"><a aria-label="2"></a><span class="fu">plotcp</span>(diabetes_tree)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output-display">
 <div>
 <figure>
@@ -594,21 +597,21 @@ Prediction Healthy Diabetic
 </figure>
 </div>
 </div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb18"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a></a><span class="co"># Find optimal cp value</span></span>
-<span id="cb18-2"><a></a>optimal_cp <span class="ot">&lt;-</span> diabetes_tree<span class="sc">$</span>cptable[<span class="fu">which.min</span>(diabetes_tree<span class="sc">$</span>cptable[,<span class="st">"xerror"</span>]),<span class="st">"CP"</span>]</span>
-<span id="cb18-3"><a></a><span class="fu">cat</span>(<span class="st">"Optimal CP value:"</span>, optimal_cp, <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb18"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a aria-label="1"></a><span class="co"># Find optimal cp value</span></span>
+<span id="cb18-2"><a aria-label="2"></a>optimal_cp <span class="ot">&lt;-</span> diabetes_tree<span class="sc">$</span>cptable[<span class="fu">which.min</span>(diabetes_tree<span class="sc">$</span>cptable[,<span class="st">"xerror"</span>]),<span class="st">"CP"</span>]</span>
+<span id="cb18-3"><a aria-label="3"></a><span class="fu">cat</span>(<span class="st">"Optimal CP value:"</span>, optimal_cp, <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Optimal CP value: 0.0106383 </code></pre>
 </div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb20"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a></a><span class="co"># Train model with optimal cp</span></span>
-<span id="cb20-2"><a></a>pruned_tree <span class="ot">&lt;-</span> <span class="fu">prune</span>(diabetes_tree, <span class="at">cp =</span> optimal_cp)</span>
-<span id="cb20-3"><a></a></span>
-<span id="cb20-4"><a></a><span class="co"># Plot pruned tree</span></span>
-<span id="cb20-5"><a></a><span class="fu">rpart.plot</span>(pruned_tree,</span>
-<span id="cb20-6"><a></a>           <span class="at">extra =</span> <span class="dv">106</span>,</span>
-<span id="cb20-7"><a></a>           <span class="at">box.palette =</span> <span class="st">"RdBu"</span>,</span>
-<span id="cb20-8"><a></a>           <span class="at">fallen.leaves =</span> <span class="cn">TRUE</span>,</span>
-<span id="cb20-9"><a></a>           <span class="at">main =</span> <span class="st">"Pruned Diabetes Classification Tree"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb20"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a aria-label="1"></a><span class="co"># Train model with optimal cp</span></span>
+<span id="cb20-2"><a aria-label="2"></a>pruned_tree <span class="ot">&lt;-</span> <span class="fu">prune</span>(diabetes_tree, <span class="at">cp =</span> optimal_cp)</span>
+<span id="cb20-3"><a aria-label="3"></a></span>
+<span id="cb20-4"><a aria-label="4"></a><span class="co"># Plot pruned tree</span></span>
+<span id="cb20-5"><a aria-label="5"></a><span class="fu">rpart.plot</span>(pruned_tree,</span>
+<span id="cb20-6"><a aria-label="6"></a>           <span class="at">extra =</span> <span class="dv">106</span>,</span>
+<span id="cb20-7"><a aria-label="7"></a>           <span class="at">box.palette =</span> <span class="st">"RdBu"</span>,</span>
+<span id="cb20-8"><a aria-label="8"></a>           <span class="at">fallen.leaves =</span> <span class="cn">TRUE</span>,</span>
+<span id="cb20-9"><a aria-label="9"></a>           <span class="at">main =</span> <span class="st">"Pruned Diabetes Classification Tree"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output-display">
 <div>
 <figure>
@@ -621,22 +624,22 @@ Prediction Healthy Diabetic
 <section id="sec-model-comparison" class="slide level2">
 <h2>Model Comparison</h2>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb21"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a></a><span class="co"># Evaluate pruned model</span></span>
-<span id="cb21-2"><a></a>pruned_predictions <span class="ot">&lt;-</span> <span class="fu">predict</span>(pruned_tree, test_data, <span class="at">type =</span> <span class="st">"class"</span>)</span>
-<span id="cb21-3"><a></a>pruned_conf_matrix <span class="ot">&lt;-</span> <span class="fu">confusionMatrix</span>(pruned_predictions, test_data<span class="sc">$</span>Outcome)</span>
-<span id="cb21-4"><a></a></span>
-<span id="cb21-5"><a></a><span class="co"># Compare metrics</span></span>
-<span id="cb21-6"><a></a>metrics_comparison <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
-<span id="cb21-7"><a></a>  <span class="at">Model =</span> <span class="fu">c</span>(<span class="st">"Full Tree"</span>, <span class="st">"Pruned Tree"</span>),</span>
-<span id="cb21-8"><a></a>  <span class="at">Accuracy =</span> <span class="fu">c</span>(conf_matrix<span class="sc">$</span>overall[<span class="st">"Accuracy"</span>], </span>
-<span id="cb21-9"><a></a>               pruned_conf_matrix<span class="sc">$</span>overall[<span class="st">"Accuracy"</span>]),</span>
-<span id="cb21-10"><a></a>  <span class="at">Sensitivity =</span> <span class="fu">c</span>(conf_matrix<span class="sc">$</span>byClass[<span class="st">"Sensitivity"</span>], </span>
-<span id="cb21-11"><a></a>                  pruned_conf_matrix<span class="sc">$</span>byClass[<span class="st">"Sensitivity"</span>]),</span>
-<span id="cb21-12"><a></a>  <span class="at">Specificity =</span> <span class="fu">c</span>(conf_matrix<span class="sc">$</span>byClass[<span class="st">"Specificity"</span>], </span>
-<span id="cb21-13"><a></a>                  pruned_conf_matrix<span class="sc">$</span>byClass[<span class="st">"Specificity"</span>])</span>
-<span id="cb21-14"><a></a>)</span>
-<span id="cb21-15"><a></a></span>
-<span id="cb21-16"><a></a>metrics_comparison</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb21"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a aria-label="1"></a><span class="co"># Evaluate pruned model</span></span>
+<span id="cb21-2"><a aria-label="2"></a>pruned_predictions <span class="ot">&lt;-</span> <span class="fu">predict</span>(pruned_tree, test_data, <span class="at">type =</span> <span class="st">"class"</span>)</span>
+<span id="cb21-3"><a aria-label="3"></a>pruned_conf_matrix <span class="ot">&lt;-</span> <span class="fu">confusionMatrix</span>(pruned_predictions, test_data<span class="sc">$</span>Outcome)</span>
+<span id="cb21-4"><a aria-label="4"></a></span>
+<span id="cb21-5"><a aria-label="5"></a><span class="co"># Compare metrics</span></span>
+<span id="cb21-6"><a aria-label="6"></a>metrics_comparison <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb21-7"><a aria-label="7"></a>  <span class="at">Model =</span> <span class="fu">c</span>(<span class="st">"Full Tree"</span>, <span class="st">"Pruned Tree"</span>),</span>
+<span id="cb21-8"><a aria-label="8"></a>  <span class="at">Accuracy =</span> <span class="fu">c</span>(conf_matrix<span class="sc">$</span>overall[<span class="st">"Accuracy"</span>], </span>
+<span id="cb21-9"><a aria-label="9"></a>               pruned_conf_matrix<span class="sc">$</span>overall[<span class="st">"Accuracy"</span>]),</span>
+<span id="cb21-10"><a aria-label="10"></a>  <span class="at">Sensitivity =</span> <span class="fu">c</span>(conf_matrix<span class="sc">$</span>byClass[<span class="st">"Sensitivity"</span>], </span>
+<span id="cb21-11"><a aria-label="11"></a>                  pruned_conf_matrix<span class="sc">$</span>byClass[<span class="st">"Sensitivity"</span>]),</span>
+<span id="cb21-12"><a aria-label="12"></a>  <span class="at">Specificity =</span> <span class="fu">c</span>(conf_matrix<span class="sc">$</span>byClass[<span class="st">"Specificity"</span>], </span>
+<span id="cb21-13"><a aria-label="13"></a>                  pruned_conf_matrix<span class="sc">$</span>byClass[<span class="st">"Specificity"</span>])</span>
+<span id="cb21-14"><a aria-label="14"></a>)</span>
+<span id="cb21-15"><a aria-label="15"></a></span>
+<span id="cb21-16"><a aria-label="16"></a>metrics_comparison</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>        Model  Accuracy Sensitivity Specificity
 1   Full Tree 0.7782609   0.8933333      0.5625
@@ -701,15 +704,15 @@ Prediction Healthy Diabetic
 <section id="sec-rf-implement" class="slide level2">
 <h2>Random Forest Implementation</h2>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb23"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a></a><span class="co"># Train Random Forest model</span></span>
-<span id="cb23-2"><a></a><span class="fu">set.seed</span>(<span class="dv">123</span>)</span>
-<span id="cb23-3"><a></a>diabetes_rf <span class="ot">&lt;-</span> <span class="fu">randomForest</span>(Outcome <span class="sc">~</span> ., </span>
-<span id="cb23-4"><a></a>                           <span class="at">data =</span> train_data,</span>
-<span id="cb23-5"><a></a>                           <span class="at">ntree =</span> <span class="dv">100</span>,    <span class="co"># Number of trees</span></span>
-<span id="cb23-6"><a></a>                           <span class="at">mtry =</span> <span class="fu">sqrt</span>(<span class="fu">ncol</span>(train_data)<span class="sc">-</span><span class="dv">1</span>)) <span class="co"># Number of variables tried at each split</span></span>
-<span id="cb23-7"><a></a></span>
-<span id="cb23-8"><a></a><span class="co"># Print the model</span></span>
-<span id="cb23-9"><a></a><span class="fu">print</span>(diabetes_rf)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb23"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a aria-label="1"></a><span class="co"># Train Random Forest model</span></span>
+<span id="cb23-2"><a aria-label="2"></a><span class="fu">set.seed</span>(<span class="dv">123</span>)</span>
+<span id="cb23-3"><a aria-label="3"></a>diabetes_rf <span class="ot">&lt;-</span> <span class="fu">randomForest</span>(Outcome <span class="sc">~</span> ., </span>
+<span id="cb23-4"><a aria-label="4"></a>                           <span class="at">data =</span> train_data,</span>
+<span id="cb23-5"><a aria-label="5"></a>                           <span class="at">ntree =</span> <span class="dv">100</span>,    <span class="co"># Number of trees</span></span>
+<span id="cb23-6"><a aria-label="6"></a>                           <span class="at">mtry =</span> <span class="fu">sqrt</span>(<span class="fu">ncol</span>(train_data)<span class="sc">-</span><span class="dv">1</span>)) <span class="co"># Number of variables tried at each split</span></span>
+<span id="cb23-7"><a aria-label="7"></a></span>
+<span id="cb23-8"><a aria-label="8"></a><span class="co"># Print the model</span></span>
+<span id="cb23-9"><a aria-label="9"></a><span class="fu">print</span>(diabetes_rf)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>
 Call:
@@ -724,28 +727,28 @@ Confusion matrix:
 Healthy      285       65   0.1857143
 Diabetic      79      109   0.4202128</code></pre>
 </div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb25"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a></a><span class="co"># Variable importance</span></span>
-<span id="cb25-2"><a></a><span class="fu">varImpPlot</span>(diabetes_rf, <span class="at">main =</span> <span class="st">"Variable Importance in Random Forest"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb25"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a aria-label="1"></a><span class="co"># Variable importance</span></span>
+<span id="cb25-2"><a aria-label="2"></a><span class="fu">varImpPlot</span>(diabetes_rf, <span class="at">main =</span> <span class="st">"Variable Importance in Random Forest"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 
 </div>
 <img data-src="lec-12_files/figure-revealjs/unnamed-chunk-14-1.png" width="960" class="r-stretch"></section>
 <section id="sec-rf-performance" class="slide level2">
 <h2>Random Forest Performance</h2>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb26"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a></a><span class="co"># Make predictions</span></span>
-<span id="cb26-2"><a></a>rf_predictions <span class="ot">&lt;-</span> <span class="fu">predict</span>(diabetes_rf, test_data)</span>
-<span id="cb26-3"><a></a>rf_conf_matrix <span class="ot">&lt;-</span> <span class="fu">confusionMatrix</span>(rf_predictions, test_data<span class="sc">$</span>Outcome)</span>
-<span id="cb26-4"><a></a></span>
-<span id="cb26-5"><a></a><span class="co"># Add to comparison</span></span>
-<span id="cb26-6"><a></a>metrics_comparison <span class="ot">&lt;-</span> <span class="fu">rbind</span>(metrics_comparison,</span>
-<span id="cb26-7"><a></a>                           <span class="fu">data.frame</span>(</span>
-<span id="cb26-8"><a></a>                             <span class="at">Model =</span> <span class="st">"Random Forest"</span>,</span>
-<span id="cb26-9"><a></a>                             <span class="at">Accuracy =</span> rf_conf_matrix<span class="sc">$</span>overall[<span class="st">"Accuracy"</span>],</span>
-<span id="cb26-10"><a></a>                             <span class="at">Sensitivity =</span> rf_conf_matrix<span class="sc">$</span>byClass[<span class="st">"Sensitivity"</span>],</span>
-<span id="cb26-11"><a></a>                             <span class="at">Specificity =</span> rf_conf_matrix<span class="sc">$</span>byClass[<span class="st">"Specificity"</span>]</span>
-<span id="cb26-12"><a></a>                           ))</span>
-<span id="cb26-13"><a></a></span>
-<span id="cb26-14"><a></a>metrics_comparison</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb26"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a aria-label="1"></a><span class="co"># Make predictions</span></span>
+<span id="cb26-2"><a aria-label="2"></a>rf_predictions <span class="ot">&lt;-</span> <span class="fu">predict</span>(diabetes_rf, test_data)</span>
+<span id="cb26-3"><a aria-label="3"></a>rf_conf_matrix <span class="ot">&lt;-</span> <span class="fu">confusionMatrix</span>(rf_predictions, test_data<span class="sc">$</span>Outcome)</span>
+<span id="cb26-4"><a aria-label="4"></a></span>
+<span id="cb26-5"><a aria-label="5"></a><span class="co"># Add to comparison</span></span>
+<span id="cb26-6"><a aria-label="6"></a>metrics_comparison <span class="ot">&lt;-</span> <span class="fu">rbind</span>(metrics_comparison,</span>
+<span id="cb26-7"><a aria-label="7"></a>                           <span class="fu">data.frame</span>(</span>
+<span id="cb26-8"><a aria-label="8"></a>                             <span class="at">Model =</span> <span class="st">"Random Forest"</span>,</span>
+<span id="cb26-9"><a aria-label="9"></a>                             <span class="at">Accuracy =</span> rf_conf_matrix<span class="sc">$</span>overall[<span class="st">"Accuracy"</span>],</span>
+<span id="cb26-10"><a aria-label="10"></a>                             <span class="at">Sensitivity =</span> rf_conf_matrix<span class="sc">$</span>byClass[<span class="st">"Sensitivity"</span>],</span>
+<span id="cb26-11"><a aria-label="11"></a>                             <span class="at">Specificity =</span> rf_conf_matrix<span class="sc">$</span>byClass[<span class="st">"Specificity"</span>]</span>
+<span id="cb26-12"><a aria-label="12"></a>                           ))</span>
+<span id="cb26-13"><a aria-label="13"></a></span>
+<span id="cb26-14"><a aria-label="14"></a>metrics_comparison</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>                 Model  Accuracy Sensitivity Specificity
 1            Full Tree 0.7782609   0.8933333      0.5625
@@ -758,9 +761,9 @@ Accuracy Random Forest 0.7608696   0.8533333      0.5875</code></pre>
 <h2>Out-of-Bag Error Estimation</h2>
 <p>One unique advantage of Random Forests is out-of-bag (OOB) error estimation:</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb28"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb28-1"><a></a><span class="co"># Plot error vs number of trees</span></span>
-<span id="cb28-2"><a></a><span class="fu">plot</span>(diabetes_rf, <span class="at">main =</span> <span class="st">"Random Forest Error Rates vs Number of Trees"</span>)</span>
-<span id="cb28-3"><a></a><span class="fu">legend</span>(<span class="st">"topright"</span>, <span class="fu">colnames</span>(diabetes_rf<span class="sc">$</span>err.rate), <span class="at">col =</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>, <span class="at">lty =</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb28"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb28-1"><a aria-label="1"></a><span class="co"># Plot error vs number of trees</span></span>
+<span id="cb28-2"><a aria-label="2"></a><span class="fu">plot</span>(diabetes_rf, <span class="at">main =</span> <span class="st">"Random Forest Error Rates vs Number of Trees"</span>)</span>
+<span id="cb28-3"><a aria-label="3"></a><span class="fu">legend</span>(<span class="st">"topright"</span>, <span class="fu">colnames</span>(diabetes_rf<span class="sc">$</span>err.rate), <span class="at">col =</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>, <span class="at">lty =</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 
 </div>
 <img data-src="lec-12_files/figure-revealjs/unnamed-chunk-16-1.png" width="672" class="r-stretch"></section></section>
@@ -785,16 +788,16 @@ Accuracy Random Forest 0.7608696   0.8533333      0.5875</code></pre>
 <h2>Regression Trees</h2>
 <p>Decision trees can also be used for regression problems:</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb29"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb29-1"><a></a><span class="co"># Create a simple regression tree example</span></span>
-<span id="cb29-2"><a></a><span class="fu">data</span>(Boston, <span class="at">package =</span> <span class="st">"MASS"</span>)</span>
-<span id="cb29-3"><a></a></span>
-<span id="cb29-4"><a></a><span class="co"># Train a regression tree</span></span>
-<span id="cb29-5"><a></a>boston_tree <span class="ot">&lt;-</span> <span class="fu">rpart</span>(medv <span class="sc">~</span> ., <span class="at">data =</span> Boston)</span>
-<span id="cb29-6"><a></a></span>
-<span id="cb29-7"><a></a><span class="co"># Plot the regression tree</span></span>
-<span id="cb29-8"><a></a><span class="fu">rpart.plot</span>(boston_tree, </span>
-<span id="cb29-9"><a></a>           <span class="at">main =</span> <span class="st">"Boston Housing Price Regression Tree"</span>,</span>
-<span id="cb29-10"><a></a>           <span class="at">box.palette =</span> <span class="st">"BuPu"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb29"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb29-1"><a aria-label="1"></a><span class="co"># Create a simple regression tree example</span></span>
+<span id="cb29-2"><a aria-label="2"></a><span class="fu">data</span>(Boston, <span class="at">package =</span> <span class="st">"MASS"</span>)</span>
+<span id="cb29-3"><a aria-label="3"></a></span>
+<span id="cb29-4"><a aria-label="4"></a><span class="co"># Train a regression tree</span></span>
+<span id="cb29-5"><a aria-label="5"></a>boston_tree <span class="ot">&lt;-</span> <span class="fu">rpart</span>(medv <span class="sc">~</span> ., <span class="at">data =</span> Boston)</span>
+<span id="cb29-6"><a aria-label="6"></a></span>
+<span id="cb29-7"><a aria-label="7"></a><span class="co"># Plot the regression tree</span></span>
+<span id="cb29-8"><a aria-label="8"></a><span class="fu">rpart.plot</span>(boston_tree, </span>
+<span id="cb29-9"><a aria-label="9"></a>           <span class="at">main =</span> <span class="st">"Boston Housing Price Regression Tree"</span>,</span>
+<span id="cb29-10"><a aria-label="10"></a>           <span class="at">box.palette =</span> <span class="st">"BuPu"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 
 </div>
 <img data-src="lec-12_files/figure-revealjs/unnamed-chunk-17-1.png" width="672" class="r-stretch"></section></section>
