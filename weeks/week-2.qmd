@@ -1,41 +1,53 @@
 ---
 title: "Week 2"
-subtitle: "Data Foundations for Dairy Decisions"
+subtitle: "Version Control, Collaboration & Reproducible Workflows"
 editor: visual
 ---
 
-# Learning Outcomes
+# Introduction
 
-By the end of Week 2, students will be able to: - Explain real-world data governance and ownership. - Organize dairy data according to FAIR principles. - Clean and structure datasets for downstream simulation modeling. - Develop and apply naming conventions and metadata standards. - Understand why decision-support begins with disciplined data management.
+This week we move from writing code individually to managing and collaborating on code. We introduce Git, GitHub, branching, and basic principles for making data and code more reproducible.
 
-# Lecture
+# Learning goals
 
-## 1. The Reality of Dairy Farm Data
+1. Understand the fundamentals of Git and GitHub
 
--   Diverse streams: milk meters, sensors, activity monitors, feeding systems, health logs.
--   Characteristics: heterogeneous, messy, operationally generated.
--   Importance: high-quality data improves diagnostic, predictive, and prescriptive support.
+2. Create and manage a GitHub repository
 
-## 2. Data Ownership, Stewardship & Governance
+3. Understand commits, issues, branches, and merge conflicts
 
--   Farmers as primary data owners; vendors often store/manage but do not own the data.
--   Ethical considerations: privacy, competitive sensitivity, misuse risks.
--   Governance: clear data-use agreements, access permissions, audit trails.
+4. Apply naming conventions and FAIR data principles
 
-## 3. Data Organization Essentials
+# Lecture - Version Control Systems & Integration
 
--   Tidy data principles: each row = observation; each column = variable.
--   Aligning time-series and event-based data across systems.
--   Metadata: sensor IDs, units, timestamps, sampling frequency.
+Introduction to Git and GitHub, repository structure, commits, and collaborative workflows.
 
-## 4. FAIR Principles in Dairy Context
+# Lab - Broken Online, Merge Conflicts & Branching
 
-FAIR = **Findable, Accessible, Interoperable, Reusable**. - Findable: structured storage, logical filenames. - Accessible: secure but functional access controls. - Interoperable: open formats, consistent units. - Reusable: documentation and provenance tracking.
+Hands-on practice with GitHub workflows, resolving merge conflicts, creating branches, and merging changes.
 
-## 5. Naming Conventions as a Foundation for Reproducibility
+# Discussion - Naming Conventions & FAIR Principles
 
--   Standardizing variable names (`cow_id`, `milk_yield_kg`).
--   File naming conventions (`2026-02-01_milkingparlor_data.csv`).
--   Folder hierarchy: `raw/`, `cleaned/`, `analysis/`, `models/`.
+Why do consistent naming and data management practices matter?
 
-------------------------------------------------------------------------
+Introduction to file and variable naming conventions and the FAIR principles: Findable, Accessible, Interoperable, and Reusable.
+
+# Assignment
+
+1. Create a repository
+
+2. Make an initial commit
+
+3. Create an issue
+
+4. Fix the issue and commit the change
+
+5. Create and merge a branch
+
+# Looking ahead
+
+Next week we will move from managing code to working with **cloud computing, APIs, and agricultural data infrastructure**.
+
+\::: {style="font-size: 0.875em;"}
+Back to [course schedule](/ "Course schedule") ⏎
+\:::
