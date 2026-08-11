@@ -6,7 +6,7 @@ editor: visual
 
 # Introduction
 
-The final week brings together the semester's work in data science, agriculture, and collaborative project development.
+The final week brings together the skills developed throughout the semester through the completion and submission of the final project.
 
 # Learning goals
 
@@ -20,7 +20,7 @@ The final week brings together the semester's work in data science, agriculture,
 
 # Lecture - Final Project Wrap-up
 
-Final project preparation, presentation, and submission guidance.
+Final project preparation and submission guidance.
 
 # Lab - Final Project Submission
 
@@ -28,15 +28,11 @@ Final project deliverables are due on Tuesday, December 1.
 
 # Discussion - Course Wrap-up & Reflection
 
-Reflect on the course, project experience, tools learned, and the role of data science in agriculture.
+Reflect on the course, project experience, tools learned, and applications of data science in agriculture.
 
 # Assignment
 
 Submit the final project deliverables.
-
-# Looking ahead
-
-Continue applying data science skills to agricultural problems and real-world decision-making beyond the course.
 
 \::: {style="font-size: 0.875em;"}
 Back to [course schedule](/ "Course schedule") ⏎
