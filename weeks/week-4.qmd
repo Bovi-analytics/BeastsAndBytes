@@ -1,104 +1,45 @@
 ---
-title: "Week 4: Decision Making in Dairy Farming"
-author: "Guest Lecture: Dr. De Vries"
-date: "`r Sys.Date()`"
-format:
-  html:
-    toc: true
-    toc-depth: 2
+title: "Week 4"
+subtitle: "Machine Learning & Artificial Intelligence"
+editor: visual
 ---
 
 # Introduction
 
--   Overview of this week's lecture
--   Introduction of guest lecturer: **Dr. De Vries**
--   Importance of decision making in modern dairy farming
+This week we move from managing agricultural data to using it for prediction and learning. We introduce the foundations of machine learning and AI and begin exploring how these approaches can support agricultural applications.
 
-# Learning Objectives
+# Learning goals
 
-By the end of this lecture, students should be able to:
+1. Understand the basic concepts of machine learning and artificial intelligence
 
--   Understand the foundations of decision making in dairy production systems
--   Explain how data and models support management decisions
--   Interpret scientific literature related to dairy farm optimization
--   Recognize opportunities for advanced analytics and AI in dairy farming
+2. Distinguish between supervised and unsupervised learning
 
-# Background: Decision Making in Dairy Farming
+3. Set up a mini individual project
 
-## Historical Roots
+4. Explore packages, Hugging Face models, and model serving
 
--   Traditional experience-based decision making
--   Role of observation and record keeping
--   Transition toward data-driven management
+# Lecture - ML and AI Basics
 
-## Modern Decision Support Systems
+Introduction to machine learning and artificial intelligence, with examples from agriculture.
 
--   Sensor technologies
--   Farm management software
--   Integration of biological and economic data
+Topics include supervised and unsupervised learning and their applications to agricultural data.
 
-# Key Decision-Making Techniques
+# Lab - Project Mini: Packages, Hugging Face & Model Serving
 
-## Economic Optimization
+Set up the mini individual project and explore Python packages, Hugging Face models, and basic model serving.
 
--   Cost-benefit analysis
--   Profit maximization
--   Risk assessment
+# Discussion - Ethical and Efficient Use of AI
 
-## Statistical and Mathematical Modeling
+How can we use AI effectively, responsibly, and efficiently in agricultural data science?
 
--   Regression models
--   Dynamic models
--   Bayesian approaches
--   Dynamic programming
+# Assignment
 
-## Data-Driven Approaches
+Organize your data, set up your GitHub repository, and submit a one-page concept note outlining your mini individual project.
 
--   Machine learning
--   Artificial intelligence
--   Predictive analytics
+# Looking ahead
 
-# Guest Lecture: Dr. De Vries
+Next week we will begin **working on the mini individual projects**, applying the tools and concepts introduced so far.
 
-## Focus Areas
-
--   Replacement decisions in dairy herds
--   Health monitoring and disease prediction
--   Integration of sensor data
--   Practical applications in farm management
-
-## Discussion Topics
-
--   Translating research into practice
--   Limitations of current techniques and models
--   Future directions in dairy decision support
-
-# Advised reading
-
-Students are encouraged to review the following articles:
-
-1.  **Optimal replacement policies for dairy cows based on daily yield measurements**\
-    <https://doi.org/10.3168/jds.2009-2209>
-
-2.  **Bayesian integration of sensor information and a multivariate dynamic linear model for prediction of dairy cow mastitis**\
-    <https://doi.org/10.3168/jds.2015-10060>
-
-3.  **Invited Review: Examples and opportunities for artificial intelligence (AI) in dairy farms**\
-    <https://doi.org/10.15232/aas.2022-02345>
-
-# Supplementary Materials
-
-The following files are available in the course root directory:
-
--   [Semen Value Dataset (Cornell)](files/SemenValueCornell.xlsx)
--   [De Vries (2018) PDF](files/DeVries2018.pdf)
-
-# In-Class Activities
-
--   [Recorded lecture](https://youtu.be/6TGTDjSkqZU)
--   [Presentation Dr. De Vries](files/DeVries2026.pdf)
-
-## Interactive Session
-
--   Q&A with Dr. De Vries
--   Discussion of student questions
+\::: {style="font-size: 0.875em;"}
+Back to [course schedule](/ "Course schedule") ⏎
+\:::
