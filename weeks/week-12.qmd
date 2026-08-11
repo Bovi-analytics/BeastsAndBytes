@@ -1,7 +1,43 @@
 ---
-title: "Week 5"
-subtitle: "Welcome Beasts & Bytes"
+title: "Week 12"
+subtitle: "Final Project: Results & Interpretation"
 editor: visual
 ---
 
-coming soon
+# Introduction
+
+Teams now move from analysis toward interpreting and communicating their results.
+
+# Learning goals
+
+1. Interpret project results
+
+2. Evaluate whether results address the original project question
+
+3. Identify limitations and opportunities for improvement
+
+4. Communicate findings clearly
+
+# Lecture - Results & Interpretation
+
+Guidance on interpreting results, evaluating project outcomes, and identifying limitations.
+
+# Lab - Final Project Work
+
+Teams refine their analysis, visualizations, models, and project outputs.
+
+# Discussion - Project Check-in
+
+Peer and instructor feedback on project results and interpretation.
+
+# Assignment
+
+Submit a project progress update and incorporate feedback into the final project.
+
+# Looking ahead
+
+Next week we will focus on **project refinement, communication, and preparing the final deliverables**.
+
+\::: {style="font-size: 0.875em;"}
+Back to [course schedule](/ "Course schedule") ⏎
+\:::
