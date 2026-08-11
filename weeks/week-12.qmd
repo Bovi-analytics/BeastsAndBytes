@@ -1,42 +1,38 @@
 ---
 title: "Week 12"
-subtitle: "Final Project: Results & Interpretation"
+subtitle: "Final Project Development"
 editor: visual
 ---
 
 # Introduction
 
-Teams now move from analysis toward interpreting and communicating their results.
+This week focuses on developing, refining, and interpreting the results of the final project.
 
 # Learning goals
 
-1. Interpret project results
+1. Refine project analysis
 
-2. Evaluate whether results address the original project question
+2. Interpret and evaluate results
 
-3. Identify limitations and opportunities for improvement
+3. Improve project visualizations
 
-4. Communicate findings clearly
+4. Address project challenges and limitations
 
-# Lecture - Results & Interpretation
+# Lecture - Final Project Work
 
-Guidance on interpreting results, evaluating project outcomes, and identifying limitations.
+Guidance and support for final project development.
 
 # Lab - Final Project Work
 
-Teams refine their analysis, visualizations, models, and project outputs.
+Teams continue analysis, modeling, visualization, and project documentation.
 
 # Discussion - Project Check-in
 
-Peer and instructor feedback on project results and interpretation.
+Peer and instructor feedback on project progress.
 
 # Assignment
 
-Submit a project progress update and incorporate feedback into the final project.
-
-# Looking ahead
-
-Next week we will focus on **project refinement, communication, and preparing the final deliverables**.
+Continue final project development and incorporate feedback into the project.
 
 \::: {style="font-size: 0.875em;"}
 Back to [course schedule](/ "Course schedule") ⏎
