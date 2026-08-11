@@ -1,0 +1,49 @@
+---
+title: "Week 3"
+subtitle: "Cloud Computing, APIs & Data Governance"
+editor: visual
+---
+
+# Introduction
+
+Agricultural data are increasingly collected, stored, and processed across cloud platforms and connected systems. This week we explore the infrastructure and governance needed to work with these data responsibly.
+
+# Learning goals
+
+1. Understand basic concepts of cloud computing, APIs, and data infrastructure
+
+2. Connect Git workflows with cloud-based computing
+
+3. Understand data governance and data lineage
+
+4. Recognize the importance of data agreements and responsible data use
+
+# Lecture - Cloud Computing, APIs & Hardware
+
+Introduction to cloud computing, APIs, hardware, compute and storage, and cloud-based agricultural data workflows.
+
+Topics include Databricks, Git integration, Unity Catalog, licensing, and data agreements.
+
+# Lab - Cloud-Based Data Workflow
+
+Hands-on introduction to a simple cloud-based workflow using Git and Databricks.
+
+# Discussion - Data Governance & Data Lineage
+
+How do we know where agricultural data come from, how they have been changed, and who can use them?
+
+Introduction to data governance and tracking data lineage in agricultural datasets.
+
+# Assignment
+
+1. Complete a simple cloud-based workflow using Git and Databricks
+
+2. Submit a completed Data Agreement Template
+
+# Looking ahead
+
+Next week we will introduce **machine learning and artificial intelligence** and begin connecting our data workflows to predictive models.
+
+\::: {style="font-size: 0.875em;"}
+Back to [course schedule](/ "Course schedule") ⏎
+\:::
