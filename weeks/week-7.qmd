@@ -1,7 +1,43 @@
 ---
-title: "Week 5"
-subtitle: "Welcome Beasts & Bytes"
+title: "Week 7"
+subtitle: "Mini Project Presentations & Team Dynamics"
 editor: visual
 ---
 
-coming soon
+# Introduction
+
+This week marks the completion of the mini individual project. Students will present their work and reflect on teamwork and collaboration as we prepare to transition to the final project.
+
+# Learning goals
+
+1. Present and communicate the mini individual project
+
+2. Reflect on project development and lessons learned
+
+3. Understand team dynamics using the DISC framework
+
+4. Prepare for the transition to the final team project
+
+# Lecture - Q&A
+
+Final questions and preparation for the mini project presentation.
+
+# Lab - Mini Project Poster Presentations
+
+Students present their mini individual projects and share their findings, approaches, and lessons learned.
+
+# Discussion - DISC Assessment of the Team
+
+Introduction to the DISC framework and assessment of team dynamics.
+
+# Assignment
+
+Complete the DISC assessment.
+
+# Looking ahead
+
+After this week, the course shifts from the **individual mini project to the final team project**. We will begin working with real-world agricultural data and project partners.
+
+\::: {style="font-size: 0.875em;"}
+Back to [course schedule](/ "Course schedule") ⏎
+\:::
