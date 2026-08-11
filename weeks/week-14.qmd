@@ -1,16 +1,43 @@
 ---
-title: "Finals week"
-subtitle: "Exam specifics"
+title: "Week 14"
+subtitle: "Final Project Development"
 editor: visual
 ---
 
-Final exam
+# Introduction
 
-- The exam will take place in MRS334 from 7–9 pm, which means you will have two hours to complete it.
-- The exam will use the Dodona platform. You can use the sandbox environment to program and submit the exercises, just as you are used to. The exam will only contain exercises you have seen before.
-- Do not panic if you cannot get an exercise to work completely. Partial credit will be awarded, so make sure to submit something even if it is not perfect.
-- AI tools are not allowed and will result in immediate failure of the exam. You are allowed to use the Python documentation and Stack Overflow.
-- Please bring your own laptop and make sure it is fully charged beforehand. I will try to bring some extra power cords, but it is best to arrive with a charged laptop.
-- We will practice 12/05/2026 at 1 pm in our conference room, so feel free to stop by with any questions. Preferably, send me assignments or topics beforehand so I can prepare accordingly.
+Teams use this week to finalize their analysis, results, documentation, and project deliverables.
 
-Good luck! 
+# Learning goals
+
+1. Finalize project analysis and results
+
+2. Ensure project code and data are organized
+
+3. Complete project documentation
+
+4. Prepare final deliverables
+
+# Lecture - Final Project Work
+
+Guidance and support for final project completion.
+
+# Lab - Final Project Work
+
+Dedicated team time for final analysis, documentation, and deliverable preparation.
+
+# Discussion - Final Project Check-in
+
+Final project review, troubleshooting, and feedback.
+
+# Assignment
+
+Complete the final project deliverables and prepare for submission.
+
+# Looking ahead
+
+Next week we will **submit the final project and reflect on what we learned throughout the semester**.
+
+\::: {style="font-size: 0.875em;"}
+Back to [course schedule](/ "Course schedule") ⏎
+\:::
