@@ -1,114 +1,29 @@
 ---
-title: "DISC Assessment & Team Dynamics"
-author: "ANSCI 4040 – Miel Hostens"
-date: "`r Sys.Date()`"
-format:
-  html:
-    toc: true
-    toc-depth: 2
+title: "Week 8"
+subtitle: "Fall Break & Transition to the Final Project"
+editor: visual
 ---
 
 # Introduction
 
--   Overview of DISC as a behavioral framework for teamwork
+This week is the transition point between the mini individual project and the final team project.
 
--   Role of communication and work-style differences in student project teams
+# Learning goals
 
--   Motivation for using behavioral awareness to improve collaboration and reduce conflict
+1. Reflect on the mini project experience
 
-# Learning Objectives
+2. Understand the expectations for the final project
 
-By the end of this lecture, students should be able to:
+3. Prepare for working with real-world agricultural data
 
--   Describe the DISC behavioral assessment framework
+# Lecture / Lab / Discussion - TBD
 
--   Identify the four DISC styles using **letters and colors**
+Fall Break. A project check-in or recovery session may be scheduled depending on course needs.
 
--   Explain how behavioral preferences influence teamwork
+# Looking ahead
 
--   Interpret common team conflicts through a DISC perspective
+Next week we will officially **kick off the final project**, establish teams and project goals, and visit a farm to understand agricultural data collection in practice.
 
--   Apply DISC insights to improve collaboration in project teams
-
-# Background: Behavior and Teamwork
-
-## Behavioral Frameworks in Team Settings
-
--   Widely used in education, leadership, and organizational contexts
-
--   Focus on **how people work**, not how capable they are
-
--   Emphasis on observable behavior rather than personality labels
-
-## What DISC Is (and Is Not)
-
--   Describes **behavioral preferences**
-
--   Does not measure intelligence, skills, or values
-
--   No good or bad styles
-
--   Most people show a **combination** of styles
-
-# Overview of the DISC Framework
-
-## DISC Letters
-
--   **D** – Dominance
-
--   **I** – Influence
-
--   **S** – Steadiness
-
--   **C** – Conscientiousness
-
-## DISC Colors (“Surrounded by Idiots”)
-
--   **Red (D)** – Dominant
-
--   **Yellow (I)** – Influential
-
--   **Green (S)** – Steady
-
--   **Blue (C)** – Conscientious
-
-# Key Takeaways
-
--   Differences in teams are normal
-
--   DISC provides a shared language for behavior
-
--   Awareness reduces friction and conflict
-
--   Effective teams adapt to style differences
-
-# Advised Reading
-
-Students are encouraged to explore:
-
--   Erikson, T. *Surrounded by Idiots*
-
--   Introductory DISC resources (education and leadership contexts)
-
-# Supplementary Materials
-
-The following resources support this lecture:
-
--   Free DISC assessment tool\
-    \<https://professionalleadershipinstitute.com/disc-assessment/\>
-
-# In-Class Activities
-
--   Completion of DISC self-assessment (before next class)
-
--   Short written reflection on personal style and team impact
-
-# In-Class Discussion Topics
-
--   How different DISC styles interpret the same team situation
-
--   Misinterpretation of intent versus behavior
-
--   Strengths and risks of homogeneous teams
-
--   Using DISC to improve collaboration in student projects
+\::: {style="font-size: 0.875em;"}
+Back to [course schedule](/ "Course schedule") ⏎
+\:::
