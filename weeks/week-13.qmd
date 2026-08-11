@@ -1,42 +1,38 @@
 ---
 title: "Week 13"
-subtitle: "Final Project Refinement & Communication"
+subtitle: "Final Project Development & Communication"
 editor: visual
 ---
 
 # Introduction
 
-This week focuses on bringing the final project together and communicating the results effectively.
+Teams begin bringing their final projects together and preparing to communicate their findings.
 
 # Learning goals
 
-1. Refine project analysis and results
+1. Refine project results
 
-2. Improve data visualizations and communication
+2. Improve data visualization and communication
 
-3. Connect findings to agricultural applications
+3. Connect findings to the agricultural problem
 
-4. Prepare a clear and reproducible final project
+4. Prepare project documentation
 
-# Lecture - Communicating Data Science
+# Lecture - Final Project Work
 
-Guidance on presenting data, visualizing results, and communicating technical findings to an agricultural audience.
+Guidance and support for final project development and communication.
 
 # Lab - Final Project Work
 
-Teams refine their analysis, visualizations, documentation, and final deliverables.
+Teams refine analysis, visualizations, documentation, and deliverables.
 
 # Discussion - Project Feedback
 
-Teams review project progress and receive feedback on their final direction.
+Teams review their progress and receive feedback on their final project.
 
 # Assignment
 
 Continue final project development and prepare materials for final submission.
-
-# Looking ahead
-
-Next week will be the final major development period before **project submission and course wrap-up**.
 
 \::: {style="font-size: 0.875em;"}
 Back to [course schedule](/ "Course schedule") ⏎
