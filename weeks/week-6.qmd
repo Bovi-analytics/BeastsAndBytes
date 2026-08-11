@@ -1,7 +1,43 @@
 ---
-title: "Week 5"
-subtitle: "Welcome Beasts & Bytes"
+title: "Week 6"
+subtitle: "Mini Individual Project Development"
 editor: visual
 ---
 
-coming soon
+# Introduction
+
+This week provides additional time to develop, test, and refine the mini individual project before the final presentation milestone.
+
+# Learning goals
+
+1. Continue developing the mini individual project
+
+2. Apply feedback to improve the project
+
+3. Practice reproducible coding and project organization
+
+4. Prepare the project for presentation
+
+# Lecture - Q&A
+
+Open forum for questions and conceptual clarification.
+
+# Lab - Work on Mini Individual Project
+
+Hands-on project development, troubleshooting, and instructor feedback.
+
+# Discussion - Q&A
+
+Peer discussion and feedback on project progress.
+
+# Assignment
+
+Submit a progress update on the mini individual project and ensure your latest project work and commits are submitted through Canvas.
+
+# Looking ahead
+
+Next week we will **present the mini projects** and complete a DISC team assessment. After that, the course will shift toward the **final team project**.
+
+\::: {style="font-size: 0.875em;"}
+Back to [course schedule](/ "Course schedule") ⏎
+\:::
