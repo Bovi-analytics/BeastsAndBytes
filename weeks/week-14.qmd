@@ -12,7 +12,7 @@ Teams use this week to finalize their analysis, results, documentation, and proj
 
 1. Finalize project analysis and results
 
-2. Ensure project code and data are organized
+2. Ensure code and data are organized
 
 3. Complete project documentation
 
@@ -24,7 +24,7 @@ Guidance and support for final project completion.
 
 # Lab - Final Project Work
 
-Dedicated team time for final analysis, documentation, and deliverable preparation.
+Dedicated team time for analysis, documentation, and final deliverable preparation.
 
 # Discussion - Final Project Check-in
 
@@ -33,10 +33,6 @@ Final project review, troubleshooting, and feedback.
 # Assignment
 
 Complete the final project deliverables and prepare for submission.
-
-# Looking ahead
-
-Next week we will **submit the final project and reflect on what we learned throughout the semester**.
 
 \::: {style="font-size: 0.875em;"}
 Back to [course schedule](/ "Course schedule") ⏎
