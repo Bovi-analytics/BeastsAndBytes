@@ -1,42 +1,38 @@
 ---
 title: "Week 11"
-subtitle: "Final Project: Data Analysis & Modeling"
+subtitle: "Final Project Development"
 editor: visual
 ---
 
 # Introduction
 
-This week teams focus on turning their agricultural data into meaningful analysis and results.
+Teams continue working on their final projects, moving from project planning toward analysis and results.
 
 # Learning goals
 
-1. Apply appropriate analytical methods to project data
+1. Continue analyzing project data
 
-2. Develop and evaluate models where appropriate
+2. Apply appropriate data science methods
 
-3. Interpret results in an agricultural context
+3. Interpret preliminary results
 
-4. Document analytical workflows
+4. Refine the project based on feedback
 
-# Lecture - Data Analysis & Modeling
+# Lecture - Final Project Work
 
-Guidance on data analysis, modeling approaches, evaluation, and interpretation.
+Guidance and support for ongoing project development.
 
 # Lab - Final Project Work
 
-Teams work on data analysis, modeling, coding, and troubleshooting.
+Team-based analysis, coding, visualization, and troubleshooting.
 
 # Discussion - Project Check-in
 
-Teams discuss analytical progress, challenges, and feedback.
+Teams share progress and discuss challenges and next steps.
 
 # Assignment
 
-Submit a project progress update and maintain organized project files and commits in GitHub.
-
-# Looking ahead
-
-Next week we will focus on **refining results and connecting analysis back to the agricultural decision or problem**.
+Submit a project progress update and maintain organized project files and commits.
 
 \::: {style="font-size: 0.875em;"}
 Back to [course schedule](/ "Course schedule") ⏎
