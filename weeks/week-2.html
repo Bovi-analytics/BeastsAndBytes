@@ -35,7 +35,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../weeks/week-3.qmd" rel="next">
+<link href="../weeks/week-3.html" rel="next">
 <link href="../weeks/week-1.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -81,10 +81,10 @@ ul.task-list li input[type="checkbox"] {
 
 
 <meta property="og:title" content="Week 2 – Beasts &amp; Bytes">
-<meta property="og:description" content="Data Foundations for Dairy Decisions">
+<meta property="og:description" content="Version Control, Collaboration &amp; Reproducible Workflows">
 <meta property="og:site_name" content="Beasts &amp; Bytes">
 <meta name="twitter:title" content="Week 2 – Beasts &amp; Bytes">
-<meta name="twitter:description" content="Data Foundations for Dairy Decisions">
+<meta name="twitter:description" content="Version Control, Collaboration &amp; Reproducible Workflows">
 <meta name="twitter:image" content="https://bovi-analytics.github.io/BeastsAndBytes/weeks/images/twitter-card.png">
 <meta name="twitter:creator" content="@MielHostens">
 <meta name="twitter:card" content="summary_large_image">
@@ -414,7 +414,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../weeks/week-3.qmd" class="sidebar-item-text sidebar-link">
+  <a href="../weeks/week-3.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Week 3</span></a>
   </div>
 </li>
@@ -513,15 +513,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#learning-outcomes" id="toc-learning-outcomes" class="nav-link active" data-scroll-target="#learning-outcomes">Learning Outcomes</a></li>
-  <li><a href="#lecture" id="toc-lecture" class="nav-link" data-scroll-target="#lecture">Lecture</a>
-  <ul class="collapse">
-  <li><a href="#the-reality-of-dairy-farm-data" id="toc-the-reality-of-dairy-farm-data" class="nav-link" data-scroll-target="#the-reality-of-dairy-farm-data">1. The Reality of Dairy Farm Data</a></li>
-  <li><a href="#data-ownership-stewardship-governance" id="toc-data-ownership-stewardship-governance" class="nav-link" data-scroll-target="#data-ownership-stewardship-governance">2. Data Ownership, Stewardship &amp; Governance</a></li>
-  <li><a href="#data-organization-essentials" id="toc-data-organization-essentials" class="nav-link" data-scroll-target="#data-organization-essentials">3. Data Organization Essentials</a></li>
-  <li><a href="#fair-principles-in-dairy-context" id="toc-fair-principles-in-dairy-context" class="nav-link" data-scroll-target="#fair-principles-in-dairy-context">4. FAIR Principles in Dairy Context</a></li>
-  <li><a href="#naming-conventions-as-a-foundation-for-reproducibility" id="toc-naming-conventions-as-a-foundation-for-reproducibility" class="nav-link" data-scroll-target="#naming-conventions-as-a-foundation-for-reproducibility">5. Naming Conventions as a Foundation for Reproducibility</a></li>
-  </ul></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#learning-goals" id="toc-learning-goals" class="nav-link" data-scroll-target="#learning-goals">Learning goals</a></li>
+  <li><a href="#lecture---version-control-systems-integration" id="toc-lecture---version-control-systems-integration" class="nav-link" data-scroll-target="#lecture---version-control-systems-integration">Lecture - Version Control Systems &amp; Integration</a></li>
+  <li><a href="#lab---broken-online-merge-conflicts-branching" id="toc-lab---broken-online-merge-conflicts-branching" class="nav-link" data-scroll-target="#lab---broken-online-merge-conflicts-branching">Lab - Broken Online, Merge Conflicts &amp; Branching</a></li>
+  <li><a href="#discussion---naming-conventions-fair-principles" id="toc-discussion---naming-conventions-fair-principles" class="nav-link" data-scroll-target="#discussion---naming-conventions-fair-principles">Discussion - Naming Conventions &amp; FAIR Principles</a></li>
+  <li><a href="#assignment" id="toc-assignment" class="nav-link" data-scroll-target="#assignment">Assignment</a></li>
+  <li><a href="#looking-ahead" id="toc-looking-ahead" class="nav-link" data-scroll-target="#looking-ahead">Looking ahead</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/Bovi-analytics/BeastsAndBytes/edit/main/weeks/week-2.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/Bovi-analytics/BeastsAndBytes/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -532,7 +530,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../weeks/week-1.html">Weekly materials</a></li><li class="breadcrumb-item"><a href="../weeks/week-2.html">Week 2</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Week 2</h1>
-<p class="subtitle lead">Data Foundations for Dairy Decisions</p>
+<p class="subtitle lead">Version Control, Collaboration &amp; Reproducible Workflows</p>
 </div>
 
 
@@ -549,51 +547,48 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="learning-outcomes" class="level1">
-<h1>Learning Outcomes</h1>
-<p>By the end of Week 2, students will be able to: - Explain real-world data governance and ownership. - Organize dairy data according to FAIR principles. - Clean and structure datasets for downstream simulation modeling. - Develop and apply naming conventions and metadata standards. - Understand why decision-support begins with disciplined data management.</p>
+<section id="introduction" class="level1">
+<h1>Introduction</h1>
+<p>This week we move from writing code individually to managing and collaborating on code. We introduce Git, GitHub, branching, and basic principles for making data and code more reproducible.</p>
 </section>
-<section id="lecture" class="level1">
-<h1>Lecture</h1>
-<section id="the-reality-of-dairy-farm-data" class="level2">
-<h2 class="anchored" data-anchor-id="the-reality-of-dairy-farm-data">1. The Reality of Dairy Farm Data</h2>
-<ul>
-<li>Diverse streams: milk meters, sensors, activity monitors, feeding systems, health logs.</li>
-<li>Characteristics: heterogeneous, messy, operationally generated.</li>
-<li>Importance: high-quality data improves diagnostic, predictive, and prescriptive support.</li>
-</ul>
+<section id="learning-goals" class="level1">
+<h1>Learning goals</h1>
+<ol type="1">
+<li><p>Understand the fundamentals of Git and GitHub</p></li>
+<li><p>Create and manage a GitHub repository</p></li>
+<li><p>Understand commits, issues, branches, and merge conflicts</p></li>
+<li><p>Apply naming conventions and FAIR data principles</p></li>
+</ol>
 </section>
-<section id="data-ownership-stewardship-governance" class="level2">
-<h2 class="anchored" data-anchor-id="data-ownership-stewardship-governance">2. Data Ownership, Stewardship &amp; Governance</h2>
-<ul>
-<li>Farmers as primary data owners; vendors often store/manage but do not own the data.</li>
-<li>Ethical considerations: privacy, competitive sensitivity, misuse risks.</li>
-<li>Governance: clear data-use agreements, access permissions, audit trails.</li>
-</ul>
+<section id="lecture---version-control-systems-integration" class="level1">
+<h1>Lecture - Version Control Systems &amp; Integration</h1>
+<p>Introduction to Git and GitHub, repository structure, commits, and collaborative workflows.</p>
 </section>
-<section id="data-organization-essentials" class="level2">
-<h2 class="anchored" data-anchor-id="data-organization-essentials">3. Data Organization Essentials</h2>
-<ul>
-<li>Tidy data principles: each row = observation; each column = variable.</li>
-<li>Aligning time-series and event-based data across systems.</li>
-<li>Metadata: sensor IDs, units, timestamps, sampling frequency.</li>
-</ul>
+<section id="lab---broken-online-merge-conflicts-branching" class="level1">
+<h1>Lab - Broken Online, Merge Conflicts &amp; Branching</h1>
+<p>Hands-on practice with GitHub workflows, resolving merge conflicts, creating branches, and merging changes.</p>
 </section>
-<section id="fair-principles-in-dairy-context" class="level2">
-<h2 class="anchored" data-anchor-id="fair-principles-in-dairy-context">4. FAIR Principles in Dairy Context</h2>
-<p>FAIR = <strong>Findable, Accessible, Interoperable, Reusable</strong>. - Findable: structured storage, logical filenames. - Accessible: secure but functional access controls. - Interoperable: open formats, consistent units. - Reusable: documentation and provenance tracking.</p>
+<section id="discussion---naming-conventions-fair-principles" class="level1">
+<h1>Discussion - Naming Conventions &amp; FAIR Principles</h1>
+<p>Why do consistent naming and data management practices matter?</p>
+<p>Introduction to file and variable naming conventions and the FAIR principles: Findable, Accessible, Interoperable, and Reusable.</p>
 </section>
-<section id="naming-conventions-as-a-foundation-for-reproducibility" class="level2">
-<h2 class="anchored" data-anchor-id="naming-conventions-as-a-foundation-for-reproducibility">5. Naming Conventions as a Foundation for Reproducibility</h2>
-<ul>
-<li>Standardizing variable names (<code>cow_id</code>, <code>milk_yield_kg</code>).</li>
-<li>File naming conventions (<code>2026-02-01_milkingparlor_data.csv</code>).</li>
-<li>Folder hierarchy: <code>raw/</code>, <code>cleaned/</code>, <code>analysis/</code>, <code>models/</code>.</li>
-</ul>
-<hr>
+<section id="assignment" class="level1">
+<h1>Assignment</h1>
+<ol type="1">
+<li><p>Create a repository</p></li>
+<li><p>Make an initial commit</p></li>
+<li><p>Create an issue</p></li>
+<li><p>Fix the issue and commit the change</p></li>
+<li><p>Create and merge a branch</p></li>
+</ol>
+</section>
+<section id="looking-ahead" class="level1">
+<h1>Looking ahead</h1>
+<p>Next week we will move from managing code to working with <strong>cloud computing, APIs, and agricultural data infrastructure</strong>.</p>
+<p>::: {style=“font-size: 0.875em;”} Back to <a href=".." title="Course schedule">course schedule</a> ⏎ :::</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -1017,7 +1012,7 @@ ul.task-list li input[type="checkbox"] {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../weeks/week-3.qmd" class="pagination-link" aria-label="Week 3">
+      <a href="../weeks/week-3.html" class="pagination-link" aria-label="Week 3">
         <span class="nav-page-text">Week 3</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
