@@ -54,7 +54,7 @@ This course will consist of a combination of lectures, hands-on practical sessio
 +----------------+----------+----------+--------------------+----------+--------------------+
 |                | Monday   | Tuesday  | Wednesday          | Thursday | Friday             |
 +================+==========+==========+====================+==========+====================+
-| 10:10-11:00 am | Lecture  |          | Discussion         |          |                    |
+| 10:10-11:00 am | Lecture  |          | Lecture            |          |                    |
 +----------------+----------+----------+--------------------+----------+--------------------+
 | 1:25-4:25 pm   |          |   Lab    |                    |          |                    |
 |                |          |          |                    |          |                    |
@@ -70,13 +70,9 @@ The goal of the lectures is to have them as interactive as possible (which requi
 One the things you will definitely learn in this course will involve writing code, and coding is a skill that is best learned by doing. Therefore, as much as possible, you will need to finish a weekly coding assignment. Every week a new assignment will be opened for each of you on the online coding platform [Dodona](https://www.dodona.be/). There is a strict deadline at the day before the next lab (monday at 12 pm) to finish the assignment, individually. There will not be a deadline during the february and spring break. The number of successfully finished assignments at the end of the course is part of your individual grading (see below). You are allowed to use AI for these exercises, but it is strongly recommended to not use it to much as you will not be allowed to use it at the programming exam (see below). Try to ask your class mates first when you have troubles finishing an exercise or go to the office hours of this course. 
 Dodona recommends using the programm Pycharm, however we will be using Google Colab for the programming exercises. Every student will get an individual folder in the shared Beast & Bytes drive and can use this to store their notebooks. 
 
-## Weekly project meetings
-
-We will hold weekly project meetings during which we will discuss the groups overall progress, address any challenges, and provide guidance. These meetings are an opportunity for you to share updates, receive feedback, and collaborate with your peers and instructors. Your active participation is crucial to ensure that you stay on track and achieve the project goals.
-
 # Project
 
-Throughout the course, you will engage in a group project that involves solving a real-world, data-intensive problem in agriculture. Working in teams, you will collaborate with farmers and stakeholders to identify the exact problem. Your task will be to develop a data-driven solution using digital tools and techniques learned during the course.
+In the second half of the course, you will engage in a group project that involves solving a real-world, data-intensive problem in agriculture. Working in teams, you will collaborate with farmers and stakeholders to identify the exact problem. Your task will be to develop a data-driven solution using digital tools and techniques learned during the course.
 
 ## Differrent project phases we will tackle together
 
@@ -90,8 +86,7 @@ Throughout the course, you will engage in a group project that involves solving 
 
 5.  **Implementation Plan:** Create a detailed plan for implementing the proposed solution.
 
-6.  **Presentation and report:** You will prepare and present your project to the farmer, including your methodology, findings, and proposed solution. This will be summarized in a final project report
-
+6.  **Presentation and report:** You will prepare and present your project, including your methodology, findings, and proposed solution. 
 
 # Website
 
