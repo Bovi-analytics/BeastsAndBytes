@@ -38,7 +38,8 @@ Topics include data lineage, satellite data, AI agents, and packages and environ
 
 # Assignment
 
-Run a provided Python program using one of the IDEs introduced in class and submit a screenshot showing successful execution.
+1. Run a provided Python program using one of the IDEs introduced in class and submit a screenshot showing successful execution.
+2. Profile on Github Education shared through Canvas
 
 # Looking ahead
 
