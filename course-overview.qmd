@@ -29,17 +29,21 @@ A statistical course such one of the following is not required but strongly advi
 
 # Learning outcomes
 
-1.  Explain the fundamentals of data science and digital agriculture including their interdisciplinary challenges.
+1. Understand the data science landscape** and its applications in agriculture.
 
-2.  Implement the various data science technologies, precision farming techniques and digital tools used in modern agriculture.
+2. Develop practical coding skills** using Python and modern data science tools.
 
-3.  Conduct data collection, visualization, analysis, and interpretation within the context of digital agriculture.
+3. Apply data science workflows and FAIR principles** to organize, manage, and analyze agricultural data.
 
-4.  Acquire practical skills through hands-on programming activities.
+4. Scope agricultural problems using systems thinking** and translate them into data science projects.
 
-5.  Explore the applications of machine learning and artificial intelligence in agriculture.
+5. Independently design and execute a data science project**, from problem definition to results and communication.
 
-6.  Recognize the significance of, and apply data privacy and security techniques in digital agriculture.
+6. Reflect on their learning and take ownership of their development** as data science practitioners.
+
+7. Collaborate effectively in teams** to solve real-world agricultural problems.
+
+8. Use AI responsibly and efficiently**, recognizing its capabilities, limitations, and implications
 
 # Outline
 
