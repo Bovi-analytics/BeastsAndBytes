@@ -20,7 +20,7 @@ This week is focused on applying the tools and concepts learned so far to a smal
 
 # Lecture - Q&A
 
-Open forum for questions about course material, tools, and projects.
+Introduction to machine learning and artificial intelligence, with examples from agriculture (Supervised vs. unsupervised learning in agricultural contexts) (Part 2)
 
 # Lab - Work on Mini Individual Project
 
