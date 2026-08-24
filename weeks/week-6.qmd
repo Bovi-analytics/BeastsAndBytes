@@ -38,6 +38,6 @@ Submit a progress update on the mini individual project and ensure your latest p
 
 Next week we will **present the mini projects** and complete a DISC team assessment. After that, the course will shift toward the **final team project**.
 
-\::: {style="font-size: 0.875em;"}
+::: {style="font-size: 0.875em;"}
 Back to [course schedule](/ "Course schedule") ⏎
-\:::
+:::
