@@ -21,7 +21,7 @@ Note that this schedule will be updated as the course progresses, with all chang
 | 4 | 9/14 (Mon) | (LEC) ML and AI Basics (Part 1)  | Dr. Miel | 📖 | 🖥️ |
 | 4 | 9/15 (Tue) | (LAB) Toolbox: Project Mini, Packages, Hugging Face & Model Serving | Sonam & Meike | 📖 | 🖥️ |
 | 4 | 9/16 (Wed) | (DISC) Ethical and Efficient Use of AI | Dr. Miel | 📖 | 🖥️ |
-| 5 | 9/21 (Mon) | (LEC) ML and AI Basics (Part 2); Supervised and Unsupervised learning in Agricultural contexts  | Dr. Miel | 📖 | 🖥️ |
+| 5 | 9/21 (Mon) | (LEC) ML and AI Basics; Supervised and Unsupervised learning in Agricultural contexts (Part 2) | Dr. Miel | 📖 | 🖥️ |
 | 5 | 9/22 (Tue) | (LAB) Work on Mini Individual Project | Course Staff | 📖 | 🖥️ |
 | 5 | 9/23 (Wed) | (DISC) Q&A / Introduction to Tableau | Dr. Miel | 📖 | 🖥️ |
 | 6 | 9/28 (Mon) | (LEC) ML and AI Basics; Supervised and Unsupervised learning in Agricultural contexts (Part 3)  | Dr. Miel | 📖 | 🖥️ |
