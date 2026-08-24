@@ -38,6 +38,6 @@ Submit a progress update on your mini individual project.
 
 The mini project will prepare you for the **larger team-based final project**. We will soon introduce the expectations for working with real farm data and collaborating with farmers.
 
-\::: {style="font-size: 0.875em;"}
+::: {style="font-size: 0.875em;"}
 Back to [course schedule](/ "Course schedule") ⏎
-\:::
+:::
