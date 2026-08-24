@@ -24,7 +24,7 @@ Introduction to Git and GitHub, repository structure, commits, and collaborative
 
 # Lab - Broken Online, Merge Conflicts & Branching
 
-Hands-on practice with GitHub workflows, resolving merge conflicts, creating branches, and merging changes.
+Hands-on practice with the Octocat for GitHub workflows, resolving merge conflicts, creating branches, and merging changes.
 
 # Discussion - Naming Conventions & FAIR Principles
 
@@ -34,15 +34,17 @@ Introduction to file and variable naming conventions and the FAIR principles: Fi
 
 # Assignment
 
-1. Create a repository
+Part 1: GitHub Education
+1. Create a GitHub profile.
+2. Create a public repository.
+3. Share the repository through Canvas.
 
-2. Make an initial commit
-
-3. Create an issue
-
-4. Fix the issue and commit the change
-
-5. Create and merge a branch
+Part 2: GitHub and Branching
+1. Connect to the assigned repository.
+2. Create a branch.
+3. Create a merge conflict.
+4. Try to merge the branch.
+5. Resolve the merge conflict and complete the merge.
 
 # Looking ahead
 
