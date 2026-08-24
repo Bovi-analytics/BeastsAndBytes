@@ -18,9 +18,9 @@ This week provides additional time to develop, test, and refine the mini individ
 
 4. Prepare the project for presentation
 
-# Lecture - Q&A
+# Lecture - ML and AI Basics
 
-Open forum for questions and conceptual clarification.
+Introduction to machine learning and artificial intelligence, with examples from agriculture (Supervised vs. unsupervised learning in agricultural contexts) (Part 2)
 
 # Lab - Work on Mini Individual Project
 
