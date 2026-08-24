@@ -50,6 +50,6 @@ Introduction to data governance and tracking data lineage in agricultural datase
 
 Next week we will introduce **machine learning and artificial intelligence** and begin connecting our data workflows to predictive models.
 
-\::: {style="font-size: 0.875em;"}
+::: {style="font-size: 0.875em;"}
 Back to [course schedule](/ "Course schedule") ⏎
-\:::
+:::
