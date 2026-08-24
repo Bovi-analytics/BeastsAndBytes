@@ -235,7 +235,7 @@
     "href": "weeks/week-14.html",
     "title": "Week 14",
     "section": "",
-    "text": "Introduction\nTeams use this week to finalize their analysis, results, documentation, and project deliverables.\n\n\nLearning goals\n\nFinalize project analysis and results\nEnsure code and data are organized\nComplete project documentation\nPrepare final deliverables\n\n\n\nLecture - Final Project Work\nGuidance and support for final project completion.\n\n\nLab - Final Project Work\nDedicated team time for analysis, documentation, and final deliverable preparation.\n\n\nDiscussion - Final Project Check-in\nFinal project review, troubleshooting, and feedback.\n\n\nAssignment\nComplete the final project deliverables and prepare for submission.\n::: {style=“font-size: 0.875em;”} Back to course schedule ⏎ :::",
+    "text": "Introduction\nTeams use this week to finalize their analysis, results, documentation, and project deliverables.\n\n\nLearning goals\n\nFinalize project analysis and results\nEnsure code and data are organized\nComplete project documentation\nPrepare final deliverables\n\n\n\nLecture - Final Project Work\nGuidance and support for final project completion.\n\n\nLab - Final Project Work\nDedicated team time for analysis, documentation, and final deliverable preparation.\n\n\nDiscussion - Final Project Check-in\nFinal project review, troubleshooting, and feedback.\n\n\nAssignment\nComplete the final project deliverables and prepare for submission.\n\nBack to course schedule ⏎",
     "crumbs": [
       "Weekly materials",
       "Week 14"
@@ -257,7 +257,7 @@
     "href": "weeks/week-13.html",
     "title": "Week 13",
     "section": "",
-    "text": "Introduction\nTeams begin bringing their final projects together and preparing to communicate their findings.\n\n\nLearning goals\n\nRefine project results\nImprove data visualization and communication\nConnect findings to the agricultural problem\nPrepare project documentation\n\n\n\nLecture - Final Project Work\nGuidance and support for final project development and communication.\n\n\nLab - Final Project Work\nTeams refine analysis, visualizations, documentation, and deliverables.\n\n\nDiscussion - Project Feedback\nTeams review their progress and receive feedback on their final project.\n\n\nAssignment\nContinue final project development and prepare materials for final submission.\n::: {style=“font-size: 0.875em;”} Back to course schedule ⏎ :::",
+    "text": "Introduction\nTeams begin bringing their final projects together and preparing to communicate their findings.\n\n\nLearning goals\n\nRefine project results\nImprove data visualization and communication\nConnect findings to the agricultural problem\nPrepare project documentation\n\n\n\nLecture - Final Project Work\nGuidance and support for final project development and communication.\n\n\nLab - Final Project Work\nTeams refine analysis, visualizations, documentation, and deliverables.\n\n\nDiscussion - Project Feedback\nTeams review their progress and receive feedback on their final project.\n\n\nAssignment\nContinue final project development and prepare materials for final submission.\n\nBack to course schedule ⏎",
     "crumbs": [
       "Weekly materials",
       "Week 13"
@@ -301,7 +301,7 @@
     "href": "weeks/week-15.html",
     "title": "Week 15",
     "section": "",
-    "text": "Introduction\nThe final week brings together the skills developed throughout the semester through the completion and submission of the final project.\n\n\nLearning goals\n\nComplete and submit the final project\nCommunicate final project outcomes\nReflect on the semester and lessons learned\nIdentify next steps in data science for agriculture\n\n\n\nLecture - Final Project Wrap-up\nFinal project preparation and submission guidance.\n\n\nLab - Final Project Submission\nFinal project deliverables are due on Tuesday, December 1.\n\n\nDiscussion - Course Wrap-up & Reflection\nReflect on the course, project experience, tools learned, and applications of data science in agriculture.\n\n\nAssignment\nSubmit the final project deliverables.\n::: {style=“font-size: 0.875em;”} Back to course schedule ⏎ :::"
+    "text": "Introduction\nThe final week brings together the skills developed throughout the semester through the completion and submission of the final project.\n\n\nLearning goals\n\nComplete and submit the final project\nCommunicate final project outcomes\nReflect on the semester and lessons learned\nIdentify next steps in data science for agriculture\n\n\n\nLecture - Final Project Wrap-up\nFinal project preparation and submission guidance.\n\n\nLab - Final Project Submission\nFinal project deliverables are due on Tuesday, December 1.\n\n\nDiscussion - Course Wrap-up & Reflection\nReflect on the course, project experience, tools learned, and applications of data science in agriculture.\n\n\nAssignment\nSubmit the final project deliverables.\n\nBack to course schedule ⏎"
   },
   {
     "objectID": "course-links.html",
@@ -1114,7 +1114,7 @@
     "href": "slides/lec-11.html#sec-current",
     "title": "Data transformations",
     "section": "Current",
-    "text": "Current\nTo get the current date or date-time you can use today() or now():\n\ntoday()\n\n[1] \"2026-08-24\"\n\nnow()\n\n[1] \"2026-08-24 13:54:02 UTC\""
+    "text": "Current\nTo get the current date or date-time you can use today() or now():\n\ntoday()\n\n[1] \"2026-08-24\"\n\nnow()\n\n[1] \"2026-08-24 13:55:14 UTC\""
   },
   {
     "objectID": "slides/lec-11.html#sec-dt-import-1",
@@ -2004,7 +2004,7 @@
     "href": "weeks/week-12.html",
     "title": "Week 12",
     "section": "",
-    "text": "Introduction\nThis week focuses on developing, refining, and interpreting the results of the final project.\n\n\nLearning goals\n\nRefine project analysis\nInterpret and evaluate results\nImprove project visualizations\nAddress project challenges and limitations\n\n\n\nLecture - Final Project Work\nGuidance and support for final project development.\n\n\nLab - Final Project Work\nTeams continue analysis, modeling, visualization, and project documentation.\n\n\nDiscussion - Project Check-in\nPeer and instructor feedback on project progress.\n\n\nAssignment\nContinue final project development and incorporate feedback into the project.\n::: {style=“font-size: 0.875em;”} Back to course schedule ⏎ :::",
+    "text": "Introduction\nThis week focuses on developing, refining, and interpreting the results of the final project.\n\n\nLearning goals\n\nRefine project analysis\nInterpret and evaluate results\nImprove project visualizations\nAddress project challenges and limitations\n\n\n\nLecture - Final Project Work\nGuidance and support for final project development.\n\n\nLab - Final Project Work\nTeams continue analysis, modeling, visualization, and project documentation.\n\n\nDiscussion - Project Check-in\nPeer and instructor feedback on project progress.\n\n\nAssignment\nContinue final project development and incorporate feedback into the project.\n\nBack to course schedule ⏎",
     "crumbs": [
       "Weekly materials",
       "Week 12"
