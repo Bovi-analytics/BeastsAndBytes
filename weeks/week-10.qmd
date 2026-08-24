@@ -38,6 +38,6 @@ Continue final project development and document project progress in GitHub.
 
 Next week we will continue developing the project, with increasing focus on **analysis and modeling**.
 
-\::: {style="font-size: 0.875em;"}
+::: {style="font-size: 0.875em;"}
 Back to [course schedule](/ "Course schedule") ⏎
-\:::
+:::
