@@ -38,6 +38,6 @@ Complete the DISC assessment.
 
 After this week, the course shifts from the **individual mini project to the final team project**. We will begin working with real-world agricultural data and project partners.
 
-\::: {style="font-size: 0.875em;"}
+::: {style="font-size: 0.875em;"}
 Back to [course schedule](/ "Course schedule") ⏎
-\:::
+:::
