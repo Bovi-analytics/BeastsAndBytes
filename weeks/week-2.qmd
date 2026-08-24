@@ -50,6 +50,6 @@ Part 2: GitHub and Branching
 
 Next week we will move from managing code to working with **cloud computing, APIs, and agricultural data infrastructure**.
 
-\::: {style="font-size: 0.875em;"}
+::: {style="font-size: 0.875em;"}
 Back to [course schedule](/ "Course schedule") ⏎
-\:::
+:::
