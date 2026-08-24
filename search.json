@@ -1114,7 +1114,7 @@
     "href": "slides/lec-11.html#sec-current",
     "title": "Data transformations",
     "section": "Current",
-    "text": "Current\nTo get the current date or date-time you can use today() or now():\n\ntoday()\n\n[1] \"2026-08-24\"\n\nnow()\n\n[1] \"2026-08-24 13:39:17 UTC\""
+    "text": "Current\nTo get the current date or date-time you can use today() or now():\n\ntoday()\n\n[1] \"2026-08-24\"\n\nnow()\n\n[1] \"2026-08-24 13:44:41 UTC\""
   },
   {
     "objectID": "slides/lec-11.html#sec-dt-import-1",
@@ -2161,33 +2161,33 @@
     ]
   },
   {
-    "objectID": "course-overview.html#group-assessment",
-    "href": "course-overview.html#group-assessment",
-    "title": "Data Science Applications in Agriculture",
-    "section": "Group assessment",
-    "text": "Group assessment\nTogether with Dr. Hostens the group will set goals for the project. You get to decide what makes a succesfull project and grading will be based on acchieving those goals. This might sound a bit vague for now, but we will discuss this elaborately in class.",
-    "crumbs": [
-      "Course information",
-      "Overview"
-    ]
-  },
-  {
     "objectID": "course-overview.html#individual-assessment",
     "href": "course-overview.html#individual-assessment",
     "title": "Data Science Applications in Agriculture",
     "section": "Individual assessment",
-    "text": "Individual assessment\nIt is very important to read this part as your individual assessments will be influencing your individual gradings.\n\nDodona assignments\nAt the end of the course you will be evaluated on the % of weekly assignments you have coded correctly in the Dodona framework (which you will learn during the course). That percentage will be multiplied with your grade for the programming exam, resulting in your final individual grade. The individual grade will be combined with the group grade to make the final grade.\nFinishing each of the assignments within each deadline is not that difficult. You “just” need to devote the time to it. I have used this method a lot during my courses. It is not to annoy students, but to make sure the entire group keeps progressing on the programming skills during the project. You will thank me for that at a certain moment. For full transparency, I learned to code Python using a similar approach. Once I understood why this was done, I started appreciating this method as one of the most inspiring learning methods I have ever seen.\n\n\nProgramming exam\nAt the end of the course there will be an individual programming exam in the program Dodona (in class). It is not allowed to use generative AI for this exam (which will be monitored in class). The exam will consist of three programming exercises similar to the exercises covered in the course. There will be practice exams available to prepare you for this test. The date of this exam is still to be decided.\nYou will receive an individual score for this part.\n\n\nFinal individual score\nThe percentage of weekly correctly finished assignment will be multiplied with your programming exam, resulting in your final individual grade. Keep in mind that finishing less than 50% of your weekly assignments will result in the mathematical impossibility to pass for this component of the exam (49% * 100 &lt; 50%).",
+    "text": "Individual assessment\n\nIndividual assignments\nThroughout the course, students will complete a number of individual coding and practical assignments. These assignments are designed to help students develop the technical skills needed for the individual and group projects.\nThe individual assignments will account for 20% of the final grade.\n\n\nMini individual project\nEach student will complete a mini individual project and present the results through a poster presentation. The project will provide an opportunity to apply the skills learned during the course to an individual topic or problem.\nThe deliverables, project requirements, and assessment criteria will be discussed in class.\nThe mini individual project and poster presentation together account for 30% of the final grade.",
     "crumbs": [
       "Course information",
       "Overview"
     ]
   },
   {
-    "objectID": "course-overview.html#final-grading-scale",
-    "href": "course-overview.html#final-grading-scale",
+    "objectID": "course-overview.html#group-assessment",
+    "href": "course-overview.html#group-assessment",
     "title": "Data Science Applications in Agriculture",
-    "section": "Final grading scale",
-    "text": "Final grading scale\nThe final scale will combine your individual score (50%) and group project score (50%). We will determine jointly in one of the first lectures how the group project will be graded.\nAn example : - The group project was finally graded at 100% (which is definitely possible). - Student A successfully finished 100% of the coding assignments within each deadline, and finished the exam successfully with a score of 90%. As a result student A gets (50% * 100%) + (50% * 100% * 90%) = 95% as the final individual grade. - Student B only finished 50% of the coding assignments within each deadline, and finished the exam successfully with a score of 70%. As a result student B gets (50% * 100%) + (50% * 50% * 70%) = 67% as the final individual grade.\n\n\n\nGrade\nLow\nHigh\n\n\n\n\nA+\n99.80\n100.0\n\n\nA\n93.33\n99.80\n\n\nA-\n90.00\n93.33\n\n\nB+\n86.66\n90.00\n\n\nB\n83.33\n86.66\n\n\nB-\n80.00\n83.33\n\n\nC+\n76.66\n80.00\n\n\nC\n73.33\n76.66\n\n\nC-\n70.00\n73.33\n\n\nD+\n66.66\n70.00\n\n\nD\n63.33\n66.66\n\n\nD-\n60.00\n63.36\n\n\nF\n0.00\n60.00\n\n\n\nEach grade range includes the score on the left, and excludes the score on the right. For example, a 90.0 is an A-, and not a B+. An 89.99 is a B+, not an A-.",
+    "section": "Group assessment",
+    "text": "Group assessment\n\nFinal group project\nThe final assessment will consist of a group project. Students will work together to develop a larger project that applies the programming, data analysis, Git/GitHub, and cloud-based skills learned throughout the course.\nTogether with the instructor, the group will define the goals and scope of the project. The project should demonstrate effective collaboration, appropriate technical implementation, and clear communication of the results.\nThe deliverables, project requirements, presentation format, and grading criteria will be discussed in class.\nThe final group project accounts for 50% of the final grade.",
+    "crumbs": [
+      "Course information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "course-overview.html#final-grading",
+    "href": "course-overview.html#final-grading",
+    "title": "Data Science Applications in Agriculture",
+    "section": "Final grading",
+    "text": "Final grading\nThe final grade will be calculated as follows:\n\n20% — Individual assignments\n30% — Mini individual project + poster presentation\n50% — Final group project\n\nTotal: 100%\n\n\n\nGrade\nLow\nHigh\n\n\n\n\nA+\n99.80\n100.0\n\n\nA\n93.33\n99.80\n\n\nA-\n90.00\n93.33\n\n\nB+\n86.66\n90.00\n\n\nB\n83.33\n86.66\n\n\nB-\n80.00\n83.33\n\n\nC+\n76.66\n80.00\n\n\nC\n73.33\n76.66\n\n\nC-\n70.00\n73.33\n\n\nD+\n66.66\n70.00\n\n\nD\n63.33\n66.66\n\n\nD-\n60.00\n63.36\n\n\nF\n0.00\n60.00\n\n\n\nEach grade range includes the score on the left, and excludes the score on the right. For example, a 90.0 is an A-, and not a B+. An 89.99 is a B+, not an A-.",
     "crumbs": [
       "Course information",
       "Overview"
