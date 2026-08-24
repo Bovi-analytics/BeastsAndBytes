@@ -20,13 +20,12 @@ This week we move from managing agricultural data to using it for prediction and
 
 # Lecture - ML and AI Basics
 
-Introduction to machine learning and artificial intelligence, with examples from agriculture.
+Introduction to machine learning and artificial intelligence, with examples from agriculture (Part 1)
 
-Topics include supervised and unsupervised learning and their applications to agricultural data.
 
 # Lab - Project Mini: Packages, Hugging Face & Model Serving
 
-Set up the mini individual project and explore Python packages, Hugging Face models, and basic model serving.
+Introduction to the mini individual project and explore Python packages, Hugging Face models, and basic model serving.
 
 # Discussion - Ethical and Efficient Use of AI
 
@@ -34,7 +33,7 @@ How can we use AI effectively, responsibly, and efficiently in agricultural data
 
 # Assignment
 
-Organize your data, set up your GitHub repository, and submit a one-page concept note outlining your mini individual project.
+Submit a concept note outlining your plan for a mini individual project. Update your README to include your individual project plan, and submit the GitHub repository link to Canvas.
 
 # Looking ahead
 
