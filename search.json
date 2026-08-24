@@ -1114,7 +1114,7 @@
     "href": "slides/lec-11.html#sec-current",
     "title": "Data transformations",
     "section": "Current",
-    "text": "Current\nTo get the current date or date-time you can use today() or now():\n\ntoday()\n\n[1] \"2026-08-24\"\n\nnow()\n\n[1] \"2026-08-24 13:56:52 UTC\""
+    "text": "Current\nTo get the current date or date-time you can use today() or now():\n\ntoday()\n\n[1] \"2026-08-24\"\n\nnow()\n\n[1] \"2026-08-24 14:01:10 UTC\""
   },
   {
     "objectID": "slides/lec-11.html#sec-dt-import-1",
@@ -2132,7 +2132,7 @@
     "href": "course-overview.html#labs",
     "title": "Data Science Applications in Agriculture",
     "section": "Labs",
-    "text": "Labs",
+    "text": "Labs\nThe lab sessions are designed to provide hands-on experience with the tools and workflows used throughout the course. Students will apply concepts introduced during the lectures through practical exercises, individual project work, and group project development.\nThe labs will cover topics including programming tools and environments, Git and GitHub, cloud computing, APIs, packages and model serving, and other tools used in data science. Students will also use the lab sessions to develop their mini individual project and, later in the course, their final group project.\nDuring the lab sessions, students will:\n\nWork with programming tools and development environments.\nUse Git and GitHub for version control and collaboration.\nWork with cloud-based computing environments and APIs.\nExplore relevant packages, models, and model-serving tools.\nApply data science and machine learning techniques to practical problems.\nDevelop and document a mini individual project.\nPrepare and present the results of the mini individual project as a poster.\nWork collaboratively on the final group project.\nDevelop, test, document, and submit the final project.\n\nThe specific lab activities, exercises, and project deliverables will be introduced and discussed during the course.",
     "crumbs": [
       "Course information",
       "Overview"
