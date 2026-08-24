@@ -1,7 +1,7 @@
 ---
 title: "Lecture 1 - Meet + greet"
-subtitle: "ANSCI 4040 - Spring 2026"
-author: "Meike"
+subtitle: "ANSCI 4040/6040 - Fall 2026"
+author: "Dr. Hostens"
 footer:  "[https://bovi-analytics.github.io/BeastsAndBytes/](https://bovi-analytics.github.io/BeastsAndBytes/)"
 logo: "images/Bovi-Analytics-SmallLogo.png"
 format: 
@@ -31,28 +31,24 @@ library(countdown)
 ::: {.column width="50%"}
 **Associate Prof. dr. Miel Hostens DVM**
 
--   Associate Professor
--   College of Agricultural and Life Sciences
--   Department of Animal Science
--   Find out more at [bovi-analytics.com](https://www.bovi-analytics.com)
+- Associate Professor
+- College of Agricultural and Life Sciences
+- Department of Animal Science
+- Find out more at [bovi-analytics.com](https://www.bovi-analytics.com)
 :::
 :::::
 
 ## Meet your team partners
 
--   What is your background in agriculture?
-
--   What is the main reason to subscribe to the course?
-
--   What do you really hope to learn?
-
--   Do you have any coding experience?
+- [Poll Everywhere Link](https://pollev.com/mielhostens514)
 
 ## Meet the other [experts](/course-team.html)
 
--   Sonam Yang (TA) - Graduate student & PhD candidate
+- Sonam Yang (TA) - Graduate student & PhD candidate
 
--   Meike van Leerdam (TA) - Graduate student & PhD candidate
+- Meike van Leerdam (TA) - Graduate student & PhD candidate
+
+- Sumit Sharma (TA) - Graduate student & PhD candidate
 
 # Digital Agriculture
 
@@ -80,51 +76,40 @@ library(countdown)
 
 3.  Recognize the significance of, and apply data privacy and security techniques in digital agriculture.
 
+## Course update 
+
+![](images/clipboard-52909686.png){width="283"}
+
+## Course update
+
+![](images/clipboard-2102610244.png){width="277"}
+
 ## Topics that will be covered
 
 ::: incremental
--   Week 1 - Introduction, programming and team project kick-off
--   Week 2 - Data in agriculture
--   Week 3 - Decision making in agriculture - part 1
--   Week 4 - Decision making in agriculture - part 2
--   Week 5 - ...
+- Week 1 - Introduction to Data Science Applications in Agriculture
+
+- Week 2 - Version Control and Reproducible Workflows
+
+  Week 3 - Cloud computing, API & Data Governance
+
+- Week 4 - Machine Learning & Artificial Intelligence
 :::
 
-## Weekly programming assignment
+## Two projects
 
--   One of the learning goals is to actively stimulate you by weekly programming assignments & assessments
+::: incremental
+- Week 5 - 7 Mini-project
+- Week 8 -14 Team-project
+:::
 
--   We will use the [Dodona](https://dodona.be/) platform for that. Make sure to try if you have access to the course.
+## Assignments
 
--   [Link to the course](https://dodona.be/en/courses/5788/?secret=HqNPN)
+- Small assignments in week 1-4
 
-## Weekly programming assignment
+- Poster presentation in week 7
 
-Sign in to Dodona using your Cornell Microsoft365 or Google sign-in
-
-![](images/clipboard-856996611.png)
-
-## Weekly programming assignment
-
-Subscribe to this course <https://dodona.be/en/courses/5788/?secret=HqNPN>
-
-![](images/clipboard-4110287863.png){width="321"}
-
-## Weekly programming assignment
-
-<div>
-
-**Make sure to reach each of the deadlines**
-
-| Deadline               | Assignment             |
-|------------------------|------------------------|
-| Monday, Jan 26th 24:00 | Python Basics          |
-| Monday, Feb 2nd 24:00  | Conditional statements |
-| Monday. Feb 8th 24:00  | Loops                  |
-| Monday, Feb 15th 24:00 | Strings                |
-| Monday, Feb 22th 24:00 | ...                    |
-
-</div>
+- Team project (TBD)
 
 # Course overview
 
@@ -132,81 +117,73 @@ Subscribe to this course <https://dodona.be/en/courses/5788/?secret=HqNPN>
 
 [https://github.com/Bovi-analytics/BeastsAndBytes](https://bovi-analytics.github.io/BeastsAndBytes/)
 
--   All relevant course materials (and history)
--   Links to Teams, GitHub, Dodona, etc.
--   Let's take a tour!
+- All relevant course materials (and history)
+- Links to Teams, GitHub, Canvas, etc.
+- Let's take a tour!
 
 ## Activities: Prepare, Participate, Practice, Perform {.smaller}
 
--   **Prepare:** Introduce new content and prepare for lectures by completing the readings
--   **Participate:** Attend and actively participate in lectures and labs, herd visits
--   **Practice:** Practice your programming skills
--   **Perform:** Put together what you've learned to analyze real-world data
--   Dodona assignments
+- **Prepare:** Introduce new content and prepare for lectures by completing the readings
+- **Participate:** Attend and actively participate in lectures and labs
+- **Practice:** Practice your programming skills (including AI)
+- **Perform:** Put together what you've learned to analyze real-world data
 
 ## Grading {.smaller}
 
-Update because of genAI: - Project score (50%) - We will determine the grades for the team project score together (50% of your score) - Individual score (50%) - Individual coding assignments (%) \* Coding exam (%).
-
-Example:
-
--   Your team project is graded as a group to 20/20 (50%)
--   You individually submitted 80% correct assignments
--   Your coding exam 90% correct assignments
--   Your end score is (50% \* 100%) + (50% \* 80% \* 90%) = 86%
+- Weekly assignments wk 1 - 4 (20%)
+- Mini project (30%)
+- Team project (50%)
 
 ## Support
 
--   Office hours
--   Ask (or even better help answering) questions during the course!!!
--   Teams
--   Reserve email for questions on personal matters
+- Office hours
+- Ask (or even better help answering) questions during the course!!!
+- Teams
+- Reserve email for questions on personal matters
 
 ## Announcements
 
--   During classes or email
--   If unclear, contact me
+- During classes or email
+- If unclear, contact me
 
 ## Diversity + inclusion {.smaller}
 
 It is my intent that students from all diverse backgrounds and perspectives be well-served by this course, that students' learning needs be addressed both in and out of class, and that the diversity that the students bring to this class be viewed as a resource, strength and benefit.
 
 ::: incremental
--   If you have a name that differs from those that appear in your official records, please let me know!
--   Please let me know your preferred pronouns.
--   If you feel like your performance in the class is being impacted by your experiences outside of class, please don't hesitate to come and talk with me. I want to be a resource for you.
--   If something was said in class (by me or anyone) that made you feel uncomfortable, please talk to me about it.
+- If you have a name that differs from those that appear in your official records, please let me know!
+- Please let me know your preferred pronouns.
+- If you feel like your performance in the class is being impacted by your experiences outside of class, please don't hesitate to come and talk with me. I want to be a resource for you.
+- If something was said in class (by me or anyone) that made you feel uncomfortable, please talk to me about it.
 :::
 
 # Course policies
 
 ## Team project
 
--   **Team update wednesdays** are supposed to be completed collaboratively.
-
--   Most of the times we will meet in classrooms at the **Morrison Hall** building.
+- Most of the times we will meet in classrooms at the **Morrison Hall** building.
 
 ## Academic integrity
 
 > To uphold the [Cornell Academic Integrity Guide](https://deanoffaculty.cornell.edu/faculty-and-academic-affairs/academic-integrity/guidelines-for-students/):
 >
-> -   I will not lie, cheat, or steal in my academic endeavors;
+> - I will not lie, cheat, or steal in my academic endeavors;
 >
-> -   I will conduct myself honorably in all my endeavors; and
+> - I will conduct myself honorably in all my endeavors; and
 >
-> -   I will act if the Code is compromised.
+> - I will act if the Code is compromised.
 
 ## Farm data
 
--   Be aware that
+- Be aware that
 
-    -   the participating farmers are sharing sometimes sensitive and personal data with you (part of the course).
+  - the participating farmers are sharing sometimes sensitive and personal data with you (part of the course).
 
-    -   you are supposed to use that data for educational purposes only.
+  - you are supposed to use that data for educational purposes only.
 
-    -   your professional conduct is expected.
+  - your professional conduct is expected.
 
-    -   you influence future participation of the collaborating farm(s).
+  - you influence future participation of the collaborating farm(s).
 
 ## Most importantly!
 
@@ -219,9 +196,7 @@ Ask if you're not sure if something violates a policy!
 1.  Help me understanding your needs as well.
 2.  Read all the preparation material (if provided) before the lesson begins.
 3.  Ask questions and actively collaborate with entire team.
-4.  Perform the programming assignments.
+4.  Perform the assignments.
 5.  Don't let a week pass by with lingering questions.
 
-## This week's tasks
-
--   Project deliverables discussion
+## 
