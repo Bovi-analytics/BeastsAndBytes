@@ -38,6 +38,6 @@ Develop an initial final project plan, including the project question, team role
 
 The following weeks will focus on **developing the final project**, from data acquisition and organization to analysis, modeling, and communication of results.
 
-\::: {style="font-size: 0.875em;"}
+::: {style="font-size: 0.875em;"}
 Back to [course schedule](/ "Course schedule") ⏎
-\:::
+:::
