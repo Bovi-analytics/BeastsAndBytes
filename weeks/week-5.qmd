@@ -18,7 +18,7 @@ This week is focused on applying the tools and concepts learned so far to a smal
 
 4. Get feedback and troubleshoot project challenges
 
-# Lecture - Q&A
+# Lecture - ML and AI Basics
 
 Introduction to machine learning and artificial intelligence, with examples from agriculture (Supervised vs. unsupervised learning in agricultural contexts) (Part 2)
 
