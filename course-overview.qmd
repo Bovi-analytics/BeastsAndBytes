@@ -67,8 +67,26 @@ The goal of the lectures is to have them as interactive as possible (which requi
 
 ## Labs
 
-One the things you will definitely learn in this course will involve writing code, and coding is a skill that is best learned by doing. Therefore, as much as possible, you will need to finish a weekly coding assignment. Every week a new assignment will be opened for each of you on the online coding platform [Dodona](https://www.dodona.be/). There is a strict deadline at the day before the next lab (monday at 12 pm) to finish the assignment, individually. There will not be a deadline during the february and spring break. The number of successfully finished assignments at the end of the course is part of your individual grading (see below). You are allowed to use AI for these exercises, but it is strongly recommended to not use it to much as you will not be allowed to use it at the programming exam (see below). Try to ask your class mates first when you have troubles finishing an exercise or go to the office hours of this course. 
-Dodona recommends using the programm Pycharm, however we will be using Google Colab for the programming exercises. Every student will get an individual folder in the shared Beast & Bytes drive and can use this to store their notebooks. 
+# Labs
+
+The lab sessions are designed to provide hands-on experience with the tools and workflows used throughout the course. Students will apply concepts introduced during the lectures through practical exercises, individual project work, and group project development.
+
+The labs will cover topics including programming tools and environments, Git and GitHub, cloud computing, APIs, packages and model serving, and other tools used in data science. Students will also use the lab sessions to develop their mini individual project and, later in the course, their final group project.
+
+During the lab sessions, students will:
+
+- Work with programming tools and development environments.
+- Use Git and GitHub for version control and collaboration.
+- Work with cloud-based computing environments and APIs.
+- Explore relevant packages, models, and model-serving tools.
+- Apply data science and machine learning techniques to practical problems.
+- Develop and document a mini individual project.
+- Prepare and present the results of the mini individual project as a poster.
+- Work collaboratively on the final group project.
+- Develop, test, document, and submit the final project.
+
+The specific lab activities, exercises, and project deliverables will be introduced and discussed during the course.
+
 
 # Project
 
