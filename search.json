@@ -1114,7 +1114,7 @@
     "href": "slides/lec-11.html#sec-current",
     "title": "Data transformations",
     "section": "Current",
-    "text": "Current\nTo get the current date or date-time you can use today() or now():\n\ntoday()\n\n[1] \"2026-08-24\"\n\nnow()\n\n[1] \"2026-08-24 13:55:14 UTC\""
+    "text": "Current\nTo get the current date or date-time you can use today() or now():\n\ntoday()\n\n[1] \"2026-08-24\"\n\nnow()\n\n[1] \"2026-08-24 13:56:52 UTC\""
   },
   {
     "objectID": "slides/lec-11.html#sec-dt-import-1",
@@ -2132,7 +2132,7 @@
     "href": "course-overview.html#labs",
     "title": "Data Science Applications in Agriculture",
     "section": "Labs",
-    "text": "Labs\nOne the things you will definitely learn in this course will involve writing code, and coding is a skill that is best learned by doing. Therefore, as much as possible, you will need to finish a weekly coding assignment. Every week a new assignment will be opened for each of you on the online coding platform Dodona. There is a strict deadline at the day before the next lab (monday at 12 pm) to finish the assignment, individually. There will not be a deadline during the february and spring break. The number of successfully finished assignments at the end of the course is part of your individual grading (see below). You are allowed to use AI for these exercises, but it is strongly recommended to not use it to much as you will not be allowed to use it at the programming exam (see below). Try to ask your class mates first when you have troubles finishing an exercise or go to the office hours of this course. Dodona recommends using the programm Pycharm, however we will be using Google Colab for the programming exercises. Every student will get an individual folder in the shared Beast & Bytes drive and can use this to store their notebooks.",
+    "text": "Labs",
     "crumbs": [
       "Course information",
       "Overview"
