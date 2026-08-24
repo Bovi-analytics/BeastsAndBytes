@@ -1114,7 +1114,7 @@
     "href": "slides/lec-11.html#sec-current",
     "title": "Data transformations",
     "section": "Current",
-    "text": "Current\nTo get the current date or date-time you can use today() or now():\n\ntoday()\n\n[1] \"2026-08-24\"\n\nnow()\n\n[1] \"2026-08-24 14:06:41 UTC\""
+    "text": "Current\nTo get the current date or date-time you can use today() or now():\n\ntoday()\n\n[1] \"2026-08-24\"\n\nnow()\n\n[1] \"2026-08-24 23:23:31 UTC\""
   },
   {
     "objectID": "slides/lec-11.html#sec-dt-import-1",
@@ -1800,14 +1800,14 @@
     "href": "slides/lec-1.html#meet-your-team-partners",
     "title": "Lecture 1 - Meet + greet",
     "section": "Meet your team partners",
-    "text": "Meet your team partners\n\nWhat is your background in agriculture?\nWhat is the main reason to subscribe to the course?\nWhat do you really hope to learn?\nDo you have any coding experience?"
+    "text": "Meet your team partners\n\nPoll Everywhere Link"
   },
   {
     "objectID": "slides/lec-1.html#meet-the-other-experts",
     "href": "slides/lec-1.html#meet-the-other-experts",
     "title": "Lecture 1 - Meet + greet",
     "section": "Meet the other experts",
-    "text": "Meet the other experts\n\nSonam Yang (TA) - Graduate student & PhD candidate\nMeike van Leerdam (TA) - Graduate student & PhD candidate"
+    "text": "Meet the other experts\n\nSonam Yang (TA) - Graduate student & PhD candidate\nMeike van Leerdam (TA) - Graduate student & PhD candidate\nSumit Sharma (TA) - Graduate student & PhD candidate"
   },
   {
     "objectID": "slides/lec-1.html#what-is-digital-agriculture",
@@ -1831,60 +1831,60 @@
     "text": "Course learning objectives (part 2)\n\nAcquire practical skills through hands-on programming activities.\nExplore the applications of machine learning and artificial intelligence in agriculture.\nRecognize the significance of, and apply data privacy and security techniques in digital agriculture."
   },
   {
+    "objectID": "slides/lec-1.html#course-update",
+    "href": "slides/lec-1.html#course-update",
+    "title": "Lecture 1 - Meet + greet",
+    "section": "Course update",
+    "text": "Course update"
+  },
+  {
+    "objectID": "slides/lec-1.html#course-update-1",
+    "href": "slides/lec-1.html#course-update-1",
+    "title": "Lecture 1 - Meet + greet",
+    "section": "Course update",
+    "text": "Course update"
+  },
+  {
     "objectID": "slides/lec-1.html#topics-that-will-be-covered",
     "href": "slides/lec-1.html#topics-that-will-be-covered",
     "title": "Lecture 1 - Meet + greet",
     "section": "Topics that will be covered",
-    "text": "Topics that will be covered\n\nWeek 1 - Introduction, programming and team project kick-off\nWeek 2 - Data in agriculture\nWeek 3 - Decision making in agriculture - part 1\nWeek 4 - Decision making in agriculture - part 2\nWeek 5 - …"
+    "text": "Topics that will be covered\n\nWeek 1 - Introduction to Data Science Applications in Agriculture\nWeek 2 - Version Control and Reproducible Workflows\nWeek 3 - Cloud computing, API & Data Governance\nWeek 4 - Machine Learning & Artificial Intelligence"
   },
   {
-    "objectID": "slides/lec-1.html#weekly-programming-assignment",
-    "href": "slides/lec-1.html#weekly-programming-assignment",
+    "objectID": "slides/lec-1.html#two-projects",
+    "href": "slides/lec-1.html#two-projects",
     "title": "Lecture 1 - Meet + greet",
-    "section": "Weekly programming assignment",
-    "text": "Weekly programming assignment\n\nOne of the learning goals is to actively stimulate you by weekly programming assignments & assessments\nWe will use the Dodona platform for that. Make sure to try if you have access to the course.\nLink to the course"
+    "section": "Two projects",
+    "text": "Two projects\n\nWeek 5 - 7 Mini-project\nWeek 8 -14 Team-project"
   },
   {
-    "objectID": "slides/lec-1.html#weekly-programming-assignment-1",
-    "href": "slides/lec-1.html#weekly-programming-assignment-1",
+    "objectID": "slides/lec-1.html#assignments",
+    "href": "slides/lec-1.html#assignments",
     "title": "Lecture 1 - Meet + greet",
-    "section": "Weekly programming assignment",
-    "text": "Weekly programming assignment\nSign in to Dodona using your Cornell Microsoft365 or Google sign-in"
-  },
-  {
-    "objectID": "slides/lec-1.html#weekly-programming-assignment-2",
-    "href": "slides/lec-1.html#weekly-programming-assignment-2",
-    "title": "Lecture 1 - Meet + greet",
-    "section": "Weekly programming assignment",
-    "text": "Weekly programming assignment\nSubscribe to this course https://dodona.be/en/courses/5788/?secret=HqNPN"
-  },
-  {
-    "objectID": "slides/lec-1.html#weekly-programming-assignment-3",
-    "href": "slides/lec-1.html#weekly-programming-assignment-3",
-    "title": "Lecture 1 - Meet + greet",
-    "section": "Weekly programming assignment",
-    "text": "Weekly programming assignment\n\nMake sure to reach each of the deadlines\n\n\n\nDeadline\nAssignment\n\n\n\n\nMonday, Jan 26th 24:00\nPython Basics\n\n\nMonday, Feb 2nd 24:00\nConditional statements\n\n\nMonday. Feb 8th 24:00\nLoops\n\n\nMonday, Feb 15th 24:00\nStrings\n\n\nMonday, Feb 22th 24:00\n…"
+    "section": "Assignments",
+    "text": "Assignments\n\nSmall assignments in week 1-4\nPoster presentation in week 7\nTeam project (TBD)"
   },
   {
     "objectID": "slides/lec-1.html#homepage",
     "href": "slides/lec-1.html#homepage",
     "title": "Lecture 1 - Meet + greet",
     "section": "Homepage",
-    "text": "Homepage\nhttps://github.com/Bovi-analytics/BeastsAndBytes\n\nAll relevant course materials (and history)\nLinks to Teams, GitHub, Dodona, etc.\nLet’s take a tour!"
+    "text": "Homepage\nhttps://github.com/Bovi-analytics/BeastsAndBytes\n\nAll relevant course materials (and history)\nLinks to Teams, GitHub, Canvas, etc.\nLet’s take a tour!"
   },
   {
     "objectID": "slides/lec-1.html#activities-prepare-participate-practice-perform",
     "href": "slides/lec-1.html#activities-prepare-participate-practice-perform",
     "title": "Lecture 1 - Meet + greet",
     "section": "Activities: Prepare, Participate, Practice, Perform",
-    "text": "Activities: Prepare, Participate, Practice, Perform\n\nPrepare: Introduce new content and prepare for lectures by completing the readings\nParticipate: Attend and actively participate in lectures and labs, herd visits\nPractice: Practice your programming skills\nPerform: Put together what you’ve learned to analyze real-world data\nDodona assignments"
+    "text": "Activities: Prepare, Participate, Practice, Perform\n\nPrepare: Introduce new content and prepare for lectures by completing the readings\nParticipate: Attend and actively participate in lectures and labs\nPractice: Practice your programming skills (including AI)\nPerform: Put together what you’ve learned to analyze real-world data"
   },
   {
     "objectID": "slides/lec-1.html#grading",
     "href": "slides/lec-1.html#grading",
     "title": "Lecture 1 - Meet + greet",
     "section": "Grading",
-    "text": "Grading\nUpdate because of genAI: - Project score (50%) - We will determine the grades for the team project score together (50% of your score) - Individual score (50%) - Individual coding assignments (%) * Coding exam (%).\nExample:\n\nYour team project is graded as a group to 20/20 (50%)\nYou individually submitted 80% correct assignments\nYour coding exam 90% correct assignments\nYour end score is (50% * 100%) + (50% * 80% * 90%) = 86%"
+    "text": "Grading\n\nWeekly assignments wk 1 - 4 (20%)\nMini project (30%)\nTeam project (50%)"
   },
   {
     "objectID": "slides/lec-1.html#support",
@@ -1912,7 +1912,7 @@
     "href": "slides/lec-1.html#team-project",
     "title": "Lecture 1 - Meet + greet",
     "section": "Team project",
-    "text": "Team project\n\nTeam update wednesdays are supposed to be completed collaboratively.\nMost of the times we will meet in classrooms at the Morrison Hall building."
+    "text": "Team project\n\nMost of the times we will meet in classrooms at the Morrison Hall building."
   },
   {
     "objectID": "slides/lec-1.html#academic-integrity",
@@ -1940,14 +1940,7 @@
     "href": "slides/lec-1.html#five-tips-for-success",
     "title": "Lecture 1 - Meet + greet",
     "section": "Five tips for success",
-    "text": "Five tips for success\n\nHelp me understanding your needs as well.\nRead all the preparation material (if provided) before the lesson begins.\nAsk questions and actively collaborate with entire team.\nPerform the programming assignments.\nDon’t let a week pass by with lingering questions."
-  },
-  {
-    "objectID": "slides/lec-1.html#this-weeks-tasks",
-    "href": "slides/lec-1.html#this-weeks-tasks",
-    "title": "Lecture 1 - Meet + greet",
-    "section": "This week’s tasks",
-    "text": "This week’s tasks\n\nProject deliverables discussion"
+    "text": "Five tips for success\n\nHelp me understanding your needs as well.\nRead all the preparation material (if provided) before the lesson begins.\nAsk questions and actively collaborate with entire team.\nPerform the assignments.\nDon’t let a week pass by with lingering questions."
   },
   {
     "objectID": "slides/discussion-1.html#the-project",
