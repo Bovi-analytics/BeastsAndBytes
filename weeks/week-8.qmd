@@ -24,6 +24,6 @@ Fall Break. A project check-in or recovery session may be scheduled depending on
 
 Next week we will officially **kick off the final project**, establish teams and project goals, and visit a farm to understand agricultural data collection in practice.
 
-\::: {style="font-size: 0.875em;"}
+::: {style="font-size: 0.875em;"}
 Back to [course schedule](/ "Course schedule") ⏎
-\:::
+:::
