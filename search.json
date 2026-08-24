@@ -268,7 +268,7 @@
     "href": "weeks/week-4.html",
     "title": "Week 4",
     "section": "",
-    "text": "Introduction\nThis week we move from managing agricultural data to using it for prediction and learning. We introduce the foundations of machine learning and AI and begin exploring how these approaches can support agricultural applications.\n\n\nLearning goals\n\nUnderstand the basic concepts of machine learning and artificial intelligence\nDistinguish between supervised and unsupervised learning\nSet up a mini individual project\nExplore packages, Hugging Face models, and model serving\n\n\n\nLecture - ML and AI Basics\nIntroduction to machine learning and artificial intelligence, with examples from agriculture.\nTopics include supervised and unsupervised learning and their applications to agricultural data.\n\n\nLab - Project Mini: Packages, Hugging Face & Model Serving\nSet up the mini individual project and explore Python packages, Hugging Face models, and basic model serving.\n\n\nDiscussion - Ethical and Efficient Use of AI\nHow can we use AI effectively, responsibly, and efficiently in agricultural data science?\n\n\nAssignment\nOrganize your data, set up your GitHub repository, and submit a one-page concept note outlining your mini individual project.\n\n\nLooking ahead\nNext week we will begin working on the mini individual projects, applying the tools and concepts introduced so far.\n::: {style=“font-size: 0.875em;”} Back to course schedule ⏎ :::",
+    "text": "Introduction\nThis week we move from managing agricultural data to using it for prediction and learning. We introduce the foundations of machine learning and AI and begin exploring how these approaches can support agricultural applications.\n\n\nLearning goals\n\nUnderstand the basic concepts of machine learning and artificial intelligence\nDistinguish between supervised and unsupervised learning\nSet up a mini individual project\nExplore packages, Hugging Face models, and model serving\n\n\n\nLecture - ML and AI Basics\nIntroduction to machine learning and artificial intelligence, with examples from agriculture (Part 1)\n\n\nLab - Project Mini: Packages, Hugging Face & Model Serving\nIntroduction to the mini individual project and explore Python packages, Hugging Face models, and basic model serving.\n\n\nDiscussion - Ethical and Efficient Use of AI\nHow can we use AI effectively, responsibly, and efficiently in agricultural data science?\n\n\nAssignment\nSubmit a concept note outlining your plan for a mini individual project. Update your README to include your individual project plan, and submit the GitHub repository link to Canvas.\n\n\nLooking ahead\nNext week we will begin working on the mini individual projects, applying the tools and concepts introduced so far.\n::: {style=“font-size: 0.875em;”} Back to course schedule ⏎ :::",
     "crumbs": [
       "Weekly materials",
       "Week 4"
@@ -1114,7 +1114,7 @@
     "href": "slides/lec-11.html#sec-current",
     "title": "Data transformations",
     "section": "Current",
-    "text": "Current\nTo get the current date or date-time you can use today() or now():\n\ntoday()\n\n[1] \"2026-08-24\"\n\nnow()\n\n[1] \"2026-08-24 13:36:31 UTC\""
+    "text": "Current\nTo get the current date or date-time you can use today() or now():\n\ntoday()\n\n[1] \"2026-08-24\"\n\nnow()\n\n[1] \"2026-08-24 13:39:17 UTC\""
   },
   {
     "objectID": "slides/lec-11.html#sec-dt-import-1",
