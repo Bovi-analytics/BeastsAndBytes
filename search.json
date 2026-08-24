@@ -290,7 +290,7 @@
     "href": "weeks/week-5.html",
     "title": "Week 5",
     "section": "",
-    "text": "Introduction\nThis week is focused on applying the tools and concepts learned so far to a small individual data science project.\n\n\nLearning goals\n\nDevelop and refine the mini individual project\nApply data science tools to an agricultural problem\nPractice organizing code, data, and project workflows\nGet feedback and troubleshoot project challenges\n\n\n\nLecture - Q&A\nOpen forum for questions about course material, tools, and projects.\n\n\nLab - Work on Mini Individual Project\nDedicated hands-on time for project development, troubleshooting, and instructor support.\n\n\nDiscussion - Q&A & Introduction to Tableau\nContinued project discussion and introduction to Tableau for agricultural data visualization.\n\n\nAssignment\nSubmit a progress update on your mini individual project.\n\n\nLooking ahead\nThe mini project will prepare you for the larger team-based final project. We will soon introduce the expectations for working with real farm data and collaborating with farmers.\n::: {style=“font-size: 0.875em;”} Back to course schedule ⏎ :::",
+    "text": "Introduction\nThis week is focused on applying the tools and concepts learned so far to a small individual data science project.\n\n\nLearning goals\n\nDevelop and refine the mini individual project\nApply data science tools to an agricultural problem\nPractice organizing code, data, and project workflows\nGet feedback and troubleshoot project challenges\n\n\n\nLecture - ML and AI Basics\nIntroduction to machine learning and artificial intelligence, with examples from agriculture (Supervised vs. unsupervised learning in agricultural contexts) (Part 2)\n\n\nLab - Work on Mini Individual Project\nDedicated hands-on time for project development, troubleshooting, and instructor support.\n\n\nDiscussion - Q&A & Introduction to Tableau\nContinued project discussion and introduction to Tableau for agricultural data visualization.\n\n\nAssignment\nSubmit a progress update on your mini individual project.\n\n\nLooking ahead\nThe mini project will prepare you for the larger team-based final project. We will soon introduce the expectations for working with real farm data and collaborating with farmers.\n::: {style=“font-size: 0.875em;”} Back to course schedule ⏎ :::",
     "crumbs": [
       "Weekly materials",
       "Week 5"
@@ -1114,7 +1114,7 @@
     "href": "slides/lec-11.html#sec-current",
     "title": "Data transformations",
     "section": "Current",
-    "text": "Current\nTo get the current date or date-time you can use today() or now():\n\ntoday()\n\n[1] \"2026-08-24\"\n\nnow()\n\n[1] \"2026-08-24 13:44:41 UTC\""
+    "text": "Current\nTo get the current date or date-time you can use today() or now():\n\ntoday()\n\n[1] \"2026-08-24\"\n\nnow()\n\n[1] \"2026-08-24 13:47:14 UTC\""
   },
   {
     "objectID": "slides/lec-11.html#sec-dt-import-1",
@@ -2081,7 +2081,7 @@
     "href": "weeks/week-6.html",
     "title": "Week 6",
     "section": "",
-    "text": "Introduction\nThis week provides additional time to develop, test, and refine the mini individual project before the final presentation milestone.\n\n\nLearning goals\n\nContinue developing the mini individual project\nApply feedback to improve the project\nPractice reproducible coding and project organization\nPrepare the project for presentation\n\n\n\nLecture - Q&A\nOpen forum for questions and conceptual clarification.\n\n\nLab - Work on Mini Individual Project\nHands-on project development, troubleshooting, and instructor feedback.\n\n\nDiscussion - Q&A\nPeer discussion and feedback on project progress.\n\n\nAssignment\nSubmit a progress update on the mini individual project and ensure your latest project work and commits are submitted through Canvas.\n\n\nLooking ahead\nNext week we will present the mini projects and complete a DISC team assessment. After that, the course will shift toward the final team project.\n::: {style=“font-size: 0.875em;”} Back to course schedule ⏎ :::",
+    "text": "Introduction\nThis week provides additional time to develop, test, and refine the mini individual project before the final presentation milestone.\n\n\nLearning goals\n\nContinue developing the mini individual project\nApply feedback to improve the project\nPractice reproducible coding and project organization\nPrepare the project for presentation\n\n\n\nLecture - ML and AI Basics\nIntroduction to machine learning and artificial intelligence, with examples from agriculture (Supervised vs. unsupervised learning in agricultural contexts) (Part 2)\n\n\nLab - Work on Mini Individual Project\nHands-on project development, troubleshooting, and instructor feedback.\n\n\nDiscussion - Q&A\nPeer discussion and feedback on project progress.\n\n\nAssignment\nSubmit a progress update on the mini individual project and ensure your latest project work and commits are submitted through Canvas.\n\n\nLooking ahead\nNext week we will present the mini projects and complete a DISC team assessment. After that, the course will shift toward the final team project.\n::: {style=“font-size: 0.875em;”} Back to course schedule ⏎ :::",
     "crumbs": [
       "Weekly materials",
       "Week 6"
