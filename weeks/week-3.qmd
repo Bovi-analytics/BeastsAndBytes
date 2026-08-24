@@ -22,7 +22,7 @@ Agricultural data are increasingly collected, stored, and processed across cloud
 
 Introduction to cloud computing, APIs, hardware, compute and storage, and cloud-based agricultural data workflows.
 
-Topics include Databricks, Git integration, Unity Catalog, licensing, and data agreements.
+Topics include Databricks and Git integration (creating a notebook, reading the data and making a basic data profile), data agreements and licensing.
 
 # Lab - Cloud-Based Data Workflow
 
