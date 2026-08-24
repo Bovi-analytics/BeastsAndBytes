@@ -34,6 +34,6 @@ Final project review, troubleshooting, and feedback.
 
 Complete the final project deliverables and prepare for submission.
 
-\::: {style="font-size: 0.875em;"}
+::: {style="font-size: 0.875em;"}
 Back to [course schedule](/ "Course schedule") ⏎
-\:::
+:::
