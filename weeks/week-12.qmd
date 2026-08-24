@@ -34,6 +34,6 @@ Peer and instructor feedback on project progress.
 
 Continue final project development and incorporate feedback into the project.
 
-\::: {style="font-size: 0.875em;"}
+::: {style="font-size: 0.875em;"}
 Back to [course schedule](/ "Course schedule") ⏎
-\:::
+:::
