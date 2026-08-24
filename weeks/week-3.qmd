@@ -36,9 +36,15 @@ Introduction to data governance and tracking data lineage in agricultural datase
 
 # Assignment
 
-1. Complete a simple cloud-based workflow using Git and Databricks
+1. Get Databricks Education access as a student. Complete the student test/tutorial. Invite Dr. Miel to your Databricks workspace.
 
-2. Submit a completed Data Agreement Template
+2. Create or use your personal GitHub repository and make sure the repository is set to PUBLIC.
+
+3. Complete the simple cloud-based workflow assignment using Git and Databricks. Submit the link to your GitHub page in Canvas.
+
+4. Select an open-source license by following the provided flowchart. Add the selected license to your personal GitHub repository and submit the GitHub link in Canvas.
+
+5. Complete the Data Agreement Template. Upload the completed template to your personal GitHub repository and submit the GitHub link in Canvas.
 
 # Looking ahead
 
