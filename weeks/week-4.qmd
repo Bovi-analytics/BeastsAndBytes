@@ -39,6 +39,6 @@ Submit a concept note outlining your plan for a mini individual project. Update 
 
 Next week we will begin **working on the mini individual projects**, applying the tools and concepts introduced so far.
 
-\::: {style="font-size: 0.875em;"}
+::: {style="font-size: 0.875em;"}
 Back to [course schedule](/ "Course schedule") ⏎
-\:::
+:::
