@@ -71,8 +71,6 @@ The goal of the lectures is to have them as interactive as possible (which requi
 
 ## Labs
 
-# Labs
-
 The lab sessions are designed to provide hands-on experience with the tools and workflows used throughout the course. Students will apply concepts introduced during the lectures through practical exercises, individual project work, and group project development.
 
 The labs will cover topics including programming tools and environments, Git and GitHub, cloud computing, APIs, packages and model serving, and other tools used in data science. Students will also use the lab sessions to develop their mini individual project and, later in the course, their final group project.
