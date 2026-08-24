@@ -34,6 +34,6 @@ Teams review their progress and receive feedback on their final project.
 
 Continue final project development and prepare materials for final submission.
 
-\::: {style="font-size: 0.875em;"}
+::: {style="font-size: 0.875em;"}
 Back to [course schedule](/ "Course schedule") ⏎
-\:::
+:::
