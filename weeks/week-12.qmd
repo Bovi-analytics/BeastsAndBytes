@@ -1,7 +1,39 @@
 ---
-title: "Week 5"
-subtitle: "Welcome Beasts & Bytes"
+title: "Week 12"
+subtitle: "Final Project Development"
 editor: visual
 ---
 
-coming soon
+# Introduction
+
+This week focuses on developing, refining, and interpreting the results of the final project.
+
+# Learning goals
+
+1. Refine project analysis
+
+2. Interpret and evaluate results
+
+3. Improve project visualizations
+
+4. Address project challenges and limitations
+
+# Lecture - Final Project Work
+
+Guidance and support for final project development.
+
+# Lab - Final Project Work
+
+Teams continue analysis, modeling, visualization, and project documentation.
+
+# Discussion - Project Check-in
+
+Peer and instructor feedback on project progress.
+
+# Assignment
+
+Continue final project development and incorporate feedback into the project.
+
+::: {style="font-size: 0.875em;"}
+Back to [course schedule](/ "Course schedule") ⏎
+:::

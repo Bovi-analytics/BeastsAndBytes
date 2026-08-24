@@ -29,21 +29,25 @@ A statistical course such one of the following is not required but strongly advi
 
 # Learning outcomes
 
-1.  Explain the fundamentals of data science and digital agriculture including their interdisciplinary challenges.
+1. Understand the data science landscape** and its applications in agriculture.
 
-2.  Implement the various data science technologies, precision farming techniques and digital tools used in modern agriculture.
+2. Develop practical coding skills** using Python and modern data science tools.
 
-3.  Conduct data collection, visualization, analysis, and interpretation within the context of digital agriculture.
+3. Apply data science workflows and FAIR principles** to organize, manage, and analyze agricultural data.
 
-4.  Acquire practical skills through hands-on programming activities.
+4. Scope agricultural problems using systems thinking** and translate them into data science projects.
 
-5.  Explore the applications of machine learning and artificial intelligence in agriculture.
+5. Independently design and execute a data science project**, from problem definition to results and communication.
 
-6.  Recognize the significance of, and apply data privacy and security techniques in digital agriculture.
+6. Reflect on their learning and take ownership of their development** as data science practitioners.
+
+7. Collaborate effectively in teams** to solve real-world agricultural problems.
+
+8. Use AI responsibly and efficiently**, recognizing its capabilities, limitations, and implications
 
 # Outline
 
-See [this link](https://bovi-analytics.github.io/BeastsAndBytes/) for details on course outline. As this course is under constant construction, expect updates to happen to this course outline during the spring semester of 2026.
+See [this link](https://bovi-analytics.github.io/BeastsAndBytes/) for details on course outline. As this course is under constant construction, expect updates to happen to this course outline during the fall semester of 2026.
 
 # Format
 
@@ -54,7 +58,7 @@ This course will consist of a combination of lectures, hands-on practical sessio
 +----------------+----------+----------+--------------------+----------+--------------------+
 |                | Monday   | Tuesday  | Wednesday          | Thursday | Friday             |
 +================+==========+==========+====================+==========+====================+
-| 10:10-11:00 am | Lecture  |          | Discussion         |          |                    |
+| 10:10-11:00 am | Lecture  |          | Lecture            |          |                    |
 +----------------+----------+----------+--------------------+----------+--------------------+
 | 1:25-4:25 pm   |          |   Lab    |                    |          |                    |
 |                |          |          |                    |          |                    |
@@ -67,16 +71,28 @@ The goal of the lectures is to have them as interactive as possible (which requi
 
 ## Labs
 
-One the things you will definitely learn in this course will involve writing code, and coding is a skill that is best learned by doing. Therefore, as much as possible, you will need to finish a weekly coding assignment. Every week a new assignment will be opened for each of you on the online coding platform [Dodona](https://www.dodona.be/). There is a strict deadline at the day before the next lab (monday at 12 pm) to finish the assignment, individually. There will not be a deadline during the february and spring break. The number of successfully finished assignments at the end of the course is part of your individual grading (see below). You are allowed to use AI for these exercises, but it is strongly recommended to not use it to much as you will not be allowed to use it at the programming exam (see below). Try to ask your class mates first when you have troubles finishing an exercise or go to the office hours of this course. 
-Dodona recommends using the programm Pycharm, however we will be using Google Colab for the programming exercises. Every student will get an individual folder in the shared Beast & Bytes drive and can use this to store their notebooks. 
+The lab sessions are designed to provide hands-on experience with the tools and workflows used throughout the course. Students will apply concepts introduced during the lectures through practical exercises, individual project work, and group project development.
 
-## Weekly project meetings
+The labs will cover topics including programming tools and environments, Git and GitHub, cloud computing, APIs, packages and model serving, and other tools used in data science. Students will also use the lab sessions to develop their mini individual project and, later in the course, their final group project.
 
-We will hold weekly project meetings during which we will discuss the groups overall progress, address any challenges, and provide guidance. These meetings are an opportunity for you to share updates, receive feedback, and collaborate with your peers and instructors. Your active participation is crucial to ensure that you stay on track and achieve the project goals.
+During the lab sessions, students will:
+
+- Work with programming tools and development environments.
+- Use Git and GitHub for version control and collaboration.
+- Work with cloud-based computing environments and APIs.
+- Explore relevant packages, models, and model-serving tools.
+- Apply data science and machine learning techniques to practical problems.
+- Develop and document a mini individual project.
+- Prepare and present the results of the mini individual project as a poster.
+- Work collaboratively on the final group project.
+- Develop, test, document, and submit the final project.
+
+The specific lab activities, exercises, and project deliverables will be introduced and discussed during the course.
+
 
 # Project
 
-Throughout the course, you will engage in a group project that involves solving a real-world, data-intensive problem in agriculture. Working in teams, you will collaborate with farmers and stakeholders to identify the exact problem. Your task will be to develop a data-driven solution using digital tools and techniques learned during the course.
+In the second half of the course, you will engage in a group project that involves solving a real-world, data-intensive problem in agriculture. Working in teams, you will collaborate with farmers and stakeholders to identify the exact problem. Your task will be to develop a data-driven solution using digital tools and techniques learned during the course.
 
 ## Differrent project phases we will tackle together
 
@@ -90,8 +106,7 @@ Throughout the course, you will engage in a group project that involves solving 
 
 5.  **Implementation Plan:** Create a detailed plan for implementing the proposed solution.
 
-6.  **Presentation and report:** You will prepare and present your project to the farmer, including your methodology, findings, and proposed solution. This will be summarized in a final project report
-
+6.  **Presentation and report:** You will prepare and present your project, including your methodology, findings, and proposed solution. 
 
 # Website
 
@@ -101,44 +116,53 @@ Although I will try to avoid last minute changes to the schedule this might happ
 
 # Assessment & grading
 
-Assessment methods will include individual coding assignments, a coding exam and a group project including presentations and group report.
+Assessment will consist of individual assignments, a mini individual project with a poster presentation, and a final group project.
 
-## Group assessment
-
-Together with Dr. Hostens the group will set goals for the project. You get to decide what makes a succesfull project and grading will be based on acchieving those goals. This might sound a bit vague for now, but we will discuss this elaborately in class.  
-
+| Assessment component | Weight |
+|---|---:|
+| Individual assignments | 20% |
+| Mini individual project + poster presentation | 30% |
+| Final group project | 50% |
+| **Total** | **100%** |
 
 ## Individual assessment
 
-**It is very important to read this part as your individual assessments will be influencing your individual gradings.**
+### Individual assignments
 
-### Dodona assignments
+Throughout the course, students will complete a number of individual coding and practical assignments. These assignments are designed to help students develop the technical skills needed for the individual and group projects.
 
-At the end of the course you will be evaluated on the % of weekly assignments you have coded correctly in the Dodona framework (which you will learn during the course). That percentage will be multiplied with your grade for the programming exam, resulting in your final individual grade. The individual grade will be combined with the group grade to make the final grade.
+The **individual assignments will account for 20% of the final grade**.
 
-Finishing each of the assignments within each deadline is not that difficult. You "just" need to devote the time to it. I have used this method a lot during my courses. It is not to annoy students, but to make sure the entire group keeps progressing on the programming skills during the project. You will thank me for that at a certain moment. For full transparency, I learned to code Python using a similar approach. Once I understood why this was done, I started appreciating this method as one of the most inspiring learning methods I have ever seen.
+### Mini individual project
 
+Each student will complete a **mini individual project** and present the results through a **poster presentation**. The project will provide an opportunity to apply the skills learned during the course to an individual topic or problem.
 
-### Programming exam
+The **deliverables, project requirements, and assessment criteria will be discussed in class**.
 
-At the end of the course there will be an individual programming exam in the program Dodona (in class). It is not allowed to use generative AI for this exam (which will be monitored in class). The exam will consist of three programming exercises similar to the exercises covered in the course. There will be practice exams available to prepare you for this test. The date of this exam is still to be decided.
+The mini individual project and poster presentation together account for **30% of the final grade**.
 
-You will receive an individual score for this part.
+## Group assessment
 
-### Final individual score
+### Final group project
 
-The percentage of weekly correctly finished assignment will be multiplied with your programming exam, resulting in your final individual grade. Keep in mind that finishing less than 50% of your weekly assignments will result in the mathematical impossibility to pass for this component of the exam (49% * 100 < 50%).
+The final assessment will consist of a **group project**. Students will work together to develop a larger project that applies the programming, data analysis, Git/GitHub, and cloud-based skills learned throughout the course.
 
-## Final grading scale
+Together with the instructor, the group will define the goals and scope of the project. The project should demonstrate effective collaboration, appropriate technical implementation, and clear communication of the results.
 
-The final scale will combine your individual score (50%) and group project score (50%). We will determine jointly in one of the first lectures how the group project will be graded.
+The **deliverables, project requirements, presentation format, and grading criteria will be discussed in class**.
 
-An example :
-- The group project was finally graded at 100% (which is definitely possible).
-- Student A successfully finished 100% of the coding assignments within each deadline, and finished the exam successfully with a score of 90%. As
-a result student A gets (50% * 100%) + (50% * 100% * 90%) = 95% as the final individual grade.
-- Student B only finished 50% of the coding assignments within each deadline, and finished the exam successfully with a score of 70%. As
-a result student B gets (50% * 100%) + (50% * 50% * 70%) = 67% as the final individual grade.
+The final group project accounts for **50% of the final grade**.
+
+## Final grading
+
+The final grade will be calculated as follows:
+
+- **20%** — Individual assignments
+- **30%** — Mini individual project + poster presentation
+- **50%** — Final group project
+
+**Total: 100%**
+
 
 | Grade | Low   | High  |
 |:------|:------|:------|

@@ -1,7 +1,39 @@
 ---
-title: "Week 5"
-subtitle: "Welcome Beasts & Bytes"
+title: "Week 14"
+subtitle: "Final Project Development"
 editor: visual
 ---
 
-coming soon
+# Introduction
+
+Teams use this week to finalize their analysis, results, documentation, and project deliverables.
+
+# Learning goals
+
+1. Finalize project analysis and results
+
+2. Ensure code and data are organized
+
+3. Complete project documentation
+
+4. Prepare final deliverables
+
+# Lecture - Final Project Work
+
+Guidance and support for final project completion.
+
+# Lab - Final Project Work
+
+Dedicated team time for analysis, documentation, and final deliverable preparation.
+
+# Discussion - Final Project Check-in
+
+Final project review, troubleshooting, and feedback.
+
+# Assignment
+
+Complete the final project deliverables and prepare for submission.
+
+::: {style="font-size: 0.875em;"}
+Back to [course schedule](/ "Course schedule") ⏎
+:::

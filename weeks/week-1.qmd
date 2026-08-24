@@ -6,28 +6,46 @@ editor: visual
 
 # Introduction
 
-Welcome to the exciting realm of Digital Agriculture! In this innovative course, we delve into the intersection of cutting-edge technologies and traditional farming practices. Explore how data analytics, sensor technologies, and precision farming methods revolutionize animal management, resource optimization, and decision-making processes. Gain insights into the transformative potential of digital tools in enhancing agricultural sustainability and productivity. Whether you're an early-stage dairy professional or a tech enthusiast, join us on a journey to harness the power of digital advancements for a smarter and more efficient future in agriculture.
+Welcome to *Data Science Applications in Agriculture*! In this course, we explore how data science, programming, AI, and digital technologies can be applied to real-world agricultural problems and decision-making.
 
 # Learning goals
 
-1.  Introduction to the 'Data Science Applications in Agriculture' course
+1. Understand the course structure, expectations, and semester projects
 
-2.  Get to know the team and explore the project topic
+2. Get to know the instructional team and project topics
 
-3.  Get to know python
+3. Understand the role of data science in agriculture
 
-4.  Submit programming assignment by Monday 12 pm through Dodona 
+4. Set up a programming environment and run basic Python code
 
+Please take a moment to fill in this form so we can tailor the course to your needs: [Pre-course questionnaire](https://forms.office.com/r/bDEBaU5fN1)
 
-Please take a moment to fill in this forms so we can tailor the course to your needs: [Pre-course questionnaire](https://forms.office.com/r/bDEBaU5fN1) 
+# Lecture - Course Overview
 
-# Lecture - What is “decision support”?
-Overview of dairy decision‑making contexts: nutrition, health, reproduction, environment, labor.
-Introduction to farm data ecosystems.
+Introduction to the course, expectations, semester projects, and applications of data science in agriculture.
 
-# Lab - Identify decisions made on a dairy farm.
-Outcome: Students map a set of decisions farmers make daily/weekly.
+# Lab - Toolbox: IDEs, Programming Languages & Vibe Coding
+
+Introduction to common development tools, including VS Code, Google Colab, Cursor, PyCharm, RStudio, and Claude Cowork.
+
+Students will set up VS Code for Python and run a basic Python program.
+
+# Discussion - Data Science in Agriculture
+
+What is data science, and how is it changing agriculture?
+
+Topics include data lineage, satellite data, AI agents, and packages and environment management.
+
+# Assignment
+
+1. Run a provided Python program using one of the IDEs introduced in class and submit a screenshot showing successful execution.
+2. Profile on Github Education shared through Canvas
+
+# Looking ahead
+
+Next week we will introduce **Git and GitHub** to help us track, organize, and collaborate on our code and projects.
 
 ::: {style="font-size: 0.875em;"}
-Back to [course schedule](/ "Course schedule") ⏎
+Back to [course schedule](/ "Course schedule")
 :::
+

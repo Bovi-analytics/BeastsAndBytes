@@ -1,7 +1,39 @@
 ---
-title: "Week 5"
-subtitle: "Welcome Beasts & Bytes"
+title: "Week 11"
+subtitle: "Final Project Development"
 editor: visual
 ---
 
-coming soon
+# Introduction
+
+Teams continue working on their final projects, moving from project planning toward analysis and results.
+
+# Learning goals
+
+1. Continue analyzing project data
+
+2. Apply appropriate data science methods
+
+3. Interpret preliminary results
+
+4. Refine the project based on feedback
+
+# Lecture - Final Project Work
+
+Guidance and support for ongoing project development.
+
+# Lab - Final Project Work
+
+Team-based analysis, coding, visualization, and troubleshooting.
+
+# Discussion - Project Check-in
+
+Teams share progress and discuss challenges and next steps.
+
+# Assignment
+
+Submit a project progress update and maintain organized project files and commits.
+
+::: {style="font-size: 0.875em;"}
+Back to [course schedule](/ "Course schedule") ⏎
+:::

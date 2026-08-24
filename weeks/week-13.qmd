@@ -1,22 +1,39 @@
 ---
 title: "Week 13"
-subtitle: "Combining code"
+subtitle: "Final Project Development & Communication"
 editor: visual
 ---
 
-Understanding GitHub: 
+# Introduction
 
-Get a **free** GitHub education account and follow the following [course](https://education.github.com/experiences/intro_to_github) 
+Teams begin bringing their final projects together and preparing to communicate their findings.
 
-In this Experience you'll learn the basics of the GitHub Flow including creating and making changes to branches within a repository, as well as creating and merging pull requests. The GitHub flow is useful for everyone, not just developers. It should take less than an hour to complete. 
+# Learning goals
 
-Or if you do not want to wait for an account, some more accessible options:
+1. Refine project results
 
-https://github.com/skills/introduction-to-github
+2. Improve data visualization and communication
 
-https://github.com/skills/introduction-to-git 
+3. Connect findings to the agricultural problem
 
-https://github.com/skills/resolve-merge-conflicts
+4. Prepare project documentation
 
-The example repo (lactation curve package) can be found [here](https://github.com/Bovi-analytics/lactation_curve_core). 
+# Lecture - Final Project Work
 
+Guidance and support for final project development and communication.
+
+# Lab - Final Project Work
+
+Teams refine analysis, visualizations, documentation, and deliverables.
+
+# Discussion - Project Feedback
+
+Teams review their progress and receive feedback on their final project.
+
+# Assignment
+
+Continue final project development and prepare materials for final submission.
+
+::: {style="font-size: 0.875em;"}
+Back to [course schedule](/ "Course schedule") ⏎
+:::

@@ -1,7 +1,43 @@
 ---
-title: "Week 5"
-subtitle: "Welcome Beasts & Bytes"
+title: "Week 9"
+subtitle: "Final Project Kickoff & Farm Visit"
 editor: visual
 ---
 
-coming soon
+# Introduction
+
+The final project begins this week. Students will transition from individual projects to a team-based real-world agricultural data science project.
+
+# Learning goals
+
+1. Understand the final project scope and expectations
+
+2. Connect with real-world agricultural data and decision-making
+
+3. Establish project teams, roles, and milestones
+
+4. Begin developing a project plan
+
+# Lecture - Final Project Kickoff
+
+Introduction to the final project, project expectations, scope, and deliverables.
+
+# Lab - Farm Visit
+
+Visit a farm to observe agricultural data collection and understand how data are generated and used in practice.
+
+# Discussion - Final Project Planning
+
+Teams discuss their project objectives, roles, data needs, and initial milestones.
+
+# Assignment
+
+Develop an initial final project plan, including the project question, team roles, data needs, and next steps.
+
+# Looking ahead
+
+The following weeks will focus on **developing the final project**, from data acquisition and organization to analysis, modeling, and communication of results.
+
+::: {style="font-size: 0.875em;"}
+Back to [course schedule](/ "Course schedule") ⏎
+:::

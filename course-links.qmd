@@ -6,7 +6,6 @@ title: "Useful links"
 |----|----|
 | Google colab | 🔗 on [Google colaboratory notebooks](https://colab.research.google.com/) |
 | Shared Beast & Bytes Drive | 🔗 on [Google Drive](https://drive.google.com/drive/folders/1aEYFt8kqWBx3gFG3PBBxkVNMpHUj_-OF?usp=sharing) |
-| Dodona | 🔗 on [Dodona](https://dodona.be/nl/courses/5788/?secret=HqNPN) |
 | Python | 🔗 on [Python programming language](https://www.python.org/) |
 | Discussion forum | 🔗 on [Github Issues](https://github.com/Bovi-analytics/BeastsAndBytes/issues/11)
 | Virtual meetings | 🔗 on Teams |
