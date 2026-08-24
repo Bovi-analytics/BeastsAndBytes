@@ -45,6 +45,7 @@ Topics include data lineage, satellite data, AI agents, and packages and environ
 
 Next week we will introduce **Git and GitHub** to help us track, organize, and collaborate on our code and projects.
 
-\::: {style="font-size: 0.875em;"}
-Back to [course schedule](/ "Course schedule") ⏎
-\:::
+::: {style="font-size: 0.875em;"}
+Back to [course schedule](/ "Course schedule")
+:::
+
