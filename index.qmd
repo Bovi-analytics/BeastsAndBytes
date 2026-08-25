@@ -9,7 +9,7 @@ Note that this schedule will be updated as the course progresses, with all chang
 ::: column-screen-inset-right
 | Week | Date | Topic | Teachers | Prepare | Lecture |
 |:----------:|:----------:|------------|------------|:----------:|:----------:|
-| 1 | 8/24 (Mon) | (LEC) Course Outline | Dr. Miel | 📖 | 🖥️ |
+| 1 | 8/24 (Mon) | (LEC) Course Outline | Dr. Miel | [📖](slides/lec-1.html)| 🖥️ |
 | 1 | 8/25 (Tue) | (LAB) Toolbox: IDEs, Programming Languages & Vibe Coding | Bart, Hanlu, Meike, Puchun & Dr. Miel | 📖 | 🖥️ |
 | 1 | 8/26 (Wed) | (DISC) Data Science in Agriculture | Sumit, Sonam, Puchun, Hanlu, Bart & Meike | 📖 | 🖥️ |
 | 2 | 8/31 (Mon) | (LEC) Version Control Systems & Integration | Dr. Miel | 📖 | 🖥️ |
