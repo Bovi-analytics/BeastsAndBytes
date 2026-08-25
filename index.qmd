@@ -16,8 +16,8 @@ Note that this schedule will be updated as the course progresses, with all chang
 | 2 | 9/1 (Tue) | (LAB) Toolbox: Broken Online, Merge Conflicts & Branching | Dr. Miel and Meike | 📖 | 🖥️ |
 | 2 | 9/2 (Wed) | (DISC) Naming Conventions & FAIR Principles | Dr. Miel | 📖 | 🖥️ |
 | 3 | 9/7 (Mon) | No Class – Labor Day Holiday | - | - | - |
-| 3 | 9/8 (Tue) | (LAB) Cloud Computing, APIs & Hardware | Sonam | 📖 | 🖥️ |
-| 3 | 9/9 (Wed) | (DISC) Data Governance & Data Lineage | Dr. Miel | 📖 | 🖥️ |
+| 3 | 9/8 (Tue) | (LAB) Cloud Computing, APIs & Hardware | Sonam, Dr. Hanlu | 📖 | 🖥️ |
+| 3 | 9/9 (Wed) | (DISC) Data Governance & Data Lineage | Dr. Miel and Dr.Puchun | 📖 | 🖥️ |
 | 4 | 9/14 (Mon) | (LEC) ML and AI Basics (Part 1)  | Dr. Miel | 📖 | 🖥️ |
 | 4 | 9/15 (Tue) | (LAB) Toolbox: Project Mini, Packages, Hugging Face & Model Serving | Sonam & Meike | 📖 | 🖥️ |
 | 4 | 9/16 (Wed) | (DISC) Ethical and Efficient Use of AI | Dr. Miel | 📖 | 🖥️ |
