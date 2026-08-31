@@ -10,13 +10,13 @@ This week we move from writing code individually to managing and collaborating o
 
 # Learning goals
 
-1. Understand the fundamentals of Git and GitHub
+1.  Understand the fundamentals of Git and GitHub
 
-2. Create and manage a GitHub repository
+2.  Create and manage a GitHub repository
 
-3. Understand commits, issues, branches, and merge conflicts
+3.  Understand commits, issues, branches, and merge conflicts
 
-4. Apply naming conventions and FAIR data principles
+4.  Apply naming conventions and FAIR data principles
 
 # Lecture - Version Control Systems & Integration
 
@@ -34,17 +34,9 @@ Introduction to file and variable naming conventions and the FAIR principles: Fi
 
 # Assignment
 
-Part 1: GitHub Education
-1. Create a GitHub profile.
-2. Create a public repository.
-3. Share the repository through Canvas.
+Part 1: GitHub Education 1. Create a GitHub profile. 2. Create a public repository. 3. Share the repository through Canvas.
 
-Part 2: GitHub and Branching
-1. Connect to the assigned repository.
-2. Create a branch.
-3. Create a merge conflict.
-4. Try to merge the branch.
-5. Resolve the merge conflict and complete the merge.
+Part 2: GitHub and Branching 1. Connect to the assigned repository. 2. Create a branch. 3. Create a merge conflict. 4. Try to merge the branch. 5. Resolve the merge conflict and complete the merge.
 
 # Looking ahead
 
