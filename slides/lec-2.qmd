@@ -1,5 +1,5 @@
 ---
-title: "Lecture 2 - Version Control for Data Science"
+title: "Lecture 2.1 - Version Control for Data Science"
 subtitle: "ANSCI 4040/6040 - Fall 2026"
 author: "Dr. Hostens"
 footer:  "[https://bovi-analytics.github.io/BeastsAndBytes/](https://bovi-analytics.github.io/BeastsAndBytes/)"
