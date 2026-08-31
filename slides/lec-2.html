@@ -9,8 +9,8 @@
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.10.18">
 
-  <meta name="author" content="Ass. Prof.&nbsp;Dr.&nbsp;Miel Hostens">
-  <title>Beasts &amp; Bytes – Lecture 2 - Reproducible &amp; FAIR data science</title>
+  <meta name="author" content="Dr.&nbsp;Hostens">
+  <title>Beasts &amp; Bytes – Lecture 2 - Version Control for Data Science</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -34,6 +34,72 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    html { -webkit-text-size-adjust: 100%; }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-f0594785aaed3d091f712140715742e2.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -127,11 +193,11 @@
       margin-right: 0; 
     }
   </style>
-<meta property="og:title" content="Lecture 2 - Reproducible &amp; FAIR data science – Beasts &amp; Bytes">
-<meta property="og:description" content="ANSCI 4040 - Spring 2026">
+<meta property="og:title" content="Lecture 2 - Version Control for Data Science – Beasts &amp; Bytes">
+<meta property="og:description" content="ANSCI 4040/6040 - Fall 2026">
 <meta property="og:site_name" content="Beasts &amp; Bytes">
-<meta name="twitter:title" content="Lecture 2 - Reproducible &amp; FAIR data science – Beasts &amp; Bytes">
-<meta name="twitter:description" content="ANSCI 4040 - Spring 2026">
+<meta name="twitter:title" content="Lecture 2 - Version Control for Data Science – Beasts &amp; Bytes">
+<meta name="twitter:description" content="ANSCI 4040/6040 - Fall 2026">
 <meta name="twitter:image" content="https://bovi-analytics.github.io/BeastsAndBytes/slides/images/twitter-card.png">
 <meta name="twitter:creator" content="@MielHostens">
 <meta name="twitter:card" content="summary_large_image">
@@ -141,95 +207,222 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Lecture 2 - Reproducible &amp; FAIR data science</h1>
-  <p class="subtitle">ANSCI 4040 - Spring 2026</p>
+  <h1 class="title">Lecture 2 - Version Control for Data Science</h1>
+  <p class="subtitle">ANSCI 4040/6040 - Fall 2026</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-Ass. Prof.&nbsp;Dr.&nbsp;Miel Hostens
+Dr.&nbsp;Hostens
 </div>
 </div>
 </div>
 
 </section>
-<section>
-<section id="reproducible-fair-data-science" class="title-slide slide level1 center">
-<h1>Reproducible &amp; FAIR data science</h1>
+<section id="todays-goal" class="slide level2">
+<h2>Today’s goal</h2>
+<p>By the end of today, you should be able to explain:</p>
+<blockquote>
+<p><strong>Why version control exists, what a Git workflow is doing, and what parts of a data-science project should be versioned.</strong></p>
+</blockquote>
+<div class="fragment">
+<p>We will learn this by <strong>experiencing the problem first</strong>.</p>
+</div>
+</section>
+<section id="part-1-the-data-science-crime-scene" class="slide level2">
+<h2>Part 1 — The data-science crime scene</h2>
+<p><strong>Your mission:</strong> reproduce the published result.</p>
+<blockquote>
+<p>RMSE = <strong>0.18 kg CH₄/cow/day</strong></p>
+</blockquote>
+<p>You have a folder:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb1-1"><a aria-label="1"></a>analysis.py</span>
+<span id="cb1-2"><a aria-label="2"></a>analysis_final.py</span>
+<span id="cb1-3"><a aria-label="3"></a>analysis_final2.py</span>
+<span id="cb1-4"><a aria-label="4"></a>analysis_FINAL_really.py</span>
+<span id="cb1-5"><a aria-label="5"></a>milk_production.csv</span>
+<span id="cb1-6"><a aria-label="6"></a>milk_production_cleaned.csv</span>
+<span id="cb1-7"><a aria-label="7"></a>data_new.csv</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="fragment">
+<p><strong>What went wrong?</strong></p>
+</div>
+</section>
+<section id="what-information-are-we-missing" class="slide level2">
+<h2>What information are we missing?</h2>
+<ul>
+<li>Which version was used?</li>
+<li>What changed?</li>
+<li>Who changed it?</li>
+<li>When did it change?</li>
+<li>Why was it changed?</li>
+<li>Can we go back?</li>
+<li>Can someone else reproduce it?</li>
+</ul>
+<div class="fragment">
+<p>This is the problem version control is designed to solve.</p>
+</div>
+</section>
+<section id="part-2-git-without-computers" class="slide level2">
+<h2>Part 2 — Git without computers</h2>
+<p>Can you build the most probable project history:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb2-1"><a aria-label="1"></a>START → [v1] → [v2] ... </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="commit" class="slide level2">
+<h2>Commit</h2>
+<p>A <strong>commit</strong> is a recorded checkpoint.</p>
+<div class="fragment">
+<p>A useful mental model:</p>
+<blockquote>
+<p><strong>Git remembers how the project got here.</strong></p>
+</blockquote>
+</div>
+</section>
+<section id="branching" class="slide level2">
+<h2>Branching</h2>
+<p>Student 1 and student 2 need to try different ideas.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb3-1"><a aria-label="1"></a>                 ┌──── Student 1: new model ──────┐</span>
+<span id="cb3-2"><a aria-label="2"></a>main ────────────┤                                ├── merge</span>
+<span id="cb3-3"><a aria-label="3"></a>                 └──── Student 2: new variable ───┘</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Question for you:</p>
+<blockquote>
+<p>Why not just overwrite the same files?</p>
+</blockquote>
+<div class="fragment">
+<p>A <strong>branch</strong> lets us experiment without destroying the main line of work.</p>
+</div>
+</section>
+<section id="pull-merge" class="slide level2">
+<h2>Pull &amp; merge</h2>
+<p>Two people have different histories.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb4-1"><a aria-label="1"></a>You:      A ─ B ─ C</span>
+<span id="cb4-2"><a aria-label="2"></a>                 \</span>
+<span id="cb4-3"><a aria-label="3"></a>Remote:   A ─ B ─ D</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>Pull</strong> → bring remote changes into your local project.</p>
+<p><strong>Merge</strong> → combine histories.</p>
+<div class="fragment">
+<p>And sometimes:</p>
+<blockquote>
+<p><strong>Merge conflict.</strong></p>
+</blockquote>
+<p>That is not a Git failure. It is Git asking a human to make the scientific decision.</p>
+</div>
+</section>
+<section id="what-should-we-version" class="slide level2">
+<h2>What should we version?</h2>
+<p>What about these files?</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb5-1"><a aria-label="1"></a>analysis.py</span>
+<span id="cb5-2"><a aria-label="2"></a>model_parameters.yml</span>
+<span id="cb5-3"><a aria-label="3"></a>README.md</span>
+<span id="cb5-4"><a aria-label="4"></a>requirements.txt</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="what-should-we-version-1" class="slide level2">
+<h2>What should we version?</h2>
+<p>What about these files?</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb6-1"><a aria-label="1"></a>raw_big_dataset.csv</span>
+<span id="cb6-2"><a aria-label="2"></a>model.pkl</span>
+<span id="cb6-3"><a aria-label="3"></a>temporary_plot.png</span>
+<span id="cb6-4"><a aria-label="4"></a>outputs/</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="what-should-we-version-2" class="slide level2">
+<h2>What should we version?</h2>
+<p>What about these files?</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb7-1"><a aria-label="1"></a>password.txt</span>
+<span id="cb7-2"><a aria-label="2"></a>API_key.txt</span>
+<span id="cb7-3"><a aria-label="3"></a>.env</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="version-controlled" class="slide level2">
+<h2>Version controlled</h2>
+<p><strong>YES</strong></p>
+<ul>
+<li><p>code</p></li>
+<li><p>configuration</p></li>
+<li><p>documentation</p></li>
+<li><p>small text-based metadata</p></li>
+</ul>
+</section>
+<section id="version-controlled-1" class="slide level2">
+<h2>Version controlled</h2>
+<p><strong>NO</strong></p>
+<ul>
+<li><p>large raw data</p></li>
+<li><p>temporary files</p></li>
+<li><p>secrets</p></li>
+<li><p>generated outputs</p></li>
+<li><p>local machine files</p></li>
+</ul>
+<div class="fragment">
+<p>This leads to <strong><code>.gitignore</code></strong>.</p>
+<blockquote>
+<p>Tell Git what <em>not</em> to track.</p>
+</blockquote>
+</div>
+</section>
+<section id="gitignore" class="slide level2">
+<h2>.gitignore</h2>
+<p>Typical python <code>.gitignore</code>:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8"><pre class="sourceCode numberSource gitignore number-lines code-with-copy"><code class="sourceCode"><span id="cb8-1"><a aria-label="1"></a># Local / temporary files</span>
+<span id="cb8-2"><a aria-label="2"></a>.DS_Store</span>
+<span id="cb8-3"><a aria-label="3"></a>*.tmp</span>
+<span id="cb8-4"><a aria-label="4"></a></span>
+<span id="cb8-5"><a aria-label="5"></a># Python cache</span>
+<span id="cb8-6"><a aria-label="6"></a>__pycache__/</span>
+<span id="cb8-7"><a aria-label="7"></a></span>
+<span id="cb8-8"><a aria-label="8"></a># Generated outputs</span>
+<span id="cb8-9"><a aria-label="9"></a>outputs/</span>
+<span id="cb8-10"><a aria-label="10"></a></span>
+<span id="cb8-11"><a aria-label="11"></a># Secrets</span>
+<span id="cb8-12"><a aria-label="12"></a>.env</span>
+<span id="cb8-13"><a aria-label="13"></a>*.key</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="the-data-science-twist" class="slide level2">
+<h2>The data-science twist</h2>
+<p>A result depends on more than code.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb9-1"><a aria-label="1"></a>          code</span>
+<span id="cb9-2"><a aria-label="2"></a>            ↓</span>
+<span id="cb9-3"><a aria-label="3"></a>raw data → preprocessing → model → result</span>
+<span id="cb9-4"><a aria-label="4"></a>            ↑                ↑</span>
+<span id="cb9-5"><a aria-label="5"></a>        parameters       environment</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>Reproducibility means thinking about the whole chain.</strong></p>
+<div class="fragment">
+<p>Git is one piece of that system — not the entire system.</p>
+</div>
+</section>
+<section id="why-version-control-when-i-work-alone" class="slide level2">
+<h2>Why version control when I work alone?</h2>
+<blockquote>
+<p>Why would a solo scientist use version control?</p>
+</blockquote>
+<p>Then ask:</p>
+<blockquote>
+<p>What would you want to undo, compare, or understand six months from now?</p>
+</blockquote>
+<div class="fragment">
+<p>The answer is often:</p>
+<blockquote>
+<p>“I want to know what I did — and be able to go back.”</p>
+</blockquote>
+</div>
+</section>
+<section id="one-mental-model-to-take-home" class="slide level2">
+<h2>One mental model to take home</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb10"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb10-1"><a aria-label="1"></a>       experiment</span>
+<span id="cb10-2"><a aria-label="2"></a>           ↓</span>
+<span id="cb10-3"><a aria-label="3"></a>       change files</span>
+<span id="cb10-4"><a aria-label="4"></a>           ↓</span>
+<span id="cb10-5"><a aria-label="5"></a>        commit</span>
+<span id="cb10-6"><a aria-label="6"></a>           ↓</span>
+<span id="cb10-7"><a aria-label="7"></a>   keep a reliable history</span>
+<span id="cb10-8"><a aria-label="8"></a>      ↙           ↘</span>
+<span id="cb10-9"><a aria-label="9"></a>   branch         collaborate</span>
+<span id="cb10-10"><a aria-label="10"></a>      ↘           ↙</span>
+<span id="cb10-11"><a aria-label="11"></a>          merge</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<ul>
+<li><p>Version control is not mainly about commands.</p></li>
+<li><p>It is about history, reproducibility, and safe change.</p></li>
+</ul>
+
 
 </section>
-<section id="what-are-the-fair-principles" class="slide level2">
-<h2>What are the FAIR principles</h2>
-<p><strong>FAIR data</strong>&nbsp;is&nbsp;<a href="https://en.wikipedia.org/wiki/Data" title="Data">data</a>&nbsp;which meets the&nbsp;<strong>FAIR principles</strong>&nbsp;of&nbsp;<a href="https://en.wikipedia.org/wiki/Findability" title="Findability">findability</a>, accessibility,&nbsp;<a href="https://en.wikipedia.org/wiki/Interoperability" title="Interoperability">interoperability</a>, and&nbsp;<a href="https://en.wikipedia.org/wiki/Reusability" title="Reusability">reusability</a>&nbsp;(FAIR).<sup><a href="https://en.wikipedia.org/wiki/FAIR_data#cite_note-FAIR_principles_2016-1">[1]</a><a href="https://en.wikipedia.org/wiki/FAIR_data#cite_note-2">[2]</a></sup>&nbsp;The acronym and principles were defined in a March 2016 paper in the journal&nbsp;<a href="https://en.wikipedia.org/wiki/Scientific_Data_(journal)" title="Scientific Data (journal)"><em>Scientific Data</em></a>&nbsp;by a consortium of scientists and organizations.<sup><a href="https://en.wikipedia.org/wiki/FAIR_data#cite_note-FAIR_principles_2016-1">[1]</a></sup></p>
-</section>
-<section id="get-to-know-the-principles-1" class="slide level2">
-<h2>Get to know the principles (1)</h2>
-<ul>
-<li><p>Get familiar with FAIR by looking at <a href="https://www.youtube.com/watch?v=K40utIzUzOk">this video</a>.</p></li>
-<li><p>Read the intial <a href="https://www.nature.com/articles/sdata201618">publication</a> on <em>The FAIR Guiding Principles for scientific data management and stewardschip.</em></p></li>
-<li><p>Explore the <a href="https://data.research.cornell.edu/data-management/sharing/fair/">vision of Cornell University on FAIR principles</a> and their cheatsheets.</p></li>
-</ul>
-</section>
-<section id="get-to-know-the-principles-2" class="slide level2">
-<h2>Get to know the principles (2)</h2>
-<ul>
-<li><p>Check for reproducible advise in the <a href="https://bovi-analytics.com/tutorials/">tutorials</a> at the bovi-analytics website.</p></li>
-<li><p>Discuss with the entire team and Dr.&nbsp;Miel Hostens (contact him on his desk) on how this will reflect on your team project.</p></li>
-</ul>
-</section>
-<section id="findable" class="slide level2">
-<h2>Findable</h2>
-<p>The first step in (re)using data is to find them. <a href="https://en.wikipedia.org/wiki/Metadata" title="Metadata">Metadata</a> and data should be easy to find for both humans and computers. <a href="https://en.wikipedia.org/wiki/Machine-readable_data" title="Machine-readable data">Machine-readable</a> metadata are essential for automatic <a href="https://en.wikipedia.org/wiki/Data_discovery" title="Data discovery">discovery</a> of datasets and services, so this is an essential component of the FAIRification process.</p>
-</section>
-<section id="findable-1" class="slide level2">
-<h2>Findable</h2>
-<ul>
-<li><p>F1. (Meta)data are assigned a globally unique and persistent identifier</p></li>
-<li><p>F2. Data are described with rich metadata (defined by R1 below)</p></li>
-<li><p>F3. Metadata clearly and explicitly include the identifier of the data they describe</p></li>
-<li><p>F4. (Meta)data are registered or indexed in a searchable resource</p></li>
-</ul>
-</section>
-<section id="accessible" class="slide level2">
-<h2>Accessible</h2>
-<p>Once the user finds the required data, they need to know how they can be accessed, possibly including <a href="https://en.wikipedia.org/wiki/Authentication" title="Authentication">authentication</a> and <a href="https://en.wikipedia.org/wiki/Authorization" title="Authorization">authorisation</a>.</p>
-</section>
-<section id="accessible-1" class="slide level2">
-<h2>Accessible</h2>
-<ul>
-<li><p>A1. (Meta)data are retrievable by their identifier using a standardised communications protocol</p></li>
-<li><p>A1.1 The protocol is open, free, and universally implementable</p></li>
-<li><p>A1.2 The protocol allows for an authentication and authorisation procedure, where necessary</p></li>
-<li><p>A2. Metadata are accessible, even when the data are no longer available</p></li>
-</ul>
-</section>
-<section id="interoperable" class="slide level2">
-<h2>Interoperable</h2>
-<p>The data usually need to be integrated with other data. In addition, the data need to interoperate with applications or workflows for <a href="https://en.wikipedia.org/wiki/Data_analysis" title="Data analysis">analysis</a>, <a href="https://en.wikipedia.org/wiki/Data_storage" title="Data storage">storage</a>, and <a href="https://en.wikipedia.org/wiki/Data_processing" title="Data processing">processing</a>.</p>
-</section>
-<section id="interoperable-1" class="slide level2">
-<h2>Interoperable</h2>
-<ul>
-<li><p>I1. (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation.</p></li>
-<li><p>I2. (Meta)data use <a href="https://en.wikipedia.org/wiki/Controlled_vocabulary" title="Controlled vocabulary">vocabularies</a> that follow FAIR principles</p></li>
-<li><p>I3. (Meta)data include qualified references to other (meta)data</p></li>
-</ul>
-</section>
-<section id="reusable" class="slide level2">
-<h2>Reusable</h2>
-<p>The ultimate goal of FAIR is to optimise the reuse of data. To achieve this, metadata and data should be well-described so that they can be replicated and/or combined in different settings.</p>
-</section>
-<section id="reusable-1" class="slide level2">
-<h2>Reusable</h2>
-<ul>
-<li><p>R1. (Meta)data are richly described with a plurality of accurate and relevant attributes</p></li>
-<li><p>R1.1. (Meta)data are released with a clear and accessible data usage license</p></li>
-<li><p>R1.2. (Meta)data are associated with detailed provenance</p></li>
-<li><p>R1.3. (Meta)data meet domain-relevant community standards</p></li>
-</ul>
-
-
-</section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <p><img src="images/Bovi-Analytics-SmallLogo.png" class="slide-logo"></p>
@@ -446,44 +639,6 @@ Ass. Prof.&nbsp;Dr.&nbsp;Miel Hostens
         ]
       });
     </script>
-    
-    <script>
-      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
-      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
-      // slide changes (different for each slide format).
-      (function () {
-        // dispatch for htmlwidgets
-        function fireSlideEnter() {
-          const event = window.document.createEvent("Event");
-          event.initEvent("slideenter", true, true);
-          window.document.dispatchEvent(event);
-        }
-
-        function fireSlideChanged(previousSlide, currentSlide) {
-          fireSlideEnter();
-
-          // dispatch for shiny
-          if (window.jQuery) {
-            if (previousSlide) {
-              window.jQuery(previousSlide).trigger("hidden");
-            }
-            if (currentSlide) {
-              window.jQuery(currentSlide).trigger("shown");
-            }
-          }
-        }
-
-        // hookup for slidy
-        if (window.w3c_slidy) {
-          window.w3c_slidy.add_observer(function (slide_num) {
-            // slide_num starts at position 1
-            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
-          });
-        }
-
-      })();
-    </script>
-
     <script id="quarto-html-after-body" type="application/javascript">
       window.document.addEventListener("DOMContentLoaded", function (event) {
         const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
