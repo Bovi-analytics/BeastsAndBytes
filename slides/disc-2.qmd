@@ -1,5 +1,5 @@
 ---
-title: "Lecture 2.2 - Reproducible & FAIR data science"
+title: "Discussion 2 - Reproducible & FAIR data science"
 subtitle: "ANSCI 4040/6040 - Fall 2026"
 author: "Dr. Hostens"
 footer:  "[https://bovi-analytics.github.io/BeastsAndBytes/](https://bovi-analytics.github.io/BeastsAndBytes/)"
@@ -42,17 +42,17 @@ knitr::opts_chunk$set(
 
 ## Get to know the principles (1)
 
--   Get familiar with FAIR by looking at [this video](https://www.youtube.com/watch?v=K40utIzUzOk).
+- Get familiar with FAIR by looking at [this video](https://www.youtube.com/watch?v=K40utIzUzOk).
 
--   Read the intial [publication](https://www.nature.com/articles/sdata201618) on *The FAIR Guiding Principles for scientific data management and stewardschip.*
+- Read the intial [publication](https://www.nature.com/articles/sdata201618) on *The FAIR Guiding Principles for scientific data management and stewardschip.*
 
--   Explore the [vision of Cornell University on FAIR principles](https://data.research.cornell.edu/data-management/sharing/fair/) and their cheatsheets.
+- Explore the [vision of Cornell University on FAIR principles](https://data.research.cornell.edu/data-management/sharing/fair/) and their cheatsheets.
 
 ## Get to know the principles (2)
 
--   Check for reproducible advise in the [tutorials](https://bovi-analytics.com/tutorials/) at the bovi-analytics website.
+- Check for reproducible advise in the [tutorials](https://bovi-analytics.com/tutorials/) at the bovi-analytics website.
 
--   Discuss with the entire team and Dr. Miel Hostens (contact him on his desk) on how this will reflect on your team project.
+- Discuss with the entire team and Dr. Miel Hostens (contact him on his desk) on how this will reflect on your team project.
 
 ## Findable
 
@@ -60,13 +60,13 @@ The first step in (re)using data is to find them. [Metadata](https://en.wikipedi
 
 ## Findable
 
--   F1. (Meta)data are assigned a globally unique and persistent identifier
+- F1. (Meta)data are assigned a globally unique and persistent identifier
 
--   F2. Data are described with rich metadata (defined by R1 below)
+- F2. Data are described with rich metadata (defined by R1 below)
 
--   F3. Metadata clearly and explicitly include the identifier of the data they describe
+- F3. Metadata clearly and explicitly include the identifier of the data they describe
 
--   F4. (Meta)data are registered or indexed in a searchable resource
+- F4. (Meta)data are registered or indexed in a searchable resource
 
 ## Accessible
 
@@ -74,13 +74,13 @@ Once the user finds the required data, they need to know how they can be accesse
 
 ## Accessible
 
--   A1. (Meta)data are retrievable by their identifier using a standardised communications protocol
+- A1. (Meta)data are retrievable by their identifier using a standardised communications protocol
 
--   A1.1 The protocol is open, free, and universally implementable
+- A1.1 The protocol is open, free, and universally implementable
 
--   A1.2 The protocol allows for an authentication and authorisation procedure, where necessary
+- A1.2 The protocol allows for an authentication and authorisation procedure, where necessary
 
--   A2. Metadata are accessible, even when the data are no longer available
+- A2. Metadata are accessible, even when the data are no longer available
 
 ## Interoperable
 
@@ -88,11 +88,11 @@ The data usually need to be integrated with other data. In addition, the data ne
 
 ## Interoperable
 
--   I1. (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation.
+- I1. (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation.
 
--   I2. (Meta)data use [vocabularies](https://en.wikipedia.org/wiki/Controlled_vocabulary "Controlled vocabulary") that follow FAIR principles
+- I2. (Meta)data use [vocabularies](https://en.wikipedia.org/wiki/Controlled_vocabulary "Controlled vocabulary") that follow FAIR principles
 
--   I3. (Meta)data include qualified references to other (meta)data
+- I3. (Meta)data include qualified references to other (meta)data
 
 ## Reusable
 
@@ -100,10 +100,10 @@ The ultimate goal of FAIR is to optimise the reuse of data. To achieve this, met
 
 ## Reusable
 
--   R1. (Meta)data are richly described with a plurality of accurate and relevant attributes
+- R1. (Meta)data are richly described with a plurality of accurate and relevant attributes
 
--   R1.1. (Meta)data are released with a clear and accessible data usage license
+- R1.1. (Meta)data are released with a clear and accessible data usage license
 
--   R1.2. (Meta)data are associated with detailed provenance
+- R1.2. (Meta)data are associated with detailed provenance
 
--   R1.3. (Meta)data meet domain-relevant community standards
+- R1.3. (Meta)data meet domain-relevant community standards
