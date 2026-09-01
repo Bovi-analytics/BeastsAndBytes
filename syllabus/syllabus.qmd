@@ -19,7 +19,7 @@ Data Science Applications in Agriculture
 
 ANSC 4040/ ANSC 6040
 
-Detailed and up-to-date course information is also available at: https://bovi-analytics.github.io/BeastsAndBytes/
+Detailed and up-to-date course information is also available at: [https://bovi-analytics.github.io/BeastsAndBytes/](https://bovi-analytics.github.io/BeastsAndBytes/)
 
 
 ANSC 4040/ ANSC 6040
@@ -197,7 +197,7 @@ Working in teams, students will collaborate with farmers and stakeholders to ide
 
 All lecture notes, assignment instructions, project information, the up-to-date schedule, and other course materials will be available on the course website:
 
-bovi-analytics.github.io/BeastsAndBytes/
+(bovi-analytics.github.io/BeastsAndBytes/)
 
 Because this is a challenge-based course under continuous development, the course outline and schedule may change during the semester. Changes will be documented on the course website and communicated through course announcements.
 
@@ -313,7 +313,7 @@ If experiences outside of class are affecting your performance, please feel free
 
 ## Mental Health and Stress management
 
-If you are feeling overwhelmed, or are worrying about a friend, please reach out to me, one of your instructors or your academic adviser. We can try to help, or we can put you in touch with someone who can help. Cornell has trained counselors available to listen and help: Cornell Health's Counseling and Psychological Services (CAPS, 607-255-5155); Student Support and Advocacy Services; Empathy, Assistance, and Referral Service (EARS, 213 Willard Straight Hall, 607-255-3277), and Let’s Talk. The Learning Strategies Center offers a range of academic resources.
+If you are feeling overwhelmed, or are worrying about a friend, please reach out to me, one of your instructors or your academic adviser. We can try to help, or we can put you in touch with someone who can help. Cornell has trained counselors available to listen and help: [Cornell Health's Counseling and Psychological Services](https://health.cornell.edu/services/counseling-psychiatry) (CAPS, 607-255-5155); [Student Support and Advocacy Services] (https://scl.cornell.edu/student-support); [Empathy, Assistance, and Referral Service](http://orgsync.rso.cornell.edu/org/ears) (EARS, 213 Willard Straight Hall, 607-255-3277), and [Let’s Talk](https://health.cornell.edu/services/counseling-psychiatry/lets-talk). The [Learning Strategies](http://lsc.cornell.edu/) Center offers a range of academic resources.
 
 ## Academic Integrity
 
@@ -323,13 +323,13 @@ Academic integrity applies to all academic work and interactions connected to th
 
 A Cornell student's submission of work for academic credit indicates that the work is the student's own. All outside assistance should be appropriately acknowledged, and students are responsible for truthfully representing their academic work.
 
-Students are expected to follow the Cornell University Code of Academic Integrity, including the version effective for Fall 2026.
+Students are expected to follow the [Cornell University Code of Academic Integrity](https://deanoffaculty.cornell.edu/faculty-and-academic-affairs/academic-integrity/upcoming-code-of-academic-integrity/), including the version effective for Fall 2026.
 
-Students should review the University's Guidelines for Students and ask the instructor or teaching assistants whenever they are uncertain whether a particular activity is permitted.
+Students should review the University's [Guidelines for Students](https://deanoffaculty.cornell.edu/faculty-and-academic-affairs/academic-integrity/upcoming-code-of-academic-integrity/#Students) and ask the instructor or teaching assistants whenever they are uncertain whether a particular activity is permitted.
 
 Academic integrity expectations apply regardless of whether work is completed using traditional resources, online resources, programming tools, generative AI, or other technologies.
 
-Each person in this class is expected to respect the principles of academic freedom for instructors and classmates and will maintain the privacy of the classroom environment, as outlined in Cornell’s S20 Commitment to Academic Integrity, Equitable Instruction, Trust, and Respect. 
+Each person in this class is expected to respect the principles of academic freedom for instructors and classmates and will maintain the privacy of the classroom environment, as outlined in [Cornell’s S20 Commitment to Academic Integrity, Equitable Instruction, Trust, and Respect](https://bpb-us-e1.wpmucdn.com/blogs.cornell.edu/dist/3/6798/files/2020/03/HonorFinal.pdf). 
 
 ## Responsible Use of Generative AI
 
@@ -337,7 +337,7 @@ Generative artificial intelligence and other generative tools are an intentional
 
 AI tools can be useful for learning, programming, brainstorming, exploring ideas, debugging, data analysis, and developing solutions. At the same time, relying on AI without critical evaluation can interfere with learning and can introduce inaccurate information, fabricated references, security risks, privacy concerns, bias, and other problems.
 
-The goal of this course is therefore not to prohibit students from using AI, but to teach students how to use it responsibly, critically, and effectively. See also: https://it.cornell.edu/ai-strategy/ai-guidelines , https://teaching.cornell.edu/generative-artificial-intelligence , https://teaching.cornell.edu/generative-artificial-intelligence/ai-academic-integrity 
+The goal of this course is therefore not to prohibit students from using AI, but to teach students how to use it responsibly, critically, and effectively. See also: [https://it.cornell.edu/ai-strategy/ai-guidelines](https://it.cornell.edu/ai-strategy/ai-guidelines) , [https://teaching.cornell.edu/generative-artificial-intelligence](https://teaching.cornell.edu/generative-artificial-intelligence) , [https://teaching.cornell.edu/generative-artificial-intelligence/ai-academic-integrity] (https://teaching.cornell.edu/generative-artificial-intelligence/ai-academic-integrity) 
 
 ## General AI expectations
 
@@ -487,7 +487,7 @@ When in doubt, ask before submitting the work.
 
 The course includes a dedicated discussion on the ethical and efficient use of AI.
 
-The purpose of this discussion is not simply to tell students what they can or cannot do. It is intended to help students develop the judgment needed to decide when, why, and how AI should be used. See also: https://undergrad.cornell.edu/students/academic-integrity/essential-guide-academic-integrity-undergraduate-students 
+The purpose of this discussion is not simply to tell students what they can or cannot do. It is intended to help students develop the judgment needed to decide when, why, and how AI should be used. See also: [https://undergrad.cornell.edu/students/academic-integrity/essential-guide-academic-integrity-undergraduate-students](https://undergrad.cornell.edu/students/academic-integrity/essential-guide-academic-integrity-undergraduate-students) 
 
 ## Collaboration and External Resources
 
@@ -585,7 +585,7 @@ Data governance and responsible data use are part of the professional skills dev
 
 ## Accommodations for Students with Disabilities
 
-Students with disabilities who require accommodations should contact Student Disability Services (SDS) and provide the appropriate accommodation documentation as early as possible in the semester.
+Students with disabilities who require accommodations should contact [Student Disability Services (SDS)](https://sds.cornell.edu/) and provide the appropriate accommodation documentation as early as possible in the semester.
 
 If you have an approved accommodation, please communicate with the instructor so that appropriate arrangements can be made.
 
@@ -599,7 +599,7 @@ Cornell provides a range of academic, health, counseling, accessibility, and stu
 
 ## Course Communication
 
-The course website (https://bovi-analytics.github.io/BeastsAndBytes/) will contain the most up-to-date information about course activities, assignments, project requirements, and schedule changes.
+The [course website](https://bovi-analytics.github.io/BeastsAndBytes/) will contain the most up-to-date information about course activities, assignments, project requirements, and schedule changes.
 
 Course announcements and important changes may also be communicated by email.
 
