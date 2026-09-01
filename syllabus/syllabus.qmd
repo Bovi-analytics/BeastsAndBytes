@@ -1,0 +1,676 @@
+---
+title: "Data Science Applications in Agriculture"
+date: today
+format:
+  pdf:
+    toc: false
+    number-sections: true
+    colorlinks: true
+    papersize: letter
+---
+
+![](images/CornellUniversity.png){width="257"} ![](/images/B&BLogo.png){width="80"}
+
+# Course
+
+Data Science Applications in Agriculture
+
+“Beast & Bytes”
+
+ANSC 4040/ ANSC 6040
+
+Detailed and up-to-date course information is also available at: https://bovi-analytics.github.io/BeastsAndBytes/
+
+
+ANSC 4040/ ANSC 6040
+
+# Course Information
+
+## Course description and aims
+
+This course offers an an undergraduate (sophomore, junior, senior) and graduate level experience in challenge-based learning, where students tackle data-driven problems within the agricultural sector. Working in collaborative teams, students will engage directly with farmers and agricultural stakeholders to understand real-world challenges and develop innovative, data-driven solutions.
+
+Throughout the course, students will learn to utilize a range of digital tools essential for modern data science. Key topics include data governance, data privacy, data collection, data storage, data processing, data visualization, data modeling, machine learning, artificial intelligence, and communicating data-driven results.
+
+Project management is a core component of the course. Students will learn to manage projects effectively, adhere to deadlines, communicate with stakeholders, and deliver results in a timely manner. The course emphasizes teamwork, communication, collaboration, critical thinking, and responsible use of digital technologies.
+
+By the end of the course, students will have gained practical experience in applying data science to agricultural problems. Students will develop skills in problem-solving, programming, data analysis, machine learning, artificial intelligence, project management, and communication.
+
+The course also emphasizes the responsible and critical use of artificial intelligence. Students will learn to use AI tools efficiently while recognizing their capabilities, limitations, ethical implications, and potential effects on data privacy, academic integrity, and decision-making.
+
+## Credits
+
+This course accounts for 3 credits.
+
+## Prerequisites
+
+A statistical course such as one of the following is not required but strongly advised:
+
+STSCI 2150/5150 Introductory Statistics for Biology
+
+BTRY 3010/STSCI 2200 & BTRY 5010/STSCI 5200: Biological Statistics I
+
+ILRST/STSCI 2100: Introductory Statistics
+
+Prior knowledge of Python is helpful and strongly encouraged.
+
+## Learning outcomes
+
+By the end of this course, students will be able to:
+
+1. Understand the data science landscape and its applications in agriculture.
+
+2. Develop practical coding skills using Python and modern data science tools.
+
+3. Apply data science workflows and FAIR principles to organize, manage, and analyze agricultural data.
+
+4. Scope agricultural problems using systems thinking and translate them into data science projects.
+
+5. Independently design and execute a data science project, from problem definition to results and communication.
+
+6. Reflect on their learning and take ownership of their development as data science practitioners.
+
+7. Collaborate effectively in teams to solve real-world agricultural problems.
+
+8. Use AI responsibly and efficiently, recognizing its capabilities, limitations, and implications.
+
+## Course Format
+
+This course consists of lectures, hands-on practical sessions, discussions, online programming exercises, individual project work, and collaborative project development.
+
+### General week format
+
+| Time | Monday | Tuesday | Wednesday | Thursday | Friday |
+| --- | --- | --- | --- | --- | --- |
+| 10:10–11:00 am | Lecture |  | Lecture / Discussion |  |  |
+| 1:25–4:25 pm |  | Lab |  |  |  |
+
+## Lectures
+
+Lectures introduce concepts, tools, and techniques used throughout the course. Lectures are intended to be interactive and require active participation.
+
+The instructor's role is to introduce new tools and techniques, but students are expected to actively engage with these tools and apply them to problems.
+
+## Labs
+
+The lab sessions provide hands-on experience with the tools and workflows used throughout the course.
+
+Labs will cover topics including:
+
+- Programming tools and development environments
+
+- Git and GitHub
+
+- Version control and collaboration
+
+- Cloud computing
+
+- APIs
+
+- Python packages
+
+- Machine learning and artificial intelligence tools
+
+- Model serving
+
+- Data science workflows
+
+- Practical data analysis
+
+- Development and documentation of individual projects
+
+- Development of the final group project
+
+Students will use lab sessions to develop their mini individual project and, later in the course, their final group project.
+
+During lab sessions, students will:
+
+- Work with programming tools and development environments.
+
+- Use Git and GitHub for version control and collaboration.
+
+- Work with cloud-based computing environments and APIs.
+
+- Explore relevant packages, models, and model-serving tools.
+
+- Apply data science and machine learning techniques to practical problems.
+
+- Develop and document a mini individual project.
+
+- Prepare and present the results of the mini individual project as a poster.
+
+- Work collaboratively on the final group project.
+
+- Develop, test, document, and submit the final project.
+
+Specific lab activities, exercises, and project deliverables will be introduced and discussed during the course.
+
+# Course Projects
+
+## Mini individual project
+
+During the first half of the course, each student will complete a mini individual data science project.
+
+The purpose of the mini project is to provide students with an opportunity to independently apply the tools and concepts introduced in the course.
+
+Students will:
+
+1. Identify an individual agricultural problem or question.
+
+2. Define and scope the problem.
+
+3. Identify and work with appropriate data.
+
+4. Apply relevant data science methods.
+
+5. Use appropriate computational and visualization tools.
+
+6. Interpret and communicate their findings.
+
+7. Document their workflow and decisions.
+
+8. Present the results as a poster.
+
+The specific project requirements and assessment criteria will be discussed during the course.
+
+## Final group project
+
+In the second half of the course, students will engage in a group project involving a real-world, data-intensive problem in agriculture.
+
+Working in teams, students will collaborate with farmers and stakeholders to identify and understand the problem. The team will then develop a data-driven solution using the tools and techniques learned during the course.
+
+## Project phases
+
+1. Problem Identification: Meet with the farmer and other stakeholders to understand the problem and their needs. Conduct initial research to define and scope the problem.
+
+2. Data Collection: Gather relevant data from appropriate sources while following data privacy, governance, and security requirements.
+
+3. Data Analysis and Visualization: Analyze collected data and identify relevant patterns, trends, and insights.
+
+4. Solution Development: Explore appropriate statistical, machine learning, or other data science approaches and develop a practical solution.
+
+5. Implementation Plan: Develop a plan for implementing the proposed solution in an appropriate agricultural setting.
+
+6. Presentation and Report: Present the methodology, findings, limitations, and proposed solution and submit the required project documentation.
+
+## Course Website
+
+All lecture notes, assignment instructions, project information, the up-to-date schedule, and other course materials will be available on the course website:
+
+bovi-analytics.github.io/BeastsAndBytes/
+
+Because this is a challenge-based course under continuous development, the course outline and schedule may change during the semester. Changes will be documented on the course website and communicated through course announcements.
+
+# Assessment and Grading
+
+Assessment consists of individual assignments, a mini individual project with a poster presentation, and a final group project.
+
+## Individual assignments
+
+Throughout the course, students will complete individual coding and practical assignments.
+
+These assignments are designed to help students develop the technical skills needed for the mini individual project and final group project.
+
+Individual assignments account for 20% of the final grade.
+
+Assignment-specific instructions will identify any restrictions on collaboration, external resources, software, or AI tools.
+
+## Mini individual project and poster presentation
+
+Each student will complete a mini individual project and present the results through a poster presentation.
+
+The project provides an opportunity to apply the skills learned during the course to an individual topic or problem.
+
+The mini individual project and poster presentation together account for 30% of the final grade.
+
+The project deliverables, requirements, and assessment criteria will be discussed in class.
+
+## Final group project
+
+The final assessment consists of a group project.
+
+Students will work together to develop a larger project applying programming, data analysis, Git/GitHub, cloud-based tools, machine learning, and other data science skills learned throughout the course.
+
+Together with the instructor and stakeholders, the group will define the goals and scope of the project.
+
+The project should demonstrate:
+
+- Effective collaboration
+
+- Appropriate technical implementation
+
+- Responsible data management
+
+- Appropriate use of data science and AI tools
+
+- Clear documentation
+
+- Critical interpretation of results
+
+- Clear communication of findings and limitations
+
+The final group project accounts for 50% of the final grade.
+
+The deliverables, project requirements, presentation format, and grading criteria will be discussed during the course.
+
+## Final grading
+
+The final grade will be calculated as follows:
+
+- 20% — Individual assignments
+
+- 30% — Mini individual project + poster presentation
+
+- 50% — Final group project
+
+Total: 100%
+
+## Grade scale
+
+| Grade | Low | High |
+| --- | --- | --- |
+| A+ | 99.80 | 100.0 |
+| A | 93.33 | 99.80 |
+| A- | 90.00 | 93.33 |
+| B+ | 86.66 | 90.00 |
+| B | 83.33 | 86.66 |
+| B- | 80.00 | 83.33 |
+| C+ | 76.66 | 80.00 |
+| C | 73.33 | 76.66 |
+| C- | 70.00 | 73.33 |
+| D+ | 66.66 | 70.00 |
+| D | 63.33 | 66.66 |
+| D- | 60.00 | 63.36 |
+| F | 0.00 | 60.00 |
+
+Each grade range includes the score on the left and excludes the score on the right. For example, a 90.0 is an A-, not a B+, while an 89.99 is a B+, not an A-.
+
+# Policies
+
+## Attendance and Participation
+
+Active participation is an important part of this challenge-based course.
+
+Students are expected to attend lectures, labs, discussions, project meetings, and other scheduled course activities.
+
+Because substantial portions of the course involve hands-on work, collaboration, and interaction with instructors and stakeholders, regular participation is important for successful completion of the course.
+
+If circumstances prevent you from participating in a scheduled activity, communicate with the instructor or course staff as early as possible.
+
+## Inclusive community
+
+I grew up in a family in which diversity, equity, and inclusion were important parts of everyday life. These values continue to shape how I approach teaching and learning.
+
+I aim to ensure that students from diverse backgrounds and perspectives are well served by this course. I strive to address students' learning needs in and outside the classroom and to view the diversity that students bring as a resource, strength, and benefit.
+
+My goal is to present materials and activities that respect diversity and align with Cornell University's core values.
+
+Your suggestions are truly encouraged and appreciated. Please let me know how I can improve the course's effectiveness for you personally or for other students and student groups.
+
+I also aim to foster a learning environment that embraces diversity of thought, perspectives, and experiences and respects the identities of all members of the course community.
+
+If experiences outside of class are affecting your performance, please feel free to speak with the instructor. Alternatively, your academic dean is a resource if you prefer to speak with someone outside the course.
+
+## Mental Health and Stress management
+
+If you are feeling overwhelmed, or are worrying about a friend, please reach out to me, one of your instructors or your academic adviser. We can try to help, or we can put you in touch with someone who can help. Cornell has trained counselors available to listen and help: Cornell Health's Counseling and Psychological Services (CAPS, 607-255-5155); Student Support and Advocacy Services; Empathy, Assistance, and Referral Service (EARS, 213 Willard Straight Hall, 607-255-3277), and Let’s Talk. The Learning Strategies Center offers a range of academic resources.
+
+## Academic Integrity
+
+Absolute integrity is expected of every Cornell student in all academic undertakings. Integrity entails a firm adherence to values grounded in honesty with respect to the intellectual efforts of oneself and others and in free and open inquiry and discussion.
+
+Academic integrity applies to all academic work and interactions connected to the educational process, including the use of University resources and digital technologies.
+
+A Cornell student's submission of work for academic credit indicates that the work is the student's own. All outside assistance should be appropriately acknowledged, and students are responsible for truthfully representing their academic work.
+
+Students are expected to follow the Cornell University Code of Academic Integrity, including the version effective for Fall 2026.
+
+Students should review the University's Guidelines for Students and ask the instructor or teaching assistants whenever they are uncertain whether a particular activity is permitted.
+
+Academic integrity expectations apply regardless of whether work is completed using traditional resources, online resources, programming tools, generative AI, or other technologies.
+
+Each person in this class is expected to respect the principles of academic freedom for instructors and classmates and will maintain the privacy of the classroom environment, as outlined in Cornell’s S20 Commitment to Academic Integrity, Equitable Instruction, Trust, and Respect. 
+
+## Responsible Use of Generative AI
+
+Generative artificial intelligence and other generative tools are an intentional part of this course. One of the learning outcomes of the course is to use AI responsibly and efficiently, recognizing its capabilities, limitations, and implications.
+
+AI tools can be useful for learning, programming, brainstorming, exploring ideas, debugging, data analysis, and developing solutions. At the same time, relying on AI without critical evaluation can interfere with learning and can introduce inaccurate information, fabricated references, security risks, privacy concerns, bias, and other problems.
+
+The goal of this course is therefore not to prohibit students from using AI, but to teach students how to use it responsibly, critically, and effectively. See also: https://it.cornell.edu/ai-strategy/ai-guidelines , https://teaching.cornell.edu/generative-artificial-intelligence , https://teaching.cornell.edu/generative-artificial-intelligence/ai-academic-integrity 
+
+## General AI expectations
+
+Unless an assignment explicitly states otherwise, students may use generative AI tools as learning and development aids.
+
+Appropriate uses may include:
+
+- Exploring or learning new concepts.
+
+- Asking for explanations of programming concepts.
+
+- Brainstorming possible approaches to a problem.
+
+- Getting help identifying possible causes of coding errors.
+
+- Exploring alternative programming approaches.
+
+- Generating practice examples.
+
+- Reviewing or improving code that the student understands.
+
+- Exploring data-analysis approaches.
+
+- Improving clarity or organization of student-written material.
+
+- Learning how to interact with APIs, packages, models, and other technical tools.
+
+- Using AI as a development partner when building software or data science solutions.
+
+However, students remain responsible for the work they submit.
+
+Using an AI tool does not transfer responsibility for the accuracy, originality, interpretation, security, or integrity of submitted work to the AI tool.
+
+Students must be able to understand and explain the work they submit.
+
+## Critical evaluation of AI output
+
+AI-generated content should never automatically be assumed to be correct.
+
+Students are responsible for critically evaluating AI-generated:
+
+- Code
+
+- Statistical methods
+
+- Data interpretations
+
+- Citations
+
+- References
+
+- Facts
+
+- Claims
+
+- Mathematical calculations
+
+- Recommendations
+
+- Technical explanations
+
+AI tools can produce incorrect or fabricated information, including citations to sources that do not exist. Students must independently verify important claims, references, methods, and results before relying on them in academic work.
+
+## Attribution and documentation
+
+When generative AI materially contributes to submitted work, students should transparently acknowledge its use according to the instructions for the relevant assignment.
+
+Depending on the assignment, students may be asked to provide information such as:
+
+- The AI tool used.
+
+- The model or version, when available.
+
+- The date of use.
+
+- The purpose for which the tool was used.
+
+- A description of how the output was incorporated or modified.
+
+- Relevant prompts or interactions when requested by the instructor.
+
+If AI-generated text, images, code, analysis, or other material is incorporated into submitted work, students must follow the attribution requirements provided for that assignment.
+
+AI-generated references must be independently verified.
+
+Assignment-specific instructions may require more detailed documentation of AI use.
+
+## AI and individual assessments
+
+AI use does not remove the distinction between using AI as a learning tool and having AI complete an assessment in place of the student.
+
+For individual assignments and the mini individual project, students are expected to produce their own intellectual work and demonstrate their own understanding.
+
+AI may assist with learning and development where permitted, but students should not submit AI-generated work that they do not understand or cannot explain as their own academic work.
+
+Assignment instructions may place additional restrictions on AI use when necessary to assess a particular learning objective.
+
+If an assignment requires a particular skill to be demonstrated independently, the assignment instructions will explicitly state that requirement.
+
+## AI and group projects
+
+The final project is collaborative, and the use of AI tools may form part of the team's development workflow.
+
+Teams may use appropriate AI tools for activities such as:
+
+- Brainstorming.
+
+- Programming assistance.
+
+- Debugging.
+
+- Documentation.
+
+- Exploring technical approaches.
+
+- Prototyping.
+
+- Research support.
+
+- Data-science workflows.
+
+However, the team remains responsible for understanding, testing, validating, documenting, and critically evaluating the resulting work.
+
+The use of AI does not replace the team's responsibility for its methodology, code, analysis, interpretation, data governance, or final conclusions.
+
+Teams must not submit fabricated sources, unsupported claims, unverified analyses, or untested code simply because an AI system produced them.
+
+## Privacy, confidentiality, and proprietary information
+
+Students must protect confidential, personal, proprietary, or otherwise sensitive information when using generative AI or other external digital tools.
+
+Do not upload confidential farmer information, personally identifiable information, proprietary datasets, credentials, passwords, private research data, or other sensitive information to an AI system or external service unless the instructor has explicitly confirmed that the tool and use are appropriate.
+
+Students are responsible for understanding the data-privacy implications of the tools they use.
+
+## AI tools and academic integrity
+
+Permitted use of AI does not override Cornell's Code of Academic Integrity.
+
+Using AI in a way that misrepresents the student's work, violates an assignment-specific restriction, involves unauthorized assistance, fabricates information or sources, or otherwise violates academic-integrity expectations may constitute an academic-integrity concern.
+
+Students should ask the instructor or teaching assistants before using an AI tool when they are uncertain whether a particular use is appropriate.
+
+When in doubt, ask before submitting the work.
+
+## Ethical and Efficient Use of AI
+
+The course includes a dedicated discussion on the ethical and efficient use of AI.
+
+The purpose of this discussion is not simply to tell students what they can or cannot do. It is intended to help students develop the judgment needed to decide when, why, and how AI should be used. See also: https://undergrad.cornell.edu/students/academic-integrity/essential-guide-academic-integrity-undergraduate-students 
+
+## Collaboration and External Resources
+
+Collaboration is an important component of this course, particularly during the final group project, group discussions, and collaborative lab activities.
+
+However, students must distinguish between activities intended for collaboration and assessments intended to measure individual learning.
+
+## Individual work
+
+Individual assignments and the mini individual project are intended to assess each student's individual learning and development.
+
+Unless an assignment explicitly permits collaboration, students should not:
+
+- Copy another student's code or written work.
+
+- Submit another student's work as their own.
+
+- Share completed solutions for individual assessments.
+
+- Ask another person to complete an individual assessment.
+
+- Submit AI-generated or externally generated work that they do not understand or cannot explain.
+
+Students may discuss general concepts and seek clarification from instructors and teaching assistants, but they remain responsible for producing their own individual work.
+
+## Group work
+
+Students are expected to collaborate actively on the final group project.
+
+Group members should contribute meaningfully to the project and communicate openly about their roles, decisions, methods, and contributions.
+
+The group is collectively responsible for the integrity and quality of the final submitted project.
+
+## External websites and answer-sharing services
+
+Students may use course materials, textbooks, official documentation, scholarly sources, and other resources permitted by the instructor or assignment instructions.
+
+Students may not use external services to obtain or submit solutions for individual assessments when doing so replaces their own work.
+
+This includes Chegg and similar homework-help, answer-sharing, solution repositories, or contract-completion services when used to obtain answers or completed work for an individual assessment.
+
+If you are uncertain whether an external resource is appropriate, ask the instructor or teaching assistants before using it.
+
+## Citations and Sources
+
+Students are expected to appropriately acknowledge information, ideas, code, data, figures, images, and other material obtained from external sources.
+
+Depending on the assignment, citations may be required for:
+
+- Scientific literature.
+
+- Websites.
+
+- Datasets.
+
+- Software packages.
+
+- APIs.
+
+- Code obtained from external sources.
+
+- Images and figures.
+
+- AI-generated material.
+
+- Other external intellectual contributions.
+
+Students are responsible for ensuring that cited sources actually exist and support the claims for which they are cited.
+
+Fabricated or unverifiable references are not acceptable.
+
+Assignment instructions may specify a particular citation style or additional documentation requirements.
+
+## Data Privacy and Responsible Data Use
+
+Because this course involves agricultural data and real-world stakeholders, students are expected to handle data responsibly.
+
+Students must:
+
+- Follow applicable data-use agreements.
+
+- Protect confidential and proprietary information.
+
+- Avoid exposing personally identifiable information.
+
+- Follow project-specific data governance requirements.
+
+- Use appropriate security practices.
+
+- Respect restrictions associated with farmer, stakeholder, research, or industry data.
+
+- Avoid uploading confidential or proprietary data to external tools without authorization.
+
+Data governance and responsible data use are part of the professional skills developed in this course.
+
+## Accommodations for Students with Disabilities
+
+Students with disabilities who require accommodations should contact Student Disability Services (SDS) and provide the appropriate accommodation documentation as early as possible in the semester.
+
+If you have an approved accommodation, please communicate with the instructor so that appropriate arrangements can be made.
+
+Student Disability Services can be contacted through Cornell's SDS office.
+
+## Student Support
+
+If you are experiencing difficulties that affect your ability to participate or succeed in the course, please communicate with the instructor or your academic adviser.
+
+Cornell provides a range of academic, health, counseling, accessibility, and student-support resources. Students are encouraged to seek assistance early rather than waiting until difficulties become overwhelming. 
+
+## Course Communication
+
+The course website (https://bovi-analytics.github.io/BeastsAndBytes/) will contain the most up-to-date information about course activities, assignments, project requirements, and schedule changes.
+
+Course announcements and important changes may also be communicated by email.
+
+Students are responsible for checking the course website and course communications regularly.
+
+# Course Schedule
+
+The detailed course schedule is maintained on the course website and may be updated during the semester.
+
+The current planned schedule includes:
+
+| Week | Date | Activity |
+| --- | --- | --- |
+| 1 | 8/24 | Course Outline |
+| 1 | 8/25 | Toolbox: IDEs, Programming Languages & Vibe Coding |
+| 1 | 8/26 | Data Science in Agriculture |
+| 2 | 8/31 | Version Control Systems & Integration |
+| 2 | 9/1 | Toolbox: Broken Online, Merge Conflicts & Branching |
+| 2 | 9/2 | Naming Conventions & FAIR Principles |
+| 3 | 9/7 | No Class – Labor Day Holiday |
+| 3 | 9/8 | Cloud Computing, APIs & Hardware |
+| 3 | 9/9 | Data Governance & Data Lineage |
+| 4 | 9/14 | ML and AI Basics (Part 1) |
+| 4 | 9/15 | Toolbox: Project Mini, Packages, Hugging Face & Model Serving |
+| 4 | 9/16 | Ethical and Efficient Use of AI |
+| 5 | 9/21 | ML and AI Basics; Supervised and Unsupervised Learning in Agricultural Contexts (Part 2) |
+| 5 | 9/22 | Work on Mini Individual Project |
+| 5 | 9/23 | Q&A / Introduction to Tableau |
+| 6 | 9/28 | ML and AI Basics; Supervised and Unsupervised Learning in Agricultural Contexts (Part 3) |
+| 6 | 9/29 | Work on Mini Individual Project |
+| 6 | 9/30 | Q&A |
+| 7 | 10/5 | Q&A |
+| 7 | 10/6 | Poster Presentation |
+| 7 | 10/7 | DISC Assessment of the Team |
+| 8 | 10/12 | No Class – Fall Break |
+| 8 | 10/13 | No Class – Fall Break |
+| 8 | 10/14 | TBD |
+| 9 | 10/19 | Final Project Kickoff |
+| 9 | 10/20 | Farm Visit |
+| 9 | 10/21 | Project Planning |
+| 10 | 10/26 | Final Project |
+| 10 | 10/27 | Final Project |
+| 10 | 10/28 | Final Project |
+| 11 | 11/2 | Final Project |
+| 11 | 11/3 | Final Project |
+| 11 | 11/4 | Final Project |
+| 12 | 11/9 | Final Project |
+| 12 | 11/10 | Final Project |
+| 12 | 11/11 | Final Project |
+| 13 | 11/16 | Final Project |
+| 13 | 11/17 | Final Project |
+| 13 | 11/18 | Final Project |
+| 14 | 11/23 | Final Project |
+| 14 | 11/24 | Final Project |
+| 14 | 11/25 | No Class – Thanksgiving Break |
+| 15 | 11/30 | Final Project Presentations / Submission Preparation |
+| 15 | 12/1 | Final Project Submission |
+| 15 | 12/2 | Course Wrap-up & Reflection |
+
+# Course Policy Updates
+
+Because this is a course under continuous development, course activities and project details may evolve during the semester.
+
+Any substantive changes to course policies, assessment requirements, or project expectations will be communicated to students and documented through the course website.
+
+Students should consult the current course website and assignment instructions for the most recent requirements.
+
+# Final Note to Students
+
+This course is designed to help you develop the skills needed to work with data, computational tools, artificial intelligence, and agricultural problems in a rapidly changing professional environment.
+
+You are not expected to know everything at the beginning of the course. You are expected to learn, experiment, ask questions, collaborate appropriately, critically evaluate your tools and results, and take responsibility for your own learning.
+
+When you are uncertain about a technical, academic-integrity, collaboration, data-privacy, or AI-use question, ask before proceeding. The teaching team is here to help you make responsible decisions and develop the skills needed to work effectively and ethically as a data science practitioner.
