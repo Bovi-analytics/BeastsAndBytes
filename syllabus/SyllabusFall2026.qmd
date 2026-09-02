@@ -19,9 +19,31 @@ Data Science Applications in Agriculture
 
 ANSC 4040/ ANSC 6040
 
-Detailed and up-to-date course information is also available at: <https://bovi-analytics.github.io/BeastsAndBytes/>
+## Instructor
 
-ANSC 4040/ ANSC 6040
+- Assoc. Prof. Dr. Miel Hostens DVM PhD
+
+- Robert and Anne Everett Endowed Associate Professor
+
+- Office : 273 Morrison Hall, Ithaca, NY 14853
+
+- Email : [miel.hostens\@cornell.edu](mailto:miel.hostens@cornell.edu)
+
+- Office Hours: [Schedule an appointment](https://outlook.office.com/bookwithme/user/81c7a026deb04fc9a3c8251ceeb24e81@cornell.edu?anonymous&ep=signature)
+
+## Teaching Assistants
+
+### DVM Meike van Leerdam
+
+- Office location : B16 Morrison Hall, Ithaca, NY 14853
+
+- Email : [mbv32\@cornell.edu](mailto:mbv32@cornell.edu)
+
+### DVM Sonam Yang
+
+- Office location : B16 Morrison Hall, Ithaca, NY 14853
+
+- Email : [hy625\@cornell.edu](mailto:hy625@cornell.edu)
 
 # Course Information
 
@@ -45,13 +67,15 @@ This course accounts for 3 credits.
 
 A statistical course such as one of the following is not required but strongly advised:
 
-STSCI 2150/5150 Introductory Statistics for Biology
+- STSCI 2150/5150 Introductory Statistics for Biology
 
-BTRY 3010/STSCI 2200 & BTRY 5010/STSCI 5200: Biological Statistics I
+- BTRY 3010/STSCI 2200 & BTRY 5010/STSCI 5200: Biological Statistics I
 
-ILRST/STSCI 2100: Introductory Statistics
+- ILRST/STSCI 2100: Introductory Statistics
 
-Prior knowledge of Python is helpful and strongly encouraged.
+Prior knowledge of Python is helpful but not required (you will learn vibe coding).
+
+If in doubt about prerequisites, contact [miel.hostens\@cornell.edu](mailto:miel.hostens@cornell.edu)
 
 ## Learning outcomes
 
@@ -59,7 +83,7 @@ By the end of this course, students will be able to:
 
 1.  Understand the data science landscape and its applications in agriculture.
 
-2.  Develop practical coding skills using Python and modern data science tools.
+2.  Develop practical (vibe) coding skills using Python and modern data science tools.
 
 3.  Apply data science workflows and FAIR principles to organize, manage, and analyze agricultural data.
 
@@ -194,11 +218,9 @@ Working in teams, students will collaborate with farmers and stakeholders to ide
 
 ## Course Website
 
-All lecture notes, assignment instructions, project information, the up-to-date schedule, and other course materials will be available on the course website:
+All lecture notes, assignment instructions, project information, the up-to-date schedule, and other course materials will be available on the course [website](https://bovi-analytics.github.io/BeastsAndBytes).
 
-(bovi-analytics.github.io/BeastsAndBytes/)
-
-Because this is a challenge-based course under continuous development, the course outline and schedule may change during the semester. Changes will be documented on the course website and communicated through course announcements.
+Because this is a challenge-based course under continuous development, the course outline and schedule may change during the semester. Changes will be documented on the course website and communicated through course canvas announcements.
 
 # Assessment and Grading
 
@@ -611,7 +633,7 @@ The detailed course schedule is maintained on the course website and may be upda
 The current planned schedule includes:
 
 | Week | Date | Activity |
-|----|----|----|
+|------------------------|------------------------|------------------------|
 | 1 | 8/24 | Course Outline |
 | 1 | 8/25 | Toolbox: IDEs, Programming Languages & Vibe Coding |
 | 1 | 8/26 | Data Science in Agriculture |

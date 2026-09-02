@@ -10,7 +10,7 @@ format:
     papersize: letter
 ---
 
-![](images/CornellUniversity.png){width="257"} ![](/images/B&BLogo.png){width="80"}
+![](images/CornellUniversity.png){width="241"} ![](/images/B&BLogo.png){width="80"}
 
 # Course
 
