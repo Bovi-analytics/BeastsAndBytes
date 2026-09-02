@@ -633,7 +633,7 @@ The detailed course schedule is maintained on the course website and may be upda
 The current planned schedule includes:
 
 | Week | Date | Activity |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | 1 | 8/24 | Course Outline |
 | 1 | 8/25 | Toolbox: IDEs, Programming Languages & Vibe Coding |
 | 1 | 8/26 | Data Science in Agriculture |
