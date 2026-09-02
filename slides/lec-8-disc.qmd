@@ -36,15 +36,15 @@ knitr::opts_chunk$set(
 
 ## Context
 
--   You are working **in teams** on a semester‑long project
--   Technical skills matter — but **how you work together** often matters more
--   Many team conflicts are **not about competence**, but about **differences in style**
+- You are working **in teams** on a semester‑long project
+- Technical skills matter — but **how you work together** often matters more
+- Many team conflicts are **not about competence**, but about **differences in style**
 
 ## Typical team friction (you’ve probably seen this)
 
--   “They never speak up” vs “They talk too much”
--   “Too slow and careful” vs “Too impulsive”
--   “Too emotional” vs “Too cold and distant”
+- “They never speak up” vs “They talk too much”
+- “Too slow and careful” vs “Too impulsive”
+- “Too emotional” vs “Too cold and distant”
 
 > DISC gives us a **neutral language** to talk about these differences
 
@@ -54,9 +54,9 @@ knitr::opts_chunk$set(
 
 In your project group:
 
--   What is one behavior that **annoys you** in team work?
+- What is one behavior that **annoys you** in team work?
 
--   What is one behavior you **need from others** to do your best work?
+- What is one behavior you **need from others** to do your best work?
 
 > The goal is not to judge people — it’s to notice *patterns*.
 
@@ -73,27 +73,27 @@ DISC is a **behavioral framework**, not a test of intelligence, values, or abili
 
 It describes patterns in:
 
--   How people **communicate**
+- How people **communicate**
 
--   How they **approach tasks**
+- How they **approach tasks**
 
--   How they **respond to challenges and others**
+- How they **respond to challenges and others**
 
 ## Important disclaimers
 
--   DISC is **not** a diagnosis
--   There is **no good or bad type**
--   Most people are a **blend**, not a pure type
--   Styles describe **preferences**, not limits
+- DISC is **not** a diagnosis
+- There is **no good or bad type**
+- Most people are a **blend**, not a pure type
+- Styles describe **preferences**, not limits
 
 # Two popular ways you’ll see DISC explained
 
 ## 1. Letters (classic DISC)
 
--   **D** – Dominance
--   **I** – Influence
--   **S** – Steadiness
--   **C** – Conscientiousness
+- **D** – Dominance
+- **I** – Influence
+- **S** – Steadiness
+- **C** – Conscientiousness
 
 ## 2. Colors ("Surrounded by Idiots")
 
@@ -103,13 +103,13 @@ Based on the book by Thomas Erikson:
 
 ## 2. Colors ("Surrounded by Idiots")
 
--   **Red (D)** – Dominant
+- **Red (D)** – Dominant
 
--   **Yellow (I)** – Influential
+- **Yellow (I)** – Influential
 
--   **Green (S)** – Steady
+- **Green (S)** – Steady
 
--   **Blue (C)** – Conscientious
+- **Blue (C)** – Conscientious
 
 > Same underlying ideas — different language
 
@@ -119,8 +119,8 @@ Based on the book by Thomas Erikson:
 
 DISC is often described using two rough axes:
 
--   **Pace:** Fast‑paced vs More measured
--   **Focus:** Task/results vs People/relationships
+- **Pace:** Fast‑paced vs More measured
+- **Focus:** Task/results vs People/relationships
 
 |                   | **Task / Results focus** | **People / Relationship focus** |
 |-------------------|--------------------------|---------------------------------|
@@ -137,11 +137,11 @@ DISC is often described using two rough axes:
 
 **Typical behaviors**
 
--   Direct, fast‑paced, decisive
+- Direct, fast‑paced, decisive
 
--   Comfortable with disagreement
+- Comfortable with disagreement
 
--   Likes to take charge
+- Likes to take charge
 
 **Strengths** - Gets things moving - Clear decisions - Handles pressure well
 
@@ -149,15 +149,15 @@ DISC is often described using two rough axes:
 
 **Potential blind spots**
 
--   Can seem impatient or blunt
+- Can seem impatient or blunt
 
--   May skip details or others’ input
+- May skip details or others’ input
 
 **Often‑cited examples** *(illustrative, not diagnoses)*
 
--   Elon Musk (entrepreneurial drive, speed)
+- Elon Musk (entrepreneurial drive, speed)
 
--   Gordon Ramsay (direct, high standards)
+- Gordon Ramsay (direct, high standards)
 
 ## Yellow (I) – Influence
 
@@ -165,11 +165,11 @@ DISC is often described using two rough axes:
 
 **Typical behaviors**
 
--   Expressive, enthusiastic
+- Expressive, enthusiastic
 
--   Thinks out loud
+- Thinks out loud
 
--   Enjoys collaboration and recognition
+- Enjoys collaboration and recognition
 
 **Strengths** - Generates ideas - Motivates others - Creates momentum
 
@@ -177,15 +177,15 @@ DISC is often described using two rough axes:
 
 **Potential blind spots**
 
--   Can lose focus
+- Can lose focus
 
--   May over‑promise / under‑deliver
+- May over‑promise / under‑deliver
 
 **Often‑cited examples**
 
--   Oprah Winfrey (connection, influence)
+- Oprah Winfrey (connection, influence)
 
--   Richard Branson (vision, enthusiasm)
+- Richard Branson (vision, enthusiasm)
 
 ## Green (S) – Steadiness
 
@@ -193,11 +193,11 @@ DISC is often described using two rough axes:
 
 **Typical behaviors**
 
--   Patient, calm, supportive
+- Patient, calm, supportive
 
--   Good listener
+- Good listener
 
--   Prefers predictable workflows
+- Prefers predictable workflows
 
 **Strengths** - Team glue - Reliability - Conflict de‑escalation
 
@@ -205,15 +205,15 @@ DISC is often described using two rough axes:
 
 **Potential blind spots**
 
--   Avoids conflict
+- Avoids conflict
 
--   Resists rapid change
+- Resists rapid change
 
 **Often‑cited examples**
 
--   Keanu Reeves (calm, respectful presence)
+- Keanu Reeves (calm, respectful presence)
 
--   Fred Rogers (empathy, consistency)
+- Fred Rogers (empathy, consistency)
 
 ## Blue (C) – Conscientiousness
 
@@ -221,11 +221,11 @@ DISC is often described using two rough axes:
 
 **Typical behaviors**
 
--   Analytical, structured
+- Analytical, structured
 
--   Data‑driven
+- Data‑driven
 
--   Asks critical questions
+- Asks critical questions
 
 **Strengths** - High‑quality output - Risk reduction - Clear documentation
 
@@ -233,32 +233,32 @@ DISC is often described using two rough axes:
 
 **Potential blind spots**
 
--   Overthinking
+- Overthinking
 
--   Perfectionism
+- Perfectionism
 
 **Often‑cited examples**
 
--   Bill Gates (systems thinking)
+- Bill Gates (systems thinking)
 
--   Marie Curie (rigor, precision)
+- Marie Curie (rigor, precision)
 
 # DISC is about preferences, not skills
 
 ## Key distinction
 
--   DISC = **how** you prefer to act
--   Skills = **what** you are capable of doing
+- DISC = **how** you prefer to act
+- Skills = **what** you are capable of doing
 
 Examples:
 
--   A Green (S) can still lead
+- A Green (S) can still lead
 
--   A Red (D) can still listen
+- A Red (D) can still listen
 
--   A Yellow (I) can still analyze
+- A Yellow (I) can still analyze
 
--   A Blue (C) can still inspire
+- A Blue (C) can still inspire
 
 > Awareness creates **choice**
 
@@ -266,23 +266,23 @@ Examples:
 
 ## Common team patterns
 
--   Reds (D) push decisions and deadlines
--   Yellows (I) generate ideas and energy
--   Greens (S) keep the team aligned
--   Blues (C) ensure rigor and quality
+- Reds (D) push decisions and deadlines
+- Yellows (I) generate ideas and energy
+- Greens (S) keep the team aligned
+- Blues (C) ensure rigor and quality
 
 Teams struggle when:
 
--   One style dominates
+- One style dominates
 
--   Differences are interpreted as personal flaws
+- Differences are interpreted as personal flaws
 
 ## Example misunderstanding
 
--   Blue (C): “This needs more checking.”
--   Red (D) hears: “You’re slowing us down.”
--   Red (D): “Let’s just decide.”
--   Blue (C) hears: “You don’t care about quality.”
+- Blue (C): “This needs more checking.”
+- Red (D) hears: “You’re slowing us down.”
+- Red (D): “Let’s just decide.”
+- Blue (C) hears: “You don’t care about quality.”
 
 DISC helps translate **intent vs impact**.
 
@@ -298,37 +298,37 @@ Your teammate writes:
 
 Rewrite that same message in a way that would land best for each style:
 
--   Red (D)
+- Red (D)
 
--   Yellow (I)
+- Yellow (I)
 
--   Green (S)
+- Green (S)
 
--   Blue (C)
+- Blue (C)
 
 # Using DISC constructively
 
 ## Practical rules
 
--   Don’t label people — **describe behavior**
--   Adjust communication, not personality
--   Balance speed, people, and quality
+- Don’t label people — **describe behavior**
+- Adjust communication, not personality
+- Balance speed, people, and quality
 
 ## Simple adaptations
 
--   Talking to a Red (D) → be concise, outcome‑focused
--   Talking to a Yellow (I) → show enthusiasm, brainstorm
--   Talking to a Green (S) → be patient, inclusive
--   Talking to a Blue (C) → bring structure and data
+- Talking to a Red (D) → be concise, outcome‑focused
+- Talking to a Yellow (I) → show enthusiasm, brainstorm
+- Talking to a Green (S) → be patient, inclusive
+- Talking to a Blue (C) → bring structure and data
 
 # One‑slide matrix: strengths each style brings
 
 ## If you have all four styles in a team…
 
--   **Red (D):** momentum and decisions
--   **Yellow (I):** creativity and energy
--   **Green (S):** trust and follow‑through
--   **Blue (C):** rigor and quality
+- **Red (D):** momentum and decisions
+- **Yellow (I):** creativity and energy
+- **Green (S):** trust and follow‑through
+- **Blue (C):** rigor and quality
 
 > Strong teams don’t all think alike — they **coordinate differences**.
 
@@ -338,17 +338,17 @@ Rewrite that same message in a way that would land best for each style:
 
 When pressure rises, people often **overdo** their preferred style.
 
--   **Red (D)** under stress: gets more controlling / impatient
-    -   Helpful response: give options + timelines, stay concise
--   **Yellow (I)** under stress: talks more, becomes scattered
-    -   Helpful response: summarize decisions, assign next steps
+- **Red (D)** under stress: gets more controlling / impatient
+  - Helpful response: give options + timelines, stay concise
+- **Yellow (I)** under stress: talks more, becomes scattered
+  - Helpful response: summarize decisions, assign next steps
 
 ## Stress amplifies defaults
 
--   **Green (S)** under stress: withdraws, avoids conflict
-    -   Helpful response: ask directly, create psychological safety
--   **Blue (C)** under stress: over‑checks, delays decisions
-    -   Helpful response: define “good enough,” set a decision point
+- **Green (S)** under stress: withdraws, avoids conflict
+  - Helpful response: ask directly, create psychological safety
+- **Blue (C)** under stress: over‑checks, delays decisions
+  - Helpful response: define “good enough,” set a decision point
 
 > “Under stress” is not a flaw — it’s a signal.
 
@@ -372,35 +372,35 @@ Write short answers (1–2 sentences each):
 
 ## Typical fit (not a rule)
 
--   **Project manager / decision driver:** often Red (D) or Yellow (I)
--   **Stakeholder liaison / interviewer / presenter:** often Yellow (I)
--   **Operations / scheduling / keeping everyone aligned:** often Green (S)
--   **Data lead / QA / methods & documentation:** often Blue (C)
+- **Project manager / decision driver:** often Red (D) or Yellow (I)
+- **Stakeholder liaison / interviewer / presenter:** often Yellow (I)
+- **Operations / scheduling / keeping everyone aligned:** often Green (S)
+- **Data lead / QA / methods & documentation:** often Blue (C)
 
 ## The key message
 
 You can do *any* role — but knowing your default style helps you:
 
--   Choose strategies that work for you
+- Choose strategies that work for you
 
--   Ask for the support you need
+- Ask for the support you need
 
--   Avoid predictable failure modes
+- Avoid predictable failure modes
 
 # Self‑awareness before team awareness
 
 ## Why start with yourself?
 
--   You are always part of the system
--   Stress amplifies your default style
+- You are always part of the system
+- Stress amplifies your default style
 
 Reflection questions:
 
--   What do I overdo under pressure?
+- What do I overdo under pressure?
 
--   Which style frustrates me most — and why?
+- Which style frustrates me most — and why?
 
--   What does my team need more of?
+- What does my team need more of?
 
 # Your assignment (before next class)
 
@@ -412,20 +412,20 @@ Reflection questions:
 
 I will:
 
--   Combine results across the class
+- Combine results across the class
 
 ## Privacy / professionalism
 
--   This is for **learning and reflection**, not labeling
--   If you prefer, you may **remove your name** from the PDF before sharing
+- This is for **learning and reflection**, not labeling
+- If you prefer, you may **remove your name** from the PDF before sharing
 
 # What we’ll do next class
 
 ## In‑class follow‑up
 
--   Look at class‑level DISC distributions
--   Discuss strengths and gaps across teams
--   Connect DISC insights to your ongoing project work
+- Look at class‑level DISC distributions
+- Discuss strengths and gaps across teams
+- Connect DISC insights to your ongoing project work
 
 > The goal is not to change who you are — but to work **better together**.
 
@@ -433,8 +433,8 @@ I will:
 
 ## Remember
 
--   Differences are normal
--   Awareness reduces friction
--   Adaptation improves teams
+- Differences are normal
+- Awareness reduces friction
+- Adaptation improves teams
 
 DISC gives us a **shared language** — what you do with it is up to you.

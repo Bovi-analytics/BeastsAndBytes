@@ -1,0 +1,319 @@
+# Policies
+
+## Attendance and Participation
+
+Active participation is an important part of this challenge-based course.
+
+Students are expected to attend lectures, labs, discussions, project meetings, and other scheduled course activities.
+
+Because substantial portions of the course involve hands-on work, collaboration, and interaction with instructors and stakeholders, regular participation is important for successful completion of the course.
+
+If circumstances prevent you from participating in a scheduled activity, communicate with the instructor or course staff as early as possible.
+
+## Inclusive community
+
+I grew up in a family in which diversity, equity, and inclusion were important parts of everyday life. These values continue to shape how I approach teaching and learning.
+
+I aim to ensure that students from diverse backgrounds and perspectives are well served by this course. I strive to address students' learning needs in and outside the classroom and to view the diversity that students bring as a resource, strength, and benefit.
+
+My goal is to present materials and activities that respect diversity and align with Cornell University's core values.
+
+Your suggestions are truly encouraged and appreciated. Please let me know how I can improve the course's effectiveness for you personally or for other students and student groups.
+
+I also aim to foster a learning environment that embraces diversity of thought, perspectives, and experiences and respects the identities of all members of the course community.
+
+If experiences outside of class are affecting your performance, please feel free to speak with the instructor. Alternatively, your academic dean is a resource if you prefer to speak with someone outside the course.
+
+## Mental Health and Stress management
+
+If you are feeling overwhelmed, or are worrying about a friend, please reach out to me, one of your instructors or your academic adviser. We can try to help, or we can put you in touch with someone who can help. Cornell has trained counselors available to listen and help: [Cornell Health's Counseling and Psychological Services](https://health.cornell.edu/services/counseling-psychiatry) (CAPS, 607-255-5155); \[Student Support and Advocacy Services\] (https://scl.cornell.edu/student-support); [Empathy, Assistance, and Referral Service](http://orgsync.rso.cornell.edu/org/ears) (EARS, 213 Willard Straight Hall, 607-255-3277), and [Let’s Talk](https://health.cornell.edu/services/counseling-psychiatry/lets-talk). The [Learning Strategies](http://lsc.cornell.edu/) Center offers a range of academic resources.
+
+## Academic Integrity
+
+Absolute integrity is expected of every Cornell student in all academic undertakings. Integrity entails a firm adherence to values grounded in honesty with respect to the intellectual efforts of oneself and others and in free and open inquiry and discussion.
+
+Academic integrity applies to all academic work and interactions connected to the educational process, including the use of University resources and digital technologies.
+
+A Cornell student's submission of work for academic credit indicates that the work is the student's own. All outside assistance should be appropriately acknowledged, and students are responsible for truthfully representing their academic work.
+
+Students are expected to follow the [Cornell University Code of Academic Integrity](https://deanoffaculty.cornell.edu/faculty-and-academic-affairs/academic-integrity/upcoming-code-of-academic-integrity/), including the version effective for Fall 2026.
+
+Students should review the University's [Guidelines for Students](https://deanoffaculty.cornell.edu/faculty-and-academic-affairs/academic-integrity/upcoming-code-of-academic-integrity/#Students) and ask the instructor or teaching assistants whenever they are uncertain whether a particular activity is permitted.
+
+Academic integrity expectations apply regardless of whether work is completed using traditional resources, online resources, programming tools, generative AI, or other technologies.
+
+Each person in this class is expected to respect the principles of academic freedom for instructors and classmates and will maintain the privacy of the classroom environment, as outlined in [Cornell’s S20 Commitment to Academic Integrity, Equitable Instruction, Trust, and Respect](https://bpb-us-e1.wpmucdn.com/blogs.cornell.edu/dist/3/6798/files/2020/03/HonorFinal.pdf). 
+
+## Responsible Use of Generative AI
+
+Generative artificial intelligence and other generative tools are an intentional part of this course. One of the learning outcomes of the course is to use AI responsibly and efficiently, recognizing its capabilities, limitations, and implications.
+
+AI tools can be useful for learning, programming, brainstorming, exploring ideas, debugging, data analysis, and developing solutions. At the same time, relying on AI without critical evaluation can interfere with learning and can introduce inaccurate information, fabricated references, security risks, privacy concerns, bias, and other problems.
+
+The goal of this course is therefore not to prohibit students from using AI, but to teach students how to use it responsibly, critically, and effectively. See also: <https://it.cornell.edu/ai-strategy/ai-guidelines> , <https://teaching.cornell.edu/generative-artificial-intelligence> , \[https://teaching.cornell.edu/generative-artificial-intelligence/ai-academic-integrity\] (https://teaching.cornell.edu/generative-artificial-intelligence/ai-academic-integrity)
+
+## General AI expectations
+
+Unless an assignment explicitly states otherwise, students may use generative AI tools as learning and development aids.
+
+Appropriate uses may include:
+
+- Exploring or learning new concepts.
+
+- Asking for explanations of programming concepts.
+
+- Brainstorming possible approaches to a problem.
+
+- Getting help identifying possible causes of coding errors.
+
+- Exploring alternative programming approaches.
+
+- Generating practice examples.
+
+- Reviewing or improving code that the student understands.
+
+- Exploring data-analysis approaches.
+
+- Improving clarity or organization of student-written material.
+
+- Learning how to interact with APIs, packages, models, and other technical tools.
+
+- Using AI as a development partner when building software or data science solutions.
+
+However, students remain responsible for the work they submit.
+
+Using an AI tool does not transfer responsibility for the accuracy, originality, interpretation, security, or integrity of submitted work to the AI tool.
+
+Students must be able to understand and explain the work they submit.
+
+## Critical evaluation of AI output
+
+AI-generated content should never automatically be assumed to be correct.
+
+Students are responsible for critically evaluating AI-generated:
+
+- Code
+
+- Statistical methods
+
+- Data interpretations
+
+- Citations
+
+- References
+
+- Facts
+
+- Claims
+
+- Mathematical calculations
+
+- Recommendations
+
+- Technical explanations
+
+AI tools can produce incorrect or fabricated information, including citations to sources that do not exist. Students must independently verify important claims, references, methods, and results before relying on them in academic work.
+
+## Attribution and documentation
+
+When generative AI materially contributes to submitted work, students should transparently acknowledge its use according to the instructions for the relevant assignment.
+
+Depending on the assignment, students may be asked to provide information such as:
+
+- The AI tool used.
+
+- The model or version, when available.
+
+- The date of use.
+
+- The purpose for which the tool was used.
+
+- A description of how the output was incorporated or modified.
+
+- Relevant prompts or interactions when requested by the instructor.
+
+If AI-generated text, images, code, analysis, or other material is incorporated into submitted work, students must follow the attribution requirements provided for that assignment.
+
+AI-generated references must be independently verified.
+
+Assignment-specific instructions may require more detailed documentation of AI use.
+
+## AI and individual assessments
+
+AI use does not remove the distinction between using AI as a learning tool and having AI complete an assessment in place of the student.
+
+For individual assignments and the mini individual project, students are expected to produce their own intellectual work and demonstrate their own understanding.
+
+AI may assist with learning and development where permitted, but students should not submit AI-generated work that they do not understand or cannot explain as their own academic work.
+
+Assignment instructions may place additional restrictions on AI use when necessary to assess a particular learning objective.
+
+If an assignment requires a particular skill to be demonstrated independently, the assignment instructions will explicitly state that requirement.
+
+## AI and group projects
+
+The final project is collaborative, and the use of AI tools may form part of the team's development workflow.
+
+Teams may use appropriate AI tools for activities such as:
+
+- Brainstorming.
+
+- Programming assistance.
+
+- Debugging.
+
+- Documentation.
+
+- Exploring technical approaches.
+
+- Prototyping.
+
+- Research support.
+
+- Data-science workflows.
+
+However, the team remains responsible for understanding, testing, validating, documenting, and critically evaluating the resulting work.
+
+The use of AI does not replace the team's responsibility for its methodology, code, analysis, interpretation, data governance, or final conclusions.
+
+Teams must not submit fabricated sources, unsupported claims, unverified analyses, or untested code simply because an AI system produced them.
+
+## Privacy, confidentiality, and proprietary information
+
+Students must protect confidential, personal, proprietary, or otherwise sensitive information when using generative AI or other external digital tools.
+
+Do not upload confidential farmer information, personally identifiable information, proprietary datasets, credentials, passwords, private research data, or other sensitive information to an AI system or external service unless the instructor has explicitly confirmed that the tool and use are appropriate.
+
+Students are responsible for understanding the data-privacy implications of the tools they use.
+
+## AI tools and academic integrity
+
+Permitted use of AI does not override Cornell's Code of Academic Integrity.
+
+Using AI in a way that misrepresents the student's work, violates an assignment-specific restriction, involves unauthorized assistance, fabricates information or sources, or otherwise violates academic-integrity expectations may constitute an academic-integrity concern.
+
+Students should ask the instructor or teaching assistants before using an AI tool when they are uncertain whether a particular use is appropriate.
+
+When in doubt, ask before submitting the work.
+
+## Ethical and Efficient Use of AI
+
+The course includes a dedicated discussion on the ethical and efficient use of AI.
+
+The purpose of this discussion is not simply to tell students what they can or cannot do. It is intended to help students develop the judgment needed to decide when, why, and how AI should be used. See also: <https://undergrad.cornell.edu/students/academic-integrity/essential-guide-academic-integrity-undergraduate-students>
+
+## Collaboration and External Resources
+
+Collaboration is an important component of this course, particularly during the final group project, group discussions, and collaborative lab activities.
+
+However, students must distinguish between activities intended for collaboration and assessments intended to measure individual learning.
+
+## Individual work
+
+Individual assignments and the mini individual project are intended to assess each student's individual learning and development.
+
+Unless an assignment explicitly permits collaboration, students should not:
+
+- Copy another student's code or written work.
+
+- Submit another student's work as their own.
+
+- Share completed solutions for individual assessments.
+
+- Ask another person to complete an individual assessment.
+
+- Submit AI-generated or externally generated work that they do not understand or cannot explain.
+
+Students may discuss general concepts and seek clarification from instructors and teaching assistants, but they remain responsible for producing their own individual work.
+
+## Group work
+
+Students are expected to collaborate actively on the final group project.
+
+Group members should contribute meaningfully to the project and communicate openly about their roles, decisions, methods, and contributions.
+
+The group is collectively responsible for the integrity and quality of the final submitted project.
+
+## External websites and answer-sharing services
+
+Students may use course materials, textbooks, official documentation, scholarly sources, and other resources permitted by the instructor or assignment instructions.
+
+Students may not use external services to obtain or submit solutions for individual assessments when doing so replaces their own work.
+
+This includes Chegg and similar homework-help, answer-sharing, solution repositories, or contract-completion services when used to obtain answers or completed work for an individual assessment.
+
+If you are uncertain whether an external resource is appropriate, ask the instructor or teaching assistants before using it.
+
+## Citations and Sources
+
+Students are expected to appropriately acknowledge information, ideas, code, data, figures, images, and other material obtained from external sources.
+
+Depending on the assignment, citations may be required for:
+
+- Scientific literature.
+
+- Websites.
+
+- Datasets.
+
+- Software packages.
+
+- APIs.
+
+- Code obtained from external sources.
+
+- Images and figures.
+
+- AI-generated material.
+
+- Other external intellectual contributions.
+
+Students are responsible for ensuring that cited sources actually exist and support the claims for which they are cited.
+
+Fabricated or unverifiable references are not acceptable.
+
+Assignment instructions may specify a particular citation style or additional documentation requirements.
+
+## Data Privacy and Responsible Data Use
+
+Because this course involves agricultural data and real-world stakeholders, students are expected to handle data responsibly.
+
+Students must:
+
+- Follow applicable data-use agreements.
+
+- Protect confidential and proprietary information.
+
+- Avoid exposing personally identifiable information.
+
+- Follow project-specific data governance requirements.
+
+- Use appropriate security practices.
+
+- Respect restrictions associated with farmer, stakeholder, research, or industry data.
+
+- Avoid uploading confidential or proprietary data to external tools without authorization.
+
+Data governance and responsible data use are part of the professional skills developed in this course.
+
+## Accommodations for Students with Disabilities
+
+Students with disabilities who require accommodations should contact [Student Disability Services (SDS)](https://sds.cornell.edu/) and provide the appropriate accommodation documentation as early as possible in the semester.
+
+If you have an approved accommodation, please communicate with the instructor so that appropriate arrangements can be made.
+
+Student Disability Services can be contacted through Cornell's SDS office.
+
+## Student Support
+
+If you are experiencing difficulties that affect your ability to participate or succeed in the course, please communicate with the instructor or your academic adviser.
+
+Cornell provides a range of academic, health, counseling, accessibility, and student-support resources. Students are encouraged to seek assistance early rather than waiting until difficulties become overwhelming.
+
+## Course Communication
+
+The [course website](https://bovi-analytics.github.io/BeastsAndBytes/) will contain the most up-to-date information about course activities, assignments, project requirements, and schedule changes.
+
+Course announcements and important changes may also be communicated by email.
+
+Students are responsible for checking the course website and course communications regularly.

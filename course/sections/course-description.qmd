@@ -1,0 +1,31 @@
+# Course description
+
+## Description and aims
+
+This course offers an an undergraduate (sophomore, junior, senior) and graduate level experience in challenge-based learning, where students tackle data-driven problems within the agricultural sector. If you have never heard about it, check out this [Solar Car Challenge](https://www.solarcarchallenge.org/challenge/) that you might recognize. Working in collaborative teams, students will engage directly with farmers and agricultural stakeholders to understand real-world challenges and develop innovative, data-driven solutions.
+
+Throughout the course, students will learn to utilize a range of digital tools essential for modern data science. Key topics include data governance, data privacy, data collection, data storage, data processing, data visualization, data modeling, machine learning, artificial intelligence, and communicating data-driven results.
+
+Project management is a core component of the course. Students will learn to manage projects effectively, adhere to deadlines, communicate with stakeholders, and deliver results in a timely manner. The course emphasizes teamwork, communication, collaboration, critical thinking, and responsible use of digital technologies.
+
+By the end of the course, students will have gained practical experience in applying data science to agricultural problems. Students will develop skills in problem-solving, programming, data analysis, machine learning, artificial intelligence, project management, and communication.
+
+The course also emphasizes the responsible and critical use of artificial intelligence. Students will learn to use AI tools efficiently while recognizing their capabilities, limitations, ethical implications, and potential effects on data privacy, academic integrity, and decision-making.
+
+## Credits
+
+This course accounts for 3 credits.
+
+## Prerequisites
+
+A statistical course such as one of the following is not required but strongly advised:
+
+- STSCI 2150/5150 Introductory Statistics for Biology
+
+- BTRY 3010/STSCI 2200 & BTRY 5010/STSCI 5200: Biological Statistics I
+
+- ILRST/STSCI 2100: Introductory Statistics
+
+Prior knowledge of Python is helpful but not required (you will learn vibe coding).
+
+If in doubt about prerequisites, contact [miel.hostens\@cornell.edu](mailto:miel.hostens@cornell.edu)

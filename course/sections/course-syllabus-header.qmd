@@ -1,0 +1,9 @@
+# Course
+
+![](/course/images/CornellUniversity.png){width="241"} ![](/images/B&BLogo.png){width="80"}
+
+Data Science Applications in Agriculture
+
+“Beast & Bytes”
+
+ANSC 4040/ ANSC 6040

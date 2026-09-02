@@ -1,0 +1,23 @@
+---
+title: "Data Science Applications in Agriculture"
+date: today
+format:
+  pdf:
+    documentclass: report
+    toc: false
+    number-sections: false
+    colorlinks: true
+    papersize: letter
+output-file: syllabus.pdf
+output-dir: syllabus_pdfs
+---
+
+{{< include sections/course-syllabus-header.qmd >}} 
+{{< include sections/course-team.qmd >}}
+{{< include sections/course-description.qmd >}}
+{{< include sections/course-objectives.qmd >}}
+{{< include sections/course-projects.qmd >}}
+{{< include sections/course-assessment-grading.qmd >}}
+{{< include sections/course-schedule.qmd >}}
+{{< include sections/course-policies.qmd >}}
+{{< include sections/course-final-note.qmd >}}

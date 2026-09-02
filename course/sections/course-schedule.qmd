@@ -1,0 +1,55 @@
+# Course Schedule
+
+The detailed course schedule is maintained on the course website and may be updated during the semester.
+
+The current planned schedule includes:
+
+| Week | Date | Activity |
+|------------------------|------------------------|------------------------|
+| 1 | 8/24 | Course Outline |
+| 1 | 8/25 | Toolbox: IDEs, Programming Languages & Vibe Coding |
+| 1 | 8/26 | Data Science in Agriculture |
+| 2 | 8/31 | Version Control Systems & Integration |
+| 2 | 9/1 | Toolbox: Broken Online, Merge Conflicts & Branching |
+| 2 | 9/2 | Naming Conventions & FAIR Principles |
+| 3 | 9/7 | No Class – Labor Day Holiday |
+| 3 | 9/8 | Cloud Computing, APIs & Hardware |
+| 3 | 9/9 | Data Governance & Data Lineage |
+| 4 | 9/14 | ML and AI Basics (Part 1) |
+| 4 | 9/15 | Toolbox: Project Mini, Packages, Hugging Face & Model Serving |
+| 4 | 9/16 | Ethical and Efficient Use of AI |
+| 5 | 9/21 | ML and AI Basics; Supervised and Unsupervised Learning in Agricultural Contexts (Part 2) |
+| 5 | 9/22 | Work on Mini Individual Project |
+| 5 | 9/23 | Q&A / Introduction to Tableau |
+| 6 | 9/28 | ML and AI Basics; Supervised and Unsupervised Learning in Agricultural Contexts (Part 3) |
+| 6 | 9/29 | Work on Mini Individual Project |
+| 6 | 9/30 | Q&A |
+| 7 | 10/5 | Q&A |
+| 7 | 10/6 | Poster Presentation |
+| 7 | 10/7 | DISC Assessment of the Team |
+| 8 | 10/12 | No Class – Fall Break |
+| 8 | 10/13 | No Class – Fall Break |
+| 8 | 10/14 | TBD |
+| 9 | 10/19 | Final Project Kickoff |
+| 9 | 10/20 | Farm Visit |
+| 9 | 10/21 | Project Planning |
+| 10 | 10/26 | Final Project |
+| 10 | 10/27 | Final Project |
+| 10 | 10/28 | Final Project |
+| 11 | 11/2 | Final Project |
+| 11 | 11/3 | Final Project |
+| 11 | 11/4 | Final Project |
+| 12 | 11/9 | Final Project |
+| 12 | 11/10 | Final Project |
+| 12 | 11/11 | Final Project |
+| 13 | 11/16 | Final Project |
+| 13 | 11/17 | Final Project |
+| 13 | 11/18 | Final Project |
+| 14 | 11/23 | Final Project |
+| 14 | 11/24 | Final Project |
+| 14 | 11/25 | No Class – Thanksgiving Break |
+| 15 | 11/30 | Final Project Presentations / Submission Preparation |
+| 15 | 12/1 | Final Project Submission |
+| 15 | 12/2 | Course Wrap-up & Reflection |
+
+# 

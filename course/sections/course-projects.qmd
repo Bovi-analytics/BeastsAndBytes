@@ -1,0 +1,47 @@
+# Course Projects
+
+## Mini individual project
+
+During the first half of the course, each student will complete a mini individual data science project.
+
+The purpose of the mini project is to provide students with an opportunity to independently apply the tools and concepts introduced in the course.
+
+Students will:
+
+1.  Identify an individual agricultural problem or question.
+
+2.  Define and scope the problem.
+
+3.  Identify and work with appropriate data.
+
+4.  Apply relevant data science methods.
+
+5.  Use appropriate computational and visualization tools.
+
+6.  Interpret and communicate their findings.
+
+7.  Document their workflow and decisions.
+
+8.  Present the results as a poster.
+
+The specific project requirements and assessment criteria will be discussed during the course.
+
+## Final group project
+
+In the second half of the course, students will engage in a group project involving a real-world, data-intensive problem in agriculture.
+
+Working in teams, students will collaborate with farmers and stakeholders to identify and understand the problem. The team will then develop a data-driven solution using the tools and techniques learned during the course.
+
+## Project phases
+
+1.  Problem Identification: Meet with the farmer and other stakeholders to understand the problem and their needs. Conduct initial research to define and scope the problem.
+
+2.  Data Collection: Gather relevant data from appropriate sources while following data privacy, governance, and security requirements.
+
+3.  Data Analysis and Visualization: Analyze collected data and identify relevant patterns, trends, and insights.
+
+4.  Solution Development: Explore appropriate statistical, machine learning, or other data science approaches and develop a practical solution.
+
+5.  Implementation Plan: Develop a plan for implementing the proposed solution in an appropriate agricultural setting.
+
+6.  Presentation and Report: Present the methodology, findings, limitations, and proposed solution and submit the required project documentation.

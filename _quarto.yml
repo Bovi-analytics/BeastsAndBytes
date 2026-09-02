@@ -37,19 +37,23 @@ website:
     contents:
       - section: "Course information"
         contents:
-          - href: course-overview.qmd
+          - href: course/sections/course-description.qmd
             text: Overview
+          - href: course/sections/course-team.qmd
+            text: Teaching team
+          - href: course/sections/course-objectives.qmd
+            text: Learning objectives
           - href: index.qmd
             text: Schedule
-          - href: course-objectives.qmd
-            text: Course objectives
-          - href: course-team.qmd
-            text: Teaching team
-          - href: course-support.qmd
+          - href: course/sections/course-assessment-grading.qmd
+            text: Grading
+          - href: course/sections/course-policies.qmd
+            text: Policies
+          - href: course/sections/course-support.qmd
             text: Support
-          - href: course-links.qmd
+          - href: course/sections/course-links.qmd
             text: Useful links
-          - href: course-faq.qmd
+          - href: course/sections/course-faq.qmd
             text: FAQ
       - section: "Computing"
         contents:
@@ -93,9 +97,17 @@ website:
             text: "Week 13"
           - href: weeks/week-14.qmd
             text: "Week 14"
+      - section: "Slides"
+        contents:
+          - href: slides/lec-1-intro.qmd
+            text: "Week 1 - Introduction"
+          - href: slides/lec-2-git.qmd
+            text: "Week 2 - Git"
+          - href: weeks/disc-2-fair.qmd
+            text: "Week 2 - FAIR"
       - section: "Supplemental notes"
         contents:
-          - href: supplemental/operations-in-r.qmd
+          - href: supplemental/extra-1.qmd
             text: Operations in Python
 
 

@@ -3,18 +3,19 @@ title: "Data Science Applications in Agriculture"
 tbl-colwidths: [5,5,15,5,5,5,5,5,5,5]
 ---
 
-This page contains an outline of the topics, content, and assignments for the course.\
+This page contains an outline of the topics, content, and assignments for the course.
+
 Note that this schedule will be updated as the course progresses, with all changes documented here.
 
 ::: column-screen-inset-right
 | Week | Date | Topic | Teachers | Prepare | Lecture |
 |:----------:|:----------:|------------|------------|:----------:|:----------:|
-| 1 | 8/24 (Mon) | (LEC) Course Outline | Dr. Miel | [📖](weeks/week-1.html) | [🖥️](slides/lec-1.html) |
+| 1 | 8/24 (Mon) | (LEC) Course Outline | Dr. Miel | [📖](weeks/week-1.html) | [🖥️](slides/lec-1-intro.html) |
 | 1 | 8/25 (Tue) | (LAB) Toolbox: IDEs, Programming Languages & Vibe Coding | Bart, Hanlu, Meike, Puchun & Dr. Miel | \- | \- |
-| 1 | 8/26 (Wed) | (DISC) Data Science in Agriculture | Sumit,  Puchun, Hanlu, Bart & Meike | \- | \- |
-| 2 | 8/31 (Mon) | (LEC) Version Control Systems & Integration | Dr. Miel | [📖](weeks/week-2.html) | [🖥️](slides/lec-2.html) |
+| 1 | 8/26 (Wed) | (DISC) Data Science in Agriculture | Sumit, Puchun, Hanlu, Bart & Meike | \- | \- |
+| 2 | 8/31 (Mon) | (LEC) Version Control Systems & Integration | Dr. Miel | [📖](weeks/week-2.html) | [🖥️](slides/lec-2-git.html) |
 | 2 | 9/1 (Tue) | (LAB) Toolbox: Broken Online, Merge Conflicts & Branching | Dr. Miel and Meike | \- | \- |
-| 2 | 9/2 (Wed) | (DISC) Naming Conventions & FAIR Principles | Dr. Miel | \- | [🖥️](slides/disc-2.html) |
+| 2 | 9/2 (Wed) | (DISC) Naming Conventions & FAIR Principles | Dr. Miel | \- | [🖥️](slides/disc-2-fair.html) |
 | 3 | 9/7 (Mon) | No Class – Labor Day Holiday | \- | \- | \- |
 | 3 | 9/8 (Tue) | (LAB) Cloud Computing, APIs & Hardware | Sonam, Dr. Hanlu | 📖 | 🖥️ |
 | 3 | 9/9 (Wed) | (DISC) Data Governance & Data Lineage | Dr. Miel and Dr.Puchun | 📖 | 🖥️ |
@@ -55,7 +56,3 @@ Note that this schedule will be updated as the course progresses, with all chang
 | 15 | 12/1 (Tue) | (LAB) Final Project Submission | Course Staff | 📖 | 🖥️ |
 | 15 | 12/2 (Wed) | (DISC) Course Wrap-up & Reflection | Dr. Miel | 📖 | 🖥️ |
 :::
-
-```{r echo = FALSE}
-knitr::knit_exit()
-```

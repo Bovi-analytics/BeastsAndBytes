@@ -1,0 +1,7 @@
+# Final Note to Students
+
+This course is designed to help you develop the skills needed to work with data, computational tools, artificial intelligence, and agricultural problems in a rapidly changing professional environment.
+
+You are not expected to know everything at the beginning of the course. You are expected to learn, experiment, ask questions, collaborate appropriately, critically evaluate your tools and results, and take responsibility for your own learning.
+
+When you are uncertain about a technical, academic-integrity, collaboration, data-privacy, or AI-use question, ask before proceeding. The teaching team is here to help you make responsible decisions and develop the skills needed to work effectively and ethically as a data science practitioner.
