@@ -227,6 +227,119 @@ Dr.&nbsp;Hostens
 <li><p>R1.2. (Meta)data are associated with detailed provenance</p></li>
 <li><p>R1.3. (Meta)data meet domain-relevant community standards</p></li>
 </ul>
+</section></section>
+<section>
+<section id="naming-convention" class="title-slide slide level1 center">
+<h1>Naming convention</h1>
+
+</section>
+<section id="why-do-we-need-this" class="slide level2">
+<h2>Why do we need this</h2>
+<ul>
+<li>Dairy data science is <strong>multimodal</strong>, <strong>longitudinal</strong>, and <strong>collaborative</strong></li>
+<li>Naming is not cosmetic — it is <strong>infrastructure</strong></li>
+<li>Most downstream issues are caused by:
+<ul>
+<li>Ambiguity</li>
+<li>Inconsistency</li>
+<li>Silent semantic drift</li>
+</ul></li>
+</ul>
+</section>
+<section id="minutes-4-takeaways" class="slide level2">
+<h2>40 Minutes, 4 Takeaways</h2>
+<ol type="1">
+<li>Naming conventions are <strong>scientific decisions</strong></li>
+<li>Bad names silently break analyis and models</li>
+<li>Conventions must scale across projects &amp; people</li>
+<li>Governance matters more than documentation</li>
+</ol>
+</section>
+<section id="the-dairy-data-reality" class="slide level2">
+<h2>The Dairy Data Reality</h2>
+<ul>
+<li>Multiple farms</li>
+<li>Multiple vendors</li>
+<li>Multiple countries</li>
+<li>Multiple disciplines:
+<ul>
+<li>Nutrition</li>
+<li>Health</li>
+<li>Behavior</li>
+<li>Production</li>
+</ul></li>
+</ul>
+<p><strong>→ Names are the only shared language</strong></p>
+</section>
+<section id="what-is-a-naming-convention" class="slide level2">
+<h2>What Is a Naming Convention?</h2>
+<blockquote>
+<p>A set of agreed‑upon rules for creating <strong>unique, informative, and stable names</strong> for data objects.</p>
+</blockquote>
+<p>Applies to: - Variables - Tables - Files - Visuals - Ontology terms</p>
+</section>
+<section id="naming-style-preference" class="slide level2">
+<h2>Naming ≠ Style Preference</h2>
+<p>Bad naming causes: - Feature leakage - Wrong joins - Broken pipelines - Invalid within/between farm comparisons</p>
+<p>These errors <strong>do not throw exceptions</strong>.</p>
+</section>
+<section id="common-dairy-data-failures" class="slide level2">
+<h2>Common Dairy Data Failures</h2>
+<ul>
+<li><code>DIM</code>, <code>days_in_milk</code>, <code>DaysInMilk</code></li>
+<li><code>milk_yield</code>, <code>MilkYieldKg</code>, <code>MY</code></li>
+<li><code>other</code>, <code>Other</code>, <code>OTHER</code></li>
+<li><code>lactation_stage</code> vs <code>lactation_stages</code></li>
+</ul>
+<p>Each creates a <strong>new semantic entity</strong></p>
+</section>
+<section id="names-encode-meaning" class="slide level2">
+<h2>Names Encode Meaning</h2>
+<p>A good name answers:</p>
+<ul>
+<li><p>What?</p></li>
+<li><p>For whom?</p></li>
+<li><p>In what unit?</p></li>
+<li><p>At what level?</p></li>
+<li><p>Over what time window?</p></li>
+</ul>
+</section>
+<section id="core-design-principles" class="slide level2">
+<h2>Core Design Principles</h2>
+<ol type="1">
+<li><strong>Consistency over cleverness</strong></li>
+<li><strong>Explicit over implicit</strong></li>
+<li><strong>Stable over convenient</strong></li>
+<li><strong>Readable by humans and machines</strong></li>
+</ol>
+</section>
+<section id="scope-of-a-naming-convention" class="slide level2">
+<h2>Scope of a Naming Convention</h2>
+<p>You must define rules for:</p>
+<ul>
+<li>✅ Variables</li>
+<li>✅ Tables</li>
+<li>✅ Files</li>
+<li>✅ Features</li>
+<li>✅ Categories</li>
+<li>✅ Ontology terms</li>
+</ul>
+<p>Partial conventions always fail.</p>
+</section>
+<section id="case-sensitivity-matters" class="slide level2">
+<h2>Case Sensitivity Matters</h2>
+<p>Choose <strong>one</strong> and enforce it.</p>
+<p>Recommended:</p>
+<ul>
+<li><p><strong>CamelCase</strong> for data schemas</p></li>
+<li><p><strong>lower_snake_case</strong> for code variables</p></li>
+</ul>
+<p>Never mix within the same layer.</p>
+</section>
+<section id="variable-naming-pattern" class="slide level2">
+<h2>Variable Naming Pattern</h2>
+<p><strong>Recommended template:</strong></p>
+<p>``</p>
 
 
 </section></section>
@@ -446,44 +559,6 @@ Dr.&nbsp;Hostens
         ]
       });
     </script>
-    
-    <script>
-      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
-      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
-      // slide changes (different for each slide format).
-      (function () {
-        // dispatch for htmlwidgets
-        function fireSlideEnter() {
-          const event = window.document.createEvent("Event");
-          event.initEvent("slideenter", true, true);
-          window.document.dispatchEvent(event);
-        }
-
-        function fireSlideChanged(previousSlide, currentSlide) {
-          fireSlideEnter();
-
-          // dispatch for shiny
-          if (window.jQuery) {
-            if (previousSlide) {
-              window.jQuery(previousSlide).trigger("hidden");
-            }
-            if (currentSlide) {
-              window.jQuery(currentSlide).trigger("shown");
-            }
-          }
-        }
-
-        // hookup for slidy
-        if (window.w3c_slidy) {
-          window.w3c_slidy.add_observer(function (slide_num) {
-            // slide_num starts at position 1
-            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
-          });
-        }
-
-      })();
-    </script>
-
     <script id="quarto-html-after-body" type="application/javascript">
       window.document.addEventListener("DOMContentLoaded", function (event) {
         const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")

@@ -1194,7 +1194,7 @@
     "href": "slides/lec-11.html#sec-current",
     "title": "Data transformations",
     "section": "Current",
-    "text": "Current\nTo get the current date or date-time you can use today() or now():\n\ntoday()\n\n[1] \"2026-09-01\"\n\nnow()\n\n[1] \"2026-09-01 15:11:13 UTC\""
+    "text": "Current\nTo get the current date or date-time you can use today() or now():\n\ntoday()\n\n[1] \"2026-09-02\"\n\nnow()\n\n[1] \"2026-09-02 13:27:17 UTC\""
   },
   {
     "objectID": "slides/lec-11.html#sec-dt-import-1",
@@ -1299,14 +1299,14 @@
     "href": "slides/lec-11.html#sec-duration-1",
     "title": "Data transformations",
     "section": "Durations",
-    "text": "Durations\nIn R, when you subtract two dates, you get a difftime object:\n\n# How old is Miel?\nh_age &lt;- today() - ymd(\"1982-04-27\")\nh_age\n\nTime difference of 16198 days"
+    "text": "Durations\nIn R, when you subtract two dates, you get a difftime object:\n\n# How old is Miel?\nh_age &lt;- today() - ymd(\"1982-04-27\")\nh_age\n\nTime difference of 16199 days"
   },
   {
     "objectID": "slides/lec-11.html#sec-duration-2",
     "href": "slides/lec-11.html#sec-duration-2",
     "title": "Data transformations",
     "section": "Durations",
-    "text": "Durations\nA difftime class object records a time span of seconds, minutes, hours, days, or weeks.\nThis ambiguity can make difftimes a little painful to work with, so lubridate provides an alternative which always uses seconds: the duration.\n\nas.duration(h_age)\n\n[1] \"1399507200s (~44.35 years)\""
+    "text": "Durations\nA difftime class object records a time span of seconds, minutes, hours, days, or weeks.\nThis ambiguity can make difftimes a little painful to work with, so lubridate provides an alternative which always uses seconds: the duration.\n\nas.duration(h_age)\n\n[1] \"1399593600s (~44.35 years)\""
   },
   {
     "objectID": "slides/lec-11.html#sec-duration-3",
@@ -1334,7 +1334,7 @@
     "href": "slides/lec-11.html#sec-duration-6",
     "title": "Data transformations",
     "section": "Add and substract durations",
-    "text": "Add and substract durations\nYou can add and subtract durations to and from days:\n\ntomorrow &lt;- today() + ddays(1)\ntomorrow\n\n[1] \"2026-09-02\"\n\nlast_year &lt;- today() - dyears(1)\nlast_year\n\n[1] \"2025-08-31 18:00:00 UTC\""
+    "text": "Add and substract durations\nYou can add and subtract durations to and from days:\n\ntomorrow &lt;- today() + ddays(1)\ntomorrow\n\n[1] \"2026-09-03\"\n\nlast_year &lt;- today() - dyears(1)\nlast_year\n\n[1] \"2025-09-01 18:00:00 UTC\""
   },
   {
     "objectID": "slides/lec-11.html#sec-duration-7",
@@ -1888,6 +1888,83 @@
     "title": "Discussion 2 - Reproducible & FAIR data science",
     "section": "Reusable",
     "text": "Reusable\n\nR1. (Meta)data are richly described with a plurality of accurate and relevant attributes\nR1.1. (Meta)data are released with a clear and accessible data usage license\nR1.2. (Meta)data are associated with detailed provenance\nR1.3. (Meta)data meet domain-relevant community standards"
+  },
+  {
+    "objectID": "slides/disc-2.html#why-do-we-need-this",
+    "href": "slides/disc-2.html#why-do-we-need-this",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Why do we need this",
+    "text": "Why do we need this\n\nDairy data science is multimodal, longitudinal, and collaborative\nNaming is not cosmetic — it is infrastructure\nMost downstream issues are caused by:\n\nAmbiguity\nInconsistency\nSilent semantic drift"
+  },
+  {
+    "objectID": "slides/disc-2.html#minutes-4-takeaways",
+    "href": "slides/disc-2.html#minutes-4-takeaways",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "40 Minutes, 4 Takeaways",
+    "text": "40 Minutes, 4 Takeaways\n\nNaming conventions are scientific decisions\nBad names silently break analyis and models\nConventions must scale across projects & people\nGovernance matters more than documentation"
+  },
+  {
+    "objectID": "slides/disc-2.html#the-dairy-data-reality",
+    "href": "slides/disc-2.html#the-dairy-data-reality",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "The Dairy Data Reality",
+    "text": "The Dairy Data Reality\n\nMultiple farms\nMultiple vendors\nMultiple countries\nMultiple disciplines:\n\nNutrition\nHealth\nBehavior\nProduction\n\n\n→ Names are the only shared language"
+  },
+  {
+    "objectID": "slides/disc-2.html#what-is-a-naming-convention",
+    "href": "slides/disc-2.html#what-is-a-naming-convention",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "What Is a Naming Convention?",
+    "text": "What Is a Naming Convention?\n\nA set of agreed‑upon rules for creating unique, informative, and stable names for data objects.\n\nApplies to: - Variables - Tables - Files - Visuals - Ontology terms"
+  },
+  {
+    "objectID": "slides/disc-2.html#naming-style-preference",
+    "href": "slides/disc-2.html#naming-style-preference",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Naming ≠ Style Preference",
+    "text": "Naming ≠ Style Preference\nBad naming causes: - Feature leakage - Wrong joins - Broken pipelines - Invalid within/between farm comparisons\nThese errors do not throw exceptions."
+  },
+  {
+    "objectID": "slides/disc-2.html#common-dairy-data-failures",
+    "href": "slides/disc-2.html#common-dairy-data-failures",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Common Dairy Data Failures",
+    "text": "Common Dairy Data Failures\n\nDIM, days_in_milk, DaysInMilk\nmilk_yield, MilkYieldKg, MY\nother, Other, OTHER\nlactation_stage vs lactation_stages\n\nEach creates a new semantic entity"
+  },
+  {
+    "objectID": "slides/disc-2.html#names-encode-meaning",
+    "href": "slides/disc-2.html#names-encode-meaning",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Names Encode Meaning",
+    "text": "Names Encode Meaning\nA good name answers:\n\nWhat?\nFor whom?\nIn what unit?\nAt what level?\nOver what time window?"
+  },
+  {
+    "objectID": "slides/disc-2.html#core-design-principles",
+    "href": "slides/disc-2.html#core-design-principles",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Core Design Principles",
+    "text": "Core Design Principles\n\nConsistency over cleverness\nExplicit over implicit\nStable over convenient\nReadable by humans and machines"
+  },
+  {
+    "objectID": "slides/disc-2.html#scope-of-a-naming-convention",
+    "href": "slides/disc-2.html#scope-of-a-naming-convention",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Scope of a Naming Convention",
+    "text": "Scope of a Naming Convention\nYou must define rules for:\n\n✅ Variables\n✅ Tables\n✅ Files\n✅ Features\n✅ Categories\n✅ Ontology terms\n\nPartial conventions always fail."
+  },
+  {
+    "objectID": "slides/disc-2.html#case-sensitivity-matters",
+    "href": "slides/disc-2.html#case-sensitivity-matters",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Case Sensitivity Matters",
+    "text": "Case Sensitivity Matters\nChoose one and enforce it.\nRecommended:\n\nCamelCase for data schemas\nlower_snake_case for code variables\n\nNever mix within the same layer."
+  },
+  {
+    "objectID": "slides/disc-2.html#variable-naming-pattern",
+    "href": "slides/disc-2.html#variable-naming-pattern",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Variable Naming Pattern",
+    "text": "Variable Naming Pattern\nRecommended template:\n``"
   },
   {
     "objectID": "slides/lec-1.html#meet-the-teacher",
