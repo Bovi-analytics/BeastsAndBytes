@@ -22,29 +22,29 @@ Department of Animal Science, ANSCI 4040
 
 ## Instructor
 
--   Assoc. Prof. Dr. DVM Miel Hostens
+- Assoc. Prof. Dr. DVM Miel Hostens
 
--   Robert and Anne Everett Endowed Associate Professor
+- Robert and Anne Everett Endowed Associate Professor
 
--   Office : 273 Morrison Hall, Ithaca, NY 14853
+- Office : 273 Morrison Hall, Ithaca, NY 14853
 
--   Email : [miel.hostens\@cornell.edu](mailto:miel.hostens@cornell.edu)
+- Email : [miel.hostens\@cornell.edu](mailto:miel.hostens@cornell.edu)
 
--   Office Hours: [Schedule an appointment](https://outlook.office.com/bookwithme/user/81c7a026deb04fc9a3c8251ceeb24e81@cornell.edu?anonymous&ep=signature)
+- Office Hours: [Schedule an appointment](https://outlook.office.com/bookwithme/user/81c7a026deb04fc9a3c8251ceeb24e81@cornell.edu?anonymous&ep=signature)
 
 ## Teaching Assistants
 
 ### DVM Meike van Leerdam
 
--   Office location : B16 Morrison Hall, Ithaca, NY 14853
+- Office location : B16 Morrison Hall, Ithaca, NY 14853
 
--   Email : [mbv32\@cornell.edu](mailto:mbv32@cornell.edu)
+- Email : [mbv32\@cornell.edu](mailto:mbv32@cornell.edu)
 
 ### DVM Sumit Sharma
 
--   Office location : B16 Morrison Hall, Ithaca, NY 14853
+- Office location : B16 Morrison Hall, Ithaca, NY 14853
 
--   Email : [ss4452\@cornell.edu](mailto:ss4452@cornell.edu){.email}
+- Email : [ss4452\@cornell.edu](mailto:ss4452@cornell.edu){.email}
 
 # Overview
 
@@ -82,11 +82,11 @@ This course emphasizes data literacy, data science, and ethical interpretation o
 
 A statistical course such one of the following is **not required but strongly advised:**
 
--   STSCI 2150/5150 Introductory Statistics for Biology
+- STSCI 2150/5150 Introductory Statistics for Biology
 
--   BTRY3010/STSCI2200 & BTRY5010/STSCI5200: Biological Statistics I
+- BTRY3010/STSCI2200 & BTRY5010/STSCI5200: Biological Statistics I
 
--   ILRST/STSCI 2100: Introductory Statistics
+- ILRST/STSCI 2100: Introductory Statistics
 
 ## Materials, Textbook and Website
 
@@ -94,11 +94,11 @@ All lecture notes, assignment instructions, an up-to-date schedule, and other co
 
 While there is no official textbook for the course, we will be assigning readings from the following some of the following textbooks.
 
--   [R for Data Science](https://r4ds.had.co.nz/) by Garret Grolemund and Hadley Wickham.
+- [R for Data Science](https://r4ds.had.co.nz/) by Garret Grolemund and Hadley Wickham.
 
--   Weekly assignments from the [Introduction to Data Science](https://rafalab.dfci.harvard.edu/dsbook-part-1/) handbook by Rafael Irizarry.
+- Weekly assignments from the [Introduction to Data Science](https://rafalab.dfci.harvard.edu/dsbook-part-1/) handbook by Rafael Irizarry.
 
--   Others related to the project will be proposed during the course
+- Others related to the project will be proposed during the course
 
 Although I will try to avoid last minute changes to the schedule this might happen given this challenged based learning course. I will send course announcements via email.
 
@@ -106,89 +106,48 @@ Although I will try to avoid last minute changes to the schedule this might happ
 
 See [this link](https://bovi-analytics.github.io/BeastsAndBytes/course-overview.html) for details on course outline. As this course is the first of its kind, expect updates to happen to this course outline during the fall semester of 2026.
 
-+--------------+------------------------------------------------------+
-| Week         | Topic                                                |
-+:============:+======================================================+
-| 1            | Introduction to Python programming                   |
-+--------------+------------------------------------------------------+
-| 1            | Introduction to decision support                     |
-+--------------+------------------------------------------------------+
-| 2            | Introduction to the project                          |
-+--------------+------------------------------------------------------+
-| 2            | Project discussion                                   |
-+--------------+------------------------------------------------------+
-| 3            | Work on Dodona at home                               |
-+--------------+------------------------------------------------------+
-| 3            | RUFAS lecture and programming assignment             |
-+--------------+------------------------------------------------------+
-| 3            | Project discussion                                   |
-+--------------+------------------------------------------------------+
-| 4            | Guest lecture Albert De Vries                        |
-+--------------+------------------------------------------------------+
-| 4            | Programming assignment                               |
-+--------------+------------------------------------------------------+
-| 4            | Project discussion with stakeholders                 |
-+--------------+------------------------------------------------------+
-| 5            | February break                                       |
-+--------------+------------------------------------------------------+
-| 5            | February break                                       |
-+--------------+------------------------------------------------------+
-| 5            | Guest lecture Victor Cabrera                         |
-+--------------+------------------------------------------------------+
-| 6            | Project discussion                                   |
-+--------------+------------------------------------------------------+
-| 6            | Programming assignment                               |
-+--------------+------------------------------------------------------+
-| 6            | FAIR data principles for Animal/Agricultural Science |
-+--------------+------------------------------------------------------+
-| 7            | Guest lectue MyCow\$                                 |
-+--------------+------------------------------------------------------+
-| 7            | Programming assignment                               |
-+--------------+------------------------------------------------------+
-| 7            | Effective visualisation using Tableau                |
-+--------------+------------------------------------------------------+
-| 8            | DISC Assessment & Team Dynamics                      |
-+--------------+------------------------------------------------------+
-| 8            | Farm visit                                           |
-+--------------+------------------------------------------------------+
-| 8            | Discuss results DISC                                 |
-+--------------+------------------------------------------------------+
-| 9            | Project discussion                                   |
-+--------------+------------------------------------------------------+
-| 9            | Discuss MSCW frontend and start backend              |
-+--------------+------------------------------------------------------+
-| 9            | Project discussion                                   |
-+--------------+------------------------------------------------------+
-| 10           | Project discussion                                   |
-+--------------+------------------------------------------------------+
-| 10           | Work on project                                      |
-+--------------+------------------------------------------------------+
-| 10           | Curse of dimensionality                              |
-+--------------+------------------------------------------------------+
-| 11           | Spring break                                         |
-+--------------+------------------------------------------------------+
-| 11           | Spring break                                         |
-+--------------+------------------------------------------------------+
-| 11           | Spring break                                         |
-+--------------+------------------------------------------------------+
-| 12           | Software and cloud development                       |
-+--------------+------------------------------------------------------+
-| 12           | Work on project and programming assignment           |
-+--------------+------------------------------------------------------+
-| 12           | Project discussion                                   |
-+--------------+------------------------------------------------------+
-| 13           | Work on project                                      |
-+--------------+------------------------------------------------------+
-| 14           | Work on project                                      |
-+--------------+------------------------------------------------------+
-| 15           | Work on project                                      |
-+--------------+------------------------------------------------------+
-| 16           | Work on project                                      |
-+--------------+------------------------------------------------------+
-| 16           | Final project presentation                           |
-+--------------+------------------------------------------------------+
-| 17           | Programming exam                                     |
-+--------------+------------------------------------------------------+
+| Week | Topic                                                |
+|:----:|------------------------------------------------------|
+|  1   | Introduction to Python programming                   |
+|  1   | Introduction to decision support                     |
+|  2   | Introduction to the project                          |
+|  2   | Project discussion                                   |
+|  3   | Work on Dodona at home                               |
+|  3   | RUFAS lecture and programming assignment             |
+|  3   | Project discussion                                   |
+|  4   | Guest lecture Albert De Vries                        |
+|  4   | Programming assignment                               |
+|  4   | Project discussion with stakeholders                 |
+|  5   | February break                                       |
+|  5   | February break                                       |
+|  5   | Guest lecture Victor Cabrera                         |
+|  6   | Project discussion                                   |
+|  6   | Programming assignment                               |
+|  6   | FAIR data principles for Animal/Agricultural Science |
+|  7   | Guest lectue MyCow\$                                 |
+|  7   | Programming assignment                               |
+|  7   | Effective visualisation using Tableau                |
+|  8   | DISC Assessment & Team Dynamics                      |
+|  8   | Farm visit                                           |
+|  8   | Discuss results DISC                                 |
+|  9   | Project discussion                                   |
+|  9   | Discuss MSCW frontend and start backend              |
+|  9   | Project discussion                                   |
+|  10  | Project discussion                                   |
+|  10  | Work on project                                      |
+|  10  | Curse of dimensionality                              |
+|  11  | Spring break                                         |
+|  11  | Spring break                                         |
+|  11  | Spring break                                         |
+|  12  | Software and cloud development                       |
+|  12  | Work on project and programming assignment           |
+|  12  | Project discussion                                   |
+|  13  | Work on project                                      |
+|  14  | Work on project                                      |
+|  15  | Work on project                                      |
+|  16  | Work on project                                      |
+|  16  | Final project presentation                           |
+|  17  | Programming exam                                     |
 
 ## Format and expectations
 
@@ -196,15 +155,15 @@ This course will consist of a combination of lectures, hands-on practical sessio
 
 ### General weekly format
 
-+----------------+----------+--------------------+--------------------+----------+----------+
-|                | Monday   | Tuesday            | Wednesday          | Thursday | Friday   |
-+================+==========+====================+====================+==========+==========+
-| 10:10-11:00 am | Lecture  |                    | Project discussion |          |          |
-+----------------+----------+--------------------+--------------------+----------+----------+
-| 1:25-4:25 pm   |          | Lab -              |                    |          |          |
-|                |          |                    |                    |          |          |
-|                |          | Code'n in practice |                    |          |          |
-+----------------+----------+--------------------+--------------------+----------+----------+
++----------------+---------+--------------------+--------------------+----------+--------+
+|                | Monday  | Tuesday            | Wednesday          | Thursday | Friday |
++================+=========+====================+====================+==========+========+
+| 10:10-11:00 am | Lecture |                    | Project discussion |          |        |
++----------------+---------+--------------------+--------------------+----------+--------+
+| 1:25-4:25 pm   |         | Lab -              |                    |          |        |
+|                |         |                    |                    |          |        |
+|                |         | Code'n in practice |                    |          |        |
++----------------+---------+--------------------+--------------------+----------+--------+
 
 ### Lectures
 
@@ -240,16 +199,16 @@ Throughout the course, you will engage in a group project that involves solving 
 
 This course fulfills the Data Literacy: Statistics (DLS-AG) requirement by focusing on:
 
--   **Core data handling skills:** Students develop foundational data literacy by collecting, cleaning, structuring, and securing agricultural data, enabling them to work confidently with real-world, messy datasets.
--   **Statistical reasoning and interpretation:** The course strengthens the ability to analyze, visualize, and interpret data, with emphasis on understanding variability, bias, and limitations in agricultural datasets.
+- **Core data handling skills:** Students develop foundational data literacy by collecting, cleaning, structuring, and securing agricultural data, enabling them to work confidently with real-world, messy datasets.
+- **Statistical reasoning and interpretation:** The course strengthens the ability to analyze, visualize, and interpret data, with emphasis on understanding variability, bias, and limitations in agricultural datasets.
 
 <!-- -->
 
--   **Data communication and decision support:** Students learn to translate data outputs into clear visualizations and actionable insights that support evidence-based decision-making for farmers and stakeholders.
+- **Data communication and decision support:** Students learn to translate data outputs into clear visualizations and actionable insights that support evidence-based decision-making for farmers and stakeholders.
 
 <!-- -->
 
--   **Critical and responsible data use:** The course embeds data literacy through governance, privacy, and ethical considerations, ensuring students can critically evaluate and responsibly manage agricultural data in applied settings.
+- **Critical and responsible data use:** The course embeds data literacy through governance, privacy, and ethical considerations, ensuring students can critically evaluate and responsibly manage agricultural data in applied settings.
 
 At least 75% of course content is centered on these competencies, and Learning Outcomes 1, 2, 3, and 5 explicitly support them.
 
@@ -271,11 +230,11 @@ At the end of the course you will be evaluated on the % of weekly assignments yo
 
 For example:
 
--   Your coding exam was finally graded at 95%
+- Your coding exam was finally graded at 95%
 
--   Student A successfully finished 75% of the coding assignments within each deadline. As a result student A gets 95% x 75% = 71% as the final individual grade.
+- Student A successfully finished 75% of the coding assignments within each deadline. As a result student A gets 95% x 75% = 71% as the final individual grade.
 
--   Student B successfully finished 100% of the coding assignments within each deadline. As a result student B gets 95% x 100% = 95% as the final individual grade.
+- Student B successfully finished 100% of the coding assignments within each deadline. As a result student B gets 95% x 100% = 95% as the final individual grade.
 
 Finishing each of the assignments within each deadline is not that difficult. You "just" need to devote the time to it. I have used this method a lot during my courses. It is not to annoy students, but to make sure the entire group keeps progressing on the programming skills during the project. You will thank me for that at a certain moment. For full transparency, I learned to code Python using a similar approach. Once I understood why this was done, I started appreciating this method as one of the most inspiring learning methods I have ever seen.
 
@@ -287,23 +246,23 @@ At the end of the course—after the final presentation—each of the required e
 
 ### Example from Spring 2026
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Requirements                                                                                                                                                                                                              |
-+===========================================================================================================================================================================================================================+
-| -   Ask the farmer if the team showed **professional attitude** in all interactions                                                                                                                                       |
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| -   A **data transfer agreement** is fully in place                                                                                                                                                                       |
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| -   Team established a **project goal that works for both participating farms**                                                                                                                                           |
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| -   All team members demonstrate understanding of the **decision-making process** by presenting updates **twice** during weekly project decision meetings                                                                 |
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| -   Project has **impact**, such as hours or labor saved                                                                                                                                                                  |
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| -   Farmers would **recommend the project results** to other farmers                                                                                                                                                      |
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| -   All team members had a **good learning experience**, confirmed during a sit‑down after the final presentation with Professor M. Hostens (may include dairy decision-making, basic data analysis, transferable skills) |
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Requirements                                                                                                                                                                                                            |
++=========================================================================================================================================================================================================================+
+| - Ask the farmer if the team showed **professional attitude** in all interactions                                                                                                                                       |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| - A **data transfer agreement** is fully in place                                                                                                                                                                       |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| - Team established a **project goal that works for both participating farms**                                                                                                                                           |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| - All team members demonstrate understanding of the **decision-making process** by presenting updates **twice** during weekly project decision meetings                                                                 |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| - Project has **impact**, such as hours or labor saved                                                                                                                                                                  |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| - Farmers would **recommend the project results** to other farmers                                                                                                                                                      |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| - All team members had a **good learning experience**, confirmed during a sit‑down after the final presentation with Professor M. Hostens (may include dairy decision-making, basic data analysis, transferable skills) |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 ## Grading Distribution
 

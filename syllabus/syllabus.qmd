@@ -19,8 +19,7 @@ Data Science Applications in Agriculture
 
 ANSC 4040/ ANSC 6040
 
-Detailed and up-to-date course information is also available at: [https://bovi-analytics.github.io/BeastsAndBytes/](https://bovi-analytics.github.io/BeastsAndBytes/)
-
+Detailed and up-to-date course information is also available at: <https://bovi-analytics.github.io/BeastsAndBytes/>
 
 ANSC 4040/ ANSC 6040
 
@@ -58,21 +57,21 @@ Prior knowledge of Python is helpful and strongly encouraged.
 
 By the end of this course, students will be able to:
 
-1. Understand the data science landscape and its applications in agriculture.
+1.  Understand the data science landscape and its applications in agriculture.
 
-2. Develop practical coding skills using Python and modern data science tools.
+2.  Develop practical coding skills using Python and modern data science tools.
 
-3. Apply data science workflows and FAIR principles to organize, manage, and analyze agricultural data.
+3.  Apply data science workflows and FAIR principles to organize, manage, and analyze agricultural data.
 
-4. Scope agricultural problems using systems thinking and translate them into data science projects.
+4.  Scope agricultural problems using systems thinking and translate them into data science projects.
 
-5. Independently design and execute a data science project, from problem definition to results and communication.
+5.  Independently design and execute a data science project, from problem definition to results and communication.
 
-6. Reflect on their learning and take ownership of their development as data science practitioners.
+6.  Reflect on their learning and take ownership of their development as data science practitioners.
 
-7. Collaborate effectively in teams to solve real-world agricultural problems.
+7.  Collaborate effectively in teams to solve real-world agricultural problems.
 
-8. Use AI responsibly and efficiently, recognizing its capabilities, limitations, and implications.
+8.  Use AI responsibly and efficiently, recognizing its capabilities, limitations, and implications.
 
 ## Course Format
 
@@ -80,10 +79,10 @@ This course consists of lectures, hands-on practical sessions, discussions, onli
 
 ### General week format
 
-| Time | Monday | Tuesday | Wednesday | Thursday | Friday |
-| --- | --- | --- | --- | --- | --- |
-| 10:10–11:00 am | Lecture |  | Lecture / Discussion |  |  |
-| 1:25–4:25 pm |  | Lab |  |  |  |
+| Time           | Monday  | Tuesday | Wednesday            | Thursday | Friday |
+|----------------|---------|---------|----------------------|----------|--------|
+| 10:10–11:00 am | Lecture |         | Lecture / Discussion |          |        |
+| 1:25–4:25 pm   |         | Lab     |                      |          |        |
 
 ## Lectures
 
@@ -155,21 +154,21 @@ The purpose of the mini project is to provide students with an opportunity to in
 
 Students will:
 
-1. Identify an individual agricultural problem or question.
+1.  Identify an individual agricultural problem or question.
 
-2. Define and scope the problem.
+2.  Define and scope the problem.
 
-3. Identify and work with appropriate data.
+3.  Identify and work with appropriate data.
 
-4. Apply relevant data science methods.
+4.  Apply relevant data science methods.
 
-5. Use appropriate computational and visualization tools.
+5.  Use appropriate computational and visualization tools.
 
-6. Interpret and communicate their findings.
+6.  Interpret and communicate their findings.
 
-7. Document their workflow and decisions.
+7.  Document their workflow and decisions.
 
-8. Present the results as a poster.
+8.  Present the results as a poster.
 
 The specific project requirements and assessment criteria will be discussed during the course.
 
@@ -181,17 +180,17 @@ Working in teams, students will collaborate with farmers and stakeholders to ide
 
 ## Project phases
 
-1. Problem Identification: Meet with the farmer and other stakeholders to understand the problem and their needs. Conduct initial research to define and scope the problem.
+1.  Problem Identification: Meet with the farmer and other stakeholders to understand the problem and their needs. Conduct initial research to define and scope the problem.
 
-2. Data Collection: Gather relevant data from appropriate sources while following data privacy, governance, and security requirements.
+2.  Data Collection: Gather relevant data from appropriate sources while following data privacy, governance, and security requirements.
 
-3. Data Analysis and Visualization: Analyze collected data and identify relevant patterns, trends, and insights.
+3.  Data Analysis and Visualization: Analyze collected data and identify relevant patterns, trends, and insights.
 
-4. Solution Development: Explore appropriate statistical, machine learning, or other data science approaches and develop a practical solution.
+4.  Solution Development: Explore appropriate statistical, machine learning, or other data science approaches and develop a practical solution.
 
-5. Implementation Plan: Develop a plan for implementing the proposed solution in an appropriate agricultural setting.
+5.  Implementation Plan: Develop a plan for implementing the proposed solution in an appropriate agricultural setting.
 
-6. Presentation and Report: Present the methodology, findings, limitations, and proposed solution and submit the required project documentation.
+6.  Presentation and Report: Present the methodology, findings, limitations, and proposed solution and submit the required project documentation.
 
 ## Course Website
 
@@ -267,21 +266,21 @@ Total: 100%
 
 ## Grade scale
 
-| Grade | Low | High |
-| --- | --- | --- |
-| A+ | 99.80 | 100.0 |
-| A | 93.33 | 99.80 |
-| A- | 90.00 | 93.33 |
-| B+ | 86.66 | 90.00 |
-| B | 83.33 | 86.66 |
-| B- | 80.00 | 83.33 |
-| C+ | 76.66 | 80.00 |
-| C | 73.33 | 76.66 |
-| C- | 70.00 | 73.33 |
-| D+ | 66.66 | 70.00 |
-| D | 63.33 | 66.66 |
-| D- | 60.00 | 63.36 |
-| F | 0.00 | 60.00 |
+| Grade | Low   | High  |
+|-------|-------|-------|
+| A+    | 99.80 | 100.0 |
+| A     | 93.33 | 99.80 |
+| A-    | 90.00 | 93.33 |
+| B+    | 86.66 | 90.00 |
+| B     | 83.33 | 86.66 |
+| B-    | 80.00 | 83.33 |
+| C+    | 76.66 | 80.00 |
+| C     | 73.33 | 76.66 |
+| C-    | 70.00 | 73.33 |
+| D+    | 66.66 | 70.00 |
+| D     | 63.33 | 66.66 |
+| D-    | 60.00 | 63.36 |
+| F     | 0.00  | 60.00 |
 
 Each grade range includes the score on the left and excludes the score on the right. For example, a 90.0 is an A-, not a B+, while an 89.99 is a B+, not an A-.
 
@@ -313,7 +312,7 @@ If experiences outside of class are affecting your performance, please feel free
 
 ## Mental Health and Stress management
 
-If you are feeling overwhelmed, or are worrying about a friend, please reach out to me, one of your instructors or your academic adviser. We can try to help, or we can put you in touch with someone who can help. Cornell has trained counselors available to listen and help: [Cornell Health's Counseling and Psychological Services](https://health.cornell.edu/services/counseling-psychiatry) (CAPS, 607-255-5155); [Student Support and Advocacy Services] (https://scl.cornell.edu/student-support); [Empathy, Assistance, and Referral Service](http://orgsync.rso.cornell.edu/org/ears) (EARS, 213 Willard Straight Hall, 607-255-3277), and [Let’s Talk](https://health.cornell.edu/services/counseling-psychiatry/lets-talk). The [Learning Strategies](http://lsc.cornell.edu/) Center offers a range of academic resources.
+If you are feeling overwhelmed, or are worrying about a friend, please reach out to me, one of your instructors or your academic adviser. We can try to help, or we can put you in touch with someone who can help. Cornell has trained counselors available to listen and help: [Cornell Health's Counseling and Psychological Services](https://health.cornell.edu/services/counseling-psychiatry) (CAPS, 607-255-5155); \[Student Support and Advocacy Services\] (https://scl.cornell.edu/student-support); [Empathy, Assistance, and Referral Service](http://orgsync.rso.cornell.edu/org/ears) (EARS, 213 Willard Straight Hall, 607-255-3277), and [Let’s Talk](https://health.cornell.edu/services/counseling-psychiatry/lets-talk). The [Learning Strategies](http://lsc.cornell.edu/) Center offers a range of academic resources.
 
 ## Academic Integrity
 
@@ -337,7 +336,7 @@ Generative artificial intelligence and other generative tools are an intentional
 
 AI tools can be useful for learning, programming, brainstorming, exploring ideas, debugging, data analysis, and developing solutions. At the same time, relying on AI without critical evaluation can interfere with learning and can introduce inaccurate information, fabricated references, security risks, privacy concerns, bias, and other problems.
 
-The goal of this course is therefore not to prohibit students from using AI, but to teach students how to use it responsibly, critically, and effectively. See also: [https://it.cornell.edu/ai-strategy/ai-guidelines](https://it.cornell.edu/ai-strategy/ai-guidelines) , [https://teaching.cornell.edu/generative-artificial-intelligence](https://teaching.cornell.edu/generative-artificial-intelligence) , [https://teaching.cornell.edu/generative-artificial-intelligence/ai-academic-integrity] (https://teaching.cornell.edu/generative-artificial-intelligence/ai-academic-integrity) 
+The goal of this course is therefore not to prohibit students from using AI, but to teach students how to use it responsibly, critically, and effectively. See also: <https://it.cornell.edu/ai-strategy/ai-guidelines> , <https://teaching.cornell.edu/generative-artificial-intelligence> , \[https://teaching.cornell.edu/generative-artificial-intelligence/ai-academic-integrity\] (https://teaching.cornell.edu/generative-artificial-intelligence/ai-academic-integrity)
 
 ## General AI expectations
 
@@ -487,7 +486,7 @@ When in doubt, ask before submitting the work.
 
 The course includes a dedicated discussion on the ethical and efficient use of AI.
 
-The purpose of this discussion is not simply to tell students what they can or cannot do. It is intended to help students develop the judgment needed to decide when, why, and how AI should be used. See also: [https://undergrad.cornell.edu/students/academic-integrity/essential-guide-academic-integrity-undergraduate-students](https://undergrad.cornell.edu/students/academic-integrity/essential-guide-academic-integrity-undergraduate-students) 
+The purpose of this discussion is not simply to tell students what they can or cannot do. It is intended to help students develop the judgment needed to decide when, why, and how AI should be used. See also: <https://undergrad.cornell.edu/students/academic-integrity/essential-guide-academic-integrity-undergraduate-students>
 
 ## Collaboration and External Resources
 
@@ -595,7 +594,7 @@ Student Disability Services can be contacted through Cornell's SDS office.
 
 If you are experiencing difficulties that affect your ability to participate or succeed in the course, please communicate with the instructor or your academic adviser.
 
-Cornell provides a range of academic, health, counseling, accessibility, and student-support resources. Students are encouraged to seek assistance early rather than waiting until difficulties become overwhelming. 
+Cornell provides a range of academic, health, counseling, accessibility, and student-support resources. Students are encouraged to seek assistance early rather than waiting until difficulties become overwhelming.
 
 ## Course Communication
 
@@ -612,7 +611,7 @@ The detailed course schedule is maintained on the course website and may be upda
 The current planned schedule includes:
 
 | Week | Date | Activity |
-| --- | --- | --- |
+|----|----|----|
 | 1 | 8/24 | Course Outline |
 | 1 | 8/25 | Toolbox: IDEs, Programming Languages & Vibe Coding |
 | 1 | 8/26 | Data Science in Agriculture |
