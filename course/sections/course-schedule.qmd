@@ -1,63 +1,15 @@
 ---
 title: "Course Schedule"
+
 format:
   html:
     toc: false
+    css: schedule.css
+
+  pdf:
+    toc: false
+    keep-tex: false
 ---
-
-<style>
-.course-schedule {
-  width: 100%;
-  table-layout: fixed;
-  border-collapse: collapse;
-}
-
-.course-schedule th,
-.course-schedule td {
-  padding: 8px 10px;
-  vertical-align: top;
-  text-align: left;
-  border: 1px solid #dee2e6;
-}
-
-.course-schedule th {
-  background-color: #f5f5f5;
-  font-weight: 600;
-}
-
-/* Week */
-.course-schedule th:nth-child(1),
-.course-schedule td:nth-child(1) {
-  width: 10%;
-  white-space: nowrap;
-}
-
-/* Date */
-.course-schedule th:nth-child(2),
-.course-schedule td:nth-child(2) {
-  width: 12%;
-  white-space: nowrap;
-}
-
-/* Activity */
-.course-schedule th:nth-child(3),
-.course-schedule td:nth-child(3) {
-  width: 78%;
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-}
-
-@media (max-width: 700px) {
-  .course-schedule {
-    font-size: 0.9rem;
-  }
-
-  .course-schedule th,
-  .course-schedule td {
-    padding: 6px 7px;
-  }
-}
-</style>
 
 # Course Schedule
 
@@ -112,4 +64,3 @@ The current planned schedule includes:
 | 15 | 11/30 | Final Project Presentations / Submission Preparation |
 | 15 | 12/1 | Final Project Submission |
 | 15 | 12/2 | Course Wrap-up & Reflection |
-{.course-schedule}
