@@ -47,9 +47,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-2d07d553e6cc33acb0a3a1520d82ef78.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-f446f165291aa2961a2c4f70154dc369.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-2d07d553e6cc33acb0a3a1520d82ef78.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-d45bc26300b50137dccd2720c26661ad.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-bbeff606165efa00325262cd16531f19.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-d45bc26300b50137dccd2720c26661ad.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -841,35 +841,12 @@ ul.task-list li input[type="checkbox"] {
 </table>
 <p>Each grade range includes the score on the left and excludes the score on the right. For example, a 90.0 is an A-, not a B+, while an 89.99 is a B+, not an A-.</p>
 <style>
-/* ================================
-   Course Schedule Table
-   ================================ */
-
 .course-schedule {
   width: 100%;
   table-layout: fixed;
   border-collapse: collapse;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
 }
 
-/* Column widths */
-.course-schedule th:nth-child(1),
-.course-schedule td:nth-child(1) {
-  width: 10%;
-}
-
-.course-schedule th:nth-child(2),
-.course-schedule td:nth-child(2) {
-  width: 12%;
-}
-
-.course-schedule th:nth-child(3),
-.course-schedule td:nth-child(3) {
-  width: 78%;
-}
-
-/* Cell formatting */
 .course-schedule th,
 .course-schedule td {
   padding: 8px 10px;
@@ -878,25 +855,33 @@ ul.task-list li input[type="checkbox"] {
   border: 1px solid #dee2e6;
 }
 
-/* Header */
 .course-schedule th {
   background-color: #f5f5f5;
   font-weight: 600;
 }
 
-/* Allow long activity names to wrap */
+/* Week */
+.course-schedule th:nth-child(1),
+.course-schedule td:nth-child(1) {
+  width: 10%;
+  white-space: nowrap;
+}
+
+/* Date */
+.course-schedule th:nth-child(2),
+.course-schedule td:nth-child(2) {
+  width: 12%;
+  white-space: nowrap;
+}
+
+/* Activity */
+.course-schedule th:nth-child(3),
 .course-schedule td:nth-child(3) {
+  width: 78%;
   overflow-wrap: break-word;
   word-wrap: break-word;
 }
 
-/* Keep Week and Date compact */
-.course-schedule td:nth-child(1),
-.course-schedule td:nth-child(2) {
-  white-space: nowrap;
-}
-
-/* Slightly smaller text on smaller screens */
 @media (max-width: 700px) {
   .course-schedule {
     font-size: 0.9rem;
@@ -906,21 +891,6 @@ ul.task-list li input[type="checkbox"] {
   .course-schedule td {
     padding: 6px 7px;
   }
-
-  .course-schedule th:nth-child(1),
-  .course-schedule td:nth-child(1) {
-    width: 12%;
-  }
-
-  .course-schedule th:nth-child(2),
-  .course-schedule td:nth-child(2) {
-    width: 18%;
-  }
-
-  .course-schedule th:nth-child(3),
-  .course-schedule td:nth-child(3) {
-    width: 70%;
-  }
 }
 </style>
 </section>
@@ -929,7 +899,6 @@ ul.task-list li input[type="checkbox"] {
 <h1>Course Schedule</h1>
 <p>The detailed course schedule is maintained on the course website and may be updated during the semester.</p>
 <p>The current planned schedule includes:</p>
-<div class="course-schedule">
 <table class="caption-top table">
 <colgroup>
 <col style="width: 33%">
@@ -938,240 +907,240 @@ ul.task-list li input[type="checkbox"] {
 </colgroup>
 <thead>
 <tr class="header">
-<th>Week</th>
-<th>Date</th>
-<th>Activity</th>
+<th style="text-align: left;">Week</th>
+<th style="text-align: left;">Date</th>
+<th style="text-align: left;">Activity</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>1</td>
-<td>8/24</td>
-<td>Course Outline</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">8/24</td>
+<td style="text-align: left;">Course Outline</td>
 </tr>
 <tr class="even">
-<td>1</td>
-<td>8/25</td>
-<td>Toolbox: IDEs, Programming Languages &amp; Vibe Coding</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">8/25</td>
+<td style="text-align: left;">Toolbox: IDEs, Programming Languages &amp; Vibe Coding</td>
 </tr>
 <tr class="odd">
-<td>1</td>
-<td>8/26</td>
-<td>Data Science in Agriculture</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">8/26</td>
+<td style="text-align: left;">Data Science in Agriculture</td>
 </tr>
 <tr class="even">
-<td>2</td>
-<td>8/31</td>
-<td>Version Control Systems &amp; Integration</td>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">8/31</td>
+<td style="text-align: left;">Version Control Systems &amp; Integration</td>
 </tr>
 <tr class="odd">
-<td>2</td>
-<td>9/1</td>
-<td>Toolbox: Broken Online, Merge Conflicts &amp; Branching</td>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">9/1</td>
+<td style="text-align: left;">Toolbox: Broken Online, Merge Conflicts &amp; Branching</td>
 </tr>
 <tr class="even">
-<td>2</td>
-<td>9/2</td>
-<td>Naming Conventions &amp; FAIR Principles</td>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">9/2</td>
+<td style="text-align: left;">Naming Conventions &amp; FAIR Principles</td>
 </tr>
 <tr class="odd">
-<td>3</td>
-<td>9/7</td>
-<td>No Class – Labor Day Holiday</td>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">9/7</td>
+<td style="text-align: left;">No Class – Labor Day Holiday</td>
 </tr>
 <tr class="even">
-<td>3</td>
-<td>9/8</td>
-<td>Cloud Computing, APIs &amp; Hardware</td>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">9/8</td>
+<td style="text-align: left;">Cloud Computing, APIs &amp; Hardware</td>
 </tr>
 <tr class="odd">
-<td>3</td>
-<td>9/9</td>
-<td>Data Governance &amp; Data Lineage</td>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">9/9</td>
+<td style="text-align: left;">Data Governance &amp; Data Lineage</td>
 </tr>
 <tr class="even">
-<td>4</td>
-<td>9/14</td>
-<td>ML and AI Basics (Part 1)</td>
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">9/14</td>
+<td style="text-align: left;">ML and AI Basics (Part 1)</td>
 </tr>
 <tr class="odd">
-<td>4</td>
-<td>9/15</td>
-<td>Toolbox: Project Mini, Packages, Hugging Face &amp; Model Serving</td>
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">9/15</td>
+<td style="text-align: left;">Toolbox: Project Mini, Packages, Hugging Face &amp; Model Serving</td>
 </tr>
 <tr class="even">
-<td>4</td>
-<td>9/16</td>
-<td>Ethical and Efficient Use of AI</td>
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">9/16</td>
+<td style="text-align: left;">Ethical and Efficient Use of AI</td>
 </tr>
 <tr class="odd">
-<td>5</td>
-<td>9/21</td>
-<td>ML and AI Basics; Supervised and Unsupervised Learning in Agricultural Contexts (Part 2)</td>
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">9/21</td>
+<td style="text-align: left;">ML and AI Basics; Supervised and Unsupervised Learning in Agricultural Contexts (Part 2)</td>
 </tr>
 <tr class="even">
-<td>5</td>
-<td>9/22</td>
-<td>Work on Mini Individual Project</td>
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">9/22</td>
+<td style="text-align: left;">Work on Mini Individual Project</td>
 </tr>
 <tr class="odd">
-<td>5</td>
-<td>9/23</td>
-<td>Q&amp;A / Introduction to Tableau</td>
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">9/23</td>
+<td style="text-align: left;">Q&amp;A / Introduction to Tableau</td>
 </tr>
 <tr class="even">
-<td>6</td>
-<td>9/28</td>
-<td>ML and AI Basics; Supervised and Unsupervised Learning in Agricultural Contexts (Part 3)</td>
+<td style="text-align: left;">6</td>
+<td style="text-align: left;">9/28</td>
+<td style="text-align: left;">ML and AI Basics; Supervised and Unsupervised Learning in Agricultural Contexts (Part 3)</td>
 </tr>
 <tr class="odd">
-<td>6</td>
-<td>9/29</td>
-<td>Work on Mini Individual Project</td>
+<td style="text-align: left;">6</td>
+<td style="text-align: left;">9/29</td>
+<td style="text-align: left;">Work on Mini Individual Project</td>
 </tr>
 <tr class="even">
-<td>6</td>
-<td>9/30</td>
-<td>Q&amp;A</td>
+<td style="text-align: left;">6</td>
+<td style="text-align: left;">9/30</td>
+<td style="text-align: left;">Q&amp;A</td>
 </tr>
 <tr class="odd">
-<td>7</td>
-<td>10/5</td>
-<td>Q&amp;A</td>
+<td style="text-align: left;">7</td>
+<td style="text-align: left;">10/5</td>
+<td style="text-align: left;">Q&amp;A</td>
 </tr>
 <tr class="even">
-<td>7</td>
-<td>10/6</td>
-<td>Poster Presentation</td>
+<td style="text-align: left;">7</td>
+<td style="text-align: left;">10/6</td>
+<td style="text-align: left;">Poster Presentation</td>
 </tr>
 <tr class="odd">
-<td>7</td>
-<td>10/7</td>
-<td>DISC Assessment of the Team</td>
+<td style="text-align: left;">7</td>
+<td style="text-align: left;">10/7</td>
+<td style="text-align: left;">DISC Assessment of the Team</td>
 </tr>
 <tr class="even">
-<td>8</td>
-<td>10/12</td>
-<td>No Class – Fall Break</td>
+<td style="text-align: left;">8</td>
+<td style="text-align: left;">10/12</td>
+<td style="text-align: left;">No Class – Fall Break</td>
 </tr>
 <tr class="odd">
-<td>8</td>
-<td>10/13</td>
-<td>No Class – Fall Break</td>
+<td style="text-align: left;">8</td>
+<td style="text-align: left;">10/13</td>
+<td style="text-align: left;">No Class – Fall Break</td>
 </tr>
 <tr class="even">
-<td>8</td>
-<td>10/14</td>
-<td>TBD</td>
+<td style="text-align: left;">8</td>
+<td style="text-align: left;">10/14</td>
+<td style="text-align: left;">TBD</td>
 </tr>
 <tr class="odd">
-<td>9</td>
-<td>10/19</td>
-<td>Final Project Kickoff</td>
+<td style="text-align: left;">9</td>
+<td style="text-align: left;">10/19</td>
+<td style="text-align: left;">Final Project Kickoff</td>
 </tr>
 <tr class="even">
-<td>9</td>
-<td>10/20</td>
-<td>Farm Visit</td>
+<td style="text-align: left;">9</td>
+<td style="text-align: left;">10/20</td>
+<td style="text-align: left;">Farm Visit</td>
 </tr>
 <tr class="odd">
-<td>9</td>
-<td>10/21</td>
-<td>Project Planning</td>
+<td style="text-align: left;">9</td>
+<td style="text-align: left;">10/21</td>
+<td style="text-align: left;">Project Planning</td>
 </tr>
 <tr class="even">
-<td>10</td>
-<td>10/26</td>
-<td>Final Project</td>
+<td style="text-align: left;">10</td>
+<td style="text-align: left;">10/26</td>
+<td style="text-align: left;">Final Project</td>
 </tr>
 <tr class="odd">
-<td>10</td>
-<td>10/27</td>
-<td>Final Project</td>
+<td style="text-align: left;">10</td>
+<td style="text-align: left;">10/27</td>
+<td style="text-align: left;">Final Project</td>
 </tr>
 <tr class="even">
-<td>10</td>
-<td>10/28</td>
-<td>Final Project</td>
+<td style="text-align: left;">10</td>
+<td style="text-align: left;">10/28</td>
+<td style="text-align: left;">Final Project</td>
 </tr>
 <tr class="odd">
-<td>11</td>
-<td>11/2</td>
-<td>Final Project</td>
+<td style="text-align: left;">11</td>
+<td style="text-align: left;">11/2</td>
+<td style="text-align: left;">Final Project</td>
 </tr>
 <tr class="even">
-<td>11</td>
-<td>11/3</td>
-<td>Final Project</td>
+<td style="text-align: left;">11</td>
+<td style="text-align: left;">11/3</td>
+<td style="text-align: left;">Final Project</td>
 </tr>
 <tr class="odd">
-<td>11</td>
-<td>11/4</td>
-<td>Final Project</td>
+<td style="text-align: left;">11</td>
+<td style="text-align: left;">11/4</td>
+<td style="text-align: left;">Final Project</td>
 </tr>
 <tr class="even">
-<td>12</td>
-<td>11/9</td>
-<td>Final Project</td>
+<td style="text-align: left;">12</td>
+<td style="text-align: left;">11/9</td>
+<td style="text-align: left;">Final Project</td>
 </tr>
 <tr class="odd">
-<td>12</td>
-<td>11/10</td>
-<td>Final Project</td>
+<td style="text-align: left;">12</td>
+<td style="text-align: left;">11/10</td>
+<td style="text-align: left;">Final Project</td>
 </tr>
 <tr class="even">
-<td>12</td>
-<td>11/11</td>
-<td>Final Project</td>
+<td style="text-align: left;">12</td>
+<td style="text-align: left;">11/11</td>
+<td style="text-align: left;">Final Project</td>
 </tr>
 <tr class="odd">
-<td>13</td>
-<td>11/16</td>
-<td>Final Project</td>
+<td style="text-align: left;">13</td>
+<td style="text-align: left;">11/16</td>
+<td style="text-align: left;">Final Project</td>
 </tr>
 <tr class="even">
-<td>13</td>
-<td>11/17</td>
-<td>Final Project</td>
+<td style="text-align: left;">13</td>
+<td style="text-align: left;">11/17</td>
+<td style="text-align: left;">Final Project</td>
 </tr>
 <tr class="odd">
-<td>13</td>
-<td>11/18</td>
-<td>Final Project</td>
+<td style="text-align: left;">13</td>
+<td style="text-align: left;">11/18</td>
+<td style="text-align: left;">Final Project</td>
 </tr>
 <tr class="even">
-<td>14</td>
-<td>11/23</td>
-<td>Final Project</td>
+<td style="text-align: left;">14</td>
+<td style="text-align: left;">11/23</td>
+<td style="text-align: left;">Final Project</td>
 </tr>
 <tr class="odd">
-<td>14</td>
-<td>11/24</td>
-<td>Final Project</td>
+<td style="text-align: left;">14</td>
+<td style="text-align: left;">11/24</td>
+<td style="text-align: left;">Final Project</td>
 </tr>
 <tr class="even">
-<td>14</td>
-<td>11/25</td>
-<td>No Class – Thanksgiving Break</td>
+<td style="text-align: left;">14</td>
+<td style="text-align: left;">11/25</td>
+<td style="text-align: left;">No Class – Thanksgiving Break</td>
 </tr>
 <tr class="odd">
-<td>15</td>
-<td>11/30</td>
-<td>Final Project Presentations / Submission Preparation</td>
+<td style="text-align: left;">15</td>
+<td style="text-align: left;">11/30</td>
+<td style="text-align: left;">Final Project Presentations / Submission Preparation</td>
 </tr>
 <tr class="even">
-<td>15</td>
-<td>12/1</td>
-<td>Final Project Submission</td>
+<td style="text-align: left;">15</td>
+<td style="text-align: left;">12/1</td>
+<td style="text-align: left;">Final Project Submission</td>
 </tr>
 <tr class="odd">
-<td>15</td>
-<td>12/2</td>
-<td>Course Wrap-up &amp; Reflection</td>
+<td style="text-align: left;">15</td>
+<td style="text-align: left;">12/2</td>
+<td style="text-align: left;">Course Wrap-up &amp; Reflection</td>
 </tr>
 </tbody>
 </table>
-</div>
+<p>{.course-schedule}</p>
 </section>
 <section id="policies" class="level1">
 <h1>Policies</h1>
