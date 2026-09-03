@@ -45,11 +45,31 @@ Academic integrity expectations apply regardless of whether work is completed us
 Each person in this class is expected to respect the principles of academic freedom for instructors and classmates and will maintain the privacy of the classroom environment, as outlined in [Cornell’s S20 Commitment to Academic Integrity, Equitable Instruction, Trust, and Respect](https://bpb-us-e1.wpmucdn.com/blogs.cornell.edu/dist/3/6798/files/2020/03/HonorFinal.pdf). 
 
 ## Responsible Use of Generative AI
-Generative artificial intelligence and other generative tools are a useful part of this course and may be used as learning and development aids unless an assignment states otherwise. Appropriate uses include learning concepts, brainstorming, programming assistance, debugging, exploring technical and data-analysis approaches, generating practice examples, improving student-written material, and learning to work with APIs, packages, models, and other technical tools. Students remain responsible for the accuracy, originality, interpretation, security, and integrity of their submitted work and should understand and be able to explain anything they submit. AI-generated code, analysis, calculations, citations, references, facts, claims, and technical explanations should be carefully reviewed and independently verified. When AI materially contributes to submitted work, students should follow the assignment's requirements for attribution and documentation. AI use does not override Cornell's Code of Academic Integrity, and students should ask the instructor or teaching assistants when they are unsure whether a particular use is appropriate.
-See also: [https://it.cornell.edu/ai-strategy/ai-guidelines](https://it.cornell.edu/ai-strategy/ai-guidelines) , [https://teaching.cornell.edu/generative-artificial-intelligence](https://teaching.cornell.edu/generative-artificial-intelligence) ,[https://teaching.cornell.edu/generative-artificial-intelligence/ai-academic-integrity](https://teaching.cornell.edu/generative-artificial-intelligence/ai-academic-integrity)
+
+Generative artificial intelligence and other generative tools are a useful part of this course and may be used as learning and development aids unless an assignment states otherwise. 
+
+Appropriate uses include learning concepts, brainstorming, programming assistance, debugging, exploring technical and data-analysis approaches, generating practice examples, improving student-written material, and learning to work with APIs, packages, models, and other technical tools. 
+
+Students remain responsible for the accuracy, originality, interpretation, security, and integrity of their submitted work and should understand and be able to explain anything they submit. 
+
+AI-generated code, analysis, calculations, citations, references, facts, claims, and technical explanations should be carefully reviewed and independently verified. 
+
+When AI materially contributes to submitted work, students should follow the assignment's requirements for attribution and documentation. AI use does not override Cornell's Code of Academic Integrity, and students should ask the instructor or teaching assistants when they are unsure whether a particular use is appropriate.
+
+See also: [https://it.cornell.edu/ai-strategy/ai-guidelines](https://it.cornell.edu/ai-strategy/ai-guidelines) , 
+[https://teaching.cornell.edu/generative-artificial-intelligence](https://teaching.cornell.edu/generative-artificial-intelligence) ,
+[https://teaching.cornell.edu/generative-artificial-intelligence/ai-academic-integrity](https://teaching.cornell.edu/generative-artificial-intelligence/ai-academic-integrity)
 
 ## Privacy, Confidentiality, and Responsible Data Use
-Students should be especially careful when using generative AI or other external tools with course and project data. Confidential farmer information, personally identifiable information, proprietary datasets, credentials, passwords, private research data, and other sensitive information should not be uploaded to AI systems or external services unless the instructor has confirmed that the tool and use are appropriate. Students are responsible for following applicable data-use agreements, project-specific data governance requirements, and appropriate security practices. AI-assisted work should be tested, validated, documented, and critically evaluated, and teams remain responsible for their code, analysis, interpretation, sources, and conclusions. External and AI-generated sources, data, code, images, and other contributions should be appropriately acknowledged and verified.
+
+Students should be especially careful when using generative AI or other external tools with course and project data. 
+
+Confidential farmer information, personally identifiable information, proprietary datasets, credentials, passwords, private research data, and other sensitive information should not be uploaded to AI systems or external services unless the instructor has confirmed that the tool and use are appropriate. 
+
+Students are responsible for following applicable data-use agreements, project-specific data governance requirements, and appropriate security practices. 
+
+AI-assisted work should be tested, validated, documented, and critically evaluated, and teams remain responsible for their code, analysis, interpretation, sources, and conclusions. External and AI-generated sources, data, code, images, and other contributions should be appropriately acknowledged and verified.
+
 
 ## Accommodations for Students with Disabilities
 
