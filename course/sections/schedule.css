@@ -1,0 +1,56 @@
+/* =========================================
+   Course Schedule — HTML Styling
+   ========================================= */
+
+/* Make the table use the full available width */
+table {
+  width: 100%;
+}
+
+/* Keep the schedule readable */
+table th,
+table td {
+  padding: 8px 10px;
+  vertical-align: top;
+  text-align: left;
+}
+
+/* Keep Week and Date compact */
+table th:nth-child(1),
+table td:nth-child(1) {
+  width: 10%;
+  white-space: nowrap;
+}
+
+table th:nth-child(2),
+table td:nth-child(2) {
+  width: 12%;
+  white-space: nowrap;
+}
+
+/* Give Activity the remaining space */
+table th:nth-child(3),
+table td:nth-child(3) {
+  width: 78%;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+/* Header */
+table thead th {
+  font-weight: 600;
+}
+
+/* Smaller screens */
+@media (max-width: 700px) {
+
+  table {
+    font-size: 0.9rem;
+  }
+
+  table th,
+  table td {
+    padding: 6px 7px;
+  }
+
+}
