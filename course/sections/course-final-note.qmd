@@ -4,4 +4,8 @@ This course is designed to help you develop the skills needed to work with data,
 
 You are not expected to know everything at the beginning of the course. You are expected to learn, experiment, ask questions, collaborate appropriately, critically evaluate your tools and results, and take responsibility for your own learning.
 
-When you are uncertain about a technical, academic-integrity, collaboration, data-privacy, or AI-use question, ask before proceeding. The teaching team is here to help you make responsible decisions and develop the skills needed to work effectively and ethically as a data science practitioner.
+When you are uncertain about a technical, academic-integrity, collaboration, data-privacy, or AI-use question, please feel free to reach out. The teaching team is here to help you make responsible decisions and develop the skills needed to work effectively and ethically as a data science practitioner.
+
+As this is a continuously evolving, challenge-based course, some activities, policies, and project details may be updated during the semester. 
+
+We will communicate any significant changes through Canvas and keep the course [website](https://bovi-analytics.github.io/BeastsAndBytes/course/sections/course-description.html) up to date with the latest course materials, schedule, and requirements.
