@@ -6,35 +6,12 @@ format:
 ---
 
 <style>
-/* ================================
-   Course Schedule Table
-   ================================ */
-
 .course-schedule {
   width: 100%;
   table-layout: fixed;
   border-collapse: collapse;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
 }
 
-/* Column widths */
-.course-schedule th:nth-child(1),
-.course-schedule td:nth-child(1) {
-  width: 10%;
-}
-
-.course-schedule th:nth-child(2),
-.course-schedule td:nth-child(2) {
-  width: 12%;
-}
-
-.course-schedule th:nth-child(3),
-.course-schedule td:nth-child(3) {
-  width: 78%;
-}
-
-/* Cell formatting */
 .course-schedule th,
 .course-schedule td {
   padding: 8px 10px;
@@ -43,25 +20,33 @@ format:
   border: 1px solid #dee2e6;
 }
 
-/* Header */
 .course-schedule th {
   background-color: #f5f5f5;
   font-weight: 600;
 }
 
-/* Allow long activity names to wrap */
+/* Week */
+.course-schedule th:nth-child(1),
+.course-schedule td:nth-child(1) {
+  width: 10%;
+  white-space: nowrap;
+}
+
+/* Date */
+.course-schedule th:nth-child(2),
+.course-schedule td:nth-child(2) {
+  width: 12%;
+  white-space: nowrap;
+}
+
+/* Activity */
+.course-schedule th:nth-child(3),
 .course-schedule td:nth-child(3) {
+  width: 78%;
   overflow-wrap: break-word;
   word-wrap: break-word;
 }
 
-/* Keep Week and Date compact */
-.course-schedule td:nth-child(1),
-.course-schedule td:nth-child(2) {
-  white-space: nowrap;
-}
-
-/* Slightly smaller text on smaller screens */
 @media (max-width: 700px) {
   .course-schedule {
     font-size: 0.9rem;
@@ -70,21 +55,6 @@ format:
   .course-schedule th,
   .course-schedule td {
     padding: 6px 7px;
-  }
-
-  .course-schedule th:nth-child(1),
-  .course-schedule td:nth-child(1) {
-    width: 12%;
-  }
-
-  .course-schedule th:nth-child(2),
-  .course-schedule td:nth-child(2) {
-    width: 18%;
-  }
-
-  .course-schedule th:nth-child(3),
-  .course-schedule td:nth-child(3) {
-    width: 70%;
   }
 }
 </style>
@@ -95,10 +65,8 @@ The detailed course schedule is maintained on the course website and may be upda
 
 The current planned schedule includes:
 
-<div class="course-schedule">
-
 | Week | Date | Activity |
-|---|---|---|
+|:---|:---|:---|
 | 1 | 8/24 | Course Outline |
 | 1 | 8/25 | Toolbox: IDEs, Programming Languages & Vibe Coding |
 | 1 | 8/26 | Data Science in Agriculture |
@@ -144,5 +112,4 @@ The current planned schedule includes:
 | 15 | 11/30 | Final Project Presentations / Submission Preparation |
 | 15 | 12/1 | Final Project Submission |
 | 15 | 12/2 | Course Wrap-up & Reflection |
-
-</div>
+{.course-schedule}
