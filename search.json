@@ -632,200 +632,6 @@
     "text": "Remember\n\nDifferences are normal\nAwareness reduces friction\nAdaptation improves teams\n\nDISC gives us a shared language — what you do with it is up to you."
   },
   {
-    "objectID": "slides/disc-2-fair.html#what-are-the-fair-principles",
-    "href": "slides/disc-2-fair.html#what-are-the-fair-principles",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "What are the FAIR principles",
-    "text": "What are the FAIR principles\nFAIR data is data which meets the FAIR principles of findability, accessibility, interoperability, and reusability (FAIR).[1][2] The acronym and principles were defined in a March 2016 paper in the journal Scientific Data by a consortium of scientists and organizations.[1]"
-  },
-  {
-    "objectID": "slides/disc-2-fair.html#get-to-know-the-principles-1",
-    "href": "slides/disc-2-fair.html#get-to-know-the-principles-1",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "Get to know the principles (1)",
-    "text": "Get to know the principles (1)\n\nGet familiar with FAIR by looking at this video.\nRead the intial publication on The FAIR Guiding Principles for scientific data management and stewardschip.\nExplore the vision of Cornell University on FAIR principles and their cheatsheets."
-  },
-  {
-    "objectID": "slides/disc-2-fair.html#get-to-know-the-principles-2",
-    "href": "slides/disc-2-fair.html#get-to-know-the-principles-2",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "Get to know the principles (2)",
-    "text": "Get to know the principles (2)\n\nCheck for reproducible advise in the tutorials at the bovi-analytics website.\nDiscuss with the entire team and Dr. Miel Hostens (contact him on his desk) on how this will reflect on your team project."
-  },
-  {
-    "objectID": "slides/disc-2-fair.html#findable",
-    "href": "slides/disc-2-fair.html#findable",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "Findable",
-    "text": "Findable\nThe first step in (re)using data is to find them. Metadata and data should be easy to find for both humans and computers. Machine-readable metadata are essential for automatic discovery of datasets and services, so this is an essential component of the FAIRification process."
-  },
-  {
-    "objectID": "slides/disc-2-fair.html#findable-1",
-    "href": "slides/disc-2-fair.html#findable-1",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "Findable",
-    "text": "Findable\n\nF1. (Meta)data are assigned a globally unique and persistent identifier\nF2. Data are described with rich metadata (defined by R1 below)\nF3. Metadata clearly and explicitly include the identifier of the data they describe\nF4. (Meta)data are registered or indexed in a searchable resource"
-  },
-  {
-    "objectID": "slides/disc-2-fair.html#accessible",
-    "href": "slides/disc-2-fair.html#accessible",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "Accessible",
-    "text": "Accessible\nOnce the user finds the required data, they need to know how they can be accessed, possibly including authentication and authorisation."
-  },
-  {
-    "objectID": "slides/disc-2-fair.html#accessible-1",
-    "href": "slides/disc-2-fair.html#accessible-1",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "Accessible",
-    "text": "Accessible\n\nA1. (Meta)data are retrievable by their identifier using a standardised communications protocol\nA1.1 The protocol is open, free, and universally implementable\nA1.2 The protocol allows for an authentication and authorisation procedure, where necessary\nA2. Metadata are accessible, even when the data are no longer available"
-  },
-  {
-    "objectID": "slides/disc-2-fair.html#interoperable",
-    "href": "slides/disc-2-fair.html#interoperable",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "Interoperable",
-    "text": "Interoperable\nThe data usually need to be integrated with other data. In addition, the data need to interoperate with applications or workflows for analysis, storage, and processing."
-  },
-  {
-    "objectID": "slides/disc-2-fair.html#interoperable-1",
-    "href": "slides/disc-2-fair.html#interoperable-1",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "Interoperable",
-    "text": "Interoperable\n\nI1. (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation.\nI2. (Meta)data use vocabularies that follow FAIR principles\nI3. (Meta)data include qualified references to other (meta)data"
-  },
-  {
-    "objectID": "slides/disc-2-fair.html#reusable",
-    "href": "slides/disc-2-fair.html#reusable",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "Reusable",
-    "text": "Reusable\nThe ultimate goal of FAIR is to optimise the reuse of data. To achieve this, metadata and data should be well-described so that they can be replicated and/or combined in different settings."
-  },
-  {
-    "objectID": "slides/disc-2-fair.html#reusable-1",
-    "href": "slides/disc-2-fair.html#reusable-1",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "Reusable",
-    "text": "Reusable\n\nR1. (Meta)data are richly described with a plurality of accurate and relevant attributes\nR1.1. (Meta)data are released with a clear and accessible data usage license\nR1.2. (Meta)data are associated with detailed provenance\nR1.3. (Meta)data meet domain-relevant community standards"
-  },
-  {
-    "objectID": "slides/disc-2-fair.html#why-do-we-need-this",
-    "href": "slides/disc-2-fair.html#why-do-we-need-this",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "Why do we need this",
-    "text": "Why do we need this\n\nDairy data science is multimodal, longitudinal, and collaborative\nNaming is not cosmetic — it is infrastructure\nMost downstream issues are caused by:\n\nAmbiguity\nInconsistency\nSilent semantic drift"
-  },
-  {
-    "objectID": "slides/disc-2-fair.html#minutes-4-takeaways",
-    "href": "slides/disc-2-fair.html#minutes-4-takeaways",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "40 Minutes, 4 Takeaways",
-    "text": "40 Minutes, 4 Takeaways\n\nNaming conventions are scientific decisions\nBad names silently break analyis and models\nConventions must scale across projects & people\nGovernance matters more than documentation"
-  },
-  {
-    "objectID": "slides/disc-2-fair.html#the-dairy-data-reality",
-    "href": "slides/disc-2-fair.html#the-dairy-data-reality",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "The Dairy Data Reality",
-    "text": "The Dairy Data Reality\n\nMultiple farms\nMultiple vendors\nMultiple countries\nMultiple disciplines:\n\nNutrition\nHealth\nBehavior\nProduction\n\n\n→ Names are the only shared language"
-  },
-  {
-    "objectID": "slides/disc-2-fair.html#what-is-a-naming-convention",
-    "href": "slides/disc-2-fair.html#what-is-a-naming-convention",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "What Is a Naming Convention?",
-    "text": "What Is a Naming Convention?\n\nA set of agreed‑upon rules for creating unique, informative, and stable names for data objects.\n\nApplies to: - Variables - Tables - Files - Visuals - Ontology terms"
-  },
-  {
-    "objectID": "slides/disc-2-fair.html#naming-style-preference",
-    "href": "slides/disc-2-fair.html#naming-style-preference",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "Naming ≠ Style Preference",
-    "text": "Naming ≠ Style Preference\nBad naming causes: - Feature leakage - Wrong joins - Broken pipelines - Invalid within/between farm comparisons\nThese errors do not throw exceptions."
-  },
-  {
-    "objectID": "slides/disc-2-fair.html#common-dairy-data-failures",
-    "href": "slides/disc-2-fair.html#common-dairy-data-failures",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "Common Dairy Data Failures",
-    "text": "Common Dairy Data Failures\n\nDIM, days_in_milk, DaysInMilk\nmilk_yield, MilkYieldKg, MY\nother, Other, OTHER\nlactation_stage vs lactation_stages\n\nEach creates a new semantic entity"
-  },
-  {
-    "objectID": "slides/disc-2-fair.html#names-encode-meaning",
-    "href": "slides/disc-2-fair.html#names-encode-meaning",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "Names Encode Meaning",
-    "text": "Names Encode Meaning\nA good name answers:\n\nWhat?\nFor whom?\nIn what unit?\nAt what level?\nOver what time window?"
-  },
-  {
-    "objectID": "slides/disc-2-fair.html#core-design-principles",
-    "href": "slides/disc-2-fair.html#core-design-principles",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "Core Design Principles",
-    "text": "Core Design Principles\n\nConsistency over cleverness\nExplicit over implicit\nStable over convenient\nReadable by humans and machines"
-  },
-  {
-    "objectID": "slides/disc-2-fair.html#scope-of-a-naming-convention",
-    "href": "slides/disc-2-fair.html#scope-of-a-naming-convention",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "Scope of a Naming Convention",
-    "text": "Scope of a Naming Convention\nYou must define rules for:\n\n✅ Variables\n✅ Tables\n✅ Files\n✅ Features\n✅ Categories\n✅ Ontology terms\n\nPartial conventions always fail."
-  },
-  {
-    "objectID": "slides/disc-2-fair.html#case-sensitivity-matters",
-    "href": "slides/disc-2-fair.html#case-sensitivity-matters",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "Case Sensitivity Matters",
-    "text": "Case Sensitivity Matters\nChoose one and enforce it.\nRecommended:\n\nCamelCase for data schemas\nlower_snake_case for code variables\n\nNever mix within the same layer."
-  },
-  {
-    "objectID": "slides/disc-2-fair.html#variable-naming-pattern",
-    "href": "slides/disc-2-fair.html#variable-naming-pattern",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "Variable Naming Pattern",
-    "text": "Variable Naming Pattern\nRecommended template:\n``"
-  },
-  {
-    "objectID": "labs/lab-0.html",
-    "href": "labs/lab-0.html",
-    "title": "Lab 0 - Meet + greet",
-    "section": "",
-    "text": "Today’s lab is short and sweet! We just need you to fill out the “Getting to know you” survey. Please go here to take it. You will need to log on to Sakai to access to survey.\nYour answers can be brief. Some of your answers will be used to guide what application examples might be of interest to a majority of students in the course and some of your answers will be used to help guide team formation. We expect this will take you ~10 minutes."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Data Science Applications in Agriculture",
-    "section": "",
-    "text": "This page contains an outline of the topics, content, and assignments for the course.\nNote that this schedule will be updated as the course progresses, with all changes documented here.\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\nTeachers\nPrepare\nLecture\n\n\n\n\n1\n8/24 (Mon)\n(LEC) Course Outline\nDr. Miel\n📖\n🖥️\n\n\n1\n8/25 (Tue)\n(LAB) Toolbox: IDEs, Programming Languages & Vibe Coding\nBart, Hanlu, Meike, Puchun & Dr. Miel\n-\n-\n\n\n1\n8/26 (Wed)\n(DISC) Data Science in Agriculture\nSumit, Puchun, Hanlu, Bart & Meike\n-\n-\n\n\n2\n8/31 (Mon)\n(LEC) Version Control Systems & Integration\nDr. Miel\n📖\n🖥️\n\n\n2\n9/1 (Tue)\n(LAB) Toolbox: Broken Online, Merge Conflicts & Branching\nDr. Miel and Meike\n-\n-\n\n\n2\n9/2 (Wed)\n(DISC) Naming Conventions & FAIR Principles\nDr. Miel\n-\n🖥️\n\n\n3\n9/7 (Mon)\nNo Class – Labor Day Holiday\n-\n-\n-\n\n\n3\n9/8 (Tue)\n(LAB) Cloud Computing, APIs & Hardware\nSonam, Dr. Hanlu\n📖\n🖥️\n\n\n3\n9/9 (Wed)\n(DISC) Data Governance & Data Lineage\nDr. Miel and Dr.Puchun\n📖\n🖥️\n\n\n4\n9/14 (Mon)\n(LEC) ML and AI Basics (Part 1)\nDr. Miel\n📖\n🖥️\n\n\n4\n9/15 (Tue)\n(LAB) Toolbox: Project Mini, Packages, Hugging Face & Model Serving\nSonam & Meike\n📖\n🖥️\n\n\n4\n9/16 (Wed)\n(DISC) Ethical and Efficient Use of AI\nDr. Miel\n📖\n🖥️\n\n\n5\n9/21 (Mon)\n(LEC) ML and AI Basics; Supervised and Unsupervised learning in Agricultural contexts (Part 2)\nDr. Miel\n📖\n🖥️\n\n\n5\n9/22 (Tue)\n(LAB) Work on Mini Individual Project\nCourse Staff\n📖\n🖥️\n\n\n5\n9/23 (Wed)\n(DISC) Q&A / Introduction to Tableau\nDr. Miel\n📖\n🖥️\n\n\n6\n9/28 (Mon)\n(LEC) ML and AI Basics; Supervised and Unsupervised learning in Agricultural contexts (Part 3)\nDr. Miel\n📖\n🖥️\n\n\n6\n9/29 (Tue)\n(LAB) Work on Mini Individual Project\nCourse Staff\n📖\n🖥️\n\n\n6\n9/30 (Wed)\n(DISC) Q&A\nDr. Miel\n📖\n🖥️\n\n\n7\n10/5 (Mon)\n(LEC) Q&A\nDr. Miel\n📖\n🖥️\n\n\n7\n10/6 (Tue)\n(LAB) Poster Presentation\nCourse Staff\n📖\n🖥️\n\n\n7\n10/7 (Wed)\n(DISC) DISC Assessment of the Team\nDr. Miel\n📖\n🖥️\n\n\n8\n10/12 (Mon)\nNo Class – Fall Break\n-\n-\n-\n\n\n8\n10/13 (Tue)\nNo Class – Fall Break\n-\n-\n-\n\n\n8\n10/14 (Wed)\n(DISC) TBD\nTBD\n📖\n🖥️\n\n\n9\n10/19 (Mon)\n(LEC) Final Project Kickoff\nDr. Miel\n📖\n🖥️\n\n\n9\n10/20 (Tue)\n(LAB) Farm Visit\nCourse Staff\n📖\n🖥️\n\n\n9\n10/21 (Wed)\n(DISC) Project Planning\nDr. Miel\n📖\n🖥️\n\n\n10\n10/26 (Mon)\n(LEC) Final Project\nCourse Staff\n📖\n🖥️\n\n\n10\n10/27 (Tue)\n(LAB) Final Project\nCourse Staff\n📖\n🖥️\n\n\n10\n10/28 (Wed)\n(DISC) Final Project\nCourse Staff\n📖\n🖥️\n\n\n11\n11/2 (Mon)\n(LEC) Final Project\nCourse Staff\n📖\n🖥️\n\n\n11\n11/3 (Tue)\n(LAB) Final Project\nCourse Staff\n📖\n🖥️\n\n\n11\n11/4 (Wed)\n(DISC) Final Project\nCourse Staff\n📖\n🖥️\n\n\n12\n11/9 (Mon)\n(LEC) Final Project\nCourse Staff\n📖\n🖥️\n\n\n12\n11/10 (Tue)\n(LAB) Final Project\nCourse Staff\n📖\n🖥️\n\n\n12\n11/11 (Wed)\n(DISC) Final Project\nCourse Staff\n📖\n🖥️\n\n\n13\n11/16 (Mon)\n(LEC) Final Project\nCourse Staff\n📖\n🖥️\n\n\n13\n11/17 (Tue)\n(LAB) Final Project\nCourse Staff\n📖\n🖥️\n\n\n13\n11/18 (Wed)\n(DISC) Final Project\nCourse Staff\n📖\n🖥️\n\n\n14\n11/23 (Mon)\n(LEC) Final Project\nCourse Staff\n📖\n🖥️\n\n\n14\n11/24 (Tue)\n(LAB) Final Project\nCourse Staff\n📖\n🖥️\n\n\n14\n11/25 (Wed)\nNo Class – Thanksgiving Break\n-\n-\n-\n\n\n15\n11/30 (Mon)\n(LEC) Final Project Presentations / Submission Preparation\nDr. Miel\n📖\n🖥️\n\n\n15\n12/1 (Tue)\n(LAB) Final Project Submission\nCourse Staff\n📖\n🖥️\n\n\n15\n12/2 (Wed)\n(DISC) Course Wrap-up & Reflection\nDr. Miel\n📖\n🖥️",
-    "crumbs": [
-      "Course information",
-      "Schedule"
-    ]
-  },
-  {
-    "objectID": "computing-access.html",
-    "href": "computing-access.html",
-    "title": "Computing access",
-    "section": "",
-    "text": "You can choose 2 ways of working with Python.\n\nOnline\nTo access computing resources for this course we will make use of the Google Colab computing services linked to the course drive storage. The link to the Google Drive can be found at Useful links\nMake sure you get familiar with Google Colab by reading and trying to run your first pieces of code in the ‘Welcome To Colaboratory’ notebook. We recommend using Colab as it will be easier to work simultaneously with your group mates on the project.\nThe Dodona exercises can also be done in colab. Make sure to make a folder with your name to store your notebooks within the Google Drive environment. Google offers a free premium version of colab for Cornell students, you can register for this using your Cornell email adress.\n\n\nOffline\nYou can also chose to work in Python on your desktop. This can be done using PyCharm in combination with an Anaconda environment, as configured through Dodona. If you encounter any confusion related to these differences or the environment setup, feel free to reach out to the TA for assistance. Other python interperters like VS code also work.",
-    "crumbs": [
-      "Computing",
-      "Access"
-    ]
-  },
-  {
-    "objectID": "project-tips-resources.html",
-    "href": "project-tips-resources.html",
-    "title": "Tips & Tricks",
-    "section": "",
-    "text": "🚀 1. Think Like a Problem-Solver, Not a Note-Taker\nThis course uses challenge-based learning where you solve real agricultural problems in collaboration with farmers and stakeholders. Early in the semester, create a shared team document to track problem definitions and evolving insights.\n\n\n📅 2. Follow the Weekly Rhythm\nLectures → weekly coding labs → project meetings. Dodona assignments are due every Monday at 24:00. Set reminders and avoid last-minute work.\n\n\n💡 3. Coding: Small Bursts Beat Sprints\nYour individual grade = group project grade × percentage of assignments you complete × coding exam. Submit early, refine often, and test code on small inputs before using real farm datasets.\n\n\n👩‍🌾 4. Prepare for Farmer Meetings Like a Consultant\nBefore meeting farmers, prepare three question types: * Clarifying questions * Data-oriented questions * Impact-oriented questions\n\n\n🧹 5. Data Governance & FAIR Principles Matter\nYour project fails automatically if you ignore FAIR principles. Create a shared checklist covering naming conventions, documentation, and file structure.\n\n\n📊 6. Visualize Before You Model\nGenerate key visuals (missing data, histograms, time series, scatter matrices) before applying algorithms.\n\n\n🤝 7. Take Weekly Project Meetings Seriously\nArrive prepared with one question, one update, and one risk. This dramatically reduces last-minute chaos.\n\n\n🧭 8. Scope Your Project Ruthlessly\nCreate a “Not Doing” list by Week 3 to keep your project realistic and implementable.\n\n\n🎤 9. Present for Stakeholders, Not Teachers\nTranslate technical results into statements like: * “This helps you decide…” * “This reduces risk by…”\n\n\n📝 10. Practice Strong Academic Integrity\nDocument all external assistance, including AI tools, and cite everything properly.",
-    "crumbs": [
-      "Project",
-      "Tips + resources"
-    ]
-  },
-  {
     "objectID": "slides/lec-1-intro.html#meet-the-teacher",
     "href": "slides/lec-1-intro.html#meet-the-teacher",
     "title": "Lecture 1 - Meet + greet",
@@ -1066,6 +872,340 @@
       "Slides",
       "Week 1 - Introduction"
     ]
+  },
+  {
+    "objectID": "project-tips-resources.html",
+    "href": "project-tips-resources.html",
+    "title": "Tips & Tricks",
+    "section": "",
+    "text": "🚀 1. Think Like a Problem-Solver, Not a Note-Taker\nThis course uses challenge-based learning where you solve real agricultural problems in collaboration with farmers and stakeholders. Early in the semester, create a shared team document to track problem definitions and evolving insights.\n\n\n📅 2. Follow the Weekly Rhythm\nLectures → weekly coding labs → project meetings. Dodona assignments are due every Monday at 24:00. Set reminders and avoid last-minute work.\n\n\n💡 3. Coding: Small Bursts Beat Sprints\nYour individual grade = group project grade × percentage of assignments you complete × coding exam. Submit early, refine often, and test code on small inputs before using real farm datasets.\n\n\n👩‍🌾 4. Prepare for Farmer Meetings Like a Consultant\nBefore meeting farmers, prepare three question types: * Clarifying questions * Data-oriented questions * Impact-oriented questions\n\n\n🧹 5. Data Governance & FAIR Principles Matter\nYour project fails automatically if you ignore FAIR principles. Create a shared checklist covering naming conventions, documentation, and file structure.\n\n\n📊 6. Visualize Before You Model\nGenerate key visuals (missing data, histograms, time series, scatter matrices) before applying algorithms.\n\n\n🤝 7. Take Weekly Project Meetings Seriously\nArrive prepared with one question, one update, and one risk. This dramatically reduces last-minute chaos.\n\n\n🧭 8. Scope Your Project Ruthlessly\nCreate a “Not Doing” list by Week 3 to keep your project realistic and implementable.\n\n\n🎤 9. Present for Stakeholders, Not Teachers\nTranslate technical results into statements like: * “This helps you decide…” * “This reduces risk by…”\n\n\n📝 10. Practice Strong Academic Integrity\nDocument all external assistance, including AI tools, and cite everything properly.",
+    "crumbs": [
+      "Project",
+      "Tips + resources"
+    ]
+  },
+  {
+    "objectID": "computing-access.html",
+    "href": "computing-access.html",
+    "title": "Computing access",
+    "section": "",
+    "text": "You can choose 2 ways of working with Python.\n\nOnline\nTo access computing resources for this course we will make use of the Google Colab computing services linked to the course drive storage. The link to the Google Drive can be found at Useful links\nMake sure you get familiar with Google Colab by reading and trying to run your first pieces of code in the ‘Welcome To Colaboratory’ notebook. We recommend using Colab as it will be easier to work simultaneously with your group mates on the project.\nThe Dodona exercises can also be done in colab. Make sure to make a folder with your name to store your notebooks within the Google Drive environment. Google offers a free premium version of colab for Cornell students, you can register for this using your Cornell email adress.\n\n\nOffline\nYou can also chose to work in Python on your desktop. This can be done using PyCharm in combination with an Anaconda environment, as configured through Dodona. If you encounter any confusion related to these differences or the environment setup, feel free to reach out to the TA for assistance. Other python interperters like VS code also work.",
+    "crumbs": [
+      "Computing",
+      "Access"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Data Science Applications in Agriculture",
+    "section": "",
+    "text": "This page contains an outline of the topics, content, and assignments for the course.\nNote that this schedule will be updated as the course progresses, with all changes documented here.\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\nTeachers\nPrepare\nLecture\n\n\n\n\n1\n8/24 (Mon)\n(LEC) Course Outline\nDr. Miel\n📖\n🖥️\n\n\n1\n8/25 (Tue)\n(LAB) Toolbox: IDEs, Programming Languages & Vibe Coding\nBart, Hanlu, Meike, Puchun & Dr. Miel\n-\n-\n\n\n1\n8/26 (Wed)\n(DISC) Data Science in Agriculture\nSumit, Puchun, Hanlu, Bart & Meike\n-\n-\n\n\n2\n8/31 (Mon)\n(LEC) Version Control Systems & Integration\nDr. Miel\n📖\n🖥️\n\n\n2\n9/1 (Tue)\n(LAB) Toolbox: Broken Online, Merge Conflicts & Branching\nDr. Miel and Meike\n-\n-\n\n\n2\n9/2 (Wed)\n(DISC) Naming Conventions & FAIR Principles\nDr. Miel\n-\n🖥️\n\n\n3\n9/7 (Mon)\nNo Class – Labor Day Holiday\n-\n-\n-\n\n\n3\n9/8 (Tue)\n(LAB) Cloud Computing, APIs & Hardware\nSonam, Dr. Hanlu\n📖\n🖥️\n\n\n3\n9/9 (Wed)\n(DISC) Data Governance & Data Lineage\nDr. Miel and Dr.Puchun\n📖\n🖥️\n\n\n4\n9/14 (Mon)\n(LEC) ML and AI Basics (Part 1)\nDr. Miel\n📖\n🖥️\n\n\n4\n9/15 (Tue)\n(LAB) Toolbox: Project Mini, Packages, Hugging Face & Model Serving\nSonam & Meike\n📖\n🖥️\n\n\n4\n9/16 (Wed)\n(DISC) Ethical and Efficient Use of AI\nDr. Miel\n📖\n🖥️\n\n\n5\n9/21 (Mon)\n(LEC) ML and AI Basics; Supervised and Unsupervised learning in Agricultural contexts (Part 2)\nDr. Miel\n📖\n🖥️\n\n\n5\n9/22 (Tue)\n(LAB) Work on Mini Individual Project\nCourse Staff\n📖\n🖥️\n\n\n5\n9/23 (Wed)\n(DISC) Q&A / Introduction to Tableau\nDr. Miel\n📖\n🖥️\n\n\n6\n9/28 (Mon)\n(LEC) ML and AI Basics; Supervised and Unsupervised learning in Agricultural contexts (Part 3)\nDr. Miel\n📖\n🖥️\n\n\n6\n9/29 (Tue)\n(LAB) Work on Mini Individual Project\nCourse Staff\n📖\n🖥️\n\n\n6\n9/30 (Wed)\n(DISC) Q&A\nDr. Miel\n📖\n🖥️\n\n\n7\n10/5 (Mon)\n(LEC) Q&A\nDr. Miel\n📖\n🖥️\n\n\n7\n10/6 (Tue)\n(LAB) Poster Presentation\nCourse Staff\n📖\n🖥️\n\n\n7\n10/7 (Wed)\n(DISC) DISC Assessment of the Team\nDr. Miel\n📖\n🖥️\n\n\n8\n10/12 (Mon)\nNo Class – Fall Break\n-\n-\n-\n\n\n8\n10/13 (Tue)\nNo Class – Fall Break\n-\n-\n-\n\n\n8\n10/14 (Wed)\n(DISC) TBD\nTBD\n📖\n🖥️\n\n\n9\n10/19 (Mon)\n(LEC) Final Project Kickoff\nDr. Miel\n📖\n🖥️\n\n\n9\n10/20 (Tue)\n(LAB) Farm Visit\nCourse Staff\n📖\n🖥️\n\n\n9\n10/21 (Wed)\n(DISC) Project Planning\nDr. Miel\n📖\n🖥️\n\n\n10\n10/26 (Mon)\n(LEC) Final Project\nCourse Staff\n📖\n🖥️\n\n\n10\n10/27 (Tue)\n(LAB) Final Project\nCourse Staff\n📖\n🖥️\n\n\n10\n10/28 (Wed)\n(DISC) Final Project\nCourse Staff\n📖\n🖥️\n\n\n11\n11/2 (Mon)\n(LEC) Final Project\nCourse Staff\n📖\n🖥️\n\n\n11\n11/3 (Tue)\n(LAB) Final Project\nCourse Staff\n📖\n🖥️\n\n\n11\n11/4 (Wed)\n(DISC) Final Project\nCourse Staff\n📖\n🖥️\n\n\n12\n11/9 (Mon)\n(LEC) Final Project\nCourse Staff\n📖\n🖥️\n\n\n12\n11/10 (Tue)\n(LAB) Final Project\nCourse Staff\n📖\n🖥️\n\n\n12\n11/11 (Wed)\n(DISC) Final Project\nCourse Staff\n📖\n🖥️\n\n\n13\n11/16 (Mon)\n(LEC) Final Project\nCourse Staff\n📖\n🖥️\n\n\n13\n11/17 (Tue)\n(LAB) Final Project\nCourse Staff\n📖\n🖥️\n\n\n13\n11/18 (Wed)\n(DISC) Final Project\nCourse Staff\n📖\n🖥️\n\n\n14\n11/23 (Mon)\n(LEC) Final Project\nCourse Staff\n📖\n🖥️\n\n\n14\n11/24 (Tue)\n(LAB) Final Project\nCourse Staff\n📖\n🖥️\n\n\n14\n11/25 (Wed)\nNo Class – Thanksgiving Break\n-\n-\n-\n\n\n15\n11/30 (Mon)\n(LEC) Final Project Presentations / Submission Preparation\nDr. Miel\n📖\n🖥️\n\n\n15\n12/1 (Tue)\n(LAB) Final Project Submission\nCourse Staff\n📖\n🖥️\n\n\n15\n12/2 (Wed)\n(DISC) Course Wrap-up & Reflection\nDr. Miel\n📖\n🖥️",
+    "crumbs": [
+      "Course information",
+      "Schedule"
+    ]
+  },
+  {
+    "objectID": "labs/lab-0.html",
+    "href": "labs/lab-0.html",
+    "title": "Lab 0 - Meet + greet",
+    "section": "",
+    "text": "Today’s lab is short and sweet! We just need you to fill out the “Getting to know you” survey. Please go here to take it. You will need to log on to Sakai to access to survey.\nYour answers can be brief. Some of your answers will be used to guide what application examples might be of interest to a majority of students in the course and some of your answers will be used to help guide team formation. We expect this will take you ~10 minutes."
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#what-are-the-fair-principles",
+    "href": "slides/disc-2-fair.html#what-are-the-fair-principles",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "What are the FAIR principles",
+    "text": "What are the FAIR principles\nFAIR data is data which meets the FAIR principles of findability, accessibility, interoperability, and reusability (FAIR).[1][2] The acronym and principles were defined in a March 2016 paper in the journal Scientific Data by a consortium of scientists and organizations.[1]"
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#get-to-know-the-principles-1",
+    "href": "slides/disc-2-fair.html#get-to-know-the-principles-1",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Get to know the principles (1)",
+    "text": "Get to know the principles (1)\n\nGet familiar with FAIR by looking at this video.\nRead the intial publication on The FAIR Guiding Principles for scientific data management and stewardschip.\nExplore the vision of Cornell University on FAIR principles and their cheatsheets."
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#get-to-know-the-principles-2",
+    "href": "slides/disc-2-fair.html#get-to-know-the-principles-2",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Get to know the principles (2)",
+    "text": "Get to know the principles (2)\n\nCheck for reproducible advise in the tutorials at the bovi-analytics website.\nDiscuss with the entire team and Dr. Miel Hostens (contact him on his desk) on how this will reflect on your team project."
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#findable",
+    "href": "slides/disc-2-fair.html#findable",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Findable",
+    "text": "Findable\nThe first step in (re)using data is to find them. Metadata and data should be easy to find for both humans and computers. Machine-readable metadata are essential for automatic discovery of datasets and services, so this is an essential component of the FAIRification process."
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#findable-1",
+    "href": "slides/disc-2-fair.html#findable-1",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Findable",
+    "text": "Findable\n\nF1. (Meta)data are assigned a globally unique and persistent identifier\nF2. Data are described with rich metadata (defined by R1 below)\nF3. Metadata clearly and explicitly include the identifier of the data they describe\nF4. (Meta)data are registered or indexed in a searchable resource"
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#accessible",
+    "href": "slides/disc-2-fair.html#accessible",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Accessible",
+    "text": "Accessible\nOnce the user finds the required data, they need to know how they can be accessed, possibly including authentication and authorisation."
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#accessible-1",
+    "href": "slides/disc-2-fair.html#accessible-1",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Accessible",
+    "text": "Accessible\n\nA1. (Meta)data are retrievable by their identifier using a standardised communications protocol\nA1.1 The protocol is open, free, and universally implementable\nA1.2 The protocol allows for an authentication and authorisation procedure, where necessary\nA2. Metadata are accessible, even when the data are no longer available"
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#interoperable",
+    "href": "slides/disc-2-fair.html#interoperable",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Interoperable",
+    "text": "Interoperable\nThe data usually need to be integrated with other data. In addition, the data need to interoperate with applications or workflows for analysis, storage, and processing."
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#interoperable-1",
+    "href": "slides/disc-2-fair.html#interoperable-1",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Interoperable",
+    "text": "Interoperable\n\nI1. (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation.\nI2. (Meta)data use vocabularies that follow FAIR principles\nI3. (Meta)data include qualified references to other (meta)data"
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#reusable",
+    "href": "slides/disc-2-fair.html#reusable",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Reusable",
+    "text": "Reusable\nThe ultimate goal of FAIR is to optimise the reuse of data. To achieve this, metadata and data should be well-described so that they can be replicated and/or combined in different settings."
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#reusable-1",
+    "href": "slides/disc-2-fair.html#reusable-1",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Reusable",
+    "text": "Reusable\n\nR1. (Meta)data are richly described with a plurality of accurate and relevant attributes\nR1.1. (Meta)data are released with a clear and accessible data usage license\nR1.2. (Meta)data are associated with detailed provenance\nR1.3. (Meta)data meet domain-relevant community standards"
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#why-do-we-need-this",
+    "href": "slides/disc-2-fair.html#why-do-we-need-this",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Why do we need this",
+    "text": "Why do we need this\n\nDairy data science is multimodal, longitudinal, and collaborative\nNaming is not cosmetic — it is infrastructure\nMost downstream issues are caused by:\n\nAmbiguity\nInconsistency\nSilent semantic drift"
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#minutes-4-takeaways",
+    "href": "slides/disc-2-fair.html#minutes-4-takeaways",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "40 Minutes, 4 Takeaways",
+    "text": "40 Minutes, 4 Takeaways\n\nNaming conventions are scientific decisions\nBad names silently break analyis and models\nConventions must scale across projects & people\nGovernance matters more than documentation"
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#the-dairy-data-reality",
+    "href": "slides/disc-2-fair.html#the-dairy-data-reality",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "The Dairy Data Reality",
+    "text": "The Dairy Data Reality\n\nMultiple farms\nMultiple vendors\nMultiple countries\nMultiple disciplines:\n\nNutrition\nHealth\nBehavior\nProduction\n\n\n→ Names are the only shared language"
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#what-is-a-naming-convention",
+    "href": "slides/disc-2-fair.html#what-is-a-naming-convention",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "What Is a Naming Convention?",
+    "text": "What Is a Naming Convention?\n\nA set of agreed‑upon rules for creating unique, informative, and stable names for data objects.\n\nApplies to: - Variables - Tables - Files - Visuals - Ontology terms"
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#naming-style-preference",
+    "href": "slides/disc-2-fair.html#naming-style-preference",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Naming ≠ Style Preference",
+    "text": "Naming ≠ Style Preference\nBad naming causes: - Feature leakage - Wrong joins - Broken pipelines - Invalid within/between farm comparisons\nThese errors do not throw exceptions."
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#common-dairy-data-failures",
+    "href": "slides/disc-2-fair.html#common-dairy-data-failures",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Common Dairy Data Failures",
+    "text": "Common Dairy Data Failures\n\nDIM, days_in_milk, DaysInMilk\nmilk_yield, MilkYieldKg, MY\nother, Other, OTHER\nlactation_stage vs lactation_stages\n\nEach creates a new semantic entity"
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#names-encode-meaning",
+    "href": "slides/disc-2-fair.html#names-encode-meaning",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Names Encode Meaning",
+    "text": "Names Encode Meaning\nA good name answers:\n\nWhat?\nFor whom?\nIn what unit?\nAt what level?\nOver what time window?"
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#core-design-principles",
+    "href": "slides/disc-2-fair.html#core-design-principles",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Core Design Principles",
+    "text": "Core Design Principles\n\nConsistency over cleverness\nExplicit over implicit\nStable over convenient\nReadable by humans and machines"
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#scope-of-a-naming-convention",
+    "href": "slides/disc-2-fair.html#scope-of-a-naming-convention",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Scope of a Naming Convention",
+    "text": "Scope of a Naming Convention\nYou must define rules for:\n\n✅ Variables\n✅ Tables\n✅ Files\n✅ Features\n✅ Categories\n✅ Ontology terms\n\nPartial conventions always fail."
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#case-sensitivity-matters",
+    "href": "slides/disc-2-fair.html#case-sensitivity-matters",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Case Sensitivity Matters",
+    "text": "Case Sensitivity Matters\nChoose one and enforce it.\nRecommended:\n\nCamelCase for data schemas\nlower_snake_case for code variables\n\nNever mix within the same layer."
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#variable-naming-pattern",
+    "href": "slides/disc-2-fair.html#variable-naming-pattern",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Variable Naming Pattern",
+    "text": "Variable Naming Pattern\nRecommended template:\n``"
+  },
+  {
+    "objectID": "slides/lec-aiml.html#learning-goals",
+    "href": "slides/lec-aiml.html#learning-goals",
+    "title": "Lecture – Artificial Intelligence / Machine Learning",
+    "section": "Learning goals",
+    "text": "Learning goals\n\nUnderstand what AI and ML actually are and how they work\nBe familiar with the different ML tasks\nUnderstand how to build a good ML model"
+  },
+  {
+    "objectID": "slides/lec-aiml.html#whats-the-difference",
+    "href": "slides/lec-aiml.html#whats-the-difference",
+    "title": "Lecture – Artificial Intelligence / Machine Learning",
+    "section": "What’s the difference?",
+    "text": "What’s the difference?\n\n\nAI = machines doing “smart” things. ML = automating that with data. DL = models that imitate human brain. AI without data is, for example, a chess bot made with hand-coded heuristics."
+  },
+  {
+    "objectID": "slides/lec-aiml.html#ai-in-daily-life",
+    "href": "slides/lec-aiml.html#ai-in-daily-life",
+    "title": "Lecture – Artificial Intelligence / Machine Learning",
+    "section": "AI in daily life",
+    "text": "AI in daily life\n\n\n\nChatGPT, Claude\n\n\n\nFace ID\n\n\n\nRecommendations (TikTok, Dating apps)\n\n\n\nGoogle Maps (find optimal directions)\n\n\n\nWeather forecasts"
+  },
+  {
+    "objectID": "slides/lec-aiml.html#ai-in-daily-life-1",
+    "href": "slides/lec-aiml.html#ai-in-daily-life-1",
+    "title": "Lecture – Artificial Intelligence / Machine Learning",
+    "section": "AI in daily life",
+    "text": "AI in daily life\n\n\n\nChatGPT, Claude\nDL\n\n\nFace ID\nDL\n\n\nRecommendations (TikTok, Dating apps)\nDL\n\n\nGoogle Maps (find optimal directions)\nAI\n\n\nWeather forecasts\nML\n\n\n\nDeep Learning is increasingly dominating"
+  },
+  {
+    "objectID": "slides/lec-aiml.html#ml-in-dairy-life",
+    "href": "slides/lec-aiml.html#ml-in-dairy-life",
+    "title": "Lecture – Artificial Intelligence / Machine Learning",
+    "section": "ML in dairy life",
+    "text": "ML in dairy life\n\nMastitis detection\nCow identification\nBehavior detection\nLameness scoring\nPredicting milk yield\nHeat stress alerts"
+  },
+  {
+    "objectID": "slides/lec-aiml.html#how-it-works-exercise-1",
+    "href": "slides/lec-aiml.html#how-it-works-exercise-1",
+    "title": "Lecture – Artificial Intelligence / Machine Learning",
+    "section": "How it works: Exercise 1",
+    "text": "How it works: Exercise 1\n\n\nIt’s easy to find the pattern."
+  },
+  {
+    "objectID": "slides/lec-aiml.html#how-it-works-exercise-2",
+    "href": "slides/lec-aiml.html#how-it-works-exercise-2",
+    "title": "Lecture – Artificial Intelligence / Machine Learning",
+    "section": "How it works: Exercise 2",
+    "text": "How it works: Exercise 2\n\n\nThis is hard for humans, but easy for machines."
+  },
+  {
+    "objectID": "slides/lec-aiml.html#how-it-works-finding-patterns",
+    "href": "slides/lec-aiml.html#how-it-works-finding-patterns",
+    "title": "Lecture – Artificial Intelligence / Machine Learning",
+    "section": "How it works: finding patterns",
+    "text": "How it works: finding patterns\n\nHumans find patterns\nAI does the same, but faster and on large scale\nSame core principle, from ChatGPT to milk yield prediction"
+  },
+  {
+    "objectID": "slides/lec-aiml.html#terminology",
+    "href": "slides/lec-aiml.html#terminology",
+    "title": "Lecture – Artificial Intelligence / Machine Learning",
+    "section": "Terminology",
+    "text": "Terminology\n\nFeatures: the inputs (breed, feed intake, …)\nLabels: what we want to predict (milk yield)\nModel: the algorithm that finds & learns the patterns\n\n\nThis is the vocabulary bridge. Everything after this slide uses these three words."
+  },
+  {
+    "objectID": "slides/lec-aiml.html#types-of-learning-tasks",
+    "href": "slides/lec-aiml.html#types-of-learning-tasks",
+    "title": "Lecture – Artificial Intelligence / Machine Learning",
+    "section": "Types of learning tasks",
+    "text": "Types of learning tasks\n\nRegression — predict a number\nClassification — predict a class\n\n\n\nSupervised learning — learn with label\nUnsupervised learning — learn without"
+  },
+  {
+    "objectID": "slides/lec-aiml.html#types-of-learning-tasks---examples",
+    "href": "slides/lec-aiml.html#types-of-learning-tasks---examples",
+    "title": "Lecture – Artificial Intelligence / Machine Learning",
+    "section": "Types of learning tasks - Examples",
+    "text": "Types of learning tasks - Examples\n\nRegression — lameness score, milk yield, …\nClassification — mastitis diagnosis, pregnancy status, …\n\n\n\nSupervised — all of the above, behavior identification\nUnsupervised — behavior identification\n\nSome tasks can be modelled in different ways!\n\nGive examples! - lameness score, milk yield - mastitis yes/no, cow identity"
+  },
+  {
+    "objectID": "slides/lec-aiml.html#ingredients-of-ml-data",
+    "href": "slides/lec-aiml.html#ingredients-of-ml-data",
+    "title": "Lecture – Artificial Intelligence / Machine Learning",
+    "section": "3 ingredients of ML: Data",
+    "text": "3 ingredients of ML: Data\n\nGarbage in, garbage out\nPreprocessing: cleaning data\nFeature engineering: creating more useful features from existing data"
+  },
+  {
+    "objectID": "slides/lec-aiml.html#ingredients-of-ml-model",
+    "href": "slides/lec-aiml.html#ingredients-of-ml-model",
+    "title": "Lecture – Artificial Intelligence / Machine Learning",
+    "section": "3 ingredients of ML: Model",
+    "text": "3 ingredients of ML: Model\n\nGoal: Model works well on new data\n\n\n\nLink the cause back to pattern finding."
+  },
+  {
+    "objectID": "slides/lec-aiml.html#ingredients-of-ml-model-1",
+    "href": "slides/lec-aiml.html#ingredients-of-ml-model-1",
+    "title": "Lecture – Artificial Intelligence / Machine Learning",
+    "section": "3 ingredients of ML: Model",
+    "text": "3 ingredients of ML: Model\nUnderfitting: not complex enough\n\ncannot find the right patterns\n\nOverfitting: too complex\n\nremembers the data\nsensitive to outliers"
+  },
+  {
+    "objectID": "slides/lec-aiml.html#ingredients-of-ml-objective",
+    "href": "slides/lec-aiml.html#ingredients-of-ml-objective",
+    "title": "Lecture – Artificial Intelligence / Machine Learning",
+    "section": "3 ingredients of ML: Objective",
+    "text": "3 ingredients of ML: Objective\nEach model optimizes an objective function / metric, e.g.\n\nRegression: MSE, MAE\nClassification: F1, AUC-ROC, accuracy\n\nMany more, all with different pros & cons\nChoose wrong objective → undesired behavior"
+  },
+  {
+    "objectID": "slides/lec-aiml.html#how-to-assess-model-quality",
+    "href": "slides/lec-aiml.html#how-to-assess-model-quality",
+    "title": "Lecture – Artificial Intelligence / Machine Learning",
+    "section": "How to assess model quality?",
+    "text": "How to assess model quality?\nGoal: Accurately estimate performance on new data\nCross-validation:"
+  },
+  {
+    "objectID": "slides/lec-aiml.html#how-to-assess-model-quality-1",
+    "href": "slides/lec-aiml.html#how-to-assess-model-quality-1",
+    "title": "Lecture – Artificial Intelligence / Machine Learning",
+    "section": "How to assess model quality?",
+    "text": "How to assess model quality?\nCommon pitfall: Data leakage\nModel got information during training that would not be there when making real predictions\n\nAccidentally include the labels inside the training data\nPreprocessing before splitting\nWhen using time-series data: training on data in the future of the test data"
+  },
+  {
+    "objectID": "slides/lec-aiml.html#how-to-assess-model-quality-2",
+    "href": "slides/lec-aiml.html#how-to-assess-model-quality-2",
+    "title": "Lecture – Artificial Intelligence / Machine Learning",
+    "section": "How to assess model quality?",
+    "text": "How to assess model quality?\nCommon pitfall: Class imbalance\nMastitis is rare (~5–10% of records)\nAlways predict “No” → 90–95% accurate\nHow to handle it:\n\nchoose the right metrics\nchoose and tune the right model\ndata balancing"
+  },
+  {
+    "objectID": "slides/lec-aiml.html#how-to-assess-model-quality-3",
+    "href": "slides/lec-aiml.html#how-to-assess-model-quality-3",
+    "title": "Lecture – Artificial Intelligence / Machine Learning",
+    "section": "How to assess model quality?",
+    "text": "How to assess model quality?\n\nTrain metrics: 👎 → underfitting\n\nOr bad or insufficient data\n\nTrain metrics: 👍 BUT validation/test: 👎 → overfitting\nTest: 100% perfect → data leakage"
+  },
+  {
+    "objectID": "slides/lec-aiml.html#key-takeaways",
+    "href": "slides/lec-aiml.html#key-takeaways",
+    "title": "Lecture – Artificial Intelligence / Machine Learning",
+    "section": "Key takeaways",
+    "text": "Key takeaways\n\nAI/ML is everywhere\nML cleverly and automatically finds patterns in data\nFor ML you need the right data, model and metrics\nIt requires great care to properly train and validate a model"
   },
   {
     "objectID": "slides/lec-2-git.html#todays-goal",
