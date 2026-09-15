@@ -1682,9 +1682,9 @@
   {
     "objectID": "project-description.html",
     "href": "project-description.html",
-    "title": "Project description",
+    "title": "Projects description",
     "section": "",
-    "text": "The central component of this course is a semester‑long, team‑based project in which students tackle a real, data‑intensive challenge faced by a working dairy or agricultural operation. This project forms the backbone of the learning experience and is designed to immerse students in the full lifecycle of data‑driven problem solving—spanning communication, research, data governance, coding, analysis, stakeholder interaction, and the development of a practical and implementable solution. Rather than working with simulated or sanitized datasets, students engage directly with authentic farm data, farmers, and industry partners. This ensures that the outcomes are both academically rigorous and genuinely useful to the agricultural community.",
+    "text": "The central component of this course are two projects. One individual mini project and one team‑based project in which students tackle a real, data‑intensive challenge faced by a working dairy or agricultural operation. These projects form the backbone of the learning experience and are designed to immerse students in the full lifecycle of data‑driven problem solving—spanning communication, research, data governance, coding, analysis, stakeholder interaction, and the development of a practical and implementable solution. Rather than working with simulated or sanitized datasets, students engage directly with authentic farm data, farmers, and industry partners. This ensures that the outcomes are both academically rigorous and genuinely useful to the agricultural community.",
     "crumbs": [
       "Project",
       "Description"
@@ -1693,9 +1693,9 @@
   {
     "objectID": "project-description.html#a-real-world-problem",
     "href": "project-description.html#a-real-world-problem",
-    "title": "Project description",
+    "title": "Projects description",
     "section": "A Real-World Problem",
-    "text": "A Real-World Problem\nEach project begins with the identification of a real challenge occurring on an active farm. Students will meet with the farmer early in the semester to understand the nature, impact, and urgency of the issue. This is not a theoretical exercise: students are expected to listen actively, ask thoughtful questions, and begin translating an open-ended problem into a workable, data-centered project. Farmers may present challenges ranging from production efficiency and animal health to labor management, environmental constraints, or equipment performance. Students learn to appreciate that agricultural problems are rarely isolated—they are layered with biological, logistical, economic, and human complexities.",
+    "text": "A Real-World Problem\nEach project begins with the identification of a real challenge occurring on an active farm. Students will meet with the farmer at a farm visit to understand the nature, impact, and urgency of the issue. This is not a theoretical exercise: students are expected to listen actively, ask thoughtful questions, and begin translating an open-ended problem into a workable, data-centered project. Farmers may present challenges ranging from production efficiency and animal health to labor management, environmental constraints, or equipment performance. Students learn to appreciate that agricultural problems are rarely isolated—they are layered with biological, logistical, economic, and human complexities.",
     "crumbs": [
       "Project",
       "Description"
@@ -1704,9 +1704,9 @@
   {
     "objectID": "project-description.html#interaction-with-real-farm-data",
     "href": "project-description.html#interaction-with-real-farm-data",
-    "title": "Project description",
+    "title": "Projects description",
     "section": "Interaction With Real Farm Data",
-    "text": "Interaction With Real Farm Data\nOnce the problem is defined, students work with the farmer to identify what data exist and what data may still need to be collected. Because this work involves real operational data, students must engage in responsible data governance. With guidance, each team will draft and negotiate a data privacy and usage agreement with the farmer. This introduces students to essential concepts in digital agriculture such as confidentiality, ethical data practices, FAIR principles, and the responsibilities involved in handling sensitive on‑farm information. Students learn the importance of transparency and trust as they collaborate closely with producers who are granting access to their operational data.",
+    "text": "Interaction With Real Farm Data\nOnce the problem is defined, students work with the farmer to identify what data exist and what data may still need to be collected. Because this work involves real operational data, students must engage in responsible data governance. With guidance, each student will draft and negotiate a data privacy and usage agreement. This introduces students to essential concepts in digital agriculture such as confidentiality, ethical data practices, FAIR principles, and the responsibilities involved in handling sensitive on‑farm information. Students learn the importance of transparency and trust as they collaborate closely with producers who are granting access to their operational data.",
     "crumbs": [
       "Project",
       "Description"
@@ -1715,7 +1715,7 @@
   {
     "objectID": "project-description.html#learning-through-research",
     "href": "project-description.html#learning-through-research",
-    "title": "Project description",
+    "title": "Projects description",
     "section": "Learning Through Research",
     "text": "Learning Through Research\nAfter initial meetings, students dive into background research to better understand the problem’s scientific, technical, and industry context. This may include reading academic papers, exploring regulatory constraints, reviewing industry benchmarks, or studying similar case studies from other farms or regions. The goal is to help students build a well‑rounded understanding of the forces shaping the problem and the tools available to address it. Research also helps teams refine the scope of the project, identify appropriate analytical methods, and set realistic expectations for the final product.",
     "crumbs": [
@@ -1726,9 +1726,9 @@
   {
     "objectID": "project-description.html#applying-coding-and-analytical-skills",
     "href": "project-description.html#applying-coding-and-analytical-skills",
-    "title": "Project description",
+    "title": "Projects description",
     "section": "Applying Coding and Analytical Skills",
-    "text": "Applying Coding and Analytical Skills\nThroughout the project, students will apply the programming techniques and analytical methods introduced in the course. This includes data cleaning, transformation, visualization, statistical analysis, model development, and the construction of reproducible and well‑documented analytical workflows. Students learn that coding is not simply about generating outputs—it is about developing clear, transparent, and interpretable pipelines that others can understand and build upon. Teams are encouraged to iterate frequently, share findings with stakeholders, and adjust their analytical direction as new insights emerge. This mirrors the dynamic and adaptive nature of real‑world data science.",
+    "text": "Applying Coding and Analytical Skills\nThroughout the project, students will apply the programming techniques and analytical methods introduced in the course. This includes data cleaning, transformation, visualization, statistical analysis, model development, and the construction of reproducible and well‑documented analytical workflows. Students learn that coding is not simply about generating outputs—it is about developing clear, transparent, and interpretable pipelines that others can understand and build upon. Students are encouraged to iterate frequently, share findings with the class, and adjust their analytical direction as new insights emerge. This mirrors the dynamic and adaptive nature of real‑world data science.",
     "crumbs": [
       "Project",
       "Description"
@@ -1737,9 +1737,9 @@
   {
     "objectID": "project-description.html#engaging-with-stakeholders",
     "href": "project-description.html#engaging-with-stakeholders",
-    "title": "Project description",
+    "title": "Projects description",
     "section": "Engaging With Stakeholders",
-    "text": "Engaging With Stakeholders\nBeyond the farmer, students will have opportunities to interact with industry stakeholders—such as veterinarians, nutritionists, consultants, agronomists, dairy processors, or equipment manufacturers—whose expertise can enrich the project. These interactions allow students to develop a broader understanding of how different perspectives shape agricultural decision‑making. Stakeholders may help students evaluate feasibility, understand practical constraints, and envision how a solution will ultimately be used. This experience strengthens communication skills and exposes students to the types of professional collaboration that define modern digital agriculture.",
+    "text": "Engaging With Stakeholders\nBeyond the farmer, students will have opportunities to interact with the various members of the bovi-analytics lab, whose multi-disciplinary expertise can enrich the project. These interactions allow students to develop a broader understanding of how different perspectives shape agricultural decision‑making. Lab members may help students evaluate feasibility, understand practical constraints, and envision how a solution will ultimately be used. This experience strengthens communication skills and exposes students to the types of professional collaboration that define modern digital agriculture.",
     "crumbs": [
       "Project",
       "Description"
@@ -1748,9 +1748,9 @@
   {
     "objectID": "project-description.html#cocreating-deliverables",
     "href": "project-description.html#cocreating-deliverables",
-    "title": "Project description",
+    "title": "Projects description",
     "section": "Co‑Creating Deliverables",
-    "text": "Co‑Creating Deliverables\nUniquely, students will play an active role in defining the final deliverables for their project. Instead of receiving a predetermined list of tasks, teams will work with the farmer and stakeholders to determine what outcome would be most meaningful and actionable for them. This might include a predictive model, a dashboard, a reporting system, a visualization suite, a set of management recommendations, or a plan for monitoring future data. By involving the end users from the beginning, the project emphasizes relevance, ownership, and the real‑world utility of the students’ work.",
+    "text": "Co‑Creating Deliverables\nUniquely, students will play an active role in defining the final deliverables for project two. Instead of receiving a predetermined list of tasks, teams will work with the professor to determine what outcome would be most meaningful and actionable for them. This might include a predictive model, a dashboard, a reporting system, a visualization suite, a set of management recommendations, or a plan for monitoring future data.",
     "crumbs": [
       "Project",
       "Description"
@@ -1759,9 +1759,9 @@
   {
     "objectID": "project-description.html#final-outputs",
     "href": "project-description.html#final-outputs",
-    "title": "Project description",
+    "title": "Projects description",
     "section": "Final Outputs",
-    "text": "Final Outputs\nBy the conclusion of the course, each team will produce:\n\nA final presentation delivered directly to the farmer and invited stakeholders, explaining the problem, methodology, findings, and recommended solution.\nA comprehensive written report that documents the entire project, including data governance, analytical methods, interpretations, limitations, and next steps.\nReproducible code and documentation following FAIR principles, ensuring that the farmer or future students could revisit or expand the work.\nAn implementation plan, outlining how the proposed solution could be adopted, maintained, or scaled on the farm.",
+    "text": "Final Outputs\n\nProject 1\n\nIndividual poster presentation during week 7 all students will present their project 1 to their peers, the professor and the bovi-analytics lab members through a poster presentation. The poster session will be concluded by a general discussion where we will compare the different approaches and discuss strenghts and limitations. The poster must emphasize the materials and methods of the project, including data lineage, and the model results. We expect thorough testing of the final model and at minimum reporting of final model accuracy.\nA well organized, public and complete GitHub repository your repository should include a naming convention, a read-me, a liscence, a git-ignore and the notebooks used for the modelling.\nA FAIR workflow the project is supposed to follow the FAIR principles and must be reproducable.\n\n\n\nProject 2\n\nA video analysis model the exact output of this project will be decided together with the students.",
     "crumbs": [
       "Project",
       "Description"
@@ -1770,9 +1770,9 @@
   {
     "objectID": "project-description.html#a-professional-learning-experience",
     "href": "project-description.html#a-professional-learning-experience",
-    "title": "Project description",
+    "title": "Projects description",
     "section": "A Professional Learning Experience",
-    "text": "A Professional Learning Experience\nThis project is designed to simulate the experience of being a digital agriculture consultant, data scientist, or industry collaborator. Students must manage time, negotiate expectations, communicate effectively, and make evidence‑based decisions. They will encounter ambiguity, data gaps, and unexpected complications—just as professionals do. By the end of the semester, students will have developed not only technical skills, but also the confidence and competence to engage thoughtfully and responsibly with the agricultural community.",
+    "text": "A Professional Learning Experience\nThis project is designed to simulate the experience of being a digital agriculture consultant, data scientist, or industry collaborator. Students must manage time, negotiate expectations, communicate effectively, and make evidence‑based decisions. They will encounter ambiguity, data gaps, and unexpected complications—just as professionals do. Students are asked to take responsibility for their own progress and learning and we expect to see weekly commits on GitHub as a sign of progress. By the end of the semester, students will have developed not only technical skills, but also the confidence and competence to engage thoughtfully and responsibly with the agricultural community.",
     "crumbs": [
       "Project",
       "Description"
