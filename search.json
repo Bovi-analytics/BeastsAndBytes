@@ -1680,28 +1680,6 @@
     "text": "Course Schedule\nThe detailed course schedule is maintained on the course website and may be updated during the semester.\nThe current planned schedule includes:\n\n\n\n\n\n\n\n\nWeek\nDate\nActivity\n\n\n\n\n1\n8/24\nCourse Outline\n\n\n1\n8/25\nToolbox: IDEs, Programming Languages & Vibe Coding\n\n\n1\n8/26\nData Science in Agriculture\n\n\n2\n8/31\nVersion Control Systems & Integration\n\n\n2\n9/1\nToolbox: Broken Online, Merge Conflicts & Branching\n\n\n2\n9/2\nNaming Conventions & FAIR Principles\n\n\n3\n9/7\nNo Class – Labor Day Holiday\n\n\n3\n9/8\nCloud Computing, APIs & Hardware\n\n\n3\n9/9\nData Governance & Data Lineage\n\n\n4\n9/14\nML and AI Basics (Part 1)\n\n\n4\n9/15\nToolbox: Project Mini, Packages, Hugging Face & Model Serving\n\n\n4\n9/16\nEthical and Efficient Use of AI\n\n\n5\n9/21\nML and AI Basics; Supervised and Unsupervised Learning in Agricultural Contexts (Part 2)\n\n\n5\n9/22\nWork on Mini Individual Project\n\n\n5\n9/23\nQ&A / Introduction to Tableau\n\n\n6\n9/28\nML and AI Basics; Supervised and Unsupervised Learning in Agricultural Contexts (Part 3)\n\n\n6\n9/29\nWork on Mini Individual Project\n\n\n6\n9/30\nQ&A\n\n\n7\n10/5\nQ&A\n\n\n7\n10/6\nPoster Presentation\n\n\n7\n10/7\nDISC Assessment of the Team\n\n\n8\n10/12\nNo Class – Fall Break\n\n\n8\n10/13\nNo Class – Fall Break\n\n\n8\n10/14\nTBD\n\n\n9\n10/19\nFinal Project Kickoff\n\n\n9\n10/20\nFarm Visit\n\n\n9\n10/21\nProject Planning\n\n\n10\n10/26\nFinal Project\n\n\n10\n10/27\nFinal Project\n\n\n10\n10/28\nFinal Project\n\n\n11\n11/2\nFinal Project\n\n\n11\n11/3\nFinal Project\n\n\n11\n11/4\nFinal Project\n\n\n12\n11/9\nFinal Project\n\n\n12\n11/10\nFinal Project\n\n\n12\n11/11\nFinal Project\n\n\n13\n11/16\nFinal Project\n\n\n13\n11/17\nFinal Project\n\n\n13\n11/18\nFinal Project\n\n\n14\n11/23\nFinal Project\n\n\n14\n11/24\nFinal Project\n\n\n14\n11/25\nNo Class – Thanksgiving Break\n\n\n15\n11/30\nFinal Project Presentations / Submission Preparation\n\n\n15\n12/1\nFinal Project Submission\n\n\n15\n12/2\nCourse Wrap-up & Reflection"
   },
   {
-    "objectID": "project-agreement.html",
-    "href": "project-agreement.html",
-    "title": "A+ Project grading",
-    "section": "",
-    "text": "The following goals were agreed upon on January 27 as required elements for earning an A+ in the final project for the Beasts & Bytes – Data Science Applications in Agriculture course (Instructor: M. Hostens).\nAt the end of the course—after the final presentation—these checkboxes can be validated.\n\n\n\n\n\n\n\nRequirement\nCompleted?\n\n\n\n\nAsk the farmer if the team showed professional attitude in all interactions\n☐\n\n\nA data transfer agreement is fully in place\n☐\n\n\nTeam established a project goal that works for both participating farms\n☐\n\n\nAll team members demonstrate understanding of the decision-making process by presenting updates twice during weekly project decision meetings\n☐\n\n\nProject has impact, such as hours or labor saved\n☐\n\n\nFarmers would recommend the project results to other farmers\n☐\n\n\nAll team members had a good learning experience, confirmed during a sit‑down after the final presentation with Professor M. Hostens (may include dairy decision-making, basic data analysis, transferable skills)\n☐\n\n\n\n\n\n\n\nThis table should be reviewed jointly by the team, the farmer(s), and Professor Hostens following the final presentation.\nThe checklist is meant to support transparency, self‑reflection, and assessment alignment.",
-    "crumbs": [
-      "Project",
-      "Project agreement"
-    ]
-  },
-  {
-    "objectID": "project-agreement.html#a-grading-eligibility-checklist",
-    "href": "project-agreement.html#a-grading-eligibility-checklist",
-    "title": "A+ Project grading",
-    "section": "",
-    "text": "The following goals were agreed upon on January 27 as required elements for earning an A+ in the final project for the Beasts & Bytes – Data Science Applications in Agriculture course (Instructor: M. Hostens).\nAt the end of the course—after the final presentation—these checkboxes can be validated.\n\n\n\n\n\n\n\nRequirement\nCompleted?\n\n\n\n\nAsk the farmer if the team showed professional attitude in all interactions\n☐\n\n\nA data transfer agreement is fully in place\n☐\n\n\nTeam established a project goal that works for both participating farms\n☐\n\n\nAll team members demonstrate understanding of the decision-making process by presenting updates twice during weekly project decision meetings\n☐\n\n\nProject has impact, such as hours or labor saved\n☐\n\n\nFarmers would recommend the project results to other farmers\n☐\n\n\nAll team members had a good learning experience, confirmed during a sit‑down after the final presentation with Professor M. Hostens (may include dairy decision-making, basic data analysis, transferable skills)\n☐\n\n\n\n\n\n\n\nThis table should be reviewed jointly by the team, the farmer(s), and Professor Hostens following the final presentation.\nThe checklist is meant to support transparency, self‑reflection, and assessment alignment.",
-    "crumbs": [
-      "Project",
-      "Project agreement"
-    ]
-  },
-  {
     "objectID": "project-description.html",
     "href": "project-description.html",
     "title": "Project description",
