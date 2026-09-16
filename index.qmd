@@ -12,7 +12,7 @@ Note that this schedule will be updated as the course progresses, with all chang
 |:-----:|:----------:|-------------------------------|:------:|:-------:|:--------:|
 | 1 | 8/24 | [Data Science in Agriculture](weeks/week-1.html) | [🖥️](slides/lec-1-intro.html) |  |  |
 | 2 | 8/31 | [Version Control Systems, Naming Conventions & FAIR Principles](weeks/week-2.html) | [🖥️](slides/lec-2-git.html) |  | [🖥️](slides/disc-2-fair.html) |
-| 3 | 9/7 | [Cloud Computing, APIs & Hardware, Data Governance & Data Lineage](weeks/week-3.html) | Labor day |  |[🖥️](slides/Data Lineage and Governance_Puchun.pptx)  |
+| 3 | 9/7 | [Cloud Computing, APIs & Hardware, Data Governance & Data Lineage](weeks/week-3.html) | Labor day | [🖥️](slides/Software & Azure Lecture.pptx) |[🖥️](slides/Data Lineage and Governance_Puchun.pptx)  |
 | 4 | 9/14 | ML and AI Basics, package management, model serving, licensing & data usage | 🖥️ |  | [🖥️](slides/disc-4-license.html) |
 | 5 | 9/21 | Individual project, data visualisation | 🖥️ |  |  |
 | 6 | 9/28 | Individual project | 🖥️ |  |  |
