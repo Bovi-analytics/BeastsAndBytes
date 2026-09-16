@@ -10,18 +10,17 @@ This week we move from managing agricultural data to using it for prediction and
 
 # Learning goals
 
-1. Understand the basic concepts of machine learning and artificial intelligence
+1.  Understand the basic concepts of machine learning and artificial intelligence
 
-2. Distinguish between supervised and unsupervised learning
+2.  Distinguish between supervised and unsupervised learning
 
-3. Set up a mini individual project
+3.  Set up a mini individual project
 
-4. Explore packages, Hugging Face models, and model serving
+4.  Explore packages, Hugging Face models, and model serving
 
 # Lecture - ML and AI Basics
 
 Introduction to machine learning and artificial intelligence, with examples from agriculture (Part 1)
-
 
 # Lab - Project Mini: Packages, Hugging Face & Model Serving
 
