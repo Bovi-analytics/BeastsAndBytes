@@ -1,3 +1,16 @@
+---
+title: "Course Schedule"
+
+format:
+  html:
+    toc: false
+    css: schedule.css
+
+  pdf:
+    toc: false
+    keep-tex: false
+---
+
 # Course Schedule
 
 The detailed course schedule is maintained on the course website and may be updated during the semester.
@@ -5,7 +18,7 @@ The detailed course schedule is maintained on the course website and may be upda
 The current planned schedule includes:
 
 | Week | Date | Activity |
-|------------------------|------------------------|------------------------|
+|:---|:---|:---|
 | 1 | 8/24 | Course Outline |
 | 1 | 8/25 | Toolbox: IDEs, Programming Languages & Vibe Coding |
 | 1 | 8/26 | Data Science in Agriculture |
@@ -51,5 +64,3 @@ The current planned schedule includes:
 | 15 | 11/30 | Final Project Presentations / Submission Preparation |
 | 15 | 12/1 | Final Project Submission |
 | 15 | 12/2 | Course Wrap-up & Reflection |
-
-# 
