@@ -9,12 +9,12 @@ Note that this schedule will be updated as the course progresses, with all chang
 
 ::: column-screen-inset-right
 | Week | Date | Topic | LEC | LAB | DISC |
-|:-----:|:--------:|-------------------------------|:------:|:-------:|:--------:|
+|:---------:|:---------:|---------------------|:---------:|:---------:|:---------:|
 | 1 | 8/24 | [Data Science in Agriculture](weeks/week-1.html) | [🖥️](slides/lec-1-intro.html) |  |  |
-| 2 | 8/31 | [Version control systems, naming conventions & FAIR principles](weeks/week-2.html) | [🖥️](slides/lec-2-git.html) |  | [🖥️](slides/disc-2-fair.html) |
-| 3 | 9/7 | [Cloud computing, APIs & hardware, data governance & data lineage](weeks/week-3.html) | Labor day |  |  |
-| 4 | 9/14 | [ML and AI basics, package management, model serving, licensing & data usage](weeks/week-3.html) | 🖥️ |  | [🖥️](slides/disc-4-license.html) |
-| 5 | 9/21 | Individual project - Data visualisation | 🖥️ |  |  |
+| 2 | 8/31 | [Version Control Systems, Naming Conventions & FAIR Principles](weeks/week-2.html) | [🖥️](slides/lec-2-git.html) |  | [🖥️](slides/disc-2-fair.html) |
+| 3 | 9/7 | [Cloud Computing, APIs & Hardware, Data Governance & Data Lineage](weeks/week-3.html) | Labor day | [🖥️](slides/Software%20&%20Azure%20Lecture.pptx) | [🖥️](slides/Data%20Lineage%20and%20Governance_Puchun.pptx) |
+| 4 | 9/14 | ML and AI Basics, package management, model serving, licensing & data usage | 🖥️ |  | [🖥️](slides/disc-4-license.html) |
+| 5 | 9/21 | Individual project, data visualisation | 🖥️ |  |  |
 | 6 | 9/28 | Individual project | 🖥️ |  |  |
 | 7 | 10/5 | Individual project - Team management | 🖥️ |  |  |
 | 8 | 10/12 | Team project | Fall break | Fall break |  |
