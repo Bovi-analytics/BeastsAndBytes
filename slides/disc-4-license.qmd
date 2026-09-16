@@ -1,0 +1,499 @@
+---
+title: "Choosing an Open-Source License"
+subtitle: "A practical guide for research software and platforms"
+format:
+  revealjs:
+    theme: default
+    slide-number: true
+    transition: fade
+    chalkboard: false
+    width: 1280
+    height: 720
+    css: slides.scss
+---
+
+## Why does the license matter?
+
+An open-source license answers a simple question:
+
+> **What are other people legally allowed to do with my software?**
+
+It determines whether others can:
+
+- use the software
+- modify it
+- redistribute it
+- use it commercially
+- incorporate it into proprietary products
+
+::: notes
+**\~1 minute**
+
+Start with the practical point: putting code on GitHub does not by itself tell people what they are legally allowed to do with it. The license establishes the permissions and conditions.
+
+For research software, the choice can affect adoption, collaboration, commercialization, and whether improvements remain available to the community.
+:::
+
+------------------------------------------------------------------------
+
+## Three questions to ask first
+
+:::::: columns
+::: {.column width="33%"}
+### 1. Use
+
+Can anyone use the software?
+
+**Academic?**\
+**Non-profit?**\
+**Commercial?**
+:::
+
+::: {.column width="33%"}
+### 2. Modify
+
+Can users change the code?
+
+If so, do they have to share those changes?
+:::
+
+::: {.column width="33%"}
+### 3. Commercialize
+
+Can a company take the software and build a commercial product?
+
+And can that product remain closed-source?
+:::
+::::::
+
+::: notes
+**\~1 minute**
+
+These three questions are more useful than starting with the names of licenses.
+
+The key distinction is often not whether commercial use is allowed—it usually is—but whether downstream versions must remain open.
+:::
+
+------------------------------------------------------------------------
+
+## Open source does **not** mean "do whatever you want"
+
+A license gives permissions **subject to conditions**.
+
+For example, a license can require:
+
+- attribution or preservation of copyright notices
+- inclusion of the license text
+- disclosure of source code for certain derivative works
+- preservation of the same license for covered code
+- compliance with patent-related provisions
+
+::: question
+**The real choice is how much freedom you give downstream users—and how much reciprocity you require.**
+:::
+
+::: notes
+**\~1 minute**
+
+Emphasize that open-source licenses are not all equivalent. They differ substantially in what downstream users must do.
+
+This is why simply saying "we want it open source" is not enough to choose a license.
+:::
+
+------------------------------------------------------------------------
+
+## Two broad families
+
+::::: columns
+::: {.column width="50%"}
+### Permissive
+
+**MIT**\
+**Apache 2.0**\
+**BSD**
+
+Generally allow:
+
+- commercial use
+- modification
+- redistribution
+- proprietary derivatives
+:::
+
+::: {.column width="50%"}
+### Copyleft
+
+**GPL v3**\
+**AGPL v3**\
+**LGPL**
+
+Impose stronger conditions on certain redistribution or derivative uses.
+
+The goal is to preserve openness for covered code.
+:::
+:::::
+
+::: notes
+**\~1 minute**
+
+This is the most important conceptual split.
+
+Permissive licenses maximize downstream freedom. Copyleft licenses trade some downstream freedom for stronger requirements around keeping covered software open.
+:::
+
+------------------------------------------------------------------------
+
+## MIT: maximum simplicity
+
+### What it allows
+
+- Use the software
+- Modify it
+- Redistribute it
+- Use it commercially
+- Combine it with proprietary software
+
+### What it requires
+
+Primarily preservation of the copyright notice and license terms.
+
+::: appex
+**Choose this direction when:** your main objective is broad adoption with minimal licensing friction.
+:::
+
+::: notes
+**\~1 minute**
+
+MIT is deliberately simple and permissive.
+
+The important consequence is that somebody can take MIT-licensed code, modify it, and distribute a proprietary product containing that code without having to open-source their modifications.
+:::
+
+------------------------------------------------------------------------
+
+## Apache 2.0: permissive + explicit patent terms
+
+Apache 2.0 is also permissive.
+
+It allows:
+
+- commercial use
+- modification
+- redistribution
+- proprietary derivatives
+
+But it includes more explicit provisions around **patent rights and patent litigation** than MIT.
+
+::: appex
+**Choose this direction when:** you want permissive licensing but consider patent provisions important.
+:::
+
+::: notes
+**\~1 minute**
+
+For substantial research or technology projects, Apache 2.0 is often worth considering because of its more explicit patent provisions.
+
+The practical philosophy is still permissive: downstream users can build proprietary products.
+:::
+
+------------------------------------------------------------------------
+
+## GPL v3: strong copyleft
+
+GPL v3 allows commercial use, modification, and redistribution.
+
+But when GPL-covered software is distributed under circumstances covered by the license, the corresponding source code and licensing obligations apply.
+
+### The philosophy
+
+> **You can use and improve the software—but downstream distribution should preserve the same freedoms.**
+
+::: question
+Would you rather maximize proprietary reuse, or maximize the likelihood that distributed derivatives remain open?
+:::
+
+::: notes
+**\~1.5 minutes**
+
+Avoid presenting GPL as "non-commercial." It is not.
+
+The distinction is copyleft: when the relevant conditions are triggered, downstream distribution comes with obligations to provide source code and preserve the GPL freedoms.
+
+The exact application depends on how software is combined and distributed, so this is where legal advice may become relevant.
+:::
+
+------------------------------------------------------------------------
+
+## AGPL v3: copyleft for networked software
+
+AGPL is closely related to GPL.
+
+Its distinctive feature is designed to address a common modern scenario:
+
+**A company takes open-source software → modifies it → runs it as a network service → users interact with it over the internet.**
+
+AGPL adds conditions aimed at this type of network use.
+
+::: appex
+**Particularly relevant for:** web platforms, APIs, cloud services, and software delivered as a service.
+:::
+
+::: notes
+**\~1.5 minutes**
+
+This is one reason AGPL can matter for platforms.
+
+With ordinary GPL, simply offering modified software as a service can create a different situation from distributing the software itself. AGPL was designed to address this network-service scenario.
+
+Do not describe AGPL as universally preventing proprietary SaaS; the actual obligations depend on the software and how it is used.
+:::
+
+------------------------------------------------------------------------
+
+## LGPL and MPL: middle-ground approaches
+
+### LGPL
+
+Designed especially for libraries.
+
+It generally permits proprietary applications to link to an LGPL library while imposing stronger obligations on modifications to the library itself.
+
+### MPL 2.0
+
+A file-level copyleft approach.
+
+Modified MPL-covered files generally remain under the MPL, while larger works can contain proprietary code.
+
+::: notes
+**\~1 minute**
+
+These licenses are useful when you want some reciprocity without applying strong copyleft to an entire combined application.
+
+The exact obligations are technical and should be checked against the license text for a particular architecture.
+:::
+
+------------------------------------------------------------------------
+
+## The landscape at a glance
+
+|   | MIT | Apache 2.0 | GPL v3 | AGPL v3 | LGPL | MPL 2.0 |
+|----|----|----|----|----|----|----|
+| Commercial use | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Proprietary derivatives possible | ✓ | ✓ | Limited by copyleft obligations | Limited by copyleft obligations | Generally ✓ | Generally ✓ |
+| Strong copyleft | — | — | ✓ | ✓ | Partial | File-level |
+| Network/SaaS focus | — | — | — | **✓** | — | — |
+| Patent provisions | Basic | **Explicit** | Yes | Yes | Yes | Yes |
+
+::: small
+This is a conceptual comparison, not a substitute for reviewing the license terms for a particular software architecture.
+:::
+
+::: notes
+**\~1.5 minutes**
+
+Use this as the summary slide.
+
+The biggest distinctions are permissive versus copyleft, and—within copyleft—the stronger network-service focus of AGPL.
+:::
+
+------------------------------------------------------------------------
+
+## A practical decision tree
+
+**Do you want proprietary products to be able to build on your code?**
+
+→ **Yes** → Consider **MIT / Apache 2.0 / BSD**
+
+→ **No / want stronger reciprocity** → Consider **GPL**
+
+**Is preventing closed modifications in network services especially important?**
+
+→ **Yes** → Consider **AGPL**
+
+**Is it primarily a library?**
+
+→ Consider **LGPL** or another library-appropriate license.
+
+**Want file-level copyleft rather than project-wide copyleft?**
+
+→ Consider **MPL 2.0**
+
+::: notes
+**\~1 minute**
+
+This is deliberately simplified. The architecture of the software and how it will be distributed can change the answer.
+
+The decision should start with the desired outcome, then identify the license.
+:::
+
+------------------------------------------------------------------------
+
+## Research software changes the question
+
+For academic software, ask:
+
+### Adoption
+
+Do we want researchers everywhere to use it with minimal friction?
+
+### Collaboration
+
+Do we want improvements to come back to the community?
+
+### Translation into products
+
+Should companies be able to build commercial products from it?
+
+### Long-term stewardship
+
+Who will maintain the infrastructure and pay for it?
+
+::: poll
+**What is the primary objective: adoption, openness of derivatives, or a path to commercialization?**
+:::
+
+::: notes
+**\~1 minute**
+
+This is a good audience interaction point.
+
+There isn't one universally correct answer. Different research projects legitimately prioritize different outcomes.
+:::
+
+------------------------------------------------------------------------
+
+## Software license ≠ data license
+
+A platform may contain several distinct things:
+
+**Software** → open-source software license
+
+**Datasets** → data license / data-sharing terms
+
+**Models** → potentially a separate model license
+
+**Documentation** → potentially a documentation license
+
+**Third-party dependencies** → their existing licenses still apply
+
+::: question
+**Licensing the code does not automatically give you the right to redistribute the data inside the project.**
+:::
+
+::: notes
+**\~1 minute**
+
+This is particularly important for data-intensive research platforms.
+
+The code and the data can have completely different ownership and licensing arrangements. A project should inventory both before publishing.
+:::
+
+------------------------------------------------------------------------
+
+## University and research IP
+
+Before choosing a license, establish:
+
+- **Who owns the copyright?**
+- Were university employees involved?
+- Were students involved?
+- Was sponsored research involved?
+- Are there third-party components?
+- Are there patent considerations?
+- Are there institutional open-source policies?
+- Are there contractual restrictions on the data?
+
+::: appex
+**The person who wrote the code is not necessarily the person who has authority to license it.**
+:::
+
+::: notes
+**\~1 minute**
+
+This is particularly important for university-developed software.
+
+A researcher may have developed the code, but institutional policies, employment arrangements, sponsored-research agreements, or third-party contributions can affect ownership and licensing authority.
+:::
+
+------------------------------------------------------------------------
+
+## A possible strategy for a research platform
+
+One possible architecture is:
+
+**Open-source core** → Apache 2.0
+
+**Selected components where reciprocity matters** → AGPL / GPL, where appropriate
+
+**Research datasets** → separate data-sharing terms
+
+**Commercial hosted service** → separate commercial offering
+
+::: appex
+The license strategy can be designed around the project's ecosystem—not necessarily one license for everything.
+:::
+
+::: notes
+**\~1.5 minutes**
+
+Present this as an example, not a prescription.
+
+For a research platform that wants broad academic adoption while retaining a commercial pathway, it can be useful to separate the software, data, and service layers.
+
+The exact structure should be reviewed for compatibility between licenses and dependencies.
+:::
+
+------------------------------------------------------------------------
+
+## What should you choose?
+
+Start with the outcome—not the license name.
+
+### If your priority is...
+
+**Maximum adoption and minimum friction**\
+→ permissive license such as MIT or Apache 2.0
+
+**Keeping distributed derivatives open**\
+→ GPL family
+
+**Addressing network-service use**\
+→ AGPL
+
+**Library reuse with some copyleft**\
+→ LGPL
+
+**File-level copyleft**\
+→ MPL 2.0
+
+::: notes
+**\~1 minute**
+
+This is the practical takeaway.
+
+There is no universally "best" open-source license. The appropriate choice depends on what freedoms you want to grant and what obligations you want downstream users to have.
+:::
+
+------------------------------------------------------------------------
+
+## Five take-home messages
+
+1.  **Open source is not one licensing model.**
+2.  **Permissive and copyleft licenses make different trade-offs.**
+3.  **Commercial use can be allowed under both permissive and copyleft licenses.**
+4.  **AGPL deserves special attention for networked platforms.**
+5.  **For research software, resolve ownership and data rights before publishing.**
+
+::: question
+### The key question
+
+**What do you want someone else to be able to do with your code five years from now?**
+:::
+
+::: notes
+**\~1 minute**
+
+Close by returning to the opening question.
+
+The license is effectively a decision about the future ecosystem around the software. Decide the desired permissions and reciprocity first; then choose the license that implements them.
+:::

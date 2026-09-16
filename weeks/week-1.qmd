@@ -10,13 +10,13 @@ Welcome to *Data Science Applications in Agriculture*! In this course, we explor
 
 # Learning goals
 
-1. Understand the course structure, expectations, and semester projects
+1.  Understand the course structure, expectations, and semester projects
 
-2. Get to know the instructional team and project topics
+2.  Get to know the instructional team and project topics
 
-3. Understand the role of data science in agriculture
+3.  Understand the role of data science in agriculture
 
-4. Set up a programming environment and run basic Python code
+4.  Set up a programming environment and run basic Python code
 
 Please take a moment to fill in this form so we can tailor the course to your needs: [Pre-course questionnaire](https://forms.office.com/r/bDEBaU5fN1)
 
@@ -38,8 +38,8 @@ Topics include data lineage, satellite data, AI agents, and packages and environ
 
 # Assignment
 
-1. Run a provided Python program using one of the IDEs introduced in class and submit a screenshot showing successful execution.
-2. Profile on Github Education shared through Canvas
+1.  Run a provided Python program using one of the IDEs introduced in class and submit a screenshot showing successful execution.
+2.  Profile on Github Education shared through Canvas
 
 # Looking ahead
 
@@ -48,4 +48,3 @@ Next week we will introduce **Git and GitHub** to help us track, organize, and c
 ::: {style="font-size: 0.875em;"}
 Back to [course schedule](/ "Course schedule")
 :::
-
