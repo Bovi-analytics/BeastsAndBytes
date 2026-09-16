@@ -1,0 +1,1102 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-html/tabby.min.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.10.18">
+
+  <title>Beasts &amp; Bytes – Choosing an Open-Source License</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/reveal.css">
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-2740581606dc327e82f18f789b69d8a0.css">
+  <link rel="stylesheet" href="slides.scss">
+  <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+<meta property="og:title" content="Choosing an Open-Source License – Beasts &amp; Bytes">
+<meta property="og:description" content="A practical guide for research software and platforms">
+<meta property="og:site_name" content="Beasts &amp; Bytes">
+<meta name="twitter:title" content="Choosing an Open-Source License – Beasts &amp; Bytes">
+<meta name="twitter:description" content="A practical guide for research software and platforms">
+<meta name="twitter:image" content="https://bovi-analytics.github.io/BeastsAndBytes/slides/images/twitter-card.png">
+<meta name="twitter:creator" content="@MielHostens">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">Choosing an Open-Source License</h1>
+  <p class="subtitle">A practical guide for research software and platforms</p>
+
+<div class="quarto-title-authors">
+</div>
+
+</section>
+<section id="why-does-the-license-matter" class="slide level2">
+<h2>Why does the license matter?</h2>
+<p>An open-source license answers a simple question:</p>
+<blockquote>
+<p><strong>What are other people legally allowed to do with my software?</strong></p>
+</blockquote>
+<p>It determines whether others can:</p>
+<ul>
+<li>use the software</li>
+<li>modify it</li>
+<li>redistribute it</li>
+<li>use it commercially</li>
+<li>incorporate it into proprietary products</li>
+</ul>
+<aside class="notes">
+<p><strong>~1 minute</strong></p>
+<p>Start with the practical point: putting code on GitHub does not by itself tell people what they are legally allowed to do with it. The license establishes the permissions and conditions.</p>
+<p>For research software, the choice can affect adoption, collaboration, commercialization, and whether improvements remain available to the community.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="three-questions-to-ask-first" class="slide level2">
+<h2>Three questions to ask first</h2>
+<div class="columns">
+<div class="column" style="width:33%;">
+<h3 id="use">1. Use</h3>
+<p>Can anyone use the software?</p>
+<p><strong>Academic?</strong><br>
+<strong>Non-profit?</strong><br>
+<strong>Commercial?</strong></p>
+</div><div class="column" style="width:33%;">
+<h3 id="modify">2. Modify</h3>
+<p>Can users change the code?</p>
+<p>If so, do they have to share those changes?</p>
+</div><div class="column" style="width:33%;">
+<h3 id="commercialize">3. Commercialize</h3>
+<p>Can a company take the software and build a commercial product?</p>
+<p>And can that product remain closed-source?</p>
+</div></div>
+<aside class="notes">
+<p><strong>~1 minute</strong></p>
+<p>These three questions are more useful than starting with the names of licenses.</p>
+<p>The key distinction is often not whether commercial use is allowed—it usually is—but whether downstream versions must remain open.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="open-source-does-not-mean-do-whatever-you-want" class="slide level2">
+<h2>Open source does <strong>not</strong> mean “do whatever you want”</h2>
+<p>A license gives permissions <strong>subject to conditions</strong>.</p>
+<p>For example, a license can require:</p>
+<ul>
+<li>attribution or preservation of copyright notices</li>
+<li>inclusion of the license text</li>
+<li>disclosure of source code for certain derivative works</li>
+<li>preservation of the same license for covered code</li>
+<li>compliance with patent-related provisions</li>
+</ul>
+<div class="question">
+<p><strong>The real choice is how much freedom you give downstream users—and how much reciprocity you require.</strong></p>
+</div>
+<aside class="notes">
+<p><strong>~1 minute</strong></p>
+<p>Emphasize that open-source licenses are not all equivalent. They differ substantially in what downstream users must do.</p>
+<p>This is why simply saying “we want it open source” is not enough to choose a license.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="two-broad-families" class="slide level2">
+<h2>Two broad families</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<h3 id="permissive">Permissive</h3>
+<p><strong>MIT</strong><br>
+<strong>Apache 2.0</strong><br>
+<strong>BSD</strong></p>
+<p>Generally allow:</p>
+<ul>
+<li>commercial use</li>
+<li>modification</li>
+<li>redistribution</li>
+<li>proprietary derivatives</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<h3 id="copyleft">Copyleft</h3>
+<p><strong>GPL v3</strong><br>
+<strong>AGPL v3</strong><br>
+<strong>LGPL</strong></p>
+<p>Impose stronger conditions on certain redistribution or derivative uses.</p>
+<p>The goal is to preserve openness for covered code.</p>
+</div></div>
+<aside class="notes">
+<p><strong>~1 minute</strong></p>
+<p>This is the most important conceptual split.</p>
+<p>Permissive licenses maximize downstream freedom. Copyleft licenses trade some downstream freedom for stronger requirements around keeping covered software open.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="mit-maximum-simplicity" class="slide level2">
+<h2>MIT: maximum simplicity</h2>
+<h3 id="what-it-allows">What it allows</h3>
+<ul>
+<li>Use the software</li>
+<li>Modify it</li>
+<li>Redistribute it</li>
+<li>Use it commercially</li>
+<li>Combine it with proprietary software</li>
+</ul>
+<h3 id="what-it-requires">What it requires</h3>
+<p>Primarily preservation of the copyright notice and license terms.</p>
+<div class="appex">
+<p><strong>Choose this direction when:</strong> your main objective is broad adoption with minimal licensing friction.</p>
+</div>
+<aside class="notes">
+<p><strong>~1 minute</strong></p>
+<p>MIT is deliberately simple and permissive.</p>
+<p>The important consequence is that somebody can take MIT-licensed code, modify it, and distribute a proprietary product containing that code without having to open-source their modifications.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="apache-2.0-permissive-explicit-patent-terms" class="slide level2">
+<h2>Apache 2.0: permissive + explicit patent terms</h2>
+<p>Apache 2.0 is also permissive.</p>
+<p>It allows:</p>
+<ul>
+<li>commercial use</li>
+<li>modification</li>
+<li>redistribution</li>
+<li>proprietary derivatives</li>
+</ul>
+<p>But it includes more explicit provisions around <strong>patent rights and patent litigation</strong> than MIT.</p>
+<div class="appex">
+<p><strong>Choose this direction when:</strong> you want permissive licensing but consider patent provisions important.</p>
+</div>
+<aside class="notes">
+<p><strong>~1 minute</strong></p>
+<p>For substantial research or technology projects, Apache 2.0 is often worth considering because of its more explicit patent provisions.</p>
+<p>The practical philosophy is still permissive: downstream users can build proprietary products.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="gpl-v3-strong-copyleft" class="slide level2">
+<h2>GPL v3: strong copyleft</h2>
+<p>GPL v3 allows commercial use, modification, and redistribution.</p>
+<p>But when GPL-covered software is distributed under circumstances covered by the license, the corresponding source code and licensing obligations apply.</p>
+<h3 id="the-philosophy">The philosophy</h3>
+<blockquote>
+<p><strong>You can use and improve the software—but downstream distribution should preserve the same freedoms.</strong></p>
+</blockquote>
+<div class="question">
+<p>Would you rather maximize proprietary reuse, or maximize the likelihood that distributed derivatives remain open?</p>
+</div>
+<aside class="notes">
+<p><strong>~1.5 minutes</strong></p>
+<p>Avoid presenting GPL as “non-commercial.” It is not.</p>
+<p>The distinction is copyleft: when the relevant conditions are triggered, downstream distribution comes with obligations to provide source code and preserve the GPL freedoms.</p>
+<p>The exact application depends on how software is combined and distributed, so this is where legal advice may become relevant.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="agpl-v3-copyleft-for-networked-software" class="slide level2">
+<h2>AGPL v3: copyleft for networked software</h2>
+<p>AGPL is closely related to GPL.</p>
+<p>Its distinctive feature is designed to address a common modern scenario:</p>
+<p><strong>A company takes open-source software → modifies it → runs it as a network service → users interact with it over the internet.</strong></p>
+<p>AGPL adds conditions aimed at this type of network use.</p>
+<div class="appex">
+<p><strong>Particularly relevant for:</strong> web platforms, APIs, cloud services, and software delivered as a service.</p>
+</div>
+<aside class="notes">
+<p><strong>~1.5 minutes</strong></p>
+<p>This is one reason AGPL can matter for platforms.</p>
+<p>With ordinary GPL, simply offering modified software as a service can create a different situation from distributing the software itself. AGPL was designed to address this network-service scenario.</p>
+<p>Do not describe AGPL as universally preventing proprietary SaaS; the actual obligations depend on the software and how it is used.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="lgpl-and-mpl-middle-ground-approaches" class="slide level2">
+<h2>LGPL and MPL: middle-ground approaches</h2>
+<h3 id="lgpl">LGPL</h3>
+<p>Designed especially for libraries.</p>
+<p>It generally permits proprietary applications to link to an LGPL library while imposing stronger obligations on modifications to the library itself.</p>
+<h3 id="mpl-2.0">MPL 2.0</h3>
+<p>A file-level copyleft approach.</p>
+<p>Modified MPL-covered files generally remain under the MPL, while larger works can contain proprietary code.</p>
+<aside class="notes">
+<p><strong>~1 minute</strong></p>
+<p>These licenses are useful when you want some reciprocity without applying strong copyleft to an entire combined application.</p>
+<p>The exact obligations are technical and should be checked against the license text for a particular architecture.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="the-landscape-at-a-glance" class="slide level2">
+<h2>The landscape at a glance</h2>
+<table class="caption-top" style="width:100%;">
+<colgroup>
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>MIT</th>
+<th>Apache 2.0</th>
+<th>GPL v3</th>
+<th>AGPL v3</th>
+<th>LGPL</th>
+<th>MPL 2.0</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Commercial use</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr class="even">
+<td>Proprietary derivatives possible</td>
+<td>✓</td>
+<td>✓</td>
+<td>Limited by copyleft obligations</td>
+<td>Limited by copyleft obligations</td>
+<td>Generally ✓</td>
+<td>Generally ✓</td>
+</tr>
+<tr class="odd">
+<td>Strong copyleft</td>
+<td>—</td>
+<td>—</td>
+<td>✓</td>
+<td>✓</td>
+<td>Partial</td>
+<td>File-level</td>
+</tr>
+<tr class="even">
+<td>Network/SaaS focus</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td><strong>✓</strong></td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td>Patent provisions</td>
+<td>Basic</td>
+<td><strong>Explicit</strong></td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<div class="small">
+<p>This is a conceptual comparison, not a substitute for reviewing the license terms for a particular software architecture.</p>
+</div>
+<aside class="notes">
+<p><strong>~1.5 minutes</strong></p>
+<p>Use this as the summary slide.</p>
+<p>The biggest distinctions are permissive versus copyleft, and—within copyleft—the stronger network-service focus of AGPL.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="a-practical-decision-tree" class="slide level2">
+<h2>A practical decision tree</h2>
+<p><strong>Do you want proprietary products to be able to build on your code?</strong></p>
+<p>→ <strong>Yes</strong> → Consider <strong>MIT / Apache 2.0 / BSD</strong></p>
+<p>→ <strong>No / want stronger reciprocity</strong> → Consider <strong>GPL</strong></p>
+<p><strong>Is preventing closed modifications in network services especially important?</strong></p>
+<p>→ <strong>Yes</strong> → Consider <strong>AGPL</strong></p>
+<p><strong>Is it primarily a library?</strong></p>
+<p>→ Consider <strong>LGPL</strong> or another library-appropriate license.</p>
+<p><strong>Want file-level copyleft rather than project-wide copyleft?</strong></p>
+<p>→ Consider <strong>MPL 2.0</strong></p>
+<aside class="notes">
+<p><strong>~1 minute</strong></p>
+<p>This is deliberately simplified. The architecture of the software and how it will be distributed can change the answer.</p>
+<p>The decision should start with the desired outcome, then identify the license.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="research-software-changes-the-question" class="slide level2">
+<h2>Research software changes the question</h2>
+<p>For academic software, ask:</p>
+<h3 id="adoption">Adoption</h3>
+<p>Do we want researchers everywhere to use it with minimal friction?</p>
+<h3 id="collaboration">Collaboration</h3>
+<p>Do we want improvements to come back to the community?</p>
+<h3 id="translation-into-products">Translation into products</h3>
+<p>Should companies be able to build commercial products from it?</p>
+<h3 id="long-term-stewardship">Long-term stewardship</h3>
+<p>Who will maintain the infrastructure and pay for it?</p>
+<div class="poll">
+<p><strong>What is the primary objective: adoption, openness of derivatives, or a path to commercialization?</strong></p>
+</div>
+<aside class="notes">
+<p><strong>~1 minute</strong></p>
+<p>This is a good audience interaction point.</p>
+<p>There isn’t one universally correct answer. Different research projects legitimately prioritize different outcomes.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="software-license-data-license" class="slide level2">
+<h2>Software license ≠ data license</h2>
+<p>A platform may contain several distinct things:</p>
+<p><strong>Software</strong> → open-source software license</p>
+<p><strong>Datasets</strong> → data license / data-sharing terms</p>
+<p><strong>Models</strong> → potentially a separate model license</p>
+<p><strong>Documentation</strong> → potentially a documentation license</p>
+<p><strong>Third-party dependencies</strong> → their existing licenses still apply</p>
+<div class="question">
+<p><strong>Licensing the code does not automatically give you the right to redistribute the data inside the project.</strong></p>
+</div>
+<aside class="notes">
+<p><strong>~1 minute</strong></p>
+<p>This is particularly important for data-intensive research platforms.</p>
+<p>The code and the data can have completely different ownership and licensing arrangements. A project should inventory both before publishing.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="university-and-research-ip" class="slide level2">
+<h2>University and research IP</h2>
+<p>Before choosing a license, establish:</p>
+<ul>
+<li><strong>Who owns the copyright?</strong></li>
+<li>Were university employees involved?</li>
+<li>Were students involved?</li>
+<li>Was sponsored research involved?</li>
+<li>Are there third-party components?</li>
+<li>Are there patent considerations?</li>
+<li>Are there institutional open-source policies?</li>
+<li>Are there contractual restrictions on the data?</li>
+</ul>
+<div class="appex">
+<p><strong>The person who wrote the code is not necessarily the person who has authority to license it.</strong></p>
+</div>
+<aside class="notes">
+<p><strong>~1 minute</strong></p>
+<p>This is particularly important for university-developed software.</p>
+<p>A researcher may have developed the code, but institutional policies, employment arrangements, sponsored-research agreements, or third-party contributions can affect ownership and licensing authority.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="a-possible-strategy-for-a-research-platform" class="slide level2">
+<h2>A possible strategy for a research platform</h2>
+<p>One possible architecture is:</p>
+<p><strong>Open-source core</strong> → Apache 2.0</p>
+<p><strong>Selected components where reciprocity matters</strong> → AGPL / GPL, where appropriate</p>
+<p><strong>Research datasets</strong> → separate data-sharing terms</p>
+<p><strong>Commercial hosted service</strong> → separate commercial offering</p>
+<div class="appex">
+<p>The license strategy can be designed around the project’s ecosystem—not necessarily one license for everything.</p>
+</div>
+<aside class="notes">
+<p><strong>~1.5 minutes</strong></p>
+<p>Present this as an example, not a prescription.</p>
+<p>For a research platform that wants broad academic adoption while retaining a commercial pathway, it can be useful to separate the software, data, and service layers.</p>
+<p>The exact structure should be reviewed for compatibility between licenses and dependencies.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="what-should-you-choose" class="slide level2">
+<h2>What should you choose?</h2>
+<p>Start with the outcome—not the license name.</p>
+<h3 id="if-your-priority-is">If your priority is…</h3>
+<p><strong>Maximum adoption and minimum friction</strong><br>
+→ permissive license such as MIT or Apache 2.0</p>
+<p><strong>Keeping distributed derivatives open</strong><br>
+→ GPL family</p>
+<p><strong>Addressing network-service use</strong><br>
+→ AGPL</p>
+<p><strong>Library reuse with some copyleft</strong><br>
+→ LGPL</p>
+<p><strong>File-level copyleft</strong><br>
+→ MPL 2.0</p>
+<aside class="notes">
+<p><strong>~1 minute</strong></p>
+<p>This is the practical takeaway.</p>
+<p>There is no universally “best” open-source license. The appropriate choice depends on what freedoms you want to grant and what obligations you want downstream users to have.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="five-take-home-messages" class="slide level2">
+<h2>Five take-home messages</h2>
+<ol type="1">
+<li><strong>Open source is not one licensing model.</strong></li>
+<li><strong>Permissive and copyleft licenses make different trade-offs.</strong></li>
+<li><strong>Commercial use can be allowed under both permissive and copyleft licenses.</strong></li>
+<li><strong>AGPL deserves special attention for networked platforms.</strong></li>
+<li><strong>For research software, resolve ownership and data rights before publishing.</strong></li>
+</ol>
+<section id="the-key-question" class="question">
+<h3>The key question</h3>
+<p><strong>What do you want someone else to be able to do with your code five years from now?</strong></p>
+</section>
+<aside class="notes">
+<p><strong>~1 minute</strong></p>
+<p>Close by returning to the opening question.</p>
+<p>The license is effectively a decision about the future ecosystem around the software. Decide the desired permissions and reciprocity first; then choose the license that implements them.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+
+
+</section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<div class="footer footer-default">
+
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="../site_libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="../site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="../site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="../site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="../site_libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'fade',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1280,
+
+        height: 720,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copied!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copied!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp("https:\/\/bovi-analytics\.github\.io\/BeastsAndBytes\/");
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    
+
+</body></html>

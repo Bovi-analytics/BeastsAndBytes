@@ -99,167 +99,6 @@
     ]
   },
   {
-    "objectID": "course/syllabus.pdf.html",
-    "href": "course/syllabus.pdf.html",
-    "title": "Course Schedule",
-    "section": "",
-    "text": "Data Science Applications in Agriculture\n“Beast & Bytes”\nANSC 4040/ ANSC 6040\n\n\n\nDr. Miel Hostens (he/his) is the Robert and Anne Everett Endowed Associate Professor of Digital Dairy Management and Data Analytics at College of Agriculture and Life Sciences (Cornell University) focusing on the creation of methodologies using precision dairy farming to monitor sustainable food production systems from a global perspective\n\n\n\nOffice hours\nLocation\n\n\nQuick questions\nSlack & Teams\n\n\nBy appointment\nThursday - Friday 9:00 am - 17:00 pm\nDepartment of Animal Science, 273 Morrison Hall\n\n\nWalk in office hours with Meike\nWednesday 3 - 5 pm\nDepartment of Animal Science, B30 Morrison Hall\nPlease email me when this time does not work for you, so we can make an alternative arrangement.\n\n\n\nMake an appointment with Dr. Hostens through this link.\n\n\n\n\n\n\n\nName\nLocation\n\n\n\n\n\nMeike van Leerdam\nB29 Morrison Hall\n\n\n\nSonam Yang\nB29 Morrison Hall"
-  },
-  {
-    "objectID": "course/syllabus.pdf.html#instructor",
-    "href": "course/syllabus.pdf.html#instructor",
-    "title": "Course Schedule",
-    "section": "",
-    "text": "Dr. Miel Hostens (he/his) is the Robert and Anne Everett Endowed Associate Professor of Digital Dairy Management and Data Analytics at College of Agriculture and Life Sciences (Cornell University) focusing on the creation of methodologies using precision dairy farming to monitor sustainable food production systems from a global perspective\n\n\n\nOffice hours\nLocation\n\n\nQuick questions\nSlack & Teams\n\n\nBy appointment\nThursday - Friday 9:00 am - 17:00 pm\nDepartment of Animal Science, 273 Morrison Hall\n\n\nWalk in office hours with Meike\nWednesday 3 - 5 pm\nDepartment of Animal Science, B30 Morrison Hall\nPlease email me when this time does not work for you, so we can make an alternative arrangement.\n\n\n\nMake an appointment with Dr. Hostens through this link."
-  },
-  {
-    "objectID": "course/syllabus.pdf.html#teaching-assistants",
-    "href": "course/syllabus.pdf.html#teaching-assistants",
-    "title": "Course Schedule",
-    "section": "",
-    "text": "Name\nLocation\n\n\n\n\n\nMeike van Leerdam\nB29 Morrison Hall\n\n\n\nSonam Yang\nB29 Morrison Hall"
-  },
-  {
-    "objectID": "course/syllabus.pdf.html#description-and-aims",
-    "href": "course/syllabus.pdf.html#description-and-aims",
-    "title": "Course Schedule",
-    "section": "Description and aims",
-    "text": "Description and aims\nThis course offers an an undergraduate (sophomore, junior, senior) and graduate level experience in challenge-based learning, where students tackle data-driven problems within the agricultural sector. If you have never heard about it, check out this Solar Car Challenge that you might recognize. Working in collaborative teams, students will engage directly with farmers and agricultural stakeholders to understand real-world challenges and develop innovative, data-driven solutions.\nThroughout the course, students will learn to utilize a range of digital tools essential for modern data science. Key topics include data governance, data privacy, data collection, data storage, data processing, data visualization, data modeling, machine learning, artificial intelligence, and communicating data-driven results.\nProject management is a core component of the course. Students will learn to manage projects effectively, adhere to deadlines, communicate with stakeholders, and deliver results in a timely manner. The course emphasizes teamwork, communication, collaboration, critical thinking, and responsible use of digital technologies.\nBy the end of the course, students will have gained practical experience in applying data science to agricultural problems. Students will develop skills in problem-solving, programming, data analysis, machine learning, artificial intelligence, project management, and communication.\nThe course also emphasizes the responsible and critical use of artificial intelligence. Students will learn to use AI tools efficiently while recognizing their capabilities, limitations, ethical implications, and potential effects on data privacy, academic integrity, and decision-making."
-  },
-  {
-    "objectID": "course/syllabus.pdf.html#credits",
-    "href": "course/syllabus.pdf.html#credits",
-    "title": "Course Schedule",
-    "section": "Credits",
-    "text": "Credits\nThis course accounts for 3 credits."
-  },
-  {
-    "objectID": "course/syllabus.pdf.html#prerequisites",
-    "href": "course/syllabus.pdf.html#prerequisites",
-    "title": "Course Schedule",
-    "section": "Prerequisites",
-    "text": "Prerequisites\nA statistical course such as one of the following is not required but strongly advised:\n\nSTSCI 2150/5150 Introductory Statistics for Biology\nBTRY 3010/STSCI 2200 & BTRY 5010/STSCI 5200: Biological Statistics I\nILRST/STSCI 2100: Introductory Statistics\n\nPrior knowledge of Python is helpful but not required (you will learn vibe coding).\nIf in doubt about prerequisites, contact miel.hostens@cornell.edu"
-  },
-  {
-    "objectID": "course/syllabus.pdf.html#mini-individual-project",
-    "href": "course/syllabus.pdf.html#mini-individual-project",
-    "title": "Course Schedule",
-    "section": "Mini individual project",
-    "text": "Mini individual project\nDuring the first half of the course, each student will complete a mini individual data science project.\nThe purpose of the mini project is to provide students with an opportunity to independently apply the tools and concepts introduced in the course.\nStudents will:\n\nIdentify an individual agricultural problem or question.\nDefine and scope the problem.\nIdentify and work with appropriate data.\nApply relevant data science methods.\nUse appropriate computational and visualization tools.\nInterpret and communicate their findings.\nDocument their workflow and decisions.\nPresent the results as a poster.\n\nThe specific project requirements and assessment criteria will be discussed during the course."
-  },
-  {
-    "objectID": "course/syllabus.pdf.html#final-group-project",
-    "href": "course/syllabus.pdf.html#final-group-project",
-    "title": "Course Schedule",
-    "section": "Final group project",
-    "text": "Final group project\nIn the second half of the course, students will engage in a group project involving a real-world, data-intensive problem in agriculture.\nWorking in teams, students will collaborate with farmers and stakeholders to identify and understand the problem. The team will then develop a data-driven solution using the tools and techniques learned during the course."
-  },
-  {
-    "objectID": "course/syllabus.pdf.html#project-phases",
-    "href": "course/syllabus.pdf.html#project-phases",
-    "title": "Course Schedule",
-    "section": "Project phases",
-    "text": "Project phases\n\nProblem Identification: Meet with the farmer and other stakeholders to understand the problem and their needs. Conduct initial research to define and scope the problem.\nData Collection: Gather relevant data from appropriate sources while following data privacy, governance, and security requirements.\nData Analysis and Visualization: Analyze collected data and identify relevant patterns, trends, and insights.\nSolution Development: Explore appropriate statistical, machine learning, or other data science approaches and develop a practical solution.\nImplementation Plan: Develop a plan for implementing the proposed solution in an appropriate agricultural setting.\nPresentation and Report: Present the methodology, findings, limitations, and proposed solution and submit the required project documentation."
-  },
-  {
-    "objectID": "course/syllabus.pdf.html#individual-assignments",
-    "href": "course/syllabus.pdf.html#individual-assignments",
-    "title": "Course Schedule",
-    "section": "Individual assignments",
-    "text": "Individual assignments\nThroughout the course, students will complete individual coding and practical assignments.\nThese assignments are designed to help students develop the technical skills needed for the mini individual project and final group project.\nIndividual assignments account for 20% of the final grade.\nAssignment-specific instructions will identify any restrictions on collaboration, external resources, software, or AI tools."
-  },
-  {
-    "objectID": "course/syllabus.pdf.html#mini-individual-project-and-poster-presentation",
-    "href": "course/syllabus.pdf.html#mini-individual-project-and-poster-presentation",
-    "title": "Course Schedule",
-    "section": "Mini individual project and poster presentation",
-    "text": "Mini individual project and poster presentation\nEach student will complete a mini individual project and present the results through a poster presentation.\nThe project provides an opportunity to apply the skills learned during the course to an individual topic or problem.\nThe mini individual project and poster presentation together account for 30% of the final grade.\nThe project deliverables, requirements, and assessment criteria will be discussed in class."
-  },
-  {
-    "objectID": "course/syllabus.pdf.html#final-group-project-1",
-    "href": "course/syllabus.pdf.html#final-group-project-1",
-    "title": "Course Schedule",
-    "section": "Final group project",
-    "text": "Final group project\nThe final assessment consists of a group project.\nStudents will work together to develop a larger project applying programming, data analysis, Git/GitHub, cloud-based tools, machine learning, and other data science skills learned throughout the course.\nTogether with the instructor and stakeholders, the group will define the goals and scope of the project.\nThe project should demonstrate:\n\nEffective collaboration\nAppropriate technical implementation\nResponsible data management\nAppropriate use of data science and AI tools\nClear documentation\nCritical interpretation of results\nClear communication of findings and limitations\n\nThe final group project accounts for 50% of the final grade.\nThe deliverables, project requirements, presentation format, and grading criteria will be discussed during the course."
-  },
-  {
-    "objectID": "course/syllabus.pdf.html#final-grading",
-    "href": "course/syllabus.pdf.html#final-grading",
-    "title": "Course Schedule",
-    "section": "Final grading",
-    "text": "Final grading\nThe final grade will be calculated as follows:\n\n20% — Individual assignments\n30% — Mini individual project + poster presentation\n50% — Final group project\n\nTotal: 100%"
-  },
-  {
-    "objectID": "course/syllabus.pdf.html#grade-scale",
-    "href": "course/syllabus.pdf.html#grade-scale",
-    "title": "Course Schedule",
-    "section": "Grade scale",
-    "text": "Grade scale\n\n\n\nGrade\nLow\nHigh\n\n\n\n\nA+\n99.80\n100.0\n\n\nA\n93.33\n99.80\n\n\nA-\n90.00\n93.33\n\n\nB+\n86.66\n90.00\n\n\nB\n83.33\n86.66\n\n\nB-\n80.00\n83.33\n\n\nC+\n76.66\n80.00\n\n\nC\n73.33\n76.66\n\n\nC-\n70.00\n73.33\n\n\nD+\n66.66\n70.00\n\n\nD\n63.33\n66.66\n\n\nD-\n60.00\n63.36\n\n\nF\n0.00\n60.00\n\n\n\nEach grade range includes the score on the left and excludes the score on the right. For example, a 90.0 is an A-, not a B+, while an 89.99 is a B+, not an A-."
-  },
-  {
-    "objectID": "course/syllabus.pdf.html#attendance-and-participation",
-    "href": "course/syllabus.pdf.html#attendance-and-participation",
-    "title": "Course Schedule",
-    "section": "Attendance and Participation",
-    "text": "Attendance and Participation\nActive participation is an important part of this challenge-based course.\nStudents are expected to attend lectures, labs, discussions, project meetings, and other scheduled course activities.\nBecause substantial portions of the course involve hands-on work, collaboration, and interaction with instructors and stakeholders, regular participation is important for successful completion of the course.\nIf circumstances prevent you from participating in a scheduled activity, communicate with the instructor or course staff as early as possible."
-  },
-  {
-    "objectID": "course/syllabus.pdf.html#inclusive-community",
-    "href": "course/syllabus.pdf.html#inclusive-community",
-    "title": "Course Schedule",
-    "section": "Inclusive community",
-    "text": "Inclusive community\nI grew up in a family in which diversity, equity, and inclusion were important parts of everyday life. These values continue to shape how I approach teaching and learning.\nI aim to ensure that students from diverse backgrounds and perspectives are well served by this course. I strive to address students’ learning needs in and outside the classroom and to view the diversity that students bring as a resource, strength, and benefit.\nMy goal is to present materials and activities that respect diversity and align with Cornell University’s core values.\nYour suggestions are truly encouraged and appreciated. Please let me know how I can improve the course’s effectiveness for you personally or for other students and student groups.\nI also aim to foster a learning environment that embraces diversity of thought, perspectives, and experiences and respects the identities of all members of the course community.\nIf experiences outside of class are affecting your performance, please feel free to speak with the instructor. Alternatively, your academic dean is a resource if you prefer to speak with someone outside the course."
-  },
-  {
-    "objectID": "course/syllabus.pdf.html#mental-health-and-stress-management",
-    "href": "course/syllabus.pdf.html#mental-health-and-stress-management",
-    "title": "Course Schedule",
-    "section": "Mental Health and Stress management",
-    "text": "Mental Health and Stress management\nIf you are feeling overwhelmed, or are worrying about a friend, please reach out to me, one of your instructors or your academic adviser.\nWe can try to help, or we can put you in touch with someone who can help. Cornell has trained counselors available to listen and help: Cornell Health’s Counseling and Psychological Services (CAPS, 607-255-5155); [Student Support and Advocacy Services] (https://scl.cornell.edu/student-support); Empathy, Assistance, and Referral Service (EARS, 213 Willard Straight Hall, 607-255-3277), and Let’s Talk.\nThe Learning Strategies Center offers a range of academic resources."
-  },
-  {
-    "objectID": "course/syllabus.pdf.html#academic-integrity",
-    "href": "course/syllabus.pdf.html#academic-integrity",
-    "title": "Course Schedule",
-    "section": "Academic Integrity",
-    "text": "Academic Integrity\nAbsolute integrity is expected of every Cornell student in all academic undertakings. Integrity entails a firm adherence to values grounded in honesty with respect to the intellectual efforts of oneself and others and in free and open inquiry and discussion.\nAcademic integrity applies to all academic work and interactions connected to the educational process, including the use of University resources and digital technologies.\nA Cornell student’s submission of work for academic credit indicates that the work is the student’s own. All outside assistance should be appropriately acknowledged, and students are responsible for truthfully representing their academic work.\nStudents are expected to follow the Cornell University Code of Academic Integrity, including the version effective for Fall 2026.\nStudents should review the University’s Guidelines for Students and ask the instructor or teaching assistants whenever they are uncertain whether a particular activity is permitted. See also: https://undergrad.cornell.edu/students/academic-integrity/essential-guide-academic-integrity-undergraduate-students\nAcademic integrity expectations apply regardless of whether work is completed using traditional resources, online resources, programming tools, generative AI, or other technologies.\nEach person in this class is expected to respect the principles of academic freedom for instructors and classmates and will maintain the privacy of the classroom environment, as outlined in Cornell’s S20 Commitment to Academic Integrity, Equitable Instruction, Trust, and Respect."
-  },
-  {
-    "objectID": "course/syllabus.pdf.html#responsible-use-of-generative-ai",
-    "href": "course/syllabus.pdf.html#responsible-use-of-generative-ai",
-    "title": "Course Schedule",
-    "section": "Responsible Use of Generative AI",
-    "text": "Responsible Use of Generative AI\nGenerative artificial intelligence and other generative tools are a useful part of this course and may be used as learning and development aids unless an assignment states otherwise.\nAppropriate uses include learning concepts, brainstorming, programming assistance, debugging, exploring technical and data-analysis approaches, generating practice examples, improving student-written material, and learning to work with APIs, packages, models, and other technical tools.\nStudents remain responsible for the accuracy, originality, interpretation, security, and integrity of their submitted work and should understand and be able to explain anything they submit.\nAI-generated code, analysis, calculations, citations, references, facts, claims, and technical explanations should be carefully reviewed and independently verified.\nWhen AI materially contributes to submitted work, students should follow the assignment’s requirements for attribution and documentation. AI use does not override Cornell’s Code of Academic Integrity, and students should ask the instructor or teaching assistants when they are unsure whether a particular use is appropriate.\nSee also: https://it.cornell.edu/ai-strategy/ai-guidelines , https://teaching.cornell.edu/generative-artificial-intelligence , https://teaching.cornell.edu/generative-artificial-intelligence/ai-academic-integrity"
-  },
-  {
-    "objectID": "course/syllabus.pdf.html#privacy-confidentiality-and-responsible-data-use",
-    "href": "course/syllabus.pdf.html#privacy-confidentiality-and-responsible-data-use",
-    "title": "Course Schedule",
-    "section": "Privacy, Confidentiality, and Responsible Data Use",
-    "text": "Privacy, Confidentiality, and Responsible Data Use\nStudents should be especially careful when using generative AI or other external tools with course and project data.\nConfidential farmer information, personally identifiable information, proprietary datasets, credentials, passwords, private research data, and other sensitive information should not be uploaded to AI systems or external services unless the instructor has confirmed that the tool and use are appropriate.\nStudents are responsible for following applicable data-use agreements, project-specific data governance requirements, and appropriate security practices.\nAI-assisted work should be tested, validated, documented, and critically evaluated, and teams remain responsible for their code, analysis, interpretation, sources, and conclusions. External and AI-generated sources, data, code, images, and other contributions should be appropriately acknowledged and verified."
-  },
-  {
-    "objectID": "course/syllabus.pdf.html#accommodations-for-students-with-disabilities",
-    "href": "course/syllabus.pdf.html#accommodations-for-students-with-disabilities",
-    "title": "Course Schedule",
-    "section": "Accommodations for Students with Disabilities",
-    "text": "Accommodations for Students with Disabilities\nStudents with disabilities who require accommodations should contact Student Disability Services (SDS) and provide the appropriate accommodation documentation as early as possible in the semester.\nIf you have an approved accommodation, please communicate with the instructor so that appropriate arrangements can be made.\nStudent Disability Services can be contacted through Cornell’s SDS office."
-  },
-  {
-    "objectID": "course/syllabus.pdf.html#student-support",
-    "href": "course/syllabus.pdf.html#student-support",
-    "title": "Course Schedule",
-    "section": "Student Support",
-    "text": "Student Support\nIf you are experiencing difficulties that affect your ability to participate or succeed in the course, please communicate with the instructor or your academic adviser.\nCornell provides a range of academic, health, counseling, accessibility, and student-support resources. Students are encouraged to seek assistance early rather than waiting until difficulties become overwhelming."
-  },
-  {
-    "objectID": "course/syllabus.pdf.html#course-communication",
-    "href": "course/syllabus.pdf.html#course-communication",
-    "title": "Course Schedule",
-    "section": "Course Communication",
-    "text": "Course Communication\nThe course websiteand Canvas will contain the most up-to-date information about course activities, assignments, project requirements, and schedule changes.\nCourse announcements and important changes may also be communicated by email.\nStudents are responsible for checking the course website and course communications regularly."
-  },
-  {
     "objectID": "course/sections/course-objectives.html",
     "href": "course/sections/course-objectives.html",
     "title": "Learning objectives",
@@ -394,242 +233,457 @@
     ]
   },
   {
-    "objectID": "slides/lec-8-disc.html#context",
-    "href": "slides/lec-8-disc.html#context",
-    "title": "Lecture – DISC Assessment & Team Dynamics",
-    "section": "Context",
-    "text": "Context\n\nYou are working in teams on a semester‑long project\nTechnical skills matter — but how you work together often matters more\nMany team conflicts are not about competence, but about differences in style"
+    "objectID": "slides/disc-4-license.html#why-does-the-license-matter",
+    "href": "slides/disc-4-license.html#why-does-the-license-matter",
+    "title": "Choosing an Open-Source License",
+    "section": "Why does the license matter?",
+    "text": "Why does the license matter?\nAn open-source license answers a simple question:\n\nWhat are other people legally allowed to do with my software?\n\nIt determines whether others can:\n\nuse the software\nmodify it\nredistribute it\nuse it commercially\nincorporate it into proprietary products\n\n\n~1 minute\nStart with the practical point: putting code on GitHub does not by itself tell people what they are legally allowed to do with it. The license establishes the permissions and conditions.\nFor research software, the choice can affect adoption, collaboration, commercialization, and whether improvements remain available to the community."
   },
   {
-    "objectID": "slides/lec-8-disc.html#typical-team-friction-youve-probably-seen-this",
-    "href": "slides/lec-8-disc.html#typical-team-friction-youve-probably-seen-this",
-    "title": "Lecture – DISC Assessment & Team Dynamics",
-    "section": "Typical team friction (you’ve probably seen this)",
-    "text": "Typical team friction (you’ve probably seen this)\n\n“They never speak up” vs “They talk too much”\n“Too slow and careful” vs “Too impulsive”\n“Too emotional” vs “Too cold and distant”\n\n\nDISC gives us a neutral language to talk about these differences"
+    "objectID": "slides/disc-4-license.html#three-questions-to-ask-first",
+    "href": "slides/disc-4-license.html#three-questions-to-ask-first",
+    "title": "Choosing an Open-Source License",
+    "section": "Three questions to ask first",
+    "text": "Three questions to ask first\n\n\n1. Use\nCan anyone use the software?\nAcademic?\nNon-profit?\nCommercial?\n\n2. Modify\nCan users change the code?\nIf so, do they have to share those changes?\n\n3. Commercialize\nCan a company take the software and build a commercial product?\nAnd can that product remain closed-source?\n\n\n~1 minute\nThese three questions are more useful than starting with the names of licenses.\nThe key distinction is often not whether commercial use is allowed—it usually is—but whether downstream versions must remain open."
   },
   {
-    "objectID": "slides/lec-8-disc.html#pairshare",
-    "href": "slides/lec-8-disc.html#pairshare",
-    "title": "Lecture – DISC Assessment & Team Dynamics",
-    "section": "Pair‑share",
-    "text": "Pair‑share\nIn your project group:\n\nWhat is one behavior that annoys you in team work?\nWhat is one behavior you need from others to do your best work?\n\n\nThe goal is not to judge people — it’s to notice patterns.\n\n\n\n\n−+\n02:00"
+    "objectID": "slides/disc-4-license.html#open-source-does-not-mean-do-whatever-you-want",
+    "href": "slides/disc-4-license.html#open-source-does-not-mean-do-whatever-you-want",
+    "title": "Choosing an Open-Source License",
+    "section": "Open source does not mean “do whatever you want”",
+    "text": "Open source does not mean “do whatever you want”\nA license gives permissions subject to conditions.\nFor example, a license can require:\n\nattribution or preservation of copyright notices\ninclusion of the license text\ndisclosure of source code for certain derivative works\npreservation of the same license for covered code\ncompliance with patent-related provisions\n\n\nThe real choice is how much freedom you give downstream users—and how much reciprocity you require.\n\n\n~1 minute\nEmphasize that open-source licenses are not all equivalent. They differ substantially in what downstream users must do.\nThis is why simply saying “we want it open source” is not enough to choose a license."
   },
   {
-    "objectID": "slides/lec-8-disc.html#the-big-idea",
-    "href": "slides/lec-8-disc.html#the-big-idea",
-    "title": "Lecture – DISC Assessment & Team Dynamics",
-    "section": "The big idea",
-    "text": "The big idea\nDISC is a behavioral framework, not a test of intelligence, values, or ability.\nIt describes patterns in:\n\nHow people communicate\nHow they approach tasks\nHow they respond to challenges and others"
+    "objectID": "slides/disc-4-license.html#two-broad-families",
+    "href": "slides/disc-4-license.html#two-broad-families",
+    "title": "Choosing an Open-Source License",
+    "section": "Two broad families",
+    "text": "Two broad families\n\n\nPermissive\nMIT\nApache 2.0\nBSD\nGenerally allow:\n\ncommercial use\nmodification\nredistribution\nproprietary derivatives\n\n\nCopyleft\nGPL v3\nAGPL v3\nLGPL\nImpose stronger conditions on certain redistribution or derivative uses.\nThe goal is to preserve openness for covered code.\n\n\n~1 minute\nThis is the most important conceptual split.\nPermissive licenses maximize downstream freedom. Copyleft licenses trade some downstream freedom for stronger requirements around keeping covered software open."
   },
   {
-    "objectID": "slides/lec-8-disc.html#important-disclaimers",
-    "href": "slides/lec-8-disc.html#important-disclaimers",
-    "title": "Lecture – DISC Assessment & Team Dynamics",
-    "section": "Important disclaimers",
-    "text": "Important disclaimers\n\nDISC is not a diagnosis\nThere is no good or bad type\nMost people are a blend, not a pure type\nStyles describe preferences, not limits"
+    "objectID": "slides/disc-4-license.html#mit-maximum-simplicity",
+    "href": "slides/disc-4-license.html#mit-maximum-simplicity",
+    "title": "Choosing an Open-Source License",
+    "section": "MIT: maximum simplicity",
+    "text": "MIT: maximum simplicity\nWhat it allows\n\nUse the software\nModify it\nRedistribute it\nUse it commercially\nCombine it with proprietary software\n\nWhat it requires\nPrimarily preservation of the copyright notice and license terms.\n\nChoose this direction when: your main objective is broad adoption with minimal licensing friction.\n\n\n~1 minute\nMIT is deliberately simple and permissive.\nThe important consequence is that somebody can take MIT-licensed code, modify it, and distribute a proprietary product containing that code without having to open-source their modifications."
   },
   {
-    "objectID": "slides/lec-8-disc.html#letters-classic-disc",
-    "href": "slides/lec-8-disc.html#letters-classic-disc",
-    "title": "Lecture – DISC Assessment & Team Dynamics",
-    "section": "1. Letters (classic DISC)",
-    "text": "1. Letters (classic DISC)\n\nD – Dominance\nI – Influence\nS – Steadiness\nC – Conscientiousness"
+    "objectID": "slides/disc-4-license.html#apache-2.0-permissive-explicit-patent-terms",
+    "href": "slides/disc-4-license.html#apache-2.0-permissive-explicit-patent-terms",
+    "title": "Choosing an Open-Source License",
+    "section": "Apache 2.0: permissive + explicit patent terms",
+    "text": "Apache 2.0: permissive + explicit patent terms\nApache 2.0 is also permissive.\nIt allows:\n\ncommercial use\nmodification\nredistribution\nproprietary derivatives\n\nBut it includes more explicit provisions around patent rights and patent litigation than MIT.\n\nChoose this direction when: you want permissive licensing but consider patent provisions important.\n\n\n~1 minute\nFor substantial research or technology projects, Apache 2.0 is often worth considering because of its more explicit patent provisions.\nThe practical philosophy is still permissive: downstream users can build proprietary products."
   },
   {
-    "objectID": "slides/lec-8-disc.html#colors-surrounded-by-idiots",
-    "href": "slides/lec-8-disc.html#colors-surrounded-by-idiots",
-    "title": "Lecture – DISC Assessment & Team Dynamics",
-    "section": "2. Colors (“Surrounded by Idiots”)",
-    "text": "2. Colors (“Surrounded by Idiots”)\nBased on the book by Thomas Erikson:"
+    "objectID": "slides/disc-4-license.html#gpl-v3-strong-copyleft",
+    "href": "slides/disc-4-license.html#gpl-v3-strong-copyleft",
+    "title": "Choosing an Open-Source License",
+    "section": "GPL v3: strong copyleft",
+    "text": "GPL v3: strong copyleft\nGPL v3 allows commercial use, modification, and redistribution.\nBut when GPL-covered software is distributed under circumstances covered by the license, the corresponding source code and licensing obligations apply.\nThe philosophy\n\nYou can use and improve the software—but downstream distribution should preserve the same freedoms.\n\n\nWould you rather maximize proprietary reuse, or maximize the likelihood that distributed derivatives remain open?\n\n\n~1.5 minutes\nAvoid presenting GPL as “non-commercial.” It is not.\nThe distinction is copyleft: when the relevant conditions are triggered, downstream distribution comes with obligations to provide source code and preserve the GPL freedoms.\nThe exact application depends on how software is combined and distributed, so this is where legal advice may become relevant."
   },
   {
-    "objectID": "slides/lec-8-disc.html#colors-surrounded-by-idiots-1",
-    "href": "slides/lec-8-disc.html#colors-surrounded-by-idiots-1",
-    "title": "Lecture – DISC Assessment & Team Dynamics",
-    "section": "2. Colors (“Surrounded by Idiots”)",
-    "text": "2. Colors (“Surrounded by Idiots”)\n\nRed (D) – Dominant\nYellow (I) – Influential\nGreen (S) – Steady\nBlue (C) – Conscientious\n\n\nSame underlying ideas — different language"
+    "objectID": "slides/disc-4-license.html#agpl-v3-copyleft-for-networked-software",
+    "href": "slides/disc-4-license.html#agpl-v3-copyleft-for-networked-software",
+    "title": "Choosing an Open-Source License",
+    "section": "AGPL v3: copyleft for networked software",
+    "text": "AGPL v3: copyleft for networked software\nAGPL is closely related to GPL.\nIts distinctive feature is designed to address a common modern scenario:\nA company takes open-source software → modifies it → runs it as a network service → users interact with it over the internet.\nAGPL adds conditions aimed at this type of network use.\n\nParticularly relevant for: web platforms, APIs, cloud services, and software delivered as a service.\n\n\n~1.5 minutes\nThis is one reason AGPL can matter for platforms.\nWith ordinary GPL, simply offering modified software as a service can create a different situation from distributing the software itself. AGPL was designed to address this network-service scenario.\nDo not describe AGPL as universally preventing proprietary SaaS; the actual obligations depend on the software and how it is used."
   },
   {
-    "objectID": "slides/lec-8-disc.html#a-simple-way-to-visualize",
-    "href": "slides/lec-8-disc.html#a-simple-way-to-visualize",
-    "title": "Lecture – DISC Assessment & Team Dynamics",
-    "section": "A simple way to visualize",
-    "text": "A simple way to visualize\nDISC is often described using two rough axes:\n\nPace: Fast‑paced vs More measured\nFocus: Task/results vs People/relationships\n\n\n\n\n\n\n\n\n\n\nTask / Results focus\nPeople / Relationship focus\n\n\n\n\nFast‑paced\nRed (D)\nYellow (I)\n\n\nMore measured\nBlue (C)\nGreen (S)\n\n\n\n\nNot perfect science — but a helpful mental model."
+    "objectID": "slides/disc-4-license.html#lgpl-and-mpl-middle-ground-approaches",
+    "href": "slides/disc-4-license.html#lgpl-and-mpl-middle-ground-approaches",
+    "title": "Choosing an Open-Source License",
+    "section": "LGPL and MPL: middle-ground approaches",
+    "text": "LGPL and MPL: middle-ground approaches\nLGPL\nDesigned especially for libraries.\nIt generally permits proprietary applications to link to an LGPL library while imposing stronger obligations on modifications to the library itself.\nMPL 2.0\nA file-level copyleft approach.\nModified MPL-covered files generally remain under the MPL, while larger works can contain proprietary code.\n\n~1 minute\nThese licenses are useful when you want some reciprocity without applying strong copyleft to an entire combined application.\nThe exact obligations are technical and should be checked against the license text for a particular architecture."
   },
   {
-    "objectID": "slides/lec-8-disc.html#red-d-dominance",
-    "href": "slides/lec-8-disc.html#red-d-dominance",
-    "title": "Lecture – DISC Assessment & Team Dynamics",
-    "section": "Red (D) – Dominance",
-    "text": "Red (D) – Dominance\nFocus: Results, action, winning\nTypical behaviors\n\nDirect, fast‑paced, decisive\nComfortable with disagreement\nLikes to take charge\n\nStrengths - Gets things moving - Clear decisions - Handles pressure well"
+    "objectID": "slides/disc-4-license.html#the-landscape-at-a-glance",
+    "href": "slides/disc-4-license.html#the-landscape-at-a-glance",
+    "title": "Choosing an Open-Source License",
+    "section": "The landscape at a glance",
+    "text": "The landscape at a glance\n\n\n\n\n\n\n\n\n\n\n\n\n\nMIT\nApache 2.0\nGPL v3\nAGPL v3\nLGPL\nMPL 2.0\n\n\n\n\nCommercial use\n✓\n✓\n✓\n✓\n✓\n✓\n\n\nProprietary derivatives possible\n✓\n✓\nLimited by copyleft obligations\nLimited by copyleft obligations\nGenerally ✓\nGenerally ✓\n\n\nStrong copyleft\n—\n—\n✓\n✓\nPartial\nFile-level\n\n\nNetwork/SaaS focus\n—\n—\n—\n✓\n—\n—\n\n\nPatent provisions\nBasic\nExplicit\nYes\nYes\nYes\nYes\n\n\n\n\nThis is a conceptual comparison, not a substitute for reviewing the license terms for a particular software architecture.\n\n\n~1.5 minutes\nUse this as the summary slide.\nThe biggest distinctions are permissive versus copyleft, and—within copyleft—the stronger network-service focus of AGPL."
   },
   {
-    "objectID": "slides/lec-8-disc.html#red-d-dominance-1",
-    "href": "slides/lec-8-disc.html#red-d-dominance-1",
-    "title": "Lecture – DISC Assessment & Team Dynamics",
-    "section": "Red (D) – Dominance",
-    "text": "Red (D) – Dominance\nPotential blind spots\n\nCan seem impatient or blunt\nMay skip details or others’ input\n\nOften‑cited examples (illustrative, not diagnoses)\n\nElon Musk (entrepreneurial drive, speed)\nGordon Ramsay (direct, high standards)"
+    "objectID": "slides/disc-4-license.html#a-practical-decision-tree",
+    "href": "slides/disc-4-license.html#a-practical-decision-tree",
+    "title": "Choosing an Open-Source License",
+    "section": "A practical decision tree",
+    "text": "A practical decision tree\nDo you want proprietary products to be able to build on your code?\n→ Yes → Consider MIT / Apache 2.0 / BSD\n→ No / want stronger reciprocity → Consider GPL\nIs preventing closed modifications in network services especially important?\n→ Yes → Consider AGPL\nIs it primarily a library?\n→ Consider LGPL or another library-appropriate license.\nWant file-level copyleft rather than project-wide copyleft?\n→ Consider MPL 2.0\n\n~1 minute\nThis is deliberately simplified. The architecture of the software and how it will be distributed can change the answer.\nThe decision should start with the desired outcome, then identify the license."
   },
   {
-    "objectID": "slides/lec-8-disc.html#yellow-i-influence",
-    "href": "slides/lec-8-disc.html#yellow-i-influence",
-    "title": "Lecture – DISC Assessment & Team Dynamics",
-    "section": "Yellow (I) – Influence",
-    "text": "Yellow (I) – Influence\nFocus: People, ideas, energy\nTypical behaviors\n\nExpressive, enthusiastic\nThinks out loud\nEnjoys collaboration and recognition\n\nStrengths - Generates ideas - Motivates others - Creates momentum"
+    "objectID": "slides/disc-4-license.html#research-software-changes-the-question",
+    "href": "slides/disc-4-license.html#research-software-changes-the-question",
+    "title": "Choosing an Open-Source License",
+    "section": "Research software changes the question",
+    "text": "Research software changes the question\nFor academic software, ask:\nAdoption\nDo we want researchers everywhere to use it with minimal friction?\nCollaboration\nDo we want improvements to come back to the community?\nTranslation into products\nShould companies be able to build commercial products from it?\nLong-term stewardship\nWho will maintain the infrastructure and pay for it?\n\nWhat is the primary objective: adoption, openness of derivatives, or a path to commercialization?\n\n\n~1 minute\nThis is a good audience interaction point.\nThere isn’t one universally correct answer. Different research projects legitimately prioritize different outcomes."
   },
   {
-    "objectID": "slides/lec-8-disc.html#yellow-i-influence-1",
-    "href": "slides/lec-8-disc.html#yellow-i-influence-1",
-    "title": "Lecture – DISC Assessment & Team Dynamics",
-    "section": "Yellow (I) – Influence",
-    "text": "Yellow (I) – Influence\nPotential blind spots\n\nCan lose focus\nMay over‑promise / under‑deliver\n\nOften‑cited examples\n\nOprah Winfrey (connection, influence)\nRichard Branson (vision, enthusiasm)"
+    "objectID": "slides/disc-4-license.html#software-license-data-license",
+    "href": "slides/disc-4-license.html#software-license-data-license",
+    "title": "Choosing an Open-Source License",
+    "section": "Software license ≠ data license",
+    "text": "Software license ≠ data license\nA platform may contain several distinct things:\nSoftware → open-source software license\nDatasets → data license / data-sharing terms\nModels → potentially a separate model license\nDocumentation → potentially a documentation license\nThird-party dependencies → their existing licenses still apply\n\nLicensing the code does not automatically give you the right to redistribute the data inside the project.\n\n\n~1 minute\nThis is particularly important for data-intensive research platforms.\nThe code and the data can have completely different ownership and licensing arrangements. A project should inventory both before publishing."
   },
   {
-    "objectID": "slides/lec-8-disc.html#green-s-steadiness",
-    "href": "slides/lec-8-disc.html#green-s-steadiness",
-    "title": "Lecture – DISC Assessment & Team Dynamics",
-    "section": "Green (S) – Steadiness",
-    "text": "Green (S) – Steadiness\nFocus: Harmony, stability, trust\nTypical behaviors\n\nPatient, calm, supportive\nGood listener\nPrefers predictable workflows\n\nStrengths - Team glue - Reliability - Conflict de‑escalation"
+    "objectID": "slides/disc-4-license.html#university-and-research-ip",
+    "href": "slides/disc-4-license.html#university-and-research-ip",
+    "title": "Choosing an Open-Source License",
+    "section": "University and research IP",
+    "text": "University and research IP\nBefore choosing a license, establish:\n\nWho owns the copyright?\nWere university employees involved?\nWere students involved?\nWas sponsored research involved?\nAre there third-party components?\nAre there patent considerations?\nAre there institutional open-source policies?\nAre there contractual restrictions on the data?\n\n\nThe person who wrote the code is not necessarily the person who has authority to license it.\n\n\n~1 minute\nThis is particularly important for university-developed software.\nA researcher may have developed the code, but institutional policies, employment arrangements, sponsored-research agreements, or third-party contributions can affect ownership and licensing authority."
   },
   {
-    "objectID": "slides/lec-8-disc.html#green-s-steadiness-1",
-    "href": "slides/lec-8-disc.html#green-s-steadiness-1",
-    "title": "Lecture – DISC Assessment & Team Dynamics",
-    "section": "Green (S) – Steadiness",
-    "text": "Green (S) – Steadiness\nPotential blind spots\n\nAvoids conflict\nResists rapid change\n\nOften‑cited examples\n\nKeanu Reeves (calm, respectful presence)\nFred Rogers (empathy, consistency)"
+    "objectID": "slides/disc-4-license.html#a-possible-strategy-for-a-research-platform",
+    "href": "slides/disc-4-license.html#a-possible-strategy-for-a-research-platform",
+    "title": "Choosing an Open-Source License",
+    "section": "A possible strategy for a research platform",
+    "text": "A possible strategy for a research platform\nOne possible architecture is:\nOpen-source core → Apache 2.0\nSelected components where reciprocity matters → AGPL / GPL, where appropriate\nResearch datasets → separate data-sharing terms\nCommercial hosted service → separate commercial offering\n\nThe license strategy can be designed around the project’s ecosystem—not necessarily one license for everything.\n\n\n~1.5 minutes\nPresent this as an example, not a prescription.\nFor a research platform that wants broad academic adoption while retaining a commercial pathway, it can be useful to separate the software, data, and service layers.\nThe exact structure should be reviewed for compatibility between licenses and dependencies."
   },
   {
-    "objectID": "slides/lec-8-disc.html#blue-c-conscientiousness",
-    "href": "slides/lec-8-disc.html#blue-c-conscientiousness",
-    "title": "Lecture – DISC Assessment & Team Dynamics",
-    "section": "Blue (C) – Conscientiousness",
-    "text": "Blue (C) – Conscientiousness\nFocus: Accuracy, quality, logic\nTypical behaviors\n\nAnalytical, structured\nData‑driven\nAsks critical questions\n\nStrengths - High‑quality output - Risk reduction - Clear documentation"
+    "objectID": "slides/disc-4-license.html#what-should-you-choose",
+    "href": "slides/disc-4-license.html#what-should-you-choose",
+    "title": "Choosing an Open-Source License",
+    "section": "What should you choose?",
+    "text": "What should you choose?\nStart with the outcome—not the license name.\nIf your priority is…\nMaximum adoption and minimum friction\n→ permissive license such as MIT or Apache 2.0\nKeeping distributed derivatives open\n→ GPL family\nAddressing network-service use\n→ AGPL\nLibrary reuse with some copyleft\n→ LGPL\nFile-level copyleft\n→ MPL 2.0\n\n~1 minute\nThis is the practical takeaway.\nThere is no universally “best” open-source license. The appropriate choice depends on what freedoms you want to grant and what obligations you want downstream users to have."
   },
   {
-    "objectID": "slides/lec-8-disc.html#blue-c-conscientiousness-1",
-    "href": "slides/lec-8-disc.html#blue-c-conscientiousness-1",
-    "title": "Lecture – DISC Assessment & Team Dynamics",
-    "section": "Blue (C) – Conscientiousness",
-    "text": "Blue (C) – Conscientiousness\nPotential blind spots\n\nOverthinking\nPerfectionism\n\nOften‑cited examples\n\nBill Gates (systems thinking)\nMarie Curie (rigor, precision)"
+    "objectID": "slides/disc-4-license.html#five-take-home-messages",
+    "href": "slides/disc-4-license.html#five-take-home-messages",
+    "title": "Choosing an Open-Source License",
+    "section": "Five take-home messages",
+    "text": "Five take-home messages\n\nOpen source is not one licensing model.\nPermissive and copyleft licenses make different trade-offs.\nCommercial use can be allowed under both permissive and copyleft licenses.\nAGPL deserves special attention for networked platforms.\nFor research software, resolve ownership and data rights before publishing.\n\n\nThe key question\nWhat do you want someone else to be able to do with your code five years from now?\n\n\n~1 minute\nClose by returning to the opening question.\nThe license is effectively a decision about the future ecosystem around the software. Decide the desired permissions and reciprocity first; then choose the license that implements them."
   },
   {
-    "objectID": "slides/lec-8-disc.html#key-distinction",
-    "href": "slides/lec-8-disc.html#key-distinction",
-    "title": "Lecture – DISC Assessment & Team Dynamics",
-    "section": "Key distinction",
-    "text": "Key distinction\n\nDISC = how you prefer to act\nSkills = what you are capable of doing\n\nExamples:\n\nA Green (S) can still lead\nA Red (D) can still listen\nA Yellow (I) can still analyze\nA Blue (C) can still inspire\n\n\nAwareness creates choice"
+    "objectID": "slides/lec-aiml.html#learning-goals",
+    "href": "slides/lec-aiml.html#learning-goals",
+    "title": "Lecture – Artificial Intelligence / Machine Learning",
+    "section": "Learning goals",
+    "text": "Learning goals\n\nUnderstand what AI and ML actually are and how they work\nBe familiar with the different ML tasks\nUnderstand how to build a good ML model"
   },
   {
-    "objectID": "slides/lec-8-disc.html#common-team-patterns",
-    "href": "slides/lec-8-disc.html#common-team-patterns",
-    "title": "Lecture – DISC Assessment & Team Dynamics",
-    "section": "Common team patterns",
-    "text": "Common team patterns\n\nReds (D) push decisions and deadlines\nYellows (I) generate ideas and energy\nGreens (S) keep the team aligned\nBlues (C) ensure rigor and quality\n\nTeams struggle when:\n\nOne style dominates\nDifferences are interpreted as personal flaws"
+    "objectID": "slides/lec-aiml.html#whats-the-difference",
+    "href": "slides/lec-aiml.html#whats-the-difference",
+    "title": "Lecture – Artificial Intelligence / Machine Learning",
+    "section": "What’s the difference?",
+    "text": "What’s the difference?\n\n\nAI = machines doing “smart” things. ML = automating that with data. DL = models that imitate human brain. AI without data is, for example, a chess bot made with hand-coded heuristics."
   },
   {
-    "objectID": "slides/lec-8-disc.html#example-misunderstanding",
-    "href": "slides/lec-8-disc.html#example-misunderstanding",
-    "title": "Lecture – DISC Assessment & Team Dynamics",
-    "section": "Example misunderstanding",
-    "text": "Example misunderstanding\n\nBlue (C): “This needs more checking.”\nRed (D) hears: “You’re slowing us down.”\nRed (D): “Let’s just decide.”\nBlue (C) hears: “You don’t care about quality.”\n\nDISC helps translate intent vs impact."
+    "objectID": "slides/lec-aiml.html#ai-in-daily-life",
+    "href": "slides/lec-aiml.html#ai-in-daily-life",
+    "title": "Lecture – Artificial Intelligence / Machine Learning",
+    "section": "AI in daily life",
+    "text": "AI in daily life\n\n\n\nChatGPT, Claude\n\n\n\nFace ID\n\n\n\nRecommendations (TikTok, Dating apps)\n\n\n\nGoogle Maps (find optimal directions)\n\n\n\nWeather forecasts"
   },
   {
-    "objectID": "slides/lec-8-disc.html#scenario",
-    "href": "slides/lec-8-disc.html#scenario",
-    "title": "Lecture – DISC Assessment & Team Dynamics",
-    "section": "Scenario",
-    "text": "Scenario\nYour teammate writes:\n\n“Can you send me your part by tonight? We’re behind.”\n\nTask\nRewrite that same message in a way that would land best for each style:\n\nRed (D)\nYellow (I)\nGreen (S)\nBlue (C)"
+    "objectID": "slides/lec-aiml.html#ai-in-daily-life-1",
+    "href": "slides/lec-aiml.html#ai-in-daily-life-1",
+    "title": "Lecture – Artificial Intelligence / Machine Learning",
+    "section": "AI in daily life",
+    "text": "AI in daily life\n\n\n\nChatGPT, Claude\nDL\n\n\nFace ID\nDL\n\n\nRecommendations (TikTok, Dating apps)\nDL\n\n\nGoogle Maps (find optimal directions)\nAI\n\n\nWeather forecasts\nML\n\n\n\nDeep Learning is increasingly dominating"
   },
   {
-    "objectID": "slides/lec-8-disc.html#practical-rules",
-    "href": "slides/lec-8-disc.html#practical-rules",
-    "title": "Lecture – DISC Assessment & Team Dynamics",
-    "section": "Practical rules",
-    "text": "Practical rules\n\nDon’t label people — describe behavior\nAdjust communication, not personality\nBalance speed, people, and quality"
+    "objectID": "slides/lec-aiml.html#ml-in-dairy-life",
+    "href": "slides/lec-aiml.html#ml-in-dairy-life",
+    "title": "Lecture – Artificial Intelligence / Machine Learning",
+    "section": "ML in dairy life",
+    "text": "ML in dairy life\n\nMastitis detection\nCow identification\nBehavior detection\nLameness scoring\nPredicting milk yield\nHeat stress alerts"
   },
   {
-    "objectID": "slides/lec-8-disc.html#simple-adaptations",
-    "href": "slides/lec-8-disc.html#simple-adaptations",
-    "title": "Lecture – DISC Assessment & Team Dynamics",
-    "section": "Simple adaptations",
-    "text": "Simple adaptations\n\nTalking to a Red (D) → be concise, outcome‑focused\nTalking to a Yellow (I) → show enthusiasm, brainstorm\nTalking to a Green (S) → be patient, inclusive\nTalking to a Blue (C) → bring structure and data"
+    "objectID": "slides/lec-aiml.html#how-it-works-exercise-1",
+    "href": "slides/lec-aiml.html#how-it-works-exercise-1",
+    "title": "Lecture – Artificial Intelligence / Machine Learning",
+    "section": "How it works: Exercise 1",
+    "text": "How it works: Exercise 1\n\n\nIt’s easy to find the pattern."
   },
   {
-    "objectID": "slides/lec-8-disc.html#if-you-have-all-four-styles-in-a-team",
-    "href": "slides/lec-8-disc.html#if-you-have-all-four-styles-in-a-team",
-    "title": "Lecture – DISC Assessment & Team Dynamics",
-    "section": "If you have all four styles in a team…",
-    "text": "If you have all four styles in a team…\n\nRed (D): momentum and decisions\nYellow (I): creativity and energy\nGreen (S): trust and follow‑through\nBlue (C): rigor and quality\n\n\nStrong teams don’t all think alike — they coordinate differences."
+    "objectID": "slides/lec-aiml.html#how-it-works-exercise-2",
+    "href": "slides/lec-aiml.html#how-it-works-exercise-2",
+    "title": "Lecture – Artificial Intelligence / Machine Learning",
+    "section": "How it works: Exercise 2",
+    "text": "How it works: Exercise 2\n\n\nThis is hard for humans, but easy for machines."
   },
   {
-    "objectID": "slides/lec-8-disc.html#stress-amplifies-defaults",
-    "href": "slides/lec-8-disc.html#stress-amplifies-defaults",
-    "title": "Lecture – DISC Assessment & Team Dynamics",
-    "section": "Stress amplifies defaults",
-    "text": "Stress amplifies defaults\nWhen pressure rises, people often overdo their preferred style.\n\nRed (D) under stress: gets more controlling / impatient\n\nHelpful response: give options + timelines, stay concise\n\nYellow (I) under stress: talks more, becomes scattered\n\nHelpful response: summarize decisions, assign next steps"
+    "objectID": "slides/lec-aiml.html#how-it-works-finding-patterns",
+    "href": "slides/lec-aiml.html#how-it-works-finding-patterns",
+    "title": "Lecture – Artificial Intelligence / Machine Learning",
+    "section": "How it works: finding patterns",
+    "text": "How it works: finding patterns\n\nHumans find patterns\nAI does the same, but faster and on large scale\nSame core principle, from ChatGPT to milk yield prediction"
   },
   {
-    "objectID": "slides/lec-8-disc.html#stress-amplifies-defaults-1",
-    "href": "slides/lec-8-disc.html#stress-amplifies-defaults-1",
-    "title": "Lecture – DISC Assessment & Team Dynamics",
-    "section": "Stress amplifies defaults",
-    "text": "Stress amplifies defaults\n\nGreen (S) under stress: withdraws, avoids conflict\n\nHelpful response: ask directly, create psychological safety\n\nBlue (C) under stress: over‑checks, delays decisions\n\nHelpful response: define “good enough,” set a decision point\n\n\n\n“Under stress” is not a flaw — it’s a signal."
+    "objectID": "slides/lec-aiml.html#terminology",
+    "href": "slides/lec-aiml.html#terminology",
+    "title": "Lecture – Artificial Intelligence / Machine Learning",
+    "section": "Terminology",
+    "text": "Terminology\n\nFeatures: the inputs (breed, feed intake, …)\nLabels: what we want to predict (milk yield)\nModel: the algorithm that finds & learns the patterns\n\n\nThis is the vocabulary bridge. Everything after this slide uses these three words."
   },
   {
-    "objectID": "slides/lec-8-disc.html#individual-reflection",
-    "href": "slides/lec-8-disc.html#individual-reflection",
-    "title": "Lecture – DISC Assessment & Team Dynamics",
-    "section": "Individual reflection",
-    "text": "Individual reflection\nWrite short answers (1–2 sentences each):\n\nMy likely style(s): ______ (e.g., Green (S) + Blue (C))\nI’m at my best in a team when: ______\nUnder pressure, I tend to overdo: ______\nA teammate behavior that triggers me is: ______\nOne thing I can do this week to adapt better is: ______"
+    "objectID": "slides/lec-aiml.html#types-of-learning-tasks",
+    "href": "slides/lec-aiml.html#types-of-learning-tasks",
+    "title": "Lecture – Artificial Intelligence / Machine Learning",
+    "section": "Types of learning tasks",
+    "text": "Types of learning tasks\n\nRegression — predict a number\nClassification — predict a class\n\n\n\nSupervised learning — learn with label\nUnsupervised learning — learn without"
   },
   {
-    "objectID": "slides/lec-8-disc.html#typical-fit-not-a-rule",
-    "href": "slides/lec-8-disc.html#typical-fit-not-a-rule",
-    "title": "Lecture – DISC Assessment & Team Dynamics",
-    "section": "Typical fit (not a rule)",
-    "text": "Typical fit (not a rule)\n\nProject manager / decision driver: often Red (D) or Yellow (I)\nStakeholder liaison / interviewer / presenter: often Yellow (I)\nOperations / scheduling / keeping everyone aligned: often Green (S)\nData lead / QA / methods & documentation: often Blue (C)"
+    "objectID": "slides/lec-aiml.html#types-of-learning-tasks---examples",
+    "href": "slides/lec-aiml.html#types-of-learning-tasks---examples",
+    "title": "Lecture – Artificial Intelligence / Machine Learning",
+    "section": "Types of learning tasks - Examples",
+    "text": "Types of learning tasks - Examples\n\nRegression — lameness score, milk yield, …\nClassification — mastitis diagnosis, pregnancy status, …\n\n\n\nSupervised — all of the above, behavior identification\nUnsupervised — behavior identification\n\nSome tasks can be modelled in different ways!\n\nGive examples! - lameness score, milk yield - mastitis yes/no, cow identity"
   },
   {
-    "objectID": "slides/lec-8-disc.html#the-key-message",
-    "href": "slides/lec-8-disc.html#the-key-message",
-    "title": "Lecture – DISC Assessment & Team Dynamics",
-    "section": "The key message",
-    "text": "The key message\nYou can do any role — but knowing your default style helps you:\n\nChoose strategies that work for you\nAsk for the support you need\nAvoid predictable failure modes"
+    "objectID": "slides/lec-aiml.html#ingredients-of-ml-data",
+    "href": "slides/lec-aiml.html#ingredients-of-ml-data",
+    "title": "Lecture – Artificial Intelligence / Machine Learning",
+    "section": "3 ingredients of ML: Data",
+    "text": "3 ingredients of ML: Data\n\nGarbage in, garbage out\nPreprocessing: cleaning data\nFeature engineering: creating more useful features from existing data"
   },
   {
-    "objectID": "slides/lec-8-disc.html#why-start-with-yourself",
-    "href": "slides/lec-8-disc.html#why-start-with-yourself",
-    "title": "Lecture – DISC Assessment & Team Dynamics",
-    "section": "Why start with yourself?",
-    "text": "Why start with yourself?\n\nYou are always part of the system\nStress amplifies your default style\n\nReflection questions:\n\nWhat do I overdo under pressure?\nWhich style frustrates me most — and why?\nWhat does my team need more of?"
+    "objectID": "slides/lec-aiml.html#ingredients-of-ml-model",
+    "href": "slides/lec-aiml.html#ingredients-of-ml-model",
+    "title": "Lecture – Artificial Intelligence / Machine Learning",
+    "section": "3 ingredients of ML: Model",
+    "text": "3 ingredients of ML: Model\n\nGoal: Model works well on new data\n\n\n\nLink the cause back to pattern finding."
   },
   {
-    "objectID": "slides/lec-8-disc.html#disc-selfassessment",
-    "href": "slides/lec-8-disc.html#disc-selfassessment",
-    "title": "Lecture – DISC Assessment & Team Dynamics",
-    "section": "DISC self‑assessment",
-    "text": "DISC self‑assessment\n\nComplete the free DISC assessment: https://professionalleadershipinstitute.com/disc-assessment/\nDownload your results PDF\nShare the PDF with me, if you feel comfortable\n\nI will:\n\nCombine results across the class"
+    "objectID": "slides/lec-aiml.html#ingredients-of-ml-model-1",
+    "href": "slides/lec-aiml.html#ingredients-of-ml-model-1",
+    "title": "Lecture – Artificial Intelligence / Machine Learning",
+    "section": "3 ingredients of ML: Model",
+    "text": "3 ingredients of ML: Model\nUnderfitting: not complex enough\n\ncannot find the right patterns\n\nOverfitting: too complex\n\nremembers the data\nsensitive to outliers"
   },
   {
-    "objectID": "slides/lec-8-disc.html#privacy-professionalism",
-    "href": "slides/lec-8-disc.html#privacy-professionalism",
-    "title": "Lecture – DISC Assessment & Team Dynamics",
-    "section": "Privacy / professionalism",
-    "text": "Privacy / professionalism\n\nThis is for learning and reflection, not labeling\nIf you prefer, you may remove your name from the PDF before sharing"
+    "objectID": "slides/lec-aiml.html#ingredients-of-ml-objective",
+    "href": "slides/lec-aiml.html#ingredients-of-ml-objective",
+    "title": "Lecture – Artificial Intelligence / Machine Learning",
+    "section": "3 ingredients of ML: Objective",
+    "text": "3 ingredients of ML: Objective\nEach model optimizes an objective function / metric, e.g.\n\nRegression: MSE, MAE\nClassification: F1, AUC-ROC, accuracy\n\nMany more, all with different pros & cons\nChoose wrong objective → undesired behavior"
   },
   {
-    "objectID": "slides/lec-8-disc.html#inclass-followup",
-    "href": "slides/lec-8-disc.html#inclass-followup",
-    "title": "Lecture – DISC Assessment & Team Dynamics",
-    "section": "In‑class follow‑up",
-    "text": "In‑class follow‑up\n\nLook at class‑level DISC distributions\nDiscuss strengths and gaps across teams\nConnect DISC insights to your ongoing project work\n\n\nThe goal is not to change who you are — but to work better together."
+    "objectID": "slides/lec-aiml.html#how-to-assess-model-quality",
+    "href": "slides/lec-aiml.html#how-to-assess-model-quality",
+    "title": "Lecture – Artificial Intelligence / Machine Learning",
+    "section": "How to assess model quality?",
+    "text": "How to assess model quality?\nGoal: Accurately estimate performance on new data\nCross-validation:"
   },
   {
-    "objectID": "slides/lec-8-disc.html#remember",
-    "href": "slides/lec-8-disc.html#remember",
-    "title": "Lecture – DISC Assessment & Team Dynamics",
-    "section": "Remember",
-    "text": "Remember\n\nDifferences are normal\nAwareness reduces friction\nAdaptation improves teams\n\nDISC gives us a shared language — what you do with it is up to you."
+    "objectID": "slides/lec-aiml.html#how-to-assess-model-quality-1",
+    "href": "slides/lec-aiml.html#how-to-assess-model-quality-1",
+    "title": "Lecture – Artificial Intelligence / Machine Learning",
+    "section": "How to assess model quality?",
+    "text": "How to assess model quality?\nCommon pitfall: Data leakage\nModel got information during training that would not be there when making real predictions\n\nAccidentally include the labels inside the training data\nPreprocessing before splitting\nWhen using time-series data: training on data in the future of the test data"
+  },
+  {
+    "objectID": "slides/lec-aiml.html#how-to-assess-model-quality-2",
+    "href": "slides/lec-aiml.html#how-to-assess-model-quality-2",
+    "title": "Lecture – Artificial Intelligence / Machine Learning",
+    "section": "How to assess model quality?",
+    "text": "How to assess model quality?\nCommon pitfall: Class imbalance\nMastitis is rare (~5–10% of records)\nAlways predict “No” → 90–95% accurate\nHow to handle it:\n\nchoose the right metrics\nchoose and tune the right model\ndata balancing"
+  },
+  {
+    "objectID": "slides/lec-aiml.html#how-to-assess-model-quality-3",
+    "href": "slides/lec-aiml.html#how-to-assess-model-quality-3",
+    "title": "Lecture – Artificial Intelligence / Machine Learning",
+    "section": "How to assess model quality?",
+    "text": "How to assess model quality?\n\nTrain metrics: 👎 → underfitting\n\nOr bad or insufficient data\n\nTrain metrics: 👍 BUT validation/test: 👎 → overfitting\nTest: 100% perfect → data leakage"
+  },
+  {
+    "objectID": "slides/lec-aiml.html#key-takeaways",
+    "href": "slides/lec-aiml.html#key-takeaways",
+    "title": "Lecture – Artificial Intelligence / Machine Learning",
+    "section": "Key takeaways",
+    "text": "Key takeaways\n\nAI/ML is everywhere\nML cleverly and automatically finds patterns in data\nFor ML you need the right data, model and metrics\nIt requires great care to properly train and validate a model"
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#what-are-the-fair-principles",
+    "href": "slides/disc-2-fair.html#what-are-the-fair-principles",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "What are the FAIR principles",
+    "text": "What are the FAIR principles\nFAIR data is data which meets the FAIR principles of findability, accessibility, interoperability, and reusability (FAIR).[1][2] The acronym and principles were defined in a March 2016 paper in the journal Scientific Data by a consortium of scientists and organizations.[1]"
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#get-to-know-the-principles-1",
+    "href": "slides/disc-2-fair.html#get-to-know-the-principles-1",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Get to know the principles (1)",
+    "text": "Get to know the principles (1)\n\nGet familiar with FAIR by looking at this video.\nRead the intial publication on The FAIR Guiding Principles for scientific data management and stewardschip.\nExplore the vision of Cornell University on FAIR principles and their cheatsheets."
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#get-to-know-the-principles-2",
+    "href": "slides/disc-2-fair.html#get-to-know-the-principles-2",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Get to know the principles (2)",
+    "text": "Get to know the principles (2)\n\nCheck for reproducible advise in the tutorials at the bovi-analytics website.\nDiscuss with the entire team and Dr. Miel Hostens (contact him on his desk) on how this will reflect on your team project."
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#findable",
+    "href": "slides/disc-2-fair.html#findable",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Findable",
+    "text": "Findable\nThe first step in (re)using data is to find them. Metadata and data should be easy to find for both humans and computers. Machine-readable metadata are essential for automatic discovery of datasets and services, so this is an essential component of the FAIRification process."
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#findable-1",
+    "href": "slides/disc-2-fair.html#findable-1",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Findable",
+    "text": "Findable\n\nF1. (Meta)data are assigned a globally unique and persistent identifier\nF2. Data are described with rich metadata (defined by R1 below)\nF3. Metadata clearly and explicitly include the identifier of the data they describe\nF4. (Meta)data are registered or indexed in a searchable resource"
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#accessible",
+    "href": "slides/disc-2-fair.html#accessible",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Accessible",
+    "text": "Accessible\nOnce the user finds the required data, they need to know how they can be accessed, possibly including authentication and authorisation."
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#accessible-1",
+    "href": "slides/disc-2-fair.html#accessible-1",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Accessible",
+    "text": "Accessible\n\nA1. (Meta)data are retrievable by their identifier using a standardised communications protocol\nA1.1 The protocol is open, free, and universally implementable\nA1.2 The protocol allows for an authentication and authorisation procedure, where necessary\nA2. Metadata are accessible, even when the data are no longer available"
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#interoperable",
+    "href": "slides/disc-2-fair.html#interoperable",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Interoperable",
+    "text": "Interoperable\nThe data usually need to be integrated with other data. In addition, the data need to interoperate with applications or workflows for analysis, storage, and processing."
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#interoperable-1",
+    "href": "slides/disc-2-fair.html#interoperable-1",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Interoperable",
+    "text": "Interoperable\n\nI1. (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation.\nI2. (Meta)data use vocabularies that follow FAIR principles\nI3. (Meta)data include qualified references to other (meta)data"
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#reusable",
+    "href": "slides/disc-2-fair.html#reusable",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Reusable",
+    "text": "Reusable\nThe ultimate goal of FAIR is to optimise the reuse of data. To achieve this, metadata and data should be well-described so that they can be replicated and/or combined in different settings."
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#reusable-1",
+    "href": "slides/disc-2-fair.html#reusable-1",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Reusable",
+    "text": "Reusable\n\nR1. (Meta)data are richly described with a plurality of accurate and relevant attributes\nR1.1. (Meta)data are released with a clear and accessible data usage license\nR1.2. (Meta)data are associated with detailed provenance\nR1.3. (Meta)data meet domain-relevant community standards"
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#why-do-we-need-this",
+    "href": "slides/disc-2-fair.html#why-do-we-need-this",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Why do we need this",
+    "text": "Why do we need this\n\nDairy data science is multimodal, longitudinal, and collaborative\nNaming is not cosmetic — it is infrastructure\nMost downstream issues are caused by:\n\nAmbiguity\nInconsistency\nSilent semantic drift"
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#minutes-4-takeaways",
+    "href": "slides/disc-2-fair.html#minutes-4-takeaways",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "40 Minutes, 4 Takeaways",
+    "text": "40 Minutes, 4 Takeaways\n\nNaming conventions are scientific decisions\nBad names silently break analyis and models\nConventions must scale across projects & people\nGovernance matters more than documentation"
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#the-dairy-data-reality",
+    "href": "slides/disc-2-fair.html#the-dairy-data-reality",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "The Dairy Data Reality",
+    "text": "The Dairy Data Reality\n\nMultiple farms\nMultiple vendors\nMultiple countries\nMultiple disciplines:\n\nNutrition\nHealth\nBehavior\nProduction\n\n\n→ Names are the only shared language"
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#what-is-a-naming-convention",
+    "href": "slides/disc-2-fair.html#what-is-a-naming-convention",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "What Is a Naming Convention?",
+    "text": "What Is a Naming Convention?\n\nA set of agreed‑upon rules for creating unique, informative, and stable names for data objects.\n\nApplies to: - Variables - Tables - Files - Visuals - Ontology terms"
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#naming-style-preference",
+    "href": "slides/disc-2-fair.html#naming-style-preference",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Naming ≠ Style Preference",
+    "text": "Naming ≠ Style Preference\nBad naming causes: - Feature leakage - Wrong joins - Broken pipelines - Invalid within/between farm comparisons\nThese errors do not throw exceptions."
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#common-dairy-data-failures",
+    "href": "slides/disc-2-fair.html#common-dairy-data-failures",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Common Dairy Data Failures",
+    "text": "Common Dairy Data Failures\n\nDIM, days_in_milk, DaysInMilk\nmilk_yield, MilkYieldKg, MY\nother, Other, OTHER\nlactation_stage vs lactation_stages\n\nEach creates a new semantic entity"
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#names-encode-meaning",
+    "href": "slides/disc-2-fair.html#names-encode-meaning",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Names Encode Meaning",
+    "text": "Names Encode Meaning\nA good name answers:\n\nWhat?\nFor whom?\nIn what unit?\nAt what level?\nOver what time window?"
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#core-design-principles",
+    "href": "slides/disc-2-fair.html#core-design-principles",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Core Design Principles",
+    "text": "Core Design Principles\n\nConsistency over cleverness\nExplicit over implicit\nStable over convenient\nReadable by humans and machines"
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#scope-of-a-naming-convention",
+    "href": "slides/disc-2-fair.html#scope-of-a-naming-convention",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Scope of a Naming Convention",
+    "text": "Scope of a Naming Convention\nYou must define rules for:\n\n✅ Variables\n✅ Tables\n✅ Files\n✅ Features\n✅ Categories\n✅ Ontology terms\n\nPartial conventions always fail."
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#case-sensitivity-matters",
+    "href": "slides/disc-2-fair.html#case-sensitivity-matters",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Case Sensitivity Matters",
+    "text": "Case Sensitivity Matters\nChoose one and enforce it.\nRecommended:\n\nCamelCase for data schemas\nlower_snake_case for code variables\n\nNever mix within the same layer."
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#variable-naming-pattern",
+    "href": "slides/disc-2-fair.html#variable-naming-pattern",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Variable Naming Pattern",
+    "text": "Variable Naming Pattern\nRecommended template:\n``"
+  },
+  {
+    "objectID": "labs/lab-0.html",
+    "href": "labs/lab-0.html",
+    "title": "Lab 0 - Meet + greet",
+    "section": "",
+    "text": "Today’s lab is short and sweet! We just need you to fill out the “Getting to know you” survey. Please go here to take it. You will need to log on to Sakai to access to survey.\nYour answers can be brief. Some of your answers will be used to guide what application examples might be of interest to a majority of students in the course and some of your answers will be used to help guide team formation. We expect this will take you ~10 minutes."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Data Science Applications in Agriculture",
+    "section": "",
+    "text": "This page contains an outline of the topics, content, and assignments for the course.\nNote that this schedule will be updated as the course progresses, with all changes documented here.\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\nLEC\nLAB\nDISC\n\n\n\n\n1\n8/24\nData Science in Agriculture\n🖥️\n\n\n\n\n2\n8/31\nVersion Control Systems, Naming Conventions & FAIR Principles\n🖥️\n\n🖥️\n\n\n3\n9/7\nCloud Computing, APIs & Hardware, Data Governance & Data Lineage\nLabor day\n\n\n\n\n4\n9/14\nML and AI Basics, package management, model serving, licensing & data usage\n🖥️\n\n🖥️\n\n\n5\n9/21\nIndividual project, data visualisation\n🖥️\n\n\n\n\n6\n9/28\nIndividual project\n🖥️\n\n\n\n\n7\n10/5\nDISC Assessment & individual poster presentations\n🖥️\n\n\n\n\n8\n10/12\nFinal Project Kickoff\nFall break\nFall break\n\n\n\n9\n10/19\nProject planning\n🖥️\nFarm visit\n\n\n\n10\n10/26\nFinal Project\n🖥️\n\n\n\n\n11\n11/2\nFinal Project\n🖥️\n\n\n\n\n12\n11/9\nFinal Project\n🖥️\n\n\n\n\n13\n11/16\nFinal Project\n🖥️\n\n\n\n\n14\n11/23\nFinal Project\n🖥️\n\n\n\n\n15\n11/30\nFinal Project Presentations & Course Wrap-up\n🖥️",
+    "crumbs": [
+      "Course information",
+      "Schedule"
+    ]
+  },
+  {
+    "objectID": "computing-access.html",
+    "href": "computing-access.html",
+    "title": "Computing access",
+    "section": "",
+    "text": "You can choose 2 ways of working with Python.\n\nOnline\nTo access computing resources for this course we will make use of the Google Colab computing services linked to the course drive storage. The link to the Google Drive can be found at Useful links\nMake sure you get familiar with Google Colab by reading and trying to run your first pieces of code in the ‘Welcome To Colaboratory’ notebook. We recommend using Colab as it will be easier to work simultaneously with your group mates on the project.\nThe Dodona exercises can also be done in colab. Make sure to make a folder with your name to store your notebooks within the Google Drive environment. Google offers a free premium version of colab for Cornell students, you can register for this using your Cornell email adress.\n\n\nOffline\nYou can also chose to work in Python on your desktop. This can be done using PyCharm in combination with an Anaconda environment, as configured through Dodona. If you encounter any confusion related to these differences or the environment setup, feel free to reach out to the TA for assistance. Other python interperters like VS code also work.",
+    "crumbs": [
+      "Computing",
+      "Access"
+    ]
+  },
+  {
+    "objectID": "project-tips-resources.html",
+    "href": "project-tips-resources.html",
+    "title": "Tips & Tricks",
+    "section": "",
+    "text": "🚀 1. Think Like a Problem-Solver, Not a Note-Taker\nThis course uses challenge-based learning where you solve real agricultural problems in collaboration with farmers and stakeholders. Early in the semester, create a shared team document to track problem definitions and evolving insights.\n\n\n📅 2. Follow the Weekly Rhythm\nLectures → weekly coding labs → project meetings. Dodona assignments are due every Monday at 24:00. Set reminders and avoid last-minute work.\n\n\n💡 3. Coding: Small Bursts Beat Sprints\nYour individual grade = group project grade × percentage of assignments you complete × coding exam. Submit early, refine often, and test code on small inputs before using real farm datasets.\n\n\n👩‍🌾 4. Prepare for Farmer Meetings Like a Consultant\nBefore meeting farmers, prepare three question types: * Clarifying questions * Data-oriented questions * Impact-oriented questions\n\n\n🧹 5. Data Governance & FAIR Principles Matter\nYour project fails automatically if you ignore FAIR principles. Create a shared checklist covering naming conventions, documentation, and file structure.\n\n\n📊 6. Visualize Before You Model\nGenerate key visuals (missing data, histograms, time series, scatter matrices) before applying algorithms.\n\n\n🤝 7. Take Weekly Project Meetings Seriously\nArrive prepared with one question, one update, and one risk. This dramatically reduces last-minute chaos.\n\n\n🧭 8. Scope Your Project Ruthlessly\nCreate a “Not Doing” list by Week 3 to keep your project realistic and implementable.\n\n\n🎤 9. Present for Stakeholders, Not Teachers\nTranslate technical results into statements like: * “This helps you decide…” * “This reduces risk by…”\n\n\n📝 10. Practice Strong Academic Integrity\nDocument all external assistance, including AI tools, and cite everything properly.",
+    "crumbs": [
+      "Project",
+      "Tips + resources"
+    ]
   },
   {
     "objectID": "slides/lec-1-intro.html#meet-the-teacher",
@@ -874,338 +928,242 @@
     ]
   },
   {
-    "objectID": "project-tips-resources.html",
-    "href": "project-tips-resources.html",
-    "title": "Tips & Tricks",
-    "section": "",
-    "text": "🚀 1. Think Like a Problem-Solver, Not a Note-Taker\nThis course uses challenge-based learning where you solve real agricultural problems in collaboration with farmers and stakeholders. Early in the semester, create a shared team document to track problem definitions and evolving insights.\n\n\n📅 2. Follow the Weekly Rhythm\nLectures → weekly coding labs → project meetings. Dodona assignments are due every Monday at 24:00. Set reminders and avoid last-minute work.\n\n\n💡 3. Coding: Small Bursts Beat Sprints\nYour individual grade = group project grade × percentage of assignments you complete × coding exam. Submit early, refine often, and test code on small inputs before using real farm datasets.\n\n\n👩‍🌾 4. Prepare for Farmer Meetings Like a Consultant\nBefore meeting farmers, prepare three question types: * Clarifying questions * Data-oriented questions * Impact-oriented questions\n\n\n🧹 5. Data Governance & FAIR Principles Matter\nYour project fails automatically if you ignore FAIR principles. Create a shared checklist covering naming conventions, documentation, and file structure.\n\n\n📊 6. Visualize Before You Model\nGenerate key visuals (missing data, histograms, time series, scatter matrices) before applying algorithms.\n\n\n🤝 7. Take Weekly Project Meetings Seriously\nArrive prepared with one question, one update, and one risk. This dramatically reduces last-minute chaos.\n\n\n🧭 8. Scope Your Project Ruthlessly\nCreate a “Not Doing” list by Week 3 to keep your project realistic and implementable.\n\n\n🎤 9. Present for Stakeholders, Not Teachers\nTranslate technical results into statements like: * “This helps you decide…” * “This reduces risk by…”\n\n\n📝 10. Practice Strong Academic Integrity\nDocument all external assistance, including AI tools, and cite everything properly.",
-    "crumbs": [
-      "Project",
-      "Tips + resources"
-    ]
+    "objectID": "slides/lec-8-disc.html#context",
+    "href": "slides/lec-8-disc.html#context",
+    "title": "Lecture – DISC Assessment & Team Dynamics",
+    "section": "Context",
+    "text": "Context\n\nYou are working in teams on a semester‑long project\nTechnical skills matter — but how you work together often matters more\nMany team conflicts are not about competence, but about differences in style"
   },
   {
-    "objectID": "computing-access.html",
-    "href": "computing-access.html",
-    "title": "Computing access",
-    "section": "",
-    "text": "You can choose 2 ways of working with Python.\n\nOnline\nTo access computing resources for this course we will make use of the Google Colab computing services linked to the course drive storage. The link to the Google Drive can be found at Useful links\nMake sure you get familiar with Google Colab by reading and trying to run your first pieces of code in the ‘Welcome To Colaboratory’ notebook. We recommend using Colab as it will be easier to work simultaneously with your group mates on the project.\nThe Dodona exercises can also be done in colab. Make sure to make a folder with your name to store your notebooks within the Google Drive environment. Google offers a free premium version of colab for Cornell students, you can register for this using your Cornell email adress.\n\n\nOffline\nYou can also chose to work in Python on your desktop. This can be done using PyCharm in combination with an Anaconda environment, as configured through Dodona. If you encounter any confusion related to these differences or the environment setup, feel free to reach out to the TA for assistance. Other python interperters like VS code also work.",
-    "crumbs": [
-      "Computing",
-      "Access"
-    ]
+    "objectID": "slides/lec-8-disc.html#typical-team-friction-youve-probably-seen-this",
+    "href": "slides/lec-8-disc.html#typical-team-friction-youve-probably-seen-this",
+    "title": "Lecture – DISC Assessment & Team Dynamics",
+    "section": "Typical team friction (you’ve probably seen this)",
+    "text": "Typical team friction (you’ve probably seen this)\n\n“They never speak up” vs “They talk too much”\n“Too slow and careful” vs “Too impulsive”\n“Too emotional” vs “Too cold and distant”\n\n\nDISC gives us a neutral language to talk about these differences"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Data Science Applications in Agriculture",
-    "section": "",
-    "text": "This page contains an outline of the topics, content, and assignments for the course.\nNote that this schedule will be updated as the course progresses, with all changes documented here.\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\nTeachers\nPrepare\nLecture\n\n\n\n\n1\n8/24 (Mon)\n(LEC) Course Outline\nDr. Miel\n📖\n🖥️\n\n\n1\n8/25 (Tue)\n(LAB) Toolbox: IDEs, Programming Languages & Vibe Coding\nBart, Hanlu, Meike, Puchun & Dr. Miel\n-\n-\n\n\n1\n8/26 (Wed)\n(DISC) Data Science in Agriculture\nSumit, Puchun, Hanlu, Bart & Meike\n-\n-\n\n\n2\n8/31 (Mon)\n(LEC) Version Control Systems & Integration\nDr. Miel\n📖\n🖥️\n\n\n2\n9/1 (Tue)\n(LAB) Toolbox: Broken Online, Merge Conflicts & Branching\nDr. Miel and Meike\n-\n-\n\n\n2\n9/2 (Wed)\n(DISC) Naming Conventions & FAIR Principles\nDr. Miel\n-\n🖥️\n\n\n3\n9/7 (Mon)\nNo Class – Labor Day Holiday\n-\n-\n-\n\n\n3\n9/8 (Tue)\n(LAB) Cloud Computing, APIs & Hardware\nSonam, Dr. Hanlu\n📖\n🖥️\n\n\n3\n9/9 (Wed)\n(DISC) Data Governance & Data Lineage\nDr. Miel and Dr.Puchun\n📖\n🖥️\n\n\n4\n9/14 (Mon)\n(LEC) ML and AI Basics (Part 1)\nDr. Miel\n📖\n🖥️\n\n\n4\n9/15 (Tue)\n(LAB) Toolbox: Project Mini, Packages, Hugging Face & Model Serving\nSonam & Meike\n📖\n🖥️\n\n\n4\n9/16 (Wed)\n(DISC) Ethical and Efficient Use of AI\nDr. Miel\n📖\n🖥️\n\n\n5\n9/21 (Mon)\n(LEC) ML and AI Basics; Supervised and Unsupervised learning in Agricultural contexts (Part 2)\nDr. Miel\n📖\n🖥️\n\n\n5\n9/22 (Tue)\n(LAB) Work on Mini Individual Project\nCourse Staff\n📖\n🖥️\n\n\n5\n9/23 (Wed)\n(DISC) Q&A / Introduction to Tableau\nDr. Miel\n📖\n🖥️\n\n\n6\n9/28 (Mon)\n(LEC) ML and AI Basics; Supervised and Unsupervised learning in Agricultural contexts (Part 3)\nDr. Miel\n📖\n🖥️\n\n\n6\n9/29 (Tue)\n(LAB) Work on Mini Individual Project\nCourse Staff\n📖\n🖥️\n\n\n6\n9/30 (Wed)\n(DISC) Q&A\nDr. Miel\n📖\n🖥️\n\n\n7\n10/5 (Mon)\n(LEC) Q&A\nDr. Miel\n📖\n🖥️\n\n\n7\n10/6 (Tue)\n(LAB) Poster Presentation\nCourse Staff\n📖\n🖥️\n\n\n7\n10/7 (Wed)\n(DISC) DISC Assessment of the Team\nDr. Miel\n📖\n🖥️\n\n\n8\n10/12 (Mon)\nNo Class – Fall Break\n-\n-\n-\n\n\n8\n10/13 (Tue)\nNo Class – Fall Break\n-\n-\n-\n\n\n8\n10/14 (Wed)\n(DISC) TBD\nTBD\n📖\n🖥️\n\n\n9\n10/19 (Mon)\n(LEC) Final Project Kickoff\nDr. Miel\n📖\n🖥️\n\n\n9\n10/20 (Tue)\n(LAB) Farm Visit\nCourse Staff\n📖\n🖥️\n\n\n9\n10/21 (Wed)\n(DISC) Project Planning\nDr. Miel\n📖\n🖥️\n\n\n10\n10/26 (Mon)\n(LEC) Final Project\nCourse Staff\n📖\n🖥️\n\n\n10\n10/27 (Tue)\n(LAB) Final Project\nCourse Staff\n📖\n🖥️\n\n\n10\n10/28 (Wed)\n(DISC) Final Project\nCourse Staff\n📖\n🖥️\n\n\n11\n11/2 (Mon)\n(LEC) Final Project\nCourse Staff\n📖\n🖥️\n\n\n11\n11/3 (Tue)\n(LAB) Final Project\nCourse Staff\n📖\n🖥️\n\n\n11\n11/4 (Wed)\n(DISC) Final Project\nCourse Staff\n📖\n🖥️\n\n\n12\n11/9 (Mon)\n(LEC) Final Project\nCourse Staff\n📖\n🖥️\n\n\n12\n11/10 (Tue)\n(LAB) Final Project\nCourse Staff\n📖\n🖥️\n\n\n12\n11/11 (Wed)\n(DISC) Final Project\nCourse Staff\n📖\n🖥️\n\n\n13\n11/16 (Mon)\n(LEC) Final Project\nCourse Staff\n📖\n🖥️\n\n\n13\n11/17 (Tue)\n(LAB) Final Project\nCourse Staff\n📖\n🖥️\n\n\n13\n11/18 (Wed)\n(DISC) Final Project\nCourse Staff\n📖\n🖥️\n\n\n14\n11/23 (Mon)\n(LEC) Final Project\nCourse Staff\n📖\n🖥️\n\n\n14\n11/24 (Tue)\n(LAB) Final Project\nCourse Staff\n📖\n🖥️\n\n\n14\n11/25 (Wed)\nNo Class – Thanksgiving Break\n-\n-\n-\n\n\n15\n11/30 (Mon)\n(LEC) Final Project Presentations / Submission Preparation\nDr. Miel\n📖\n🖥️\n\n\n15\n12/1 (Tue)\n(LAB) Final Project Submission\nCourse Staff\n📖\n🖥️\n\n\n15\n12/2 (Wed)\n(DISC) Course Wrap-up & Reflection\nDr. Miel\n📖\n🖥️",
-    "crumbs": [
-      "Course information",
-      "Schedule"
-    ]
+    "objectID": "slides/lec-8-disc.html#pairshare",
+    "href": "slides/lec-8-disc.html#pairshare",
+    "title": "Lecture – DISC Assessment & Team Dynamics",
+    "section": "Pair‑share",
+    "text": "Pair‑share\nIn your project group:\n\nWhat is one behavior that annoys you in team work?\nWhat is one behavior you need from others to do your best work?\n\n\nThe goal is not to judge people — it’s to notice patterns.\n\n\n\n\n−+\n02:00"
   },
   {
-    "objectID": "labs/lab-0.html",
-    "href": "labs/lab-0.html",
-    "title": "Lab 0 - Meet + greet",
-    "section": "",
-    "text": "Today’s lab is short and sweet! We just need you to fill out the “Getting to know you” survey. Please go here to take it. You will need to log on to Sakai to access to survey.\nYour answers can be brief. Some of your answers will be used to guide what application examples might be of interest to a majority of students in the course and some of your answers will be used to help guide team formation. We expect this will take you ~10 minutes."
+    "objectID": "slides/lec-8-disc.html#the-big-idea",
+    "href": "slides/lec-8-disc.html#the-big-idea",
+    "title": "Lecture – DISC Assessment & Team Dynamics",
+    "section": "The big idea",
+    "text": "The big idea\nDISC is a behavioral framework, not a test of intelligence, values, or ability.\nIt describes patterns in:\n\nHow people communicate\nHow they approach tasks\nHow they respond to challenges and others"
   },
   {
-    "objectID": "slides/disc-2-fair.html#what-are-the-fair-principles",
-    "href": "slides/disc-2-fair.html#what-are-the-fair-principles",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "What are the FAIR principles",
-    "text": "What are the FAIR principles\nFAIR data is data which meets the FAIR principles of findability, accessibility, interoperability, and reusability (FAIR).[1][2] The acronym and principles were defined in a March 2016 paper in the journal Scientific Data by a consortium of scientists and organizations.[1]"
+    "objectID": "slides/lec-8-disc.html#important-disclaimers",
+    "href": "slides/lec-8-disc.html#important-disclaimers",
+    "title": "Lecture – DISC Assessment & Team Dynamics",
+    "section": "Important disclaimers",
+    "text": "Important disclaimers\n\nDISC is not a diagnosis\nThere is no good or bad type\nMost people are a blend, not a pure type\nStyles describe preferences, not limits"
   },
   {
-    "objectID": "slides/disc-2-fair.html#get-to-know-the-principles-1",
-    "href": "slides/disc-2-fair.html#get-to-know-the-principles-1",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "Get to know the principles (1)",
-    "text": "Get to know the principles (1)\n\nGet familiar with FAIR by looking at this video.\nRead the intial publication on The FAIR Guiding Principles for scientific data management and stewardschip.\nExplore the vision of Cornell University on FAIR principles and their cheatsheets."
+    "objectID": "slides/lec-8-disc.html#letters-classic-disc",
+    "href": "slides/lec-8-disc.html#letters-classic-disc",
+    "title": "Lecture – DISC Assessment & Team Dynamics",
+    "section": "1. Letters (classic DISC)",
+    "text": "1. Letters (classic DISC)\n\nD – Dominance\nI – Influence\nS – Steadiness\nC – Conscientiousness"
   },
   {
-    "objectID": "slides/disc-2-fair.html#get-to-know-the-principles-2",
-    "href": "slides/disc-2-fair.html#get-to-know-the-principles-2",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "Get to know the principles (2)",
-    "text": "Get to know the principles (2)\n\nCheck for reproducible advise in the tutorials at the bovi-analytics website.\nDiscuss with the entire team and Dr. Miel Hostens (contact him on his desk) on how this will reflect on your team project."
+    "objectID": "slides/lec-8-disc.html#colors-surrounded-by-idiots",
+    "href": "slides/lec-8-disc.html#colors-surrounded-by-idiots",
+    "title": "Lecture – DISC Assessment & Team Dynamics",
+    "section": "2. Colors (“Surrounded by Idiots”)",
+    "text": "2. Colors (“Surrounded by Idiots”)\nBased on the book by Thomas Erikson:"
   },
   {
-    "objectID": "slides/disc-2-fair.html#findable",
-    "href": "slides/disc-2-fair.html#findable",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "Findable",
-    "text": "Findable\nThe first step in (re)using data is to find them. Metadata and data should be easy to find for both humans and computers. Machine-readable metadata are essential for automatic discovery of datasets and services, so this is an essential component of the FAIRification process."
+    "objectID": "slides/lec-8-disc.html#colors-surrounded-by-idiots-1",
+    "href": "slides/lec-8-disc.html#colors-surrounded-by-idiots-1",
+    "title": "Lecture – DISC Assessment & Team Dynamics",
+    "section": "2. Colors (“Surrounded by Idiots”)",
+    "text": "2. Colors (“Surrounded by Idiots”)\n\nRed (D) – Dominant\nYellow (I) – Influential\nGreen (S) – Steady\nBlue (C) – Conscientious\n\n\nSame underlying ideas — different language"
   },
   {
-    "objectID": "slides/disc-2-fair.html#findable-1",
-    "href": "slides/disc-2-fair.html#findable-1",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "Findable",
-    "text": "Findable\n\nF1. (Meta)data are assigned a globally unique and persistent identifier\nF2. Data are described with rich metadata (defined by R1 below)\nF3. Metadata clearly and explicitly include the identifier of the data they describe\nF4. (Meta)data are registered or indexed in a searchable resource"
+    "objectID": "slides/lec-8-disc.html#a-simple-way-to-visualize",
+    "href": "slides/lec-8-disc.html#a-simple-way-to-visualize",
+    "title": "Lecture – DISC Assessment & Team Dynamics",
+    "section": "A simple way to visualize",
+    "text": "A simple way to visualize\nDISC is often described using two rough axes:\n\nPace: Fast‑paced vs More measured\nFocus: Task/results vs People/relationships\n\n\n\n\n\n\n\n\n\n\nTask / Results focus\nPeople / Relationship focus\n\n\n\n\nFast‑paced\nRed (D)\nYellow (I)\n\n\nMore measured\nBlue (C)\nGreen (S)\n\n\n\n\nNot perfect science — but a helpful mental model."
   },
   {
-    "objectID": "slides/disc-2-fair.html#accessible",
-    "href": "slides/disc-2-fair.html#accessible",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "Accessible",
-    "text": "Accessible\nOnce the user finds the required data, they need to know how they can be accessed, possibly including authentication and authorisation."
+    "objectID": "slides/lec-8-disc.html#red-d-dominance",
+    "href": "slides/lec-8-disc.html#red-d-dominance",
+    "title": "Lecture – DISC Assessment & Team Dynamics",
+    "section": "Red (D) – Dominance",
+    "text": "Red (D) – Dominance\nFocus: Results, action, winning\nTypical behaviors\n\nDirect, fast‑paced, decisive\nComfortable with disagreement\nLikes to take charge\n\nStrengths - Gets things moving - Clear decisions - Handles pressure well"
   },
   {
-    "objectID": "slides/disc-2-fair.html#accessible-1",
-    "href": "slides/disc-2-fair.html#accessible-1",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "Accessible",
-    "text": "Accessible\n\nA1. (Meta)data are retrievable by their identifier using a standardised communications protocol\nA1.1 The protocol is open, free, and universally implementable\nA1.2 The protocol allows for an authentication and authorisation procedure, where necessary\nA2. Metadata are accessible, even when the data are no longer available"
+    "objectID": "slides/lec-8-disc.html#red-d-dominance-1",
+    "href": "slides/lec-8-disc.html#red-d-dominance-1",
+    "title": "Lecture – DISC Assessment & Team Dynamics",
+    "section": "Red (D) – Dominance",
+    "text": "Red (D) – Dominance\nPotential blind spots\n\nCan seem impatient or blunt\nMay skip details or others’ input\n\nOften‑cited examples (illustrative, not diagnoses)\n\nElon Musk (entrepreneurial drive, speed)\nGordon Ramsay (direct, high standards)"
   },
   {
-    "objectID": "slides/disc-2-fair.html#interoperable",
-    "href": "slides/disc-2-fair.html#interoperable",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "Interoperable",
-    "text": "Interoperable\nThe data usually need to be integrated with other data. In addition, the data need to interoperate with applications or workflows for analysis, storage, and processing."
+    "objectID": "slides/lec-8-disc.html#yellow-i-influence",
+    "href": "slides/lec-8-disc.html#yellow-i-influence",
+    "title": "Lecture – DISC Assessment & Team Dynamics",
+    "section": "Yellow (I) – Influence",
+    "text": "Yellow (I) – Influence\nFocus: People, ideas, energy\nTypical behaviors\n\nExpressive, enthusiastic\nThinks out loud\nEnjoys collaboration and recognition\n\nStrengths - Generates ideas - Motivates others - Creates momentum"
   },
   {
-    "objectID": "slides/disc-2-fair.html#interoperable-1",
-    "href": "slides/disc-2-fair.html#interoperable-1",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "Interoperable",
-    "text": "Interoperable\n\nI1. (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation.\nI2. (Meta)data use vocabularies that follow FAIR principles\nI3. (Meta)data include qualified references to other (meta)data"
+    "objectID": "slides/lec-8-disc.html#yellow-i-influence-1",
+    "href": "slides/lec-8-disc.html#yellow-i-influence-1",
+    "title": "Lecture – DISC Assessment & Team Dynamics",
+    "section": "Yellow (I) – Influence",
+    "text": "Yellow (I) – Influence\nPotential blind spots\n\nCan lose focus\nMay over‑promise / under‑deliver\n\nOften‑cited examples\n\nOprah Winfrey (connection, influence)\nRichard Branson (vision, enthusiasm)"
   },
   {
-    "objectID": "slides/disc-2-fair.html#reusable",
-    "href": "slides/disc-2-fair.html#reusable",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "Reusable",
-    "text": "Reusable\nThe ultimate goal of FAIR is to optimise the reuse of data. To achieve this, metadata and data should be well-described so that they can be replicated and/or combined in different settings."
+    "objectID": "slides/lec-8-disc.html#green-s-steadiness",
+    "href": "slides/lec-8-disc.html#green-s-steadiness",
+    "title": "Lecture – DISC Assessment & Team Dynamics",
+    "section": "Green (S) – Steadiness",
+    "text": "Green (S) – Steadiness\nFocus: Harmony, stability, trust\nTypical behaviors\n\nPatient, calm, supportive\nGood listener\nPrefers predictable workflows\n\nStrengths - Team glue - Reliability - Conflict de‑escalation"
   },
   {
-    "objectID": "slides/disc-2-fair.html#reusable-1",
-    "href": "slides/disc-2-fair.html#reusable-1",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "Reusable",
-    "text": "Reusable\n\nR1. (Meta)data are richly described with a plurality of accurate and relevant attributes\nR1.1. (Meta)data are released with a clear and accessible data usage license\nR1.2. (Meta)data are associated with detailed provenance\nR1.3. (Meta)data meet domain-relevant community standards"
+    "objectID": "slides/lec-8-disc.html#green-s-steadiness-1",
+    "href": "slides/lec-8-disc.html#green-s-steadiness-1",
+    "title": "Lecture – DISC Assessment & Team Dynamics",
+    "section": "Green (S) – Steadiness",
+    "text": "Green (S) – Steadiness\nPotential blind spots\n\nAvoids conflict\nResists rapid change\n\nOften‑cited examples\n\nKeanu Reeves (calm, respectful presence)\nFred Rogers (empathy, consistency)"
   },
   {
-    "objectID": "slides/disc-2-fair.html#why-do-we-need-this",
-    "href": "slides/disc-2-fair.html#why-do-we-need-this",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "Why do we need this",
-    "text": "Why do we need this\n\nDairy data science is multimodal, longitudinal, and collaborative\nNaming is not cosmetic — it is infrastructure\nMost downstream issues are caused by:\n\nAmbiguity\nInconsistency\nSilent semantic drift"
+    "objectID": "slides/lec-8-disc.html#blue-c-conscientiousness",
+    "href": "slides/lec-8-disc.html#blue-c-conscientiousness",
+    "title": "Lecture – DISC Assessment & Team Dynamics",
+    "section": "Blue (C) – Conscientiousness",
+    "text": "Blue (C) – Conscientiousness\nFocus: Accuracy, quality, logic\nTypical behaviors\n\nAnalytical, structured\nData‑driven\nAsks critical questions\n\nStrengths - High‑quality output - Risk reduction - Clear documentation"
   },
   {
-    "objectID": "slides/disc-2-fair.html#minutes-4-takeaways",
-    "href": "slides/disc-2-fair.html#minutes-4-takeaways",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "40 Minutes, 4 Takeaways",
-    "text": "40 Minutes, 4 Takeaways\n\nNaming conventions are scientific decisions\nBad names silently break analyis and models\nConventions must scale across projects & people\nGovernance matters more than documentation"
+    "objectID": "slides/lec-8-disc.html#blue-c-conscientiousness-1",
+    "href": "slides/lec-8-disc.html#blue-c-conscientiousness-1",
+    "title": "Lecture – DISC Assessment & Team Dynamics",
+    "section": "Blue (C) – Conscientiousness",
+    "text": "Blue (C) – Conscientiousness\nPotential blind spots\n\nOverthinking\nPerfectionism\n\nOften‑cited examples\n\nBill Gates (systems thinking)\nMarie Curie (rigor, precision)"
   },
   {
-    "objectID": "slides/disc-2-fair.html#the-dairy-data-reality",
-    "href": "slides/disc-2-fair.html#the-dairy-data-reality",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "The Dairy Data Reality",
-    "text": "The Dairy Data Reality\n\nMultiple farms\nMultiple vendors\nMultiple countries\nMultiple disciplines:\n\nNutrition\nHealth\nBehavior\nProduction\n\n\n→ Names are the only shared language"
+    "objectID": "slides/lec-8-disc.html#key-distinction",
+    "href": "slides/lec-8-disc.html#key-distinction",
+    "title": "Lecture – DISC Assessment & Team Dynamics",
+    "section": "Key distinction",
+    "text": "Key distinction\n\nDISC = how you prefer to act\nSkills = what you are capable of doing\n\nExamples:\n\nA Green (S) can still lead\nA Red (D) can still listen\nA Yellow (I) can still analyze\nA Blue (C) can still inspire\n\n\nAwareness creates choice"
   },
   {
-    "objectID": "slides/disc-2-fair.html#what-is-a-naming-convention",
-    "href": "slides/disc-2-fair.html#what-is-a-naming-convention",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "What Is a Naming Convention?",
-    "text": "What Is a Naming Convention?\n\nA set of agreed‑upon rules for creating unique, informative, and stable names for data objects.\n\nApplies to: - Variables - Tables - Files - Visuals - Ontology terms"
+    "objectID": "slides/lec-8-disc.html#common-team-patterns",
+    "href": "slides/lec-8-disc.html#common-team-patterns",
+    "title": "Lecture – DISC Assessment & Team Dynamics",
+    "section": "Common team patterns",
+    "text": "Common team patterns\n\nReds (D) push decisions and deadlines\nYellows (I) generate ideas and energy\nGreens (S) keep the team aligned\nBlues (C) ensure rigor and quality\n\nTeams struggle when:\n\nOne style dominates\nDifferences are interpreted as personal flaws"
   },
   {
-    "objectID": "slides/disc-2-fair.html#naming-style-preference",
-    "href": "slides/disc-2-fair.html#naming-style-preference",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "Naming ≠ Style Preference",
-    "text": "Naming ≠ Style Preference\nBad naming causes: - Feature leakage - Wrong joins - Broken pipelines - Invalid within/between farm comparisons\nThese errors do not throw exceptions."
+    "objectID": "slides/lec-8-disc.html#example-misunderstanding",
+    "href": "slides/lec-8-disc.html#example-misunderstanding",
+    "title": "Lecture – DISC Assessment & Team Dynamics",
+    "section": "Example misunderstanding",
+    "text": "Example misunderstanding\n\nBlue (C): “This needs more checking.”\nRed (D) hears: “You’re slowing us down.”\nRed (D): “Let’s just decide.”\nBlue (C) hears: “You don’t care about quality.”\n\nDISC helps translate intent vs impact."
   },
   {
-    "objectID": "slides/disc-2-fair.html#common-dairy-data-failures",
-    "href": "slides/disc-2-fair.html#common-dairy-data-failures",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "Common Dairy Data Failures",
-    "text": "Common Dairy Data Failures\n\nDIM, days_in_milk, DaysInMilk\nmilk_yield, MilkYieldKg, MY\nother, Other, OTHER\nlactation_stage vs lactation_stages\n\nEach creates a new semantic entity"
+    "objectID": "slides/lec-8-disc.html#scenario",
+    "href": "slides/lec-8-disc.html#scenario",
+    "title": "Lecture – DISC Assessment & Team Dynamics",
+    "section": "Scenario",
+    "text": "Scenario\nYour teammate writes:\n\n“Can you send me your part by tonight? We’re behind.”\n\nTask\nRewrite that same message in a way that would land best for each style:\n\nRed (D)\nYellow (I)\nGreen (S)\nBlue (C)"
   },
   {
-    "objectID": "slides/disc-2-fair.html#names-encode-meaning",
-    "href": "slides/disc-2-fair.html#names-encode-meaning",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "Names Encode Meaning",
-    "text": "Names Encode Meaning\nA good name answers:\n\nWhat?\nFor whom?\nIn what unit?\nAt what level?\nOver what time window?"
+    "objectID": "slides/lec-8-disc.html#practical-rules",
+    "href": "slides/lec-8-disc.html#practical-rules",
+    "title": "Lecture – DISC Assessment & Team Dynamics",
+    "section": "Practical rules",
+    "text": "Practical rules\n\nDon’t label people — describe behavior\nAdjust communication, not personality\nBalance speed, people, and quality"
   },
   {
-    "objectID": "slides/disc-2-fair.html#core-design-principles",
-    "href": "slides/disc-2-fair.html#core-design-principles",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "Core Design Principles",
-    "text": "Core Design Principles\n\nConsistency over cleverness\nExplicit over implicit\nStable over convenient\nReadable by humans and machines"
+    "objectID": "slides/lec-8-disc.html#simple-adaptations",
+    "href": "slides/lec-8-disc.html#simple-adaptations",
+    "title": "Lecture – DISC Assessment & Team Dynamics",
+    "section": "Simple adaptations",
+    "text": "Simple adaptations\n\nTalking to a Red (D) → be concise, outcome‑focused\nTalking to a Yellow (I) → show enthusiasm, brainstorm\nTalking to a Green (S) → be patient, inclusive\nTalking to a Blue (C) → bring structure and data"
   },
   {
-    "objectID": "slides/disc-2-fair.html#scope-of-a-naming-convention",
-    "href": "slides/disc-2-fair.html#scope-of-a-naming-convention",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "Scope of a Naming Convention",
-    "text": "Scope of a Naming Convention\nYou must define rules for:\n\n✅ Variables\n✅ Tables\n✅ Files\n✅ Features\n✅ Categories\n✅ Ontology terms\n\nPartial conventions always fail."
+    "objectID": "slides/lec-8-disc.html#if-you-have-all-four-styles-in-a-team",
+    "href": "slides/lec-8-disc.html#if-you-have-all-four-styles-in-a-team",
+    "title": "Lecture – DISC Assessment & Team Dynamics",
+    "section": "If you have all four styles in a team…",
+    "text": "If you have all four styles in a team…\n\nRed (D): momentum and decisions\nYellow (I): creativity and energy\nGreen (S): trust and follow‑through\nBlue (C): rigor and quality\n\n\nStrong teams don’t all think alike — they coordinate differences."
   },
   {
-    "objectID": "slides/disc-2-fair.html#case-sensitivity-matters",
-    "href": "slides/disc-2-fair.html#case-sensitivity-matters",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "Case Sensitivity Matters",
-    "text": "Case Sensitivity Matters\nChoose one and enforce it.\nRecommended:\n\nCamelCase for data schemas\nlower_snake_case for code variables\n\nNever mix within the same layer."
+    "objectID": "slides/lec-8-disc.html#stress-amplifies-defaults",
+    "href": "slides/lec-8-disc.html#stress-amplifies-defaults",
+    "title": "Lecture – DISC Assessment & Team Dynamics",
+    "section": "Stress amplifies defaults",
+    "text": "Stress amplifies defaults\nWhen pressure rises, people often overdo their preferred style.\n\nRed (D) under stress: gets more controlling / impatient\n\nHelpful response: give options + timelines, stay concise\n\nYellow (I) under stress: talks more, becomes scattered\n\nHelpful response: summarize decisions, assign next steps"
   },
   {
-    "objectID": "slides/disc-2-fair.html#variable-naming-pattern",
-    "href": "slides/disc-2-fair.html#variable-naming-pattern",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "Variable Naming Pattern",
-    "text": "Variable Naming Pattern\nRecommended template:\n``"
+    "objectID": "slides/lec-8-disc.html#stress-amplifies-defaults-1",
+    "href": "slides/lec-8-disc.html#stress-amplifies-defaults-1",
+    "title": "Lecture – DISC Assessment & Team Dynamics",
+    "section": "Stress amplifies defaults",
+    "text": "Stress amplifies defaults\n\nGreen (S) under stress: withdraws, avoids conflict\n\nHelpful response: ask directly, create psychological safety\n\nBlue (C) under stress: over‑checks, delays decisions\n\nHelpful response: define “good enough,” set a decision point\n\n\n\n“Under stress” is not a flaw — it’s a signal."
   },
   {
-    "objectID": "slides/lec-aiml.html#learning-goals",
-    "href": "slides/lec-aiml.html#learning-goals",
-    "title": "Lecture – Artificial Intelligence / Machine Learning",
-    "section": "Learning goals",
-    "text": "Learning goals\n\nUnderstand what AI and ML actually are and how they work\nBe familiar with the different ML tasks\nUnderstand how to build a good ML model"
+    "objectID": "slides/lec-8-disc.html#individual-reflection",
+    "href": "slides/lec-8-disc.html#individual-reflection",
+    "title": "Lecture – DISC Assessment & Team Dynamics",
+    "section": "Individual reflection",
+    "text": "Individual reflection\nWrite short answers (1–2 sentences each):\n\nMy likely style(s): ______ (e.g., Green (S) + Blue (C))\nI’m at my best in a team when: ______\nUnder pressure, I tend to overdo: ______\nA teammate behavior that triggers me is: ______\nOne thing I can do this week to adapt better is: ______"
   },
   {
-    "objectID": "slides/lec-aiml.html#whats-the-difference",
-    "href": "slides/lec-aiml.html#whats-the-difference",
-    "title": "Lecture – Artificial Intelligence / Machine Learning",
-    "section": "What’s the difference?",
-    "text": "What’s the difference?\n\n\nAI = machines doing “smart” things. ML = automating that with data. DL = models that imitate human brain. AI without data is, for example, a chess bot made with hand-coded heuristics."
+    "objectID": "slides/lec-8-disc.html#typical-fit-not-a-rule",
+    "href": "slides/lec-8-disc.html#typical-fit-not-a-rule",
+    "title": "Lecture – DISC Assessment & Team Dynamics",
+    "section": "Typical fit (not a rule)",
+    "text": "Typical fit (not a rule)\n\nProject manager / decision driver: often Red (D) or Yellow (I)\nStakeholder liaison / interviewer / presenter: often Yellow (I)\nOperations / scheduling / keeping everyone aligned: often Green (S)\nData lead / QA / methods & documentation: often Blue (C)"
   },
   {
-    "objectID": "slides/lec-aiml.html#ai-in-daily-life",
-    "href": "slides/lec-aiml.html#ai-in-daily-life",
-    "title": "Lecture – Artificial Intelligence / Machine Learning",
-    "section": "AI in daily life",
-    "text": "AI in daily life\n\n\n\nChatGPT, Claude\n\n\n\nFace ID\n\n\n\nRecommendations (TikTok, Dating apps)\n\n\n\nGoogle Maps (find optimal directions)\n\n\n\nWeather forecasts"
+    "objectID": "slides/lec-8-disc.html#the-key-message",
+    "href": "slides/lec-8-disc.html#the-key-message",
+    "title": "Lecture – DISC Assessment & Team Dynamics",
+    "section": "The key message",
+    "text": "The key message\nYou can do any role — but knowing your default style helps you:\n\nChoose strategies that work for you\nAsk for the support you need\nAvoid predictable failure modes"
   },
   {
-    "objectID": "slides/lec-aiml.html#ai-in-daily-life-1",
-    "href": "slides/lec-aiml.html#ai-in-daily-life-1",
-    "title": "Lecture – Artificial Intelligence / Machine Learning",
-    "section": "AI in daily life",
-    "text": "AI in daily life\n\n\n\nChatGPT, Claude\nDL\n\n\nFace ID\nDL\n\n\nRecommendations (TikTok, Dating apps)\nDL\n\n\nGoogle Maps (find optimal directions)\nAI\n\n\nWeather forecasts\nML\n\n\n\nDeep Learning is increasingly dominating"
+    "objectID": "slides/lec-8-disc.html#why-start-with-yourself",
+    "href": "slides/lec-8-disc.html#why-start-with-yourself",
+    "title": "Lecture – DISC Assessment & Team Dynamics",
+    "section": "Why start with yourself?",
+    "text": "Why start with yourself?\n\nYou are always part of the system\nStress amplifies your default style\n\nReflection questions:\n\nWhat do I overdo under pressure?\nWhich style frustrates me most — and why?\nWhat does my team need more of?"
   },
   {
-    "objectID": "slides/lec-aiml.html#ml-in-dairy-life",
-    "href": "slides/lec-aiml.html#ml-in-dairy-life",
-    "title": "Lecture – Artificial Intelligence / Machine Learning",
-    "section": "ML in dairy life",
-    "text": "ML in dairy life\n\nMastitis detection\nCow identification\nBehavior detection\nLameness scoring\nPredicting milk yield\nHeat stress alerts"
+    "objectID": "slides/lec-8-disc.html#disc-selfassessment",
+    "href": "slides/lec-8-disc.html#disc-selfassessment",
+    "title": "Lecture – DISC Assessment & Team Dynamics",
+    "section": "DISC self‑assessment",
+    "text": "DISC self‑assessment\n\nComplete the free DISC assessment: https://professionalleadershipinstitute.com/disc-assessment/\nDownload your results PDF\nShare the PDF with me, if you feel comfortable\n\nI will:\n\nCombine results across the class"
   },
   {
-    "objectID": "slides/lec-aiml.html#how-it-works-exercise-1",
-    "href": "slides/lec-aiml.html#how-it-works-exercise-1",
-    "title": "Lecture – Artificial Intelligence / Machine Learning",
-    "section": "How it works: Exercise 1",
-    "text": "How it works: Exercise 1\n\n\nIt’s easy to find the pattern."
+    "objectID": "slides/lec-8-disc.html#privacy-professionalism",
+    "href": "slides/lec-8-disc.html#privacy-professionalism",
+    "title": "Lecture – DISC Assessment & Team Dynamics",
+    "section": "Privacy / professionalism",
+    "text": "Privacy / professionalism\n\nThis is for learning and reflection, not labeling\nIf you prefer, you may remove your name from the PDF before sharing"
   },
   {
-    "objectID": "slides/lec-aiml.html#how-it-works-exercise-2",
-    "href": "slides/lec-aiml.html#how-it-works-exercise-2",
-    "title": "Lecture – Artificial Intelligence / Machine Learning",
-    "section": "How it works: Exercise 2",
-    "text": "How it works: Exercise 2\n\n\nThis is hard for humans, but easy for machines."
+    "objectID": "slides/lec-8-disc.html#inclass-followup",
+    "href": "slides/lec-8-disc.html#inclass-followup",
+    "title": "Lecture – DISC Assessment & Team Dynamics",
+    "section": "In‑class follow‑up",
+    "text": "In‑class follow‑up\n\nLook at class‑level DISC distributions\nDiscuss strengths and gaps across teams\nConnect DISC insights to your ongoing project work\n\n\nThe goal is not to change who you are — but to work better together."
   },
   {
-    "objectID": "slides/lec-aiml.html#how-it-works-finding-patterns",
-    "href": "slides/lec-aiml.html#how-it-works-finding-patterns",
-    "title": "Lecture – Artificial Intelligence / Machine Learning",
-    "section": "How it works: finding patterns",
-    "text": "How it works: finding patterns\n\nHumans find patterns\nAI does the same, but faster and on large scale\nSame core principle, from ChatGPT to milk yield prediction"
-  },
-  {
-    "objectID": "slides/lec-aiml.html#terminology",
-    "href": "slides/lec-aiml.html#terminology",
-    "title": "Lecture – Artificial Intelligence / Machine Learning",
-    "section": "Terminology",
-    "text": "Terminology\n\nFeatures: the inputs (breed, feed intake, …)\nLabels: what we want to predict (milk yield)\nModel: the algorithm that finds & learns the patterns\n\n\nThis is the vocabulary bridge. Everything after this slide uses these three words."
-  },
-  {
-    "objectID": "slides/lec-aiml.html#types-of-learning-tasks",
-    "href": "slides/lec-aiml.html#types-of-learning-tasks",
-    "title": "Lecture – Artificial Intelligence / Machine Learning",
-    "section": "Types of learning tasks",
-    "text": "Types of learning tasks\n\nRegression — predict a number\nClassification — predict a class\n\n\n\nSupervised learning — learn with label\nUnsupervised learning — learn without"
-  },
-  {
-    "objectID": "slides/lec-aiml.html#types-of-learning-tasks---examples",
-    "href": "slides/lec-aiml.html#types-of-learning-tasks---examples",
-    "title": "Lecture – Artificial Intelligence / Machine Learning",
-    "section": "Types of learning tasks - Examples",
-    "text": "Types of learning tasks - Examples\n\nRegression — lameness score, milk yield, …\nClassification — mastitis diagnosis, pregnancy status, …\n\n\n\nSupervised — all of the above, behavior identification\nUnsupervised — behavior identification\n\nSome tasks can be modelled in different ways!\n\nGive examples! - lameness score, milk yield - mastitis yes/no, cow identity"
-  },
-  {
-    "objectID": "slides/lec-aiml.html#ingredients-of-ml-data",
-    "href": "slides/lec-aiml.html#ingredients-of-ml-data",
-    "title": "Lecture – Artificial Intelligence / Machine Learning",
-    "section": "3 ingredients of ML: Data",
-    "text": "3 ingredients of ML: Data\n\nGarbage in, garbage out\nPreprocessing: cleaning data\nFeature engineering: creating more useful features from existing data"
-  },
-  {
-    "objectID": "slides/lec-aiml.html#ingredients-of-ml-model",
-    "href": "slides/lec-aiml.html#ingredients-of-ml-model",
-    "title": "Lecture – Artificial Intelligence / Machine Learning",
-    "section": "3 ingredients of ML: Model",
-    "text": "3 ingredients of ML: Model\n\nGoal: Model works well on new data\n\n\n\nLink the cause back to pattern finding."
-  },
-  {
-    "objectID": "slides/lec-aiml.html#ingredients-of-ml-model-1",
-    "href": "slides/lec-aiml.html#ingredients-of-ml-model-1",
-    "title": "Lecture – Artificial Intelligence / Machine Learning",
-    "section": "3 ingredients of ML: Model",
-    "text": "3 ingredients of ML: Model\nUnderfitting: not complex enough\n\ncannot find the right patterns\n\nOverfitting: too complex\n\nremembers the data\nsensitive to outliers"
-  },
-  {
-    "objectID": "slides/lec-aiml.html#ingredients-of-ml-objective",
-    "href": "slides/lec-aiml.html#ingredients-of-ml-objective",
-    "title": "Lecture – Artificial Intelligence / Machine Learning",
-    "section": "3 ingredients of ML: Objective",
-    "text": "3 ingredients of ML: Objective\nEach model optimizes an objective function / metric, e.g.\n\nRegression: MSE, MAE\nClassification: F1, AUC-ROC, accuracy\n\nMany more, all with different pros & cons\nChoose wrong objective → undesired behavior"
-  },
-  {
-    "objectID": "slides/lec-aiml.html#how-to-assess-model-quality",
-    "href": "slides/lec-aiml.html#how-to-assess-model-quality",
-    "title": "Lecture – Artificial Intelligence / Machine Learning",
-    "section": "How to assess model quality?",
-    "text": "How to assess model quality?\nGoal: Accurately estimate performance on new data\nCross-validation:"
-  },
-  {
-    "objectID": "slides/lec-aiml.html#how-to-assess-model-quality-1",
-    "href": "slides/lec-aiml.html#how-to-assess-model-quality-1",
-    "title": "Lecture – Artificial Intelligence / Machine Learning",
-    "section": "How to assess model quality?",
-    "text": "How to assess model quality?\nCommon pitfall: Data leakage\nModel got information during training that would not be there when making real predictions\n\nAccidentally include the labels inside the training data\nPreprocessing before splitting\nWhen using time-series data: training on data in the future of the test data"
-  },
-  {
-    "objectID": "slides/lec-aiml.html#how-to-assess-model-quality-2",
-    "href": "slides/lec-aiml.html#how-to-assess-model-quality-2",
-    "title": "Lecture – Artificial Intelligence / Machine Learning",
-    "section": "How to assess model quality?",
-    "text": "How to assess model quality?\nCommon pitfall: Class imbalance\nMastitis is rare (~5–10% of records)\nAlways predict “No” → 90–95% accurate\nHow to handle it:\n\nchoose the right metrics\nchoose and tune the right model\ndata balancing"
-  },
-  {
-    "objectID": "slides/lec-aiml.html#how-to-assess-model-quality-3",
-    "href": "slides/lec-aiml.html#how-to-assess-model-quality-3",
-    "title": "Lecture – Artificial Intelligence / Machine Learning",
-    "section": "How to assess model quality?",
-    "text": "How to assess model quality?\n\nTrain metrics: 👎 → underfitting\n\nOr bad or insufficient data\n\nTrain metrics: 👍 BUT validation/test: 👎 → overfitting\nTest: 100% perfect → data leakage"
-  },
-  {
-    "objectID": "slides/lec-aiml.html#key-takeaways",
-    "href": "slides/lec-aiml.html#key-takeaways",
-    "title": "Lecture – Artificial Intelligence / Machine Learning",
-    "section": "Key takeaways",
-    "text": "Key takeaways\n\nAI/ML is everywhere\nML cleverly and automatically finds patterns in data\nFor ML you need the right data, model and metrics\nIt requires great care to properly train and validate a model"
+    "objectID": "slides/lec-8-disc.html#remember",
+    "href": "slides/lec-8-disc.html#remember",
+    "title": "Lecture – DISC Assessment & Team Dynamics",
+    "section": "Remember",
+    "text": "Remember\n\nDifferences are normal\nAwareness reduces friction\nAdaptation improves teams\n\nDISC gives us a shared language — what you do with it is up to you."
   },
   {
     "objectID": "slides/lec-2-git.html#todays-goal",
