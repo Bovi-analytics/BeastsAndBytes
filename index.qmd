@@ -14,7 +14,7 @@ Note that this schedule will be updated as the course progresses, with all chang
 | 2 | 8/31 | [Version Control Systems, Naming Conventions & FAIR Principles](weeks/week-2.html) | [🖥️](slides/lec-2-git.html) |  | [🖥️](slides/disc-2-fair.html) |
 | 3 | 9/7 | [Cloud Computing, APIs & Hardware, Data Governance & Data Lineage](weeks/week-3.html) | Labor day | [🖥️](slides/Software%20&%20Azure%20Lecture.pptx) | [🖥️](slides/Data%20Lineage%20and%20Governance_Puchun.pptx) |
 | 4 | 9/14 | ML and AI Basics, package management, model serving, licensing & data usage | 🖥️ |  | [🖥️](slides/disc-4-license.html) |
-| 5 | 9/21 | Individual project, data visualisation | 🖥️ |  |  |
+| 5 | 9/21 | Individual project, project plan, data cleaning, performance metrics | 🖥️ |  |  |
 | 6 | 9/28 | Individual project | 🖥️ |  |  |
 | 7 | 10/5 | Individual project - Team management | 🖥️ |  |  |
 | 8 | 10/12 | Team project | Fall break | Fall break |  |
