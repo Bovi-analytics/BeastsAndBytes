@@ -16,7 +16,7 @@ Note that this schedule will be updated as the course progresses, with all chang
 | 4 | 9/14 | ML and AI Basics, package management, model serving, licensing & data usage | 🖥️ |  | [🖥️](slides/disc-4-license.html) |
 | 5 | 9/21 | Individual project, project plan, data cleaning, performance metrics | 🖥️ |  |  |
 | 6 | 9/28 | Individual project | 🖥️ |  |  |
-| 7 | 10/5 | Individual project - Team management | 🖥️ |  |  |
+| 7 | 10/5 | Individual project poster presentation - Team management | 🖥️ |  |  |
 | 8 | 10/12 | Team project | Fall break | Fall break |  |
 | 9 | 10/19 | Team project - Project planning | 🖥️ | Farm visit |  |
 | 10 | 10/26 | Team project | 🖥️ |  |  |
