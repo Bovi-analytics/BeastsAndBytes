@@ -1,120 +1,25 @@
 [
   {
-    "objectID": "weeks/week-8.html",
-    "href": "weeks/week-8.html",
-    "title": "Week 8",
+    "objectID": "computing-access.html",
+    "href": "computing-access.html",
+    "title": "Computing access",
     "section": "",
-    "text": "Introduction\nThis week is the transition point between the mini individual project and the final team project.\n\n\nLearning goals\n\nReflect on the mini project experience\nUnderstand the expectations for the final project\nPrepare for working with real-world agricultural data\n\n\n\nLecture / Lab / Discussion - TBD\nFall Break. A project check-in or recovery session may be scheduled depending on course needs.\n\n\nLooking ahead\nNext week we will officially kick off the final project, establish teams and project goals, and visit a farm to understand agricultural data collection in practice.\n\nBack to course schedule ⏎",
+    "text": "You can choose 2 ways of working with Python.\n\nOnline\nTo access computing resources for this course we will make use of the Google Colab computing services linked to the course drive storage. The link to the Google Drive can be found at Useful links\nMake sure you get familiar with Google Colab by reading and trying to run your first pieces of code in the ‘Welcome To Colaboratory’ notebook. We recommend using Colab as it will be easier to work simultaneously with your group mates on the project.\nThe Dodona exercises can also be done in colab. Make sure to make a folder with your name to store your notebooks within the Google Drive environment. Google offers a free premium version of colab for Cornell students, you can register for this using your Cornell email adress.\n\n\nOffline\nYou can also chose to work in Python on your desktop. This can be done using PyCharm in combination with an Anaconda environment, as configured through Dodona. If you encounter any confusion related to these differences or the environment setup, feel free to reach out to the TA for assistance. Other python interperters like VS code also work.",
     "crumbs": [
-      "Weekly materials",
-      "Week 8"
+      "Computing",
+      "Access"
     ]
   },
   {
-    "objectID": "weeks/week-12.html",
-    "href": "weeks/week-12.html",
-    "title": "Week 12",
+    "objectID": "course/sections/course-links.html",
+    "href": "course/sections/course-links.html",
+    "title": "Useful links",
     "section": "",
-    "text": "Introduction\nThis week focuses on developing, refining, and interpreting the results of the final project.\n\n\nLearning goals\n\nRefine project analysis\nInterpret and evaluate results\nImprove project visualizations\nAddress project challenges and limitations\n\n\n\nLecture - Final Project Work\nGuidance and support for final project development.\n\n\nLab - Final Project Work\nTeams continue analysis, modeling, visualization, and project documentation.\n\n\nDiscussion - Project Check-in\nPeer and instructor feedback on project progress.\n\n\nAssignment\nContinue final project development and incorporate feedback into the project.\n\nBack to course schedule ⏎",
-    "crumbs": [
-      "Weekly materials",
-      "Week 12"
-    ]
-  },
-  {
-    "objectID": "weeks/week-10.html",
-    "href": "weeks/week-10.html",
-    "title": "Week 10",
-    "section": "",
-    "text": "Introduction\nTeams continue developing their final projects, moving from project planning toward data collection, organization, and analysis.\n\n\nLearning goals\n\nRefine the final project question and objectives\nOrganize and prepare project data\nApply appropriate data science tools and methods\nWork effectively as a project team\n\n\n\nLecture - Final Project Development\nGuidance on project development, data preparation, and selecting appropriate approaches for the project question.\n\n\nLab - Final Project Work\nTeam-based project development, data organization, coding, and troubleshooting.\n\n\nDiscussion - Project Check-in\nTeams share progress, challenges, and next steps.\n\n\nAssignment\nContinue final project development and document project progress in GitHub.\n\n\nLooking ahead\nNext week we will continue developing the project, with increasing focus on analysis and modeling.\n\nBack to course schedule ⏎",
-    "crumbs": [
-      "Weekly materials",
-      "Week 10"
-    ]
-  },
-  {
-    "objectID": "weeks/week-6.html",
-    "href": "weeks/week-6.html",
-    "title": "Week 6",
-    "section": "",
-    "text": "Introduction\nThis week provides additional time to develop, test, and refine the mini individual project before the final presentation milestone.\n\n\nLearning goals\n\nContinue developing the mini individual project\nApply feedback to improve the project\nPractice reproducible coding and project organization\nPrepare the project for presentation\n\n\n\nLecture - ML and AI Basics\nIntroduction to machine learning and artificial intelligence, with examples from agriculture (Supervised vs. unsupervised learning in agricultural contexts) (Part 2)\n\n\nLab - Work on Mini Individual Project\nHands-on project development, troubleshooting, and instructor feedback.\n\n\nDiscussion - Q&A\nPeer discussion and feedback on project progress.\n\n\nAssignment\nSubmit a progress update on the mini individual project and ensure your latest project work and commits are submitted through Canvas.\n\n\nLooking ahead\nNext week we will present the mini projects and complete a DISC team assessment. After that, the course will shift toward the final team project.\n\nBack to course schedule ⏎",
-    "crumbs": [
-      "Weekly materials",
-      "Week 6"
-    ]
-  },
-  {
-    "objectID": "weeks/week-7.html",
-    "href": "weeks/week-7.html",
-    "title": "Week 7",
-    "section": "",
-    "text": "Introduction\nThis week marks the completion of the mini individual project. Students will present their work and reflect on teamwork and collaboration as we prepare to transition to the final project.\n\n\nLearning goals\n\nPresent and communicate the mini individual project\nReflect on project development and lessons learned\nUnderstand team dynamics using the DISC framework\nPrepare for the transition to the final team project\n\n\n\nLecture - Q&A\nFinal questions and preparation for the mini project presentation.\n\n\nLab - Mini Project Poster Presentations\nStudents present their mini individual projects and share their findings, approaches, and lessons learned.\n\n\nDiscussion - DISC Assessment of the Team\nIntroduction to the DISC framework and assessment of team dynamics.\n\n\nAssignment\nComplete the DISC assessment.\n\n\nLooking ahead\nAfter this week, the course shifts from the individual mini project to the final team project. We will begin working with real-world agricultural data and project partners.\n\nBack to course schedule ⏎",
-    "crumbs": [
-      "Weekly materials",
-      "Week 7"
-    ]
-  },
-  {
-    "objectID": "weeks/week-1.html",
-    "href": "weeks/week-1.html",
-    "title": "Week 1",
-    "section": "",
-    "text": "Introduction\nWelcome to Data Science Applications in Agriculture! In this course, we explore how data science, programming, AI, and digital technologies can be applied to real-world agricultural problems and decision-making.\n\n\nLearning goals\n\nUnderstand the course structure, expectations, and semester projects\nGet to know the instructional team and project topics\nUnderstand the role of data science in agriculture\nSet up a programming environment and run basic Python code\n\nPlease take a moment to fill in this form so we can tailor the course to your needs: Pre-course questionnaire\n\n\nLecture - Course Overview\nIntroduction to the course, expectations, semester projects, and applications of data science in agriculture.\n\n\nLab - Toolbox: IDEs, Programming Languages & Vibe Coding\nIntroduction to common development tools, including VS Code, Google Colab, Cursor, PyCharm, RStudio, and Claude Cowork.\nStudents will set up VS Code for Python and run a basic Python program.\n\n\nDiscussion - Data Science in Agriculture\nWhat is data science, and how is it changing agriculture?\nTopics include data lineage, satellite data, AI agents, and packages and environment management.\n\n\nAssignment\n\nRun a provided Python program using one of the IDEs introduced in class and submit a screenshot showing successful execution.\nProfile on Github Education shared through Canvas\n\n\n\nLooking ahead\nNext week we will introduce Git and GitHub to help us track, organize, and collaborate on our code and projects.\n\nBack to course schedule",
-    "crumbs": [
-      "Weekly materials",
-      "Week 1"
-    ]
-  },
-  {
-    "objectID": "weeks/week-5.html",
-    "href": "weeks/week-5.html",
-    "title": "Week 5",
-    "section": "",
-    "text": "Introduction\nThis week is focused on applying the tools and concepts learned so far to a small individual data science project.\n\n\nLearning goals\n\nDevelop and refine the mini individual project\nApply data science tools to an agricultural problem\nPractice organizing code, data, and project workflows\nGet feedback and troubleshoot project challenges\n\n\n\nLecture - ML and AI Basics\nIntroduction to machine learning and artificial intelligence, with examples from agriculture (Supervised vs. unsupervised learning in agricultural contexts) (Part 2)\n\n\nLab - Work on Mini Individual Project\nDedicated hands-on time for project development, troubleshooting, and instructor support.\n\n\nDiscussion - Q&A & Introduction to Tableau\nContinued project discussion and introduction to Tableau for agricultural data visualization.\n\n\nAssignment\nSubmit a progress update on your mini individual project.\n\n\nLooking ahead\nThe mini project will prepare you for the larger team-based final project. We will soon introduce the expectations for working with real farm data and collaborating with farmers.\n\nBack to course schedule ⏎",
-    "crumbs": [
-      "Weekly materials",
-      "Week 5"
-    ]
-  },
-  {
-    "objectID": "weeks/week-3.html",
-    "href": "weeks/week-3.html",
-    "title": "Week 3",
-    "section": "",
-    "text": "Introduction\nAgricultural data are increasingly collected, stored, and processed across cloud platforms and connected systems. This week we explore the infrastructure and governance needed to work with these data responsibly.\n\n\nLearning goals\n\nUnderstand basic concepts of cloud computing, APIs, and data infrastructure\nConnect Git workflows with cloud-based computing\nUnderstand data governance and data lineage\nRecognize the importance of data agreements and responsible data use\n\n\n\nLecture - Cloud Computing, APIs & Hardware\nIntroduction to cloud computing, APIs, hardware, compute and storage, and cloud-based agricultural data workflows.\nTopics include Databricks and Git integration (creating a notebook, reading the data and making a basic data profile), data agreements and licensing.\n\n\nLab - Cloud-Based Data Workflow\nHands-on introduction to a simple cloud-based workflow using Git and Databricks.\n\n\nDiscussion - Data Governance & Data Lineage\nHow do we know where agricultural data come from, how they have been changed, and who can use them?\nIntroduction to data governance and tracking data lineage in agricultural datasets.\n\n\nAssignment\n\nGet Databricks Education access as a student. Complete the student test/tutorial. Invite Dr. Miel to your Databricks workspace.\nCreate or use your personal GitHub repository and make sure the repository is set to PUBLIC.\nComplete the simple cloud-based workflow assignment using Git and Databricks. Submit the link to your GitHub page in Canvas.\nSelect an open-source license by following the provided flowchart. Add the selected license to your personal GitHub repository and submit the GitHub link in Canvas.\nComplete the Data Agreement Template. Upload the completed template to your personal GitHub repository and submit the GitHub link in Canvas.\n\n\n\nLooking ahead\nNext week we will introduce machine learning and artificial intelligence and begin connecting our data workflows to predictive models.\n\nBack to course schedule ⏎",
-    "crumbs": [
-      "Weekly materials",
-      "Week 3"
-    ]
-  },
-  {
-    "objectID": "supplemental/extra-1.html",
-    "href": "supplemental/extra-1.html",
-    "title": "Extras",
-    "section": "",
-    "text": "Note\n\n\n\nComing soon",
-    "crumbs": [
-      "Supplemental notes",
-      "Operations in Python"
-    ]
-  },
-  {
-    "objectID": "course/sections/course-objectives.html",
-    "href": "course/sections/course-objectives.html",
-    "title": "Learning objectives",
-    "section": "",
-    "text": "Learning objectives\n\nUnderstand the data science landscape and its applications in agriculture.\nDevelop practical coding skills using Python and modern data science tools.\nApply data science workflows and FAIR principles to organize, manage, and analyze agricultural data.\nScope agricultural problems using systems thinking and translate them into data science projects.\nIndependently design and execute a data science project, from problem definition to results and communication.\nReflect on their learning and take ownership of their development as data science practitioners.\nCollaborate effectively in teams to solve real-world agricultural problems.\nUse AI responsibly and efficiently, recognizing its capabilities, limitations, and implications",
+    "text": "Google colab\n🔗 on Google colaboratory notebooks\n\n\nShared Beast & Bytes Drive\n🔗 on Google Drive\n\n\nPython\n🔗 on Python programming language\n\n\nDiscussion forum\n🔗 on Github Issues\n\n\nVirtual meetings\n🔗 on Teams",
     "crumbs": [
       "Course information",
-      "Learning objectives"
+      "Useful links"
     ]
-  },
-  {
-    "objectID": "course/sections/course-syllabus-header.html",
-    "href": "course/sections/course-syllabus-header.html",
-    "title": "Course",
-    "section": "",
-    "text": "Course\n \nData Science Applications in Agriculture\n“Beast & Bytes”\nANSC 4040/ ANSC 6040"
   },
   {
     "objectID": "course/sections/course-projects.html",
@@ -145,92 +50,443 @@
     "text": "Problem Identification: Meet with the farmer and other stakeholders to understand the problem and their needs. Conduct initial research to define and scope the problem.\nData Collection: Gather relevant data from appropriate sources while following data privacy, governance, and security requirements.\nData Analysis and Visualization: Analyze collected data and identify relevant patterns, trends, and insights.\nSolution Development: Explore appropriate statistical, machine learning, or other data science approaches and develop a practical solution.\nImplementation Plan: Develop a plan for implementing the proposed solution in an appropriate agricultural setting.\nPresentation and Report: Present the methodology, findings, limitations, and proposed solution and submit the required project documentation."
   },
   {
-    "objectID": "course/sections/course-description.html",
-    "href": "course/sections/course-description.html",
-    "title": "Course description",
+    "objectID": "course/sections/course-final-note.html",
+    "href": "course/sections/course-final-note.html",
+    "title": "Final Note to Students",
     "section": "",
-    "text": "This course offers an an undergraduate (sophomore, junior, senior) and graduate level experience in challenge-based learning, where students tackle data-driven problems within the agricultural sector. If you have never heard about it, check out this Solar Car Challenge that you might recognize. Working in collaborative teams, students will engage directly with farmers and agricultural stakeholders to understand real-world challenges and develop innovative, data-driven solutions.\nThroughout the course, students will learn to utilize a range of digital tools essential for modern data science. Key topics include data governance, data privacy, data collection, data storage, data processing, data visualization, data modeling, machine learning, artificial intelligence, and communicating data-driven results.\nProject management is a core component of the course. Students will learn to manage projects effectively, adhere to deadlines, communicate with stakeholders, and deliver results in a timely manner. The course emphasizes teamwork, communication, collaboration, critical thinking, and responsible use of digital technologies.\nBy the end of the course, students will have gained practical experience in applying data science to agricultural problems. Students will develop skills in problem-solving, programming, data analysis, machine learning, artificial intelligence, project management, and communication.\nThe course also emphasizes the responsible and critical use of artificial intelligence. Students will learn to use AI tools efficiently while recognizing their capabilities, limitations, ethical implications, and potential effects on data privacy, academic integrity, and decision-making.\n\n\n\nThis course accounts for 3 credits.\n\n\n\nA statistical course such as one of the following is not required but strongly advised:\n\nSTSCI 2150/5150 Introductory Statistics for Biology\nBTRY 3010/STSCI 2200 & BTRY 5010/STSCI 5200: Biological Statistics I\nILRST/STSCI 2100: Introductory Statistics\n\nPrior knowledge of Python is helpful but not required (you will learn vibe coding).\nIf in doubt about prerequisites, contact miel.hostens@cornell.edu",
+    "text": "Final Note to Students\nThis course is designed to help you develop the skills needed to work with data, computational tools, artificial intelligence, and agricultural problems in a rapidly changing professional environment.\nYou are not expected to know everything at the beginning of the course. You are expected to learn, experiment, ask questions, collaborate appropriately, critically evaluate your tools and results, and take responsibility for your own learning.\nWhen you are uncertain about a technical, academic-integrity, collaboration, data-privacy, or AI-use question, please feel free to reach out. The teaching team is here to help you make responsible decisions and develop the skills needed to work effectively and ethically as a data science practitioner.\nAs this is a continuously evolving, challenge-based course, some activities, policies, and project details may be updated during the semester.\nWe will communicate any significant changes through Canvas and keep the course website up to date with the latest course materials, schedule, and requirements."
+  },
+  {
+    "objectID": "course/sections/course-objectives.html",
+    "href": "course/sections/course-objectives.html",
+    "title": "Learning objectives",
+    "section": "",
+    "text": "Learning objectives\n\nUnderstand the data science landscape and its applications in agriculture.\nDevelop practical coding skills using Python and modern data science tools.\nApply data science workflows and FAIR principles to organize, manage, and analyze agricultural data.\nScope agricultural problems using systems thinking and translate them into data science projects.\nIndependently design and execute a data science project, from problem definition to results and communication.\nReflect on their learning and take ownership of their development as data science practitioners.\nCollaborate effectively in teams to solve real-world agricultural problems.\nUse AI responsibly and efficiently, recognizing its capabilities, limitations, and implications",
     "crumbs": [
       "Course information",
-      "Overview"
+      "Learning objectives"
     ]
   },
   {
-    "objectID": "course/sections/course-description.html#description-and-aims",
-    "href": "course/sections/course-description.html#description-and-aims",
-    "title": "Course description",
+    "objectID": "course/sections/course-support.html",
+    "href": "course/sections/course-support.html",
+    "title": "Course support",
     "section": "",
-    "text": "This course offers an an undergraduate (sophomore, junior, senior) and graduate level experience in challenge-based learning, where students tackle data-driven problems within the agricultural sector. If you have never heard about it, check out this Solar Car Challenge that you might recognize. Working in collaborative teams, students will engage directly with farmers and agricultural stakeholders to understand real-world challenges and develop innovative, data-driven solutions.\nThroughout the course, students will learn to utilize a range of digital tools essential for modern data science. Key topics include data governance, data privacy, data collection, data storage, data processing, data visualization, data modeling, machine learning, artificial intelligence, and communicating data-driven results.\nProject management is a core component of the course. Students will learn to manage projects effectively, adhere to deadlines, communicate with stakeholders, and deliver results in a timely manner. The course emphasizes teamwork, communication, collaboration, critical thinking, and responsible use of digital technologies.\nBy the end of the course, students will have gained practical experience in applying data science to agricultural problems. Students will develop skills in problem-solving, programming, data analysis, machine learning, artificial intelligence, project management, and communication.\nThe course also emphasizes the responsible and critical use of artificial intelligence. Students will learn to use AI tools efficiently while recognizing their capabilities, limitations, ethical implications, and potential effects on data privacy, academic integrity, and decision-making.",
+    "text": "Most of you will need help at some point and we want to make sure you can identify when that is without getting too frustrated and feel comfortable seeking help.",
     "crumbs": [
       "Course information",
-      "Overview"
+      "Support"
     ]
   },
   {
-    "objectID": "course/sections/course-description.html#credits",
-    "href": "course/sections/course-description.html#credits",
-    "title": "Course description",
-    "section": "",
-    "text": "This course accounts for 3 credits.",
+    "objectID": "course/sections/course-support.html#lectures-and-labs",
+    "href": "course/sections/course-support.html#lectures-and-labs",
+    "title": "Course support",
+    "section": "Lectures and labs",
+    "text": "Lectures and labs\nIf you have a question during lecture or lab, feel free to ask it! There are likely other students with the same question, so by asking you will create a peer teaching opportunity for everyone.",
     "crumbs": [
       "Course information",
-      "Overview"
+      "Support"
     ]
   },
   {
-    "objectID": "course/sections/course-description.html#prerequisites",
-    "href": "course/sections/course-description.html#prerequisites",
-    "title": "Course description",
-    "section": "",
-    "text": "A statistical course such as one of the following is not required but strongly advised:\n\nSTSCI 2150/5150 Introductory Statistics for Biology\nBTRY 3010/STSCI 2200 & BTRY 5010/STSCI 5200: Biological Statistics I\nILRST/STSCI 2100: Introductory Statistics\n\nPrior knowledge of Python is helpful but not required (you will learn vibe coding).\nIf in doubt about prerequisites, contact miel.hostens@cornell.edu",
+    "objectID": "course/sections/course-support.html#office-hours",
+    "href": "course/sections/course-support.html#office-hours",
+    "title": "Course support",
+    "section": "Office hours",
+    "text": "Office hours\nThe entire teaching team is here to support your success in this course, and you are encouraged to ask questions about course content, assignments, or logistics. Many questions are most effectively addressed in person. Office hours are therefore offered on a flexible, appointment-based basis to accommodate teaching schedules. Please reach out in advance to arrange a meeting time. Even if you do not have specific questions, you are welcome to schedule a brief meeting to introduce yourself and say hello. Meike also has a walk in office hour at Wednesday 3-5 pm.",
     "crumbs": [
       "Course information",
-      "Overview"
+      "Support"
     ]
   },
   {
-    "objectID": "course/sections/course-team.html",
-    "href": "course/sections/course-team.html",
-    "title": "Beasts & Bytes",
-    "section": "",
-    "text": "Dr. Miel Hostens (he/his) is the Robert and Anne Everett Endowed Associate Professor of Digital Dairy Management and Data Analytics at College of Agriculture and Life Sciences (Cornell University) focusing on the creation of methodologies using precision dairy farming to monitor sustainable food production systems from a global perspective\n\n\n\nOffice hours\nLocation\n\n\nQuick questions\nSlack & Teams\n\n\nBy appointment\nThursday - Friday 9:00 am - 17:00 pm\nDepartment of Animal Science, 273 Morrison Hall\n\n\nWalk in office hours with Meike\nWednesday 3 - 5 pm\nDepartment of Animal Science, B30 Morrison Hall\nPlease email me when this time does not work for you, so we can make an alternative arrangement.\n\n\n\nMake an appointment with Dr. Hostens through this link.",
+    "objectID": "course/sections/course-support.html#weekly-assignments",
+    "href": "course/sections/course-support.html#weekly-assignments",
+    "title": "Course support",
+    "section": "Weekly assignments",
+    "text": "Weekly assignments\nEach week holds a ‘Programming assignment deadline’ the day before the next lab (monday 12 pm). It is important that you stick to these deadlines as your correct submissions for this deadline will be used for the final grading. You are welcome to work on that during the week in your own time, but dedicated lab hours are blocked within each week.\nTeaching assistants will be available during these hours if you require help or feedback.",
     "crumbs": [
       "Course information",
-      "Teaching team"
+      "Support"
     ]
   },
   {
-    "objectID": "course/sections/course-team.html#instructor",
-    "href": "course/sections/course-team.html#instructor",
-    "title": "Beasts & Bytes",
-    "section": "",
-    "text": "Dr. Miel Hostens (he/his) is the Robert and Anne Everett Endowed Associate Professor of Digital Dairy Management and Data Analytics at College of Agriculture and Life Sciences (Cornell University) focusing on the creation of methodologies using precision dairy farming to monitor sustainable food production systems from a global perspective\n\n\n\nOffice hours\nLocation\n\n\nQuick questions\nSlack & Teams\n\n\nBy appointment\nThursday - Friday 9:00 am - 17:00 pm\nDepartment of Animal Science, 273 Morrison Hall\n\n\nWalk in office hours with Meike\nWednesday 3 - 5 pm\nDepartment of Animal Science, B30 Morrison Hall\nPlease email me when this time does not work for you, so we can make an alternative arrangement.\n\n\n\nMake an appointment with Dr. Hostens through this link.",
+    "objectID": "course/sections/course-support.html#discussion-forum",
+    "href": "course/sections/course-support.html#discussion-forum",
+    "title": "Course support",
+    "section": "Discussion forum",
+    "text": "Discussion forum\nHave a question that might be valuable for all course participant? Prefer to write out your question in detail rather than asking in person? The online discussion forum is the best venue for these! We will use github issue as the online discussion forum. There is a chance another student has already asked a similar question, so please check the other posts before adding a new question. If you know the answer to a question that is posted, I encourage you to respond!",
     "crumbs": [
       "Course information",
-      "Teaching team"
+      "Support"
     ]
   },
   {
-    "objectID": "course/sections/course-team.html#teaching-assistants",
-    "href": "course/sections/course-team.html#teaching-assistants",
-    "title": "Beasts & Bytes",
-    "section": "Teaching assistants",
-    "text": "Teaching assistants\n\n\n\n\nName\nLocation\n\n\n\n\n\nMeike van Leerdam\nB29 Morrison Hall\n\n\n\nSonam Yang\nB29 Morrison Hall",
+    "objectID": "course/sections/course-support.html#email",
+    "href": "course/sections/course-support.html#email",
+    "title": "Course support",
+    "section": "Email",
+    "text": "Email\nPlease refrain from emailing any course content questions (those should go here github issue), and only use email for questions about personal matters that may not be appropriate for the public course forum (e.g., illness, accommodations, etc.).\nFor such matters, you may email Dr. Miel Hostens at miel.hostens@cornell.edu.",
     "crumbs": [
       "Course information",
-      "Teaching team"
+      "Support"
     ]
   },
   {
-    "objectID": "course/sections/course-faq.html",
-    "href": "course/sections/course-faq.html",
-    "title": "FAQ",
-    "section": "",
-    "text": "Do I need prior experience with programming or data science?\nNo prior programming experience is required. The course builds from fundamentals and offers guided support. However, familiarity with Excel, basic statistics, or biological/agricultural concepts will be helpful.\n\n\nWhat software will we use?\nWe will primarily use:\n\nTableau for interactive dashboards.\nR or Python (depending on the specific course structure) for data analysis.\nSpreadsheet tools such as Excel or (less preferred) Google Sheets.\nAdditional tools may include farm sensor platforms or datasets commonly used in applied agriculture research.\n\n\n\nHow do I access Tableau for this course?\nYou will receive a free student Tableau license through the Tableau for Teaching program. Licenses are typically issued about one week before the course start date. If you do not receive your license, check spam and contact the instructor.\n\n\nWhat are the expectations around AI tools like ChatGPT?\nCALS guidelines encourage instructors to define clear expectations around AI use (referenced in Practical AI Resources for your Courses). In this course:\n\nAI may be used to support idea generation, debugging, and improving clarity of writing.\nAI may NOT be used to generate full assignments, analyses, or dashboard interpretations.\nAny AI use must be disclosed in your submission.\n\nA detailed AI policy is posted in the syllabus.\n\n\nWill we use real dairy farm data? Is it confidential?\nYes, we will work with anonymized agricultural datasets. Data confidentiality rules will be explained in class — typically aligned with research ethics guidelines and institutional standards.\n\n\nHow much time should I expect to spend on the course each week?\nExpect approximately:\n2–3 hours of lectures or guided sessions (LEC & DIS) 3–5 hours of hands‑on data practice or assignment work (LAB time) Additional time as needed for the final project\n\n\nWhat if I need help or get stuck?\nYou are encouraged to:\n\nDirectly contact with the instructor or TA () office hours\nAsk questions during lectures and discussion sessions\nReach out by email for technical or conceptual help\n\n\n\nHow will my work be evaluated?\nAssessment typically includes:\n\nWeekly or bi‑weekly coding assignments\nCoding exam at the end of the semester\nFinal data‑driven project",
+    "objectID": "course/sections/course-support.html#course-materials-costs",
+    "href": "course/sections/course-support.html#course-materials-costs",
+    "title": "Course support",
+    "section": "Course materials costs",
+    "text": "Course materials costs\nThere are no costs associated with this course. All readings will come from freely available, open resources (open-source textbooks, journal articles, etc.).",
     "crumbs": [
       "Course information",
-      "FAQ"
+      "Support"
     ]
+  },
+  {
+    "objectID": "course/sections/course-support.html#assistance-with-teams",
+    "href": "course/sections/course-support.html#assistance-with-teams",
+    "title": "Course support",
+    "section": "Assistance with Teams",
+    "text": "Assistance with Teams\nTeams will be used for online office hours as well as as a backup option should we need to hold the course online instead of in person.",
+    "crumbs": [
+      "Course information",
+      "Support"
+    ]
+  },
+  {
+    "objectID": "course/sections/course-assessment-grading.html",
+    "href": "course/sections/course-assessment-grading.html",
+    "title": "Assessment and Grading",
+    "section": "",
+    "text": "Assessment consists of individual assignments, a mini individual project with a poster presentation, and a final group project.\n\n\nThroughout the course, students will complete individual coding and practical assignments.\nThese assignments are designed to help students develop the technical skills needed for the mini individual project and final group project.\nIndividual assignments account for 20% of the final grade.\nAssignment-specific instructions will identify any restrictions on collaboration, external resources, software, or AI tools.\n\n\n\nEach student will complete a mini individual project and present the results through a poster presentation.\nThe project provides an opportunity to apply the skills learned during the course to an individual topic or problem.\nThe mini individual project and poster presentation together account for 30% of the final grade.\nThe project deliverables, requirements, and assessment criteria will be discussed in class.\n\n\n\nThe final assessment consists of a group project.\nStudents will work together to develop a larger project applying programming, data analysis, Git/GitHub, cloud-based tools, machine learning, and other data science skills learned throughout the course.\nTogether with the instructor and stakeholders, the group will define the goals and scope of the project.\nThe project should demonstrate:\n\nEffective collaboration\nAppropriate technical implementation\nResponsible data management\nAppropriate use of data science and AI tools\nClear documentation\nCritical interpretation of results\nClear communication of findings and limitations\n\nThe final group project accounts for 50% of the final grade.\nThe deliverables, project requirements, presentation format, and grading criteria will be discussed during the course.\n\n\n\nThe final grade will be calculated as follows:\n\n20% — Individual assignments\n30% — Mini individual project + poster presentation\n50% — Final group project\n\nTotal: 100%\n\n\n\n\n\n\nGrade\nLow\nHigh\n\n\n\n\nA+\n99.80\n100.0\n\n\nA\n93.33\n99.80\n\n\nA-\n90.00\n93.33\n\n\nB+\n86.66\n90.00\n\n\nB\n83.33\n86.66\n\n\nB-\n80.00\n83.33\n\n\nC+\n76.66\n80.00\n\n\nC\n73.33\n76.66\n\n\nC-\n70.00\n73.33\n\n\nD+\n66.66\n70.00\n\n\nD\n63.33\n66.66\n\n\nD-\n60.00\n63.36\n\n\nF\n0.00\n60.00\n\n\n\nEach grade range includes the score on the left and excludes the score on the right. For example, a 90.0 is an A-, not a B+, while an 89.99 is a B+, not an A-.",
+    "crumbs": [
+      "Course information",
+      "Grading"
+    ]
+  },
+  {
+    "objectID": "course/sections/course-assessment-grading.html#individual-assignments",
+    "href": "course/sections/course-assessment-grading.html#individual-assignments",
+    "title": "Assessment and Grading",
+    "section": "",
+    "text": "Throughout the course, students will complete individual coding and practical assignments.\nThese assignments are designed to help students develop the technical skills needed for the mini individual project and final group project.\nIndividual assignments account for 20% of the final grade.\nAssignment-specific instructions will identify any restrictions on collaboration, external resources, software, or AI tools.",
+    "crumbs": [
+      "Course information",
+      "Grading"
+    ]
+  },
+  {
+    "objectID": "course/sections/course-assessment-grading.html#mini-individual-project-and-poster-presentation",
+    "href": "course/sections/course-assessment-grading.html#mini-individual-project-and-poster-presentation",
+    "title": "Assessment and Grading",
+    "section": "",
+    "text": "Each student will complete a mini individual project and present the results through a poster presentation.\nThe project provides an opportunity to apply the skills learned during the course to an individual topic or problem.\nThe mini individual project and poster presentation together account for 30% of the final grade.\nThe project deliverables, requirements, and assessment criteria will be discussed in class.",
+    "crumbs": [
+      "Course information",
+      "Grading"
+    ]
+  },
+  {
+    "objectID": "course/sections/course-assessment-grading.html#final-group-project",
+    "href": "course/sections/course-assessment-grading.html#final-group-project",
+    "title": "Assessment and Grading",
+    "section": "",
+    "text": "The final assessment consists of a group project.\nStudents will work together to develop a larger project applying programming, data analysis, Git/GitHub, cloud-based tools, machine learning, and other data science skills learned throughout the course.\nTogether with the instructor and stakeholders, the group will define the goals and scope of the project.\nThe project should demonstrate:\n\nEffective collaboration\nAppropriate technical implementation\nResponsible data management\nAppropriate use of data science and AI tools\nClear documentation\nCritical interpretation of results\nClear communication of findings and limitations\n\nThe final group project accounts for 50% of the final grade.\nThe deliverables, project requirements, presentation format, and grading criteria will be discussed during the course.",
+    "crumbs": [
+      "Course information",
+      "Grading"
+    ]
+  },
+  {
+    "objectID": "course/sections/course-assessment-grading.html#final-grading",
+    "href": "course/sections/course-assessment-grading.html#final-grading",
+    "title": "Assessment and Grading",
+    "section": "",
+    "text": "The final grade will be calculated as follows:\n\n20% — Individual assignments\n30% — Mini individual project + poster presentation\n50% — Final group project\n\nTotal: 100%",
+    "crumbs": [
+      "Course information",
+      "Grading"
+    ]
+  },
+  {
+    "objectID": "course/sections/course-assessment-grading.html#grade-scale",
+    "href": "course/sections/course-assessment-grading.html#grade-scale",
+    "title": "Assessment and Grading",
+    "section": "",
+    "text": "Grade\nLow\nHigh\n\n\n\n\nA+\n99.80\n100.0\n\n\nA\n93.33\n99.80\n\n\nA-\n90.00\n93.33\n\n\nB+\n86.66\n90.00\n\n\nB\n83.33\n86.66\n\n\nB-\n80.00\n83.33\n\n\nC+\n76.66\n80.00\n\n\nC\n73.33\n76.66\n\n\nC-\n70.00\n73.33\n\n\nD+\n66.66\n70.00\n\n\nD\n63.33\n66.66\n\n\nD-\n60.00\n63.36\n\n\nF\n0.00\n60.00\n\n\n\nEach grade range includes the score on the left and excludes the score on the right. For example, a 90.0 is an A-, not a B+, while an 89.99 is a B+, not an A-.",
+    "crumbs": [
+      "Course information",
+      "Grading"
+    ]
+  },
+  {
+    "objectID": "supplemental/extra-1.html",
+    "href": "supplemental/extra-1.html",
+    "title": "Extras",
+    "section": "",
+    "text": "Note\n\n\n\nComing soon",
+    "crumbs": [
+      "Supplemental notes",
+      "Operations in Python"
+    ]
+  },
+  {
+    "objectID": "project-tips-resources.html",
+    "href": "project-tips-resources.html",
+    "title": "Tips & Tricks",
+    "section": "",
+    "text": "🚀 1. Think Like a Problem-Solver, Not a Note-Taker\nThis course uses challenge-based learning where you solve real agricultural problems in collaboration with farmers and stakeholders. Early in the semester, create a shared team document to track problem definitions and evolving insights.\n\n\n📅 2. Follow the Weekly Rhythm\nLectures → weekly coding labs → project meetings. Dodona assignments are due every Monday at 24:00. Set reminders and avoid last-minute work.\n\n\n💡 3. Coding: Small Bursts Beat Sprints\nYour individual grade = group project grade × percentage of assignments you complete × coding exam. Submit early, refine often, and test code on small inputs before using real farm datasets.\n\n\n👩‍🌾 4. Prepare for Farmer Meetings Like a Consultant\nBefore meeting farmers, prepare three question types: * Clarifying questions * Data-oriented questions * Impact-oriented questions\n\n\n🧹 5. Data Governance & FAIR Principles Matter\nYour project fails automatically if you ignore FAIR principles. Create a shared checklist covering naming conventions, documentation, and file structure.\n\n\n📊 6. Visualize Before You Model\nGenerate key visuals (missing data, histograms, time series, scatter matrices) before applying algorithms.\n\n\n🤝 7. Take Weekly Project Meetings Seriously\nArrive prepared with one question, one update, and one risk. This dramatically reduces last-minute chaos.\n\n\n🧭 8. Scope Your Project Ruthlessly\nCreate a “Not Doing” list by Week 3 to keep your project realistic and implementable.\n\n\n🎤 9. Present for Stakeholders, Not Teachers\nTranslate technical results into statements like: * “This helps you decide…” * “This reduces risk by…”\n\n\n📝 10. Practice Strong Academic Integrity\nDocument all external assistance, including AI tools, and cite everything properly.",
+    "crumbs": [
+      "Project",
+      "Tips + resources"
+    ]
+  },
+  {
+    "objectID": "LICENSE.html#creative-commons-attribution-sharealike-4.0-international-public-license",
+    "href": "LICENSE.html#creative-commons-attribution-sharealike-4.0-international-public-license",
+    "title": "Attribution-ShareAlike 4.0 International",
+    "section": "Creative Commons Attribution-ShareAlike 4.0 International Public License",
+    "text": "Creative Commons Attribution-ShareAlike 4.0 International Public License\nBy exercising the Licensed Rights (defined below), You accept and agree to be bound by the terms and conditions of this Creative Commons Attribution-ShareAlike 4.0 International Public License (“Public License”). To the extent this Public License may be interpreted as a contract, You are granted the Licensed Rights in consideration of Your acceptance of these terms and conditions, and the Licensor grants You such rights in consideration of benefits the Licensor receives from making the Licensed Material available under these terms and conditions.\n\nSection 1 – Definitions.\n\nAdapted Material means material subject to Copyright and Similar Rights that is derived from or based upon the Licensed Material and in which the Licensed Material is translated, altered, arranged, transformed, or otherwise modified in a manner requiring permission under the Copyright and Similar Rights held by the Licensor. For purposes of this Public License, where the Licensed Material is a musical work, performance, or sound recording, Adapted Material is always produced where the Licensed Material is synched in timed relation with a moving image.\nAdapter’s License means the license You apply to Your Copyright and Similar Rights in Your contributions to Adapted Material in accordance with the terms and conditions of this Public License.\nBY-SA Compatible License means a license listed at creativecommons.org/compatiblelicenses, approved by Creative Commons as essentially the equivalent of this Public License.\nCopyright and Similar Rights means copyright and/or similar rights closely related to copyright including, without limitation, performance, broadcast, sound recording, and Sui Generis Database Rights, without regard to how the rights are labeled or categorized. For purposes of this Public License, the rights specified in Section 2(b)(1)-(2) are not Copyright and Similar Rights.\nEffective Technological Measures means those measures that, in the absence of proper authority, may not be circumvented under laws fulfilling obligations under Article 11 of the WIPO Copyright Treaty adopted on December 20, 1996, and/or similar international agreements.\nExceptions and Limitations means fair use, fair dealing, and/or any other exception or limitation to Copyright and Similar Rights that applies to Your use of the Licensed Material.\nLicense Elements means the license attributes listed in the name of a Creative Commons Public License. The License Elements of this Public License are Attribution and ShareAlike.\nLicensed Material means the artistic or literary work, database, or other material to which the Licensor applied this Public License.\nLicensed Rights means the rights granted to You subject to the terms and conditions of this Public License, which are limited to all Copyright and Similar Rights that apply to Your use of the Licensed Material and that the Licensor has authority to license.\nLicensor means the individual(s) or entity(ies) granting rights under this Public License.\nShare means to provide material to the public by any means or process that requires permission under the Licensed Rights, such as reproduction, public display, public performance, distribution, dissemination, communication, or importation, and to make material available to the public including in ways that members of the public may access the material from a place and at a time individually chosen by them.\nSui Generis Database Rights means rights other than copyright resulting from Directive 96/9/EC of the European Parliament and of the Council of 11 March 1996 on the legal protection of databases, as amended and/or succeeded, as well as other essentially equivalent rights anywhere in the world.\nYou means the individual or entity exercising the Licensed Rights under this Public License. Your has a corresponding meaning.\n\n\n\nSection 2 – Scope.\n\nLicense grant.\n\nSubject to the terms and conditions of this Public License, the Licensor hereby grants You a worldwide, royalty-free, non-sublicensable, non-exclusive, irrevocable license to exercise the Licensed Rights in the Licensed Material to:\nA. reproduce and Share the Licensed Material, in whole or in part; and\nB. produce, reproduce, and Share Adapted Material.\nExceptions and Limitations. For the avoidance of doubt, where Exceptions and Limitations apply to Your use, this Public License does not apply, and You do not need to comply with its terms and conditions.\nTerm. The term of this Public License is specified in Section 6(a).\nMedia and formats; technical modifications allowed. The Licensor authorizes You to exercise the Licensed Rights in all media and formats whether now known or hereafter created, and to make technical modifications necessary to do so. The Licensor waives and/or agrees not to assert any right or authority to forbid You from making technical modifications necessary to exercise the Licensed Rights, including technical modifications necessary to circumvent Effective Technological Measures. For purposes of this Public License, simply making modifications authorized by this Section 2(a)(4) never produces Adapted Material.\nDownstream recipients.\nA. Offer from the Licensor – Licensed Material. Every recipient of the Licensed Material automatically receives an offer from the Licensor to exercise the Licensed Rights under the terms and conditions of this Public License.\nB. Additional offer from the Licensor – Adapted Material. Every recipient of Adapted Material from You automatically receives an offer from the Licensor to exercise the Licensed Rights in the Adapted Material under the conditions of the Adapter’s License You apply.\nC. No downstream restrictions. You may not offer or impose any additional or different terms or conditions on, or apply any Effective Technological Measures to, the Licensed Material if doing so restricts exercise of the Licensed Rights by any recipient of the Licensed Material.\nNo endorsement. Nothing in this Public License constitutes or may be construed as permission to assert or imply that You are, or that Your use of the Licensed Material is, connected with, or sponsored, endorsed, or granted official status by, the Licensor or others designated to receive attribution as provided in Section 3(a)(1)(A)(i).\n\nOther rights.\n\nMoral rights, such as the right of integrity, are not licensed under this Public License, nor are publicity, privacy, and/or other similar personality rights; however, to the extent possible, the Licensor waives and/or agrees not to assert any such rights held by the Licensor to the limited extent necessary to allow You to exercise the Licensed Rights, but not otherwise.\nPatent and trademark rights are not licensed under this Public License.\nTo the extent possible, the Licensor waives any right to collect royalties from You for the exercise of the Licensed Rights, whether directly or through a collecting society under any voluntary or waivable statutory or compulsory licensing scheme. In all other cases the Licensor expressly reserves any right to collect such royalties.\n\n\n\n\nSection 3 – License Conditions.\nYour exercise of the Licensed Rights is expressly made subject to the following conditions.\n\nAttribution.\n\nIf You Share the Licensed Material (including in modified form), You must:\nA. retain the following if it is supplied by the Licensor with the Licensed Material:\n\nidentification of the creator(s) of the Licensed Material and any others designated to receive attribution, in any reasonable manner requested by the Licensor (including by pseudonym if designated);\na copyright notice;\na notice that refers to this Public License;\na notice that refers to the disclaimer of warranties;\na URI or hyperlink to the Licensed Material to the extent reasonably practicable;\n\nB. indicate if You modified the Licensed Material and retain an indication of any previous modifications; and\nC. indicate the Licensed Material is licensed under this Public License, and include the text of, or the URI or hyperlink to, this Public License.\nYou may satisfy the conditions in Section 3(a)(1) in any reasonable manner based on the medium, means, and context in which You Share the Licensed Material. For example, it may be reasonable to satisfy the conditions by providing a URI or hyperlink to a resource that includes the required information.\nIf requested by the Licensor, You must remove any of the information required by Section 3(a)(1)(A) to the extent reasonably practicable.\n\nShareAlike.\n\nIn addition to the conditions in Section 3(a), if You Share Adapted Material You produce, the following conditions also apply.\n\nThe Adapter’s License You apply must be a Creative Commons license with the same License Elements, this version or later, or a BY-SA Compatible License.\nYou must include the text of, or the URI or hyperlink to, the Adapter’s License You apply. You may satisfy this condition in any reasonable manner based on the medium, means, and context in which You Share Adapted Material.\nYou may not offer or impose any additional or different terms or conditions on, or apply any Effective Technological Measures to, Adapted Material that restrict exercise of the rights granted under the Adapter’s License You apply.\n\n\n\nSection 4 – Sui Generis Database Rights.\nWhere the Licensed Rights include Sui Generis Database Rights that apply to Your use of the Licensed Material:\n\nfor the avoidance of doubt, Section 2(a)(1) grants You the right to extract, reuse, reproduce, and Share all or a substantial portion of the contents of the database;\nif You include all or a substantial portion of the database contents in a database in which You have Sui Generis Database Rights, then the database in which You have Sui Generis Database Rights (but not its individual contents) is Adapted Material, including for purposes of Section 3(b); and\nYou must comply with the conditions in Section 3(a) if You Share all or a substantial portion of the contents of the database.\n\nFor the avoidance of doubt, this Section 4 supplements and does not replace Your obligations under this Public License where the Licensed Rights include other Copyright and Similar Rights.\n\n\nSection 5 – Disclaimer of Warranties and Limitation of Liability.\n\nUnless otherwise separately undertaken by the Licensor, to the extent possible, the Licensor offers the Licensed Material as-is and as-available, and makes no representations or warranties of any kind concerning the Licensed Material, whether express, implied, statutory, or other. This includes, without limitation, warranties of title, merchantability, fitness for a particular purpose, non-infringement, absence of latent or other defects, accuracy, or the presence or absence of errors, whether or not known or discoverable. Where disclaimers of warranties are not allowed in full or in part, this disclaimer may not apply to You.\nTo the extent possible, in no event will the Licensor be liable to You on any legal theory (including, without limitation, negligence) or otherwise for any direct, special, indirect, incidental, consequential, punitive, exemplary, or other losses, costs, expenses, or damages arising out of this Public License or use of the Licensed Material, even if the Licensor has been advised of the possibility of such losses, costs, expenses, or damages. Where a limitation of liability is not allowed in full or in part, this limitation may not apply to You.\nThe disclaimer of warranties and limitation of liability provided above shall be interpreted in a manner that, to the extent possible, most closely approximates an absolute disclaimer and waiver of all liability.\n\n\n\nSection 6 – Term and Termination.\n\nThis Public License applies for the term of the Copyright and Similar Rights licensed here. However, if You fail to comply with this Public License, then Your rights under this Public License terminate automatically.\nWhere Your right to use the Licensed Material has terminated under Section 6(a), it reinstates:\n\nautomatically as of the date the violation is cured, provided it is cured within 30 days of Your discovery of the violation; or\nupon express reinstatement by the Licensor.\n\nFor the avoidance of doubt, this Section 6(b) does not affect any right the Licensor may have to seek remedies for Your violations of this Public License.\nFor the avoidance of doubt, the Licensor may also offer the Licensed Material under separate terms or conditions or stop distributing the Licensed Material at any time; however, doing so will not terminate this Public License.\nSections 1, 5, 6, 7, and 8 survive termination of this Public License.\n\n\n\nSection 7 – Other Terms and Conditions.\n\nThe Licensor shall not be bound by any additional or different terms or conditions communicated by You unless expressly agreed.\nAny arrangements, understandings, or agreements regarding the Licensed Material not stated herein are separate from and independent of the terms and conditions of this Public License.\n\n\n\nSection 8 – Interpretation.\n\nFor the avoidance of doubt, this Public License does not, and shall not be interpreted to, reduce, limit, restrict, or impose conditions on any use of the Licensed Material that could lawfully be made without permission under this Public License.\nTo the extent possible, if any provision of this Public License is deemed unenforceable, it shall be automatically reformed to the minimum extent necessary to make it enforceable. If the provision cannot be reformed, it shall be severed from this Public License without affecting the enforceability of the remaining terms and conditions.\nNo term or condition of this Public License will be waived and no failure to comply consented to unless expressly agreed to by the Licensor.\nNothing in this Public License constitutes or may be interpreted as a limitation upon, or waiver of, any privileges and immunities that apply to the Licensor or You, including from the legal processes of any jurisdiction or authority.\n\n\nCreative Commons is not a party to its public licenses. Notwithstanding, Creative Commons may elect to apply one of its public licenses to material it publishes and in those instances will be considered the “Licensor.” The text of the Creative Commons public licenses is dedicated to the public domain under the CC0 Public Domain Dedication. Except for the limited purpose of indicating that material is shared under a Creative Commons public license or as otherwise permitted by the Creative Commons policies published at creativecommons.org/policies, Creative Commons does not authorize the use of the trademark “Creative Commons” or any other trademark or logo of Creative Commons without its prior written consent including, without limitation, in connection with any unauthorized modifications to any of its public licenses or any other arrangements, understandings, or agreements concerning use of licensed material. For the avoidance of doubt, this paragraph does not form part of the public licenses.\nCreative Commons may be contacted at creativecommons.org."
+  },
+  {
+    "objectID": "labs/lab-0.html",
+    "href": "labs/lab-0.html",
+    "title": "Lab 0 - Meet + greet",
+    "section": "",
+    "text": "Today’s lab is short and sweet! We just need you to fill out the “Getting to know you” survey. Please go here to take it. You will need to log on to Sakai to access to survey.\nYour answers can be brief. Some of your answers will be used to guide what application examples might be of interest to a majority of students in the course and some of your answers will be used to help guide team formation. We expect this will take you ~10 minutes."
+  },
+  {
+    "objectID": "weeks/week-5.html",
+    "href": "weeks/week-5.html",
+    "title": "Week 5",
+    "section": "",
+    "text": "Introduction\nThis week is focused on applying the tools and concepts learned so far to a small individual data science project.\n\n\nLearning goals\n\nDevelop and refine the mini individual project\nApply data science tools to an agricultural problem\nPractice organizing code, data, and project workflows\nGet feedback and troubleshoot project challenges\n\n\n\nLecture - ML and AI Basics\nIntroduction to machine learning and artificial intelligence, with examples from agriculture (Supervised vs. unsupervised learning in agricultural contexts) (Part 2)\n\n\nLab - Work on Mini Individual Project\nDedicated hands-on time for project development, troubleshooting, and instructor support.\n\n\nDiscussion - Q&A & Introduction to Tableau\nContinued project discussion and introduction to Tableau for agricultural data visualization.\n\n\nAssignment\nSubmit a progress update on your mini individual project.\n\n\nLooking ahead\nThe mini project will prepare you for the larger team-based final project. We will soon introduce the expectations for working with real farm data and collaborating with farmers.\n\nBack to course schedule ⏎",
+    "crumbs": [
+      "Weekly materials",
+      "Week 5"
+    ]
+  },
+  {
+    "objectID": "weeks/week-14.html",
+    "href": "weeks/week-14.html",
+    "title": "Week 14",
+    "section": "",
+    "text": "Introduction\nTeams use this week to finalize their analysis, results, documentation, and project deliverables.\n\n\nLearning goals\n\nFinalize project analysis and results\nEnsure code and data are organized\nComplete project documentation\nPrepare final deliverables\n\n\n\nLecture - Final Project Work\nGuidance and support for final project completion.\n\n\nLab - Final Project Work\nDedicated team time for analysis, documentation, and final deliverable preparation.\n\n\nDiscussion - Final Project Check-in\nFinal project review, troubleshooting, and feedback.\n\n\nAssignment\nComplete the final project deliverables and prepare for submission.\n\nBack to course schedule ⏎",
+    "crumbs": [
+      "Weekly materials",
+      "Week 14"
+    ]
+  },
+  {
+    "objectID": "weeks/week-2.html",
+    "href": "weeks/week-2.html",
+    "title": "Week 2",
+    "section": "",
+    "text": "Introduction\nThis week we move from writing code individually to managing and collaborating on code. We introduce Git, GitHub, branching, and basic principles for making data and code more reproducible.\n\n\nLearning goals\n\nUnderstand the fundamentals of Git and GitHub\nCreate and manage a GitHub repository\nUnderstand commits, issues, branches, and merge conflicts\nApply naming conventions and FAIR data principles\n\n\n\nLecture - Version Control Systems & Integration\nIntroduction to Git and GitHub, repository structure, commits, and collaborative workflows.\n\n\nLab - Broken Online, Merge Conflicts & Branching\nHands-on practice with the Octocat for GitHub workflows, resolving merge conflicts, creating branches, and merging changes.\n\n\nDiscussion - Naming Conventions & FAIR Principles\nWhy do consistent naming and data management practices matter?\nIntroduction to file and variable naming conventions and the FAIR principles: Findable, Accessible, Interoperable, and Reusable.\n\n\nAssignment\nPart 1: GitHub Education 1. Create a GitHub profile. 2. Create a public repository. 3. Share the repository through Canvas.\nPart 2: GitHub and Branching 1. Connect to the assigned repository. 2. Create a branch. 3. Create a merge conflict. 4. Try to merge the branch. 5. Resolve the merge conflict and complete the merge.\n\n\nLooking ahead\nNext week we will move from managing code to working with cloud computing, APIs, and agricultural data infrastructure.\n\nBack to course schedule ⏎",
+    "crumbs": [
+      "Weekly materials",
+      "Week 2"
+    ]
+  },
+  {
+    "objectID": "weeks/week-7.html",
+    "href": "weeks/week-7.html",
+    "title": "Week 7",
+    "section": "",
+    "text": "Introduction\nThis week marks the completion of the mini individual project. Students will present their work and reflect on teamwork and collaboration as we prepare to transition to the final project.\n\n\nLearning goals\n\nPresent and communicate the mini individual project\nReflect on project development and lessons learned\nUnderstand team dynamics using the DISC framework\nPrepare for the transition to the final team project\n\n\n\nLecture - Q&A\nFinal questions and preparation for the mini project presentation.\n\n\nLab - Mini Project Poster Presentations\nStudents present their mini individual projects and share their findings, approaches, and lessons learned.\n\n\nDiscussion - DISC Assessment of the Team\nIntroduction to the DISC framework and assessment of team dynamics.\n\n\nAssignment\nComplete the DISC assessment.\n\n\nLooking ahead\nAfter this week, the course shifts from the individual mini project to the final team project. We will begin working with real-world agricultural data and project partners.\n\nBack to course schedule ⏎",
+    "crumbs": [
+      "Weekly materials",
+      "Week 7"
+    ]
+  },
+  {
+    "objectID": "weeks/week-10.html",
+    "href": "weeks/week-10.html",
+    "title": "Week 10",
+    "section": "",
+    "text": "Introduction\nTeams continue developing their final projects, moving from project planning toward data collection, organization, and analysis.\n\n\nLearning goals\n\nRefine the final project question and objectives\nOrganize and prepare project data\nApply appropriate data science tools and methods\nWork effectively as a project team\n\n\n\nLecture - Final Project Development\nGuidance on project development, data preparation, and selecting appropriate approaches for the project question.\n\n\nLab - Final Project Work\nTeam-based project development, data organization, coding, and troubleshooting.\n\n\nDiscussion - Project Check-in\nTeams share progress, challenges, and next steps.\n\n\nAssignment\nContinue final project development and document project progress in GitHub.\n\n\nLooking ahead\nNext week we will continue developing the project, with increasing focus on analysis and modeling.\n\nBack to course schedule ⏎",
+    "crumbs": [
+      "Weekly materials",
+      "Week 10"
+    ]
+  },
+  {
+    "objectID": "weeks/week-9.html",
+    "href": "weeks/week-9.html",
+    "title": "Week 9",
+    "section": "",
+    "text": "Introduction\nThe final project begins this week. Students will transition from individual projects to a team-based real-world agricultural data science project.\n\n\nLearning goals\n\nUnderstand the final project scope and expectations\nConnect with real-world agricultural data and decision-making\nEstablish project teams, roles, and milestones\nBegin developing a project plan\n\n\n\nLecture - Final Project Kickoff\nIntroduction to the final project, project expectations, scope, and deliverables.\n\n\nLab - Farm Visit\nVisit a farm to observe agricultural data collection and understand how data are generated and used in practice.\n\n\nDiscussion - Final Project Planning\nTeams discuss their project objectives, roles, data needs, and initial milestones.\n\n\nAssignment\nDevelop an initial final project plan, including the project question, team roles, data needs, and next steps.\n\n\nLooking ahead\nThe following weeks will focus on developing the final project, from data acquisition and organization to analysis, modeling, and communication of results.\n\nBack to course schedule ⏎",
+    "crumbs": [
+      "Weekly materials",
+      "Week 9"
+    ]
+  },
+  {
+    "objectID": "weeks/week-11.html",
+    "href": "weeks/week-11.html",
+    "title": "Week 11",
+    "section": "",
+    "text": "Introduction\nTeams continue working on their final projects, moving from project planning toward analysis and results.\n\n\nLearning goals\n\nContinue analyzing project data\nApply appropriate data science methods\nInterpret preliminary results\nRefine the project based on feedback\n\n\n\nLecture - Final Project Work\nGuidance and support for ongoing project development.\n\n\nLab - Final Project Work\nTeam-based analysis, coding, visualization, and troubleshooting.\n\n\nDiscussion - Project Check-in\nTeams share progress and discuss challenges and next steps.\n\n\nAssignment\nSubmit a project progress update and maintain organized project files and commits.\n\nBack to course schedule ⏎",
+    "crumbs": [
+      "Weekly materials",
+      "Week 11"
+    ]
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#what-are-the-fair-principles",
+    "href": "slides/disc-2-fair.html#what-are-the-fair-principles",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "What are the FAIR principles",
+    "text": "What are the FAIR principles\nFAIR data is data which meets the FAIR principles of findability, accessibility, interoperability, and reusability (FAIR).[1][2] The acronym and principles were defined in a March 2016 paper in the journal Scientific Data by a consortium of scientists and organizations.[1]"
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#get-to-know-the-principles-1",
+    "href": "slides/disc-2-fair.html#get-to-know-the-principles-1",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Get to know the principles (1)",
+    "text": "Get to know the principles (1)\n\nGet familiar with FAIR by looking at this video.\nRead the intial publication on The FAIR Guiding Principles for scientific data management and stewardschip.\nExplore the vision of Cornell University on FAIR principles and their cheatsheets."
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#get-to-know-the-principles-2",
+    "href": "slides/disc-2-fair.html#get-to-know-the-principles-2",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Get to know the principles (2)",
+    "text": "Get to know the principles (2)\n\nCheck for reproducible advise in the tutorials at the bovi-analytics website.\nDiscuss with the entire team and Dr. Miel Hostens (contact him on his desk) on how this will reflect on your team project."
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#findable",
+    "href": "slides/disc-2-fair.html#findable",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Findable",
+    "text": "Findable\nThe first step in (re)using data is to find them. Metadata and data should be easy to find for both humans and computers. Machine-readable metadata are essential for automatic discovery of datasets and services, so this is an essential component of the FAIRification process."
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#findable-1",
+    "href": "slides/disc-2-fair.html#findable-1",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Findable",
+    "text": "Findable\n\nF1. (Meta)data are assigned a globally unique and persistent identifier\nF2. Data are described with rich metadata (defined by R1 below)\nF3. Metadata clearly and explicitly include the identifier of the data they describe\nF4. (Meta)data are registered or indexed in a searchable resource"
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#accessible",
+    "href": "slides/disc-2-fair.html#accessible",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Accessible",
+    "text": "Accessible\nOnce the user finds the required data, they need to know how they can be accessed, possibly including authentication and authorisation."
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#accessible-1",
+    "href": "slides/disc-2-fair.html#accessible-1",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Accessible",
+    "text": "Accessible\n\nA1. (Meta)data are retrievable by their identifier using a standardised communications protocol\nA1.1 The protocol is open, free, and universally implementable\nA1.2 The protocol allows for an authentication and authorisation procedure, where necessary\nA2. Metadata are accessible, even when the data are no longer available"
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#interoperable",
+    "href": "slides/disc-2-fair.html#interoperable",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Interoperable",
+    "text": "Interoperable\nThe data usually need to be integrated with other data. In addition, the data need to interoperate with applications or workflows for analysis, storage, and processing."
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#interoperable-1",
+    "href": "slides/disc-2-fair.html#interoperable-1",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Interoperable",
+    "text": "Interoperable\n\nI1. (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation.\nI2. (Meta)data use vocabularies that follow FAIR principles\nI3. (Meta)data include qualified references to other (meta)data"
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#reusable",
+    "href": "slides/disc-2-fair.html#reusable",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Reusable",
+    "text": "Reusable\nThe ultimate goal of FAIR is to optimise the reuse of data. To achieve this, metadata and data should be well-described so that they can be replicated and/or combined in different settings."
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#reusable-1",
+    "href": "slides/disc-2-fair.html#reusable-1",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Reusable",
+    "text": "Reusable\n\nR1. (Meta)data are richly described with a plurality of accurate and relevant attributes\nR1.1. (Meta)data are released with a clear and accessible data usage license\nR1.2. (Meta)data are associated with detailed provenance\nR1.3. (Meta)data meet domain-relevant community standards"
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#why-do-we-need-this",
+    "href": "slides/disc-2-fair.html#why-do-we-need-this",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Why do we need this",
+    "text": "Why do we need this\n\nDairy data science is multimodal, longitudinal, and collaborative\nNaming is not cosmetic — it is infrastructure\nMost downstream issues are caused by:\n\nAmbiguity\nInconsistency\nSilent semantic drift"
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#minutes-4-takeaways",
+    "href": "slides/disc-2-fair.html#minutes-4-takeaways",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "40 Minutes, 4 Takeaways",
+    "text": "40 Minutes, 4 Takeaways\n\nNaming conventions are scientific decisions\nBad names silently break analyis and models\nConventions must scale across projects & people\nGovernance matters more than documentation"
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#the-dairy-data-reality",
+    "href": "slides/disc-2-fair.html#the-dairy-data-reality",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "The Dairy Data Reality",
+    "text": "The Dairy Data Reality\n\nMultiple farms\nMultiple vendors\nMultiple countries\nMultiple disciplines:\n\nNutrition\nHealth\nBehavior\nProduction\n\n\n→ Names are the only shared language"
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#what-is-a-naming-convention",
+    "href": "slides/disc-2-fair.html#what-is-a-naming-convention",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "What Is a Naming Convention?",
+    "text": "What Is a Naming Convention?\n\nA set of agreed‑upon rules for creating unique, informative, and stable names for data objects.\n\nApplies to: - Variables - Tables - Files - Visuals - Ontology terms"
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#naming-style-preference",
+    "href": "slides/disc-2-fair.html#naming-style-preference",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Naming ≠ Style Preference",
+    "text": "Naming ≠ Style Preference\nBad naming causes: - Feature leakage - Wrong joins - Broken pipelines - Invalid within/between farm comparisons\nThese errors do not throw exceptions."
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#common-dairy-data-failures",
+    "href": "slides/disc-2-fair.html#common-dairy-data-failures",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Common Dairy Data Failures",
+    "text": "Common Dairy Data Failures\n\nDIM, days_in_milk, DaysInMilk\nmilk_yield, MilkYieldKg, MY\nother, Other, OTHER\nlactation_stage vs lactation_stages\n\nEach creates a new semantic entity"
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#names-encode-meaning",
+    "href": "slides/disc-2-fair.html#names-encode-meaning",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Names Encode Meaning",
+    "text": "Names Encode Meaning\nA good name answers:\n\nWhat?\nFor whom?\nIn what unit?\nAt what level?\nOver what time window?"
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#core-design-principles",
+    "href": "slides/disc-2-fair.html#core-design-principles",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Core Design Principles",
+    "text": "Core Design Principles\n\nConsistency over cleverness\nExplicit over implicit\nStable over convenient\nReadable by humans and machines"
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#scope-of-a-naming-convention",
+    "href": "slides/disc-2-fair.html#scope-of-a-naming-convention",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Scope of a Naming Convention",
+    "text": "Scope of a Naming Convention\nYou must define rules for:\n\n✅ Variables\n✅ Tables\n✅ Files\n✅ Features\n✅ Categories\n✅ Ontology terms\n\nPartial conventions always fail."
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#case-sensitivity-matters",
+    "href": "slides/disc-2-fair.html#case-sensitivity-matters",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Case Sensitivity Matters",
+    "text": "Case Sensitivity Matters\nChoose one and enforce it.\nRecommended:\n\nCamelCase for data schemas\nlower_snake_case for code variables\n\nNever mix within the same layer."
+  },
+  {
+    "objectID": "slides/disc-2-fair.html#variable-naming-pattern",
+    "href": "slides/disc-2-fair.html#variable-naming-pattern",
+    "title": "Discussion 2 - Reproducible & FAIR data science",
+    "section": "Variable Naming Pattern",
+    "text": "Variable Naming Pattern\nRecommended template:\n``"
   },
   {
     "objectID": "slides/disc-4-license.html#why-does-the-license-matter",
@@ -492,197 +748,179 @@
     "text": "Key takeaways\n\nAI/ML is everywhere\nML cleverly and automatically finds patterns in data\nFor ML you need the right data, model and metrics\nIt requires great care to properly train and validate a model"
   },
   {
-    "objectID": "slides/disc-2-fair.html#what-are-the-fair-principles",
-    "href": "slides/disc-2-fair.html#what-are-the-fair-principles",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "What are the FAIR principles",
-    "text": "What are the FAIR principles\nFAIR data is data which meets the FAIR principles of findability, accessibility, interoperability, and reusability (FAIR).[1][2] The acronym and principles were defined in a March 2016 paper in the journal Scientific Data by a consortium of scientists and organizations.[1]"
-  },
-  {
-    "objectID": "slides/disc-2-fair.html#get-to-know-the-principles-1",
-    "href": "slides/disc-2-fair.html#get-to-know-the-principles-1",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "Get to know the principles (1)",
-    "text": "Get to know the principles (1)\n\nGet familiar with FAIR by looking at this video.\nRead the intial publication on The FAIR Guiding Principles for scientific data management and stewardschip.\nExplore the vision of Cornell University on FAIR principles and their cheatsheets."
-  },
-  {
-    "objectID": "slides/disc-2-fair.html#get-to-know-the-principles-2",
-    "href": "slides/disc-2-fair.html#get-to-know-the-principles-2",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "Get to know the principles (2)",
-    "text": "Get to know the principles (2)\n\nCheck for reproducible advise in the tutorials at the bovi-analytics website.\nDiscuss with the entire team and Dr. Miel Hostens (contact him on his desk) on how this will reflect on your team project."
-  },
-  {
-    "objectID": "slides/disc-2-fair.html#findable",
-    "href": "slides/disc-2-fair.html#findable",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "Findable",
-    "text": "Findable\nThe first step in (re)using data is to find them. Metadata and data should be easy to find for both humans and computers. Machine-readable metadata are essential for automatic discovery of datasets and services, so this is an essential component of the FAIRification process."
-  },
-  {
-    "objectID": "slides/disc-2-fair.html#findable-1",
-    "href": "slides/disc-2-fair.html#findable-1",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "Findable",
-    "text": "Findable\n\nF1. (Meta)data are assigned a globally unique and persistent identifier\nF2. Data are described with rich metadata (defined by R1 below)\nF3. Metadata clearly and explicitly include the identifier of the data they describe\nF4. (Meta)data are registered or indexed in a searchable resource"
-  },
-  {
-    "objectID": "slides/disc-2-fair.html#accessible",
-    "href": "slides/disc-2-fair.html#accessible",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "Accessible",
-    "text": "Accessible\nOnce the user finds the required data, they need to know how they can be accessed, possibly including authentication and authorisation."
-  },
-  {
-    "objectID": "slides/disc-2-fair.html#accessible-1",
-    "href": "slides/disc-2-fair.html#accessible-1",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "Accessible",
-    "text": "Accessible\n\nA1. (Meta)data are retrievable by their identifier using a standardised communications protocol\nA1.1 The protocol is open, free, and universally implementable\nA1.2 The protocol allows for an authentication and authorisation procedure, where necessary\nA2. Metadata are accessible, even when the data are no longer available"
-  },
-  {
-    "objectID": "slides/disc-2-fair.html#interoperable",
-    "href": "slides/disc-2-fair.html#interoperable",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "Interoperable",
-    "text": "Interoperable\nThe data usually need to be integrated with other data. In addition, the data need to interoperate with applications or workflows for analysis, storage, and processing."
-  },
-  {
-    "objectID": "slides/disc-2-fair.html#interoperable-1",
-    "href": "slides/disc-2-fair.html#interoperable-1",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "Interoperable",
-    "text": "Interoperable\n\nI1. (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation.\nI2. (Meta)data use vocabularies that follow FAIR principles\nI3. (Meta)data include qualified references to other (meta)data"
-  },
-  {
-    "objectID": "slides/disc-2-fair.html#reusable",
-    "href": "slides/disc-2-fair.html#reusable",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "Reusable",
-    "text": "Reusable\nThe ultimate goal of FAIR is to optimise the reuse of data. To achieve this, metadata and data should be well-described so that they can be replicated and/or combined in different settings."
-  },
-  {
-    "objectID": "slides/disc-2-fair.html#reusable-1",
-    "href": "slides/disc-2-fair.html#reusable-1",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "Reusable",
-    "text": "Reusable\n\nR1. (Meta)data are richly described with a plurality of accurate and relevant attributes\nR1.1. (Meta)data are released with a clear and accessible data usage license\nR1.2. (Meta)data are associated with detailed provenance\nR1.3. (Meta)data meet domain-relevant community standards"
-  },
-  {
-    "objectID": "slides/disc-2-fair.html#why-do-we-need-this",
-    "href": "slides/disc-2-fair.html#why-do-we-need-this",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "Why do we need this",
-    "text": "Why do we need this\n\nDairy data science is multimodal, longitudinal, and collaborative\nNaming is not cosmetic — it is infrastructure\nMost downstream issues are caused by:\n\nAmbiguity\nInconsistency\nSilent semantic drift"
-  },
-  {
-    "objectID": "slides/disc-2-fair.html#minutes-4-takeaways",
-    "href": "slides/disc-2-fair.html#minutes-4-takeaways",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "40 Minutes, 4 Takeaways",
-    "text": "40 Minutes, 4 Takeaways\n\nNaming conventions are scientific decisions\nBad names silently break analyis and models\nConventions must scale across projects & people\nGovernance matters more than documentation"
-  },
-  {
-    "objectID": "slides/disc-2-fair.html#the-dairy-data-reality",
-    "href": "slides/disc-2-fair.html#the-dairy-data-reality",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "The Dairy Data Reality",
-    "text": "The Dairy Data Reality\n\nMultiple farms\nMultiple vendors\nMultiple countries\nMultiple disciplines:\n\nNutrition\nHealth\nBehavior\nProduction\n\n\n→ Names are the only shared language"
-  },
-  {
-    "objectID": "slides/disc-2-fair.html#what-is-a-naming-convention",
-    "href": "slides/disc-2-fair.html#what-is-a-naming-convention",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "What Is a Naming Convention?",
-    "text": "What Is a Naming Convention?\n\nA set of agreed‑upon rules for creating unique, informative, and stable names for data objects.\n\nApplies to: - Variables - Tables - Files - Visuals - Ontology terms"
-  },
-  {
-    "objectID": "slides/disc-2-fair.html#naming-style-preference",
-    "href": "slides/disc-2-fair.html#naming-style-preference",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "Naming ≠ Style Preference",
-    "text": "Naming ≠ Style Preference\nBad naming causes: - Feature leakage - Wrong joins - Broken pipelines - Invalid within/between farm comparisons\nThese errors do not throw exceptions."
-  },
-  {
-    "objectID": "slides/disc-2-fair.html#common-dairy-data-failures",
-    "href": "slides/disc-2-fair.html#common-dairy-data-failures",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "Common Dairy Data Failures",
-    "text": "Common Dairy Data Failures\n\nDIM, days_in_milk, DaysInMilk\nmilk_yield, MilkYieldKg, MY\nother, Other, OTHER\nlactation_stage vs lactation_stages\n\nEach creates a new semantic entity"
-  },
-  {
-    "objectID": "slides/disc-2-fair.html#names-encode-meaning",
-    "href": "slides/disc-2-fair.html#names-encode-meaning",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "Names Encode Meaning",
-    "text": "Names Encode Meaning\nA good name answers:\n\nWhat?\nFor whom?\nIn what unit?\nAt what level?\nOver what time window?"
-  },
-  {
-    "objectID": "slides/disc-2-fair.html#core-design-principles",
-    "href": "slides/disc-2-fair.html#core-design-principles",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "Core Design Principles",
-    "text": "Core Design Principles\n\nConsistency over cleverness\nExplicit over implicit\nStable over convenient\nReadable by humans and machines"
-  },
-  {
-    "objectID": "slides/disc-2-fair.html#scope-of-a-naming-convention",
-    "href": "slides/disc-2-fair.html#scope-of-a-naming-convention",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "Scope of a Naming Convention",
-    "text": "Scope of a Naming Convention\nYou must define rules for:\n\n✅ Variables\n✅ Tables\n✅ Files\n✅ Features\n✅ Categories\n✅ Ontology terms\n\nPartial conventions always fail."
-  },
-  {
-    "objectID": "slides/disc-2-fair.html#case-sensitivity-matters",
-    "href": "slides/disc-2-fair.html#case-sensitivity-matters",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "Case Sensitivity Matters",
-    "text": "Case Sensitivity Matters\nChoose one and enforce it.\nRecommended:\n\nCamelCase for data schemas\nlower_snake_case for code variables\n\nNever mix within the same layer."
-  },
-  {
-    "objectID": "slides/disc-2-fair.html#variable-naming-pattern",
-    "href": "slides/disc-2-fair.html#variable-naming-pattern",
-    "title": "Discussion 2 - Reproducible & FAIR data science",
-    "section": "Variable Naming Pattern",
-    "text": "Variable Naming Pattern\nRecommended template:\n``"
-  },
-  {
-    "objectID": "labs/lab-0.html",
-    "href": "labs/lab-0.html",
-    "title": "Lab 0 - Meet + greet",
-    "section": "",
-    "text": "Today’s lab is short and sweet! We just need you to fill out the “Getting to know you” survey. Please go here to take it. You will need to log on to Sakai to access to survey.\nYour answers can be brief. Some of your answers will be used to guide what application examples might be of interest to a majority of students in the course and some of your answers will be used to help guide team formation. We expect this will take you ~10 minutes."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Data Science Applications in Agriculture",
-    "section": "",
-    "text": "This page contains an outline of the topics, content, and assignments for the course.\nNote that this schedule will be updated as the course progresses, with all changes documented here.\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\nLEC\nLAB\nDISC\n\n\n\n\n1\n8/24\nData Science in Agriculture\n🖥️\n\n\n\n\n2\n8/31\nVersion Control Systems, Naming Conventions & FAIR Principles\n🖥️\n\n🖥️\n\n\n3\n9/7\nCloud Computing, APIs & Hardware, Data Governance & Data Lineage\nLabor day\n🖥️\n🖥️\n\n\n4\n9/14\nML and AI Basics, package management, model serving, licensing & data usage\n🖥️\n\n🖥️\n\n\n5\n9/21\nIndividual project, data visualisation\n🖥️\n\n\n\n\n6\n9/28\nIndividual project\n🖥️\n\n\n\n\n7\n10/5\nIndividual project - Team management\n🖥️\n\n\n\n\n8\n10/12\nTeam project\nFall break\nFall break\n\n\n\n9\n10/19\nTeam project - Project planning\n🖥️\nFarm visit\n\n\n\n10\n10/26\nTeam project\n🖥️\n\n\n\n\n11\n11/2\nTeam project\n🖥️\n\n\n\n\n12\n11/9\nTeam project\n🖥️\n\n\n\n\n13\n11/16\nTeam project\n🖥️\n\n\n\n\n14\n11/23\nTeam project\n🖥️\n\n\n\n\n15\n11/30\nProject presentation\n🖥️",
+    "objectID": "slides/lec-2-git.html#todays-goal",
+    "href": "slides/lec-2-git.html#todays-goal",
+    "title": "Lecture 2 - Version Control for Data Science",
+    "section": "Today’s goal",
+    "text": "Today’s goal\nBy the end of today, you should be able to explain:\n\nWhy version control exists, what a Git workflow is doing, and what parts of a data-science project should be versioned.\n\n\nWe will learn this by experiencing the problem first.",
     "crumbs": [
-      "Course information",
-      "Schedule"
+      "Slides",
+      "Week 2 - Git"
     ]
   },
   {
-    "objectID": "computing-access.html",
-    "href": "computing-access.html",
-    "title": "Computing access",
-    "section": "",
-    "text": "You can choose 2 ways of working with Python.\n\nOnline\nTo access computing resources for this course we will make use of the Google Colab computing services linked to the course drive storage. The link to the Google Drive can be found at Useful links\nMake sure you get familiar with Google Colab by reading and trying to run your first pieces of code in the ‘Welcome To Colaboratory’ notebook. We recommend using Colab as it will be easier to work simultaneously with your group mates on the project.\nThe Dodona exercises can also be done in colab. Make sure to make a folder with your name to store your notebooks within the Google Drive environment. Google offers a free premium version of colab for Cornell students, you can register for this using your Cornell email adress.\n\n\nOffline\nYou can also chose to work in Python on your desktop. This can be done using PyCharm in combination with an Anaconda environment, as configured through Dodona. If you encounter any confusion related to these differences or the environment setup, feel free to reach out to the TA for assistance. Other python interperters like VS code also work.",
+    "objectID": "slides/lec-2-git.html#part-1-the-data-science-crime-scene",
+    "href": "slides/lec-2-git.html#part-1-the-data-science-crime-scene",
+    "title": "Lecture 2 - Version Control for Data Science",
+    "section": "Part 1 — The data-science crime scene",
+    "text": "Part 1 — The data-science crime scene\nYour mission: reproduce the published result.\n\nRMSE = 0.18 kg CH₄/cow/day\n\nYou have a folder:\nanalysis.py\nanalysis_final.py\nanalysis_final2.py\nanalysis_FINAL_really.py\nmilk_production.csv\nmilk_production_cleaned.csv\ndata_new.csv\n\nWhat went wrong?",
     "crumbs": [
-      "Computing",
-      "Access"
+      "Slides",
+      "Week 2 - Git"
     ]
   },
   {
-    "objectID": "project-tips-resources.html",
-    "href": "project-tips-resources.html",
-    "title": "Tips & Tricks",
-    "section": "",
-    "text": "🚀 1. Think Like a Problem-Solver, Not a Note-Taker\nThis course uses challenge-based learning where you solve real agricultural problems in collaboration with farmers and stakeholders. Early in the semester, create a shared team document to track problem definitions and evolving insights.\n\n\n📅 2. Follow the Weekly Rhythm\nLectures → weekly coding labs → project meetings. Dodona assignments are due every Monday at 24:00. Set reminders and avoid last-minute work.\n\n\n💡 3. Coding: Small Bursts Beat Sprints\nYour individual grade = group project grade × percentage of assignments you complete × coding exam. Submit early, refine often, and test code on small inputs before using real farm datasets.\n\n\n👩‍🌾 4. Prepare for Farmer Meetings Like a Consultant\nBefore meeting farmers, prepare three question types: * Clarifying questions * Data-oriented questions * Impact-oriented questions\n\n\n🧹 5. Data Governance & FAIR Principles Matter\nYour project fails automatically if you ignore FAIR principles. Create a shared checklist covering naming conventions, documentation, and file structure.\n\n\n📊 6. Visualize Before You Model\nGenerate key visuals (missing data, histograms, time series, scatter matrices) before applying algorithms.\n\n\n🤝 7. Take Weekly Project Meetings Seriously\nArrive prepared with one question, one update, and one risk. This dramatically reduces last-minute chaos.\n\n\n🧭 8. Scope Your Project Ruthlessly\nCreate a “Not Doing” list by Week 3 to keep your project realistic and implementable.\n\n\n🎤 9. Present for Stakeholders, Not Teachers\nTranslate technical results into statements like: * “This helps you decide…” * “This reduces risk by…”\n\n\n📝 10. Practice Strong Academic Integrity\nDocument all external assistance, including AI tools, and cite everything properly.",
+    "objectID": "slides/lec-2-git.html#what-information-are-we-missing",
+    "href": "slides/lec-2-git.html#what-information-are-we-missing",
+    "title": "Lecture 2 - Version Control for Data Science",
+    "section": "What information are we missing?",
+    "text": "What information are we missing?\n\nWhich version was used?\nWhat changed?\nWho changed it?\nWhen did it change?\nWhy was it changed?\nCan we go back?\nCan someone else reproduce it?\n\n\nThis is the problem version control is designed to solve.",
     "crumbs": [
-      "Project",
-      "Tips + resources"
+      "Slides",
+      "Week 2 - Git"
+    ]
+  },
+  {
+    "objectID": "slides/lec-2-git.html#part-2-git-without-computers",
+    "href": "slides/lec-2-git.html#part-2-git-without-computers",
+    "title": "Lecture 2 - Version Control for Data Science",
+    "section": "Part 2 — Git without computers",
+    "text": "Part 2 — Git without computers\nCan you build the most probable project history:\nSTART → [v1] → [v2] ...",
+    "crumbs": [
+      "Slides",
+      "Week 2 - Git"
+    ]
+  },
+  {
+    "objectID": "slides/lec-2-git.html#commit",
+    "href": "slides/lec-2-git.html#commit",
+    "title": "Lecture 2 - Version Control for Data Science",
+    "section": "Commit",
+    "text": "Commit\nA commit is a recorded checkpoint.\n\nA useful mental model:\n\nGit remembers how the project got here.",
+    "crumbs": [
+      "Slides",
+      "Week 2 - Git"
+    ]
+  },
+  {
+    "objectID": "slides/lec-2-git.html#branching",
+    "href": "slides/lec-2-git.html#branching",
+    "title": "Lecture 2 - Version Control for Data Science",
+    "section": "Branching",
+    "text": "Branching\nStudent 1 and student 2 need to try different ideas.\n                 ┌──── Student 1: new model ──────┐\nmain ────────────┤                                ├── merge\n                 └──── Student 2: new variable ───┘\nQuestion for you:\n\nWhy not just overwrite the same files?\n\n\nA branch lets us experiment without destroying the main line of work.",
+    "crumbs": [
+      "Slides",
+      "Week 2 - Git"
+    ]
+  },
+  {
+    "objectID": "slides/lec-2-git.html#pull-merge",
+    "href": "slides/lec-2-git.html#pull-merge",
+    "title": "Lecture 2 - Version Control for Data Science",
+    "section": "Pull & merge",
+    "text": "Pull & merge\nTwo people have different histories.\nYou:      A ─ B ─ C\n                 \\\nRemote:   A ─ B ─ D\nPull → bring remote changes into your local project.\nMerge → combine histories.\n\nAnd sometimes:\n\nMerge conflict.\n\nThat is not a Git failure. It is Git asking a human to make the scientific decision.",
+    "crumbs": [
+      "Slides",
+      "Week 2 - Git"
+    ]
+  },
+  {
+    "objectID": "slides/lec-2-git.html#what-should-we-version",
+    "href": "slides/lec-2-git.html#what-should-we-version",
+    "title": "Lecture 2 - Version Control for Data Science",
+    "section": "What should we version?",
+    "text": "What should we version?\nWhat about these files?\nanalysis.py\nmodel_parameters.yml\nREADME.md\nrequirements.txt",
+    "crumbs": [
+      "Slides",
+      "Week 2 - Git"
+    ]
+  },
+  {
+    "objectID": "slides/lec-2-git.html#what-should-we-version-1",
+    "href": "slides/lec-2-git.html#what-should-we-version-1",
+    "title": "Lecture 2 - Version Control for Data Science",
+    "section": "What should we version?",
+    "text": "What should we version?\nWhat about these files?\nraw_big_dataset.csv\nmodel.pkl\ntemporary_plot.png\noutputs/",
+    "crumbs": [
+      "Slides",
+      "Week 2 - Git"
+    ]
+  },
+  {
+    "objectID": "slides/lec-2-git.html#what-should-we-version-2",
+    "href": "slides/lec-2-git.html#what-should-we-version-2",
+    "title": "Lecture 2 - Version Control for Data Science",
+    "section": "What should we version?",
+    "text": "What should we version?\nWhat about these files?\npassword.txt\nAPI_key.txt\n.env",
+    "crumbs": [
+      "Slides",
+      "Week 2 - Git"
+    ]
+  },
+  {
+    "objectID": "slides/lec-2-git.html#version-controlled",
+    "href": "slides/lec-2-git.html#version-controlled",
+    "title": "Lecture 2 - Version Control for Data Science",
+    "section": "Version controlled",
+    "text": "Version controlled\nYES\n\ncode\nconfiguration\ndocumentation\nsmall text-based metadata",
+    "crumbs": [
+      "Slides",
+      "Week 2 - Git"
+    ]
+  },
+  {
+    "objectID": "slides/lec-2-git.html#version-controlled-1",
+    "href": "slides/lec-2-git.html#version-controlled-1",
+    "title": "Lecture 2 - Version Control for Data Science",
+    "section": "Version controlled",
+    "text": "Version controlled\nNO\n\nlarge raw data\ntemporary files\nsecrets\ngenerated outputs\nlocal machine files\n\n\nThis leads to .gitignore.\n\nTell Git what not to track.",
+    "crumbs": [
+      "Slides",
+      "Week 2 - Git"
+    ]
+  },
+  {
+    "objectID": "slides/lec-2-git.html#gitignore",
+    "href": "slides/lec-2-git.html#gitignore",
+    "title": "Lecture 2 - Version Control for Data Science",
+    "section": ".gitignore",
+    "text": ".gitignore\nTypical python .gitignore:\n# Local / temporary files\n.DS_Store\n*.tmp\n\n# Python cache\n__pycache__/\n\n# Generated outputs\noutputs/\n\n# Secrets\n.env\n*.key",
+    "crumbs": [
+      "Slides",
+      "Week 2 - Git"
+    ]
+  },
+  {
+    "objectID": "slides/lec-2-git.html#the-data-science-twist",
+    "href": "slides/lec-2-git.html#the-data-science-twist",
+    "title": "Lecture 2 - Version Control for Data Science",
+    "section": "The data-science twist",
+    "text": "The data-science twist\nA result depends on more than code.\n          code\n            ↓\nraw data → preprocessing → model → result\n            ↑                ↑\n        parameters       environment\nReproducibility means thinking about the whole chain.\n\nGit is one piece of that system — not the entire system.",
+    "crumbs": [
+      "Slides",
+      "Week 2 - Git"
+    ]
+  },
+  {
+    "objectID": "slides/lec-2-git.html#why-version-control-when-i-work-alone",
+    "href": "slides/lec-2-git.html#why-version-control-when-i-work-alone",
+    "title": "Lecture 2 - Version Control for Data Science",
+    "section": "Why version control when I work alone?",
+    "text": "Why version control when I work alone?\n\nWhy would a solo scientist use version control?\n\nThen ask:\n\nWhat would you want to undo, compare, or understand six months from now?\n\n\nThe answer is often:\n\n“I want to know what I did — and be able to go back.”",
+    "crumbs": [
+      "Slides",
+      "Week 2 - Git"
+    ]
+  },
+  {
+    "objectID": "slides/lec-2-git.html#one-mental-model-to-take-home",
+    "href": "slides/lec-2-git.html#one-mental-model-to-take-home",
+    "title": "Lecture 2 - Version Control for Data Science",
+    "section": "One mental model to take home",
+    "text": "One mental model to take home\n       experiment\n           ↓\n       change files\n           ↓\n        commit\n           ↓\n   keep a reliable history\n      ↙           ↘\n   branch         collaborate\n      ↘           ↙\n          merge\n\nVersion control is not mainly about commands.\nIt is about history, reproducibility, and safe change.",
+    "crumbs": [
+      "Slides",
+      "Week 2 - Git"
     ]
   },
   {
@@ -1166,187 +1404,198 @@
     "text": "Remember\n\nDifferences are normal\nAwareness reduces friction\nAdaptation improves teams\n\nDISC gives us a shared language — what you do with it is up to you."
   },
   {
-    "objectID": "slides/lec-2-git.html#todays-goal",
-    "href": "slides/lec-2-git.html#todays-goal",
-    "title": "Lecture 2 - Version Control for Data Science",
-    "section": "Today’s goal",
-    "text": "Today’s goal\nBy the end of today, you should be able to explain:\n\nWhy version control exists, what a Git workflow is doing, and what parts of a data-science project should be versioned.\n\n\nWe will learn this by experiencing the problem first.",
+    "objectID": "weeks/week-1.html",
+    "href": "weeks/week-1.html",
+    "title": "Week 1",
+    "section": "",
+    "text": "Introduction\nWelcome to Data Science Applications in Agriculture! In this course, we explore how data science, programming, AI, and digital technologies can be applied to real-world agricultural problems and decision-making.\n\n\nLearning goals\n\nUnderstand the course structure, expectations, and semester projects\nGet to know the instructional team and project topics\nUnderstand the role of data science in agriculture\nSet up a programming environment and run basic Python code\n\nPlease take a moment to fill in this form so we can tailor the course to your needs: Pre-course questionnaire\n\n\nLecture - Course Overview\nIntroduction to the course, expectations, semester projects, and applications of data science in agriculture.\n\n\nLab - Toolbox: IDEs, Programming Languages & Vibe Coding\nIntroduction to common development tools, including VS Code, Google Colab, Cursor, PyCharm, RStudio, and Claude Cowork.\nStudents will set up VS Code for Python and run a basic Python program.\n\n\nDiscussion - Data Science in Agriculture\nWhat is data science, and how is it changing agriculture?\nTopics include data lineage, satellite data, AI agents, and packages and environment management.\n\n\nAssignment\n\nRun a provided Python program using one of the IDEs introduced in class and submit a screenshot showing successful execution.\nProfile on Github Education shared through Canvas\n\n\n\nLooking ahead\nNext week we will introduce Git and GitHub to help us track, organize, and collaborate on our code and projects.\n\nBack to course schedule",
     "crumbs": [
-      "Slides",
-      "Week 2 - Git"
+      "Weekly materials",
+      "Week 1"
     ]
   },
   {
-    "objectID": "slides/lec-2-git.html#part-1-the-data-science-crime-scene",
-    "href": "slides/lec-2-git.html#part-1-the-data-science-crime-scene",
-    "title": "Lecture 2 - Version Control for Data Science",
-    "section": "Part 1 — The data-science crime scene",
-    "text": "Part 1 — The data-science crime scene\nYour mission: reproduce the published result.\n\nRMSE = 0.18 kg CH₄/cow/day\n\nYou have a folder:\nanalysis.py\nanalysis_final.py\nanalysis_final2.py\nanalysis_FINAL_really.py\nmilk_production.csv\nmilk_production_cleaned.csv\ndata_new.csv\n\nWhat went wrong?",
+    "objectID": "weeks/week-8.html",
+    "href": "weeks/week-8.html",
+    "title": "Week 8",
+    "section": "",
+    "text": "Introduction\nThis week is the transition point between the mini individual project and the final team project.\n\n\nLearning goals\n\nReflect on the mini project experience\nUnderstand the expectations for the final project\nPrepare for working with real-world agricultural data\n\n\n\nLecture / Lab / Discussion - TBD\nFall Break. A project check-in or recovery session may be scheduled depending on course needs.\n\n\nLooking ahead\nNext week we will officially kick off the final project, establish teams and project goals, and visit a farm to understand agricultural data collection in practice.\n\nBack to course schedule ⏎",
     "crumbs": [
-      "Slides",
-      "Week 2 - Git"
+      "Weekly materials",
+      "Week 8"
     ]
   },
   {
-    "objectID": "slides/lec-2-git.html#what-information-are-we-missing",
-    "href": "slides/lec-2-git.html#what-information-are-we-missing",
-    "title": "Lecture 2 - Version Control for Data Science",
-    "section": "What information are we missing?",
-    "text": "What information are we missing?\n\nWhich version was used?\nWhat changed?\nWho changed it?\nWhen did it change?\nWhy was it changed?\nCan we go back?\nCan someone else reproduce it?\n\n\nThis is the problem version control is designed to solve.",
+    "objectID": "weeks/week-13.html",
+    "href": "weeks/week-13.html",
+    "title": "Week 13",
+    "section": "",
+    "text": "Introduction\nTeams begin bringing their final projects together and preparing to communicate their findings.\n\n\nLearning goals\n\nRefine project results\nImprove data visualization and communication\nConnect findings to the agricultural problem\nPrepare project documentation\n\n\n\nLecture - Final Project Work\nGuidance and support for final project development and communication.\n\n\nLab - Final Project Work\nTeams refine analysis, visualizations, documentation, and deliverables.\n\n\nDiscussion - Project Feedback\nTeams review their progress and receive feedback on their final project.\n\n\nAssignment\nContinue final project development and prepare materials for final submission.\n\nBack to course schedule ⏎",
     "crumbs": [
-      "Slides",
-      "Week 2 - Git"
+      "Weekly materials",
+      "Week 13"
     ]
   },
   {
-    "objectID": "slides/lec-2-git.html#part-2-git-without-computers",
-    "href": "slides/lec-2-git.html#part-2-git-without-computers",
-    "title": "Lecture 2 - Version Control for Data Science",
-    "section": "Part 2 — Git without computers",
-    "text": "Part 2 — Git without computers\nCan you build the most probable project history:\nSTART → [v1] → [v2] ...",
+    "objectID": "weeks/week-3.html",
+    "href": "weeks/week-3.html",
+    "title": "Week 3",
+    "section": "",
+    "text": "Introduction\nAgricultural data are increasingly collected, stored, and processed across cloud platforms and connected systems. This week we explore the infrastructure and governance needed to work with these data responsibly.\n\n\nLearning goals\n\nUnderstand basic concepts of cloud computing, APIs, and data infrastructure\nConnect Git workflows with cloud-based computing\nUnderstand data governance and data lineage\nRecognize the importance of data agreements and responsible data use\n\n\n\nLecture - Cloud Computing, APIs & Hardware\nIntroduction to cloud computing, APIs, hardware, compute and storage, and cloud-based agricultural data workflows.\nTopics include Databricks and Git integration (creating a notebook, reading the data and making a basic data profile), data agreements and licensing.\n\n\nLab - Cloud-Based Data Workflow\nHands-on introduction to a simple cloud-based workflow using Git and Databricks.\n\n\nDiscussion - Data Governance & Data Lineage\nHow do we know where agricultural data come from, how they have been changed, and who can use them?\nIntroduction to data governance and tracking data lineage in agricultural datasets.\n\n\nAssignment\n\nGet Databricks Education access as a student. Complete the student test/tutorial. Invite Dr. Miel to your Databricks workspace.\nCreate or use your personal GitHub repository and make sure the repository is set to PUBLIC.\nComplete the simple cloud-based workflow assignment using Git and Databricks. Submit the link to your GitHub page in Canvas.\nSelect an open-source license by following the provided flowchart. Add the selected license to your personal GitHub repository and submit the GitHub link in Canvas.\nComplete the Data Agreement Template. Upload the completed template to your personal GitHub repository and submit the GitHub link in Canvas.\n\n\n\nLooking ahead\nNext week we will introduce machine learning and artificial intelligence and begin connecting our data workflows to predictive models.\n\nBack to course schedule ⏎",
     "crumbs": [
-      "Slides",
-      "Week 2 - Git"
+      "Weekly materials",
+      "Week 3"
     ]
   },
   {
-    "objectID": "slides/lec-2-git.html#commit",
-    "href": "slides/lec-2-git.html#commit",
-    "title": "Lecture 2 - Version Control for Data Science",
-    "section": "Commit",
-    "text": "Commit\nA commit is a recorded checkpoint.\n\nA useful mental model:\n\nGit remembers how the project got here.",
+    "objectID": "weeks/week-6.html",
+    "href": "weeks/week-6.html",
+    "title": "Week 6",
+    "section": "",
+    "text": "Introduction\nThis week provides additional time to develop, test, and refine the mini individual project before the final presentation milestone.\n\n\nLearning goals\n\nContinue developing the mini individual project\nApply feedback to improve the project\nPractice reproducible coding and project organization\nPrepare the project for presentation\n\n\n\nLecture - ML and AI Basics\nIntroduction to machine learning and artificial intelligence, with examples from agriculture (Supervised vs. unsupervised learning in agricultural contexts) (Part 2)\n\n\nLab - Work on Mini Individual Project\nHands-on project development, troubleshooting, and instructor feedback.\n\n\nDiscussion - Q&A\nPeer discussion and feedback on project progress.\n\n\nAssignment\nSubmit a progress update on the mini individual project and ensure your latest project work and commits are submitted through Canvas.\n\n\nLooking ahead\nNext week we will present the mini projects and complete a DISC team assessment. After that, the course will shift toward the final team project.\n\nBack to course schedule ⏎",
     "crumbs": [
-      "Slides",
-      "Week 2 - Git"
+      "Weekly materials",
+      "Week 6"
     ]
   },
   {
-    "objectID": "slides/lec-2-git.html#branching",
-    "href": "slides/lec-2-git.html#branching",
-    "title": "Lecture 2 - Version Control for Data Science",
-    "section": "Branching",
-    "text": "Branching\nStudent 1 and student 2 need to try different ideas.\n                 ┌──── Student 1: new model ──────┐\nmain ────────────┤                                ├── merge\n                 └──── Student 2: new variable ───┘\nQuestion for you:\n\nWhy not just overwrite the same files?\n\n\nA branch lets us experiment without destroying the main line of work.",
+    "objectID": "weeks/week-12.html",
+    "href": "weeks/week-12.html",
+    "title": "Week 12",
+    "section": "",
+    "text": "Introduction\nThis week focuses on developing, refining, and interpreting the results of the final project.\n\n\nLearning goals\n\nRefine project analysis\nInterpret and evaluate results\nImprove project visualizations\nAddress project challenges and limitations\n\n\n\nLecture - Final Project Work\nGuidance and support for final project development.\n\n\nLab - Final Project Work\nTeams continue analysis, modeling, visualization, and project documentation.\n\n\nDiscussion - Project Check-in\nPeer and instructor feedback on project progress.\n\n\nAssignment\nContinue final project development and incorporate feedback into the project.\n\nBack to course schedule ⏎",
     "crumbs": [
-      "Slides",
-      "Week 2 - Git"
+      "Weekly materials",
+      "Week 12"
     ]
   },
   {
-    "objectID": "slides/lec-2-git.html#pull-merge",
-    "href": "slides/lec-2-git.html#pull-merge",
-    "title": "Lecture 2 - Version Control for Data Science",
-    "section": "Pull & merge",
-    "text": "Pull & merge\nTwo people have different histories.\nYou:      A ─ B ─ C\n                 \\\nRemote:   A ─ B ─ D\nPull → bring remote changes into your local project.\nMerge → combine histories.\n\nAnd sometimes:\n\nMerge conflict.\n\nThat is not a Git failure. It is Git asking a human to make the scientific decision.",
+    "objectID": "weeks/week-4.html",
+    "href": "weeks/week-4.html",
+    "title": "Week 4",
+    "section": "",
+    "text": "Introduction\nThis week we move from managing agricultural data to using it for prediction and learning. We introduce the foundations of machine learning and AI and begin exploring how these approaches can support agricultural applications.\n\n\nLearning goals\n\nUnderstand the basic concepts of machine learning and artificial intelligence\nDistinguish between supervised and unsupervised learning\nSet up a mini individual project\nExplore packages, Hugging Face models, and model serving\n\n\n\nLecture - ML and AI Basics\nIntroduction to machine learning and artificial intelligence, with examples from agriculture (Part 1)\n\n\nLab - Project Mini: Packages, Hugging Face & Model Serving\nIntroduction to the mini individual project and explore Python packages, Hugging Face models, and basic model serving.\n\n\nDiscussion - Ethical and Efficient Use of AI\nHow can we use AI effectively, responsibly, and efficiently in agricultural data science?\n\n\nAssignment\nSubmit a concept note outlining your plan for a mini individual project. Update your README to include your individual project plan, and submit the GitHub repository link to Canvas.\n\n\nLooking ahead\nNext week we will begin working on the mini individual projects, applying the tools and concepts introduced so far.\n\nBack to course schedule ⏎",
     "crumbs": [
-      "Slides",
-      "Week 2 - Git"
+      "Weekly materials",
+      "Week 4"
     ]
   },
   {
-    "objectID": "slides/lec-2-git.html#what-should-we-version",
-    "href": "slides/lec-2-git.html#what-should-we-version",
-    "title": "Lecture 2 - Version Control for Data Science",
-    "section": "What should we version?",
-    "text": "What should we version?\nWhat about these files?\nanalysis.py\nmodel_parameters.yml\nREADME.md\nrequirements.txt",
+    "objectID": "weeks/week-15.html",
+    "href": "weeks/week-15.html",
+    "title": "Week 15",
+    "section": "",
+    "text": "Introduction\nThe final week brings together the skills developed throughout the semester through the completion and submission of the final project.\n\n\nLearning goals\n\nComplete and submit the final project\nCommunicate final project outcomes\nReflect on the semester and lessons learned\nIdentify next steps in data science for agriculture\n\n\n\nLecture - Final Project Wrap-up\nFinal project preparation and submission guidance.\n\n\nLab - Final Project Submission\nFinal project deliverables are due on Tuesday, December 1.\n\n\nDiscussion - Course Wrap-up & Reflection\nReflect on the course, project experience, tools learned, and applications of data science in agriculture.\n\n\nAssignment\nSubmit the final project deliverables.\n\nBack to course schedule ⏎"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Data Science Applications in Agriculture",
+    "section": "",
+    "text": "This page contains an outline of the topics, content, and assignments for the course.\nNote that this schedule will be updated as the course progresses, with all changes documented here.\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\nLEC\nLAB\nDISC\n\n\n\n\n1\n8/24\nData Science in Agriculture\n🖥️\n\n\n\n\n2\n8/31\nVersion Control Systems, Naming Conventions & FAIR Principles\n🖥️\n\n🖥️\n\n\n3\n9/7\nCloud Computing, APIs & Hardware, Data Governance & Data Lineage\nLabor day\n🖥️\n🖥️\n\n\n4\n9/14\nML and AI Basics, package management, model serving, licensing & data usage\n🖥️\n\n🖥️\n\n\n5\n9/21\nIndividual project, project plan, data cleaning, performance metrics\n🖥️\n\n\n\n\n6\n9/28\nIndividual project\n🖥️\n\n\n\n\n7\n10/5\nIndividual project - Team management\n🖥️\n\n\n\n\n8\n10/12\nTeam project\nFall break\nFall break\n\n\n\n9\n10/19\nTeam project - Project planning\n🖥️\nFarm visit\n\n\n\n10\n10/26\nTeam project\n🖥️\n\n\n\n\n11\n11/2\nTeam project\n🖥️\n\n\n\n\n12\n11/9\nTeam project\n🖥️\n\n\n\n\n13\n11/16\nTeam project\n🖥️\n\n\n\n\n14\n11/23\nTeam project\n🖥️\n\n\n\n\n15\n11/30\nProject presentation\n🖥️",
     "crumbs": [
-      "Slides",
-      "Week 2 - Git"
+      "Course information",
+      "Schedule"
     ]
   },
   {
-    "objectID": "slides/lec-2-git.html#what-should-we-version-1",
-    "href": "slides/lec-2-git.html#what-should-we-version-1",
-    "title": "Lecture 2 - Version Control for Data Science",
-    "section": "What should we version?",
-    "text": "What should we version?\nWhat about these files?\nraw_big_dataset.csv\nmodel.pkl\ntemporary_plot.png\noutputs/",
+    "objectID": "project-description.html",
+    "href": "project-description.html",
+    "title": "Projects description",
+    "section": "",
+    "text": "The central component of this course are two projects. One individual mini project and one team‑based project in which students tackle a real, data‑intensive challenge faced by a working dairy or agricultural operation. These projects form the backbone of the learning experience and are designed to immerse students in the full lifecycle of data‑driven problem solving—spanning communication, research, data governance, coding, analysis, stakeholder interaction, and the development of a practical and implementable solution. Rather than working with simulated or sanitized datasets, students engage directly with authentic farm data, farmers, and industry partners. This ensures that the outcomes are both academically rigorous and genuinely useful to the agricultural community.",
     "crumbs": [
-      "Slides",
-      "Week 2 - Git"
+      "Project",
+      "Description"
     ]
   },
   {
-    "objectID": "slides/lec-2-git.html#what-should-we-version-2",
-    "href": "slides/lec-2-git.html#what-should-we-version-2",
-    "title": "Lecture 2 - Version Control for Data Science",
-    "section": "What should we version?",
-    "text": "What should we version?\nWhat about these files?\npassword.txt\nAPI_key.txt\n.env",
+    "objectID": "project-description.html#a-real-world-problem",
+    "href": "project-description.html#a-real-world-problem",
+    "title": "Projects description",
+    "section": "A Real-World Problem",
+    "text": "A Real-World Problem\nEach project begins with the identification of a real challenge occurring on an active farm. Students will meet with the farmer at a farm visit to understand the nature, impact, and urgency of the issue. This is not a theoretical exercise: students are expected to listen actively, ask thoughtful questions, and begin translating an open-ended problem into a workable, data-centered project. Farmers may present challenges ranging from production efficiency and animal health to labor management, environmental constraints, or equipment performance. Students learn to appreciate that agricultural problems are rarely isolated—they are layered with biological, logistical, economic, and human complexities.",
     "crumbs": [
-      "Slides",
-      "Week 2 - Git"
+      "Project",
+      "Description"
     ]
   },
   {
-    "objectID": "slides/lec-2-git.html#version-controlled",
-    "href": "slides/lec-2-git.html#version-controlled",
-    "title": "Lecture 2 - Version Control for Data Science",
-    "section": "Version controlled",
-    "text": "Version controlled\nYES\n\ncode\nconfiguration\ndocumentation\nsmall text-based metadata",
+    "objectID": "project-description.html#interaction-with-real-farm-data",
+    "href": "project-description.html#interaction-with-real-farm-data",
+    "title": "Projects description",
+    "section": "Interaction With Real Farm Data",
+    "text": "Interaction With Real Farm Data\nOnce the problem is defined, students work with the farmer to identify what data exist and what data may still need to be collected. Because this work involves real operational data, students must engage in responsible data governance. With guidance, each student will draft and negotiate a data privacy and usage agreement. This introduces students to essential concepts in digital agriculture such as confidentiality, ethical data practices, FAIR principles, and the responsibilities involved in handling sensitive on‑farm information. Students learn the importance of transparency and trust as they collaborate closely with producers who are granting access to their operational data.",
     "crumbs": [
-      "Slides",
-      "Week 2 - Git"
+      "Project",
+      "Description"
     ]
   },
   {
-    "objectID": "slides/lec-2-git.html#version-controlled-1",
-    "href": "slides/lec-2-git.html#version-controlled-1",
-    "title": "Lecture 2 - Version Control for Data Science",
-    "section": "Version controlled",
-    "text": "Version controlled\nNO\n\nlarge raw data\ntemporary files\nsecrets\ngenerated outputs\nlocal machine files\n\n\nThis leads to .gitignore.\n\nTell Git what not to track.",
+    "objectID": "project-description.html#learning-through-research",
+    "href": "project-description.html#learning-through-research",
+    "title": "Projects description",
+    "section": "Learning Through Research",
+    "text": "Learning Through Research\nAfter initial meetings, students dive into background research to better understand the problem’s scientific, technical, and industry context. This may include reading academic papers, exploring regulatory constraints, reviewing industry benchmarks, or studying similar case studies from other farms or regions. The goal is to help students build a well‑rounded understanding of the forces shaping the problem and the tools available to address it. Research also helps teams refine the scope of the project, identify appropriate analytical methods, and set realistic expectations for the final product.",
     "crumbs": [
-      "Slides",
-      "Week 2 - Git"
+      "Project",
+      "Description"
     ]
   },
   {
-    "objectID": "slides/lec-2-git.html#gitignore",
-    "href": "slides/lec-2-git.html#gitignore",
-    "title": "Lecture 2 - Version Control for Data Science",
-    "section": ".gitignore",
-    "text": ".gitignore\nTypical python .gitignore:\n# Local / temporary files\n.DS_Store\n*.tmp\n\n# Python cache\n__pycache__/\n\n# Generated outputs\noutputs/\n\n# Secrets\n.env\n*.key",
+    "objectID": "project-description.html#applying-coding-and-analytical-skills",
+    "href": "project-description.html#applying-coding-and-analytical-skills",
+    "title": "Projects description",
+    "section": "Applying Coding and Analytical Skills",
+    "text": "Applying Coding and Analytical Skills\nThroughout the project, students will apply the programming techniques and analytical methods introduced in the course. This includes data cleaning, transformation, visualization, statistical analysis, model development, and the construction of reproducible and well‑documented analytical workflows. Students learn that coding is not simply about generating outputs—it is about developing clear, transparent, and interpretable pipelines that others can understand and build upon. Students are encouraged to iterate frequently, share findings with the class, and adjust their analytical direction as new insights emerge. This mirrors the dynamic and adaptive nature of real‑world data science.",
     "crumbs": [
-      "Slides",
-      "Week 2 - Git"
+      "Project",
+      "Description"
     ]
   },
   {
-    "objectID": "slides/lec-2-git.html#the-data-science-twist",
-    "href": "slides/lec-2-git.html#the-data-science-twist",
-    "title": "Lecture 2 - Version Control for Data Science",
-    "section": "The data-science twist",
-    "text": "The data-science twist\nA result depends on more than code.\n          code\n            ↓\nraw data → preprocessing → model → result\n            ↑                ↑\n        parameters       environment\nReproducibility means thinking about the whole chain.\n\nGit is one piece of that system — not the entire system.",
+    "objectID": "project-description.html#engaging-with-stakeholders",
+    "href": "project-description.html#engaging-with-stakeholders",
+    "title": "Projects description",
+    "section": "Engaging With Stakeholders",
+    "text": "Engaging With Stakeholders\nBeyond the farmer, students will have opportunities to interact with the various members of the bovi-analytics lab, whose multi-disciplinary expertise can enrich the project. These interactions allow students to develop a broader understanding of how different perspectives shape agricultural decision‑making. Lab members may help students evaluate feasibility, understand practical constraints, and envision how a solution will ultimately be used. This experience strengthens communication skills and exposes students to the types of professional collaboration that define modern digital agriculture.",
     "crumbs": [
-      "Slides",
-      "Week 2 - Git"
+      "Project",
+      "Description"
     ]
   },
   {
-    "objectID": "slides/lec-2-git.html#why-version-control-when-i-work-alone",
-    "href": "slides/lec-2-git.html#why-version-control-when-i-work-alone",
-    "title": "Lecture 2 - Version Control for Data Science",
-    "section": "Why version control when I work alone?",
-    "text": "Why version control when I work alone?\n\nWhy would a solo scientist use version control?\n\nThen ask:\n\nWhat would you want to undo, compare, or understand six months from now?\n\n\nThe answer is often:\n\n“I want to know what I did — and be able to go back.”",
+    "objectID": "project-description.html#cocreating-deliverables",
+    "href": "project-description.html#cocreating-deliverables",
+    "title": "Projects description",
+    "section": "Co‑Creating Deliverables",
+    "text": "Co‑Creating Deliverables\nUniquely, students will play an active role in defining the final deliverables for project two. Instead of receiving a predetermined list of tasks, teams will work with the professor to determine what outcome would be most meaningful and actionable for them. This might include a predictive model, a dashboard, a reporting system, a visualization suite, a set of management recommendations, or a plan for monitoring future data.",
     "crumbs": [
-      "Slides",
-      "Week 2 - Git"
+      "Project",
+      "Description"
     ]
   },
   {
-    "objectID": "slides/lec-2-git.html#one-mental-model-to-take-home",
-    "href": "slides/lec-2-git.html#one-mental-model-to-take-home",
-    "title": "Lecture 2 - Version Control for Data Science",
-    "section": "One mental model to take home",
-    "text": "One mental model to take home\n       experiment\n           ↓\n       change files\n           ↓\n        commit\n           ↓\n   keep a reliable history\n      ↙           ↘\n   branch         collaborate\n      ↘           ↙\n          merge\n\nVersion control is not mainly about commands.\nIt is about history, reproducibility, and safe change.",
+    "objectID": "project-description.html#final-outputs",
+    "href": "project-description.html#final-outputs",
+    "title": "Projects description",
+    "section": "Final Outputs",
+    "text": "Final Outputs\n\nProject 1\n\nIndividual poster presentation during week 7 all students will present their project 1 to their peers, the professor and the bovi-analytics lab members through a poster presentation. The poster session will be concluded by a general discussion where we will compare the different approaches and discuss strenghts and limitations. The poster must emphasize the materials and methods of the project, including data lineage, and the model results. We expect thorough testing of the final model and at minimum reporting of final model accuracy.\nA well organized, public and complete GitHub repository your repository should include a naming convention, a read-me, a liscence, a git-ignore and the notebooks used for the modelling.\nA FAIR workflow the project is supposed to follow the FAIR principles and must be reproducable.\n\n\n\nProject 2\n\nA video analysis model the exact output of this project will be decided together with the students.",
     "crumbs": [
-      "Slides",
-      "Week 2 - Git"
+      "Project",
+      "Description"
     ]
   },
   {
-    "objectID": "LICENSE.html#creative-commons-attribution-sharealike-4.0-international-public-license",
-    "href": "LICENSE.html#creative-commons-attribution-sharealike-4.0-international-public-license",
-    "title": "Attribution-ShareAlike 4.0 International",
-    "section": "Creative Commons Attribution-ShareAlike 4.0 International Public License",
-    "text": "Creative Commons Attribution-ShareAlike 4.0 International Public License\nBy exercising the Licensed Rights (defined below), You accept and agree to be bound by the terms and conditions of this Creative Commons Attribution-ShareAlike 4.0 International Public License (“Public License”). To the extent this Public License may be interpreted as a contract, You are granted the Licensed Rights in consideration of Your acceptance of these terms and conditions, and the Licensor grants You such rights in consideration of benefits the Licensor receives from making the Licensed Material available under these terms and conditions.\n\nSection 1 – Definitions.\n\nAdapted Material means material subject to Copyright and Similar Rights that is derived from or based upon the Licensed Material and in which the Licensed Material is translated, altered, arranged, transformed, or otherwise modified in a manner requiring permission under the Copyright and Similar Rights held by the Licensor. For purposes of this Public License, where the Licensed Material is a musical work, performance, or sound recording, Adapted Material is always produced where the Licensed Material is synched in timed relation with a moving image.\nAdapter’s License means the license You apply to Your Copyright and Similar Rights in Your contributions to Adapted Material in accordance with the terms and conditions of this Public License.\nBY-SA Compatible License means a license listed at creativecommons.org/compatiblelicenses, approved by Creative Commons as essentially the equivalent of this Public License.\nCopyright and Similar Rights means copyright and/or similar rights closely related to copyright including, without limitation, performance, broadcast, sound recording, and Sui Generis Database Rights, without regard to how the rights are labeled or categorized. For purposes of this Public License, the rights specified in Section 2(b)(1)-(2) are not Copyright and Similar Rights.\nEffective Technological Measures means those measures that, in the absence of proper authority, may not be circumvented under laws fulfilling obligations under Article 11 of the WIPO Copyright Treaty adopted on December 20, 1996, and/or similar international agreements.\nExceptions and Limitations means fair use, fair dealing, and/or any other exception or limitation to Copyright and Similar Rights that applies to Your use of the Licensed Material.\nLicense Elements means the license attributes listed in the name of a Creative Commons Public License. The License Elements of this Public License are Attribution and ShareAlike.\nLicensed Material means the artistic or literary work, database, or other material to which the Licensor applied this Public License.\nLicensed Rights means the rights granted to You subject to the terms and conditions of this Public License, which are limited to all Copyright and Similar Rights that apply to Your use of the Licensed Material and that the Licensor has authority to license.\nLicensor means the individual(s) or entity(ies) granting rights under this Public License.\nShare means to provide material to the public by any means or process that requires permission under the Licensed Rights, such as reproduction, public display, public performance, distribution, dissemination, communication, or importation, and to make material available to the public including in ways that members of the public may access the material from a place and at a time individually chosen by them.\nSui Generis Database Rights means rights other than copyright resulting from Directive 96/9/EC of the European Parliament and of the Council of 11 March 1996 on the legal protection of databases, as amended and/or succeeded, as well as other essentially equivalent rights anywhere in the world.\nYou means the individual or entity exercising the Licensed Rights under this Public License. Your has a corresponding meaning.\n\n\n\nSection 2 – Scope.\n\nLicense grant.\n\nSubject to the terms and conditions of this Public License, the Licensor hereby grants You a worldwide, royalty-free, non-sublicensable, non-exclusive, irrevocable license to exercise the Licensed Rights in the Licensed Material to:\nA. reproduce and Share the Licensed Material, in whole or in part; and\nB. produce, reproduce, and Share Adapted Material.\nExceptions and Limitations. For the avoidance of doubt, where Exceptions and Limitations apply to Your use, this Public License does not apply, and You do not need to comply with its terms and conditions.\nTerm. The term of this Public License is specified in Section 6(a).\nMedia and formats; technical modifications allowed. The Licensor authorizes You to exercise the Licensed Rights in all media and formats whether now known or hereafter created, and to make technical modifications necessary to do so. The Licensor waives and/or agrees not to assert any right or authority to forbid You from making technical modifications necessary to exercise the Licensed Rights, including technical modifications necessary to circumvent Effective Technological Measures. For purposes of this Public License, simply making modifications authorized by this Section 2(a)(4) never produces Adapted Material.\nDownstream recipients.\nA. Offer from the Licensor – Licensed Material. Every recipient of the Licensed Material automatically receives an offer from the Licensor to exercise the Licensed Rights under the terms and conditions of this Public License.\nB. Additional offer from the Licensor – Adapted Material. Every recipient of Adapted Material from You automatically receives an offer from the Licensor to exercise the Licensed Rights in the Adapted Material under the conditions of the Adapter’s License You apply.\nC. No downstream restrictions. You may not offer or impose any additional or different terms or conditions on, or apply any Effective Technological Measures to, the Licensed Material if doing so restricts exercise of the Licensed Rights by any recipient of the Licensed Material.\nNo endorsement. Nothing in this Public License constitutes or may be construed as permission to assert or imply that You are, or that Your use of the Licensed Material is, connected with, or sponsored, endorsed, or granted official status by, the Licensor or others designated to receive attribution as provided in Section 3(a)(1)(A)(i).\n\nOther rights.\n\nMoral rights, such as the right of integrity, are not licensed under this Public License, nor are publicity, privacy, and/or other similar personality rights; however, to the extent possible, the Licensor waives and/or agrees not to assert any such rights held by the Licensor to the limited extent necessary to allow You to exercise the Licensed Rights, but not otherwise.\nPatent and trademark rights are not licensed under this Public License.\nTo the extent possible, the Licensor waives any right to collect royalties from You for the exercise of the Licensed Rights, whether directly or through a collecting society under any voluntary or waivable statutory or compulsory licensing scheme. In all other cases the Licensor expressly reserves any right to collect such royalties.\n\n\n\n\nSection 3 – License Conditions.\nYour exercise of the Licensed Rights is expressly made subject to the following conditions.\n\nAttribution.\n\nIf You Share the Licensed Material (including in modified form), You must:\nA. retain the following if it is supplied by the Licensor with the Licensed Material:\n\nidentification of the creator(s) of the Licensed Material and any others designated to receive attribution, in any reasonable manner requested by the Licensor (including by pseudonym if designated);\na copyright notice;\na notice that refers to this Public License;\na notice that refers to the disclaimer of warranties;\na URI or hyperlink to the Licensed Material to the extent reasonably practicable;\n\nB. indicate if You modified the Licensed Material and retain an indication of any previous modifications; and\nC. indicate the Licensed Material is licensed under this Public License, and include the text of, or the URI or hyperlink to, this Public License.\nYou may satisfy the conditions in Section 3(a)(1) in any reasonable manner based on the medium, means, and context in which You Share the Licensed Material. For example, it may be reasonable to satisfy the conditions by providing a URI or hyperlink to a resource that includes the required information.\nIf requested by the Licensor, You must remove any of the information required by Section 3(a)(1)(A) to the extent reasonably practicable.\n\nShareAlike.\n\nIn addition to the conditions in Section 3(a), if You Share Adapted Material You produce, the following conditions also apply.\n\nThe Adapter’s License You apply must be a Creative Commons license with the same License Elements, this version or later, or a BY-SA Compatible License.\nYou must include the text of, or the URI or hyperlink to, the Adapter’s License You apply. You may satisfy this condition in any reasonable manner based on the medium, means, and context in which You Share Adapted Material.\nYou may not offer or impose any additional or different terms or conditions on, or apply any Effective Technological Measures to, Adapted Material that restrict exercise of the rights granted under the Adapter’s License You apply.\n\n\n\nSection 4 – Sui Generis Database Rights.\nWhere the Licensed Rights include Sui Generis Database Rights that apply to Your use of the Licensed Material:\n\nfor the avoidance of doubt, Section 2(a)(1) grants You the right to extract, reuse, reproduce, and Share all or a substantial portion of the contents of the database;\nif You include all or a substantial portion of the database contents in a database in which You have Sui Generis Database Rights, then the database in which You have Sui Generis Database Rights (but not its individual contents) is Adapted Material, including for purposes of Section 3(b); and\nYou must comply with the conditions in Section 3(a) if You Share all or a substantial portion of the contents of the database.\n\nFor the avoidance of doubt, this Section 4 supplements and does not replace Your obligations under this Public License where the Licensed Rights include other Copyright and Similar Rights.\n\n\nSection 5 – Disclaimer of Warranties and Limitation of Liability.\n\nUnless otherwise separately undertaken by the Licensor, to the extent possible, the Licensor offers the Licensed Material as-is and as-available, and makes no representations or warranties of any kind concerning the Licensed Material, whether express, implied, statutory, or other. This includes, without limitation, warranties of title, merchantability, fitness for a particular purpose, non-infringement, absence of latent or other defects, accuracy, or the presence or absence of errors, whether or not known or discoverable. Where disclaimers of warranties are not allowed in full or in part, this disclaimer may not apply to You.\nTo the extent possible, in no event will the Licensor be liable to You on any legal theory (including, without limitation, negligence) or otherwise for any direct, special, indirect, incidental, consequential, punitive, exemplary, or other losses, costs, expenses, or damages arising out of this Public License or use of the Licensed Material, even if the Licensor has been advised of the possibility of such losses, costs, expenses, or damages. Where a limitation of liability is not allowed in full or in part, this limitation may not apply to You.\nThe disclaimer of warranties and limitation of liability provided above shall be interpreted in a manner that, to the extent possible, most closely approximates an absolute disclaimer and waiver of all liability.\n\n\n\nSection 6 – Term and Termination.\n\nThis Public License applies for the term of the Copyright and Similar Rights licensed here. However, if You fail to comply with this Public License, then Your rights under this Public License terminate automatically.\nWhere Your right to use the Licensed Material has terminated under Section 6(a), it reinstates:\n\nautomatically as of the date the violation is cured, provided it is cured within 30 days of Your discovery of the violation; or\nupon express reinstatement by the Licensor.\n\nFor the avoidance of doubt, this Section 6(b) does not affect any right the Licensor may have to seek remedies for Your violations of this Public License.\nFor the avoidance of doubt, the Licensor may also offer the Licensed Material under separate terms or conditions or stop distributing the Licensed Material at any time; however, doing so will not terminate this Public License.\nSections 1, 5, 6, 7, and 8 survive termination of this Public License.\n\n\n\nSection 7 – Other Terms and Conditions.\n\nThe Licensor shall not be bound by any additional or different terms or conditions communicated by You unless expressly agreed.\nAny arrangements, understandings, or agreements regarding the Licensed Material not stated herein are separate from and independent of the terms and conditions of this Public License.\n\n\n\nSection 8 – Interpretation.\n\nFor the avoidance of doubt, this Public License does not, and shall not be interpreted to, reduce, limit, restrict, or impose conditions on any use of the Licensed Material that could lawfully be made without permission under this Public License.\nTo the extent possible, if any provision of this Public License is deemed unenforceable, it shall be automatically reformed to the minimum extent necessary to make it enforceable. If the provision cannot be reformed, it shall be severed from this Public License without affecting the enforceability of the remaining terms and conditions.\nNo term or condition of this Public License will be waived and no failure to comply consented to unless expressly agreed to by the Licensor.\nNothing in this Public License constitutes or may be interpreted as a limitation upon, or waiver of, any privileges and immunities that apply to the Licensor or You, including from the legal processes of any jurisdiction or authority.\n\n\nCreative Commons is not a party to its public licenses. Notwithstanding, Creative Commons may elect to apply one of its public licenses to material it publishes and in those instances will be considered the “Licensor.” The text of the Creative Commons public licenses is dedicated to the public domain under the CC0 Public Domain Dedication. Except for the limited purpose of indicating that material is shared under a Creative Commons public license or as otherwise permitted by the Creative Commons policies published at creativecommons.org/policies, Creative Commons does not authorize the use of the trademark “Creative Commons” or any other trademark or logo of Creative Commons without its prior written consent including, without limitation, in connection with any unauthorized modifications to any of its public licenses or any other arrangements, understandings, or agreements concerning use of licensed material. For the avoidance of doubt, this paragraph does not form part of the public licenses.\nCreative Commons may be contacted at creativecommons.org."
+    "objectID": "project-description.html#a-professional-learning-experience",
+    "href": "project-description.html#a-professional-learning-experience",
+    "title": "Projects description",
+    "section": "A Professional Learning Experience",
+    "text": "A Professional Learning Experience\nThis project is designed to simulate the experience of being a digital agriculture consultant, data scientist, or industry collaborator. Students must manage time, negotiate expectations, communicate effectively, and make evidence‑based decisions. They will encounter ambiguity, data gaps, and unexpected complications—just as professionals do. Students are asked to take responsibility for their own progress and learning and we expect to see weekly commits on GitHub as a sign of progress. By the end of the semester, students will have developed not only technical skills, but also the confidence and competence to engage thoughtfully and responsibly with the agricultural community.",
+    "crumbs": [
+      "Project",
+      "Description"
+    ]
   },
   {
     "objectID": "course/sections/course-policies.html",
@@ -1459,178 +1708,6 @@
     ]
   },
   {
-    "objectID": "course/sections/course-assessment-grading.html",
-    "href": "course/sections/course-assessment-grading.html",
-    "title": "Assessment and Grading",
-    "section": "",
-    "text": "Assessment consists of individual assignments, a mini individual project with a poster presentation, and a final group project.\n\n\nThroughout the course, students will complete individual coding and practical assignments.\nThese assignments are designed to help students develop the technical skills needed for the mini individual project and final group project.\nIndividual assignments account for 20% of the final grade.\nAssignment-specific instructions will identify any restrictions on collaboration, external resources, software, or AI tools.\n\n\n\nEach student will complete a mini individual project and present the results through a poster presentation.\nThe project provides an opportunity to apply the skills learned during the course to an individual topic or problem.\nThe mini individual project and poster presentation together account for 30% of the final grade.\nThe project deliverables, requirements, and assessment criteria will be discussed in class.\n\n\n\nThe final assessment consists of a group project.\nStudents will work together to develop a larger project applying programming, data analysis, Git/GitHub, cloud-based tools, machine learning, and other data science skills learned throughout the course.\nTogether with the instructor and stakeholders, the group will define the goals and scope of the project.\nThe project should demonstrate:\n\nEffective collaboration\nAppropriate technical implementation\nResponsible data management\nAppropriate use of data science and AI tools\nClear documentation\nCritical interpretation of results\nClear communication of findings and limitations\n\nThe final group project accounts for 50% of the final grade.\nThe deliverables, project requirements, presentation format, and grading criteria will be discussed during the course.\n\n\n\nThe final grade will be calculated as follows:\n\n20% — Individual assignments\n30% — Mini individual project + poster presentation\n50% — Final group project\n\nTotal: 100%\n\n\n\n\n\n\nGrade\nLow\nHigh\n\n\n\n\nA+\n99.80\n100.0\n\n\nA\n93.33\n99.80\n\n\nA-\n90.00\n93.33\n\n\nB+\n86.66\n90.00\n\n\nB\n83.33\n86.66\n\n\nB-\n80.00\n83.33\n\n\nC+\n76.66\n80.00\n\n\nC\n73.33\n76.66\n\n\nC-\n70.00\n73.33\n\n\nD+\n66.66\n70.00\n\n\nD\n63.33\n66.66\n\n\nD-\n60.00\n63.36\n\n\nF\n0.00\n60.00\n\n\n\nEach grade range includes the score on the left and excludes the score on the right. For example, a 90.0 is an A-, not a B+, while an 89.99 is a B+, not an A-.",
-    "crumbs": [
-      "Course information",
-      "Grading"
-    ]
-  },
-  {
-    "objectID": "course/sections/course-assessment-grading.html#individual-assignments",
-    "href": "course/sections/course-assessment-grading.html#individual-assignments",
-    "title": "Assessment and Grading",
-    "section": "",
-    "text": "Throughout the course, students will complete individual coding and practical assignments.\nThese assignments are designed to help students develop the technical skills needed for the mini individual project and final group project.\nIndividual assignments account for 20% of the final grade.\nAssignment-specific instructions will identify any restrictions on collaboration, external resources, software, or AI tools.",
-    "crumbs": [
-      "Course information",
-      "Grading"
-    ]
-  },
-  {
-    "objectID": "course/sections/course-assessment-grading.html#mini-individual-project-and-poster-presentation",
-    "href": "course/sections/course-assessment-grading.html#mini-individual-project-and-poster-presentation",
-    "title": "Assessment and Grading",
-    "section": "",
-    "text": "Each student will complete a mini individual project and present the results through a poster presentation.\nThe project provides an opportunity to apply the skills learned during the course to an individual topic or problem.\nThe mini individual project and poster presentation together account for 30% of the final grade.\nThe project deliverables, requirements, and assessment criteria will be discussed in class.",
-    "crumbs": [
-      "Course information",
-      "Grading"
-    ]
-  },
-  {
-    "objectID": "course/sections/course-assessment-grading.html#final-group-project",
-    "href": "course/sections/course-assessment-grading.html#final-group-project",
-    "title": "Assessment and Grading",
-    "section": "",
-    "text": "The final assessment consists of a group project.\nStudents will work together to develop a larger project applying programming, data analysis, Git/GitHub, cloud-based tools, machine learning, and other data science skills learned throughout the course.\nTogether with the instructor and stakeholders, the group will define the goals and scope of the project.\nThe project should demonstrate:\n\nEffective collaboration\nAppropriate technical implementation\nResponsible data management\nAppropriate use of data science and AI tools\nClear documentation\nCritical interpretation of results\nClear communication of findings and limitations\n\nThe final group project accounts for 50% of the final grade.\nThe deliverables, project requirements, presentation format, and grading criteria will be discussed during the course.",
-    "crumbs": [
-      "Course information",
-      "Grading"
-    ]
-  },
-  {
-    "objectID": "course/sections/course-assessment-grading.html#final-grading",
-    "href": "course/sections/course-assessment-grading.html#final-grading",
-    "title": "Assessment and Grading",
-    "section": "",
-    "text": "The final grade will be calculated as follows:\n\n20% — Individual assignments\n30% — Mini individual project + poster presentation\n50% — Final group project\n\nTotal: 100%",
-    "crumbs": [
-      "Course information",
-      "Grading"
-    ]
-  },
-  {
-    "objectID": "course/sections/course-assessment-grading.html#grade-scale",
-    "href": "course/sections/course-assessment-grading.html#grade-scale",
-    "title": "Assessment and Grading",
-    "section": "",
-    "text": "Grade\nLow\nHigh\n\n\n\n\nA+\n99.80\n100.0\n\n\nA\n93.33\n99.80\n\n\nA-\n90.00\n93.33\n\n\nB+\n86.66\n90.00\n\n\nB\n83.33\n86.66\n\n\nB-\n80.00\n83.33\n\n\nC+\n76.66\n80.00\n\n\nC\n73.33\n76.66\n\n\nC-\n70.00\n73.33\n\n\nD+\n66.66\n70.00\n\n\nD\n63.33\n66.66\n\n\nD-\n60.00\n63.36\n\n\nF\n0.00\n60.00\n\n\n\nEach grade range includes the score on the left and excludes the score on the right. For example, a 90.0 is an A-, not a B+, while an 89.99 is a B+, not an A-.",
-    "crumbs": [
-      "Course information",
-      "Grading"
-    ]
-  },
-  {
-    "objectID": "course/sections/course-support.html",
-    "href": "course/sections/course-support.html",
-    "title": "Course support",
-    "section": "",
-    "text": "Most of you will need help at some point and we want to make sure you can identify when that is without getting too frustrated and feel comfortable seeking help.",
-    "crumbs": [
-      "Course information",
-      "Support"
-    ]
-  },
-  {
-    "objectID": "course/sections/course-support.html#lectures-and-labs",
-    "href": "course/sections/course-support.html#lectures-and-labs",
-    "title": "Course support",
-    "section": "Lectures and labs",
-    "text": "Lectures and labs\nIf you have a question during lecture or lab, feel free to ask it! There are likely other students with the same question, so by asking you will create a peer teaching opportunity for everyone.",
-    "crumbs": [
-      "Course information",
-      "Support"
-    ]
-  },
-  {
-    "objectID": "course/sections/course-support.html#office-hours",
-    "href": "course/sections/course-support.html#office-hours",
-    "title": "Course support",
-    "section": "Office hours",
-    "text": "Office hours\nThe entire teaching team is here to support your success in this course, and you are encouraged to ask questions about course content, assignments, or logistics. Many questions are most effectively addressed in person. Office hours are therefore offered on a flexible, appointment-based basis to accommodate teaching schedules. Please reach out in advance to arrange a meeting time. Even if you do not have specific questions, you are welcome to schedule a brief meeting to introduce yourself and say hello. Meike also has a walk in office hour at Wednesday 3-5 pm.",
-    "crumbs": [
-      "Course information",
-      "Support"
-    ]
-  },
-  {
-    "objectID": "course/sections/course-support.html#weekly-assignments",
-    "href": "course/sections/course-support.html#weekly-assignments",
-    "title": "Course support",
-    "section": "Weekly assignments",
-    "text": "Weekly assignments\nEach week holds a ‘Programming assignment deadline’ the day before the next lab (monday 12 pm). It is important that you stick to these deadlines as your correct submissions for this deadline will be used for the final grading. You are welcome to work on that during the week in your own time, but dedicated lab hours are blocked within each week.\nTeaching assistants will be available during these hours if you require help or feedback.",
-    "crumbs": [
-      "Course information",
-      "Support"
-    ]
-  },
-  {
-    "objectID": "course/sections/course-support.html#discussion-forum",
-    "href": "course/sections/course-support.html#discussion-forum",
-    "title": "Course support",
-    "section": "Discussion forum",
-    "text": "Discussion forum\nHave a question that might be valuable for all course participant? Prefer to write out your question in detail rather than asking in person? The online discussion forum is the best venue for these! We will use github issue as the online discussion forum. There is a chance another student has already asked a similar question, so please check the other posts before adding a new question. If you know the answer to a question that is posted, I encourage you to respond!",
-    "crumbs": [
-      "Course information",
-      "Support"
-    ]
-  },
-  {
-    "objectID": "course/sections/course-support.html#email",
-    "href": "course/sections/course-support.html#email",
-    "title": "Course support",
-    "section": "Email",
-    "text": "Email\nPlease refrain from emailing any course content questions (those should go here github issue), and only use email for questions about personal matters that may not be appropriate for the public course forum (e.g., illness, accommodations, etc.).\nFor such matters, you may email Dr. Miel Hostens at miel.hostens@cornell.edu.",
-    "crumbs": [
-      "Course information",
-      "Support"
-    ]
-  },
-  {
-    "objectID": "course/sections/course-support.html#course-materials-costs",
-    "href": "course/sections/course-support.html#course-materials-costs",
-    "title": "Course support",
-    "section": "Course materials costs",
-    "text": "Course materials costs\nThere are no costs associated with this course. All readings will come from freely available, open resources (open-source textbooks, journal articles, etc.).",
-    "crumbs": [
-      "Course information",
-      "Support"
-    ]
-  },
-  {
-    "objectID": "course/sections/course-support.html#assistance-with-teams",
-    "href": "course/sections/course-support.html#assistance-with-teams",
-    "title": "Course support",
-    "section": "Assistance with Teams",
-    "text": "Assistance with Teams\nTeams will be used for online office hours as well as as a backup option should we need to hold the course online instead of in person.",
-    "crumbs": [
-      "Course information",
-      "Support"
-    ]
-  },
-  {
-    "objectID": "course/sections/course-links.html",
-    "href": "course/sections/course-links.html",
-    "title": "Useful links",
-    "section": "",
-    "text": "Google colab\n🔗 on Google colaboratory notebooks\n\n\nShared Beast & Bytes Drive\n🔗 on Google Drive\n\n\nPython\n🔗 on Python programming language\n\n\nDiscussion forum\n🔗 on Github Issues\n\n\nVirtual meetings\n🔗 on Teams",
-    "crumbs": [
-      "Course information",
-      "Useful links"
-    ]
-  },
-  {
-    "objectID": "course/sections/course-final-note.html",
-    "href": "course/sections/course-final-note.html",
-    "title": "Final Note to Students",
-    "section": "",
-    "text": "Final Note to Students\nThis course is designed to help you develop the skills needed to work with data, computational tools, artificial intelligence, and agricultural problems in a rapidly changing professional environment.\nYou are not expected to know everything at the beginning of the course. You are expected to learn, experiment, ask questions, collaborate appropriately, critically evaluate your tools and results, and take responsibility for your own learning.\nWhen you are uncertain about a technical, academic-integrity, collaboration, data-privacy, or AI-use question, please feel free to reach out. The teaching team is here to help you make responsible decisions and develop the skills needed to work effectively and ethically as a data science practitioner.\nAs this is a continuously evolving, challenge-based course, some activities, policies, and project details may be updated during the semester.\nWe will communicate any significant changes through Canvas and keep the course website up to date with the latest course materials, schedule, and requirements."
-  },
-  {
     "objectID": "course/sections/course-schedule.html",
     "href": "course/sections/course-schedule.html",
     "title": "Course Schedule",
@@ -1638,175 +1715,98 @@
     "text": "Course Schedule\nThe detailed course schedule is maintained on the course website and may be updated during the semester.\nThe current planned schedule includes:\n\n\n\n\n\n\n\n\nWeek\nDate\nActivity\n\n\n\n\n1\n8/24\nCourse Outline\n\n\n1\n8/25\nToolbox: IDEs, Programming Languages & Vibe Coding\n\n\n1\n8/26\nData Science in Agriculture\n\n\n2\n8/31\nVersion Control Systems & Integration\n\n\n2\n9/1\nToolbox: Broken Online, Merge Conflicts & Branching\n\n\n2\n9/2\nNaming Conventions & FAIR Principles\n\n\n3\n9/7\nNo Class – Labor Day Holiday\n\n\n3\n9/8\nCloud Computing, APIs & Hardware\n\n\n3\n9/9\nData Governance & Data Lineage\n\n\n4\n9/14\nML and AI Basics (Part 1)\n\n\n4\n9/15\nToolbox: Project Mini, Packages, Hugging Face & Model Serving\n\n\n4\n9/16\nEthical and Efficient Use of AI\n\n\n5\n9/21\nML and AI Basics; Supervised and Unsupervised Learning in Agricultural Contexts (Part 2)\n\n\n5\n9/22\nWork on Mini Individual Project\n\n\n5\n9/23\nQ&A / Introduction to Tableau\n\n\n6\n9/28\nML and AI Basics; Supervised and Unsupervised Learning in Agricultural Contexts (Part 3)\n\n\n6\n9/29\nWork on Mini Individual Project\n\n\n6\n9/30\nQ&A\n\n\n7\n10/5\nQ&A\n\n\n7\n10/6\nPoster Presentation\n\n\n7\n10/7\nDISC Assessment of the Team\n\n\n8\n10/12\nNo Class – Fall Break\n\n\n8\n10/13\nNo Class – Fall Break\n\n\n8\n10/14\nTBD\n\n\n9\n10/19\nFinal Project Kickoff\n\n\n9\n10/20\nFarm Visit\n\n\n9\n10/21\nProject Planning\n\n\n10\n10/26\nFinal Project\n\n\n10\n10/27\nFinal Project\n\n\n10\n10/28\nFinal Project\n\n\n11\n11/2\nFinal Project\n\n\n11\n11/3\nFinal Project\n\n\n11\n11/4\nFinal Project\n\n\n12\n11/9\nFinal Project\n\n\n12\n11/10\nFinal Project\n\n\n12\n11/11\nFinal Project\n\n\n13\n11/16\nFinal Project\n\n\n13\n11/17\nFinal Project\n\n\n13\n11/18\nFinal Project\n\n\n14\n11/23\nFinal Project\n\n\n14\n11/24\nFinal Project\n\n\n14\n11/25\nNo Class – Thanksgiving Break\n\n\n15\n11/30\nFinal Project Presentations / Submission Preparation\n\n\n15\n12/1\nFinal Project Submission\n\n\n15\n12/2\nCourse Wrap-up & Reflection"
   },
   {
-    "objectID": "project-description.html",
-    "href": "project-description.html",
-    "title": "Projects description",
+    "objectID": "course/sections/course-syllabus-header.html",
+    "href": "course/sections/course-syllabus-header.html",
+    "title": "Course",
     "section": "",
-    "text": "The central component of this course are two projects. One individual mini project and one team‑based project in which students tackle a real, data‑intensive challenge faced by a working dairy or agricultural operation. These projects form the backbone of the learning experience and are designed to immerse students in the full lifecycle of data‑driven problem solving—spanning communication, research, data governance, coding, analysis, stakeholder interaction, and the development of a practical and implementable solution. Rather than working with simulated or sanitized datasets, students engage directly with authentic farm data, farmers, and industry partners. This ensures that the outcomes are both academically rigorous and genuinely useful to the agricultural community.",
-    "crumbs": [
-      "Project",
-      "Description"
-    ]
+    "text": "Course\n \nData Science Applications in Agriculture\n“Beast & Bytes”\nANSC 4040/ ANSC 6040"
   },
   {
-    "objectID": "project-description.html#a-real-world-problem",
-    "href": "project-description.html#a-real-world-problem",
-    "title": "Projects description",
-    "section": "A Real-World Problem",
-    "text": "A Real-World Problem\nEach project begins with the identification of a real challenge occurring on an active farm. Students will meet with the farmer at a farm visit to understand the nature, impact, and urgency of the issue. This is not a theoretical exercise: students are expected to listen actively, ask thoughtful questions, and begin translating an open-ended problem into a workable, data-centered project. Farmers may present challenges ranging from production efficiency and animal health to labor management, environmental constraints, or equipment performance. Students learn to appreciate that agricultural problems are rarely isolated—they are layered with biological, logistical, economic, and human complexities.",
-    "crumbs": [
-      "Project",
-      "Description"
-    ]
-  },
-  {
-    "objectID": "project-description.html#interaction-with-real-farm-data",
-    "href": "project-description.html#interaction-with-real-farm-data",
-    "title": "Projects description",
-    "section": "Interaction With Real Farm Data",
-    "text": "Interaction With Real Farm Data\nOnce the problem is defined, students work with the farmer to identify what data exist and what data may still need to be collected. Because this work involves real operational data, students must engage in responsible data governance. With guidance, each student will draft and negotiate a data privacy and usage agreement. This introduces students to essential concepts in digital agriculture such as confidentiality, ethical data practices, FAIR principles, and the responsibilities involved in handling sensitive on‑farm information. Students learn the importance of transparency and trust as they collaborate closely with producers who are granting access to their operational data.",
-    "crumbs": [
-      "Project",
-      "Description"
-    ]
-  },
-  {
-    "objectID": "project-description.html#learning-through-research",
-    "href": "project-description.html#learning-through-research",
-    "title": "Projects description",
-    "section": "Learning Through Research",
-    "text": "Learning Through Research\nAfter initial meetings, students dive into background research to better understand the problem’s scientific, technical, and industry context. This may include reading academic papers, exploring regulatory constraints, reviewing industry benchmarks, or studying similar case studies from other farms or regions. The goal is to help students build a well‑rounded understanding of the forces shaping the problem and the tools available to address it. Research also helps teams refine the scope of the project, identify appropriate analytical methods, and set realistic expectations for the final product.",
-    "crumbs": [
-      "Project",
-      "Description"
-    ]
-  },
-  {
-    "objectID": "project-description.html#applying-coding-and-analytical-skills",
-    "href": "project-description.html#applying-coding-and-analytical-skills",
-    "title": "Projects description",
-    "section": "Applying Coding and Analytical Skills",
-    "text": "Applying Coding and Analytical Skills\nThroughout the project, students will apply the programming techniques and analytical methods introduced in the course. This includes data cleaning, transformation, visualization, statistical analysis, model development, and the construction of reproducible and well‑documented analytical workflows. Students learn that coding is not simply about generating outputs—it is about developing clear, transparent, and interpretable pipelines that others can understand and build upon. Students are encouraged to iterate frequently, share findings with the class, and adjust their analytical direction as new insights emerge. This mirrors the dynamic and adaptive nature of real‑world data science.",
-    "crumbs": [
-      "Project",
-      "Description"
-    ]
-  },
-  {
-    "objectID": "project-description.html#engaging-with-stakeholders",
-    "href": "project-description.html#engaging-with-stakeholders",
-    "title": "Projects description",
-    "section": "Engaging With Stakeholders",
-    "text": "Engaging With Stakeholders\nBeyond the farmer, students will have opportunities to interact with the various members of the bovi-analytics lab, whose multi-disciplinary expertise can enrich the project. These interactions allow students to develop a broader understanding of how different perspectives shape agricultural decision‑making. Lab members may help students evaluate feasibility, understand practical constraints, and envision how a solution will ultimately be used. This experience strengthens communication skills and exposes students to the types of professional collaboration that define modern digital agriculture.",
-    "crumbs": [
-      "Project",
-      "Description"
-    ]
-  },
-  {
-    "objectID": "project-description.html#cocreating-deliverables",
-    "href": "project-description.html#cocreating-deliverables",
-    "title": "Projects description",
-    "section": "Co‑Creating Deliverables",
-    "text": "Co‑Creating Deliverables\nUniquely, students will play an active role in defining the final deliverables for project two. Instead of receiving a predetermined list of tasks, teams will work with the professor to determine what outcome would be most meaningful and actionable for them. This might include a predictive model, a dashboard, a reporting system, a visualization suite, a set of management recommendations, or a plan for monitoring future data.",
-    "crumbs": [
-      "Project",
-      "Description"
-    ]
-  },
-  {
-    "objectID": "project-description.html#final-outputs",
-    "href": "project-description.html#final-outputs",
-    "title": "Projects description",
-    "section": "Final Outputs",
-    "text": "Final Outputs\n\nProject 1\n\nIndividual poster presentation during week 7 all students will present their project 1 to their peers, the professor and the bovi-analytics lab members through a poster presentation. The poster session will be concluded by a general discussion where we will compare the different approaches and discuss strenghts and limitations. The poster must emphasize the materials and methods of the project, including data lineage, and the model results. We expect thorough testing of the final model and at minimum reporting of final model accuracy.\nA well organized, public and complete GitHub repository your repository should include a naming convention, a read-me, a liscence, a git-ignore and the notebooks used for the modelling.\nA FAIR workflow the project is supposed to follow the FAIR principles and must be reproducable.\n\n\n\nProject 2\n\nA video analysis model the exact output of this project will be decided together with the students.",
-    "crumbs": [
-      "Project",
-      "Description"
-    ]
-  },
-  {
-    "objectID": "project-description.html#a-professional-learning-experience",
-    "href": "project-description.html#a-professional-learning-experience",
-    "title": "Projects description",
-    "section": "A Professional Learning Experience",
-    "text": "A Professional Learning Experience\nThis project is designed to simulate the experience of being a digital agriculture consultant, data scientist, or industry collaborator. Students must manage time, negotiate expectations, communicate effectively, and make evidence‑based decisions. They will encounter ambiguity, data gaps, and unexpected complications—just as professionals do. Students are asked to take responsibility for their own progress and learning and we expect to see weekly commits on GitHub as a sign of progress. By the end of the semester, students will have developed not only technical skills, but also the confidence and competence to engage thoughtfully and responsibly with the agricultural community.",
-    "crumbs": [
-      "Project",
-      "Description"
-    ]
-  },
-  {
-    "objectID": "weeks/week-2.html",
-    "href": "weeks/week-2.html",
-    "title": "Week 2",
+    "objectID": "course/sections/course-team.html",
+    "href": "course/sections/course-team.html",
+    "title": "Beasts & Bytes",
     "section": "",
-    "text": "Introduction\nThis week we move from writing code individually to managing and collaborating on code. We introduce Git, GitHub, branching, and basic principles for making data and code more reproducible.\n\n\nLearning goals\n\nUnderstand the fundamentals of Git and GitHub\nCreate and manage a GitHub repository\nUnderstand commits, issues, branches, and merge conflicts\nApply naming conventions and FAIR data principles\n\n\n\nLecture - Version Control Systems & Integration\nIntroduction to Git and GitHub, repository structure, commits, and collaborative workflows.\n\n\nLab - Broken Online, Merge Conflicts & Branching\nHands-on practice with the Octocat for GitHub workflows, resolving merge conflicts, creating branches, and merging changes.\n\n\nDiscussion - Naming Conventions & FAIR Principles\nWhy do consistent naming and data management practices matter?\nIntroduction to file and variable naming conventions and the FAIR principles: Findable, Accessible, Interoperable, and Reusable.\n\n\nAssignment\nPart 1: GitHub Education 1. Create a GitHub profile. 2. Create a public repository. 3. Share the repository through Canvas.\nPart 2: GitHub and Branching 1. Connect to the assigned repository. 2. Create a branch. 3. Create a merge conflict. 4. Try to merge the branch. 5. Resolve the merge conflict and complete the merge.\n\n\nLooking ahead\nNext week we will move from managing code to working with cloud computing, APIs, and agricultural data infrastructure.\n\nBack to course schedule ⏎",
+    "text": "Dr. Miel Hostens (he/his) is the Robert and Anne Everett Endowed Associate Professor of Digital Dairy Management and Data Analytics at College of Agriculture and Life Sciences (Cornell University) focusing on the creation of methodologies using precision dairy farming to monitor sustainable food production systems from a global perspective\n\n\n\nOffice hours\nLocation\n\n\nQuick questions\nSlack & Teams\n\n\nBy appointment\nThursday - Friday 9:00 am - 17:00 pm\nDepartment of Animal Science, 273 Morrison Hall\n\n\nWalk in office hours with Meike\nWednesday 3 - 5 pm\nDepartment of Animal Science, B30 Morrison Hall\nPlease email me when this time does not work for you, so we can make an alternative arrangement.\n\n\n\nMake an appointment with Dr. Hostens through this link.",
     "crumbs": [
-      "Weekly materials",
-      "Week 2"
+      "Course information",
+      "Teaching team"
     ]
   },
   {
-    "objectID": "weeks/week-15.html",
-    "href": "weeks/week-15.html",
-    "title": "Week 15",
+    "objectID": "course/sections/course-team.html#instructor",
+    "href": "course/sections/course-team.html#instructor",
+    "title": "Beasts & Bytes",
     "section": "",
-    "text": "Introduction\nThe final week brings together the skills developed throughout the semester through the completion and submission of the final project.\n\n\nLearning goals\n\nComplete and submit the final project\nCommunicate final project outcomes\nReflect on the semester and lessons learned\nIdentify next steps in data science for agriculture\n\n\n\nLecture - Final Project Wrap-up\nFinal project preparation and submission guidance.\n\n\nLab - Final Project Submission\nFinal project deliverables are due on Tuesday, December 1.\n\n\nDiscussion - Course Wrap-up & Reflection\nReflect on the course, project experience, tools learned, and applications of data science in agriculture.\n\n\nAssignment\nSubmit the final project deliverables.\n\nBack to course schedule ⏎"
-  },
-  {
-    "objectID": "weeks/week-14.html",
-    "href": "weeks/week-14.html",
-    "title": "Week 14",
-    "section": "",
-    "text": "Introduction\nTeams use this week to finalize their analysis, results, documentation, and project deliverables.\n\n\nLearning goals\n\nFinalize project analysis and results\nEnsure code and data are organized\nComplete project documentation\nPrepare final deliverables\n\n\n\nLecture - Final Project Work\nGuidance and support for final project completion.\n\n\nLab - Final Project Work\nDedicated team time for analysis, documentation, and final deliverable preparation.\n\n\nDiscussion - Final Project Check-in\nFinal project review, troubleshooting, and feedback.\n\n\nAssignment\nComplete the final project deliverables and prepare for submission.\n\nBack to course schedule ⏎",
+    "text": "Dr. Miel Hostens (he/his) is the Robert and Anne Everett Endowed Associate Professor of Digital Dairy Management and Data Analytics at College of Agriculture and Life Sciences (Cornell University) focusing on the creation of methodologies using precision dairy farming to monitor sustainable food production systems from a global perspective\n\n\n\nOffice hours\nLocation\n\n\nQuick questions\nSlack & Teams\n\n\nBy appointment\nThursday - Friday 9:00 am - 17:00 pm\nDepartment of Animal Science, 273 Morrison Hall\n\n\nWalk in office hours with Meike\nWednesday 3 - 5 pm\nDepartment of Animal Science, B30 Morrison Hall\nPlease email me when this time does not work for you, so we can make an alternative arrangement.\n\n\n\nMake an appointment with Dr. Hostens through this link.",
     "crumbs": [
-      "Weekly materials",
-      "Week 14"
+      "Course information",
+      "Teaching team"
     ]
   },
   {
-    "objectID": "weeks/week-4.html",
-    "href": "weeks/week-4.html",
-    "title": "Week 4",
-    "section": "",
-    "text": "Introduction\nThis week we move from managing agricultural data to using it for prediction and learning. We introduce the foundations of machine learning and AI and begin exploring how these approaches can support agricultural applications.\n\n\nLearning goals\n\nUnderstand the basic concepts of machine learning and artificial intelligence\nDistinguish between supervised and unsupervised learning\nSet up a mini individual project\nExplore packages, Hugging Face models, and model serving\n\n\n\nLecture - ML and AI Basics\nIntroduction to machine learning and artificial intelligence, with examples from agriculture (Part 1)\n\n\nLab - Project Mini: Packages, Hugging Face & Model Serving\nIntroduction to the mini individual project and explore Python packages, Hugging Face models, and basic model serving.\n\n\nDiscussion - Ethical and Efficient Use of AI\nHow can we use AI effectively, responsibly, and efficiently in agricultural data science?\n\n\nAssignment\nSubmit a concept note outlining your plan for a mini individual project. Update your README to include your individual project plan, and submit the GitHub repository link to Canvas.\n\n\nLooking ahead\nNext week we will begin working on the mini individual projects, applying the tools and concepts introduced so far.\n\nBack to course schedule ⏎",
+    "objectID": "course/sections/course-team.html#teaching-assistants",
+    "href": "course/sections/course-team.html#teaching-assistants",
+    "title": "Beasts & Bytes",
+    "section": "Teaching assistants",
+    "text": "Teaching assistants\n\n\n\n\nName\nLocation\n\n\n\n\n\nMeike van Leerdam\nB29 Morrison Hall\n\n\n\nSonam Yang\nB29 Morrison Hall",
     "crumbs": [
-      "Weekly materials",
-      "Week 4"
+      "Course information",
+      "Teaching team"
     ]
   },
   {
-    "objectID": "weeks/week-11.html",
-    "href": "weeks/week-11.html",
-    "title": "Week 11",
+    "objectID": "course/sections/course-faq.html",
+    "href": "course/sections/course-faq.html",
+    "title": "FAQ",
     "section": "",
-    "text": "Introduction\nTeams continue working on their final projects, moving from project planning toward analysis and results.\n\n\nLearning goals\n\nContinue analyzing project data\nApply appropriate data science methods\nInterpret preliminary results\nRefine the project based on feedback\n\n\n\nLecture - Final Project Work\nGuidance and support for ongoing project development.\n\n\nLab - Final Project Work\nTeam-based analysis, coding, visualization, and troubleshooting.\n\n\nDiscussion - Project Check-in\nTeams share progress and discuss challenges and next steps.\n\n\nAssignment\nSubmit a project progress update and maintain organized project files and commits.\n\nBack to course schedule ⏎",
+    "text": "Do I need prior experience with programming or data science?\nNo prior programming experience is required. The course builds from fundamentals and offers guided support. However, familiarity with Excel, basic statistics, or biological/agricultural concepts will be helpful.\n\n\nWhat software will we use?\nWe will primarily use:\n\nTableau for interactive dashboards.\nR or Python (depending on the specific course structure) for data analysis.\nSpreadsheet tools such as Excel or (less preferred) Google Sheets.\nAdditional tools may include farm sensor platforms or datasets commonly used in applied agriculture research.\n\n\n\nHow do I access Tableau for this course?\nYou will receive a free student Tableau license through the Tableau for Teaching program. Licenses are typically issued about one week before the course start date. If you do not receive your license, check spam and contact the instructor.\n\n\nWhat are the expectations around AI tools like ChatGPT?\nCALS guidelines encourage instructors to define clear expectations around AI use (referenced in Practical AI Resources for your Courses). In this course:\n\nAI may be used to support idea generation, debugging, and improving clarity of writing.\nAI may NOT be used to generate full assignments, analyses, or dashboard interpretations.\nAny AI use must be disclosed in your submission.\n\nA detailed AI policy is posted in the syllabus.\n\n\nWill we use real dairy farm data? Is it confidential?\nYes, we will work with anonymized agricultural datasets. Data confidentiality rules will be explained in class — typically aligned with research ethics guidelines and institutional standards.\n\n\nHow much time should I expect to spend on the course each week?\nExpect approximately:\n2–3 hours of lectures or guided sessions (LEC & DIS) 3–5 hours of hands‑on data practice or assignment work (LAB time) Additional time as needed for the final project\n\n\nWhat if I need help or get stuck?\nYou are encouraged to:\n\nDirectly contact with the instructor or TA () office hours\nAsk questions during lectures and discussion sessions\nReach out by email for technical or conceptual help\n\n\n\nHow will my work be evaluated?\nAssessment typically includes:\n\nWeekly or bi‑weekly coding assignments\nCoding exam at the end of the semester\nFinal data‑driven project",
     "crumbs": [
-      "Weekly materials",
-      "Week 11"
+      "Course information",
+      "FAQ"
     ]
   },
   {
-    "objectID": "weeks/week-13.html",
-    "href": "weeks/week-13.html",
-    "title": "Week 13",
+    "objectID": "course/sections/course-description.html",
+    "href": "course/sections/course-description.html",
+    "title": "Course description",
     "section": "",
-    "text": "Introduction\nTeams begin bringing their final projects together and preparing to communicate their findings.\n\n\nLearning goals\n\nRefine project results\nImprove data visualization and communication\nConnect findings to the agricultural problem\nPrepare project documentation\n\n\n\nLecture - Final Project Work\nGuidance and support for final project development and communication.\n\n\nLab - Final Project Work\nTeams refine analysis, visualizations, documentation, and deliverables.\n\n\nDiscussion - Project Feedback\nTeams review their progress and receive feedback on their final project.\n\n\nAssignment\nContinue final project development and prepare materials for final submission.\n\nBack to course schedule ⏎",
+    "text": "This course offers an an undergraduate (sophomore, junior, senior) and graduate level experience in challenge-based learning, where students tackle data-driven problems within the agricultural sector. If you have never heard about it, check out this Solar Car Challenge that you might recognize. Working in collaborative teams, students will engage directly with farmers and agricultural stakeholders to understand real-world challenges and develop innovative, data-driven solutions.\nThroughout the course, students will learn to utilize a range of digital tools essential for modern data science. Key topics include data governance, data privacy, data collection, data storage, data processing, data visualization, data modeling, machine learning, artificial intelligence, and communicating data-driven results.\nProject management is a core component of the course. Students will learn to manage projects effectively, adhere to deadlines, communicate with stakeholders, and deliver results in a timely manner. The course emphasizes teamwork, communication, collaboration, critical thinking, and responsible use of digital technologies.\nBy the end of the course, students will have gained practical experience in applying data science to agricultural problems. Students will develop skills in problem-solving, programming, data analysis, machine learning, artificial intelligence, project management, and communication.\nThe course also emphasizes the responsible and critical use of artificial intelligence. Students will learn to use AI tools efficiently while recognizing their capabilities, limitations, ethical implications, and potential effects on data privacy, academic integrity, and decision-making.\n\n\n\nThis course accounts for 3 credits.\n\n\n\nA statistical course such as one of the following is not required but strongly advised:\n\nSTSCI 2150/5150 Introductory Statistics for Biology\nBTRY 3010/STSCI 2200 & BTRY 5010/STSCI 5200: Biological Statistics I\nILRST/STSCI 2100: Introductory Statistics\n\nPrior knowledge of Python is helpful but not required (you will learn vibe coding).\nIf in doubt about prerequisites, contact miel.hostens@cornell.edu",
     "crumbs": [
-      "Weekly materials",
-      "Week 13"
+      "Course information",
+      "Overview"
     ]
   },
   {
-    "objectID": "weeks/week-9.html",
-    "href": "weeks/week-9.html",
-    "title": "Week 9",
+    "objectID": "course/sections/course-description.html#description-and-aims",
+    "href": "course/sections/course-description.html#description-and-aims",
+    "title": "Course description",
     "section": "",
-    "text": "Introduction\nThe final project begins this week. Students will transition from individual projects to a team-based real-world agricultural data science project.\n\n\nLearning goals\n\nUnderstand the final project scope and expectations\nConnect with real-world agricultural data and decision-making\nEstablish project teams, roles, and milestones\nBegin developing a project plan\n\n\n\nLecture - Final Project Kickoff\nIntroduction to the final project, project expectations, scope, and deliverables.\n\n\nLab - Farm Visit\nVisit a farm to observe agricultural data collection and understand how data are generated and used in practice.\n\n\nDiscussion - Final Project Planning\nTeams discuss their project objectives, roles, data needs, and initial milestones.\n\n\nAssignment\nDevelop an initial final project plan, including the project question, team roles, data needs, and next steps.\n\n\nLooking ahead\nThe following weeks will focus on developing the final project, from data acquisition and organization to analysis, modeling, and communication of results.\n\nBack to course schedule ⏎",
+    "text": "This course offers an an undergraduate (sophomore, junior, senior) and graduate level experience in challenge-based learning, where students tackle data-driven problems within the agricultural sector. If you have never heard about it, check out this Solar Car Challenge that you might recognize. Working in collaborative teams, students will engage directly with farmers and agricultural stakeholders to understand real-world challenges and develop innovative, data-driven solutions.\nThroughout the course, students will learn to utilize a range of digital tools essential for modern data science. Key topics include data governance, data privacy, data collection, data storage, data processing, data visualization, data modeling, machine learning, artificial intelligence, and communicating data-driven results.\nProject management is a core component of the course. Students will learn to manage projects effectively, adhere to deadlines, communicate with stakeholders, and deliver results in a timely manner. The course emphasizes teamwork, communication, collaboration, critical thinking, and responsible use of digital technologies.\nBy the end of the course, students will have gained practical experience in applying data science to agricultural problems. Students will develop skills in problem-solving, programming, data analysis, machine learning, artificial intelligence, project management, and communication.\nThe course also emphasizes the responsible and critical use of artificial intelligence. Students will learn to use AI tools efficiently while recognizing their capabilities, limitations, ethical implications, and potential effects on data privacy, academic integrity, and decision-making.",
     "crumbs": [
-      "Weekly materials",
-      "Week 9"
+      "Course information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "course/sections/course-description.html#credits",
+    "href": "course/sections/course-description.html#credits",
+    "title": "Course description",
+    "section": "",
+    "text": "This course accounts for 3 credits.",
+    "crumbs": [
+      "Course information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "course/sections/course-description.html#prerequisites",
+    "href": "course/sections/course-description.html#prerequisites",
+    "title": "Course description",
+    "section": "",
+    "text": "A statistical course such as one of the following is not required but strongly advised:\n\nSTSCI 2150/5150 Introductory Statistics for Biology\nBTRY 3010/STSCI 2200 & BTRY 5010/STSCI 5200: Biological Statistics I\nILRST/STSCI 2100: Introductory Statistics\n\nPrior knowledge of Python is helpful but not required (you will learn vibe coding).\nIf in doubt about prerequisites, contact miel.hostens@cornell.edu",
+    "crumbs": [
+      "Course information",
+      "Overview"
     ]
   }
 ]
