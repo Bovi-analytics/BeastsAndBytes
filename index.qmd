@@ -17,7 +17,7 @@ Note that this schedule will be updated as the course progresses, with all chang
 | 5 | 9/21 | Individual project, project plan, data cleaning, performance metrics | 🖥️ |  |  |
 | 6 | 9/28 | Individual project, train/test split, memory limits | 🖥️ |  |  |
 | 7 | 10/5 | Individual project poster presentation - Team management | 🖥️ |  |  |
-| 8 | 10/12 | Team project | Fall break | Fall break |  |
+| 8 | 10/12 | Individual project final test | Fall break | Fall break |  |
 | 9 | 10/19 | Team project - Project planning | 🖥️ | Farm visit |  |
 | 10 | 10/26 | Team project | 🖥️ |  |  |
 | 11 | 11/2 | Team project | 🖥️ |  |  |
