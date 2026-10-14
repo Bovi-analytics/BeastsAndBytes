@@ -18,7 +18,9 @@ This week is the transition point between the mini individual project and the fi
 
 # Lecture / Lab / Discussion - TBD
 
-Fall Break. A project check-in or recovery session may be scheduled depending on course needs.
+Fall Break. 
+
+Discussion: we will test our final product of the mini project on the hold out IDs that can be found on Canvas. You can check your models accuracy as if it is at a farm using this [website](https://bovi-analytics.github.io/check_id_challenge/). Please reflect on your accuracy, the suitability of your model to predict the labels of this set and how good of an indicator this is for industry readiness.  
 
 # Looking ahead
 
