@@ -1419,7 +1419,7 @@
     "href": "weeks/week-8.html",
     "title": "Week 8",
     "section": "",
-    "text": "Introduction\nThis week is the transition point between the mini individual project and the final team project.\n\n\nLearning goals\n\nReflect on the mini project experience\nUnderstand the expectations for the final project\nPrepare for working with real-world agricultural data\n\n\n\nLecture / Lab / Discussion - TBD\nFall Break. A project check-in or recovery session may be scheduled depending on course needs.\n\n\nLooking ahead\nNext week we will officially kick off the final project, establish teams and project goals, and visit a farm to understand agricultural data collection in practice.\n\nBack to course schedule ⏎",
+    "text": "Introduction\nThis week is the transition point between the mini individual project and the final team project.\n\n\nLearning goals\n\nReflect on the mini project experience\nUnderstand the expectations for the final project\nPrepare for working with real-world agricultural data\n\n\n\nLecture / Lab / Discussion - TBD\nFall Break.\nDiscussion: we will test our final product of the mini project on the hold out IDs that can be found on Canvas. You can check your models accuracy as if it is at a farm using this website. Please reflect on your accuracy, the suitability of your model to predict the labels of this set and how good of an indicator this is for industry readiness.\n\n\nLooking ahead\nNext week we will officially kick off the final project, establish teams and project goals, and visit a farm to understand agricultural data collection in practice.\n\nBack to course schedule ⏎",
     "crumbs": [
       "Weekly materials",
       "Week 8"
