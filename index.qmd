@@ -19,7 +19,7 @@ Note that this schedule will be updated as the course progresses, with all chang
 | 7 | 10/5 | Individual project poster presentation - Team management | 🖥️ |  | [🖥️](slides/disc-4-license.html) |
 | 8 | 10/12 | Individual project final test | Fall break | Fall break | [Test link](https://bovi-analytics.github.io/check_id_challenge/) |
 | 9 | 10/19 | Team project - Project planning | [🖥️](slides/lec-project-mgmt.html) | Farm visit |  |
-| 10 | 10/26 | Team project | 🖥️ |  |  |
+| 10 | 10/26 | Vision analysis and pipelines with Sonam, Team project planning | 🖥️ |  |  |
 | 11 | 11/2 | Team project | 🖥️ |  |  |
 | 12 | 11/9 | Team project | 🖥️ |  |  |
 | 13 | 11/16 | Team project | 🖥️ |  |  |
